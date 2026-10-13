@@ -26,8 +26,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 ## Planches validées
 
-- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : version choisie par l'utilisateur, exportée en A4 à 300 dpi sans recadrage ni déformation. Dessin et dialogues conservés tels que validés.
-- [Source de la planche 1](planches/01-source.png).
+- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : lettrage corrigé et validé, harmonisé avec la planche 2. Réplique de Lyssandro rétablie, doublon supprimé, export A4 à 300 dpi sans régénération du dessin.
+- [Source de la planche 1](planches/01-source.png) et [script de lettrage](outils/lettrage/planche01.py) conservés pour les retouches (Pillow, NumPy, OpenCV headless ; police Kalam sous licence OFL fournie).
 
 - [Planche 2 — Matin de rentrée à Saint-Sulpice](planches/02-matin-de-rentree.png) : lettrage corrigé et validé, dialogues rétablis sans doublons, export A4 à 300 dpi.
 - [Source graphique de la planche 2](planches/planches-02-source.png) et [script de lettrage](outils/lettrage/planche02.py) conservés pour les retouches ultérieures (Pillow ; police Kalam sous licence OFL fournie).
