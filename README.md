@@ -46,5 +46,6 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 ## Contrainte pour les prochaines générations
 
-- L'utilisateur demande exclusivement le modèle `gpt-image-2.5-sunburst`.
-- L'outil de génération de cette session ne permet pas de sélectionner un modèle. Ne pas relancer de génération sans pouvoir respecter cette contrainte ou sans nouvelle autorisation de l'utilisateur. Le lettrage manuel reste possible.
+- Préférence initiale de l'utilisateur : `gpt-image-2.5-sunburst`. L'outil disponible ne permet pas de sélectionner le modèle.
+- L'utilisateur autorise désormais l'utilisation de cet outil **pour toutes les prochaines planches, sans garantie sur le modèle utilisé**. Il n'est pas nécessaire de redemander cette autorisation à chaque page.
+- Les autres contraintes restent inchangées : deux propositions, portraits PNG joints, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
