@@ -52,7 +52,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
 
-## Planche 5 — dessin validé, lettrage à vérifier
+## Planche 5 — dessin et lettrage validés
 
 - [Dessin sans bulles](planches/05-premiers-sifflets-dessin.png) validé avant lettrage.
-- Lettrage manuel en préparation : huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste, selon le scénario.
+- [Planche 5 — Premiers Sifflets & Conseil des Coachs](planches/05-premiers-sifflets.png) : version validée en A4 portrait à 300 dpi, avec huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste.
+- [Script de lettrage](outils/lettrage/planche05.py) conservé pour les retouches.
