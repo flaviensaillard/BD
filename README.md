@@ -31,3 +31,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Planche 2 — Matin de rentrée à Saint-Sulpice](planches/02-matin-de-rentree.png) : lettrage corrigé et validé, dialogues rétablis sans doublons, export A4 à 300 dpi.
 - [Source graphique de la planche 2](planches/planches-02-source.png) et [script de lettrage](outils/lettrage/planche02.py) conservés pour les retouches ultérieures (Pillow ; police Kalam sous licence OFL fournie).
+
+## Planche 3 — dessin sélectionné
+
+- [Dessin sans lettrage](planches/03-les-20-guerriers-dessin.png) : deuxième proposition sélectionnée.
+- Nouveau processus : choix du dessin sans bulles, puis lettrage manuel avec la même police Kalam que les planches 1 et 2 ; vérification du lettrage avant validation finale.
