@@ -111,3 +111,11 @@
   - *Fin d'automne (Octobre – Novembre)* : Pluie, boue, ciel gris.
   - *Hiver (Décembre – Février)* : Grand froid savoyard, neige légère, buée, tenues d'hiver complètes.
   - *Printemps (à partir de Mars jusqu'en Juin)* : Retour du grand soleil, pelouse sèche et verte.
+
+## 5. Références de décors validées
+
+### Maison familiale à Saint-Sulpice
+- Photo de référence architecturale : [`Maison saint sulpice.png`](Maison%20saint%20sulpice.png).
+- **Version comics validée** : [`Maison-saint-sulpice-comics.png`](Maison-saint-sulpice-comics.png). Utiliser cette illustration comme référence graphique pour les scènes extérieures de la maison, en la joignant aux références de génération.
+- Respecter la façade blanche, le toit sombre, les ouvertures, le balcon, le garage en contrebas et l'allée de gravier bordée de pierres. La photo extérieure ne documente pas l'intérieur.
+- Voiture familiale précisée par l'utilisateur : **Ford Fiesta blanche de 2018**, à conserver de manière cohérente entre les scènes.
