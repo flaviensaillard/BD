@@ -39,6 +39,11 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Nouveau dessin sans bulles](planches/03-les-20-guerriers-dessin.png) : validé par l'utilisateur, en remplacement de la proposition précédemment rejetée.
 - Processus : validation du dessin sans bulles, puis ajout manuel des textes avec la police Kalam utilisée pour les planches 1 et 2 ; validation du lettrage avant publication finale.
 
+## Planche 4 — dessin et lettrage validés
+
+- [Planche 4 — Nouvelles Règles, Nouveau Monde](planches/04-nouvelles-regles.png) : version validée en A4 portrait à 300 dpi, avec les 11 répliques du scénario et un lettrage manuel harmonisé avec les pages précédentes.
+- [Dessin source](planches/planches-04-source.png) et [script de lettrage](outils/lettrage/planche04.py) conservés pour les retouches.
+
 ## Contrainte pour les prochaines générations
 
 - L'utilisateur demande exclusivement le modèle `gpt-image-2.5-sunburst`.
