@@ -51,3 +51,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - Les autres contraintes restent inchangées : deux propositions, portraits PNG joints, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
 
 - Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
+
+## Planche 5 — dessin validé, lettrage à vérifier
+
+- [Dessin sans bulles](planches/05-premiers-sifflets-dessin.png) validé avant lettrage.
+- Lettrage manuel en préparation : huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste, selon le scénario.
