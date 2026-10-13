@@ -23,3 +23,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - Couverture et 30 pages : **A4 portrait (210 × 297 mm), 2480 × 3508 pixels à 300 dpi**.
 - [Couverture validée au format A4](planches/00-couverture.png) : illustration complète conservée, sans déformation ni recadrage, avec marges blanches latérales.
 - [Source de la couverture validée](planches/00-couverture-source.png) conservée pour les futurs exports.
+
+## Planches validées
+
+- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : version choisie par l'utilisateur, exportée en A4 à 300 dpi sans recadrage ni déformation. Dessin et dialogues conservés tels que validés.
+- [Source de la planche 1](planches/01-source.png).
