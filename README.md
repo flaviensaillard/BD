@@ -75,3 +75,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Dessin sans bulles](planches/07-mur-vert-et-noir-dessin.png) validé avant lettrage.
 - [Planche 7 — Le Mur Vert et Noir de Montmélian](planches/07-mur-vert-et-noir.png) : version validée en A4 portrait à 300 dpi, avec six cases : avancée alignée de Montmélian (vert et noir), en-avant de Milo (« PLOP ! FIIIIT ! »), pied en touche de Nolann, essai de Montmélian (+1 point), hors-jeu de Léon et encouragements de Julien et Kilian depuis la touche.
 - [Script de lettrage](outils/lettrage/planche07.py) conservé pour les retouches.
+
+## Planche 8 — dessin et lettrage validés
+
+- [Dessin sans bulles](planches/08-action-individuelle-dessin.png) validé avant lettrage.
+- [Planche 8 — L'Action Individuelle de Trop](planches/08-action-individuelle.png) : version validée en A4 portrait à 300 dpi, avec cinq cases : passe d'Ayden à Léon, appels démarqués de Lyssandro et Nolann, bulle de pensée de Léon en gros plan, touché à deux mains et en-avant (« TCHAC ! FIIIIIIIT ! », fin du match) et encadré final (2 victoires, 1 défaite).
+- [Script de lettrage](outils/lettrage/planche08.py) conservé pour les retouches.
