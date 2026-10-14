@@ -64,6 +64,25 @@
 
 ---
 
+## 2 bis. Observations tirées des photos réelles (référence pour les prompts réalistes)
+
+Les photos de référence sont les fichiers `personnages/<Prénom> réel.jpg` (fournies par l'auteur le 14 octobre 2026, posées devant un mur de béton gris, cadrage en pied ou aux genoux, lumière du jour douce). Elles priment sur toute description antérieure.
+
+| Personnage | Fichier | Traits réels à respecter |
+|---|---|---|
+| **Léon** | `Léon réel.jpg` | 6 ans, cheveux châtain clair dressés en pics vers le haut, yeux marron foncé, sourire doux bouche fermée. Maillot de match RCM rayé rouge/bleu, manches blanches, bande blanche, sponsor Locaself, sous-maillot noir à manches longues, short bleu roi (Guinguette du Lac). |
+| **Lyssandro** | `Lyssandro réel.jpg` | 6-7 ans, cheveux châtains mi-longs souples avec frange retombant sur le front, yeux clairs vert-noisette, bouche légèrement entrouverte laissant voir les dents du haut. Maillot de match RCM (épaules rouges, rayures rouge/bleu, Locaself), sous-maillot gris clair, short bleu roi. |
+| **Ayden** | `Ayden réel.jpg` | 6-7 ans, cheveux blonds courts coiffés vers l'avant, visage fin, sourire calme bouche fermée, yeux foncés. Maillot de match RCM rayé, manches blanches, col gris, short bleu. |
+| **Nolann** | `Nolann réel.jpg` | 6-7 ans, cheveux bruns très courts, teint mat, grand sourire avec **une incisive supérieure manquante** (dents de lait). Maillot de match RCM rayé, manches blanches, sous-maillot noir, sponsors Locaself et Savoie Motoculture. |
+| **Milo** | `Milo réel.jpg` | 6-7 ans, cheveux châtain clair lisses en frange sur le front, yeux foncés, grand sourire avec **les deux incisives supérieures manquantes**. Sur la photo : haut d'entraînement bleu marine/bleu clair *Nemesis Sports* « Rugby Club Motterain », short bleu roi (Guinguette du Lac, ME2S). En match il porte le maillot rayé rouge/bleu comme ses coéquipiers. |
+| **Flavien** | `Flavien réel.jpg` | Adulte mince et athlétique, cheveux bruns courts légèrement dressés sur le dessus, barbe de quelques jours fine et bouc léger, visage allongé, regard calme, mains dans le dos. Veste zippée Macron bleu marine chiné avec épaules rouges, col montant, t-shirt gris dessous, pantalon de survêtement bleu marine à blason RCM. |
+| **Julien** | `Julien réel.jpg` | Adulte très costaud (gabarit de pilier), cheveux gris courts dégarnis sur le dessus, moustache et bouc gris-blanc, grand sourire chaleureux, chaîne argentée au cou. Veste zippée bleu marine FXV avec cordon noir de sifflet autour du cou, t-shirt noir, pantalon noir. |
+| **Kilian** | `Kilian réel.jpg` | Jeune adulte, cheveux roux courts, barbe rousse fournie, teint clair, expression calme. Veste zippée *Nemesis Sports* dégradée bleu marine vers bleu clair « Rugby Club Motterain », pantalon de survêtement bleu marine. |
+
+Rappel : ces tenues correspondent aux scènes de rugby. À la maison, en voiture et à l'école, les personnages sont en **tenue civile** (voir la règle d'or ci-dessous), mais les visages, coiffures et morphologies restent ceux des photos.
+
+---
+
 ## 3. Charte Vestimentaire & Équipements
 
 ### Règle d'Or Vestimentaire

@@ -28,7 +28,7 @@ Décisions prises avec l'auteur, qui remplacent toutes les consignes « comics �
   - Règlement officiel du rugby U8 (terrain 30m x 20m, 5 contre 5, 1 essai = 1 point sans poteaux ni transformations, touche rendue et jouée comme une pénalité, en-avant et hors-jeu comptés, touché à 2 mains jusqu'en novembre puis plaquages autorisés dès décembre).
   - Couleurs officielles du **RCM** (Rouge, Bleu et Blanc — *Locaself*) et des **7 équipes adverses** (Montmélian, Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon).
   - Règle vestimentaire stricte : tenue de rugby uniquement aux entraînements et tournois ; tenue civile à la maison et à l'école.
-- `personnages/*réel*` : photos réelles de référence des personnages (à déposer par l'auteur ; voir directives ci-dessus).
+- `personnages/<Prénom> réel.jpg` : photos réelles de référence des 8 personnages (Léon, Lyssandro, Ayden, Nolann, Milo, Flavien, Julien, Kilian). Fournies par l'auteur le 14 octobre 2026 ; description détaillée dans la charte (section 2 bis).
 - `personnages/Maison saint sulpice.png` : photo réelle de la maison familiale (référence des extérieurs).
 - [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) : découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues, bulles de pensée, encadrés narratifs et effets sonores. Les mentions « comics » du scénario (titrage Marvel, trames) sont à transposer en réaliste ; le découpage et les dialogues restent la référence.
 - `planches/` : planches réalistes en cours (dessin sans bulles validé + version lettrée finale).
