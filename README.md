@@ -81,3 +81,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Dessin sans bulles](planches/08-action-individuelle-dessin.png) validé avant lettrage.
 - [Planche 8 — L'Action Individuelle de Trop](planches/08-action-individuelle.png) : version validée en A4 portrait à 300 dpi, avec cinq cases : passe d'Ayden à Léon, appels démarqués de Lyssandro et Nolann, bulle de pensée de Léon en gros plan, touché à deux mains et en-avant (« TCHAC ! FIIIIIIIT ! », fin du match) et encadré final (2 victoires, 1 défaite).
 - [Script de lettrage](outils/lettrage/planche08.py) conservé pour les retouches.
+
+## Planche 9 — dessin et lettrage validés
+
+- [Dessin sans bulles](planches/09-colere-et-larmes-dessin.png) validé avant lettrage.
+- [Planche 9 — La Colère et les Larmes](planches/09-colere-et-larmes.png) : version validée en A4 portrait à 300 dpi, avec quatre cases : haie d'honneur avec Montmélian, colère de Léon au bord des larmes, consolation de Lyssandro et Nolann repoussée, puis Flavien agenouillé et l'échange Julien/Kilian.
+- [Script de lettrage](outils/lettrage/planche09.py) conservé pour les retouches.
