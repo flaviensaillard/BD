@@ -1,13 +1,13 @@
-"""Lettrage déterministe de la planche 8. Dépendance : Pillow.
+"""Lettrage déterministe de la planche 9. Dépendance : Pillow.
 Ne régénère pas le dessin ; superpose des bulles et des textes contrôlés.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 S = 3
-im = Image.open(ROOT/'planches/08-action-individuelle-dessin.png').convert('RGB').resize((1100*S,1569*S),Image.Resampling.LANCZOS)
+im = Image.open(ROOT/'planches/archive-comics/09-colere-et-larmes-dessin.png').convert('RGB').resize((1100*S,1569*S),Image.Resampling.LANCZOS)
 d = ImageDraw.Draw(im)
-fontpath = str(Path(__file__).with_name('Kalam-Bold.ttf'))
+fontpath = str(Path(__file__).resolve().parents[1]/'Kalam-Bold.ttf')
 def box(b): return tuple(round(v*S) for v in b)
 def poly(points, fill='white', outline=None):
     d.polygon([(round(x*S),round(y*S)) for x,y in points],fill=fill)
@@ -40,34 +40,26 @@ def bubble(rect,text,tail=None,maximum=20,pad=12):
         poly([tail[0],tail[1],((tail[0][0]+tail[1][0])/2,(tail[0][1]+tail[1][1])/2+3)])
     x,y,r,b=rect
     textfit(text,(x+pad,y+9,r-pad,b-9),maximum)
-def thought(rect,text,maximum=20,pad=12):
-    """Bulle de pensée : rectangle arrondi + petites bulles vers le personnage."""
-    d.rounded_rectangle(box(rect),radius=28*S,fill='white',outline='black',width=2*S)
-    for (cx,cy,r) in [(345,692,9),(368,713,6),(390,733,4)]:
-        d.ellipse(box((cx-r,cy-r,cx+r,cy+r)),fill='white',outline='black',width=2*S)
-    x,y,r,b=rect
-    textfit(text,(x+pad,y+9,r-pad,b-9),maximum)
 def caption(rect,text,maximum=19):
     d.rectangle(box(rect),fill='#ffe38b',outline='black',width=2*S)
     x,y,r,b=rect;textfit(text,(x+9,y+6,r-9,b-6),maximum,align='left')
 
-# Case 1 : Ayden transmet à Léon.
-bubble((315,16,655,82),"Vas-y Léon ! On monte avec toi !",tail=[(345,76),(375,76),(225,105)],maximum=17)
-# Case 2 : Lyssandro et Nolann appellent le ballon.
-bubble((35,295,370,355),"Léon ! Passe à gauche, on est deux contre un !",tail=[(170,350),(200,350),(195,385)],maximum=16)
-bubble((700,295,1065,360),"Ici Léon ! Je suis tout seul sur l’aile !",tail=[(785,355),(815,355),(805,390)],maximum=16)
-# Case 3 : gros plan, pensée de Léon.
-thought((30,588,360,675),"Non ! C’est moi qui vais sauver l’équipe ! Je vais passer au milieu tout seul comme en U6 !",maximum=15)
-# Case 4 : touché à deux mains et en-avant, fin du match.
-textfit('TCHAC !',(300,855,480,892),24)
-textfit('FIIIIIIIT !',(860,855,1060,892),24)
-bubble((560,855,850,935),"Touché à deux mains… et en-avant ! C’est terminé, fin du match !",tail=[(825,928),(855,928),(882,982)],maximum=15)
-# Case 5 : le rêve d’invincibilité s’envole.
-caption((35,1203,645,1285),'PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D’INVINCIBILITÉ VIENT DE VOLER EN ÉCLATS.',15)
+# Case 1 : haie d’honneur, Ayden félicite Montmélian.
+bubble((30,20,450,95),"Bien joué Montmélian… Vous avez super bien défendu.",tail=[(255,90),(285,90),(282,122)],maximum=16)
+bubble((650,20,1075,95),"Merci ! À bientôt au prochain tournoi !",tail=[(950,90),(980,90),(978,128)],maximum=16)
+# Case 2 : la colère de Léon.
+bubble((30,355,480,450),"Non… Non, c’est pas vrai ! On n’a pas le droit de perdre ! On est le RCM ! En U6 on gagnait toujours !",tail=[(440,445),(470,445),(502,482)],maximum=17)
+# Case 3 : Lyssandro et Nolann consolent, Léon explose (bulle centrale plus basse).
+bubble((12,870,315,952),"Léon, calme-toi… On a quand même gagné deux matchs sur trois aujourd’hui !",tail=[(170,947),(200,947),(228,998)],maximum=15)
+bubble((670,870,1000,952),"Ouais, contre Chambéry et Albertville on a super bien joué !",tail=[(800,947),(830,947),(798,992)],maximum=15)
+bubble((330,882,655,965),"Deux sur trois, c’est NUL ! Si on perd contre Montmélian, on n’est pas les premiers ! Moi je veux pas perdre ! Jamais !",tail=[(480,960),(510,960),(518,1005)],maximum=15)
+# Case 4 : Flavien calme Léon, Julien parle à Kilian.
+bubble((25,1155,420,1245),"Viens boire une gorgée d’eau, Léon. La colère ne fera pas rejouer le match.",tail=[(240,1240),(270,1240),(262,1282)],maximum=16)
+bubble((640,1155,1075,1240),"Ce n’est que le début de la saison… Il va falloir que le groupe apprenne à rebondir.",tail=[(720,1235),(750,1235),(735,1298)],maximum=15)
 
 page=Image.new('RGB',(2480,3508),'white')
 art=ImageOps.contain(im,page.size,Image.Resampling.LANCZOS)
 page.paste(art,((page.width-art.width)//2,(page.height-art.height)//2))
-page.save(ROOT/'planches/08-action-individuelle.png',dpi=(300,300))
-ImageOps.contain(page,(1000,1414)).save('/home/user/apercu-planche08.png')
+page.save(ROOT/'planches/archive-comics/09-colere-et-larmes.png',dpi=(300,300))
+ImageOps.contain(page,(1000,1414)).save('/home/user/apercu-planche09.png')
 print('OK')

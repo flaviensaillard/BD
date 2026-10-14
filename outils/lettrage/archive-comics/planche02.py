@@ -3,11 +3,11 @@ Ne régénère pas le dessin ; superpose des bulles et des textes contrôlés.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 S = 3
-im = Image.open(ROOT/'planches/planches-02-source.png').convert('RGB').resize((1024*S,1536*S),Image.Resampling.LANCZOS)
+im = Image.open(ROOT/'planches/archive-comics/planches-02-source.png').convert('RGB').resize((1024*S,1536*S),Image.Resampling.LANCZOS)
 d = ImageDraw.Draw(im)
-fontpath = str(Path(__file__).with_name('Kalam-Bold.ttf'))
+fontpath = str(Path(__file__).resolve().parents[1]/'Kalam-Bold.ttf')
 def box(b): return tuple(round(v*S) for v in b)
 def poly(points, fill='white', outline=None):
     d.polygon([(round(x*S),round(y*S)) for x,y in points],fill=fill)
@@ -69,6 +69,6 @@ bubble((532,1437,990,1519),'Regarde Papa ! Il y a déjà la voiture de Julien ! 
 page=Image.new('RGB',(2480,3508),'white')
 art=ImageOps.contain(im,page.size,Image.Resampling.LANCZOS)
 page.paste(art,((page.width-art.width)//2,(page.height-art.height)//2))
-page.save(ROOT/'planches/02-matin-de-rentree.png',dpi=(300,300))
+page.save(ROOT/'planches/archive-comics/02-matin-de-rentree.png',dpi=(300,300))
 # Aperçu de contrôle, hors livrables versionnés.
 ImageOps.contain(page,(1000,1414)).save('/home/user/apercu-planche02.png')

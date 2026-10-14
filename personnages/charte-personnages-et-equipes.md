@@ -3,12 +3,13 @@
 ## 1. Informations Générales de l'Œuvre
 - **Titre** : *La Force de l'Échec*
 - **Sous-titre** : *« On apprend de ses échecs, c'est ce qui conduit à la victoire »*
-- **Format** : Comics américain (esprit Marvel / DC Comics), 30 pages + Couverture
-- **Style visuel** : Trait encré dynamique type Comics moderne, colorisation vibrante, jeux de lumière dramatiques (projecteurs de stade, pluie d'automne, flocons d'hiver en Savoie, soleil de printemps), cadrages variés (Splash pages, contre-plongées héroïques, gros plans expressifs, bandes d'action horizontales), bulles de dialogue, bulles de pensée, encadrés narratifs (caption boxes) et onomatopées (*FIIIIT !*, *TCHAC !*, *BOUM !*, *PAF !*).
+- **Format** : Bande dessinée de 30 pages + Couverture, A4 portrait (2480 × 3508 px à 300 dpi)
+- **Style visuel (depuis le 14 octobre 2026)** : **Réaliste / photoréaliste**. Rendu photographique naturel (lumière réelle des projecteurs de stade, pluie d'automne, neige d'hiver en Savoie, soleil de printemps), cadrages variés (plans larges, contre-plongées, gros plans expressifs, bandes d'action), **sans trait encré ni trames comics**. Les bulles de dialogue, bulles de pensée, encadrés narratifs et onomatopées (*FIIIIT !*, *TCHAC !*, *BOUM !*, *PAF !*) sont ajoutés **au lettrage** (police Kalam), jamais générés dans le dessin.
+- **Références de personnages** : les **photos réelles** dont le nom se termine par « réel » (ex. `Léon réel.png`), utilisées telles quelles comme référence de visage et de morphologie. Les portraits comics ci-dessous (`Léon.png`, etc.) sont conservés pour l'historique mais **ne servent plus de référence**.
 
 ---
 
-## 2. Les Personnages Principaux (Validés par référence visuelle)
+## 2. Les Personnages Principaux (référence visuelle : photos « réel »)
 
 ### A. Les 5 Joueurs Principaux (Équipe phare parmi les 20 joueurs U8 du RCM)
 
@@ -115,7 +116,7 @@
 ## 5. Références de décors validées
 
 ### Maison familiale à Saint-Sulpice
-- Photo de référence architecturale : [`Maison saint sulpice.png`](Maison%20saint%20sulpice.png).
-- **Version comics validée** : [`Maison-saint-sulpice-comics.png`](Maison-saint-sulpice-comics.png). Utiliser cette illustration comme référence graphique pour les scènes extérieures de la maison, en la joignant aux références de génération.
+- Photo de référence architecturale : [`Maison saint sulpice.png`](Maison%20saint%20sulpice.png). **C'est cette photo réelle qu'il faut joindre aux références de génération** pour les scènes extérieures de la maison (style réaliste).
+- Version comics antérieure : [`Maison-saint-sulpice-comics.png`](Maison-saint-sulpice-comics.png), conservée pour l'historique, **ne sert plus de référence**.
 - Respecter la façade blanche, le toit sombre, les ouvertures, le balcon, le garage en contrebas et l'allée de gravier bordée de pierres. La photo extérieure ne documente pas l'intérieur.
 - Voiture familiale précisée par l'utilisateur : **Ford Fiesta blanche de 2018**, à conserver de manière cohérente entre les scènes.

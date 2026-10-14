@@ -3,9 +3,9 @@ Ne régénère pas le dessin ; superpose des bulles et des textes contrôlés.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 S = 3
-im = Image.open(ROOT/'planches/01-source.png').convert('RGB').resize((1024*S,1536*S),Image.Resampling.LANCZOS)
+im = Image.open(ROOT/'planches/archive-comics/01-source.png').convert('RGB').resize((1024*S,1536*S),Image.Resampling.LANCZOS)
 # Effacer uniquement quatre anciennes queues mal attribuées, par interpolation
 # locale non générative ; visages et corps restent hors des masques.
 import cv2
@@ -21,7 +21,7 @@ for points in [
     cv2.fillPoly(mask,[np.array([(x*S,y*S) for x,y in points],dtype=np.int32)],255)
 im=Image.fromarray(cv2.inpaint(pixels,mask,3*S,cv2.INPAINT_TELEA))
 d = ImageDraw.Draw(im)
-fontpath = str(Path(__file__).with_name('Kalam-Bold.ttf'))
+fontpath = str(Path(__file__).resolve().parents[1]/'Kalam-Bold.ttf')
 def box(b): return tuple(round(v*S) for v in b)
 def poly(points, fill='white', outline=None):
     d.polygon([(round(x*S),round(y*S)) for x,y in points],fill=fill)
@@ -71,5 +71,5 @@ bubble((700,920,986,1090),'Pas « exactement pareil », Ayden… Ce sera encore 
 page=Image.new('RGB',(2480,3508),'white')
 art=ImageOps.contain(im,page.size,Image.Resampling.LANCZOS)
 page.paste(art,((page.width-art.width)//2,(page.height-art.height)//2))
-page.save(ROOT/'planches/01-la-legende-des-u6.png',dpi=(300,300))
+page.save(ROOT/'planches/archive-comics/01-la-legende-des-u6.png',dpi=(300,300))
 ImageOps.contain(page,(1000,1414)).save('/home/user/apercu-planche01-corrigee.png')

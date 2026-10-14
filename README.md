@@ -1,89 +1,61 @@
 # 🏉 LA FORCE DE L'ÉCHEC
 > *« On apprend de ses échecs, c'est ce qui conduit à la victoire »*
 
-Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), suivant la saison U8 du **Rugby Club Motterain (RCM)** à **La Motte-Servolex** et la vie à **Saint-Sulpice** en Savoie (saison Septembre 2026 – Juin 2027).
+Bande dessinée de 30 pages en **style réaliste** créée pour **Léon** (6 ans), suivant la saison U8 du **Rugby Club Motterain (RCM)** à **La Motte-Servolex** et la vie à **Saint-Sulpice** en Savoie (saison Septembre 2026 – Juin 2027).
 
 ---
 
-## 📂 Structure du Dépôt (Éléments Validés)
+## 🔁 Bascule en style réaliste (14 octobre 2026) — directives en vigueur
+
+Décisions prises avec l'auteur, qui remplacent toutes les consignes « comics » antérieures :
+
+1. **Style** : rendu **réaliste / photoréaliste**. On ne fait plus de comics (plus de trait encré, plus de trames, plus de titrage Marvel).
+2. **Personnages** : on utilise les **photos réelles** des personnages, **telles quelles**, comme **référence visuelle de visage et de morphologie** pour générer les cases (poses, décors et actions du scénario). Ce n'est pas du photomontage : les photos ne sont pas découpées ni incrustées.
+3. **Nommage des photos** : les photos réelles portent un nom qui **se termine par « réel »** (ex. `personnages/Léon réel.png`). Les anciens portraits comics (`Léon.png`, `Flavien.png`, …) ne servent **plus** de référence.
+4. **Références visuelles par génération** : uniquement les photos « réel » des personnages présents dans la page, plus la photo `personnages/Maison saint sulpice.png` pour les extérieurs de la maison. Ne plus joindre la couverture comics ni les anciennes planches.
+5. **Reprise** : on refait **tout depuis la couverture** (page 0 → page 30) pour un livre homogène. Les versions comics validées (couverture + planches 1 à 9) sont **archivées** dans [`planches/archive-comics/`](planches/archive-comics/) avec leurs scripts dans [`outils/lettrage/archive-comics/`](outils/lettrage/archive-comics/).
+6. **Processus inchangé** : deux propositions de dessin **sans bulles** → validation par l'auteur → **lettrage manuel** (police Kalam, bulles, encadrés, onomatopées) → validation finale. Export **A4 portrait, 2480 × 3508 px à 300 dpi**.
+7. **Refus** : par défaut, un refus de proposition signifie que les personnages ou la charte ne sont pas respectés. Ne pas redemander le motif ; l'auteur précisera spontanément toute autre raison.
+8. **Outil de génération** : l'auteur autorise l'outil disponible pour toutes les pages, sans garantie sur le modèle utilisé. Inutile de redemander l'autorisation.
+9. **Session** : interdiction de clore la session.
+
+## 📂 Structure du dépôt
 
 - [`personnages/charte-personnages-et-equipes.md`](personnages/charte-personnages-et-equipes.md) :
-  - Charte graphique et physique des **5 joueurs principaux** (**Léon**, **Lyssandro**, **Ayden**, **Nolann**, **Milo**) au sein de l'effectif de 20 joueurs U8 (4 équipes de 5).
+  - Charte physique et caractère des **5 joueurs principaux** (**Léon**, **Lyssandro**, **Ayden**, **Nolann**, **Milo**) au sein de l'effectif de 20 joueurs U8 (4 équipes de 5).
   - Charte des **3 coachs** (**Flavien** père de Léon, **Julien** père de Lyssandro, **Kilian**).
   - Personnages évoqués hors-champ (**Vanessa**, **Alice**, **Baptiste**).
   - Règlement officiel du rugby U8 (terrain 30m x 20m, 5 contre 5, 1 essai = 1 point sans poteaux ni transformations, touche rendue et jouée comme une pénalité, en-avant et hors-jeu comptés, touché à 2 mains jusqu'en novembre puis plaquages autorisés dès décembre).
   - Couleurs officielles du **RCM** (Rouge, Bleu et Blanc — *Locaself*) et des **7 équipes adverses** (Montmélian, Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon).
   - Règle vestimentaire stricte : tenue de rugby uniquement aux entraînements et tournois ; tenue civile à la maison et à l'école.
-
-- [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) :
-  - Découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues enrichis, bulles de pensée, encadrés narratifs et effets sonores.
+- `personnages/*réel*` : photos réelles de référence des personnages (à déposer par l'auteur ; voir directives ci-dessus).
+- `personnages/Maison saint sulpice.png` : photo réelle de la maison familiale (référence des extérieurs).
+- [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) : découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues, bulles de pensée, encadrés narratifs et effets sonores. Les mentions « comics » du scénario (titrage Marvel, trames) sont à transposer en réaliste ; le découpage et les dialogues restent la référence.
+- `planches/` : planches réalistes en cours (dessin sans bulles validé + version lettrée finale).
+- `outils/lettrage/` : police Kalam (licence OFL) et scripts de lettrage déterministes (Pillow) des planches réalistes.
 
 ## 🖨️ Format du livre
 
 - Couverture et 30 pages : **A4 portrait (210 × 297 mm), 2480 × 3508 pixels à 300 dpi**.
-- [Couverture validée au format A4](planches/00-couverture.png) : illustration complète conservée, sans déformation ni recadrage, avec marges blanches latérales.
-- [Source de la couverture validée](planches/00-couverture-source.png) conservée pour les futurs exports.
+- Illustration complète conservée, sans déformation ni recadrage ; marges blanches si le ratio diffère.
 
-## Planches validées
+## Planches réalistes validées
 
-- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : lettrage corrigé et validé, harmonisé avec la planche 2. Réplique de Lyssandro rétablie, doublon supprimé, export A4 à 300 dpi sans régénération du dessin.
-- [Source de la planche 1](planches/01-source.png) et [script de lettrage](outils/lettrage/planche01.py) conservés pour les retouches (Pillow, NumPy, OpenCV headless ; police Kalam sous licence OFL fournie).
+*(aucune pour l'instant — reprise depuis la couverture)*
 
-- [Planche 2 — Matin de rentrée à Saint-Sulpice](planches/02-matin-de-rentree.png) : lettrage corrigé et validé, dialogues rétablis sans doublons, export A4 à 300 dpi.
-- [Source graphique de la planche 2](planches/planches-02-source.png) et [script de lettrage](outils/lettrage/planche02.py) conservés pour les retouches ultérieures (Pillow ; police Kalam sous licence OFL fournie).
+## 🗄️ Archive comics (versions antérieures, conservées pour mémoire)
 
-## Planche 3 — dessin et lettrage validés
+Couverture et planches 1 à 9 validées en style comics avant la bascule, dans [`planches/archive-comics/`](planches/archive-comics/) :
 
-- [Planche 3 — Les 20 Guerriers du RCM](planches/03-les-20-guerriers-du-rcm.png) : nouvelle version validée avec lettrage manuel, A4 portrait à 300 dpi.
-- [Script de lettrage](outils/lettrage/planche03.py) conservé pour les retouches.
-- [Nouveau dessin sans bulles](planches/03-les-20-guerriers-dessin.png) : validé par l'utilisateur, en remplacement de la proposition précédemment rejetée.
-- Processus : validation du dessin sans bulles, puis ajout manuel des textes avec la police Kalam utilisée pour les planches 1 et 2 ; validation du lettrage avant publication finale.
+- Couverture : `00-couverture.png` (source `00-couverture-source.png`).
+- Planche 1 — La Légende des U6 : `01-la-legende-des-u6.png` (source `01-source.png`).
+- Planche 2 — Matin de rentrée à Saint-Sulpice : `02-matin-de-rentree.png` (source `planches-02-source.png`).
+- Planche 3 — Les 20 Guerriers du RCM : `03-les-20-guerriers-du-rcm.png` (dessin `03-les-20-guerriers-dessin.png`).
+- Planche 4 — Nouvelles Règles, Nouveau Monde : `04-nouvelles-regles.png` (source `planches-04-source.png`).
+- Planche 5 — Premiers Sifflets & Conseil des Coachs : `05-premiers-sifflets.png` (dessin `05-premiers-sifflets-dessin.png`).
+- Planche 6 — Deux Victoires pour Commencer ! : `06-deux-victoires.png` (source `planches-06-source.png`).
+- Planche 7 — Le Mur Vert et Noir de Montmélian : `07-mur-vert-et-noir.png` (dessin `07-mur-vert-et-noir-dessin.png`).
+- Planche 8 — L'Action Individuelle de Trop : `08-action-individuelle.png` (dessin `08-action-individuelle-dessin.png`).
+- Planche 9 — La Colère et les Larmes : `09-colere-et-larmes.png` (dessin `09-colere-et-larmes-dessin.png`).
 
-## Planche 4 — dessin et lettrage validés
-
-- [Planche 4 — Nouvelles Règles, Nouveau Monde](planches/04-nouvelles-regles.png) : version validée en A4 portrait à 300 dpi, avec les 11 répliques du scénario et un lettrage manuel harmonisé avec les pages précédentes.
-- [Dessin source](planches/planches-04-source.png) et [script de lettrage](outils/lettrage/planche04.py) conservés pour les retouches.
-
-## Contrainte pour les prochaines générations
-
-- Préférence initiale de l'utilisateur : `gpt-image-2.5-sunburst`. L'outil disponible ne permet pas de sélectionner le modèle.
-- L'utilisateur autorise désormais l'utilisation de cet outil **pour toutes les prochaines planches, sans garantie sur le modèle utilisé**. Il n'est pas nécessaire de redemander cette autorisation à chaque page.
-- Les autres contraintes restent inchangées : deux propositions, couverture seule en référence visuelle, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
-
-- Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
-
-## Planche 5 — dessin et lettrage validés
-
-- [Dessin sans bulles](planches/05-premiers-sifflets-dessin.png) validé avant lettrage.
-- [Planche 5 — Premiers Sifflets & Conseil des Coachs](planches/05-premiers-sifflets.png) : version validée en A4 portrait à 300 dpi, avec huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste.
-- [Script de lettrage](outils/lettrage/planche05.py) conservé pour les retouches.
-
-## Références visuelles — consigne actuelle
-
-- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` (la couverture, référence de style et de continuité) **et les huit portraits PNG des personnages concernés** (`personnages/Léon.png`, `Lyssandro.png`, `Ayden.png`, `Nolann.png`, `Milo.png`, `Flavien.png`, `Julien.png`, `Kilian.png`) dans le paramètre `images`.
-- Ne plus joindre les autres planches comme références visuelles. Les fichiers existants restent conservés.
-- Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
-
-## Planche 6 — dessin et lettrage validés
-
-- Source déposée par l'auteur : [planches/planches-06-source.png](planches/planches-06-source.png), validée avant lettrage.
-- [Planche 6 — Deux Victoires pour Commencer !](planches/06-deux-victoires.png) : version validée en A4 portrait à 300 dpi, avec encadré narratif, rappel des règles par Flavien, les deux essais et encadrés de match (Chambéry jaune et noir, Albertville rouge et blanc), l'échange Léon/Ayden et l'avertissement de Kilian et Julien avant Montmélian (vert et noir).
-- [Script de lettrage](outils/lettrage/planche06.py) conservé pour les retouches.
-
-## Planche 7 — dessin et lettrage validés
-
-- [Dessin sans bulles](planches/07-mur-vert-et-noir-dessin.png) validé avant lettrage.
-- [Planche 7 — Le Mur Vert et Noir de Montmélian](planches/07-mur-vert-et-noir.png) : version validée en A4 portrait à 300 dpi, avec six cases : avancée alignée de Montmélian (vert et noir), en-avant de Milo (« PLOP ! FIIIIT ! »), pied en touche de Nolann, essai de Montmélian (+1 point), hors-jeu de Léon et encouragements de Julien et Kilian depuis la touche.
-- [Script de lettrage](outils/lettrage/planche07.py) conservé pour les retouches.
-
-## Planche 8 — dessin et lettrage validés
-
-- [Dessin sans bulles](planches/08-action-individuelle-dessin.png) validé avant lettrage.
-- [Planche 8 — L'Action Individuelle de Trop](planches/08-action-individuelle.png) : version validée en A4 portrait à 300 dpi, avec cinq cases : passe d'Ayden à Léon, appels démarqués de Lyssandro et Nolann, bulle de pensée de Léon en gros plan, touché à deux mains et en-avant (« TCHAC ! FIIIIIIIT ! », fin du match) et encadré final (2 victoires, 1 défaite).
-- [Script de lettrage](outils/lettrage/planche08.py) conservé pour les retouches.
-
-## Planche 9 — dessin et lettrage validés
-
-- [Dessin sans bulles](planches/09-colere-et-larmes-dessin.png) validé avant lettrage.
-- [Planche 9 — La Colère et les Larmes](planches/09-colere-et-larmes.png) : version validée en A4 portrait à 300 dpi, avec quatre cases : haie d'honneur avec Montmélian, colère de Léon au bord des larmes, consolation de Lyssandro et Nolann repoussée, puis Flavien agenouillé et l'échange Julien/Kilian.
-- [Script de lettrage](outils/lettrage/planche09.py) conservé pour les retouches.
+Les scripts de lettrage correspondants (`outils/lettrage/archive-comics/planche01.py` … `planche09.py`) ont été adaptés aux nouveaux chemins et restent exécutables (`python3 outils/lettrage/archive-comics/planche09.py`). Les anciens portraits comics (`personnages/Léon.png`, etc.) et `Maison-saint-sulpice-comics.png` sont conservés mais ne servent plus de référence.

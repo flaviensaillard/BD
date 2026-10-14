@@ -3,11 +3,11 @@ Ne régénère pas le dessin ; superpose des bulles et des textes contrôlés.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 S = 3
-im = Image.open(ROOT/'planches/05-premiers-sifflets-dessin.png').convert('RGB').resize((1100*S,1569*S),Image.Resampling.LANCZOS)
+im = Image.open(ROOT/'planches/archive-comics/05-premiers-sifflets-dessin.png').convert('RGB').resize((1100*S,1569*S),Image.Resampling.LANCZOS)
 d = ImageDraw.Draw(im)
-fontpath = str(Path(__file__).with_name('Kalam-Bold.ttf'))
+fontpath = str(Path(__file__).resolve().parents[1]/'Kalam-Bold.ttf')
 def box(b): return tuple(round(v*S) for v in b)
 def poly(points, fill='white', outline=None):
     d.polygon([(round(x*S),round(y*S)) for x,y in points],fill=fill)
@@ -63,5 +63,5 @@ bubble((653,1435,1081,1550),"Le premier tournoi va être un sacré révélateur,
 page=Image.new('RGB',(2480,3508),'white')
 art=ImageOps.contain(im,page.size,Image.Resampling.LANCZOS)
 page.paste(art,((page.width-art.width)//2,(page.height-art.height)//2))
-page.save(ROOT/'planches/05-premiers-sifflets.png',dpi=(300,300))
+page.save(ROOT/'planches/archive-comics/05-premiers-sifflets.png',dpi=(300,300))
 ImageOps.contain(page,(1000,1414)).save('/home/user/apercu-planche05.png')
