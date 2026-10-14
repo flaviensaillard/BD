@@ -48,7 +48,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - Préférence initiale de l'utilisateur : `gpt-image-2.5-sunburst`. L'outil disponible ne permet pas de sélectionner le modèle.
 - L'utilisateur autorise désormais l'utilisation de cet outil **pour toutes les prochaines planches, sans garantie sur le modèle utilisé**. Il n'est pas nécessaire de redemander cette autorisation à chaque page.
-- Les autres contraintes restent inchangées : deux propositions, portraits PNG joints, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
+- Les autres contraintes restent inchangées : deux propositions, couverture seule en référence visuelle, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
 
 - Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
 
@@ -57,3 +57,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Dessin sans bulles](planches/05-premiers-sifflets-dessin.png) validé avant lettrage.
 - [Planche 5 — Premiers Sifflets & Conseil des Coachs](planches/05-premiers-sifflets.png) : version validée en A4 portrait à 300 dpi, avec huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste.
 - [Script de lettrage](outils/lettrage/planche05.py) conservé pour les retouches.
+
+## Référence visuelle unique — nouvelle consigne
+
+- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` dans le paramètre `images`. La couverture est l’unique référence des personnages et du style.
+- Cette consigne remplace la demande antérieure de joindre les portraits et les autres planches. Les fichiers de référence existants restent conservés.
+- Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
