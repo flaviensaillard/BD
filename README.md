@@ -18,6 +18,10 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) :
   - Découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues enrichis, bulles de pensée, encadrés narratifs et effets sonores.
 
+- [`scenario/anifusion-resume-histoire.txt`](scenario/anifusion-resume-histoire.txt) :
+  - Résumé global des 30 pages avec les dialogues clés, au format attendu par le champ « Describe your story » de l'éditeur [Anifusion](https://anifusion.ai/editor/) (`Léon says, "…"` / `Léon thinks, "…"`, dialogues en français).
+  - 11 864 caractères, sous la limite de 12 000 du site ; texte brut prêt à copier-coller.
+
 ## 🖨️ Format du livre
 
 - Couverture et 30 pages : **A4 portrait (210 × 297 mm), 2480 × 3508 pixels à 300 dpi**.
