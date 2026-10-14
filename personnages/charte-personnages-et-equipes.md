@@ -10,6 +10,11 @@
 
 ## 2. Les Personnages Principaux (Validés par référence visuelle)
 
+> **Fiches physiques détaillées (scripts personnage)** — une fiche Markdown par personnage, nommée comme son portrait PNG, à utiliser pour rédiger les descriptions de chaque planche : morphologie, visage, cheveux, tenues par contexte (rugby, hiver, civil), gestuelle, catalogue d'expressions page par page, interdits et blocs prompt prêts à coller (FR/EN).
+> [`Léon.md`](Léon.md) · [`Lyssandro.md`](Lyssandro.md) · [`Ayden.md`](Ayden.md) · [`Nolann.md`](Nolann.md) · [`Milo.md`](Milo.md) · [`Flavien.md`](Flavien.md) · [`Julien.md`](Julien.md) · [`Kilian.md`](Kilian.md)
+>
+> Les éléments marqués *(proposition à valider)* dans ces fiches (bonnets et gants d'hiver, tenues civiles non encore dessinées) sont des choix de continuité proposés, à confirmer lors de la validation des planches concernées.
+
 ### A. Les 5 Joueurs Principaux (Équipe phare parmi les 20 joueurs U8 du RCM)
 
 1. **Léon** (`Léon.png`) — *Personnage principal (6 ans)*

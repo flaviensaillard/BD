@@ -15,6 +15,10 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
   - Couleurs officielles du **RCM** (Rouge, Bleu et Blanc — *Locaself*) et des **7 équipes adverses** (Montmélian, Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon).
   - Règle vestimentaire stricte : tenue de rugby uniquement aux entraînements et tournois ; tenue civile à la maison et à l'école.
 
+- **Fiches physiques détaillées par personnage** (une par portrait PNG, pour rédiger les descriptions des planches) : [`Léon.md`](personnages/Léon.md), [`Lyssandro.md`](personnages/Lyssandro.md), [`Ayden.md`](personnages/Ayden.md), [`Nolann.md`](personnages/Nolann.md), [`Milo.md`](personnages/Milo.md), [`Flavien.md`](personnages/Flavien.md), [`Julien.md`](personnages/Julien.md), [`Kilian.md`](personnages/Kilian.md).
+  - Contenu de chaque fiche : signature visuelle, morphologie et échelle, visage, cheveux, tenues par contexte (rugby RCM, hiver, civil scène par scène), accessoires, gestuelle, catalogue d'expressions planche par planche, évolution sur la saison, interdits, blocs prompt FR/EN prêts à coller.
+  - Les bonnets/gants d'hiver et les tenues civiles non encore dessinées y sont marqués *(proposition à valider)*.
+
 - [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) :
   - Découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues enrichis, bulles de pensée, encadrés narratifs et effets sonores.
 
