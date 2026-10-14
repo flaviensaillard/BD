@@ -63,3 +63,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` (la couverture, référence de style et de continuité) **et les huit portraits PNG des personnages concernés** (`personnages/Léon.png`, `Lyssandro.png`, `Ayden.png`, `Nolann.png`, `Milo.png`, `Flavien.png`, `Julien.png`, `Kilian.png`) dans le paramètre `images`.
 - Ne plus joindre les autres planches comme références visuelles. Les fichiers existants restent conservés.
 - Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
+
+## Planche 6 — dessin et lettrage validés
+
+- Source déposée par l'auteur : [planches/planches-06-source.png](planches/planches-06-source.png), validée avant lettrage.
+- [Planche 6 — Deux Victoires pour Commencer !](planches/06-deux-victoires.png) : version validée en A4 portrait à 300 dpi, avec encadré narratif, rappel des règles par Flavien, les deux essais et encadrés de match (Chambéry jaune et noir, Albertville rouge et blanc), l'échange Léon/Ayden et l'avertissement de Kilian et Julien avant Montmélian (vert et noir).
+- [Script de lettrage](outils/lettrage/planche06.py) conservé pour les retouches.
