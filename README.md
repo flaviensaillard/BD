@@ -58,8 +58,8 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Planche 5 — Premiers Sifflets & Conseil des Coachs](planches/05-premiers-sifflets.png) : version validée en A4 portrait à 300 dpi, avec huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste.
 - [Script de lettrage](outils/lettrage/planche05.py) conservé pour les retouches.
 
-## Référence visuelle unique — nouvelle consigne
+## Références visuelles — consigne actuelle
 
-- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` dans le paramètre `images`. La couverture est l’unique référence des personnages et du style.
-- Cette consigne remplace la demande antérieure de joindre les portraits et les autres planches. Les fichiers de référence existants restent conservés.
+- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` (la couverture, référence de style et de continuité) **et les huit portraits PNG des personnages concernés** (`personnages/Léon.png`, `Lyssandro.png`, `Ayden.png`, `Nolann.png`, `Milo.png`, `Flavien.png`, `Julien.png`, `Kilian.png`) dans le paramètre `images`.
+- Ne plus joindre les autres planches comme références visuelles. Les fichiers existants restent conservés.
 - Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
