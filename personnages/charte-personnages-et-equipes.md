@@ -3,8 +3,9 @@
 ## 1. Informations Générales de l'Œuvre
 - **Titre** : *La Force de l'Échec*
 - **Sous-titre** : *« On apprend de ses échecs, c'est ce qui conduit à la victoire »*
-- **Format** : Comics américain (esprit Marvel / DC Comics), 30 pages + Couverture
-- **Style visuel** : Trait encré dynamique type Comics moderne, colorisation vibrante, jeux de lumière dramatiques (projecteurs de stade, pluie d'automne, flocons d'hiver en Savoie, soleil de printemps), cadrages variés (Splash pages, contre-plongées héroïques, gros plans expressifs, bandes d'action horizontales), bulles de dialogue, bulles de pensée, encadrés narratifs (caption boxes) et onomatopées (*FIIIIT !*, *TCHAC !*, *BOUM !*, *PAF !*).
+- **Format actuel** : Album de 30 pages en style photographique réaliste + couverture déjà réalisée.
+- **Style visuel actuel** : Photographie naturelle de type reportage sportif/familial. Utiliser les portraits des personnages dont le nom se termine par `réel.jpg` comme références d'identité ; ne pas modifier les fichiers source. Pas de dessin comics, d'effets graphiques ou de bulles. Les textes du scénario sont ajoutés en blocs éditoriaux sobres.
+- **Note** : Les références comics historiques de ce document et les portraits PNG illustrés sont conservés comme archives ; ils ne définissent plus la direction visuelle actuelle.
 
 ---
 
@@ -12,24 +13,24 @@
 
 ### A. Les 5 Joueurs Principaux (Équipe phare parmi les 20 joueurs U8 du RCM)
 
-1. **Léon** (`Léon.png`) — *Personnage principal (6 ans)*
+1. **Léon** (`Léon réel.jpg`) — *Personnage principal (6 ans)*
    - **Apparence physique** : Garçon de 6 ans, cheveux châtains clairs coiffés en pics relevés sur le dessus, sourcils expressifs, yeux marron vifs, sourire franc et déterminé (bouche fermée sur le portrait de référence).
    - **Caractère & Évolution** : Compétiteur né, passionné de rugby, esprit de gagnant. En début de saison, il ne supporte pas la défaite (colère, larmes, paroles parfois blessantes envers ses copains sous le coup de la frustration). Tout au long de la saison, grâce à son père Flavien, aux coachs et à ses amis, il apprend à maîtriser ses émotions et comprend que l'échec est le meilleur professeur pour progresser.
    - **Famille** : Fils de **Flavien** (coach U8) et **Vanessa** (hors-champ), petit frère d'**Alice** (7 ans, hors-champ). Habite à **Saint-Sulpice** (500 habitants).
 
-2. **Lyssandro** (`Lyssandro.png`) — *Joueur U8 & fils de Julien*
+2. **Lyssandro** (`Lyssandro réel.jpg`) — *Joueur U8 & fils de Julien*
    - **Apparence physique** : Garçon de 6-7 ans, cheveux châtains mi-longs avec une mèche souple retombant sur le front vers la droite, yeux verts/noisette clairs, léger sourire découvrant les dents du haut.
    - **Caractère** : Fidèle ami de Léon, observateur, juste, capable de dire à Léon quand il dépasse les bornes mais toujours prêt à pardonner et à combiner sur le terrain.
 
-3. **Ayden** (`Ayden.png`) — *Joueur U8 & copain d'école de Léon*
+3. **Ayden** (`Ayden réel.jpg`) — *Joueur U8 & copain d'école de Léon*
    - **Apparence physique** : Garçon de 6-7 ans, cheveux blonds/châtains clairs courts coiffés vers l'avant, yeux foncés doux, sourire calme et posé (bouche fermée).
    - **Caractère** : Calme, réfléchi, très solidaire. Il est dans la même école que Léon (et que Baptiste). Il joue un rôle d'équilibre dans le groupe.
 
-4. **Nolann** (`Nolann.png`) — *Joueur U8*
+4. **Nolann** (`Nolann réel.jpg`) — *Joueur U8*
    - **Apparence physique** : Garçon de 6-7 ans, cheveux bruns très courts avec petite frange courte sur le front, teint mat/ensoleillé, grand sourire joyeux laissant voir ses dents avec un petit espace (dents de lait).
    - **Caractère** : Énergique, enthousiaste, courageux au plaquage et toujours partant pour relancer le jeu.
 
-5. **Milo** (`Milo.png`) — *Joueur U8*
+5. **Milo** (`Milo réel.jpg`) — *Joueur U8*
    - **Apparence physique** : Garçon de 6-7 ans, cheveux châtains lisses tombant en frange sur le front, grand sourire espiègle montrant ses dents avec un petit écart central.
    - **Caractère** : Vif, rapide mais parfois un peu précipité en début de saison (quelques en-avant sous pression), sensible aux remarques de Léon mais redoutable finisseur quand l'équipe joue en confiance.
 
@@ -37,18 +38,18 @@
 
 ### B. Les 3 Coachs U8 du Rugby Club Motterain (RCM)
 
-6. **Flavien** (`Flavien.png`) — *Père de Léon & Coach U8*
+6. **Flavien** (`Flavien réel.jpg`) — *Père de Léon & Coach U8*
    - **Apparence physique** : Homme adulte athlétique, cheveux bruns courts coiffés avec un léger mouvement sur le dessus, barbe de 3 jours / bouc finement taillé, regard bienveillant et attentif.
    - **Tenue au rugby** : Veste et pantalon de survêtement bleu marine du **RCM** (équipementier Macron) avec empiècements rouges sur les épaules et blason RCM sur la poitrine et la cuisse.
    - **Tenue hors rugby** : Tenue civile de tous les jours (pull, t-shirt, veste, jean) à la maison à Saint-Sulpice ou en voiture.
    - **Rôle** : Double rôle central — éducateur/coach sur le terrain à La Motte-Servolex et papa aimant, pédagogue et patient à la maison à Saint-Sulpice.
 
-7. **Julien** (`Julien.png`) — *Père de Lyssandro & Coach U8*
+7. **Julien** (`Julien réel.jpg`) — *Père de Lyssandro & Coach U8*
    - **Apparence physique** : Homme adulte au gabarit solide de rugbyman, cheveux courts gris/poivre et sel, moustache et bouc gris/blancs, grand sourire chaleureux, yeux rieurs.
    - **Tenue au rugby** : Veste zippée bleue du **RCM** (marque FXV) sur t-shirt bleu marine, avec **son sifflet jaune** attaché à un cordon noir autour du cou, blason RCM sur le cœur.
    - **Rôle** : Coach expérimenté, arbitre souvent les oppositions à l'entraînement, voix rassurante et fédératrice du groupe.
 
-8. **Kilian** (`Kilian.png`) — *Coach U8*
+8. **Kilian** (`Kilian réel.jpg`) — *Coach U8*
    - **Apparence physique** : Homme adulte, cheveux courts roux/blond vénitien et barbe rousse fournie, regard calme et déterminé.
    - **Tenue au rugby** : Veste zippée bleu marine et bleu clair à motifs du **RCM** avec bandes épaules rouge/blanc, inscriptions *« NEMESIS Sports / KG »* à droite, blason **RCM** à gauche, et grand texte *« RUGBY 1905 / RUGBY CLUB MOTTERAIN »* sur le ventre.
    - **Rôle** : Coach dynamique et pédagogue, très impliqué dans les ateliers techniques (passes, soutien offensif, plaquages).
@@ -116,6 +117,6 @@
 
 ### Maison familiale à Saint-Sulpice
 - Photo de référence architecturale : [`Maison saint sulpice.png`](Maison%20saint%20sulpice.png).
-- **Version comics validée** : [`Maison-saint-sulpice-comics.png`](Maison-saint-sulpice-comics.png). Utiliser cette illustration comme référence graphique pour les scènes extérieures de la maison, en la joignant aux références de génération.
+- **Ancienne version comics archivée** : [`Maison-saint-sulpice-comics.png`](Maison-saint-sulpice-comics.png). Ne pas utiliser cette illustration pour les nouvelles scènes réalistes ; la photo réelle ci-dessus reste la référence d’architecture.
 - Respecter la façade blanche, le toit sombre, les ouvertures, le balcon, le garage en contrebas et l'allée de gravier bordée de pierres. La photo extérieure ne documente pas l'intérieur.
 - Voiture familiale précisée par l'utilisateur : **Ford Fiesta blanche de 2018**, à conserver de manière cohérente entre les scènes.

@@ -1,7 +1,16 @@
 # 🏉 LA FORCE DE L'ÉCHEC
 > *« On apprend de ses échecs, c'est ce qui conduit à la victoire »*
 
-Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), suivant la saison U8 du **Rugby Club Motterain (RCM)** à **La Motte-Servolex** et la vie à **Saint-Sulpice** en Savoie (saison Septembre 2026 – Juin 2027).
+Album de 30 pages en **style photographique réaliste**, créé pour **Léon** (6 ans), suivant la saison U8 du **Rugby Club Motterain (RCM)** à **La Motte-Servolex** et la vie à **Saint-Sulpice** en Savoie (saison septembre 2026 – juin 2027).
+
+## Direction visuelle actuelle — 15 octobre 2026
+
+- Le projet n'est plus réalisé en style comics : les nouvelles planches utilisent un rendu photographique réaliste et naturel.
+- Utiliser comme références d'identité les photos des personnages dont le nom finit par **« réel »** (`personnages/* réel.jpg`). Les fichiers photo originaux ne sont pas modifiés.
+- Ne pas utiliser les portraits PNG illustrés, les anciennes planches comics ni la couverture illustrée comme références de style pour les nouvelles scènes.
+- Respecter le scénario et l'identité de chaque personnage. Les dialogues sont ajoutés manuellement dans une mise en page éditoriale discrète, sans bulles dessinées.
+- La couverture existante est conservée telle quelle ; elle n'est pas à refaire.
+- Les anciennes planches illustrées restent dans le dépôt comme versions antérieures, pas comme référence visuelle pour la suite.
 
 ---
 
@@ -16,7 +25,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
   - Règle vestimentaire stricte : tenue de rugby uniquement aux entraînements et tournois ; tenue civile à la maison et à l'école.
 
 - [`scenario/scenario-complet-30-pages.md`](scenario/scenario-complet-30-pages.md) :
-  - Découpage intégral page par page et vignette par vignette (Couverture + Pages 1 à 30) avec tous les dialogues enrichis, bulles de pensée, encadrés narratifs et effets sonores.
+  - Découpage intégral page par page et scène par scène (couverture + pages 1 à 30) avec dialogues, narration et effets sonores. Les anciennes indications de bulles et de style comics sont remplacées par la direction photo-réaliste actuelle.
 
 ## 🖨️ Format du livre
 
@@ -24,33 +33,39 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Couverture validée au format A4](planches/00-couverture.png) : illustration complète conservée, sans déformation ni recadrage, avec marges blanches latérales.
 - [Source de la couverture validée](planches/00-couverture-source.png) conservée pour les futurs exports.
 
-## Planches validées
+## Anciennes planches comics conservées
 
-- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : lettrage corrigé et validé, harmonisé avec la planche 2. Réplique de Lyssandro rétablie, doublon supprimé, export A4 à 300 dpi sans régénération du dessin.
+Les fichiers ci-dessous sont les versions illustrées précédemment produites. Ils sont conservés comme archives, mais ne servent plus de référence visuelle pour les nouvelles planches.
+
+- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : ancienne version illustrée, avec lettrage corrigé et harmonisé avec la planche 2.
 - [Source de la planche 1](planches/01-source.png) et [script de lettrage](outils/lettrage/planche01.py) conservés pour les retouches (Pillow, NumPy, OpenCV headless ; police Kalam sous licence OFL fournie).
 
 - [Planche 2 — Matin de rentrée à Saint-Sulpice](planches/02-matin-de-rentree.png) : lettrage corrigé et validé, dialogues rétablis sans doublons, export A4 à 300 dpi.
 - [Source graphique de la planche 2](planches/planches-02-source.png) et [script de lettrage](outils/lettrage/planche02.py) conservés pour les retouches ultérieures (Pillow ; police Kalam sous licence OFL fournie).
 
-## Planche 3 — dessin et lettrage validés
+## Planche 3 — proposition photographique
 
-- [Planche 3 — Les 20 Guerriers du RCM](planches/03-les-20-guerriers-du-rcm.png) : nouvelle version validée avec lettrage manuel, A4 portrait à 300 dpi.
-- [Script de lettrage](outils/lettrage/planche03.py) conservé pour les retouches.
-- [Nouveau dessin sans bulles](planches/03-les-20-guerriers-dessin.png) : validé par l'utilisateur, en remplacement de la proposition précédemment rejetée.
-- Processus : validation du dessin sans bulles, puis ajout manuel des textes avec la police Kalam utilisée pour les planches 1 et 2 ; validation du lettrage avant publication finale.
+- [Planche 3 — Les 20 Guerriers du RCM, version photo-réaliste](planches/03-les-20-guerriers-du-rcm-photo.png) : cinq scènes créées séparément à partir des portraits réels pertinents, assemblées en A4 portrait (2480 × 3508 px, 300 dpi). Dialogues et narration repris du scénario dans des blocs éditoriaux, sans bulles comics ; proposition en attente de validation.
+- Les anciennes versions illustrées de la planche 3 restent conservées comme archives.
 
-## Planche 4 — dessin et lettrage validés
+## Planche 4 — version photo-réaliste
+
+- [Planche 4 — Nouvelles règles, nouveau monde](planches/04-nouvelles-regles-photo.png) : six scènes photoréalistes avec les dialogues du scénario ajoutés manuellement en blocs éditoriaux, sans bulles ; A4 portrait, 2480 × 3508 px à 300 dpi.
+- [Version sans texte](planches/04-nouvelles-regles-photo-sans-texte.png) et [proposition sélectionnée d’origine](planches/04-nouvelles-regles-photo-proposition.png) conservées séparément.
+
+## Ancienne version comics de la planche 4 — archivée
 
 - [Planche 4 — Nouvelles Règles, Nouveau Monde](planches/04-nouvelles-regles.png) : version validée en A4 portrait à 300 dpi, avec les 11 répliques du scénario et un lettrage manuel harmonisé avec les pages précédentes.
 - [Dessin source](planches/planches-04-source.png) et [script de lettrage](outils/lettrage/planche04.py) conservés pour les retouches.
 
-## Contrainte pour les prochaines générations
+## Consignes de production des prochaines planches
 
-- Préférence initiale de l'utilisateur : `gpt-image-2.5-sunburst`. L'outil disponible ne permet pas de sélectionner le modèle.
-- L'utilisateur autorise désormais l'utilisation de cet outil **pour toutes les prochaines planches, sans garantie sur le modèle utilisé**. Il n'est pas nécessaire de redemander cette autorisation à chaque page.
-- Les autres contraintes restent inchangées : deux propositions, couverture seule en référence visuelle, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
-
-- Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
+- Utiliser les photos `* réel.jpg` des personnages réellement présents dans la scène ; éviter de fournir des portraits inutiles, pour préserver les identités.
+- Décrire précisément qui apparaît, où, avec quelle tenue et quelle action. Suivre le découpage et les dialogues du scénario.
+- Produire des images photoréalistes de type reportage sportif/familial, sans dessin, effets comics ni bulles. Ajouter les textes ensuite en blocs éditoriaux sobres.
+- Ne pas utiliser la couverture ni les anciennes planches comics comme références de style. La photo réelle de la maison peut servir de référence d'architecture pour les scènes extérieures à Saint-Sulpice.
+- Conserver les exports finaux au format A4 portrait : 2480 × 3508 px à 300 dpi.
+- Un refus signifie que la ressemblance, le réalisme ou le scénario ne sont pas respectés ; corriger le point signalé plutôt que relancer à l'identique.
 
 ## Planche 5 — dessin et lettrage validés
 
@@ -60,9 +75,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 ## Références visuelles — consigne actuelle
 
-- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` (la couverture, référence de style et de continuité) **et les huit portraits PNG des personnages concernés** (`personnages/Léon.png`, `Lyssandro.png`, `Ayden.png`, `Nolann.png`, `Milo.png`, `Flavien.png`, `Julien.png`, `Kilian.png`) dans le paramètre `images`.
-- Ne plus joindre les autres planches comme références visuelles. Les fichiers existants restent conservés.
-- Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
+- Pour chaque scène, fournir seulement les photos réelles `personnages/<Nom> réel.jpg` des personnages présents.
+- Ne pas joindre les portraits PNG illustrés, la couverture comics ou les anciennes planches comme références de style.
+- La photo [`personnages/Maison saint sulpice.png`](personnages/Maison%20saint%20sulpice.png) reste une référence réelle d'architecture pour les scènes extérieures de la maison.
 
 ## Planche 6 — dessin et lettrage validés
 
