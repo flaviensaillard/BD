@@ -39,6 +39,24 @@ Décisions prises avec l'auteur, qui remplacent toutes les consignes « comics �
 - Couverture et 30 pages : **A4 portrait (210 × 297 mm), 2480 × 3508 pixels à 300 dpi**.
 - Illustration complète conservée, sans déformation ni recadrage ; marges blanches si le ratio diffère.
 
+## Méthode de fabrication des pages réalistes (mise au point sur la couverture, 14 octobre 2026)
+
+Les générations « tout-en-un » à 8 personnages ont été refusées trois fois (doublons, visages inventés, corps tronqués). La méthode retenue, validée techniquement sur la couverture :
+
+1. **Décor seul** généré sans personne (`planches/travail/<page>/fond-*.png`).
+2. **Chaque personnage généré individuellement, en pied, sur fond gris uni**, avec deux références : son gros plan `personnages/portraits-reels/<Prénom>.jpg` (identité) et sa photo en pied `personnages/<Prénom> réel.jpg` (tenue, gabarit). Visage grand dans l'image ⇒ meilleure ressemblance. Contrôle de ressemblance par comparaison côte à côte avant usage ; on régénère si besoin.
+3. **Détourage** automatique (`outils/assemblage/detourage.py` : segmentation MediaPipe + clé colorimétrique sur fond local) et **assemblage par calcul** (`outils/assemblage/couverture.py` : perspective simple, taille réelle de chaque personne, ombres de contact, harmonisation légère) directement en **A4 2480 × 3508 à 300 dpi**. Résultat garanti : exactement les bons personnages, une seule fois chacun, corps entiers.
+4. Lettrage manuel ensuite, comme avant (police Kalam).
+
+Environnement : `outils/setup-env.sh` (à relancer si le bac à sable a été réinitialisé). Limite de l'outil : 10 générations d'images par tour.
+
+## Couverture réaliste — en attente de validation
+
+- Décor : `planches/travail/couverture/fond-jour.png` (stade de La Motte-Servolex, lumière douce de fin d'après-midi, choix de l'auteur).
+- Personnages générés : `planches/travail/couverture/perso-*.png` (Léon : `perso-leon.png` v1 et `perso-leon-v2.png` v2 retenue ; une v3 est prévue au prochain tour, la limite de générations ayant été atteinte).
+- Deux propositions sans texte soumises à l'auteur : [`planches/00-couverture-dessin-A.png`](planches/00-couverture-dessin-A.png) (deux rangées) et [`planches/00-couverture-dessin-B.png`](planches/00-couverture-dessin-B.png) (formation en V, Léon en pointe) ; comparatif `planches/travail/couverture/comparatif-A-B.jpg`.
+- Titre et sous-titre seront ajoutés au lettrage, dans le ciel (haut) et sur la pelouse (bas).
+
 ## Planches réalistes validées
 
 *(aucune pour l'instant — reprise depuis la couverture)*
