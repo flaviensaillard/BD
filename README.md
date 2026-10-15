@@ -43,6 +43,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Planche 4 — Nouvelles Règles, Nouveau Monde](planches/04-nouvelles-regles.png) : version validée en A4 portrait à 300 dpi, avec les 11 répliques du scénario et un lettrage manuel harmonisé avec les pages précédentes.
 - [Dessin source](planches/planches-04-source.png) et [script de lettrage](outils/lettrage/planche04.py) conservés pour les retouches.
+- [Version photoréaliste sans bulles ni lettrage narratif](planches/04-nouvelles-regles-realisme-sans-texte.png) : six vignettes en A4 portrait à 300 dpi, basées sur les huit portraits réels ; [source générée](planches/04-nouvelles-regles-realisme-source.png) conservée.
 
 ## Contrainte pour les prochaines générations
 
@@ -56,6 +57,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Dessin sans bulles](planches/05-premiers-sifflets-dessin.png) validé avant lettrage.
 - [Planche 5 — Premiers Sifflets & Conseil des Coachs](planches/05-premiers-sifflets.png) : version validée en A4 portrait à 300 dpi, avec huit répliques, deux coups de sifflet, encadré narratif et prénom Léon sur la liste.
+- [Version photoréaliste sans bulles ni texte narratif](planches/05-premiers-sifflets-realisme-sans-texte.png) : cinq vignettes au format A4 portrait à 300 dpi, construites vignette par vignette à partir des portraits réels ; [source assemblée](planches/05-premiers-sifflets-realisme-source.png) conservée.
 - [Script de lettrage](outils/lettrage/planche05.py) conservé pour les retouches.
 
 ## Références visuelles — consigne actuelle
@@ -68,6 +70,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - Source déposée par l'auteur : [planches/planches-06-source.png](planches/planches-06-source.png), validée avant lettrage.
 - [Planche 6 — Deux Victoires pour Commencer !](planches/06-deux-victoires.png) : version validée en A4 portrait à 300 dpi, avec encadré narratif, rappel des règles par Flavien, les deux essais et encadrés de match (Chambéry jaune et noir, Albertville rouge et blanc), l'échange Léon/Ayden et l'avertissement de Kilian et Julien avant Montmélian (vert et noir).
+- [Version photoréaliste sans bulles ni texte narratif](planches/06-deux-victoires-realisme-sans-texte.png) : cinq vignettes au format A4 portrait à 300 dpi, construites vignette par vignette à partir des portraits réels ; [source assemblée](planches/06-deux-victoires-realisme-source.png) conservée.
 - [Script de lettrage](outils/lettrage/planche06.py) conservé pour les retouches.
 
 ## Planche 7 — dessin et lettrage validés
