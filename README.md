@@ -109,3 +109,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 13 — version photoréaliste
 
 - [Les Hauts et les Bas de Novembre — sans bulles ni texte narratif](planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png) : six vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), entre tournoi d'automne, victoire contre Aix-les-Bains et essai décisif de Rumilly ; [source assemblée](planches/13-hauts-et-bas-de-novembre-realisme-source.png) conservée.
+
+## Planche 14 — version photoréaliste
+
+- [Les Mots de Trop — sans bulles ni texte narratif](planches/14-les-mots-de-trop-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), autour de la défaite contre Rumilly, de l'éclat de Léon et du réconfort de ses amis et de Flavien ; [source assemblée](planches/14-les-mots-de-trop-realisme-source.png) conservée.
