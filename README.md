@@ -48,10 +48,10 @@ Les fichiers ci-dessous sont les versions illustrées précédemment produites. 
 - [Planche 3 — Les 20 Guerriers du RCM, version photo-réaliste](planches/03-les-20-guerriers-du-rcm-photo.png) : cinq scènes créées séparément à partir des portraits réels pertinents, assemblées en A4 portrait (2480 × 3508 px, 300 dpi). Dialogues et narration repris du scénario dans des blocs éditoriaux, sans bulles comics ; proposition en attente de validation.
 - Les anciennes versions illustrées de la planche 3 restent conservées comme archives.
 
-## Planche 4 — proposition photo-réaliste sans texte
+## Planche 4 — version photo-réaliste corrigée
 
-- [Planche 4 — Nouvelles règles, nouveau monde](planches/04-nouvelles-regles-photo.png) : proposition sélectionnée, conservée sans dialogues ni légendes générées ; A4 portrait, 2480 × 3508 px à 300 dpi.
-- Les textes du scénario ne sont pas intégrés dans cette version, conformément à la demande.
+- [Planche 4 — Nouvelles règles, nouveau monde](planches/04-nouvelles-regles-photo.png) : composition refaite directement avec les portraits photographiques réels de `personnages/* réel.jpg` ; aucun visage n'a été généré ou recréé. Les photos source sont recadrées et mises en page, en conservant leurs poses d'origine.
+- Aucun dialogue ni aucune légende ne sont ajoutés, conformément à la demande. Format A4 portrait, 2480 × 3508 px à 300 dpi.
 
 ## Ancienne version comics de la planche 4 — archivée
 
