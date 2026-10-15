@@ -113,3 +113,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 14 — version photoréaliste
 
 - [Les Mots de Trop — sans bulles ni texte narratif](planches/14-les-mots-de-trop-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), autour de la défaite contre Rumilly, de l'éclat de Léon et du réconfort de ses amis et de Flavien ; [source assemblée](planches/14-les-mots-de-trop-realisme-source.png) conservée.
+
+## Planche 15 — version photoréaliste
+
+- [La Leçon d'un Père — sans bulles ni texte narratif](planches/15-la-lecon-d-un-pere-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), montrant le dialogue intimiste de Léon et Flavien dans le salon familial de Saint-Sulpice ; [source assemblée](planches/15-la-lecon-d-un-pere-realisme-source.png) conservée.
