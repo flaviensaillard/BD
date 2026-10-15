@@ -101,3 +101,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 11 — version photoréaliste
 
 - [Le Diagnostic sous la Pluie — dessin sans bulles](planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png) : cinq vignettes photoréalistes au format A4 portrait à 300 dpi, avec la pluie au stade et un tableau composé de schémas visuels sans texte ; [source assemblée](planches/11-diagnostic-sous-la-pluie-realisme-source.png) conservée.
+
+## Planche 12 — version photoréaliste
+
+- [Travail dans la Boue — sans bulles ni texte narratif](planches/12-travail-dans-la-boue-realisme-sans-texte.png) : six vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), sur les ateliers de défense et de passes sous la pluie ; [source assemblée](planches/12-travail-dans-la-boue-realisme-source.png) conservée.
