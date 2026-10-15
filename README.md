@@ -45,7 +45,7 @@ Les générations « tout-en-un » à 8 personnages ont été refusées trois fo
 
 1. **Décor seul** généré sans personne (`planches/travail/<page>/fond-*.png`).
 2. **Chaque personnage généré individuellement, en pied, sur fond gris uni**, avec deux références : son gros plan `personnages/portraits-reels/<Prénom>.jpg` (identité) et sa photo en pied `personnages/<Prénom> réel.jpg` (tenue, gabarit). Visage grand dans l'image ⇒ meilleure ressemblance. Contrôle de ressemblance par comparaison côte à côte avant usage ; on régénère si besoin.
-3. **Détourage** automatique (`outils/assemblage/detourage.py` : segmentation MediaPipe + clé colorimétrique sur fond local) et **assemblage par calcul** (`outils/assemblage/couverture.py` : perspective simple, taille réelle de chaque personne, ombres de contact, harmonisation légère) directement en **A4 2480 × 3508 à 300 dpi**. Résultat garanti : exactement les bons personnages, une seule fois chacun, corps entiers.
+3. **Détourage** automatique (`outils/assemblage/detourage.py` (segmentation MediaPipe + clé couleur signée : le tissu clair devient opaque, les ombres au sol sont rejetées ; les membres détachés — bras levés — et les objets tenus sont conservés) : segmentation MediaPipe + clé colorimétrique sur fond local) et **assemblage par calcul** (`outils/assemblage/couverture.py` : perspective simple, taille réelle de chaque personne, ombres de contact, harmonisation légère) directement en **A4 2480 × 3508 à 300 dpi**. Résultat garanti : exactement les bons personnages, une seule fois chacun, corps entiers.
 4. Lettrage manuel ensuite, comme avant (police Kalam).
 
 Environnement : `outils/setup-env.sh` (à relancer si le bac à sable a été réinitialisé). Limite de l'outil : 10 générations d'images par tour.
@@ -56,6 +56,13 @@ Environnement : `outils/setup-env.sh` (à relancer si le bac à sable a été r�
 - Personnages générés : `planches/travail/couverture/perso-*.png` (Léon : `perso-leon.png` v1 et `perso-leon-v2.png` v2 retenue ; une v3 est prévue au prochain tour, la limite de générations ayant été atteinte).
 - Deux propositions sans texte soumises à l'auteur : [`planches/00-couverture-dessin-A.png`](planches/00-couverture-dessin-A.png) (deux rangées) et [`planches/00-couverture-dessin-B.png`](planches/00-couverture-dessin-B.png) (formation en V, Léon en pointe) ; comparatif `planches/travail/couverture/comparatif-A-B.jpg`.
 - Titre et sous-titre seront ajoutés au lettrage, dans le ciel (haut) et sur la pelouse (bas).
+
+## Planche 1 réaliste — en attente de validation
+
+- Proposition de dessin sans texte : [`planches/01-la-legende-des-u6-dessin.png`](planches/01-la-legende-des-u6-dessin.png) (aperçu `-apercu.jpg`), assemblée par `python3 outils/assemblage/planche01.py`.
+- Mise en page reprise du gabarit validé en comics : grande case haute (célébration du trophée, 8 personnages, confettis dorés, stade ensoleillé du flashback printemps 2026), puis trois cases étroites : Lyssandro ballon en main suivi d'Ayden et Milo / médailles d'or autour du cou (cadrage sous les épaules, sans visage) / gros plan sur le regard de Léon.
+- Éléments générés : `planches/travail/planche01/` (`fond-case1.png`, `perso-leon-trophee.png`, `perso-nolann-joie.png`, `perso-*-course.png`, `case3-medailles-v2.png`, `case4-leon-regard.png`) ; les poses debout de la couverture (`planches/travail/couverture/perso-*.png`) sont réutilisées en case 1.
+- Lettrage à faire après validation : encadré jaune « SAISON DERNIÈRE… », bulles de Léon et Nolann (case 1), voix de Léon + bulle de Milo (case 2), bulles Lyssandro/Ayden (case 3), bulle de Léon (case 4) — textes dans `scenario/scenario-complet-30-pages.md`.
 
 ## Planches réalistes validées
 
