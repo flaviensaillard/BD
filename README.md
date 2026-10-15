@@ -84,6 +84,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Dessin sans bulles](planches/08-action-individuelle-dessin.png) validé avant lettrage.
 - [Planche 8 — L'Action Individuelle de Trop](planches/08-action-individuelle.png) : version validée en A4 portrait à 300 dpi, avec cinq cases : passe d'Ayden à Léon, appels démarqués de Lyssandro et Nolann, bulle de pensée de Léon en gros plan, touché à deux mains et en-avant (« TCHAC ! FIIIIIIIT ! », fin du match) et encadré final (2 victoires, 1 défaite).
+- [Version photoréaliste sans bulles ni texte narratif](planches/08-action-individuelle-realisme-sans-texte.png) : cinq vignettes au format A4 portrait à 300 dpi, construites vignette par vignette à partir des portraits réels ; [source assemblée](planches/08-action-individuelle-realisme-source.png) conservée.
 - [Script de lettrage](outils/lettrage/planche08.py) conservé pour les retouches.
 
 ## Planche 9 — dessin et lettrage validés
