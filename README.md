@@ -77,6 +77,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Dessin sans bulles](planches/07-mur-vert-et-noir-dessin.png) validé avant lettrage.
 - [Planche 7 — Le Mur Vert et Noir de Montmélian](planches/07-mur-vert-et-noir.png) : version validée en A4 portrait à 300 dpi, avec six cases : avancée alignée de Montmélian (vert et noir), en-avant de Milo (« PLOP ! FIIIIT ! »), pied en touche de Nolann, essai de Montmélian (+1 point), hors-jeu de Léon et encouragements de Julien et Kilian depuis la touche.
+- [Version photoréaliste sans bulles ni texte narratif](planches/07-mur-vert-et-noir-realisme-sans-texte.png) : six vignettes au format A4 portrait à 300 dpi, construites vignette par vignette à partir des portraits réels ; [source assemblée](planches/07-mur-vert-et-noir-realisme-source.png) conservée.
 - [Script de lettrage](outils/lettrage/planche07.py) conservé pour les retouches.
 
 ## Planche 8 — dessin et lettrage validés
