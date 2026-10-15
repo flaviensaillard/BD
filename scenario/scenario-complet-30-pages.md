@@ -1,8 +1,10 @@
 # SCÉNARIO COMPLET (30 PAGES) — *LA FORCE DE L'ÉCHEC*
 
 **Sous-titre :** *« On apprend de ses échecs, c'est ce qui conduit à la victoire »*  
-**Format :** Comics US (esprit Marvel / DC Comics) — 30 planches + Couverture  
-**Club :** Rugby Club Motterain (RCM — Rouge, Bleu et Blanc) — Catégorie U8 (Saison Septembre 2026 – Juin 2027)
+**Format actuel :** Album photo-réaliste — 30 pages + couverture déjà réalisée
+**Club :** Rugby Club Motterain (RCM — Rouge, Bleu et Blanc) — Catégorie U8 (saison septembre 2026 – juin 2027)
+
+> **Direction de production actuelle :** conserver les scènes, les actions et les dialogues de ce scénario, mais remplacer toute indication de style « comics » par une mise en scène photographique réaliste. Les dialogues sont composés en blocs éditoriaux sobres, sans bulles dessinées. Pour l'identité des personnages, utiliser les photos `personnages/* réel.jpg` ; la couverture et les illustrations précédentes ne sont pas des références de style.
 
 ---
 
