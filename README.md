@@ -117,3 +117,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 15 — version photoréaliste
 
 - [La Leçon d'un Père — sans bulles ni texte narratif](planches/15-la-lecon-d-un-pere-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), montrant le dialogue intimiste de Léon et Flavien dans le salon familial de Saint-Sulpice ; [source assemblée](planches/15-la-lecon-d-un-pere-realisme-source.png) conservée.
+
+## Planche 16 — version photoréaliste
+
+- [Le Pardon des Copains — sans bulles ni texte narratif](planches/16-le-pardon-des-copains-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), du pardon entre Léon et Ayden dans la cour d'école à la réconciliation de l'équipe au stade ; [source assemblée](planches/16-le-pardon-des-copains-realisme-source.png) conservée.
