@@ -97,3 +97,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 10 — version photoréaliste
 
 - [Ruminations à Saint-Sulpice et à l'École — dessin sans bulles](planches/10-ruminations-realisme-sans-texte.png) : cinq vignettes photoréalistes au format A4 portrait à 300 dpi, avec les tenues civiles à la maison et à l'école ; [source assemblée](planches/10-ruminations-realisme-source.png) conservée.
+
+## Planche 11 — version photoréaliste
+
+- [Le Diagnostic sous la Pluie — dessin sans bulles](planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png) : cinq vignettes photoréalistes au format A4 portrait à 300 dpi, avec la pluie au stade et un tableau composé de schémas visuels sans texte ; [source assemblée](planches/11-diagnostic-sous-la-pluie-realisme-source.png) conservée.
