@@ -125,3 +125,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## Planche 17 — version photoréaliste
 
 - [Décembre sous la Neige : Place aux Plaquages ! — sans bulles ni texte narratif](planches/17-decembre-sous-la-neige-realisme-sans-texte.png) : cinq vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), du stade enneigé et des équipements d'hiver à l'annonce des plaquages et aux consignes de Flavien ; [source assemblée](planches/17-decembre-sous-la-neige-realisme-source.png) conservée.
+
+## Planche 18 — version photoréaliste
+
+- [L'École du Plaquage dans le Froid — sans bulles ni texte narratif](planches/18-ecole-du-plaquage-dans-le-froid-realisme-sans-texte.png) : six vignettes photoréalistes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), des démonstrations de plaquage bas au soutien offensif de Léon par Lyssandro ; [source assemblée](planches/18-ecole-du-plaquage-dans-le-froid-realisme-source.png) conservée.
