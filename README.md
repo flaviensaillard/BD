@@ -93,3 +93,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Planche 9 — La Colère et les Larmes](planches/09-colere-et-larmes.png) : version validée en A4 portrait à 300 dpi, avec quatre cases : haie d'honneur avec Montmélian, colère de Léon au bord des larmes, consolation de Lyssandro et Nolann repoussée, puis Flavien agenouillé et l'échange Julien/Kilian.
 - [Version photoréaliste sans bulles ni texte narratif](planches/09-colere-et-larmes-realisme-sans-texte.png) : quatre vignettes au format A4 portrait à 300 dpi, construites vignette par vignette à partir des portraits réels ; [source assemblée](planches/09-colere-et-larmes-realisme-source.png) conservée.
 - [Script de lettrage](outils/lettrage/planche09.py) conservé pour les retouches.
+
+## Planche 10 — version photoréaliste
+
+- [Ruminations à Saint-Sulpice et à l'École — dessin sans bulles](planches/10-ruminations-realisme-sans-texte.png) : cinq vignettes photoréalistes au format A4 portrait à 300 dpi, avec les tenues civiles à la maison et à l'école ; [source assemblée](planches/10-ruminations-realisme-source.png) conservée.
