@@ -50,3 +50,28 @@ Les quatre vignettes ont été générées séparément depuis l'original. Les c
 ### Réserves
 
 Cette passe corrige les écarts de rendu les plus visibles ; elle n'est pas une validation exhaustive de tous les visages, vêtements, lettres et détails de toutes les pages. Les pages non retouchées ne sont pas automatiquement déclarées conformes. Vérifier en particulier les expressions des gros plans (notamment 04, vignette 6) contre les originaux : ne pas propager la bouche ouverte du témoin simplement parce que son style a été validé. Contrôler les six cases remplacées à leur taille de lecture avant validation finale ; les différences d'identité ou de contenu restent des critères de rejet.
+
+## Deuxième contrôle et corrections locales
+
+Cette section remplace l'état précédent de 04 et 09.
+
+Comparaison visuelle des originaux et des sorties courantes 00–10, y compris les retouches précédentes. Ce contrôle révèle notamment que le découpage inférieur de 04 avait dérivé : la case originale à trois enfants et la dernière case panoramique avaient été remplacées par deux portraits côte à côte.
+
+### Corrections intégrées
+
+- **04, vignette 5** : reconstitution de la case à trois enfants depuis la source originale, avec trois coiffures et carnations distinctes.
+- **04, vignette 6** : reconstitution du garçon tenant son maillot avec les deux mains, sourire fermé et format horizontal. Fond redessiné sans flou photographique.
+- **04, mise en page** : deux cases horizontales superposées rétablies en bas. Quatre cases supérieures conservées pixel à pixel.
+- **09, vignette 1** : candidat isolé de la passe précédente intégré, poignée de mains et adversaires vert/noir conservés.
+- **09, vignette 2** : nouveau gros plan avec cheveux courts châtain clair rabattus de côté, sans les pics importés du témoin. Expression sérieuse et bouche fermée.
+- **09, vignette 3** : scène de consolation reprise ; feuillage et sol remplacés par des silhouettes graphiques et des aplats, sans fond photographique. Trois enfants conservés.
+- **09, vignette 4** : candidat isolé de la passe précédente intégré ; scène avec bouteille et coachs conservée, sans trio de coureurs ajouté.
+- **00, couverture** : sourire fermé du garçon central rétabli par retouche limitée à la bouche. Aucun autre pixel de la couverture modifié durant cette passe.
+
+### Vérification technique
+
+`validation/corrections-vignettes/controle-passe-2.json` contient les zones et résultats. Dimensions conservées. Différence nulle hors de la zone de la bouche sur 00 et hors du bas de page sur 04. Pour 09, les quatre cases sont assemblées sur l'original normalisé à 864 × 1222 ; ses marges et gouttières sont conservées, vérifiées par différence pixel à pixel. Ce test technique ne démontre pas à lui seul la fidélité des identités à l'intérieur des cases.
+
+### Rejets et points encore ouverts
+
+Deux essais de simplification des fonds de 07 (vignettes 2 et 6) ont été écartés : des expressions/détails de premier plan ont dérivé. Le fichier 07 n'a pas été remplacé. Préférer une correction avec masque limité aux fonds pour ne pas toucher aux visages. Ne pas déclarer toute la série parfaitement homogène : il reste des nuances de traitement, et les petits logos/lettrages générés ne sont pas fiabilisés. La planche 01 validée par l'utilisateur reste inchangée malgré son écart d'expression déjà signalé avant validation. Les pages 11–30 restent suspendues.

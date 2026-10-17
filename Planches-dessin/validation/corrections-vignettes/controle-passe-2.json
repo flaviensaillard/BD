@@ -1,0 +1,26 @@
+[
+  {
+    "page": 4,
+    "zone": [
+      16,
+      684,
+      851,
+      1213
+    ],
+    "check": "Dimensions et pixels hors bas de page identiques ; quatre cases supérieures inchangées."
+  },
+  {
+    "page": 9,
+    "check": "Quatre vignettes assemblées sur la géométrie originale normalisée 864 × 1222 ; pixels des marges et gouttières de cette base inchangés."
+  },
+  {
+    "page": 0,
+    "zone": [
+      395,
+      644,
+      471,
+      671
+    ],
+    "check": "Pixels hors bouche identiques ; sourire fermé rétabli."
+  }
+]
