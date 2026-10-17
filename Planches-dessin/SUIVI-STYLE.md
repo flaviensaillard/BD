@@ -137,3 +137,13 @@ Nouvelle consigne : générer toutes les pages restantes sans passer du temps en
 - Dix générations utilisées, limite du tour atteinte.
 - **23 à 30 : encore inchangées, à générer au prochain tour avec la même méthode.** Ne pas annoncer la série complète comme terminée avant cette dernière étape.
 - Les pages 00–12 ne sont pas modifiées dans ce lot.
+
+## Audit du lot 13–22 et première passe de correction
+
+Les dix pages ont été comparées visuellement aux originaux et au témoin validé. Neuf fichiers corrigés : 13, 14, 15, 16, 18, 19, 20, 21, 22. La page 17 reste inchangée, avec un écart de couverture neigeuse encore ouvert. Les autres réserves ne sont pas masquées : voir `validation/AUDIT-13-22.md` pour le bilan page par page.
+
+Corrections : météo de 13/1, fond de 14/1, teinte des cheveux du garçon sur 15 par masque sans régénération, nombre de coachs de 16/5, soirée de 18 et des trois premières cases de 19, suppression masquée du coach ajouté sur 20/3 en conservant les joueurs, coiffure de 21/1 et décor de 22/4.
+
+Dix générations utilisées, certaines écartées ou reprises. Pour 20, les sorties générées n'ont pas été utilisées pour les joueurs : seul le terrain de la zone de suppression est reconstitué. Contrôles reproductibles avec `outils/retouche/verifier_audit13_22.py` : dimensions et pixels hors cases/masques conservés ; page 17 inchangée. Tests passés sur les dix pages. Ils ne prouvent pas la fidélité des détails à l'intérieur des zones générées.
+
+23–30 : toujours à générer ; aucune de ces pages n'est modifiée par cet audit. Pas de déclaration de conformité globale des pages 13–22 à ce stade.

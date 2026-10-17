@@ -1,0 +1,175 @@
+{
+  "source_commit": "2dc42ff",
+  "generations": 10,
+  "corrections": [
+    {
+      "page": 13,
+      "zone": [
+        24,
+        29,
+        825,
+        334
+      ],
+      "vignettes": [
+        1
+      ],
+      "controle": "Dimensions et pixels hors de la vignette identiques."
+    },
+    {
+      "page": 14,
+      "zone": [
+        25,
+        27,
+        871,
+        270
+      ],
+      "vignettes": [
+        1
+      ],
+      "controle": "Dimensions et pixels hors de la vignette identiques."
+    },
+    {
+      "page": 16,
+      "zone": [
+        26,
+        952,
+        837,
+        1195
+      ],
+      "vignettes": [
+        5
+      ],
+      "controle": "Dimensions et pixels hors de la vignette identiques."
+    },
+    {
+      "page": 21,
+      "zone": [
+        27,
+        27,
+        837,
+        481
+      ],
+      "vignettes": [
+        1
+      ],
+      "controle": "Dimensions et pixels hors de la vignette identiques."
+    },
+    {
+      "page": 22,
+      "zone": [
+        27,
+        829,
+        425,
+        1149
+      ],
+      "vignettes": [
+        4
+      ],
+      "controle": "Dimensions et pixels hors de la vignette identiques."
+    },
+    {
+      "page": 20,
+      "zone": [
+        439,
+        495,
+        837,
+        815
+      ],
+      "vignettes": [
+        3
+      ],
+      "controle": "Suppression masquée du seul adulte ajouté ; tous les pixels hors masque conservés, joueurs et tenues non régénérés."
+    },
+    {
+      "page": 18,
+      "zones": [
+        [
+          27,
+          27,
+          425,
+          250
+        ],
+        [
+          439,
+          27,
+          837,
+          250
+        ],
+        [
+          27,
+          263,
+          837,
+          605
+        ],
+        [
+          27,
+          618,
+          837,
+          959
+        ],
+        [
+          27,
+          973,
+          425,
+          1195
+        ],
+        [
+          439,
+          973,
+          837,
+          1195
+        ]
+      ],
+      "vignettes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "controle": "Relumage en soirée ; dimensions et pixels hors cases identiques. Sur 19, cases 4 et 5 conservées car les sources y sont plus claires."
+    },
+    {
+      "page": 19,
+      "zones": [
+        [
+          27,
+          89,
+          837,
+          543
+        ],
+        [
+          27,
+          556,
+          425,
+          838
+        ],
+        [
+          439,
+          556,
+          837,
+          838
+        ]
+      ],
+      "vignettes": [
+        1,
+        2,
+        3
+      ],
+      "controle": "Relumage en soirée ; dimensions et pixels hors cases identiques. Sur 19, cases 4 et 5 conservées car les sources y sont plus claires."
+    },
+    {
+      "page": 15,
+      "controle": "Correction chromatique locale des cinq coiffures du garçon, du blond doré vers le châtain clair. Aucun pixel hors masque modifié ; visages, peau, coupe et vêtements non régénérés.",
+      "pixels_recolores": 19515
+    }
+  ],
+  "statut": "Passe de correction ; pas une certification de fidélité parfaite de toute la série.",
+  "restant": [
+    "17 : neige au sol plus étendue que dans les sources ; non corrigée dans ce tour.",
+    "13 : vérifier encore les autres cases pour météo/éclairage.",
+    "16 : fond et finesse du traitement des petits personnages à revoir si nécessaire.",
+    "Variations de logos, sponsors, détails des visages et diagrammes non garanties."
+  ]
+}
