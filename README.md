@@ -21,7 +21,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 ## 🖨️ Format du livre
 
 - Couverture et 30 pages : **A4 portrait (210 × 297 mm), 2480 × 3508 pixels à 300 dpi**.
-- [Couverture photoréaliste validée au format A4](planches/00-couverture.png) : portrait des cinq joueurs et de leurs trois coachs, avec les tenues RCM et le titrage posé manuellement ; export A4 portrait (2480 × 3508 px, 300 dpi).
+- [Couverture photoréaliste validée au format A4](planches/00-couverture.png) : portrait des cinq joueurs et de leurs trois coachs, en tenues RCM, sans titre ni texte ajouté ; export A4 portrait (2480 × 3508 px, 300 dpi).
 - [Source de la couverture](planches/00-couverture-source.png) conservée pour les futurs exports.
 
 ## Planches validées
