@@ -1,0 +1,119 @@
+{
+  "lot": "13–22",
+  "statut": "Générées ; contrôle visuel détaillé différé à la demande utilisateur. Pas de validation de conformité définitive.",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "methode": "Une génération de page entière par original, même référence de style jointe à chaque appel, sans reprises intermédiaires.",
+  "limites": "Les générations peuvent faire varier visages, détails, textes et découpage. Résolution de sortie du moteur conservée ; pas de master A4 natif.",
+  "reste_a_generer": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "fichiers": [
+    {
+      "planche": 13,
+      "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
+      "dimensions": [
+        848,
+        1264
+      ],
+      "octets": 2216687,
+      "sha256": "655a843efec9e861289d06936ccb23863e87370535b64c0577d056bbedd96e37"
+    },
+    {
+      "planche": 14,
+      "fichier": "Planches-dessin/14-les-mots-de-trop-marvel.png",
+      "dimensions": [
+        896,
+        1200
+      ],
+      "octets": 2449462,
+      "sha256": "b11c476d7fc942d968f94d03aef28cbc9ee32ad904007e7e2adbe53802ad0a89"
+    },
+    {
+      "planche": 15,
+      "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
+      "dimensions": [
+        848,
+        1264
+      ],
+      "octets": 1974505,
+      "sha256": "bbf38c75f30db5694270c9912927ca9279d9429340af7e6155f59a26f90c8d92"
+    },
+    {
+      "planche": 16,
+      "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2178915,
+      "sha256": "fdf4a2e664158ba009ee59a1e00785aa532db282b1210ddee3224dfac370120e"
+    },
+    {
+      "planche": 17,
+      "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
+      "dimensions": [
+        848,
+        1264
+      ],
+      "octets": 2038109,
+      "sha256": "63f00c3f6cd7ea404a25599f6c382e76c43edc0626ef460ed1d91d729956fbc0"
+    },
+    {
+      "planche": 18,
+      "fichier": "Planches-dessin/18-ecole-du-plaquage-dans-le-froid-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2414327,
+      "sha256": "8198b7206f53a62201de33ce1d4c12111242ef39bdeedc73f58683af90445a23"
+    },
+    {
+      "planche": 19,
+      "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2081361,
+      "sha256": "2bd68dc010fd9a9cc119e4553d52f3b6305712775ec924a3798534deaebb1b13"
+    },
+    {
+      "planche": 20,
+      "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2204836,
+      "sha256": "0f206699eed440f4ce1ebdddfadccdfc0f6d860df1c71fc1018e77383cb15b9c"
+    },
+    {
+      "planche": 21,
+      "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2042313,
+      "sha256": "a55ed11e40e61c6d6fa063fc5022e8035cb61e21931315c753008e48f4813d12"
+    },
+    {
+      "planche": 22,
+      "fichier": "Planches-dessin/22-le-soleil-de-mars-sur-la-motte-servolex-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2369179,
+      "sha256": "88cdcd9d8d7ee43d46c092e130d379066659e97898941f7b97397aae27df5457"
+    }
+  ]
+}

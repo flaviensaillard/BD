@@ -126,3 +126,14 @@ Six vignettes traitées séparément, avec le même extrait d'aplats/encrage du 
 - Réserves : les générations ne garantissent pas la fidélité pixel à pixel des visages, du lettrage ou des petits blasons. Certaines silhouettes lointaines conservent un traitement plus doux. Les cases sont rééchantillonnées dans le canevas original, pas générées nativement à sa résolution.
 
 **Prochaine planche : 13 — Hauts et bas de novembre (six vignettes).** Les pages 13–30 ne sont pas encore retraitées dans le style validé. Continuer sans nouveau changement de référence graphique et sans remplacer les originaux par des pages partielles.
+
+## Lot accéléré 13–22 — contrôle différé sur demande utilisateur
+
+Nouvelle consigne : générer toutes les pages restantes sans passer du temps en corrections intermédiaires ; l'utilisateur indiquera ensuite les pages à reprendre. Cette consigne remplace la méthode vignette par vignette pour ce lot.
+
+- **13 à 22 : générées et enregistrées en remplacement des fichiers principaux.** Une génération par page entière, à partir de chaque original ; témoin V2 validé joint systématiquement comme unique référence de style.
+- **Statut : à contrôler par l'utilisateur**, pas « conformes et validées ». Aucun audit visuel détaillé ni correction locale n'est annoncé pour ce lot.
+- Fichiers PNG et dimensions portrait contrôlés techniquement. Résolutions de sortie conservées, sans prétendre à un master A4 natif. Inventaire et empreintes : `validation/lot-13-22.json`.
+- Dix générations utilisées, limite du tour atteinte.
+- **23 à 30 : encore inchangées, à générer au prochain tour avec la même méthode.** Ne pas annoncer la série complète comme terminée avant cette dernière étape.
+- Les pages 00–12 ne sont pas modifiées dans ce lot.
