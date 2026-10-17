@@ -1,6 +1,8 @@
-# Restylage comics — prompt maître et contrôle
+# Restylage comics — prompt maître V2 : dessin intégral, sans semi-réalisme
 
 ## État
+
+La planche témoin `validation/01-la-legende-des-u6-temoin.png` est également REJETÉE : rendu trop semi-réaliste. Ne pas la réutiliser comme référence.
 
 Les rendus 01–10 du premier lot ne sont PAS validés : incohérences de style et dérives des visages/cheveux signalées par l'utilisateur. Ne pas les prendre comme références et ne pas poursuivre le lot sur cette base.
 
@@ -19,30 +21,34 @@ Tu effectues une ÉDITION DE STYLE d'une planche existante, pas une nouvelle int
 ### Hiérarchie non négociable
 
 - SOURCE fixe le nombre et l'ordre des cases, leur géométrie, les cadrages, le nombre de personnes, leurs positions, poses, regards, expressions, accessoires, décors, vêtements et couleurs locales.
-- IDENTITÉS fixe la morphologie de chaque personne : silhouette du visage, implantation et coupe des cheveux, nez, yeux, mâchoire, oreilles, pilosité, âge et teint. Ne pas remplacer ces personnes par des archétypes de héros.
+- IDENTITÉS, uniquement après association vérifiée et sans contredire les caractéristiques de SOURCE, précise la morphologie de chaque personne : silhouette du visage, implantation et coupe des cheveux, nez, yeux, mâchoire, oreilles, pilosité, âge et teint. Ne pas remplacer ces personnes par des archétypes de héros.
 - STYLE fixe uniquement la manière de dessiner et de mettre en couleur. Ne pas copier ses poses, sa disposition des personnages, ses tenues, son titre ou son éclairage nocturne dans SOURCE.
 - Aucun transfert d'identité entre deux personnages. Aucun remplacement d'un enfant par un autre. Aucun embellissement, vieillissement ou changement d'origine apparente.
 
-### Style unique : reproduire la couverture, pas un mélange de styles
+### Contrat graphique unique — à transmettre sans reformulation à chaque appel
 
-Même famille de contours noirs dessinés à la plume, épaisseur modulée et détails intérieurs fins. Même modelé dessiné des visages : volumes construits par ombres encrées, hachures fines directionnelles et transitions colorées maîtrisées. Même traitement des yeux, nez, bouches, oreilles et mèches que la couverture. Même niveau de simplification anatomique et de détail des tissus. Même trame d'impression fine et discrète ; pas de points grossiers sur les visages. Même logique de couleurs locales et de reflets, sans modifier la pigmentation ou les vêtements.
+DESSIN COMICS INTÉGRAL. Ce n'est ni une photographie stylisée, ni un portrait réaliste auquel on ajoute des contours, ni un compromis photo/BD. Reconstruire chaque surface par des formes dessinées, de l'encre et des aplats. La ressemblance vient des proportions et caractéristiques distinctives, PAS de textures photographiques. Les photographies d'identité ne donnent AUCUNE instruction de rendu.
 
-Rendu entièrement illustré et encré. Ni photo filtrée, ni photoréalisme résiduel, ni manga, ni cartoon, ni peinture numérique floue, ni rendu 3D. Ne pas mélanger ces traitements entre cases, personnages ou arrière-plans. Adapter la direction de la lumière à SOURCE sans inventer une nouvelle ambiance.
+1. ENCRAGE : contours noirs francs, modulés, continus et lisibles ; contours extérieurs plus forts que les détails intérieurs. Dessiner les traits du visage, les mains, les vêtements et les décors avec la même famille de traits. Ni contours extraits d'une photo, ni effet de seuil, ni contours vectoriels uniformes.
+2. VISAGES : plans graphiques clairement construits. Forme de l'œil, paupières, nez, lèvres et oreilles exprimée par des lignes et des masses d'ombre choisies. Pas de peau lissée à l'aérographe, pores, photographie recolorée, reflet humide de portrait studio ou modelé 3D. Ne pas exagérer les yeux, mâchoires ou muscles ; préserver les proportions propres à chaque personne.
+3. OMBRES : masses d'encre aux bords nets et ombres colorées découpées. Pour chaque matière, un aplat local dominant, une ombre principale et un accent lumineux éventuel. Les hachures dessinent les volumes là où nécessaire ; elles ne servent pas à masquer une photo. Ne pas compter la trame parmi ces niveaux de couleur.
+4. COULEURS : aplats propres et cohérents avec les couleurs locales originales. Rouge reste rouge, bleu reste bleu, blanc reste blanc ; préserver la pigmentation de chaque personne. Les ombres ne changent pas la carnation ou la couleur des cheveux. Pas de dégradés photographiques sur les visages, pas de rendu huile, aquarelle ou peinture numérique douce.
+5. CHEVEUX ET BARBES : même silhouette, implantation, longueur et couleur que SOURCE. Dessiner en mèches groupées avec noirs et réserves claires ; pas de fibres photographiques, pas de coiffure substituée, pas de pics ajoutés ou supprimés. Les zones grises ou rousses restent grises ou rousses.
+6. MATIÈRES ET DÉCORS : plis indiqués par lignes et masses encrées. Pelouse, arbres, ciel, ballon et stade entièrement dessinés, jamais un fond photo derrière des personnages dessinés. Pas de profondeur de champ photographique, de bokeh, de flou d'objectif ou de texture photo résiduelle.
+7. TRAME : fine trame d'impression discrète et uniforme, subordonnée au dessin. Aucun filtre de points appliqué sur une photo. Même échelle visuelle de trame sur l'ensemble de la page.
+8. CONTINUITÉ : même encreur et même coloriste supposés pour toutes les cases ET toutes les pages. Conserver exactement cette grammaire graphique dans les gros plans, plans de groupe et arrière-plans. Une scène triste, pluvieuse ou nocturne modifie la lumière et l'expression, jamais le style de dessin. Ne jamais choisir un style différent selon le sujet ou le cadrage.
 
-### Verrouillage des personnages
+STYLE reste la couverture fournie : prendre sa netteté d'encrage, ses ombres graphiques et son caractère de comics imprimé, PAS un traitement photographique de ses volumes. Ne pas reprendre sa mise en scène, ses costumes ou son titre. Si une reproduction littérale des dégradés de la couverture conduit à un visage semi-réaliste, privilégier le dessin encré et les ombres découpées demandés ici.
 
-Appliquer seulement les entrées correspondant aux personnes réellement présentes, avec leurs portraits joints :
+EXCLUSIONS ABSOLUES DE RENDU : semi-réalisme, photoréalisme, photo peinte, photo filtrée, photomontage, posterisation, peau aérographiée, sculpture 3D, éclairage de rendu 3D, peinture numérique douce, manga, cartoon caricatural. Ne pas confondre simplification graphique et modification de l'identité.
 
-- Léon : 6 ans ; cheveux châtains clairs, pics relevés sur le dessus ; yeux marron. Garder l'implantation, la longueur et le visage du portrait. Ne pas brunir, blondir ou lisser les pics.
-- Lyssandro : 6–7 ans ; cheveux châtains mi-longs, mèche souple sur le front vers la droite ; yeux verts/noisette clairs. Ne pas raccourcir en coupe d'Ayden.
-- Ayden : 6–7 ans ; cheveux blonds/châtains clairs courts vers l'avant ; yeux foncés. Ne pas foncer en brun ni ajouter les pics de Léon.
-- Nolann : 6–7 ans ; cheveux bruns très courts, petite frange courte ; teint mat/ensoleillé. Ne pas éclaircir sa peau ou ses cheveux.
-- Milo : 6–7 ans ; cheveux châtains lisses, frange sur le front. Ne pas ajouter de pics ni de boucles.
-- Flavien : adulte ; cheveux bruns courts avec mouvement sur le dessus ; barbe de trois jours/bouc finement taillé. Ne pas le grisonner ni lui donner la barbe de Julien ou Kilian.
-- Julien : adulte au gabarit solide ; cheveux courts poivre et sel, moustache et bouc gris/blancs. Ne pas rajeunir ni brunir ses cheveux ou sa barbe.
-- Kilian : adulte ; cheveux courts roux/blond vénitien, barbe rousse fournie. Ne pas changer le roux en brun ou blond neutre.
+### Verrouillage des personnes — résoudre les contradictions avant l'appel
 
-Les formulations ci-dessus complètent les portraits ; elles ne les remplacent pas. Conserver la carnation propre à CHAQUE portrait et les proportions faciales distinctives. Conserver les expressions de SOURCE, sans imposer le sourire du portrait.
+SOURCE fixe l'identité déjà représentée, les coiffures et leurs couleurs, les teints et les expressions. Ne pas remplacer une personne de SOURCE par une autre à cause d'un nom de fichier. Les descriptions de la charte et certains portraits nommés ont des divergences observées : ne pas transmettre aveuglément une liste nominative non vérifiée.
+
+Préparer pour chaque personne une fiche vérifiée : case et position, forme du visage, coupe et implantation, couleur des cheveux, teint, âge apparent, pilosité, tenue. Si son portrait est associé sans ambiguïté, le joindre pour les proportions distinctives seulement. Sinon ne pas joindre un portrait susceptible de provoquer une substitution ; utiliser SOURCE et signaler l'ambiguïté avant de lancer la génération. Conserver l'expression de SOURCE, pas nécessairement celle du portrait.
+
+Aucune permutation, aucun visage générique, aucun vieillissement, aucune modification de carnation. Le degré de stylisation doit être le même pour tous les visages, sans rendre les enfants ou les adultes plus photographiques que les autres.
 
 ### Vêtements, composition et texte
 
@@ -66,8 +72,8 @@ Renseigner AVANT d'envoyer le prompt (ne pas envoyer des champs vides) :
 1. Repartir des originaux, jamais des dix rendus contestés.
 2. Préparer une seule planche témoin et son annexe ; conserver le résultat comme candidat, sans écraser l'original.
 3. Contrôler côte à côte : source/candidat pour le contenu, portraits/candidat pour les identités, couverture/candidat pour le style.
-4. Rejeter si une case diffère de langage graphique, si une identité change, si les cheveux, le teint ou les couleurs de tenue dérivent. Un bon rendu global ne compense pas une erreur locale.
-5. Faire valider le témoin par l'utilisateur avant tout nouveau lot. Cette validation ne dispense pas de contrôler chaque planche suivante.
+4. Rejeter dès qu’un visage reste semi-réaliste, qu’un décor conserve un flou/une texture photographique, qu’une case diffère de langage graphique, si une identité change, si les cheveux, le teint ou les couleurs de tenue dérivent. Un bon rendu global ne compense pas une erreur locale.
+5. La répétition de ce prompt ne garantit pas la continuité : inspecter réellement chaque résultat, sans annoncer une conformité automatique. Faire valider le témoin par l'utilisateur avant tout nouveau lot. Cette validation ne dispense pas de contrôler chaque planche suivante.
 6. Ne remplacer les fichiers de livraison qu'après validation. Corriger localement un défaut plutôt que régénérer toute une page déjà conforme lorsque c'est possible.
 
 ## Limites à ne pas masquer
