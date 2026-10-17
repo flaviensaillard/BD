@@ -26,8 +26,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 ## Planches validées
 
-- [Planche 1 — La Légende des U6](planches/01-la-legende-des-u6.png) : lettrage corrigé et validé, harmonisé avec la planche 2. Réplique de Lyssandro rétablie, doublon supprimé, export A4 à 300 dpi sans régénération du dessin.
-- [Source de la planche 1](planches/01-source.png) et [script de lettrage](outils/lettrage/planche01.py) conservés pour les retouches (Pillow, NumPy, OpenCV headless ; police Kalam sous licence OFL fournie).
+- [Planche 1 — La Légende des U6, version photoréaliste sans texte](planches/01-la-legende-des-u6-realisme-sans-texte.png) : quatre vignettes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), à partir des portraits réels et des tenues RCM ; [source assemblée](planches/01-la-legende-des-u6-realisme-source.png) conservée.
 
 - [Planche 2 — Matin de rentrée à Saint-Sulpice](planches/02-matin-de-rentree.png) : lettrage corrigé et validé, dialogues rétablis sans doublons, export A4 à 300 dpi.
 - [Source graphique de la planche 2](planches/planches-02-source.png) et [script de lettrage](outils/lettrage/planche02.py) conservés pour les retouches ultérieures (Pillow ; police Kalam sous licence OFL fournie).
@@ -45,13 +44,11 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 - [Dessin source](planches/planches-04-source.png) et [script de lettrage](outils/lettrage/planche04.py) conservés pour les retouches.
 - [Version photoréaliste sans bulles ni lettrage narratif](planches/04-nouvelles-regles-realisme-sans-texte.png) : six vignettes en A4 portrait à 300 dpi, basées sur les huit portraits réels ; [source générée](planches/04-nouvelles-regles-realisme-source.png) conservée.
 
-## Contrainte pour les prochaines générations
+## Contrainte pour les prochaines planches photoréalistes
 
-- Préférence initiale de l'utilisateur : `gpt-image-2.5-sunburst`. L'outil disponible ne permet pas de sélectionner le modèle.
-- L'utilisateur autorise désormais l'utilisation de cet outil **pour toutes les prochaines planches, sans garantie sur le modèle utilisé**. Il n'est pas nécessaire de redemander cette autorisation à chaque page.
-- Les autres contraintes restent inchangées : deux propositions, couverture seule en référence visuelle, validation du dessin sans bulles, puis lettrage manuel harmonisé et validation finale.
-
-- Par défaut, un refus de proposition signifie que les personnages et la charte graphique ne sont pas respectés. Ne pas redemander le motif ; l’utilisateur précisera spontanément toute autre raison.
+- L'outil de génération peut être utilisé pour les planches à venir ; son modèle précis n'est pas sélectionnable.
+- Générer chaque vignette séparément, en photoréaliste, à partir des portraits de référence réels ; préserver les visages, âges et tenues conformes à la charte.
+- Assembler les vignettes en planche A4 portrait sans bulles ni texte narratif. Committer et pousser chaque planche terminée sans attendre une validation préalable.
 
 ## Planche 5 — dessin et lettrage validés
 
@@ -62,9 +59,9 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 ## Références visuelles — consigne actuelle
 
-- Pour toute nouvelle génération, utiliser **uniquement** `planches/00-couverture-source.png` (la couverture, référence de style et de continuité) **et les huit portraits PNG des personnages concernés** (`personnages/Léon.png`, `Lyssandro.png`, `Ayden.png`, `Nolann.png`, `Milo.png`, `Flavien.png`, `Julien.png`, `Kilian.png`) dans le paramètre `images`.
-- Ne plus joindre les autres planches comme références visuelles. Les fichiers existants restent conservés.
-- Les autres contraintes du scénario, du format A4, des deux propositions et du lettrage après validation restent inchangées.
+- Pour une planche photoréaliste, joindre les portraits photographiques réels (`personnages/* réel.jpg`) des personnages effectivement représentés dans la vignette. Ils déterminent l'identité des visages ; la couverture sans texte peut servir uniquement de référence de rendu photo et de continuité, pas de substitut aux portraits.
+- Respecter les tenues de la charte. Pour les joueurs RCM, utiliser le maillot blanc à bandes horizontales rouges et bleues, manches blanches, short bleu et chaussettes rayées rouge/bleu ; si un portrait montre une ancienne variante, suivre la charte et la référence de tenue correcte.
+- Ne pas joindre les autres planches comme références d'image.
 
 ## Planche 6 — dessin et lettrage validés
 
