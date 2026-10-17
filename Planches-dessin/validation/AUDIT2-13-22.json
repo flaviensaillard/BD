@@ -1,0 +1,346 @@
+{
+  "base": "ce33346",
+  "retouches": {
+    "13": [
+      {
+        "nom": "13-1-proportions",
+        "rectangle": [
+          24,
+          29,
+          825,
+          334
+        ],
+        "masque": null
+      },
+      {
+        "nom": "13-5-visages",
+        "rectangle": [
+          433,
+          589,
+          825,
+          817
+        ],
+        "masque": "Planches-dessin/validation/corrections-vignettes/audit2/13-5-visages-masque.png"
+      }
+    ],
+    "16": [
+      {
+        "nom": "16-5-proportions",
+        "rectangle": [
+          26,
+          952,
+          837,
+          1195
+        ],
+        "masque": null
+      },
+      {
+        "nom": "16-4-mains",
+        "rectangle": [
+          26,
+          551,
+          837,
+          938
+        ],
+        "masque": "Planches-dessin/validation/corrections-vignettes/audit2/16-4-mains-masque.png"
+      }
+    ],
+    "14": [
+      {
+        "nom": "14-3-visages",
+        "rectangle": [
+          25,
+          626,
+          442,
+          842
+        ],
+        "masque": "Planches-dessin/validation/corrections-vignettes/audit2/14-3-visages-masque.png"
+      }
+    ],
+    "21": [
+      {
+        "nom": "21-1-tete",
+        "rectangle": [
+          27,
+          27,
+          837,
+          481
+        ],
+        "masque": "Planches-dessin/validation/corrections-vignettes/audit2/21-1-tete-masque.png"
+      },
+      {
+        "nom": "21-2-mains",
+        "rectangle": [
+          27,
+          495,
+          425,
+          815
+        ],
+        "masque": "Planches-dessin/validation/corrections-vignettes/audit2/21-2-mains-masque.png"
+      }
+    ],
+    "18": [
+      {
+        "nom": "18-1-lumiere",
+        "rectangle": [
+          27,
+          27,
+          425,
+          250
+        ],
+        "masque": null
+      },
+      {
+        "nom": "18-2-lumiere",
+        "rectangle": [
+          439,
+          27,
+          837,
+          250
+        ],
+        "masque": null
+      },
+      {
+        "nom": "18-3-lumiere",
+        "rectangle": [
+          27,
+          263,
+          837,
+          605
+        ],
+        "masque": null
+      },
+      {
+        "nom": "18-4-lumiere",
+        "rectangle": [
+          27,
+          618,
+          837,
+          959
+        ],
+        "masque": null
+      },
+      {
+        "nom": "18-5-lumiere",
+        "rectangle": [
+          27,
+          973,
+          425,
+          1195
+        ],
+        "masque": null
+      },
+      {
+        "nom": "18-6-lumiere",
+        "rectangle": [
+          439,
+          973,
+          837,
+          1195
+        ],
+        "masque": null
+      }
+    ],
+    "19": [
+      {
+        "nom": "19-1-lumiere",
+        "rectangle": [
+          27,
+          89,
+          837,
+          543
+        ],
+        "masque": null
+      },
+      {
+        "nom": "19-2-lumiere",
+        "rectangle": [
+          27,
+          556,
+          425,
+          838
+        ],
+        "masque": null
+      },
+      {
+        "nom": "19-3-lumiere",
+        "rectangle": [
+          439,
+          556,
+          837,
+          838
+        ],
+        "masque": null
+      }
+    ]
+  },
+  "geometrie": [
+    {
+      "image": ".arena/audit13/13-1-final.png",
+      "native": [
+        1708,
+        624
+      ],
+      "cible": [
+        801,
+        305
+      ],
+      "contenu_redimensionne": [
+        801,
+        293
+      ],
+      "bandes_bord": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit13/16-5-fixed.png",
+      "native": [
+        1888,
+        560
+      ],
+      "cible": [
+        811,
+        243
+      ],
+      "contenu_redimensionne": [
+        811,
+        241
+      ],
+      "bandes_bord": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit2/13-5-fixed.png",
+      "native": [
+        1360,
+        784
+      ],
+      "cible": [
+        392,
+        228
+      ],
+      "contenu_redimensionne": [
+        392,
+        226
+      ],
+      "bandes_bord": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit2/14-3-fixed.png",
+      "native": [
+        1440,
+        736
+      ],
+      "cible": [
+        417,
+        216
+      ],
+      "contenu_redimensionne": [
+        417,
+        213
+      ],
+      "bandes_bord": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit2/16-4-fixed.png",
+      "native": [
+        1504,
+        704
+      ],
+      "cible": [
+        811,
+        387
+      ],
+      "contenu_redimensionne": [
+        811,
+        380
+      ],
+      "bandes_bord": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit2/21-1-fixed.png",
+      "native": [
+        1376,
+        768
+      ],
+      "cible": [
+        810,
+        454
+      ],
+      "contenu_redimensionne": [
+        810,
+        452
+      ],
+      "bandes_bord": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    },
+    {
+      "image": ".arena/audit2/21-2-fixed.png",
+      "native": [
+        1152,
+        926
+      ],
+      "cible": [
+        398,
+        320
+      ],
+      "contenu_redimensionne": [
+        398,
+        320
+      ],
+      "bandes_bord": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "methode": "Échelle uniforme ; pas de redimensionnement anisotrope."
+    }
+  ],
+  "lumiere": "18 et 19 : suppression du relumage génératif sombre ; retour aux pixels clairs de 2dc42ff sans nouveau filtre ni nouvelle génération pour la lumière.",
+  "reserves": [
+    "Les autres détails des figurants/lettrages ne sont pas certifiés.",
+    "17 conserve la fin de journée présente dans la source ; pas de voile nocturne ajouté dans cette passe.",
+    "Aucune correction des pages 23–30 ; elles restent à générer."
+  ],
+  "restauration_lumiere": {
+    "base": "2dc42ff",
+    "pages": [
+      18,
+      19
+    ]
+  }
+}

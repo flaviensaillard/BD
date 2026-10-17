@@ -1,5 +1,7 @@
 # Audit et corrections — planches 13 à 22
 
+> Historique de la première passe. Le relumage de 18/19 décrit ici a été jugé trop sombre et annulé lors du [second audit](AUDIT2-13-22.md), qui décrit l’état actuel et les réparations supplémentaires.
+
 Comparaison des dix pages du lot `2dc42ff` avec les originaux du commit `e0416a5` et avec le témoin V2 validé. Il s'agit d'une passe de contrôle et de correction, **pas d'une validation parfaite de chaque détail**. Les pages 23–30 restent inchangées.
 
 ## Résultats par page

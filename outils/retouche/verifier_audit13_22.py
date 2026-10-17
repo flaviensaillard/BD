@@ -21,6 +21,9 @@ def previous(path):
 def main():
     report = json.loads((ROOT / 'Planches-dessin/validation/audit-13-22.json').read_text())
     entries = {entry['page']: entry for entry in report['corrections']}
+    second_path = ROOT / 'Planches-dessin/validation/AUDIT2-13-22.json'
+    second = json.loads(second_path.read_text()) if second_path.exists() else {}
+    restored = second.get('restauration_lumiere', {}).get('pages', [])
     for n in range(13, 23):
         path = next((ROOT / 'Planches-dessin').glob(f'{n}-*.png'))
         old = previous(path.relative_to(ROOT))
@@ -30,6 +33,10 @@ def main():
         if n == 17:
             assert difference.getbbox() is None, '17 devait rester inchangée'
             print('OK 17 : inchangée')
+            continue
+        if n in restored:
+            assert difference.getbbox() is None, f'Restaurer la lumière claire de {BASE} : {n}'
+            print(f'OK {n} : relumage sombre annulé, identique à {BASE}')
             continue
         assert difference.getbbox() is not None, f'Aucune correction sur {n}'
         item = entries[n]
@@ -49,6 +56,17 @@ def main():
             boxes = item.get('zones') or [item['zone']]
             for box in boxes:
                 difference.paste((0, 0, 0), tuple(box))
+            # Additional repairs from the second audit are allowed only inside
+            # their recorded masks (not everywhere in their context panel).
+            for correction in second.get('retouches', {}).get(str(n), []):
+                box = tuple(correction['rectangle'])
+                if correction.get('masque'):
+                    mask = Image.open(ROOT / correction['masque']).convert('L')
+                    keep = mask.point(lambda v: 255 if v == 0 else 0)
+                    local = Image.composite(difference.crop(box), Image.new('RGB', mask.size), keep)
+                    difference.paste(local, box[:2])
+                else:
+                    difference.paste((0, 0, 0), box)
             assert difference.getbbox() is None, f'Changement hors zones : {n}'
         print(f'OK {n} : dimensions et pixels hors zones conservés')
 

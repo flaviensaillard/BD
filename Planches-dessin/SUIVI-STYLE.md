@@ -147,3 +147,13 @@ Corrections : météo de 13/1, fond de 14/1, teinte des cheveux du garçon sur 1
 Dix générations utilisées, certaines écartées ou reprises. Pour 20, les sorties générées n'ont pas été utilisées pour les joueurs : seul le terrain de la zone de suppression est reconstitué. Contrôles reproductibles avec `outils/retouche/verifier_audit13_22.py` : dimensions et pixels hors cases/masques conservés ; page 17 inchangée. Tests passés sur les dix pages. Ils ne prouvent pas la fidélité des détails à l'intérieur des zones générées.
 
 23–30 : toujours à générer ; aucune de ces pages n'est modifiée par cet audit. Pas de déclaration de conformité globale des pages 13–22 à ce stade.
+
+## Second audit 13–22 — déformations et excès nocturne
+
+Signalement utilisateur confirmé : le relumage précédent de 18/19 était trop sombre. Il est annulé ; ces deux pages retrouvent exactement les pixels clairs du lot `2dc42ff`, sans nouveau filtre ni régénération. La fidélité finale au crépuscule source reste une réserve, pas une validation acquise.
+
+Six fichiers corrigés : 13, 14, 16, 18, 19, 21. Réparations masquées de visages sur 13/5, 14/3 et 21/1, mains sur 16/4 et 21/2 ; remontage sans étirement sur 13/1 et 16/5. Les candidats générés ne sont intégrés qu’à l’intérieur des masques utiles, pour éviter leurs changements parasites de regards, de blasons ou de personnes.
+
+Cinq générations utilisées. Deux contrôles reproductibles : `outils/retouche/verifier_audit2_13_22.py` et le contrôle cumulatif `verifier_audit13_22.py`. Dimensions, pixels hors zones/masques, régions de visages/maillots protégées et restaurations de lumière contrôlés. **Ils ne certifient pas les identités ou l’anatomie générées.**
+
+Bilan détaillé et réserves : `validation/AUDIT2-13-22.md`. Comparatif : `validation/AUDIT2-AVANT-APRES.jpg`. Réserves encore ouvertes : neige/givre, météo de certaines cases de 13, petits détails et fonds trop photographiques, notamment 16/5 et 22/5. **23–30 restent à générer. Pas de validation globale de 13–22.**
