@@ -1,0 +1,66 @@
+{
+  "corrections_integrees": [
+    {
+      "planche": 3,
+      "vignette": 5,
+      "rectangle_pixels": [
+        32,
+        652,
+        832,
+        1189
+      ]
+    },
+    {
+      "planche": 5,
+      "vignette": 2,
+      "rectangle_pixels": [
+        20,
+        511,
+        426,
+        840
+      ]
+    },
+    {
+      "planche": 6,
+      "vignette": 2,
+      "rectangle_pixels": [
+        20,
+        515,
+        426,
+        848
+      ]
+    },
+    {
+      "planche": 6,
+      "vignette": 3,
+      "rectangle_pixels": [
+        440,
+        515,
+        845,
+        848
+      ]
+    },
+    {
+      "planche": 8,
+      "vignette": 3,
+      "rectangle_pixels": [
+        440,
+        511,
+        845,
+        840
+      ]
+    },
+    {
+      "planche": 8,
+      "vignette": 5,
+      "rectangle_pixels": [
+        440,
+        854,
+        845,
+        1183
+      ]
+    }
+  ],
+  "verification": "Dimensions conservées ; différence pixel à pixel nulle hors des rectangles listés.",
+  "planche_09": "Deux candidats séparés conservés, vignettes 2 et 3 rejetées ; fichier principal inchangé."
+}
