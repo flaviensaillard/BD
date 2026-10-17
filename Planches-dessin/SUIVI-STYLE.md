@@ -98,3 +98,18 @@ Les masques blancs de conservation sont enregistrés dans `outils/retouche/masqu
 Référence de comparaison : commit `0106661`. Rapport : `validation/corrections-vignettes/controle-passe-3.json`.
 
 Ce test ne certifie ni une découpe sémantique parfaite des silhouettes ni une homogénéité absolue de tous les détails. Les petits logos et textes, certains figurants lointains et les écarts de modelé restent à examiner au besoin. Aucune page 11–30 n'a été traitée pendant cette passe.
+
+## Reprise des nouvelles pages après validation utilisateur
+
+L'utilisateur a validé la passe sur 07 et autorisé la suite.
+
+### Planche 11 — Diagnostic sous la pluie
+
+- Cinq vignettes extraites séparément des originaux, redessinées avec le même extrait d'encrage/aplats du témoin V2 validé, puis assemblées.
+- Les photographies et les portraits contradictoires du dépôt ne sont pas joints : SOURCE fixe les identités et les vêtements ; la référence fixe seulement le rendu graphique.
+- Premier essai de la vignette 2 rejeté car le cadrage était trop large et coupait le coach à la taille ; deuxième essai intégré avec le cadrage corrigé.
+- Ambiance grise et humide, scène sous abri, tableaux, gestes et variantes de tenues conservés dans les consignes et vérifiés visuellement. Pas d'import de coureurs ou de pose du témoin.
+- Canvas original **2480 × 3508** conservé, avec cinq cases aux mêmes coordonnées ; pixels de marges, bordures et gouttières vérifiés inchangés. Rapport : `validation/corrections-vignettes/controle-planche-11.json`.
+- Réserve : les petits blasons, sponsors et détails des diagrammes générés peuvent varier. L'intérieur des cases n'est pas une conservation pixel à pixel. Les vignettes sont rééchantillonnées au canevas d'origine, pas générées nativement en A4 à 300 dpi.
+
+La prochaine planche complète à traiter est **12 — Travail dans la boue**, à six vignettes. Les pages 12–30 ne sont pas encore retraitées avec la référence validée. La méthode reste vignette par vignette avec contrôle et correction avant assemblage, plutôt qu'un lot de pages entières non contrôlées.

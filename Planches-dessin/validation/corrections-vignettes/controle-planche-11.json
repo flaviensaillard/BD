@@ -1,0 +1,84 @@
+{
+  "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
+  "source_commit": "7c3d1d6",
+  "reference_style": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png (extrait encrage/aplats utilisé, sans visage à importer)",
+  "dimensions_page": [
+    2480,
+    3508
+  ],
+  "vignettes": [
+    {
+      "vignette": "11-1",
+      "rectangle": [
+        56,
+        112,
+        2424,
+        1427
+      ],
+      "dimensions_generation": [
+        1376,
+        768
+      ],
+      "ecart_rapport_aspect": 0.00505
+    },
+    {
+      "vignette": "11-2",
+      "rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "dimensions_generation": [
+        1152,
+        928
+      ],
+      "ecart_rapport_aspect": 0.00929
+    },
+    {
+      "vignette": "11-3",
+      "rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "dimensions_generation": [
+        1141,
+        928
+      ],
+      "ecart_rapport_aspect": 0.00035
+    },
+    {
+      "vignette": "11-4",
+      "rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "dimensions_generation": [
+        1141,
+        928
+      ],
+      "ecart_rapport_aspect": 0.00035
+    },
+    {
+      "vignette": "11-5",
+      "rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "dimensions_generation": [
+        1141,
+        928
+      ],
+      "ecart_rapport_aspect": 0.00035
+    }
+  ],
+  "controle": "Pixels de bordures, marges et gouttières identiques à la source ; 5 vignettes, emplacement inchangé.",
+  "limite_resolution": "Sorties générées entre 768 et 928 px de haut, rééchantillonnées dans le canevas original ; pas une génération native 2480 × 3508.",
+  "reserve": "Les petits blasons, sponsors et détails du diagramme restent susceptibles de varier ; contrôle visuel de fidélité sans garantie pixel à pixel dans les cases."
+}
