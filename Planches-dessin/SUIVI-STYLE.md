@@ -75,3 +75,26 @@ Comparaison visuelle des originaux et des sorties courantes 00–10, y compris l
 ### Rejets et points encore ouverts
 
 Deux essais de simplification des fonds de 07 (vignettes 2 et 6) ont été écartés : des expressions/détails de premier plan ont dérivé. Le fichier 07 n'a pas été remplacé. Préférer une correction avec masque limité aux fonds pour ne pas toucher aux visages. Ne pas déclarer toute la série parfaitement homogène : il reste des nuances de traitement, et les petits logos/lettrages générés ne sont pas fiabilisés. La planche 01 validée par l'utilisateur reste inchangée malgré son écart d'expression déjà signalé avant validation. Les pages 11–30 restent suspendues.
+
+## Troisième passe — fonds de 07 corrigés par masques
+
+Cette section remplace le statut « fonds de 07 en attente » pour les feuillages des vignettes 2 et 6.
+
+- **07, vignette 2** : feuillage supérieur remplacé par un fond dessiné en aplats et contours encrés. Les quatre joueurs et le ballon proviennent du fichier précédent, pas d'une nouvelle génération des personnages.
+- **07, vignette 6** : feuillage supérieur remplacé de la même manière ; coachs, joueurs, ballon et figurants conservés par détourage et masques.
+- Le terrain, les marquages et la clôture restent inchangés. Les petits spectateurs lointains de la vignette 2 sont conservés, y compris leur rendu moins net ; leur flou résiduel n'est donc pas annoncé comme corrigé.
+- Les deux premières plaques de fond et les premiers détourages ont été écartés après inspection (raccords trop visibles). Seuls les composites finaux sont intégrés.
+
+### Contrôles reproductibles
+
+Les masques blancs de conservation sont enregistrés dans `outils/retouche/masques/`. Les zones protégées réutilisent les pixels de la version précédente, pour ne pas échanger les identités, cheveux, couleurs de peau, tenues ou expressions.
+
+`PYTHONPATH=.arena/vendor python outils/retouche/verifier_planche07.py` dans l'environnement de cette session (ou `python outils/retouche/verifier_planche07.py` avec Pillow installé) vérifie :
+
+1. les dimensions inchangées ;
+2. la différence nulle sur tous les pixels protégés ;
+3. la différence nulle en dehors des deux vignettes autorisées.
+
+Référence de comparaison : commit `0106661`. Rapport : `validation/corrections-vignettes/controle-passe-3.json`.
+
+Ce test ne certifie ni une découpe sémantique parfaite des silhouettes ni une homogénéité absolue de tous les détails. Les petits logos et textes, certains figurants lointains et les écarts de modelé restent à examiner au besoin. Aucune page 11–30 n'a été traitée pendant cette passe.

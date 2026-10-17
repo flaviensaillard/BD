@@ -1,0 +1,31 @@
+{
+  "commit_avant": "0106661",
+  "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
+  "controles": [
+    {
+      "vignette": "07-2",
+      "rectangle": [
+        21,
+        394,
+        425,
+        602
+      ],
+      "masque": "outils/retouche/masques/07-2-protege.png",
+      "verification": "Différence pixel nulle sur le masque de conservation."
+    },
+    {
+      "vignette": "07-6",
+      "rectangle": [
+        21,
+        844,
+        843,
+        1183
+      ],
+      "masque": "outils/retouche/masques/07-6-protege.png",
+      "verification": "Différence pixel nulle sur le masque de conservation."
+    }
+  ],
+  "hors_vignettes": "Pixels identiques",
+  "dimensions": "864 × 1222 inchangées",
+  "reserve": "Les petits spectateurs lointains conservent leur rendu précédent ; pas de validation exhaustive de toute la série."
+}
