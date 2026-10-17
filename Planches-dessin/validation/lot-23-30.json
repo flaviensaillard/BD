@@ -1,0 +1,95 @@
+{
+  "lot": "23–30",
+  "base": "fa1baf0",
+  "statut": "Générées ; contrôle détaillé différé à la demande utilisateur. Pas de validation de conformité définitive.",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "methode": "Une génération de page entière par original du dépôt e0416a5, témoin V2 joint systématiquement ; aucune reprise intermédiaire. Sorties natives conservées sans étirement.",
+  "limites": "Visages, anatomie, petits logos, textes, géométrie et décors générés restent à contrôler. Pas de master A4 natif à 300 dpi.",
+  "reste_a_generer": [],
+  "fichiers": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2303324,
+      "sha256": "677dc59a0a83a7e167626c6f961187042b02c8bc5742b5ae283349766ad9a70d"
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2410783,
+      "sha256": "3257444ec8c99dab97b8068161b141b5c2c9f1db1a52d5f4b98b12d91a819ee9"
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2357283,
+      "sha256": "f04ef68a33e42e3f9144cf13ef8e25ff9c7d08d7190177d91b0a3dd1a827688f"
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2263388,
+      "sha256": "6db91068826f5982890e647c94abef20867f1332f7edd25187ed1dda4fb4e520"
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2116007,
+      "sha256": "3e75d69306fb489dd21afaa22bb352a0f62cbacba1ee7950491744abe26cc6a3"
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2508992,
+      "sha256": "d95ffbfea17455568db3d89b5d4584eeaf2707f734ddaf3e274b275fab50ea50"
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2132567,
+      "sha256": "66b20514ca0d1c1eb05d5a773630a53a2357b4f02ec29b8c0e63aa28851bc8a4"
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2195767,
+      "sha256": "a1ed9c79f2f522808988ad006042fffd6b31ed801c529417593caafb91f64bb0"
+    }
+  ],
+  "points_a_controler": [
+    "30 : groupes et accessoires dérivés, notamment quatre coachs au lieu de trois et ballon tenu par le fils plutôt que son père dans la dernière case.",
+    "Contrôle détaillé des identités, proportions, nombres de personnes et décors sur les huit pages non effectué. Certaines textures de fond restent à examiner."
+  ]
+}

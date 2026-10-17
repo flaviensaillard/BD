@@ -157,3 +157,16 @@ Six fichiers corrigés : 13, 14, 16, 18, 19, 21. Réparations masquées de visag
 Cinq générations utilisées. Deux contrôles reproductibles : `outils/retouche/verifier_audit2_13_22.py` et le contrôle cumulatif `verifier_audit13_22.py`. Dimensions, pixels hors zones/masques, régions de visages/maillots protégées et restaurations de lumière contrôlés. **Ils ne certifient pas les identités ou l’anatomie générées.**
 
 Bilan détaillé et réserves : `validation/AUDIT2-13-22.md`. Comparatif : `validation/AUDIT2-AVANT-APRES.jpg`. Réserves encore ouvertes : neige/givre, météo de certaines cases de 13, petits détails et fonds trop photographiques, notamment 16/5 et 22/5. **23–30 restent à générer. Pas de validation globale de 13–22.**
+
+## Dernier lot 23–30 — pages entières, contrôle différé
+
+Après accord utilisateur sur la poursuite, **les huit dernières pages 23 à 30 sont générées et remplacent les fichiers principaux**. Une génération par page entière, original `e0416a5` et témoin V2 approuvé joints à chacun des huit appels. Pas de reprise intermédiaire ni de changement de référence. Aucune modification des fichiers principaux 00–22 (comparaison binaire avec `fa1baf0`).
+
+- Sources utilisées telles que présentes avant ce lot, sans réutiliser une page déjà restylée comme contenu.
+- Sorties PNG natives conservées sans étirement, majoritairement 864 × 1232, page 27 : 864 × 1222. Ce n'est pas un master A4 à 300 dpi.
+- Consignes renforcées sur les enfants U6, les couleurs, les mains, l'éclairage diurne et les décors dessinés. La présence de ces consignes ne garantit pas leur respect.
+- Vérification technique : huit PNG lisibles, dimensions portrait, empreintes enregistrées et pages 00–22 inchangées. **Pas de validation de fidélité des visages, du nombre de personnes, du style ou des petits détails.**
+- Un aperçu de livraison a été regardé, sans audit case par case ni reprise. Point manifeste à contrôler en priorité : **30**, dont les groupes et accessoires ont dérivé (quatre coachs au lieu des trois de la source dans la case correspondante ; ballon déplacé vers l'enfant dans la dernière case). Ce candidat reste à corriger/valider, pas annoncé conforme. D'autres écarts peuvent subsister sur les huit pages, notamment les fonds encore photographiques ou les identités.
+- Inventaire : `validation/lot-23-30.json`. Aperçu : `validation/lot-23-30-apercu.jpg`.
+
+**Couverture et pages 01–30 ont maintenant toutes une version restylée. Aucune page ne reste à générer ; cela ne signifie pas que toute la BD est validée. Le contrôle détaillé de 23–30 est différé, conformément à la demande.**
