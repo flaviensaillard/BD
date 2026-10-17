@@ -28,7 +28,7 @@ Comics de 30 pages (style Marvel / DC Comics) créé pour **Léon** (6 ans), sui
 
 - [Planche 1 — La Légende des U6, version photoréaliste sans texte](planches/01-la-legende-des-u6-realisme-sans-texte.png) : quatre vignettes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), à partir des portraits réels et des tenues RCM ; [source assemblée](planches/01-la-legende-des-u6-realisme-source.png) conservée.
 
-- [Planche 2 — Matin de rentrée à Saint-Sulpice, version photoréaliste sans texte](planches/02-matin-de-rentree-realisme-sans-texte.png) : cinq vignettes générées séparément puis assemblées en A4 portrait (2480 × 3508 px, 300 dpi), avec Léon et Flavien en tenues civiles et sans montrer les autres membres de la famille ; [source assemblée](planches/02-matin-de-rentree-realisme-source.png) conservée.
+- [Planche 2 — Matin de rentrée à Saint-Sulpice, version photoréaliste sans texte](planches/02-matin-de-rentree-realisme-sans-texte.png) : cinq vignettes assemblées en A4 portrait (2480 × 3508 px, 300 dpi). La vignette 1 reprend la photo originale de la maison, intégrée sans régénération ; dans les vignettes 3 et 4, Léon est attaché à l'arrière et Flavien conduit à l'avant, volant à gauche. Tenues civiles à la maison et en voiture, sans représenter les autres membres de la famille ; [source assemblée](planches/02-matin-de-rentree-realisme-source.png) conservée.
 - La source graphique historique ([planches/planches-02-source.png](planches/planches-02-source.png)) et le script de lettrage associé ([outils/lettrage/planche02.py](outils/lettrage/planche02.py)) restent disponibles.
 
 ## Planche 3 — dessin et lettrage validés
