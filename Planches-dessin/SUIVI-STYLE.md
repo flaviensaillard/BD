@@ -1,15 +1,23 @@
 # Harmonisation du style comics
 
-Référence commune : `00-couverture-marvel.png`, identique à l'exemple fourni.
+## Référence validée par l'utilisateur
 
-## Lot du 17 octobre 2026
+`validation/01-la-legende-des-u6-temoin-v2.png` : style validé et planche 1 reprise à l'identique dans le dossier principal. Cette image est désormais la référence graphique commune, y compris pour la couverture. Les premiers rendus et le témoin V1 ne sont pas des références de style.
 
-- Planches 01 à 10 : redessinées à partir des fichiers existants, avec la couverture comme référence de style à chaque génération.
-- Planches 11 à 30 : inchangées, à traiter dans les lots suivants (limite de dix générations atteinte).
-- Couverture : conservée sans modification.
+## Lot courant
 
-Consigne commune : encrage de comics américains, visages modelés, hachures fines, trames discrètes ; conserver découpage, scènes, identités, âges, teints, couleurs des cheveux et des vêtements, objets et textes existants. Aucun ajout narratif.
+- 00 : couverture redessinée avec le témoin V2 comme référence.
+- 01 : témoin V2 validé, copié sans modification.
+- 02–08 et 10 : nouvelles sorties générées à partir des originaux avec le même témoin V2 joint à chaque appel. Contrôle détaillé des identités et du contenu encore nécessaire ; génération ne signifie pas validation définitive.
+- 09 : nouvelle sortie rejetée au contrôle pour ajout de trois enfants empruntés à la référence dans la dernière case. Candidat isolé dans `validation/09-colere-et-larmes-a-corriger.png`. Le fichier principal 09 conserve provisoirement sa version précédente, qui n'est PAS conforme au nouveau style validé.
+- 11–30 : pas encore retraitées avec le style validé.
 
-Les générations ne garantissent pas une identité pixel à pixel : contrôler visuellement les visages et les petits logos avant validation définitive. Les nouveaux fichiers sont des sorties de génération, pas des masters A4 natifs à 300 dpi.
+Dix générations effectuées ce tour : couverture et pages 02–10. Continuer par la correction de 09 et les pages suivantes au prochain lot.
 
-Branche de livraison de cette session : `arena/da207e49-bd`. La branche `arena/a43899a7-bd` n'a pas été modifiée.
+## Contrôle et limites
+
+Conserver découpage, identités, teints, coiffures, expressions, couleurs des tenues et objets. La référence sert uniquement au rendu graphique, jamais à importer ses personnages, poses ou scènes. Vérifier ce risque explicitement pour chaque sortie.
+
+Des variations de visages, de lettrage et de petits logos restent possibles. Les exports générés ne sont pas des masters A4 natifs à 300 dpi. Ne pas annoncer une fidélité parfaite sur la seule base du prompt.
+
+Branche de livraison : `arena/da207e49-bd`. La branche `arena/a43899a7-bd` n'a pas été modifiée.

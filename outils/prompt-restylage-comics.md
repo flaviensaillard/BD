@@ -79,3 +79,9 @@ Renseigner AVANT d'envoyer le prompt (ne pas envoyer des champs vides) :
 ## Limites à ne pas masquer
 
 Un prompt ne verrouille ni une identité ni le rendu pixel à pixel. L'outil disponible n'expose pas de verrouillage de seed, de modèle, de poids de style ou de contrôle structurel strict. Les textes et petits logos peuvent être déformés. Si les sorties ne passent pas le contrôle, ne pas les annoncer comme fidèles : une retouche locale ou un travail d'encrage manuel peut être nécessaire. Ne pas promettre une homogénéité parfaite sur la seule base de ces instructions.
+
+## Décision utilisateur et référence désormais applicable
+
+L'utilisateur a validé le témoin V2 : `Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png`. Ce fichier remplace la couverture initiale comme autorité de STYLE pour les générations suivantes, couverture comprise. Sa validation porte sur le rendu choisi ; les erreurs d'expression signalées n'autorisent pas leur propagation. Les références à la couverture comme référence de style dans les sections historiques ci-dessus sont remplacées par cette décision.
+
+Ne pas importer dans une autre planche les trois enfants qui courent, les médailles ou les expressions du témoin. Une telle contamination a été observée sur la sortie 09 et impose son rejet. Les photos ne sont pas jointes par défaut pour éviter le retour au rendu photographique ; la source originale conserve l'autorité sur les personnes.
