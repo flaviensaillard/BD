@@ -113,3 +113,16 @@ L'utilisateur a validé la passe sur 07 et autorisé la suite.
 - Réserve : les petits blasons, sponsors et détails des diagrammes générés peuvent varier. L'intérieur des cases n'est pas une conservation pixel à pixel. Les vignettes sont rééchantillonnées au canevas d'origine, pas générées nativement en A4 à 300 dpi.
 
 La prochaine planche complète à traiter est **12 — Travail dans la boue**, à six vignettes. Les pages 12–30 ne sont pas encore retraitées avec la référence validée. La méthode reste vignette par vignette avec contrôle et correction avant assemblage, plutôt qu'un lot de pages entières non contrôlées.
+
+## Planche 12 — Travail dans la boue
+
+Six vignettes traitées séparément, avec le même extrait d'aplats/encrage du témoin V2 validé. La page complète remplace maintenant le fichier principal 12.
+
+- Contrôle de chaque sortie contre son original avant assemblage.
+- Reprises : vignette 2 (fond encore photographique), vignette 3 (traitement du coach et du décor), vignette 6 (premier cadrage coupant la tête du coach, puis fond trop photographique).
+- Dix générations utilisées ce tour : six premières sorties et quatre reprises. Aucun nouveau fichier de planche 13 livré ; son original reste inchangé.
+- Six cases aux mêmes emplacements, canevas 2480 × 3508 conservé ; pixels de bordures, marges et gouttières strictement inchangés, contrôlés par différence pixel à pixel. Écart de rapport largeur/hauteur inférieur à 1 % pour chaque vignette intégrée.
+- Rapport : `validation/corrections-vignettes/controle-planche-12.json`.
+- Réserves : les générations ne garantissent pas la fidélité pixel à pixel des visages, du lettrage ou des petits blasons. Certaines silhouettes lointaines conservent un traitement plus doux. Les cases sont rééchantillonnées dans le canevas original, pas générées nativement à sa résolution.
+
+**Prochaine planche : 13 — Hauts et bas de novembre (six vignettes).** Les pages 13–30 ne sont pas encore retraitées dans le style validé. Continuer sans nouveau changement de référence graphique et sans remplacer les originaux par des pages partielles.

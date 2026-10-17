@@ -1,0 +1,99 @@
+{
+  "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
+  "source_commit": "fcbea636a734cea03c7c2c6425dc07ef34820dc3",
+  "reference_style": "01-la-legende-des-u6-temoin-v2.png, extrait des aplats/encrage sans visage",
+  "dimensions_page": [
+    2480,
+    3508
+  ],
+  "generations": 10,
+  "vignettes": [
+    {
+      "vignette": 1,
+      "rectangle": [
+        76,
+        75,
+        2405,
+        1065
+      ],
+      "dimensions_generation": [
+        1584,
+        672
+      ],
+      "ecart_ratio": 0.00196
+    },
+    {
+      "vignette": 2,
+      "rectangle": [
+        76,
+        1106,
+        1220,
+        1735
+      ],
+      "dimensions_generation": [
+        1392,
+        768
+      ],
+      "ecart_ratio": 0.00344
+    },
+    {
+      "vignette": 3,
+      "rectangle": [
+        1255,
+        1106,
+        2405,
+        1735
+      ],
+      "dimensions_generation": [
+        1392,
+        768
+      ],
+      "ecart_ratio": 0.00864
+    },
+    {
+      "vignette": 4,
+      "rectangle": [
+        76,
+        1775,
+        1220,
+        2404
+      ],
+      "dimensions_generation": [
+        1392,
+        768
+      ],
+      "ecart_ratio": 0.00344
+    },
+    {
+      "vignette": 5,
+      "rectangle": [
+        1255,
+        1775,
+        2405,
+        2404
+      ],
+      "dimensions_generation": [
+        1392,
+        768
+      ],
+      "ecart_ratio": 0.00864
+    },
+    {
+      "vignette": 6,
+      "rectangle": [
+        76,
+        2442,
+        2405,
+        3433
+      ],
+      "dimensions_generation": [
+        1584,
+        672
+      ],
+      "ecart_ratio": 0.00297
+    }
+  ],
+  "controle": "Dimensions conservées ; pixels hors des six cases strictement identiques.",
+  "reprises": "Case 2 fond photographique ; case 3 coach et décor ; case 6 cadrage puis fond.",
+  "limites": "Vignettes générées à résolution inférieure et rééchantillonnées. Petits logos/textes et détails de visages à vérifier, aucune garantie pixel à pixel dans les cases."
+}
