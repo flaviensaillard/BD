@@ -25,7 +25,7 @@ def main():
             return old_image(historical, path)
         return Image.open(path).convert('RGB')
     if historical:
-        print(f'Vérification historique première passe : {historical} ; puis seconde passe actuelle.')
+        print(f'Vérification historique première passe : {historical} ; puis contrôles des passes suivantes.')
     for n in range(31):
         path = next((ROOT / 'Planches-dessin').glob(f'{n:02}-*.png'))
         old, new = old_image(plan['base'], path), delivered(path)

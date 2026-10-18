@@ -8,6 +8,7 @@ from pathlib import Path
 import hashlib
 import json
 import subprocess
+import sys
 from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -20,9 +21,15 @@ def previous(ref, path):
 
 def main():
     plan = json.loads((ROOT / 'Planches-dessin/validation/AUDIT2-23-30.json').read_text())
+    third = ROOT / 'Planches-dessin/validation/AUDIT3-23-30.json'
+    historical = json.loads(third.read_text())['base'] if third.exists() else None
+    def delivered(path):
+        return previous(historical, path) if historical else Image.open(path).convert('RGB')
+    if historical:
+        print(f'Vérification historique seconde passe : {historical}')
     for n in range(31):
         path = next((ROOT / 'Planches-dessin').glob(f'{n:02}-*.png'))
-        old, new = previous(plan['base'], path), Image.open(path).convert('RGB')
+        old, new = previous(plan['base'], path), delivered(path)
         assert old.size == new.size, f'Dimensions {n}'
         changes = [c for c in plan['corrections'] if c['page'] == n]
         diff = ImageChops.difference(old, new)
@@ -44,7 +51,7 @@ def main():
         assert diff.getbbox() is None, f'Pixels hors zones/masques {n}'
         print(f'OK {n:02} : dimensions, changements autorisés, régions protégées')
     for e in plan['fichiers_apres']:
-        raw = (ROOT / e['fichier']).read_bytes()
+        raw = subprocess.check_output(['git', 'show', f"{historical}:{e['fichier']}"], cwd=ROOT) if historical else (ROOT / e['fichier']).read_bytes()
         assert len(raw) == e['octets']
         assert hashlib.sha256(raw).hexdigest() == e['sha256']
         with Image.open(BytesIO(raw)) as im:
@@ -55,13 +62,16 @@ def main():
         assert abs(rw/w - rh/h) <= 1/min(w, h), g
     # All other four cases and the restored frame of 30 are unchanged.
     path = next((ROOT / 'Planches-dessin').glob('30-*.png'))
-    assert ImageChops.difference(previous(plan['base'], path).crop((0,379,864,1232)), Image.open(path).convert('RGB').crop((0,379,864,1232))).getbbox() is None
+    assert ImageChops.difference(previous(plan['base'], path).crop((0,379,864,1232)), delivered(path).crop((0,379,864,1232))).getbbox() is None
     # Portrait candidate's invented coach jacket must not replace the rugby jersey.
     path = next((ROOT / 'Planches-dessin').glob('29-*.png'))
     box = (439, 337, 837, 376)  # local y >=274, below the edited head
-    assert ImageChops.difference(previous(plan['base'], path).crop(box), Image.open(path).convert('RGB').crop(box)).getbbox() is None
+    assert ImageChops.difference(previous(plan['base'], path).crop(box), delivered(path).crop(box)).getbbox() is None
     print('OK : empreintes, échelle uniforme, autres cases de 30 et bas du maillot de 29 protégés')
-    print('Réserve ouverte : ' + '; '.join(plan['a_reprendre']))
+    if historical:
+        sys.stdout.flush()
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_audit3_23_30.py')], check=True)
+    print('Réserve historique de cette passe : ' + '; '.join(plan['a_reprendre']))
     print('Ces tests ne certifient pas le dessin ou les ressemblances.')
 
 

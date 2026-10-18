@@ -201,3 +201,15 @@ Dix générations produites, huit utilisées en tout ou partie, deux premiers es
 Rapport actuel : `validation/AUDIT2-23-30.md` et `AUDIT2-23-30.json`. Comparatif : `AUDIT2-23-30-AVANT-APRES.jpg`. Contrôles passés : dimensions et régions hors zones/masques, régions protégées, empreintes, autres cases de 30 et bas du maillot de 29. Ils ne certifient pas le dessin ni les ressemblances.
 
 **Reste ciblé : 23/3, fond principal**, plus les réserves antérieures sur les petits figurants, les identités/anatomies fines, la maison de 30/4 et les logos/lettrages. Quelques textures initiales sont volontairement conservées dans les zones protégées de 23. Pas de validation globale de la série.
+
+## Troisième passe 23–30 — quatre corrections locales supplémentaires
+
+Base `21e6081` ; quatre pages modifiées : **23, 24, 27, 30**. Les autres pages restent identiques.
+
+- **23/3 :** fond principal montagne/végétation repris par masque, au-delà des arbres gauches ; acteurs, architecture masquée et terrain protégés. Pas de reprise de l'ancienne tribune rejetée.
+- **24/5 :** fond haut dessiné ; personnages et maison conservés. Bas du décor encore doux : correction partielle. Essai d'aplats d'herbe retiré car trop pixellisé.
+- **27/1 :** grands chiffres « 77 » inventés supprimés localement, sans régénérer les joueurs ni inventer de rayures/blason.
+- **30/4 :** pignon gauche et petit balcon rétablis, veste brune et cheveux châtain clair ; seule cette case est remplacée. Architecture/proportions et ressemblances restent approximatives.
+- **30/2 :** contrôle visuel annoté : 14 enfants derrière + 5 devant, 3 adultes dans la source comme dans la version actuelle. Aucune modification de la case et aucune suppression injustifiée. Ce comptage ne valide pas les identités.
+
+Trois générations utilisées par masque ou dans la seule case concernée. Même témoin V2, extraits sans visage. Dimensions/grille conservées, transformations uniformes. Audit actuel : `validation/AUDIT3-23-30.md` ; preuves et inventaire : `AUDIT3-23-30.json`, `AUDIT3-23-30-AVANT-APRES.jpg`, `AUDIT3-30-2-COMPTAGE.jpg`. Vérificateur actuel : `outils/retouche/verifier_audit3_23_30.py` ; précédents audits contrôlés historiquement. **Pas de validation globale ; bas de 24/5, détails protégés et réserves de ressemblance/finitions restent ouverts.**

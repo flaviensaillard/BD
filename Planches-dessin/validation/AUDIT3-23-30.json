@@ -1,0 +1,310 @@
+{
+  "base": "21e6081",
+  "originaux": "e0416a5",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "statut": "Troisième passe locale, sans validation globale du style ou des identités.",
+  "corrections": [
+    {
+      "page": 23,
+      "vignette": "23-3",
+      "rectangle": [
+        27,
+        623,
+        837,
+        893
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23c/23-3-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23c/23-3-protege.png",
+      "statut": "Fond montagne/végétation étendu ; acteurs, architecture masquée et terrain conservés pixel à pixel."
+    },
+    {
+      "page": 24,
+      "vignette": "24-5",
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23c/24-5-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23c/24-5-protege.png",
+      "statut": "Fond haut réencré par masque ; personnages et maison protégés, terrain inférieur non repris."
+    },
+    {
+      "page": 27,
+      "vignette": "27-1-maillot",
+      "rectangle": [
+        439,
+        290,
+        467,
+        311
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23c/27-1-maillot-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23c/27-1-maillot-protege.png",
+      "statut": "Suppression locale des deux chiffres 7 inventés ; sponsor, silhouettes, visages et vêtements restants conservés."
+    },
+    {
+      "page": 30,
+      "vignette": "30-4",
+      "rectangle": [
+        439,
+        390,
+        837,
+        718
+      ],
+      "masque": null,
+      "protege": null,
+      "statut": "Maison : pignon gauche, grand mur latéral à droite et balcon court ; veste brune, cheveux enfant châtain clair. Reprise entière de cette seule case, ressemblances fines non certifiées."
+    }
+  ],
+  "geometrie": [
+    {
+      "vignette": "23-3",
+      "native": [
+        1792,
+        592
+      ],
+      "contenu": [
+        817,
+        270
+      ],
+      "cadrage": [
+        3,
+        0,
+        810,
+        270
+      ]
+    },
+    {
+      "vignette": "24-5",
+      "native": [
+        1152,
+        928
+      ],
+      "contenu": [
+        401,
+        323
+      ],
+      "cadrage": [
+        1,
+        0,
+        398,
+        323
+      ]
+    },
+    {
+      "vignette": "30-4",
+      "native": [
+        1136,
+        944
+      ],
+      "contenu": [
+        398,
+        331
+      ],
+      "cadrage": [
+        0,
+        1,
+        398,
+        328
+      ]
+    }
+  ],
+  "a_reprendre": [
+    "24/5 : terrain inférieur encore doux, exclu du montage pour conserver sa géométrie. Essai de réduction en aplats rejeté car trop pixellisé.",
+    "Réserves de ressemblance et de finition graphique des audits antérieurs : non certifiées par les tests techniques.",
+    "Finitions : architecture protégée et petits détails de décor conservés ; leur conformité intégrale au témoin V2 reste à examiner, notamment en 23/3 et 24/5.",
+    "30/4 : orientation et tenue corrigées, mais proportions/détails architecturaux et ressemblance fine restent approximatifs par rapport à la source."
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "sha256": "6ad77147090a369f3736716064b54df166da6b2b1f95488e0346dc4c5824af6d",
+      "octets": 1791886,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "sha256": "cea60e25866664ca284b07d3fbc241d16e17c4fb53ce7083870a2fe5b0640ac8",
+      "octets": 1758522,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "sha256": "f04ef68a33e42e3f9144cf13ef8e25ff9c7d08d7190177d91b0a3dd1a827688f",
+      "octets": 2357283,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "sha256": "1adf6d06fe46ff57880761bc35442d5797c102e5c9a6ae0643d26be806219648",
+      "octets": 1779732,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "sha256": "1a189ce3fc65b0efbcb9680e02ba364524fe8fce37e197231215ec8b3b7fd3b2",
+      "octets": 1688626,
+      "dimensions": [
+        864,
+        1222
+      ]
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "sha256": "0029a5b19d9958b5254ae8beeb9bf9fcfb1ddc58ba3e63c0835bdbffb5499498",
+      "octets": 1903236,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "sha256": "3156e1b1f427b8bf5aa4af80827db699a961e3038835652b7368c4c222c9ec0e",
+      "octets": 1679254,
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "sha256": "fc8294fd56590c13efd0c5cddf9ff3f62acd748c166abbe8c3928cbadc85ba10",
+      "octets": 1510778,
+      "dimensions": [
+        864,
+        1232
+      ]
+    }
+  ],
+  "generations": {
+    "produites": 3,
+    "retenues_en_tout_ou_partie": 3,
+    "methode": "23/3 et 24/5 : fonds uniquement via masques ; 30/4 : case entière puis corrections chromatiques locales.",
+    "essai_non_retenu": "Aplatissement déterministe de l’herbe de 24/5 : retiré après inspection, trop pixellisé."
+  },
+  "comptage_30_2": {
+    "methode": "Comptage visuel, repères manuels sur images ramenées à 1142 × 938. Ne certifie pas les identités.",
+    "enfants_arriere": 14,
+    "enfants_premier_plan": 5,
+    "adultes": 3,
+    "reperes": {
+      "arriere": [
+        [
+          185,
+          250
+        ],
+        [
+          226,
+          224
+        ],
+        [
+          270,
+          245
+        ],
+        [
+          350,
+          246
+        ],
+        [
+          424,
+          251
+        ],
+        [
+          475,
+          247
+        ],
+        [
+          508,
+          205
+        ],
+        [
+          569,
+          248
+        ],
+        [
+          624,
+          242
+        ],
+        [
+          692,
+          247
+        ],
+        [
+          739,
+          248
+        ],
+        [
+          789,
+          247
+        ],
+        [
+          878,
+          252
+        ],
+        [
+          991,
+          255
+        ]
+      ],
+      "premier_plan": [
+        [
+          348,
+          400
+        ],
+        [
+          500,
+          400
+        ],
+        [
+          650,
+          395
+        ],
+        [
+          785,
+          400
+        ],
+        [
+          935,
+          410
+        ]
+      ],
+      "adultes": [
+        [
+          20,
+          235
+        ],
+        [
+          935,
+          188
+        ],
+        [
+          1125,
+          198
+        ]
+      ]
+    },
+    "preuve": "Planches-dessin/validation/AUDIT3-30-2-COMPTAGE.jpg"
+  }
+}
