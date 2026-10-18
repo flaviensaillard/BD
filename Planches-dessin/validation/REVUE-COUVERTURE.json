@@ -140,9 +140,9 @@
         1692,
         1863
       ],
-      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre.",
-      "type": "correction_partielle",
-      "masque": "Planches-dessin/validation/revue-couverture/lot-b/04-5-masque.png"
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-5-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Reprise des trois têtes Ayden/Lyssandro/Nolann : frange courte châtain clair, frange châtaine de côté, courte frange brun foncé et teint mat. Tenues et décor hors masques conservés. La correction partielle de couleur est remplacée par une première reprise des ressemblances, encore à relire et non validée définitivement."
     },
     {
       "page": 14,
@@ -352,6 +352,101 @@
       "intervention": "Reprise locale du coach Kilian roux/barbe rousse et des têtes de Léon/Lyssandro au premier rang ; cheveux d’Ayden ramenés au châtain en conservant sa coupe courte d’origine (frange trop longue du candidat rejetée). Ajout local du vingtième joueur assis derrière Kilian, après comptage de 19 enfants dans dessin et source réaliste. Tous les autres enfants et le terrain hors masque conservés. Relecture globale des tenues/style encore requise.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-d/03-5-masque.png",
       "type": "reprise_graphique"
+    },
+    {
+      "page": 4,
+      "vignette": "04-1",
+      "rectangle": [
+        20,
+        21,
+        425,
+        399
+      ],
+      "source_rectangle": [
+        39,
+        41,
+        849,
+        798
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-1-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Flavien et Kilian rapprochées de la couverture (brun/légère barbe et roux/barbe rousse) ; pas en avant, postures, enfants au premier plan et tenues/décor hors masques conservés."
+    },
+    {
+      "page": 4,
+      "vignette": "04-2",
+      "rectangle": [
+        441,
+        21,
+        846,
+        399
+      ],
+      "source_rectangle": [
+        881,
+        41,
+        1691,
+        798
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-2-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Portrait de Julien en trois-quarts profil repris avec cheveux gris, bouc/moustache et traits de couverture. Gestes, plots, terrain et figurants hors masque conservés ; pas de terrain tactique ni de texte ajouté à cette étape."
+    },
+    {
+      "page": 4,
+      "vignette": "04-3",
+      "rectangle": [
+        20,
+        416,
+        425,
+        673
+      ],
+      "source_rectangle": [
+        39,
+        832,
+        850,
+        1346
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-3-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Kilian blond corrigé en roux à barbe rousse ; Flavien brun avec légère barbe et Milo à frange pleine châtaine repris localement. Ballon, démonstration de passe, mains, maillots et arrière-plan hors masques préservés."
+    },
+    {
+      "page": 4,
+      "vignette": "04-4",
+      "rectangle": [
+        440,
+        416,
+        846,
+        673
+      ],
+      "source_rectangle": [
+        881,
+        832,
+        1692,
+        1346
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-4-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Julien penché au premier plan et Kilian debout à droite reprises sur la couverture. Deux enfants en exercice, contact à deux mains, ballon, mains, corps et terrain hors masques conservés. Le premier appel de génération avait échoué sans image ; seul le nouvel essai a servi."
+    },
+    {
+      "page": 4,
+      "vignette": "04-6",
+      "rectangle": [
+        20,
+        949,
+        847,
+        1209
+      ],
+      "source_rectangle": [
+        39,
+        1897,
+        1692,
+        2419
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-6-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Visage et cheveux en pics de Léon repris sur la couverture avec sourire de défi ; haussement d’épaules, deux mains, maillot/écusson, six enfants en fond et terrain hors masque conservés."
     }
   ],
   "vignettes": [
@@ -634,12 +729,13 @@
         402
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : **Flavien** fait un pas en avant, sérieux et bienveillant.\n  - *Bulle (Flavien)* : « La saison dernière en U6, sur 7 tournois, vous en avez gagné 5 et fini 2es sur les 2 autres. C'était génial… mais écoutez-moi bien : une saison comme celle-là, c'est EXCEPTIONNEL et ça arrive très rarement ! »\n  - *Bulle (Kilian)* : « Si vous croyez que vous allez gagner sans effort cette année parce que vous avez gagné en U6, vous allez avoir une énorme surprise ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Flavien et Kilian rapprochées de la couverture (brun/légère barbe et roux/barbe rousse) ; pas en avant, postures, enfants au premier plan et tenues/décor hors masques conservés."
     },
     {
       "page": 4,
@@ -651,12 +747,14 @@
         402
       ],
       "scenario": "- **Vignette 2 (Schéma Comics du terrain)** :\n  - *Visuel* : **Julien** montre le terrain délimité par des plots colorés, avec des lignes lumineuses façon plan tactique en surimpression.\n  - *Bulle (Julien)* : « En U8, voici vos nouvelles règles ! On joue à **5 contre 5** sur un terrain de **30 mètres par 20 mètres**. Il n'y a **pas de poteaux** et **pas de transformations** : chaque essai marqué vaut **1 point** ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portrait de Julien en trois-quarts profil repris avec cheveux gris, bouc/moustache et traits de couverture. Gestes, plots, terrain et figurants hors masque conservés ; pas de terrain tactique ni de texte ajouté à cette étape.",
+      "reserve_scenario": "Plots et terrain présents ; schéma tactique lumineux et dimensions ne sont pas ajoutés dans cette passe de ressemblances. Les explications textuelles attendent la phase de lettrage."
     },
     {
       "page": 4,
@@ -668,12 +766,13 @@
         676
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : **Kilian** mime une passe qui tombe devant lui et une ligne imaginaire.\n  - *Bulle (Kilian)* : « Deuxième grand changement : l'arbitre siffle TOUS les **en-avant** quand le ballon tombe vers le camp adverse, et tous les **hors-jeu** si vous êtes devant le copain qui a le ballon ! »\n  - *Bulle (Milo, ouvrant de grands yeux)* : « Tous les en-avant ?! Même les tout petits ?! »\n  - *Bulle (Flavien)* : « Même les tout petits, Milo ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Kilian blond corrigé en roux à barbe rousse ; Flavien brun avec légère barbe et Milo à frange pleine châtaine repris localement. Ballon, démonstration de passe, mains, maillots et arrière-plan hors masques préservés."
     },
     {
       "page": 4,
@@ -685,12 +784,14 @@
         676
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Julien** montre la ligne de touche avec un ballon en main.\n  - *Bulle (Julien)* : « Et quand un joueur sort en **touche**, le ballon est directement rendu à l'autre équipe et il est **joué comme une pénalité** ! »\n  - *Bulle (Kilian)* : « Enfin, pour les contacts : de septembre à fin novembre, c'est du **touché à 2 mains** simultanées ! Les vrais **plaquages** seront autorisés à partir du mois de **décembre** ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Julien penché au premier plan et Kilian debout à droite reprises sur la couverture. Deux enfants en exercice, contact à deux mains, ballon, mains, corps et terrain hors masques conservés. Le premier appel de génération avait échoué sans image ; seul le nouvel essai a servi.",
+      "reserve_scenario": "La vignette réaliste combine Julien avec ballon au premier plan et démonstration du touché à deux mains en arrière-plan. Composition conservée ; la ligne de touche du scénario reste à relire."
     },
     {
       "page": 4,
@@ -706,9 +807,9 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "correction_partielle_reste_a_reprendre",
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre.",
+      "intervention": "Reprise des trois têtes Ayden/Lyssandro/Nolann : frange courte châtain clair, frange châtaine de côté, courte frange brun foncé et teint mat. Tenues et décor hors masques conservés. La correction partielle de couleur est remplacée par une première reprise des ressemblances, encore à relire et non validée définitivement.",
       "identites_au_scenario_de_gauche_a_droite": [
         "Ayden",
         "Lyssandro",
@@ -716,7 +817,8 @@
       ],
       "essais_non_retenus": [
         "Lot C : nouvel essai avec les trois recadrages de couverture, écarté car rendu encore trop proche des aplats existants et ressemblances insuffisamment corrigées. Aucune nouvelle modification de 04/5."
-      ]
+      ],
+      "relecture_lot_e": "Nouvelle première reprise des trois visages/coiffures intégrée après les essais antérieurs rejetés. Détourage des silhouettes et retrait local des anciennes têtes pour éviter les doubles contours ; fond vert original conservé entre les têtes. Statut partiel de simple couleur remplacé, sans validation définitive."
     },
     {
       "page": 4,
@@ -728,12 +830,13 @@
         1212
       ],
       "scenario": "- **Vignette 6 (Gros plan sur Léon)** :\n  - *Visuel* : Léon hausse les épaules avec un sourire plein de défi.\n  - *Bulle (Léon)* : « Pfff, vous inquiétez pas les gars ! Touché à deux mains ou nouvelles règles, personne ne court aussi vite que nous. On va quand même tout rafler ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Visage et cheveux en pics de Léon repris sur la couverture avec sourire de défi ; haussement d’épaules, deux mains, maillot/écusson, six enfants en fond et terrain hors masque conservés."
     },
     {
       "page": 5,
@@ -3043,12 +3146,12 @@
     {
       "page": 4,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
-      "sha256": "8d37d02f7bbe6e371a0d0621d549b0c032c4872dca928582773f0d72d2be862b",
+      "sha256": "31ef34cb05186b17af5b9a753e983c8987ae5dd5cdd7910d9fb132888149418d",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1565476
+      "octets": 1587527
     },
     {
       "page": 5,
@@ -3321,9 +3424,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 17,
-    "vignettes_correction_partielle": 2,
-    "vignettes_a_controler_individuellement": 134,
+    "vignettes_corrigees_premiere_passe": 23,
+    "vignettes_correction_partielle": 1,
+    "vignettes_a_controler_individuellement": 129,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3453,6 +3556,21 @@
         "03-3"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-d/"
+    },
+    {
+      "base": "e633618",
+      "vignettes": [
+        "04-1",
+        "04-2",
+        "04-3",
+        "04-4",
+        "04-5",
+        "04-6"
+      ],
+      "remplace_correction_partielle": [
+        "04-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-e/"
     }
   ]
 }

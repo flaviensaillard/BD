@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 17 |
-| Corrections seulement partielles, à poursuivre | 2 |
-| Autres vignettes restant à contrôler individuellement | 134 |
+| Premières reprises intégrées, encore à relire | 23 |
+| Corrections seulement partielles, à poursuivre | 1 |
+| Autres vignettes restant à contrôler individuellement | 129 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 19 vignettes ayant reçu une intervention ne sont pas 19 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 24 vignettes ayant reçu une intervention ne sont pas 24 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -80,6 +80,19 @@ Quatre nouvelles interventions ; **03/3** a été réexaminée mais conserve sa 
 
 Preuves : `revue-couverture/lot-d/03-AVANT-APRES.jpg`, `COMPTAGE-03-5.jpg` et quatre masques. Montage relu en comparatif et en contexte de page. Les différences encore présentes de traitement des tenues, des corps et des décors ne sont pas dispensées de relecture globale.
 
+## Cinquième livraison : les six vignettes de la planche 4
+
+Cinq nouvelles vignettes examinées/corrigées et **04/5** reprise au-delà de sa précédente correction de couleur. Cette dernière passe du statut de correction partielle à celui de **première reprise à relire** ; ce n’est pas une validation définitive.
+
+- **04/1 :** visages de Flavien et Kilian rapprochés des modèles, avec légère barbe brune et barbe rousse. Corps, pas en avant, enfants assis, tenues et décor hors masques préservés.
+- **04/2 :** tête de Julien en trois-quarts profil reprise : cheveux gris, bouc/moustache et visage du modèle. Plots, bras/mains en explication et terrain préservés hors masque. Réserve : schéma tactique lumineux absent ; ne pas confondre correction de ressemblance et conformité finale de toute la scène.
+- **04/3 :** **Kilian, encore blond, est corrigé en roux à barbe rousse**. Têtes Flavien et Milo reprises ; frange pleine châtaine et regard attentif/surpris pour Milo. Ballon de démonstration, mains et vêtements hors masques inchangés.
+- **04/4 :** portraits de Julien penché et Kilian debout repris. Deux enfants, contact à deux mains, ballon et gestes préservés. Un premier appel n’avait renvoyé aucune image et a été relancé. Réserve : le cadrage réaliste combine ballon au premier plan et démonstration du touché derrière, tandis que le scénario décrit Julien montrant la touche ; raccord à relire, pas déclaré parfaitement conforme.
+- **04/5 :** nouvelles têtes **Ayden, Lyssandro, Nolann** : coupe courte vers l’avant châtain clair, frange châtaine de côté, courte frange brun foncé avec teint mat. Une première intégration par enveloppes larges importait des fragments de fond et décalait les lignes du terrain : écartée. Détourage des silhouettes, retrait local des anciennes têtes et fond d’origine entre les personnages dans l’intégration retenue. Les masques cumulatifs incluent aussi l’ancienne correction de cheveux.
+- **04/6 :** visage et pics châtains de Léon repris sur le modèle de couverture, sourire de défi adapté à la scène. Haussement d’épaules, deux mains, tenue/écusson et les six enfants adverses au fond conservés hors masque. Pas de nouveau texte.
+
+Comparatif : `revue-couverture/lot-e/04-AVANT-APRES.jpg`. Six masques de cette passe et six masques cumulatifs documentent la localité. Contrôle visuel après montage des portraits et de la page entière ; les réserves sur les raccords de scénario, les tenues et l’encrage des corps/décors restent ouvertes pour la relecture globale.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -88,7 +101,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **134 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **129 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
