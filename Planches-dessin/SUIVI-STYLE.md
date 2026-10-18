@@ -184,3 +184,20 @@ Comparaison des 40 cases aux originaux. Trois pages modifiées (23, 26, 30), six
 Dix générations produites, quatre rejetées : 24/1 (âge non corrigé), 28/6 (copie de la page témoin), 29/2 (semi-réalisme et coiffure), 30/1 (tête ajoutée). Limite de génération atteinte, trois appels supplémentaires refusés. Pas d'intégration des sorties rejetées.
 
 **Huit vignettes restent à reprendre : 23/1–4, 24/1, 28/6, 29/2, 30/1.** Audit détaillé : `validation/AUDIT-23-30.md`. Contrôles : `outils/retouche/verifier_audit23_30.py` et `verifier_lot23_30.py`. Ce travail est une correction partielle, pas une livraison intégralement validée.
+
+## Seconde passe 23–30 — reprise des huit zones ouvertes
+
+Cinq pages modifiées : **23, 24, 28, 29, 30**. Huit zones reprises, sans changement des autres cases/pages.
+
+- 30/1 est maintenant dessinée : trois enfants dans l’embrassade, six au premier plan ; plus de restauration photographique provisoire. Les quatre autres cases de 30 sont intactes.
+- 28/6 : une seule case large, joueurs et fond dessinés, pas de page témoin importée.
+- 24/1 : visages plus enfantins et fond dessiné après un essai insuffisant.
+- 29/2 : tête/coiffure masquées, châtain clair, maillot conservé ; veste de coach inventée dans le candidat exclue.
+- 23/1,2,4 : décors repris par masques, avec premiers plans, bâtiments et terrain d’origine protégés. En 23/2 le nouveau grillage haut n’est pas repris.
+- **23/3 reste partielle** : seuls les arbres à gauche sont utilisés ; le reste du décor proposé est écarté car il déplace/réinterprète tribune et montagne.
+
+Dix générations produites, huit utilisées en tout ou partie, deux premiers essais de 24/1 et 29/2 non intégrés. Même témoin V2, mais extraits sans visage/personnage complet pour prévenir les contaminations. Échelle uniforme à chaque montage ; pas d’étirement des dessins.
+
+Rapport actuel : `validation/AUDIT2-23-30.md` et `AUDIT2-23-30.json`. Comparatif : `AUDIT2-23-30-AVANT-APRES.jpg`. Contrôles passés : dimensions et régions hors zones/masques, régions protégées, empreintes, autres cases de 30 et bas du maillot de 29. Ils ne certifient pas le dessin ni les ressemblances.
+
+**Reste ciblé : 23/3, fond principal**, plus les réserves antérieures sur les petits figurants, les identités/anatomies fines, la maison de 30/4 et les logos/lettrages. Quelques textures initiales sont volontairement conservées dans les zones protégées de 23. Pas de validation globale de la série.

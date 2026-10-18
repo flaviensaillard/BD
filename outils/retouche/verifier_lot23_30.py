@@ -15,7 +15,8 @@ def main():
     assert [e['planche'] for e in report['fichiers']] == list(range(23, 31))
     # The initial manifest remains a historical inventory. After a local audit,
     # use its current delivery hashes rather than the superseded batch hashes.
-    audit = ROOT / 'Planches-dessin/validation/audit-23-30.json'
+    audit2 = ROOT / 'Planches-dessin/validation/AUDIT2-23-30.json'
+    audit = audit2 if audit2.exists() else ROOT / 'Planches-dessin/validation/audit-23-30.json'
     entries = json.loads(audit.read_text())['fichiers_apres'] if audit.exists() else report['fichiers']
     for entry in entries:
         data = (ROOT / entry['fichier']).read_bytes()

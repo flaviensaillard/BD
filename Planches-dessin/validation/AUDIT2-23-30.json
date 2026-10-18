@@ -1,0 +1,368 @@
+{
+  "base": "26ae988",
+  "originaux": "e0416a5",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "statut": "Seconde passe : huit zones reprises sur cinq pages ; 23/3 reste partielle. Aucune validation globale.",
+  "generations": {
+    "produites": 10,
+    "retenues_en_tout_ou_partie": 8,
+    "candidats_non_integres": [
+      "24/1 premier essai : âge encore insuffisamment corrigé",
+      "29/2 premier essai : coiffure et arrière-plan inacceptables"
+    ],
+    "contenus_ecartes": [
+      "23/2 : grillage bas et bâtiments originaux protégés, pas de reprise du nouveau grillage haut",
+      "23/3 : nouvelle tribune/montagne rejetées ; seuls les arbres à gauche sont utilisés",
+      "29/2 dernier essai : veste de coach inventée, exclue par masque"
+    ]
+  },
+  "corrections": [
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "rectangle": [
+        27,
+        55,
+        837,
+        326
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23b/23-1-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23b/23-1-protege.png",
+      "statut": "végétation/montagne reprises par masque, premier plan conservé"
+    },
+    {
+      "page": 23,
+      "vignette": "23-2",
+      "rectangle": [
+        27,
+        339,
+        837,
+        609
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23b/23-2-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23b/23-2-protege.png",
+      "statut": "végétation/montagne reprises par masque, premier plan conservé"
+    },
+    {
+      "page": 23,
+      "vignette": "23-3",
+      "rectangle": [
+        27,
+        623,
+        837,
+        893
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23b/23-3-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23b/23-3-protege.png",
+      "statut": "arbres gauches seulement ; suite du fond à reprendre"
+    },
+    {
+      "page": 23,
+      "vignette": "23-4",
+      "rectangle": [
+        27,
+        906,
+        837,
+        1177
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23b/23-4-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23b/23-4-protege.png",
+      "statut": "végétation/montagne reprises par masque, premier plan conservé"
+    },
+    {
+      "page": 24,
+      "vignette": "24-1",
+      "rectangle": [
+        27,
+        29,
+        837,
+        484
+      ],
+      "masque": null,
+      "protege": null,
+      "statut": "retouche intégrée"
+    },
+    {
+      "page": 28,
+      "vignette": "28-6",
+      "rectangle": [
+        27,
+        879,
+        837,
+        1206
+      ],
+      "masque": null,
+      "protege": null,
+      "statut": "retouche intégrée"
+    },
+    {
+      "page": 30,
+      "vignette": "30-1",
+      "rectangle": [
+        27,
+        50,
+        425,
+        377
+      ],
+      "masque": null,
+      "protege": null,
+      "statut": "retouche intégrée"
+    },
+    {
+      "page": 29,
+      "vignette": "29-2",
+      "rectangle": [
+        439,
+        63,
+        837,
+        376
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23b/29-2-masque.png",
+      "protege": null,
+      "statut": "tête/coiffure corrigées ; veste inventée du candidat exclue, maillot conservé"
+    }
+  ],
+  "geometrie": [
+    {
+      "fichier": ".arena/audit23b/23-1-background.png",
+      "native": [
+        1792,
+        592
+      ],
+      "contenu": [
+        810,
+        268
+      ],
+      "cible": [
+        810,
+        271
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/23-2-background.png",
+      "native": [
+        1792,
+        592
+      ],
+      "contenu": [
+        810,
+        268
+      ],
+      "cible": [
+        810,
+        270
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/23-3-background.png",
+      "native": [
+        1792,
+        592
+      ],
+      "contenu": [
+        810,
+        268
+      ],
+      "cible": [
+        810,
+        270
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/23-4-background.png",
+      "native": [
+        1792,
+        592
+      ],
+      "contenu": [
+        810,
+        268
+      ],
+      "cible": [
+        810,
+        271
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/24-1-young.png",
+      "native": [
+        1376,
+        768
+      ],
+      "contenu": [
+        810,
+        452
+      ],
+      "cible": [
+        810,
+        455
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/28-6-fixed.png",
+      "native": [
+        1632,
+        656
+      ],
+      "contenu": [
+        810,
+        326
+      ],
+      "cible": [
+        810,
+        327
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/30-1-fixed.png",
+      "native": [
+        1136,
+        928
+      ],
+      "contenu": [
+        398,
+        325
+      ],
+      "cible": [
+        398,
+        327
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    },
+    {
+      "fichier": ".arena/audit23b/29-2-final.png",
+      "native": [
+        1168,
+        912
+      ],
+      "contenu": [
+        398,
+        311
+      ],
+      "cible": [
+        398,
+        313
+      ],
+      "methode": "échelle uniforme et fines prolongations des pixels de bord ; pas d’étirement anisotrope"
+    }
+  ],
+  "a_reprendre": [
+    "23/3 : partie principale du fond encore d’origine, reprise nécessaire sans déplacer tribune ni montagne"
+  ],
+  "reserves": [
+    "Bâtiments, terrain et premiers plans de 23 ont volontairement conservé leurs pixels ; leurs petites textures ne sont pas certifiées totalement conformes au V2.",
+    "Ressemblance fine/expressions et petites anatomies générées de 24/1,28/6,29/2,30/1 non certifiées pixel à pixel.",
+    "Rangs arrière de 30/2, détails de maison de 30/4, logos et inscriptions gardent les réserves de la première passe.",
+    "Les paysages dessinés repris en 23 peuvent varier finement : pas de promesse de correspondance géométrique exacte à l’intérieur des masques."
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1794530,
+      "sha256": "23753c3537c980a600ba11ebdf2e38496318233a2b77d3fc11d378b7d09935ad"
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1752607,
+      "sha256": "4ae01674bde78449d9a0d460acf1d7441095045826c435ce98811b3029adb1c2"
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2357283,
+      "sha256": "f04ef68a33e42e3f9144cf13ef8e25ff9c7d08d7190177d91b0a3dd1a827688f"
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1779732,
+      "sha256": "1adf6d06fe46ff57880761bc35442d5797c102e5c9a6ae0643d26be806219648"
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2116007,
+      "sha256": "3e75d69306fb489dd21afaa22bb352a0f62cbacba1ee7950491744abe26cc6a3"
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1903236,
+      "sha256": "0029a5b19d9958b5254ae8beeb9bf9fcfb1ddc58ba3e63c0835bdbffb5499498"
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1679254,
+      "sha256": "3156e1b1f427b8bf5aa4af80827db699a961e3038835652b7368c4c222c9ec0e"
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1539760,
+      "sha256": "f3a7128cc5fba0eaa14ba7210cbd4c48e54ff59ac92aad5a386f6381e6074c79"
+    }
+  ],
+  "extraits_style": [
+    {
+      "source": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+      "rectangle": [
+        170,
+        220,
+        350,
+        328
+      ],
+      "fichier": "Planches-dessin/validation/corrections-vignettes/audit23b/style-encrage.png"
+    },
+    {
+      "source": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+      "rectangle": [
+        308,
+        801,
+        555,
+        896
+      ],
+      "fichier": "Planches-dessin/validation/corrections-vignettes/audit23b/style-decor.png"
+    }
+  ]
+}

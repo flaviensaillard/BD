@@ -1,5 +1,7 @@
 # Audit des planches 23–30 — corrections partielles
 
+> Historique de la première passe. Voir [la seconde passe](AUDIT2-23-30.md) pour l’état actuel des huit vignettes ci-dessous et les réserves restantes.
+
 Comparaison des **40 vignettes** des huit pages du lot `6942a37` avec les originaux `e0416a5` et le témoin V2 approuvé. Les sorties de correction ont ensuite été regardées avant intégration. **Audit effectué ; corrections NON terminées.** La limite de dix générations a empêché de poursuivre ce tour. Quatre des dix sorties ont été rejetées : un résultat défectueux n'est pas collé pour donner l'impression d'avancer.
 
 ## Modifications effectivement livrées
