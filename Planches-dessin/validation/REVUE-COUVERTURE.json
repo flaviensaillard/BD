@@ -181,6 +181,101 @@
       "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés.",
       "type": "reprise_graphique",
       "masque": "Planches-dessin/validation/revue-couverture/lot-b/27-5-masque.png"
+    },
+    {
+      "page": 2,
+      "vignette": "02-1",
+      "rectangle": [
+        28,
+        31,
+        424,
+        327
+      ],
+      "source_rectangle": [
+        86,
+        86,
+        1219,
+        934
+      ],
+      "intervention": "Paysage sans personnage : encrage, modelé et végétation repris en direction du rendu de couverture ; maison, route, mur en pierres et relief savoyard conservés dans leur composition.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-1-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 2,
+      "vignette": "02-2",
+      "rectangle": [
+        441,
+        31,
+        837,
+        327
+      ],
+      "source_rectangle": [
+        1261,
+        86,
+        2394,
+        934
+      ],
+      "intervention": "Têtes de Léon et Flavien reprises séparément sur les recadrages de couverture : pics châtains de Léon, cheveux bruns et légère barbe de Flavien. Regard baissé de Léon, tenue civile, mains, sac complet, corps et entrée conservés hors masque. Candidat complet rejeté pour recadrage du sac.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-2-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 2,
+      "vignette": "02-3",
+      "rectangle": [
+        28,
+        344,
+        424,
+        640
+      ],
+      "source_rectangle": [
+        86,
+        976,
+        1219,
+        1824
+      ],
+      "intervention": "Vue extérieure de la voiture dans la vallée reprise : Flavien conducteur brun avec légère barbe, Léon châtain au siège arrière, vêtements civils et geste de conversation ; paysage et voiture conservés dans leur composition.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-3-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 2,
+      "vignette": "02-4",
+      "rectangle": [
+        441,
+        344,
+        837,
+        640
+      ],
+      "source_rectangle": [
+        1261,
+        976,
+        2394,
+        1824
+      ],
+      "intervention": "Vue extérieure de la voiture en forêt reprise : Flavien conducteur et Léon à l’arrière, même voiture blanche et vêtements civils ; rendu des visages et du paysage rapproché de la couverture. Le cadrage extérieur ne permet pas de vérifier les bras croisés demandés par le scénario.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-4-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 2,
+      "vignette": "02-5",
+      "rectangle": [
+        28,
+        656,
+        837,
+        1201
+      ],
+      "source_rectangle": [
+        86,
+        1866,
+        2394,
+        3422
+      ],
+      "intervention": "Arrivée au stade reprise : Flavien au volant avec son visage brun et légère barbe ; Léon aux cheveux châtains en pics se penchant vers la fenêtre, civil bleu ; voiture, grilles, projecteurs, relief et voiture bleue secondaire conservés dans la composition.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-5-masque.png",
+      "type": "reprise_graphique"
     }
   ],
   "vignettes": [
@@ -266,12 +361,13 @@
         330
       ],
       "scenario": "- **Vignette 1 (Bandeau panoramique)** :\n  - *Visuel* : Vue aérienne lumineuse du petit village de **Saint-Sulpice** niché dans les hauteurs verdoyantes de Savoie, avec une maison familiale accueillante au premier plan.\n  - *Encadré narratif* : « SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE (500 HABITANTS). LE JOUR DE LA REPRISE EN CATÉGORIE U8. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
       "realiste": "planches/02-matin-de-rentree-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Paysage sans personnage : encrage, modelé et végétation repris en direction du rendu de couverture ; maison, route, mur en pierres et relief savoyard conservés dans leur composition."
     },
     {
       "page": 2,
@@ -283,12 +379,13 @@
         330
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Dans l'entrée de la maison familiale. **Léon** (en t-shirt civil et jean) boucle son gros sac de sport du RCM. Son père **Flavien** (en tenue civile décontractée) prend les clés de la voiture.\n  - *Bulle (Flavien, tournant la tête vers l'escalier hors-champ)* : « Vanessa ! Alice ! On file au stade avec Léon, on rentre pour le déjeuner ! »\n  - *Bulle (Voix hors-champ depuis l'étage)* : « Bon entraînement les garçons ! Amuse-toi bien Léon ! »\n  - *Bulle (Léon)* : « Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va arriver après les copains ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
       "realiste": "planches/02-matin-de-rentree-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes de Léon et Flavien reprises séparément sur les recadrages de couverture : pics châtains de Léon, cheveux bruns et légère barbe de Flavien. Regard baissé de Léon, tenue civile, mains, sac complet, corps et entrée conservés hors masque. Candidat complet rejeté pour recadrage du sac."
     },
     {
       "page": 2,
@@ -300,12 +397,14 @@
         643
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : À l'intérieur de la voiture qui descend la route sinueuse vers la vallée. Léon gesticule sur son siège auto.\n  - *Bulle (Léon)* : « Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sept tournois cette année en U8, ça fera sept nouveaux trophées sur mon étagère ! »\n  - *Bulle (Flavien, conduisant avec un sourire en coin)* : « Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un peu vite en besogne, champion ? »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
       "realiste": "planches/02-matin-de-rentree-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Vue extérieure de la voiture dans la vallée reprise : Flavien conducteur brun avec légère barbe, Léon châtain au siège arrière, vêtements civils et geste de conversation ; paysage et voiture conservés dans leur composition.",
+      "reserve_scenario": "Le scénario décrit une vue intérieure ; la planche réaliste et le découpage existant utilisent une vue extérieure. Celle-ci est préservée. En 02/4, les bras croisés ne sont pas vérifiables dans ce cadrage."
     },
     {
       "page": 2,
@@ -317,12 +416,14 @@
         643
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Léon croise les bras d'un air évident ; Flavien le regarde dans le rétroviseur intérieur avec douceur.\n  - *Bulle (Léon)* : « Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on a toujours la même bande : Lyssandro, Ayden, Nolann, Milo et moi ! »\n  - *Bulle (Flavien)* : « Justement, Léon. En U8, les autres clubs aussi ont grandi. Et les règles changent beaucoup. Écoute bien ce qu'on va vous expliquer avec Julien et Kilian. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
       "realiste": "planches/02-matin-de-rentree-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Vue extérieure de la voiture en forêt reprise : Flavien conducteur et Léon à l’arrière, même voiture blanche et vêtements civils ; rendu des visages et du paysage rapproché de la couverture. Le cadrage extérieur ne permet pas de vérifier les bras croisés demandés par le scénario.",
+      "reserve_scenario": "Le scénario décrit une vue intérieure ; la planche réaliste et le découpage existant utilisent une vue extérieure. Celle-ci est préservée. En 02/4, les bras croisés ne sont pas vérifiables dans ce cadrage."
     },
     {
       "page": 2,
@@ -334,12 +435,13 @@
         1204
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : La voiture entre dans **La Motte-Servolex (15 000 habitants)** et approche des grilles et des hauts projecteurs du stade de rugby du **RCM**.\n  - *Encadré narratif* : « LA MOTTE-SERVOLEX (15 000 HABITANTS) — STADE DU RUGBY CLUB MOTTERAIN. »\n  - *Bulle (Léon, le nez collé à la vitre)* : « Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro est arrivé ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
       "realiste": "planches/02-matin-de-rentree-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Arrivée au stade reprise : Flavien au volant avec son visage brun et légère barbe ; Léon aux cheveux châtains en pics se penchant vers la fenêtre, civil bleu ; voiture, grilles, projecteurs, relief et voiture bleue secondaire conservés dans la composition."
     },
     {
       "page": 3,
@@ -511,7 +613,15 @@
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
       "etat": "correction_partielle_reste_a_reprendre",
       "validation_definitive": false,
-      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre."
+      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre.",
+      "identites_au_scenario_de_gauche_a_droite": [
+        "Ayden",
+        "Lyssandro",
+        "Nolann"
+      ],
+      "essais_non_retenus": [
+        "Lot C : nouvel essai avec les trois recadrages de couverture, écarté car rendu encore trop proche des aplats existants et ressemblances insuffisamment corrigées. Aucune nouvelle modification de 04/5."
+      ]
     },
     {
       "page": 4,
@@ -2818,12 +2928,12 @@
     {
       "page": 2,
       "fichier": "Planches-dessin/02-matin-de-rentree-marvel.png",
-      "sha256": "8696b3b7dd128fee756141c6836c64d851b2c3656df4df2c830d5381c1bb0519",
+      "sha256": "6fd962b418fc783917d27c766c2c39ba3ed1a0c940e0b446f42a29c5e64d03de",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 2152124
+      "octets": 1616038
     },
     {
       "page": 3,
@@ -3116,9 +3226,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 8,
+    "vignettes_corrigees_premiere_passe": 13,
     "vignettes_correction_partielle": 2,
-    "vignettes_a_controler_individuellement": 143,
+    "vignettes_a_controler_individuellement": 138,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3224,6 +3334,17 @@
         "27-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-b/"
+    },
+    {
+      "base": "40cd754",
+      "vignettes": [
+        "02-1",
+        "02-2",
+        "02-3",
+        "02-4",
+        "02-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-c/"
     }
   ]
 }

@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 8 |
+| Premières reprises intégrées, encore à relire | 13 |
 | Corrections seulement partielles, à poursuivre | 2 |
-| Autres vignettes restant à contrôler individuellement | 143 |
+| Autres vignettes restant à contrôler individuellement | 138 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 10 interventions ne signifient donc pas 10 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 15 interventions ne signifient donc pas 15 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -52,6 +52,22 @@ Preuve : `revue-couverture/PREMIERES-CORRECTIONS-26.jpg`. Livraison précédente
 
 Les candidats redessinés ont été relus, puis les montages intégrés ont été examinés en comparatif et en contexte de page. Ce contrôle de première passe n’équivaut pas à une validation définitive de tous les raccords, tenues, proportions et expressions.
 
+## Troisième livraison : les cinq vignettes de la planche 2
+
+Les cinq cases ont été examinées avec leur scénario et leurs recadrages réalistes. La couverture reste l’autorité de dessin et de ressemblance ; les vêtements **civils** de cette scène sont conservés, pas remplacés par les tenues de rugby de la couverture.
+
+- **02/1, sans personnage :** reprise du modelé/encrage de la maison, de la route, du mur et de la végétation, en conservant la composition du paysage savoyard.
+- **02/2 :** reprises locales des têtes : pics châtains et visage de Léon regardant son sac, cheveux bruns et légère barbe de Flavien tourné vers l’étage. Le candidat complet recadrait trop le sac et gardait la coupe trop courte de Léon : rejeté. Les nouveaux portraits ont été détourés, redimensionnés uniformément et raccordés au dessin original. Une première intégration laissait une partie de l’ancienne joue de Léon visible : elle a été rejetée, puis les anciennes silhouettes ont été retirées localement avant la nouvelle intégration. Corps, mains, clés, sac complet et décor hors masque sont conservés.
+- **02/3 :** voiture dans la vallée, Flavien conducteur et Léon qui gesticule à l’arrière ; rendu des occupants et du paysage repris.
+- **02/4 :** même voiture en lisière de forêt, mêmes occupants et vêtements ; visages et décor repris.
+- **02/5 :** arrivée au stade ; visage brun/légèrement barbu de Flavien et cheveux châtains en pics de Léon repris, présence des grilles, projecteurs, montagnes et voiture bleue conservée.
+
+**Réserve de scénario explicite :** les cases 02/3 et 02/4 sont des vues extérieures dans les planches réalistes et dessinées existantes, tandis que le scénario décrit l’intérieur de la voiture. Leur cadrage extérieur n’a pas été remplacé. En 02/4, les bras croisés ne sont pas vérifiables ; ce point et les expressions à très petite échelle restent ouverts pour la relecture, pas déclarés conformes sur la foi du prompt.
+
+Comparatif et cinq masques : `revue-couverture/lot-c/02-AVANT-APRES.jpg`. Contrôle après intégration du portrait corrigé et de la page entière ; aucune de ces cinq premières reprises n’est une validation définitive de ressemblance/style.
+
+En parallèle, **04/5** a été réexaminée : les identités au scénario sont bien **Ayden, Lyssandro, Nolann**, et non Milo au centre. Un nouvel essai avec les trois références nominatives de couverture a été écarté pour amélioration insuffisante du style et des ressemblances. Cette case reste en correction partielle, sans nouvelle modification livrée.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -60,7 +76,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **143 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **138 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
