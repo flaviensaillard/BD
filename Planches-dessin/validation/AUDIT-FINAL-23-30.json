@@ -1,0 +1,1534 @@
+{
+  "base": "112958e",
+  "source": "e0416a5",
+  "etat": "Contrôle des 40 vignettes terminé ; corrections observables appliquées ; pas de certification de ressemblance trait pour trait.",
+  "corrections": [
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "rectangle": [
+        27,
+        55,
+        837,
+        325
+      ],
+      "type": "teinte_vetements",
+      "pixels": 218,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-1-visages.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-2",
+      "rectangle": [
+        27,
+        339,
+        837,
+        609
+      ],
+      "type": "teinte_vetements",
+      "pixels": 190,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-2-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-2-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-2-visages.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-3",
+      "rectangle": [
+        27,
+        623,
+        837,
+        893
+      ],
+      "type": "teinte_vetements",
+      "pixels": 434,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-3-visages.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-4",
+      "rectangle": [
+        27,
+        906,
+        837,
+        1177
+      ],
+      "type": "teinte_vetements",
+      "pixels": 383,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/23-4-visages.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-1",
+      "rectangle": [
+        27,
+        31,
+        837,
+        485
+      ],
+      "type": "teinte_vetements",
+      "pixels": 188,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-1-visages.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-2",
+      "rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "type": "teinte_vetements",
+      "pixels": 266,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-2-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-2-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-2-visages.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-3",
+      "rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "type": "teinte_vetements",
+      "pixels": 235,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-3-visages.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-4",
+      "rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "type": "teinte_vetements",
+      "pixels": 520,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-4-visages.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-5",
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "type": "teinte_vetements",
+      "pixels": 349,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-5-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-5-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/25-5-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-1",
+      "rectangle": [
+        27,
+        59,
+        837,
+        353
+      ],
+      "type": "teinte_vetements",
+      "pixels": 237,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-1-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-2",
+      "rectangle": [
+        27,
+        367,
+        837,
+        662
+      ],
+      "type": "teinte_vetements",
+      "pixels": 287,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-2-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-2-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-2-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-3",
+      "rectangle": [
+        27,
+        675,
+        425,
+        918
+      ],
+      "type": "teinte_vetements",
+      "pixels": 137,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-3-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-4",
+      "rectangle": [
+        439,
+        675,
+        837,
+        918
+      ],
+      "type": "teinte_vetements",
+      "pixels": 75,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-4-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-5",
+      "rectangle": [
+        27,
+        931,
+        425,
+        1174
+      ],
+      "type": "teinte_vetements",
+      "pixels": 229,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-5-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-5-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-5-visages.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-6",
+      "rectangle": [
+        439,
+        931,
+        837,
+        1174
+      ],
+      "type": "teinte_vetements",
+      "pixels": 375,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-6-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-6-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/26-6-visages.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-1",
+      "rectangle": [
+        27,
+        27,
+        837,
+        485
+      ],
+      "type": "teinte_vetements",
+      "pixels": 523,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-1-visages.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-2",
+      "rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "type": "teinte_vetements",
+      "pixels": 364,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-2-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-2-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-2-visages.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-3",
+      "rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "type": "teinte_vetements",
+      "pixels": 101,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-3-visages.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-4",
+      "rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "type": "teinte_vetements",
+      "pixels": 153,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-4-visages.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-5",
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "type": "teinte_vetements",
+      "pixels": 413,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-5-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-5-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/27-5-visages.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-1",
+      "rectangle": [
+        27,
+        26,
+        425,
+        268
+      ],
+      "type": "teinte_vetements",
+      "pixels": 347,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-1-visages.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-2",
+      "rectangle": [
+        439,
+        26,
+        837,
+        268
+      ],
+      "type": "teinte_vetements",
+      "pixels": 186,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-2-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-2-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-2-visages.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-3",
+      "rectangle": [
+        27,
+        282,
+        837,
+        609
+      ],
+      "type": "teinte_vetements",
+      "pixels": 1260,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-3-visages.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-4",
+      "rectangle": [
+        27,
+        623,
+        425,
+        865
+      ],
+      "type": "teinte_vetements",
+      "pixels": 154,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-4-visages.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-5",
+      "rectangle": [
+        439,
+        623,
+        837,
+        865
+      ],
+      "type": "teinte_vetements",
+      "pixels": 101,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-5-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-5-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/28-5-visages.png"
+    },
+    {
+      "page": 29,
+      "vignette": "29-1",
+      "rectangle": [
+        27,
+        63,
+        425,
+        376
+      ],
+      "type": "teinte_vetements",
+      "pixels": 351,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-1-visages.png"
+    },
+    {
+      "page": 29,
+      "vignette": "29-3",
+      "rectangle": [
+        27,
+        390,
+        837,
+        772
+      ],
+      "type": "teinte_vetements",
+      "pixels": 424,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-3-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-3-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-3-visages.png"
+    },
+    {
+      "page": 29,
+      "vignette": "29-4",
+      "rectangle": [
+        27,
+        787,
+        837,
+        1169
+      ],
+      "type": "teinte_vetements",
+      "pixels": 115,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-4-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-4-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/29-4-visages.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-1",
+      "rectangle": [
+        27,
+        50,
+        425,
+        377
+      ],
+      "type": "teinte_vetements",
+      "pixels": 114,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-1-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-1-regions.png",
+      "visages": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-1-visages.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-5",
+      "rectangle": [
+        27,
+        731,
+        837,
+        1181
+      ],
+      "type": "couleurs_ballon",
+      "pixels": 10082,
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-5-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-5-regions.png",
+      "main": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-5-main.png",
+      "creme": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-5-creme.png",
+      "lisere": "Planches-dessin/validation/corrections-vignettes/audit23-final/30-5-lisere.png"
+    }
+  ],
+  "vignettes": [
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "source_rectangle": [
+        78,
+        158,
+        2402,
+        927
+      ],
+      "rectangle": [
+        27,
+        55,
+        837,
+        325
+      ],
+      "current_rectangle": [
+        27,
+        55,
+        837,
+        325
+      ],
+      "constat": "Cinq joueurs et ballon en passe, poteaux et bâtiment conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 23,
+      "vignette": "23-2",
+      "source_rectangle": [
+        78,
+        965,
+        2402,
+        1734
+      ],
+      "rectangle": [
+        27,
+        339,
+        837,
+        609
+      ],
+      "current_rectangle": [
+        27,
+        339,
+        837,
+        609
+      ],
+      "constat": "Cinq joueurs ; tête centrale courte tournée à droite rétablie à la passe 6 ; bras conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 23,
+      "vignette": "23-3",
+      "source_rectangle": [
+        78,
+        1774,
+        2402,
+        2543
+      ],
+      "rectangle": [
+        27,
+        623,
+        837,
+        893
+      ],
+      "current_rectangle": [
+        27,
+        623,
+        837,
+        893
+      ],
+      "constat": "Trois joueurs et plaqueur en chasuble jaune ; paysage corrigé précédemment conservé.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 23,
+      "vignette": "23-4",
+      "source_rectangle": [
+        78,
+        2581,
+        2402,
+        3350
+      ],
+      "rectangle": [
+        27,
+        906,
+        837,
+        1177
+      ],
+      "current_rectangle": [
+        27,
+        906,
+        837,
+        1177
+      ],
+      "constat": "Trois éducateurs à gauche et groupes d’entraînement ; répartition conservée.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 24,
+      "vignette": "24-1",
+      "source_rectangle": [
+        78,
+        83,
+        2402,
+        1378
+      ],
+      "rectangle": [
+        27,
+        29,
+        837,
+        484
+      ],
+      "current_rectangle": [
+        27,
+        29,
+        837,
+        484
+      ],
+      "constat": "Deux garçons à l’entrée, tenues bleue et jaune, piliers et portail.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 24,
+      "vignette": "24-2",
+      "source_rectangle": [
+        78,
+        1421,
+        1220,
+        2340
+      ],
+      "rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "current_rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "constat": "Garçon en bleu, sourire et cheveux courts : pas de nouvelle interprétation de la bouche à partir du tramé.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 24,
+      "vignette": "24-3",
+      "source_rectangle": [
+        1260,
+        1421,
+        2402,
+        2340
+      ],
+      "rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "current_rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "constat": "Père et enfant devant la maison, ballon entre eux.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 24,
+      "vignette": "24-4",
+      "source_rectangle": [
+        78,
+        2380,
+        1220,
+        3301
+      ],
+      "rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "current_rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "constat": "Échange père/enfant, ballon sous le bras et maison.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 24,
+      "vignette": "24-5",
+      "source_rectangle": [
+        1260,
+        2380,
+        2402,
+        3301
+      ],
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "current_rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "constat": "Main du père sur les cheveux, éclairage du soir ; fond corrigé à la passe 4 conservé.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 25,
+      "vignette": "25-1",
+      "source_rectangle": [
+        78,
+        78,
+        2402,
+        1381
+      ],
+      "rectangle": [
+        27,
+        31,
+        837,
+        485
+      ],
+      "current_rectangle": [
+        27,
+        31,
+        837,
+        485
+      ],
+      "constat": "Quatre groupes RCM au premier plan : 3 + 3 + 4 + 4 enfants, soit 14 ; trois éducateurs.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 25,
+      "vignette": "25-2",
+      "source_rectangle": [
+        78,
+        1421,
+        1220,
+        2340
+      ],
+      "rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "current_rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "constat": "Deux RCM et deux adversaires jaunes ; course et ballon conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 25,
+      "vignette": "25-3",
+      "source_rectangle": [
+        1260,
+        1421,
+        2402,
+        2340
+      ],
+      "rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "current_rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "constat": "Porteur rouge/blanc, RCM en poursuite et au plaquage ; ballon conservé.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 25,
+      "vignette": "25-4",
+      "source_rectangle": [
+        78,
+        2380,
+        1220,
+        3301
+      ],
+      "rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "current_rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "constat": "Cinq enfants, trois éducateurs ; gestes et gobelets conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 25,
+      "vignette": "25-5",
+      "source_rectangle": [
+        1260,
+        2380,
+        2402,
+        3301
+      ],
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "current_rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "constat": "Deux équipes face à face ; RCM à gauche, rouge/noir à droite.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-1",
+      "source_rectangle": [
+        78,
+        167,
+        2402,
+        1008
+      ],
+      "rectangle": [
+        27,
+        59,
+        837,
+        353
+      ],
+      "current_rectangle": [
+        27,
+        59,
+        837,
+        353
+      ],
+      "constat": "Cinq RCM autour du porteur rouge/noir ; botteur rouge/noir à droite.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-2",
+      "source_rectangle": [
+        78,
+        1045,
+        2402,
+        1886
+      ],
+      "rectangle": [
+        27,
+        367,
+        837,
+        662
+      ],
+      "current_rectangle": [
+        27,
+        367,
+        837,
+        662
+      ],
+      "constat": "Regroupement RCM à gauche, adversaire en attente et ballon mis à terre à droite.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-3",
+      "source_rectangle": [
+        78,
+        1923,
+        1220,
+        2612
+      ],
+      "rectangle": [
+        27,
+        675,
+        425,
+        918
+      ],
+      "current_rectangle": [
+        27,
+        675,
+        425,
+        918
+      ],
+      "constat": "Trois garçons RCM alignés, carnations et coiffures distinctes.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-4",
+      "source_rectangle": [
+        1260,
+        1923,
+        2402,
+        2612
+      ],
+      "rectangle": [
+        439,
+        675,
+        837,
+        918
+      ],
+      "current_rectangle": [
+        439,
+        675,
+        837,
+        918
+      ],
+      "constat": "Tableau, deux éducateurs et trois enfants ; couleurs du tableau exclues des retouches.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-5",
+      "source_rectangle": [
+        78,
+        2650,
+        1220,
+        3341
+      ],
+      "rectangle": [
+        27,
+        931,
+        425,
+        1174
+      ],
+      "current_rectangle": [
+        27,
+        931,
+        425,
+        1174
+      ],
+      "constat": "Trois éducateurs et quatre enfants ; gestes et tenues conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 26,
+      "vignette": "26-6",
+      "source_rectangle": [
+        1260,
+        2650,
+        2402,
+        3341
+      ],
+      "rectangle": [
+        439,
+        931,
+        837,
+        1174
+      ],
+      "current_rectangle": [
+        439,
+        931,
+        837,
+        1174
+      ],
+      "constat": "Cinq enfants, deux éducateurs dont un accroupi ; alignement et gestes conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 27,
+      "vignette": "27-1",
+      "source_rectangle": [
+        78,
+        78,
+        2402,
+        1381
+      ],
+      "rectangle": [
+        27,
+        27,
+        837,
+        485
+      ],
+      "current_rectangle": [
+        27,
+        27,
+        837,
+        485
+      ],
+      "constat": "Quatre RCM en attente, un RCM au plaquage et un porteur jaune.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 27,
+      "vignette": "27-2",
+      "source_rectangle": [
+        78,
+        1421,
+        1220,
+        2340
+      ],
+      "rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "current_rectangle": [
+        27,
+        499,
+        425,
+        822
+      ],
+      "constat": "Trois RCM en attente et un RCM posant le ballon ; pas de numéro inventé.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 27,
+      "vignette": "27-3",
+      "source_rectangle": [
+        1260,
+        1421,
+        2402,
+        2340
+      ],
+      "rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "current_rectangle": [
+        439,
+        499,
+        837,
+        822
+      ],
+      "constat": "Cérémonie et enfants en course ; figurants et accessoires hors vêtements protégés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 27,
+      "vignette": "27-4",
+      "source_rectangle": [
+        78,
+        2380,
+        1220,
+        3301
+      ],
+      "rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "current_rectangle": [
+        27,
+        836,
+        425,
+        1159
+      ],
+      "constat": "Cinq RCM face aux cinq joueurs verts ; salut conservé.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 27,
+      "vignette": "27-5",
+      "source_rectangle": [
+        1260,
+        2380,
+        2402,
+        3301
+      ],
+      "rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "current_rectangle": [
+        439,
+        836,
+        837,
+        1159
+      ],
+      "constat": "Cinq enfants bras liés ; visages, mains et manches conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-1",
+      "source_rectangle": [
+        78,
+        75,
+        1220,
+        764
+      ],
+      "rectangle": [
+        27,
+        26,
+        425,
+        268
+      ],
+      "current_rectangle": [
+        27,
+        26,
+        425,
+        268
+      ],
+      "constat": "Essai au premier plan, partenaires RCM et deux adversaires verts.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-2",
+      "source_rectangle": [
+        1260,
+        75,
+        2402,
+        764
+      ],
+      "rectangle": [
+        439,
+        26,
+        837,
+        268
+      ],
+      "current_rectangle": [
+        439,
+        26,
+        837,
+        268
+      ],
+      "constat": "Cinq défenseurs RCM, porteur vert et arbitre au bras levé.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-3",
+      "source_rectangle": [
+        78,
+        804,
+        2402,
+        1734
+      ],
+      "rectangle": [
+        27,
+        282,
+        837,
+        609
+      ],
+      "current_rectangle": [
+        27,
+        282,
+        837,
+        609
+      ],
+      "constat": "Porteur vert et plaqueur RCM ; quatre partenaires RCM en attente.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-4",
+      "source_rectangle": [
+        78,
+        1774,
+        1220,
+        2463
+      ],
+      "rectangle": [
+        27,
+        623,
+        425,
+        865
+      ],
+      "current_rectangle": [
+        27,
+        623,
+        425,
+        865
+      ],
+      "constat": "Plaquage près de la touche ; ballon, bras de l’adulte et ligne conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-5",
+      "source_rectangle": [
+        1260,
+        1774,
+        2402,
+        2463
+      ],
+      "rectangle": [
+        439,
+        623,
+        837,
+        865
+      ],
+      "current_rectangle": [
+        439,
+        623,
+        837,
+        865
+      ],
+      "constat": "Botteur, ballon, file de joueurs et trois éducateurs.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 28,
+      "vignette": "28-6",
+      "source_rectangle": [
+        78,
+        2503,
+        2402,
+        3433
+      ],
+      "rectangle": [
+        27,
+        879,
+        837,
+        1206
+      ],
+      "current_rectangle": [
+        27,
+        879,
+        837,
+        1206
+      ],
+      "constat": "Quatre RCM et adversaires verts ; manches rouges authentiques maintenues.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 29,
+      "vignette": "29-1",
+      "source_rectangle": [
+        78,
+        178,
+        1220,
+        1068
+      ],
+      "rectangle": [
+        27,
+        63,
+        425,
+        376
+      ],
+      "current_rectangle": [
+        27,
+        63,
+        425,
+        376
+      ],
+      "constat": "Porteur RCM poursuivi par les verts ; ballon et courses conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 29,
+      "vignette": "29-2",
+      "source_rectangle": [
+        1260,
+        178,
+        2402,
+        1068
+      ],
+      "rectangle": [
+        439,
+        63,
+        837,
+        376
+      ],
+      "current_rectangle": [
+        439,
+        63,
+        837,
+        376
+      ],
+      "constat": "Portrait de trois quarts, cheveux châtains et sourire fermé conservés.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 29,
+      "vignette": "29-3",
+      "source_rectangle": [
+        78,
+        1108,
+        2402,
+        2199
+      ],
+      "rectangle": [
+        27,
+        390,
+        837,
+        772
+      ],
+      "current_rectangle": [
+        27,
+        390,
+        837,
+        772
+      ],
+      "constat": "Quatre RCM, deux verts et ballon en passe ; gestes conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 29,
+      "vignette": "29-4",
+      "source_rectangle": [
+        78,
+        2239,
+        2402,
+        3327
+      ],
+      "rectangle": [
+        27,
+        787,
+        837,
+        1169
+      ],
+      "current_rectangle": [
+        27,
+        787,
+        837,
+        1169
+      ],
+      "constat": "Essai, deux verts et arbitre ; ballon et main levée conservés.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 30,
+      "vignette": "30-1",
+      "source_rectangle": [
+        78,
+        129,
+        1220,
+        1068
+      ],
+      "rectangle": [
+        27,
+        50,
+        425,
+        377
+      ],
+      "current_rectangle": [
+        27,
+        50,
+        425,
+        377
+      ],
+      "constat": "Trois RCM enlacés, un RCM serrant une main et deux adversaires verts.",
+      "decision": "Corrigé : teintes de tenue"
+    },
+    {
+      "page": 30,
+      "vignette": "30-2",
+      "source_rectangle": [
+        1260,
+        129,
+        2402,
+        1068
+      ],
+      "rectangle": [
+        439,
+        50,
+        837,
+        377
+      ],
+      "current_rectangle": [
+        439,
+        50,
+        837,
+        377
+      ],
+      "constat": "Groupe conservé : 19 enfants et 3 adultes, comptage documenté à la passe 3.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 30,
+      "vignette": "30-3",
+      "source_rectangle": [
+        78,
+        1108,
+        1220,
+        2047
+      ],
+      "rectangle": [
+        27,
+        390,
+        425,
+        718
+      ],
+      "current_rectangle": [
+        27,
+        390,
+        425,
+        718
+      ],
+      "constat": "Trois éducateurs, mains aux épaules, sifflet et enfants derrière ; aucune nouvelle génération de visage.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 30,
+      "vignette": "30-4",
+      "source_rectangle": [
+        1260,
+        1108,
+        2402,
+        2047
+      ],
+      "rectangle": [
+        439,
+        390,
+        837,
+        718
+      ],
+      "current_rectangle": [
+        439,
+        390,
+        837,
+        718
+      ],
+      "constat": "Père/enfant main dans la main ; correction précédente de l’appentis et de la fausse annexe conservée.",
+      "decision": "Conservé après comparaison"
+    },
+    {
+      "page": 30,
+      "vignette": "30-5",
+      "source_rectangle": [
+        78,
+        2084,
+        2402,
+        3376
+      ],
+      "rectangle": [
+        27,
+        731,
+        837,
+        1181
+      ],
+      "current_rectangle": [
+        27,
+        731,
+        837,
+        1181
+      ],
+      "constat": "Père, enfant médaillé, main sur l’épaule et ballon ; crème et liseré rouge/rosé rétablis.",
+      "decision": "Corrigé : couleurs du ballon"
+    }
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "octets": 1791351,
+      "sha256": "75ae248335e50fcfcb883a2a95c1b8aa723a23bedd987d9c00f036242d4bfa87",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "octets": 1751839,
+      "sha256": "90a920ea08c62d4e4cbce0009d35bcdb64a35d43cc883eec9a44dc50e68f1715",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "octets": 1858072,
+      "sha256": "ae0f675a2e0b1795f007cc7d7e5dd9d92bd45baf9c7a98c5497bbe8c636bfdcb",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "octets": 1779907,
+      "sha256": "3cb1e7045d4dae0be430fc8168dd5df51487f8639d3993f21d7bda691531c369",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "octets": 1688793,
+      "sha256": "dc51cac3c9fff4c275e6c550f10073ae33d764d540880524baa473a9c4189255",
+      "dimensions": [
+        864,
+        1222
+      ]
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "octets": 1903413,
+      "sha256": "2982f7cecfe450e7e14a926847d56136f75c38ac0a71896f61566cf55103361e",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "octets": 1679390,
+      "sha256": "62c69adc817d1efa78e509403521276f5bd98f92501942255577c4ed8adbb545",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "octets": 1514134,
+      "sha256": "07df6cca579806085903511204074b96ddcbfb277b29d5b1141b0dd51c78e9df",
+      "dimensions": [
+        864,
+        1232
+      ]
+    }
+  ],
+  "limites_source": [
+    "Les originaux disponibles sont déjà tramés : détails fins de visage, microexpressions et petites inscriptions partiellement perdus.",
+    "Les scènes, gestes, groupes, grandes caractéristiques et couleurs sont comparés visuellement ; les empreintes et masques ne prouvent ni identité parfaite ni conformité artistique absolue."
+  ],
+  "reprise_identifiee_non_traitee": [],
+  "verifications_executees": [
+    {
+      "commande": "PYTHONPATH=.arena/vendor python outils/retouche/verifier_audit23_30.py",
+      "resultat": "succès"
+    },
+    {
+      "commande": "PYTHONPATH=.arena/vendor python outils/retouche/verifier_audit_final_23_30.py",
+      "resultat": "succès"
+    },
+    {
+      "commande": "PYTHONPATH=.arena/vendor python outils/retouche/verifier_lot23_30.py",
+      "resultat": "succès"
+    },
+    {
+      "commande": "PYTHONPATH=.arena/vendor python outils/retouche/verifier_audit13_22.py",
+      "resultat": "succès"
+    },
+    {
+      "commande": "PYTHONPATH=.arena/vendor python outils/retouche/verifier_audit2_13_22.py",
+      "resultat": "succès"
+    },
+    {
+      "commande": "git diff --check",
+      "resultat": "succès"
+    }
+  ]
+}

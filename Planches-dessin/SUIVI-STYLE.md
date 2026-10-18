@@ -247,3 +247,9 @@ Base `1cf3243`. **Pages 23 et 25 modifiées, uniquement en 23/1, 23/2 et 25/1** 
 Rapport courant : `validation/AUDIT6-23-30.md`, inventaire `AUDIT6-23-30.json`. Preuves : `AUDIT6-23-30-AVANT-APRES.jpg` et `AUDIT6-23-25-COULEURS.jpg`. Vérificateur courant : `outils/retouche/verifier_audit6_23_30.py`, intégré à la chaîne historique ; inventaire du lot actualisé.
 
 **Coiffure et orientation corrigées ne signifient pas identité parfaite.** Source déjà tramée, ressemblances/expressions fines, anatomies, petits figurants, logos et finitions des zones protégées gardent des réserves. Pas de validation globale de la BD.
+
+## Contrôle final 23–30 — terminé
+
+Base `112958e`. Les **40 vignettes** ont une décision explicite dans `validation/AUDIT-FINAL-23-30.md` et son JSON. Dernière passe : 29 retouches de teinte de tenues/chaussettes et rétablissement du ballon crème à liseré rouge/rosé en 30/5, sans génération de personnage ou de décor, à V constant. Fichiers 00–22 et 24 inchangés. Comptages 25/1 (3+3+4+4) et 30/2 (19+3) conservés ; manches authentiques 28/6 inchangées.
+
+**Pas de correction identifiée laissée en attente dans ce contrôle.** Les anciennes réserves générales relèvent des limites de sources déjà tramées, pas d’une liste de défauts démontrés à réinventer. Cela ne certifie pas la ressemblance trait pour trait ou une identité artistique absolue. Huit comparaisons source/état final et une preuve couleur sont livrées. Vérificateur : `outils/retouche/verifier_audit_final_23_30.py`, après la chaîne historique. La conversation reste ouverte pour les demandes suivantes.
