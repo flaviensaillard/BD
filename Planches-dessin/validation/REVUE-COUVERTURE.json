@@ -447,6 +447,193 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-e/04-6-masque-cumulatif.png",
       "type": "reprise_graphique",
       "intervention": "Visage et cheveux en pics de Léon repris sur la couverture avec sourire de défi ; haussement d’épaules, deux mains, maillot/écusson, six enfants en fond et terrain hors masque conservés."
+    },
+    {
+      "page": 5,
+      "vignette": "05-1",
+      "rectangle": [
+        21,
+        40,
+        843,
+        497
+      ],
+      "source_rectangle": [
+        56,
+        112,
+        2424,
+        1428
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Substitution du coach corrigée : Julien gris à bouc/moustache remplace Kilian roux, conformément au scénario et à la source réaliste. Nolann passeur retrouve courte frange brune et teint mat, mains/jambes accordées au visage ; Milo receveur retrouve sa frange châtaine pleine sans pics avec surprise préservée. Six enfants visibles, poses, ballon et tenues/décor hors masques conservés."
+    },
+    {
+      "page": 5,
+      "vignette": "05-2",
+      "rectangle": [
+        21,
+        511,
+        425,
+        839
+      ],
+      "source_rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Visages de Léon et Kilian repris sur leurs références de couverture : pics châtains et agacement pour Léon, cheveux/barbe roux et profil attentif pour Kilian. Ballon, gestes, autres enfants, spectateurs et terrain hors masques conservés."
+    },
+    {
+      "page": 5,
+      "vignette": "05-3",
+      "rectangle": [
+        439,
+        511,
+        843,
+        839
+      ],
+      "source_rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "aimants_apres": [
+        [
+          314.0,
+          158.0
+        ],
+        [
+          325.0,
+          155.4
+        ],
+        [
+          336.0,
+          152.8
+        ],
+        [
+          347.0,
+          150.2
+        ],
+        [
+          310.7,
+          171.0
+        ],
+        [
+          321.7,
+          168.4
+        ],
+        [
+          332.7,
+          165.8
+        ],
+        [
+          343.7,
+          163.2
+        ],
+        [
+          307.4,
+          184.0
+        ],
+        [
+          318.4,
+          181.4
+        ],
+        [
+          329.4,
+          178.8
+        ],
+        [
+          340.4,
+          176.2
+        ],
+        [
+          304.1,
+          197.0
+        ],
+        [
+          315.1,
+          194.4
+        ],
+        [
+          326.1,
+          191.8
+        ],
+        [
+          337.1,
+          189.2
+        ],
+        [
+          300.8,
+          210.0
+        ],
+        [
+          311.8,
+          207.4
+        ],
+        [
+          322.8,
+          204.8
+        ],
+        [
+          333.8,
+          202.2
+        ]
+      ],
+      "comptage_aimants": {
+        "avant": 22,
+        "apres": 20,
+        "disposition": "4 colonnes de 5"
+      },
+      "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Flavien/Julien/Kilian reprises sur la couverture, notamment légère barbe brune et bouc gris sans barbe pleine sur les joues. Tableau corrigé de 22 aimants irréguliers à 20, en quatre colonnes de cinq, conformément au scénario. Local, gestes, vêtements et autres objets hors masque préservés."
+    },
+    {
+      "page": 5,
+      "vignette": "05-4",
+      "rectangle": [
+        21,
+        854,
+        425,
+        1182
+      ],
+      "source_rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Julien retrouve bouc/moustache gris sans barbe complète ; Kilian retrouve traits et barbe rousse du modèle. Expression pensive, deux mains manipulant le sifflet jaune, cordon et décor hors masques préservés."
+    },
+    {
+      "page": 5,
+      "vignette": "05-5",
+      "rectangle": [
+        439,
+        854,
+        843,
+        1182
+      ],
+      "source_rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "comptage_aimants": {
+        "avant": 21,
+        "apres": 20,
+        "disposition": "19 groupés + 1 rouge isolé"
+      },
+      "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Flavien/Julien/Kilian reprises ; tableau ramené de 21 à 20 aimants par retrait local d’un aimant rouge du groupe, l’aimant rouge isolé étant conservé. Main, tenues et autres aimants hors masques préservés. Nom LÉON/listes et dialogues non ajoutés avant la phase de lettrage."
     }
   ],
   "vignettes": [
@@ -848,12 +1035,14 @@
         500
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Match d'application à 5 contre 5 entre deux des 4 équipes du RCM. **Nolann** fait une passe un peu molle que **Milo** laisse échapper vers l'avant.\n  - *Onomatopée* : **« FIIIIT ! »**\n  - *Bulle (Julien)* : « En-avant ! Ballon rendu à l'autre équipe ! On garde les mains bien ouvertes en W devant la poitrine, Milo ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
       "realiste": "planches/05-premiers-sifflets-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Substitution du coach corrigée : Julien gris à bouc/moustache remplace Kilian roux, conformément au scénario et à la source réaliste. Nolann passeur retrouve courte frange brune et teint mat, mains/jambes accordées au visage ; Milo receveur retrouve sa frange châtaine pleine sans pics avec surprise préservée. Six enfants visibles, poses, ballon et tenues/décor hors masques conservés.",
+      "distribution_identifiee": "Nolann passeur à gauche ; Milo receveur à droite ; Julien au bord du terrain. Quatre autres enfants visibles en fond ; ce cadrage ne montre pas l’effectif complet du match à 5 contre 5."
     },
     {
       "page": 5,
@@ -865,12 +1054,13 @@
         842
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Sur l'action suivante, **Léon** veut intercepter mais part deux mètres devant sa ligne.\n  - *Onomatopée* : **« FIIIIT ! »**\n  - *Bulle (Kilian)* : « Hors-jeu Léon ! Tu étais devant tes copains au départ de l'action ! »\n  - *Bulle (Léon, soufflant d'agacement)* : « Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U8 ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
       "realiste": "planches/05-premiers-sifflets-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Visages de Léon et Kilian repris sur leurs références de couverture : pics châtains et agacement pour Léon, cheveux/barbe roux et profil attentif pour Kilian. Ballon, gestes, autres enfants, spectateurs et terrain hors masques conservés."
     },
     {
       "page": 5,
@@ -882,12 +1072,19 @@
         842
       ],
       "scenario": "- **Vignette 3 (Changement de décor — Sans les joueurs)** :\n  - *Visuel* : Fin d'entraînement. Les enfants sont partis. Dans le local des éducateurs du RCM, **Flavien**, **Julien** et **Kilian** sont réunis autour d'un tableau magnétique comportant 20 aimants (4 colonnes de 5 joueurs).\n  - *Encadré narratif* : « PLUS TARD, DANS LE VESTIAIRE DES COACHS… »\n  - *Bulle (Kilian)* : « Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme pour le premier tournoi d'octobre. Sur le papier, l'équipe de Léon, Lyssandro, Ayden, Nolann et Milo a du feu dans les jambes. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
       "realiste": "planches/05-premiers-sifflets-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Flavien/Julien/Kilian reprises sur la couverture, notamment légère barbe brune et bouc gris sans barbe pleine sur les joues. Tableau corrigé de 22 aimants irréguliers à 20, en quatre colonnes de cinq, conformément au scénario. Local, gestes, vêtements et autres objets hors masque préservés.",
+      "comptage_aimants": {
+        "avant": 22,
+        "apres": 20,
+        "disposition": "4 colonnes de 5"
+      },
+      "preuve_aimants": "Planches-dessin/validation/revue-couverture/lot-f/AIMANTS-05.jpg"
     },
     {
       "page": 5,
@@ -899,12 +1096,13 @@
         1185
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Julien** fait tourner son sifflet jaune entre ses doigts, l'air pensif.\n  - *Bulle (Julien)* : « Du feu dans les jambes, oui… mais tu as vu leur réaction à chaque coup de sifflet ? Ils ont encore la tête en U6 où il suffisait de courir tout droit pour marquer. »\n  - *Bulle (Kilian)* : « C'est vrai qu'au niveau des passes sous pression et de la défense en ligne, il y a encore tout à construire. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
       "realiste": "planches/05-premiers-sifflets-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Julien retrouve bouc/moustache gris sans barbe complète ; Kilian retrouve traits et barbe rousse du modèle. Expression pensive, deux mains manipulant le sifflet jaune, cordon et décor hors masques préservés."
     },
     {
       "page": 5,
@@ -916,12 +1114,20 @@
         1185
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Flavien** regarde le nom de « LÉON » inscrit en haut de la liste.\n  - *Bulle (Flavien)* : « C'est surtout pour Léon que je m'inquiète. Il a un tel esprit de gagnant qu'il ne conçoit même pas qu'on puisse perdre un match. »\n  - *Bulle (Julien)* : « Le premier tournoi va être un sacré révélateur, Flavien. On sera là pour les accompagner. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
       "realiste": "planches/05-premiers-sifflets-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Flavien/Julien/Kilian reprises ; tableau ramené de 21 à 20 aimants par retrait local d’un aimant rouge du groupe, l’aimant rouge isolé étant conservé. Main, tenues et autres aimants hors masques préservés. Nom LÉON/listes et dialogues non ajoutés avant la phase de lettrage.",
+      "comptage_aimants": {
+        "avant": 21,
+        "apres": 20,
+        "disposition": "19 groupés + 1 rouge isolé"
+      },
+      "preuve_aimants": "Planches-dessin/validation/revue-couverture/lot-f/AIMANTS-05.jpg",
+      "reserve_lettrage": "Le nom LÉON et les listes du tableau attendent la phase de textes prévue après validation graphique."
     },
     {
       "page": 6,
@@ -3156,12 +3362,12 @@
     {
       "page": 5,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
-      "sha256": "5d3e27e2c695053bb56a0fc24310b5829d9a22647f44b651a73f45759f23e19a",
+      "sha256": "39169ea324c32e1ffe26cdab062f2dcca4b4cdf24569e8878837e923aa42396c",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1632693
+      "octets": 1636773
     },
     {
       "page": 6,
@@ -3424,9 +3630,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 23,
+    "vignettes_corrigees_premiere_passe": 28,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 129,
+    "vignettes_a_controler_individuellement": 124,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3571,6 +3777,17 @@
         "04-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-e/"
+    },
+    {
+      "base": "e96fc0c",
+      "vignettes": [
+        "05-1",
+        "05-2",
+        "05-3",
+        "05-4",
+        "05-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-f/"
     }
   ]
 }

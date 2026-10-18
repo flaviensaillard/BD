@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 23 |
+| Premières reprises intégrées, encore à relire | 28 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 129 |
+| Autres vignettes restant à contrôler individuellement | 124 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 24 vignettes ayant reçu une intervention ne sont pas 24 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 29 vignettes ayant reçu une intervention ne sont pas 29 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -93,6 +93,18 @@ Cinq nouvelles vignettes examinées/corrigées et **04/5** reprise au-delà de s
 
 Comparatif : `revue-couverture/lot-e/04-AVANT-APRES.jpg`. Six masques de cette passe et six masques cumulatifs documentent la localité. Contrôle visuel après montage des portraits et de la page entière ; les réserves sur les raccords de scénario, les tenues et l’encrage des corps/décors restent ouvertes pour la relecture globale.
 
+## Sixième livraison : les cinq vignettes de la planche 5
+
+Chaque case a été comparée à son scénario, à sa source réaliste et aux recadrages nominatifs de couverture. Cinq premières reprises intégrées, aucune validation définitive.
+
+- **05/1 :** substitution manifeste corrigée : le coach roux était **Kilian**, alors que le scénario et la source réaliste désignent **Julien**. Nouvelle tête grise à bouc/moustache. Le passeur est **Nolann**, trop pâle auparavant : visage et courte frange brune repris, mains et jambes visibles accordées localement au teint mat. **Milo** reçoit une reprise spécifique de sa coiffure : le premier candidat gardait des pics ; ils ont été retirés et remplacés par une frange châtaine pleine. Surprise conservée. Tenues, gestes de passe/en-avant, ballon, quatre enfants de fond et terrain hors masques préservés. Six enfants visibles dans ce cadrage : ce n’est pas une preuve de dix joueurs simultanément visibles.
+- **05/2 :** tête de **Léon** reprise sur le modèle avec pics châtains et expression d’agacement, pas le sourire de couverture collé à la scène. **Kilian** retrouve traits et barbe rousse du modèle. Autres joueurs, ballon, main du coach, spectateurs et décor hors masques conservés.
+- **05/3 :** portraits des trois coachs rapprochés des modèles, notamment légère pilosité de Flavien et bouc/moustache de Julien plutôt qu’une barbe pleine. Le tableau comportait **22 aimants** irréguliers (5 + 3 + 5 + 5 + 4). Ils sont remplacés localement par **20 aimants, en quatre colonnes de cinq**, selon le scénario. Cadre et reste du tableau, pièces du local et corps hors masques préservés.
+- **05/4 :** Julien retrouve son bouc/moustache gris sans barbe sur les joues ; Kilian reprend les traits du modèle. Deux mains, sifflet jaune, cordon, vêtements et tableau hors masques conservés.
+- **05/5 :** portraits Flavien/Julien/Kilian repris ; le tableau montrait **20 aimants groupés plus le rouge isolé**, soit 21. Retrait local d’un rouge du groupe : **19 groupés + le rouge isolé = 20**. Les autres aimants et la main sont conservés hors masque. Le nom « LÉON » et les listes ne sont pas ajoutés avant la phase de lettrage demandée par l’utilisateur.
+
+Preuves : `revue-couverture/lot-f/05-AVANT-APRES.jpg`, `AIMANTS-05.jpg` et cinq masques. Le contrôle indépendant des composantes colorées/sombres dans les zones de tableaux retrouve 20 disques complets dans chaque résultat (éléments de pièce/cadre touchant les limites de zone exclus). Il ne certifie ni les ressemblances ni le style. Montage relu à l’échelle des portraits et de la page ; tenues, raccords et encrage des corps/décors restent soumis à la relecture globale.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -101,7 +113,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **129 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **124 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
