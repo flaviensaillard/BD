@@ -1459,6 +1459,101 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-p/14-5-masque-cumulatif.png",
       "type": "reprise_graphique",
       "intervention": "Léon regrettant sur son sac et Flavien à ses côtés repris localement. Groupe de consolation reconstruit : Julien et Kilian avec QUATRE enfants (Milo de dos gauche, Nolann face avant au milieu, Ayden de dos droite, Lyssandro visible derrière). La source ne montrait que trois enfants : quatrième rétabli selon le scénario. Noms ajoutés aux dos par le candidat supprimés ; numéros 7 et 8 des deux dos conservés. Terrain/cadrage général maintenus, corps du groupe de consolation nécessairement repris."
+    },
+    {
+      "page": 15,
+      "vignette": "15-1",
+      "rectangle": [
+        23,
+        27,
+        826,
+        273
+      ],
+      "source_rectangle": [
+        75,
+        75,
+        2405,
+        784
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Portraits locaux de Léon et Flavien : pics châtains du fils et cheveux bruns relevés/légère pilosité du père rapprochés de la couverture. Léon baisse la tête, Flavien reste attentif sans sourire de publicité. Tenues civiles vert doux/gris, lumière chaude, nuit et décor conservés hors masques.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-1-masque.png"
+    },
+    {
+      "page": 15,
+      "vignette": "15-2",
+      "rectangle": [
+        23,
+        289,
+        417,
+        508
+      ],
+      "source_rectangle": [
+        75,
+        821,
+        1221,
+        1453
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon recroquevillé sur le canapé, honteux et regardant ses chaussettes : cheveux bouclés remplacés par les pics châtains du modèle, visage enfantin repris. Portrait spécifique de Flavien brun, moustache/barbe légère, tourné vers son fils avec attention. Deux portraits isolés intégrés après rejet du candidat complet qui aplatissait la scène. Mains sur les jambes, chaussettes, deux chocolats, corps et salon conservés hors masques.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-2-masque.png"
+    },
+    {
+      "page": 15,
+      "vignette": "15-3",
+      "rectangle": [
+        432,
+        289,
+        826,
+        508
+      ],
+      "source_rectangle": [
+        1259,
+        821,
+        2405,
+        1453
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon lève les yeux vers Flavien ; cheveux en pics châtains, yeux embués et bouche incertaine repris par portrait isolé. Flavien brun écoute avec sollicitude ; visage/pilosité repris séparément. Candidat de case entière rejeté pour déformation du cadrage et aplatissement des proportions. Tenues civiles, positions et décor hors masques conservés.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-3-masque.png"
+    },
+    {
+      "page": 15,
+      "vignette": "15-4",
+      "rectangle": [
+        23,
+        523,
+        826,
+        923
+      ],
+      "source_rectangle": [
+        75,
+        1490,
+        2405,
+        2630
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Visages de Flavien et Léon rapprochés des deux modèles : brun court relevé/barbe légère pour le père, pics châtains pour le fils de profil. Sourire tendre du père et écoute calme du fils conservés. Les deux mains sur les épaules et les bras, vêtements civils, canapé et décor restent ceux de la case originale hors masques.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-4-masque.png"
+    },
+    {
+      "page": 15,
+      "vignette": "15-5",
+      "rectangle": [
+        23,
+        939,
+        826,
+        1240
+      ],
+      "source_rectangle": [
+        75,
+        2667,
+        2405,
+        3433
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Portraits père/fils locaux : brun de Flavien et pics châtains de Léon, trait et traits rapprochés de la couverture. Léon reste pensif, blotti contre son père qui lui sourit tendrement. Bras et main entourant l'enfant, tenues civiles et salon nocturne conservés hors masques.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-5-masque.png"
     }
   ],
   "vignettes": [
@@ -2824,12 +2919,13 @@
         276
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : La nuit est tombée sur le village de **Saint-Sulpice**. Dans le salon éclairé d'une lumière chaude (Vanessa et Alice sont dans la pièce voisine, hors-champ), Léon est recroquevillé sur le canapé en tenue civile, silencieux.\n  - *Encadré narratif* : « LE SOIR MÊME, À SAINT-SULPICE… »\n  - *Bulle (Flavien, s'asseyant près de lui avec deux chocolats chauds)* : « Vanessa et Alice préparent le dîner à côté. Toi et moi, on a besoin de discuter d'homme à homme, Léon. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
       "realiste": "planches/15-la-lecon-d-un-pere-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portraits locaux de Léon et Flavien : pics châtains du fils et cheveux bruns relevés/légère pilosité du père rapprochés de la couverture. Léon baisse la tête, Flavien reste attentif sans sourire de publicité. Tenues civiles vert doux/gris, lumière chaude, nuit et décor conservés hors masques."
     },
     {
       "page": 15,
@@ -2841,12 +2937,13 @@
         511
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Léon regarde ses chaussettes, honteux.\n  - *Bulle (Léon, tout bas)* : « Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lyssandro et Ayden aussi. »\n  - *Bulle (Flavien)* : « Pourquoi tu t'es mis dans une colère pareille, mon grand ? Dis-moi ce qui se passe dans ton cœur quand on perd. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
       "realiste": "planches/15-la-lecon-d-un-pere-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon recroquevillé sur le canapé, honteux et regardant ses chaussettes : cheveux bouclés remplacés par les pics châtains du modèle, visage enfantin repris. Portrait spécifique de Flavien brun, moustache/barbe légère, tourné vers son fils avec attention. Deux portraits isolés intégrés après rejet du candidat complet qui aplatissait la scène. Mains sur les jambes, chaussettes, deux chocolats, corps et salon conservés hors masques."
     },
     {
       "page": 15,
@@ -2858,12 +2955,13 @@
         511
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : Léon lève vers son père de grands yeux embués.\n  - *Bulle (Léon)* : « C'est que… j'ai trop envie qu'on gagne ! Quand l'autre équipe marque et qu'on perd, j'ai l'impression qu'on est devenus nuls par rapport à l'année dernière en U6… et ça me fait trop mal au ventre ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
       "realiste": "planches/15-la-lecon-d-un-pere-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon lève les yeux vers Flavien ; cheveux en pics châtains, yeux embués et bouche incertaine repris par portrait isolé. Flavien brun écoute avec sollicitude ; visage/pilosité repris séparément. Candidat de case entière rejeté pour déformation du cadrage et aplatissement des proportions. Tenues civiles, positions et décor hors masques conservés."
     },
     {
       "page": 15,
@@ -2875,12 +2973,13 @@
         926
       ],
       "scenario": "- **Vignette 4 (Grande vignette centrale — Le cœur moral du livre)** :\n  - *Visuel* : **Flavien** pose ses deux mains sur les épaules de Léon et lui sourit avec une immense tendresse.\n  - *Bulle (Flavien)* : « Écoute-moi bien, Léon, et garde cette phrase dans ta tête pour toute ta vie : **on apprend toujours de ses échecs, jamais de ses victoires.** »\n  - *Bulle (Flavien)* : « Quand on gagne tout comme en U6, on croit qu'on est parfait et on n'apprend rien. Mais quand on échoue, qu'on fait un en-avant ou qu'on perd un match… c'est là qu'on voit ce qu'il faut travailler pour évoluer ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
       "realiste": "planches/15-la-lecon-d-un-pere-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Visages de Flavien et Léon rapprochés des deux modèles : brun court relevé/barbe légère pour le père, pics châtains pour le fils de profil. Sourire tendre du père et écoute calme du fils conservés. Les deux mains sur les épaules et les bras, vêtements civils, canapé et décor restent ceux de la case originale hors masques."
     },
     {
       "page": 15,
@@ -2892,12 +2991,13 @@
         1243
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Léon réfléchit intensément aux paroles de son père, puis se blottit contre le bras de Flavien.\n  - *Bulle (Léon)* : « Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça veut dire qu'on est en train d'apprendre ? »\n  - *Bulle (Flavien)* : « Exactement champion : **on apprend de ses échecs, c'est ce qui conduit à la victoire**. Mais pour que l'équipe apprenne, tes copains ont besoin que tu les aides à comprendre, pas que tu leur cries dessus. Tu sais ce qu'il te reste à faire ? »\n  - *Bulle (Léon, déterminé)* : « Oui Papa. Dès demain. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
       "realiste": "planches/15-la-lecon-d-un-pere-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portraits père/fils locaux : brun de Flavien et pics châtains de Léon, trait et traits rapprochés de la couverture. Léon reste pensif, blotti contre son père qui lui sourit tendrement. Bras et main entourant l'enfant, tenues civiles et salon nocturne conservés hors masques."
     },
     {
       "page": 16,
@@ -4347,12 +4447,12 @@
     {
       "page": 15,
       "fichier": "Planches-dessin/15-la-lecon-d-un-pere-marvel.png",
-      "sha256": "37e54dee3364d2c012069b5a41e2d8282527111b9f55b560b2b788dbf11d135c",
+      "sha256": "8da4f5c2b5926365f93fe2a9124f86bd836068e5f78791e84be50cf00e58e000",
       "dimensions": [
         848,
         1264
       ],
-      "octets": 1449021
+      "octets": 1461330
     },
     {
       "page": 16,
@@ -4573,15 +4673,23 @@
     {
       "vignette": "14-5",
       "motif": "Candidat rétablit le quatrième garçon demandé mais invente des noms sur les dos et répète le numéro 7 : noms supprimés, numéro 8 rétabli. Premier montage conservait un fragment de l'ancienne tête de dos et des lettres : masque et nettoyage repris."
+    },
+    {
+      "vignette": "15-2/3",
+      "motif": "Candidats de cases entières aplatissant les proportions et modifiant cadrage/postures : rejetés. Quatre portraits isolés créés et intégrés aux corps originaux."
+    },
+    {
+      "vignette": "15-1/3",
+      "motif": "Premiers masques laissant des fragments des anciennes têtes ou important un cadre du décor du portrait isolé : périmètres élargis pour retirer les anciens contours et resserrés sur le crâne de Flavien ; tête et cou de Léon 15/1 intégrés jusqu'au bord bas pour éviter un double menton."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 74,
+    "vignettes_corrigees_premiere_passe": 79,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 78,
+    "vignettes_a_controler_individuellement": 73,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -4852,6 +4960,17 @@
         "14-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-p/"
+    },
+    {
+      "base": "f9ab159",
+      "vignettes": [
+        "15-1",
+        "15-2",
+        "15-3",
+        "15-4",
+        "15-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-q/"
     }
   ],
   "relectures_sans_retouche": [

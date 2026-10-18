@@ -2,7 +2,7 @@
 
 **La couverture `00-couverture-marvel.png` est désormais la seule référence de style et d’identité.** La décision utilisateur remplace la priorité V2 décrite dans l’historique ci-dessous. La couverture reste inchangée.
 
-Suivi actuel : [`validation/REVUE-COUVERTURE.md`](validation/REVUE-COUVERTURE.md) et son manifeste JSON : 153 vignettes inventoriées, 74 premières reprises, 1 contrôle sans retouche, 0 correction partielle, 78 autres contrôles individuels à faire, aucune validation définitive. Les anciennes approbations ne valent pas conformité au nouveau référentiel.
+Suivi actuel : [`validation/REVUE-COUVERTURE.md`](validation/REVUE-COUVERTURE.md) et son manifeste JSON : 153 vignettes inventoriées, 79 premières reprises, 1 contrôle sans retouche, 0 correction partielle, 73 autres contrôles individuels à faire, aucune validation définitive. Les anciennes approbations ne valent pas conformité au nouveau référentiel.
 
 ---
 

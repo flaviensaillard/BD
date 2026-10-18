@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 74 |
+| Premières reprises intégrées, encore à relire | 79 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 78 |
+| Autres vignettes restant à contrôler individuellement | 73 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 74 vignettes ayant reçu une intervention ne sont pas 74 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 79 vignettes ayant reçu une intervention ne sont pas 79 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -277,6 +277,24 @@ Preuves : `revue-couverture/lot-p/14-AVANT-APRES.jpg`, cinq masques de ce lot et
 
 **Réserves pour la relecture transversale :** âge apparent et niveau de détail des portraits par rapport aux corps, continuité des carnations visage/membres de Nolann, manches et raccords d'épaule de Lyssandro en 14/1, contact des mains de soutien et tenues de 14/3, reconstruction du groupe et propreté des marquages de dos en 14/5. Aucun dialogue, bulle ou onomatopée ajouté. Les 78 cases encore non reprises ne sont pas réputées conformes.
 
+## Dix-septième livraison : les cinq vignettes de la planche 15
+
+Cinq premières reprises, sans validation définitive. Scène civile nocturne à Saint-Sulpice : les pulls du salon ne sont pas remplacés par les tenues de rugby de la couverture. Seuls les portraits et leurs raccords locaux sont repris.
+
+**15/1 :** Portraits locaux de Léon et Flavien : pics châtains du fils et cheveux bruns relevés/légère pilosité du père rapprochés de la couverture. Léon baisse la tête, Flavien reste attentif sans sourire de publicité. Tenues civiles vert doux/gris, lumière chaude, nuit et décor conservés hors masques.
+
+**15/2 :** Léon recroquevillé sur le canapé, honteux et regardant ses chaussettes : cheveux bouclés remplacés par les pics châtains du modèle, visage enfantin repris. Portrait spécifique de Flavien brun, moustache/barbe légère, tourné vers son fils avec attention. Deux portraits isolés intégrés après rejet du candidat complet qui aplatissait la scène. Mains sur les jambes, chaussettes, deux chocolats, corps et salon conservés hors masques.
+
+**15/3 :** Léon lève les yeux vers Flavien ; cheveux en pics châtains, yeux embués et bouche incertaine repris par portrait isolé. Flavien brun écoute avec sollicitude ; visage/pilosité repris séparément. Candidat de case entière rejeté pour déformation du cadrage et aplatissement des proportions. Tenues civiles, positions et décor hors masques conservés.
+
+**15/4 :** Visages de Flavien et Léon rapprochés des deux modèles : brun court relevé/barbe légère pour le père, pics châtains pour le fils de profil. Sourire tendre du père et écoute calme du fils conservés. Les deux mains sur les épaules et les bras, vêtements civils, canapé et décor restent ceux de la case originale hors masques.
+
+**15/5 :** Portraits père/fils locaux : brun de Flavien et pics châtains de Léon, trait et traits rapprochés de la couverture. Léon reste pensif, blotti contre son père qui lui sourit tendrement. Bras et main entourant l'enfant, tenues civiles et salon nocturne conservés hors masques.
+
+Preuves : `revue-couverture/lot-q/15-AVANT-APRES.jpg` et cinq masques. Aucun candidat de case entière n'est intégré : deux candidats rejetés (15/2–3) modifiaient les cadrages/proportions. Quatre portraits isolés les remplacent. Un premier masque de 15/1 conservait l'ancien contour derrière la tête de Léon et une partie de son ancien cou ; le périmètre tête/cou/haut du sweat a été repris jusqu'au bord bas de la case. Le masque de Flavien 15/3 a été resserré pour exclure un cadre décoratif inventé dans le portrait isolé.
+
+**Réserves transversales :** homogénéité de teinte des cheveux châtains de Léon sous la lumière chaude (excès cuivré de 15/3 atténué localement), âge/détail des visages par rapport aux corps, petits raccords de fond et de col, degré de tendresse du sourire de Flavien et lecture de ses deux mains sur les épaules en 15/4. Les deux chocolats restent visibles en 15/2 ; aucune mère/sœur n'est ajoutée, puisqu'elles sont hors champ selon le scénario. Aucun texte, bulle ni onomatopée ajouté. Il reste 73 cases à examiner individuellement, puis la relecture de continuité de toute la série.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -285,7 +303,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **78 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **73 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
