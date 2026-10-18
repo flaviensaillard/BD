@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 69 |
-| Corrections seulement partielles, à poursuivre | 1 |
+| Premières reprises intégrées, encore à relire | 74 |
+| Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 82 |
+| Autres vignettes restant à contrôler individuellement | 78 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 70 vignettes ayant reçu une intervention ne sont pas 70 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 74 vignettes ayant reçu une intervention ne sont pas 74 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -259,6 +259,24 @@ Preuves : `revue-couverture/lot-o/13-AVANT-APRES.jpg` et cinq masques. Aucun can
 
 Le vérificateur cumulatif prend désormais en charge les contrôles sans retouche : liste distincte, état cohérent, absence de double comptage, somme des catégories égale à 153 et pixels identiques au commit de référence de chaque relecture. Les contrôles de couverture, dimensions, empreintes et localité des corrections demeurent en place. Cette vérification d'invariance ne certifie pas le style du paysage.
 
+## Seizième livraison : les cinq vignettes de la planche 14
+
+L'ancienne correction partielle de **14/2** est remplacée dans le registre, pas comptée deux fois ; son masque cumulatif conserve la première intervention. Cinq premières reprises, pas cinq validations définitives.
+
+**14/1 :** Cinq garçons sortant tristes gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : pics châtains de Léon, courte frange châtain clair d'Ayden et courte frange brun foncé de Nolann rétablis. Portraits locaux spécifiques pour Ayden et Nolann, manches de Lyssandro blanchies sans toucher les sous-maillots. Groupe adverse célébrant et corps hors masques conservés.
+
+**14/2 :** Ancienne correction partielle de palette dépassée par une première reprise des cinq portraits : Léon criant de profil et pointant, Lyssandro/Ayden blessés, Nolann à courte frange brun foncé/teint mat, Milo à frange pleine châtaine et yeux humides. Têtes spécifiques pour Nolann et Milo. Geste du doigt, corps/tenues et disposition d'origine hors masques conservés ; pas de bulle ajoutée.
+
+**14/3 :** Quatre copains gauche à droite Milo/Nolann/Lyssandro/Ayden. Le sourire erroné de Milo est remplacé par des yeux mouillés et des larmes, bouche blessée ; Nolann baisse la tête avec lèvre mordue et retrouve sa courte frange brune ; Lyssandro et Ayden restent furieux/tristes. Cheveux blonds d'Ayden remplacés par un portrait local châtain clair. Manches courtes blanches et boue rapprochées de la scène. Vignette entière reprise, quatre personnages et contacts de soutien relus.
+
+**14/4 :** Portraits des trois coachs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux barbu. Léon à gauche, Milo au centre et Nolann à droite identifiés ; pics, frange pleine et courte frange respectives, visages tristes. Gestes sur les épaules, corps et deux joueurs d'une autre équipe vus de dos hors masques préservés.
+
+**14/5 :** Léon regrettant sur son sac et Flavien à ses côtés repris localement. Groupe de consolation reconstruit : Julien et Kilian avec QUATRE enfants (Milo de dos gauche, Nolann face avant au milieu, Ayden de dos droite, Lyssandro visible derrière). La source ne montrait que trois enfants : quatrième rétabli selon le scénario. Noms ajoutés aux dos par le candidat supprimés ; numéros 7 et 8 des deux dos conservés. Terrain/cadrage général maintenus, corps du groupe de consolation nécessairement repris.
+
+Preuves : `revue-couverture/lot-p/14-AVANT-APRES.jpg`, cinq masques de ce lot et cinq masques cumulatifs. Les cases 14/1, 14/2 et 14/4 utilisent des imports locaux, 14/3 une reprise complète, 14/5 une reconstruction bornée du groupe droit et deux portraits à gauche. La reconstruction de 14/5 est volontairement plus importante : la composition source était incomplète au regard du scénario. Le quatrième enfant n'est ni un doublon ni un figurant ajouté arbitrairement. Les noms inventés sur les dos ont été effacés et le 8 conservé pour Ayden, avec réfection locale du chiffre.
+
+**Réserves pour la relecture transversale :** âge apparent et niveau de détail des portraits par rapport aux corps, continuité des carnations visage/membres de Nolann, manches et raccords d'épaule de Lyssandro en 14/1, contact des mains de soutien et tenues de 14/3, reconstruction du groupe et propreté des marquages de dos en 14/5. Aucun dialogue, bulle ou onomatopée ajouté. Les 78 cases encore non reprises ne sont pas réputées conformes.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -267,7 +285,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **82 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **78 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
