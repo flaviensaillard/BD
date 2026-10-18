@@ -253,3 +253,9 @@ Rapport courant : `validation/AUDIT6-23-30.md`, inventaire `AUDIT6-23-30.json`. 
 Base `112958e`. Les **40 vignettes** ont une décision explicite dans `validation/AUDIT-FINAL-23-30.md` et son JSON. Dernière passe : 29 retouches de teinte de tenues/chaussettes et rétablissement du ballon crème à liseré rouge/rosé en 30/5, sans génération de personnage ou de décor, à V constant. Fichiers 00–22 et 24 inchangés. Comptages 25/1 (3+3+4+4) et 30/2 (19+3) conservés ; manches authentiques 28/6 inchangées.
 
 **Pas de correction identifiée laissée en attente dans ce contrôle.** Les anciennes réserves générales relèvent des limites de sources déjà tramées, pas d’une liste de défauts démontrés à réinventer. Cela ne certifie pas la ressemblance trait pour trait ou une identité artistique absolue. Huit comparaisons source/état final et une preuve couleur sont livrées. Vérificateur : `outils/retouche/verifier_audit_final_23_30.py`, après la chaîne historique. La conversation reste ouverte pour les demandes suivantes.
+
+## Nouvelle revue générale — couverture canonique, EN COURS
+
+L’utilisateur remplace le témoin V2 par la couverture comme référence exacte de **style ET personnages** et demande une revue intégrale des 30 planches à l’appui du scénario et des sources réalistes. Les conclusions des anciens audits ne sont pas des validations de ressemblance. Suivi courant : `validation/REVUE-COUVERTURE.md` et `.json`.
+
+Premières corrections : 26/3 (têtes Nolann/Milo/Ayden et carnation visible de Nolann), 26/6 (Flavien brun accroupi à la place de Kilian roux, groupe et style repris). Deux essais complets de 27/5 écartés ; vignette non remplacée. La couverture est inchangée. **Revue intégrale non terminée ; aucune validation définitive de vignette à ce stade.**

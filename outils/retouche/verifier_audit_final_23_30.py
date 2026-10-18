@@ -5,6 +5,7 @@ from io import BytesIO
 import hashlib
 import json
 import subprocess
+import sys
 from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -16,6 +17,10 @@ def previous(ref, path):
 
 def main():
     plan = json.loads((ROOT / 'Planches-dessin/validation/AUDIT-FINAL-23-30.json').read_text())
+    newer = ROOT / 'Planches-dessin/validation/REVUE-COUVERTURE.json'
+    historical = json.loads(newer.read_text())['base'] if newer.exists() else None
+    if historical:
+        print(f'Contrôle historique de l’ancien audit final : {historical}')
     expected = {f'{n}-{i}' for n, count in [(23, 4), (24, 5), (25, 5), (26, 6), (27, 5), (28, 6), (29, 4), (30, 5)] for i in range(1, count+1)}
     assert len(plan['vignettes']) == 40
     assert {c['vignette'] for c in plan['vignettes']} == expected
@@ -26,7 +31,8 @@ def main():
         path = next((ROOT / 'Planches-dessin').glob(f'{n:02}-*.png'))
         raw = previous(plan['base'], path)
         old = Image.open(BytesIO(raw)).convert('RGB')
-        new = Image.open(path).convert('RGB')
+        delivered = previous(historical, path) if historical else path.read_bytes()
+        new = Image.open(BytesIO(delivered)).convert('RGB')
         assert old.size == new.size
         diff = ImageChops.difference(old, new)
         changes = [c for c in plan['corrections'] if c['page'] == n]
@@ -76,10 +82,11 @@ def main():
             diff.paste(Image.new('RGB', local.size), box[:2])
         assert diff.getbbox() is None, f'Hors vignettes : {n}'
         if not changes:
-            assert raw == path.read_bytes(), f'Fichier non concerné réécrit : {n}'
+            assert raw == delivered, f'Fichier non concerné réécrit : {n}'
         print(f'OK {n:02} : dimensions, localité, protections, V constant ; non concernés inchangés')
     for e in plan['fichiers_apres']:
-        raw = (ROOT / e['fichier']).read_bytes()
+        path = ROOT / e['fichier']
+        raw = previous(historical, path) if historical else path.read_bytes()
         assert len(raw) == e['octets'] and hashlib.sha256(raw).hexdigest() == e['sha256']
         with Image.open(BytesIO(raw)) as im:
             assert im.format == 'PNG' and list(im.size) == e['dimensions']
@@ -95,7 +102,10 @@ def main():
         with Image.open(ROOT / f'Planches-dessin/validation/AUDIT-FINAL-{n}-VIGNETTES.jpg') as im:
             im.verify()
     print('OK : 40 décisions, 30 retouches locales, 8 empreintes, source du ballon et comparaisons')
-    print('Contrôle actif terminé. Pas de certification automatique des identités, de l’anatomie ou du style.')
+    print('Ancien contrôle historique terminé. Pas de certification des identités, de l’anatomie ou du style.')
+    if historical:
+        sys.stdout.flush()
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_revue_couverture.py')], check=True)
 
 
 if __name__ == '__main__':

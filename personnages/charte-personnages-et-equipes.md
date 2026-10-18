@@ -1,3 +1,5 @@
+> **Référence visuelle canonique actuelle :** la couverture `../Planches-dessin/00-couverture-marvel.png`, validée explicitement par l’utilisateur pour le style et les huit personnages. Elle prime sur les variantes générées et les descriptions imprécises. Nolann a le **teint mat**, pas une peau arbitrairement beaucoup plus foncée ; sa coupe, comme celles des autres personnages, doit suivre la couverture. Voir `../Planches-dessin/validation/REVUE-COUVERTURE.md`.
+
 # Charte Graphique, Personnages & Règles — *La Force de l'Échec*
 
 ## 1. Informations Générales de l'Œuvre

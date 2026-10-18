@@ -73,3 +73,7 @@ Les limites qui restent sont celles des sources déjà tramées : traits fins, m
 - `outils/retouche/verifier_audit_final_23_30.py` : vérifie les 40 entrées, localité, protections, V constant, teintes et inventaire ; intégré à la chaîne historique sans réécrire les anciennes empreintes.
 
 Vérifications exécutées avec succès : chaîne complète `verifier_audit23_30.py` (historique puis contrôle final), `verifier_audit_final_23_30.py`, inventaire `verifier_lot23_30.py`, contrôles `verifier_audit13_22.py` et `verifier_audit2_13_22.py`, et `git diff --check`.
+
+## Décision ultérieure : revue générale rouverte sur la couverture
+
+Ce rapport est désormais **historique**, état `d0cc063`. L’utilisateur a signalé des erreurs de ressemblance/carnation et désigné la couverture comme référence canonique. Le contrôle courant est `REVUE-COUVERTURE.md` ; les anciennes conclusions ne valent pas validation des identités ou de l’homogénéité artistique.

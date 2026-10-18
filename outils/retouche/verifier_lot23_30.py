@@ -20,6 +20,12 @@ def main():
         'AUDIT2-23-30.json', 'audit-23-30.json')]
     audit = next((path for path in candidates if path.exists()), candidates[-1])
     entries = json.loads(audit.read_text())['fichiers_apres'] if audit.exists() else report['fichiers']
+    newer = ROOT / 'Planches-dessin/validation/REVUE-COUVERTURE.json'
+    historical = None
+    if newer.exists():
+        current = json.loads(newer.read_text())
+        historical = current['base']
+        entries = [dict(e, planche=e['page']) for e in current['fichiers_apres'] if 23 <= e['page'] <= 30]
     for entry in entries:
         data = (ROOT / entry['fichier']).read_bytes()
         assert hashlib.sha256(data).hexdigest() == entry['sha256']
@@ -34,8 +40,9 @@ def main():
         path = next((ROOT / 'Planches-dessin').glob(f'{n:02}-*.png'))
         original = subprocess.check_output(
             ['git', 'show', f"{report['base']}:{path.relative_to(ROOT).as_posix()}"], cwd=ROOT)
-        assert path.read_bytes() == original, f'Page antérieure modifiée : {n}'
-    print('OK 00–22 : fichiers principaux inchangés depuis ' + report['base'])
+        delivered = subprocess.check_output(['git', 'show', f'{historical}:{path.relative_to(ROOT).as_posix()}'], cwd=ROOT) if historical else path.read_bytes()
+        assert delivered == original, f'Page antérieure modifiée dans le lot historique : {n}'
+    print('OK 00–22 : état historique du lot inchangé depuis ' + report['base'])
     print('Pas de validation du contenu ou du style par ces tests.')
 
 

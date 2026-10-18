@@ -1,3 +1,15 @@
+# Décision utilisateur prioritaire — couverture canonique (2026-10-18)
+
+**Cette décision remplace les anciennes décisions ci-dessous :** `Planches-dessin/00-couverture-marvel.png` fixe désormais **STYLE ET IDENTITÉS**. Le témoin V2 n’est plus une référence applicable. Les passages historiques contradictoires ne doivent pas être transmis comme instructions courantes.
+
+Joindre réellement la couverture et les recadrages nominatifs pertinents dans `Planches-dessin/validation/revue-couverture/`. Le scénario fixe les acteurs et leurs actions ; les planches `planches/*realisme-sans-texte.png` fixent la mise en scène, mais ne peuvent imposer une carnation/coiffure erronée contre la couverture. Nolann : teint mat de la couverture, cheveux bruns très courts avec petite frange, jamais arbitrairement assombri ou rendu chauve. Contrôler toutes les surfaces de peau. Flavien brun, Julien gris avec moustache/bouc, Kilian roux : ne pas les permuter.
+
+Appliquer un seul langage de dessin, celui de la couverture. Ne pas remplacer des identités précises par des enfants génériques. Ne pas copier les poses, expressions souriantes, titres, lumière ou composition de la couverture. Rejeter les décors, marquages ou signatures inventés ; intégrer uniquement les zones correctes avec protections explicites. Une génération n’est pas une validation. Suivi courant : `Planches-dessin/validation/REVUE-COUVERTURE.md` et son inventaire JSON.
+
+---
+
+## Instructions et décisions historiques (subordonnées à la décision ci-dessus)
+
 # Restylage comics — prompt maître V2 : dessin intégral, sans semi-réalisme
 
 ## État
