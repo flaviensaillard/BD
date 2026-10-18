@@ -938,6 +938,82 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-5-masque.png",
       "type": "reprise_graphique",
       "intervention": "Têtes Ayden/Nolann/Milo reprises avec déception préservée ; Lyssandro et Léon proches du modèle conservés. Manche visible de Lyssandro corrigée en blanc, bras nu conservé ; trame atténuée par filtre localement documenté sans déplacement des figures. Groupe adverse célébrant conservé. Aucun sourire de couverture importé."
+    },
+    {
+      "page": 9,
+      "vignette": "09-1",
+      "rectangle": [
+        21,
+        31,
+        844,
+        391
+      ],
+      "source_rectangle": [
+        56,
+        86,
+        2424,
+        1124
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Haie reprise : quatre RCM identifiés Lyssandro/Ayden/Nolann/Milo et quatre adversaires. La source réaliste et l'ancien dessin montraient cinq RCM ; le joueur surnuméraire n'est plus un Léon participant à la haie mais un adversaire vert/noir. Coiffures et carnation mate de Nolann reprises ; manche encore rouge d'Ayden corrigée localement en blanc et cheveux trop blonds ramenés au châtain clair. Composition de la haie réorganisée par la reprise, terrain et cadrage de même nature. Expressions sportives réservées, sans sourires de couverture."
+    },
+    {
+      "page": 9,
+      "vignette": "09-2",
+      "rectangle": [
+        21,
+        405,
+        328,
+        817
+      ],
+      "source_rectangle": [
+        56,
+        1160,
+        944,
+        2348
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Gros plan neutre et coiffure lisse erronée remplacés : Léon retrouve ses pics châtains, sourcils froncés, joues rouges et yeux mouillés. Cadrage élargi dans la même case verticale pour rendre visibles les deux poings serrés demandés par le scénario. Aucun sourire ni ballon de couverture importés."
+    },
+    {
+      "page": 9,
+      "vignette": "09-3",
+      "rectangle": [
+        342,
+        405,
+        843,
+        817
+      ],
+      "source_rectangle": [
+        980,
+        1160,
+        2424,
+        2348
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique."
+    },
+    {
+      "page": 9,
+      "vignette": "09-4",
+      "rectangle": [
+        21,
+        831,
+        843,
+        1191
+      ],
+      "source_rectangle": [
+        56,
+        2384,
+        2424,
+        3422
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés."
     }
   ],
   "vignettes": [
@@ -1745,12 +1821,13 @@
         394
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Haie d'honneur. **Lyssandro**, **Ayden**, **Nolann** et **Milo**, bien que tristes, tapent sportivement dans les mains des joueurs de Montmélian.\n  - *Bulle (Ayden)* : « Bien joué Montmélian… Vous avez super bien défendu. »\n  - *Bulle (Joueur de Montmélian)* : « Merci ! À bientôt au prochain tournoi ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
       "realiste": "planches/09-colere-et-larmes-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Haie reprise : quatre RCM identifiés Lyssandro/Ayden/Nolann/Milo et quatre adversaires. La source réaliste et l'ancien dessin montraient cinq RCM ; le joueur surnuméraire n'est plus un Léon participant à la haie mais un adversaire vert/noir. Coiffures et carnation mate de Nolann reprises ; manche encore rouge d'Ayden corrigée localement en blanc et cheveux trop blonds ramenés au châtain clair. Composition de la haie réorganisée par la reprise, terrain et cadrage de même nature. Expressions sportives réservées, sans sourires de couverture."
     },
     {
       "page": 9,
@@ -1762,12 +1839,13 @@
         820
       ],
       "scenario": "- **Vignette 2 (Grande vignette verticale centrale — Style Comics dramatique)** :\n  - *Visuel* : **Léon** est resté en arrière, immobile. Il a les poings serrés à s'en blanchir les phalanges, les mâchoires crispées, le visage tout rouge de colère et les yeux gonflés **au bord des larmes**.\n  - *Bulle (Léon, la voix tremblante)* : « Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! On est le RCM ! En U6 on gagnait toujours ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
       "realiste": "planches/09-colere-et-larmes-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Gros plan neutre et coiffure lisse erronée remplacés : Léon retrouve ses pics châtains, sourcils froncés, joues rouges et yeux mouillés. Cadrage élargi dans la même case verticale pour rendre visibles les deux poings serrés demandés par le scénario. Aucun sourire ni ballon de couverture importés."
     },
     {
       "page": 9,
@@ -1779,12 +1857,13 @@
         820
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : **Lyssandro** et **Nolann** viennent poser une main sur son épaule, mais Léon recule brusquement d'un pas en essuyant rageusement une larme du revers de sa manche blanche.\n  - *Bulle (Lyssandro)* : « Léon, calme-toi… On a quand même gagné deux matchs sur trois aujourd'hui ! »\n  - *Bulle (Nolann)* : « Ouais, contre Chambéry et Albertville on a super bien joué ! »\n  - *Bulle (Léon, criant presque)* : « Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on n'est pas les premiers ! Moi je veux pas perdre ! Jamais ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
       "realiste": "planches/09-colere-et-larmes-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique."
     },
     {
       "page": 9,
@@ -1796,12 +1875,13 @@
         1194
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Flavien**, **Julien** et **Kilian** rejoignent le groupe. Flavien s'agenouille à hauteur de son fils qui détourne le regard, inconsolable de rage.\n  - *Bulle (Flavien, calmement)* : « Viens boire une gorgée d'eau, Léon. La colère ne fera pas rejouer le match. »\n  - *Bulle (Julien, à mi-voix vers Kilian)* : « Ce n'est que le début de la saison… Il va falloir que le groupe apprenne à rebondir. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
       "realiste": "planches/09-colere-et-larmes-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés."
     },
     {
       "page": 10,
@@ -3736,12 +3816,12 @@
     {
       "page": 9,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
-      "sha256": "967756c9b775bce0ebebaa25677e7cb9c698b9b01dfc1fa9286cfaa3b4f6bffa",
+      "sha256": "a551e838803bcef3474d6cdfa6c4918c9fe5f66ef1da85ee82e5951ff1a572cb",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1595446
+      "octets": 1622624
     },
     {
       "page": 10,
@@ -3974,15 +4054,19 @@
     {
       "vignette": "08-5",
       "motif": "Première reprise : Ayden trop blond, Nolann rasé, Milo souriant ; trois têtes reprises, manche de Lyssandro recolorée localement."
+    },
+    {
+      "vignette": "09-4",
+      "motif": "Premier résultat élargissait le cadrage vers le bas et mettait Julien de face souriant : non intégré. Deuxième : retournement du corps de Julien exclu, seuls les quatre portraits importés. Masques élargis après contrôle de détail pour supprimer les reliquats des anciennes têtes."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 44,
+    "vignettes_corrigees_premiere_passe": 48,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 108,
+    "vignettes_a_controler_individuellement": 104,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -4173,6 +4257,16 @@
         "08-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-i/"
+    },
+    {
+      "base": "ad1e741",
+      "vignettes": [
+        "09-1",
+        "09-2",
+        "09-3",
+        "09-4"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-j/"
     }
   ]
 }

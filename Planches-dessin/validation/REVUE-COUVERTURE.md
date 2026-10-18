@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 44 |
+| Premières reprises intégrées, encore à relire | 48 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 108 |
+| Autres vignettes restant à contrôler individuellement | 104 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 45 vignettes ayant reçu une intervention ne sont pas 45 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 49 vignettes ayant reçu une intervention ne sont pas 49 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -150,6 +150,22 @@ Comparatif : `revue-couverture/lot-i/08-AVANT-APRES.jpg` ; cinq masques document
 
 **Réserves maintenues :** encrage des corps et décors encore variable entre les cases, petits marquages hérités, continuité de coupe et de carnation de Nolann notamment entre 08/2 et 08/5 ; à rapprocher lors de la relecture transversale. Aucun texte ni aucune bulle ajoutés. Les contrôles techniques ci-dessous ne certifient pas ces points graphiques.
 
+## Dixième livraison : les quatre vignettes de la planche 9
+
+Scénario, source réaliste et couverture comparés pour chaque case. Quatre premières reprises, aucune validation définitive.
+
+**09/1 :** Haie reprise : quatre RCM identifiés Lyssandro/Ayden/Nolann/Milo et quatre adversaires. La source réaliste et l'ancien dessin montraient cinq RCM ; le joueur surnuméraire n'est plus un Léon participant à la haie mais un adversaire vert/noir. Coiffures et carnation mate de Nolann reprises ; manche encore rouge d'Ayden corrigée localement en blanc et cheveux trop blonds ramenés au châtain clair. Composition de la haie réorganisée par la reprise, terrain et cadrage de même nature. Expressions sportives réservées, sans sourires de couverture.
+
+**09/2 :** Gros plan neutre et coiffure lisse erronée remplacés : Léon retrouve ses pics châtains, sourcils froncés, joues rouges et yeux mouillés. Cadrage élargi dans la même case verticale pour rendre visibles les deux poings serrés demandés par le scénario. Aucun sourire ni ballon de couverture importés.
+
+**09/3 :** Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique.
+
+**09/4 :** Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés.
+
+Comparatif : `revue-couverture/lot-j/09-AVANT-APRES.jpg`. Masques entiers pour 09/1–3 ; quatre zones de portrait pour 09/4. Contrôle après montage de la page et des cases ; le détail de Julien a été agrandi afin de supprimer les fragments résiduels de l’ancienne tête, et l’arrière des cheveux de Flavien raccordé. Les masques ne prouvent pas le respect des acteurs dans les trois cases régénérées : ces points ont fait l’objet d’une relecture visuelle.
+
+**À relire transversalement :** tenue de Léon au geste d’essuyage (manche blanche longue héritée de la scène, différente du maillot court de couverture), continuité de carnation/coiffure de Nolann, traitement encore variable des corps et décors et petits marquages. La haie utilise un réarrangement plutôt qu’un simple changement de couleur de l’acteur surnuméraire ; vérifier à nouveau les gestes sportifs lors de la relecture globale. Le visage de Léon ne doit pas être déclaré définitivement conforme sur la seule présence des pics. Aucun ajout de texte ou de bulle à cette étape.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -158,7 +174,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **108 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **104 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
