@@ -28,7 +28,22 @@ def main():
     changes = plan['corrections']
     ids = {c['vignette'] for c in changes}
     assert len(ids) == len(changes), 'Correction dupliquée'
-    assert ids == {v['vignette'] for v in frames if v['etat'] != 'a_controler_individuellement'}
+    unchanged = plan.get('relectures_sans_retouche', [])
+    reviewed_ids = {r['vignette'] for r in unchanged}
+    assert len(reviewed_ids) == len(unchanged), 'Relecture sans retouche dupliquée'
+    assert not (ids & reviewed_ids), 'Une relecture sans retouche ne doit pas être comptée comme correction'
+    assert reviewed_ids == {v['vignette'] for v in frames if v['etat'] == 'controle_premiere_passe_sans_retouche_relecture_globale_a_faire'}
+    assert ids | reviewed_ids == {v['vignette'] for v in frames if v['etat'] != 'a_controler_individuellement'}
+    for r in unchanged:
+        assert r['page'] == int(r['vignette'].split('-')[0])
+        path = ROOT / r['fichier']
+        before = Image.open(BytesIO(original(r['base'], path))).convert('RGB')
+        after = Image.open(path).convert('RGB')
+        box = tuple(r['rectangle'])
+        assert 0 <= box[0] < box[2] <= after.width and 0 <= box[1] < box[3] <= after.height
+        old_pixels = before.crop(box).tobytes()
+        assert old_pixels == after.crop(box).tobytes(), f"Relecture sans retouche modifiée : {r['vignette']}"
+        assert hashlib.sha256(old_pixels).hexdigest() == r['sha256_pixels']
     assert {e['page'] for e in plan['fichiers_apres']} == set(range(31))
     assert len(plan['fichiers_apres']) == 31
     for c in changes:
@@ -70,9 +85,13 @@ def main():
     assert bilan['vignettes_corrigees_premiere_passe'] == counts['reprise_graphique']
     assert bilan['vignettes_correction_partielle'] == counts['correction_partielle']
     assert bilan['vignettes_a_controler_individuellement'] == pending
+    assert bilan.get('vignettes_controlees_sans_retouche', 0) == len(unchanged)
+    assert counts['reprise_graphique'] + counts['correction_partielle'] + pending + len(unchanged) == len(frames)
     assert bilan['validations_definitives'] == 0
     print('OK : couverture inchangée, 31 empreintes/dimensions, seules les corrections déclarées ont changé, localité par masques.')
     print(f"Inventaire : 153 vignettes ; {counts['reprise_graphique']} premières reprises, {counts['correction_partielle']} corrections partielles, {pending} contrôles individuels encore à faire.")
+    if unchanged:
+        print(f'Contrôles sans retouche : {len(unchanged)} ; pixels identiques à leur référence enregistrée, aucune certification graphique définitive.')
     print('EN COURS. Aucune validation définitive de ressemblance ou de style par ces tests.')
 
 

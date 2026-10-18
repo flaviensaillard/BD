@@ -1288,6 +1288,101 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-6-masque.png",
       "type": "reprise_graphique",
       "intervention": "Léon à gauche agacé, Lyssandro au centre lui répondant, Milo baissant les yeux et Flavien intervenant repris sur les modèles. Pics de Léon ramenés du blond au châtain ; manches rouges de Lyssandro remplacées par du blanc sans peindre le bras nu. Corps, mains sur les hanches, geste à la poitrine et main levée du père, fond hors masques préservés. Candidat complet rejeté car il recolorait à tort en rouge les manches de Léon."
+    },
+    {
+      "page": 13,
+      "vignette": "13-2",
+      "rectangle": [
+        25,
+        348,
+        419,
+        574
+      ],
+      "source_rectangle": [
+        76,
+        966,
+        1219,
+        1594
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-o/13-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Nolann passeur à gauche, Ayden relayeur au centre et Léon receveur à droite repris sur leurs portraits : courte frange brun foncé/teint mat, courte frange châtain clair, pics châtains. Candidat entier rejeté car les maillots d'Ayden/Léon devenaient blancs unis : portraits seuls retenus. Ballon, mains, adversaire jaune/noir, courses et décor hors masques conservés. Le dessin ne montre qu'une étape de la chaîne de passes, pas tout l'essai."
+    },
+    {
+      "page": 13,
+      "vignette": "13-3",
+      "rectangle": [
+        434,
+        348,
+        824,
+        574
+      ],
+      "source_rectangle": [
+        1261,
+        966,
+        2404,
+        1594
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-o/13-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Cinq enfants en célébration gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo identifiés à partir des coupes et des sources : pics châtains, frange de côté, courte frange châtain clair, courte frange brune et teint mat, frange pleine. Portrait de Kilian roux barbu repris. Manches courtes de Lyssandro et Milo remises en blanc, joie et mains conservées. Deux adversaires jaune/noir derrière maintenus hors masques."
+    },
+    {
+      "page": 13,
+      "vignette": "13-4",
+      "rectangle": [
+        25,
+        589,
+        419,
+        817
+      ],
+      "source_rectangle": [
+        76,
+        1635,
+        1219,
+        2263
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-o/13-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Trois RCM repris : Milo à gauche, Ayden porteur au centre, Nolann derrière à droite. Grimace trop vieillie du premier Ayden rejetée au profit d'un portrait local plus jeune. Teint mat de Nolann raccordé localement aux membres visibles ; sous-manches rouges de Milo corrigées en noir. Les deux défenseurs rouge/noir, contacts à deux mains, ballon et terrain boueux restent d'origine hors masques."
+    },
+    {
+      "page": 13,
+      "vignette": "13-5",
+      "rectangle": [
+        434,
+        589,
+        824,
+        817
+      ],
+      "source_rectangle": [
+        1261,
+        1635,
+        2404,
+        2263
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-o/13-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Léon criant à gauche, Nolann passeur au centre et Milo surpris à droite repris. Le premier visage de Nolann était trop grimaçant : portrait local spécifique avec courte frange brun foncé et traits d'enfant, teint mat raccordé aux mains/jambes. Sous-manches rouges de Milo corrigées en noir. Ballon rebondissant, mains et deux enfants derrière ainsi que spectateurs hors masques conservés."
+    },
+    {
+      "page": 13,
+      "vignette": "13-6",
+      "rectangle": [
+        25,
+        832,
+        824,
+        1234
+      ],
+      "source_rectangle": [
+        76,
+        2304,
+        2404,
+        3432
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-o/13-6-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Quatre RCM visibles gauche à droite Léon/Lyssandro/Ayden/Milo : têtes/coiffures reprises, Ayden ramené du blond au châtain clair. Sous-manches rouges de Milo remises en noir ; sous-maillot blanc d'Ayden conservé sans importer le rouge inventé du candidat. Essai adverse, ballon, ligne, deux Rumilly rouge/noir et arbitre hors masques inchangés. Nolann n'est pas ajouté artificiellement à ce cadrage de quatre RCM."
     }
   ],
   "vignettes": [
@@ -2459,8 +2554,9 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "controle_premiere_passe_sans_retouche_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Case d'ambiance comparée à la couverture et à la source : dessin BD déjà en place, six joueurs anonymes de dos et public conservés, sans visage principal à reprendre. Aucune retouche nécessaire identifiée à cette passe ; relecture d'encrage transversale reste à faire."
     },
     {
       "page": 13,
@@ -2472,12 +2568,13 @@
         577
       ],
       "scenario": "- **Vignette 2 (Le Haut — Match contre Aix-les-Bains : Jaune et Noir)** :\n  - *Visuel* : Face à **Aix-les-Bains (tenue Jaune et Noir)**, les garçons du RCM récitent leur leçon : **Nolann** fixe son défenseur Jaune et Noir et passe à **Ayden** en soutien, qui décale **Léon** pour l'essai !\n  - *Bulle (Nolann)* : « Soutien à droite ! Vas-y Ayden ! »\n  - *Bulle (Ayden)* : « Pour toi Léon, va marquer ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Nolann passeur à gauche, Ayden relayeur au centre et Léon receveur à droite repris sur leurs portraits : courte frange brun foncé/teint mat, courte frange châtain clair, pics châtains. Candidat entier rejeté car les maillots d'Ayden/Léon devenaient blancs unis : portraits seuls retenus. Ballon, mains, adversaire jaune/noir, courses et décor hors masques conservés. Le dessin ne montre qu'une étape de la chaîne de passes, pas tout l'essai."
     },
     {
       "page": 13,
@@ -2489,12 +2586,13 @@
         577
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : Les cinq copains se tapent dans les mains après leur victoire contre Aix-les-Bains.\n  - *Bulle (Léon, tout sourire)* : « Oui ! Quand on gagne comme ça, j'adore le rugby ! »\n  - *Bulle (Kilian, depuis la touche)* : « Super collectif les garçons ! Gardez cette tête-là pour le match contre Rumilly ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq enfants en célébration gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo identifiés à partir des coupes et des sources : pics châtains, frange de côté, courte frange châtain clair, courte frange brune et teint mat, frange pleine. Portrait de Kilian roux barbu repris. Manches courtes de Lyssandro et Milo remises en blanc, joie et mains conservées. Deux adversaires jaune/noir derrière maintenus hors masques."
     },
     {
       "page": 13,
@@ -2506,12 +2604,13 @@
         820
       ],
       "scenario": "- **Vignette 4 (Le Bas — Match contre Rumilly : Rouge et Noir)** :\n  - *Visuel* : Changement d'ambiance face à **Rumilly (tenue Rouge et Noir)**. Le terrain est lourd et boueux. Les joueurs en Rouge et Noir défendent très dur au touché à deux mains.\n  - *Bulle (Joueur de Rumilly)* : « On les bloque chez eux les Rouge et Noir ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois RCM repris : Milo à gauche, Ayden porteur au centre, Nolann derrière à droite. Grimace trop vieillie du premier Ayden rejetée au profit d'un portrait local plus jeune. Teint mat de Nolann raccordé localement aux membres visibles ; sous-manches rouges de Milo corrigées en noir. Les deux défenseurs rouge/noir, contacts à deux mains, ballon et terrain boueux restent d'origine hors masques."
     },
     {
       "page": 13,
@@ -2523,12 +2622,13 @@
         820
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Sur une relance près de leur camp, **Léon** crie à tout le monde de se dépêcher. Stressé par les cris de Léon, **Nolann** fait une passe trop forte à **Milo** ; le ballon rebondit sur les mains de Milo : **en-avant** !\n  - *Bulle (Léon, hurlant pendant l'action)* : « Mais plus vite ! Passez-moi le ballon ! »\n  - *Onomatopée* : **« PAF ! FIIIIT ! »**",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon criant à gauche, Nolann passeur au centre et Milo surpris à droite repris. Le premier visage de Nolann était trop grimaçant : portrait local spécifique avec courte frange brun foncé et traits d'enfant, teint mat raccordé aux mains/jambes. Sous-manches rouges de Milo corrigées en noir. Ballon rebondissant, mains et deux enfants derrière ainsi que spectateurs hors masques conservés."
     },
     {
       "page": 13,
@@ -2540,12 +2640,13 @@
         1237
       ],
       "scenario": "- **Vignette 6** :\n  - *Visuel* : Sur le ballon rendu, l'équipe de **Rumilly (Rouge et Noir)** joue vite, prend de vitesse la défense du RCM qui râlait encore après l'arbitre, et marque l'essai de la victoire à la dernière seconde !\n  - *Bulle (Arbitre)* : « Essai pour Rumilly ! Fin du match ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
       "realiste": "planches/13-hauts-et-bas-de-novembre-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Quatre RCM visibles gauche à droite Léon/Lyssandro/Ayden/Milo : têtes/coiffures reprises, Ayden ramené du blond au châtain clair. Sous-manches rouges de Milo remises en noir ; sous-maillot blanc d'Ayden conservé sans importer le rouge inventé du candidat. Essai adverse, ballon, ligne, deux Rumilly rouge/noir et arbitre hors masques inchangés. Nolann n'est pas ajouté artificiellement à ce cadrage de quatre RCM."
     },
     {
       "page": 14,
@@ -4146,12 +4247,12 @@
     {
       "page": 13,
       "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
-      "sha256": "e8bd6609014daf9b2513b36cced74a0c468de2f4a5976fa9a5bb3b038db81f9a",
+      "sha256": "0a9ca63af29be53b291d47cd43438132186a4559cdd7e209788e673fe8d991b8",
       "dimensions": [
         848,
         1264
       ],
-      "octets": 1721742
+      "octets": 1726332
     },
     {
       "page": 14,
@@ -4372,16 +4473,29 @@
     {
       "vignette": "12-6",
       "motif": "Candidat complet recolorant en rouge les manches blanches de Léon : corps rejeté, portraits seuls et manches blanches de Lyssandro retenus. Recoloration des cheveux limitée pour préserver le front."
+    },
+    {
+      "vignette": "13-2",
+      "motif": "Candidat complet supprimait les rayures des maillots d'Ayden et Léon : seuls les portraits intégrés."
+    },
+    {
+      "vignette": "13-4/5",
+      "motif": "Visages trop grimaçants/vieillis d'Ayden et Nolann : portraits spécifiques plus jeunes intégrés, sans le décor photographique des assets."
+    },
+    {
+      "vignette": "13-6",
+      "motif": "Candidat décalait les visages vers le bas et inventait des sous-manches rouges pour Ayden : portraits seuls recalés. Premier montage doublait les têtes et importait des rectangles de fond : rejeté, détourage et positionnement corrigés."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 64,
+    "vignettes_corrigees_premiere_passe": 69,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 88,
-    "validations_definitives": 0
+    "vignettes_a_controler_individuellement": 82,
+    "validations_definitives": 0,
+    "vignettes_controlees_sans_retouche": 1
   },
   "references_personnages": {
     "Flavien": {
@@ -4625,6 +4739,36 @@
         "12-6"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-n/"
+    },
+    {
+      "base": "af7a0ee",
+      "vignettes": [
+        "13-2",
+        "13-3",
+        "13-4",
+        "13-5",
+        "13-6"
+      ],
+      "relecture_sans_nouvelle_modification": [
+        "13-1"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-o/"
+    }
+  ],
+  "relectures_sans_retouche": [
+    {
+      "page": 13,
+      "vignette": "13-1",
+      "base": "af7a0ee",
+      "fichier": "Planches-dessin/13-hauts-et-bas-de-novembre-marvel.png",
+      "rectangle": [
+        25,
+        30,
+        824,
+        333
+      ],
+      "sha256_pixels": "93655f32ef5ebd4f4cc0d3ee64ae888d5871814f6f678f724c5ae07ba3ee9e3a",
+      "motif": "Paysage en BD et personnages anonymes de dos conservés ; pas de retouche cosmétique sans écart identifié. Pas une validation définitive."
     }
   ]
 }
