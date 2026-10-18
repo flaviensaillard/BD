@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 48 |
+| Premières reprises intégrées, encore à relire | 53 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 104 |
+| Autres vignettes restant à contrôler individuellement | 99 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 49 vignettes ayant reçu une intervention ne sont pas 49 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 54 vignettes ayant reçu une intervention ne sont pas 54 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -166,6 +166,24 @@ Comparatif : `revue-couverture/lot-j/09-AVANT-APRES.jpg`. Masques entiers pour 0
 
 **À relire transversalement :** tenue de Léon au geste d’essuyage (manche blanche longue héritée de la scène, différente du maillot court de couverture), continuité de carnation/coiffure de Nolann, traitement encore variable des corps et décors et petits marquages. La haie utilise un réarrangement plutôt qu’un simple changement de couleur de l’acteur surnuméraire ; vérifier à nouveau les gestes sportifs lors de la relecture globale. Le visage de Léon ne doit pas être déclaré définitivement conforme sur la seule présence des pics. Aucun ajout de texte ou de bulle à cette étape.
 
+## Onzième livraison : les cinq vignettes de la planche 10
+
+Cinq scènes confrontées au scénario, aux sources réalistes et aux portraits nominatifs de la couverture. Cinq premières reprises ; aucune validation définitive.
+
+**10/1 :** Portraits de Léon en pyjama et Flavien en pull civil rapprochés des modèles : pics châtains, cheveux bruns et légère pilosité du père. Regard contrarié de l'enfant et attitude calme du père conservés. Corps, bras croisés, vêtements, porte, lit, trois peluches et quatre coupes hors masques préservés.
+
+**10/2 :** Têtes de Flavien et Léon reprises : cheveux bruns relevés avec légère moustache/barbe, sourire patient ; pics châtains et air têtu de Léon. Candidat complet recadré et modifiant les corps non importé : portraits recalés séparément. Pyjama rayé, pull civil, mains et positions d'origine préservés hors masques.
+
+**10/3 :** Léon à gauche en manteau marine et Ayden à droite en manteau gris-vert identifiés ; pics de Léon et visage contrarié, Ayden avec coupe courte châtain clair vers l'avant et expression interrogative. Chevelure trop blonde du premier essai remplacée par un portrait local spécifique. Décor et élèves de fond d'origine hors masques conservés, pas le nouveau cadrage du candidat.
+
+**10/4 :** Ayden à gauche parlant, Léon à droite surpris : reprise des deux têtes avec coupes distinctives. Longue frange de côté du premier Ayden rejetée et remplacée par une reprise courte châtain clair. Pouce levé, manteaux, cour et élèves secondaires d'origine conservés hors masques. La direction du pouce vers l'autre bout de la cour reste peu explicite.
+
+**10/5 :** Ayden à gauche et Léon à droite repris pendant leur marche : coupe courte châtain clair et expression explicative, pics châtains et sourcils froncés. Portrait spécifique d'Ayden à la place des cheveux trop blonds du premier essai. Vêtements civils, sacs, corps, cloche, bâtiment et élèves secondaires hors masques conservés.
+
+Comparatif : `revue-couverture/lot-k/10-AVANT-APRES.jpg` ; cinq masques. Les portraits ont été recalés indépendamment des cadrages des candidats. Les masques comprennent les têtes, petits raccords de cou/col pour les scènes de chambre et l'effacement local des anciennes pointes de cheveux pour les scènes d'école. Le premier montage comportait des vestiges de coiffure et deux anciennes têtes encore visibles en 10/5 ; rejeté. Un effacement trop large floutant les cols a également été écarté : l'effacement retenu se limite au haut des anciennes têtes, les vêtements d'origine restent hors de ces zones.
+
+**Réserves de relecture :** continuité de mobilier/trophées entre 10/1 et 10/2 (quatre coupes visibles dans la première, davantage dans la seconde, écart déjà présent dans les sources), regard de Léon vers son père plutôt que les trophées en 10/1, direction peu explicite du pouce en 10/4, petits raccords de col, différence d'encrage des corps/décors et visages. Ne pas convertir la réussite technique en certification des ressemblances. Les vêtements civils/pyjama sont requis ici par le scénario : ils ne sont pas remplacés par la tenue de rugby de la couverture. Aucun texte ni bulle ajoutés.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -174,7 +192,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **104 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **99 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 

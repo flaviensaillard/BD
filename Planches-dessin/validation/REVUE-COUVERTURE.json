@@ -1014,6 +1014,101 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-4-masque.png",
       "type": "reprise_graphique",
       "intervention": "Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés."
+    },
+    {
+      "page": 10,
+      "vignette": "10-1",
+      "rectangle": [
+        21,
+        40,
+        843,
+        496
+      ],
+      "source_rectangle": [
+        56,
+        112,
+        2424,
+        1428
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Portraits de Léon en pyjama et Flavien en pull civil rapprochés des modèles : pics châtains, cheveux bruns et légère pilosité du père. Regard contrarié de l'enfant et attitude calme du père conservés. Corps, bras croisés, vêtements, porte, lit, trois peluches et quatre coupes hors masques préservés."
+    },
+    {
+      "page": 10,
+      "vignette": "10-2",
+      "rectangle": [
+        21,
+        511,
+        425,
+        839
+      ],
+      "source_rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes de Flavien et Léon reprises : cheveux bruns relevés avec légère moustache/barbe, sourire patient ; pics châtains et air têtu de Léon. Candidat complet recadré et modifiant les corps non importé : portraits recalés séparément. Pyjama rayé, pull civil, mains et positions d'origine préservés hors masques."
+    },
+    {
+      "page": 10,
+      "vignette": "10-3",
+      "rectangle": [
+        439,
+        511,
+        843,
+        839
+      ],
+      "source_rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Léon à gauche en manteau marine et Ayden à droite en manteau gris-vert identifiés ; pics de Léon et visage contrarié, Ayden avec coupe courte châtain clair vers l'avant et expression interrogative. Chevelure trop blonde du premier essai remplacée par un portrait local spécifique. Décor et élèves de fond d'origine hors masques conservés, pas le nouveau cadrage du candidat."
+    },
+    {
+      "page": 10,
+      "vignette": "10-4",
+      "rectangle": [
+        21,
+        854,
+        425,
+        1182
+      ],
+      "source_rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Ayden à gauche parlant, Léon à droite surpris : reprise des deux têtes avec coupes distinctives. Longue frange de côté du premier Ayden rejetée et remplacée par une reprise courte châtain clair. Pouce levé, manteaux, cour et élèves secondaires d'origine conservés hors masques. La direction du pouce vers l'autre bout de la cour reste peu explicite."
+    },
+    {
+      "page": 10,
+      "vignette": "10-5",
+      "rectangle": [
+        439,
+        854,
+        843,
+        1182
+      ],
+      "source_rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Ayden à gauche et Léon à droite repris pendant leur marche : coupe courte châtain clair et expression explicative, pics châtains et sourcils froncés. Portrait spécifique d'Ayden à la place des cheveux trop blonds du premier essai. Vêtements civils, sacs, corps, cloche, bâtiment et élèves secondaires hors masques conservés."
     }
   ],
   "vignettes": [
@@ -1893,12 +1988,13 @@
         499
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Le soir à **Saint-Sulpice**, dans la chambre de Léon. Léon est en pyjama civil sur son lit, fixant ses trophées de l'année U6 posés sur l'étagère. **Flavien** (en pull et pantalon civil) entre par la porte entrouverte.\n  - *Bulle (Flavien, tournant d'abord la tête vers le couloir hors-champ)* : « Oui Vanessa, je couche Léon et j'arrive ! Bonne nuit Alice ! »\n  - *Bulle (Léon, les bras croisés sur sa couette)* : « Papa… Pourquoi l'arbitre il a sifflé tout le temps contre nous face à Montmélian ? »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
       "realiste": "planches/10-ruminations-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portraits de Léon en pyjama et Flavien en pull civil rapprochés des modèles : pics châtains, cheveux bruns et légère pilosité du père. Regard contrarié de l'enfant et attitude calme du père conservés. Corps, bras croisés, vêtements, porte, lit, trois peluches et quatre coupes hors masques préservés."
     },
     {
       "page": 10,
@@ -1910,12 +2006,13 @@
         842
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Flavien s'assoit au bord du lit de son fils avec un sourire patient.\n  - *Bulle (Flavien)* : « Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles sont les mêmes pour tout le monde. Montmélian a juste mieux joué en équipe que nous sur ce match-là. »\n  - *Bulle (Léon, têtu)* : « Pfff… Ils ont surtout eu de la chance ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
       "realiste": "planches/10-ruminations-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes de Flavien et Léon reprises : cheveux bruns relevés avec légère moustache/barbe, sourire patient ; pics châtains et air têtu de Léon. Candidat complet recadré et modifiant les corps non importé : portraits recalés séparément. Pyjama rayé, pull civil, mains et positions d'origine préservés hors masques."
     },
     {
       "page": 10,
@@ -1927,12 +2024,13 @@
         842
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : Le lendemain matin, dans la cour de l'école primaire sous les feuilles d'automne. **Léon** et **Ayden** (tous les deux en vêtements civils : jeans, baskets, blousons) discutent près du préau.\n  - *Encadré narratif* : « LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN. »\n  - *Bulle (Ayden)* : « Alors Léon, t'es toujours fâché pour samedi ? »\n  - *Bulle (Léon)* : « Bien sûr que je suis fâché ! Quand je repense à leurs maillots Vert et Noir, ça m'énerve ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
       "realiste": "planches/10-ruminations-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon à gauche en manteau marine et Ayden à droite en manteau gris-vert identifiés ; pics de Léon et visage contrarié, Ayden avec coupe courte châtain clair vers l'avant et expression interrogative. Chevelure trop blonde du premier essai remplacée par un portrait local spécifique. Décor et élèves de fond d'origine hors masques conservés, pas le nouveau cadrage du candidat."
     },
     {
       "page": 10,
@@ -1944,12 +2042,13 @@
         1185
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Ayden montre du pouce l'autre bout de la cour (où Baptiste est hors-champ).\n  - *Bulle (Ayden)* : « Tu sais, j'en ai parlé tout à l'heure avec **Baptiste** avant la sonnerie. Lui aussi au rugby ce week-end, il m'a dit qu'avec les nouvelles règles U8, son équipe a fait plein d'en-avant et de hors-jeu ! »\n  - *Bulle (Léon)* : « Ah ouais ? Même Baptiste il a perdu un match ? »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
       "realiste": "planches/10-ruminations-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Ayden à gauche parlant, Léon à droite surpris : reprise des deux têtes avec coupes distinctives. Longue frange de côté du premier Ayden rejetée et remplacée par une reprise courte châtain clair. Pouce levé, manteaux, cour et élèves secondaires d'origine conservés hors masques. La direction du pouce vers l'autre bout de la cour reste peu explicite."
     },
     {
       "page": 10,
@@ -1961,12 +2060,13 @@
         1185
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : La cloche de l'école sonne ; les deux garçons marchent vers leur classe.\n  - *Bulle (Ayden)* : « Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'au début en U8, tout le monde se trompe. »\n  - *Bulle (Léon, fronçant les sourcils)* : « Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus qu'on se trompe du tout ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
       "realiste": "planches/10-ruminations-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Ayden à gauche et Léon à droite repris pendant leur marche : coupe courte châtain clair et expression explicative, pics châtains et sourcils froncés. Portrait spécifique d'Ayden à la place des cheveux trop blonds du premier essai. Vêtements civils, sacs, corps, cloche, bâtiment et élèves secondaires hors masques conservés."
     },
     {
       "page": 11,
@@ -3826,12 +3926,12 @@
     {
       "page": 10,
       "fichier": "Planches-dessin/10-ruminations-marvel.png",
-      "sha256": "9b6e5aab85c2499fd644de794007c90d501140b24ab0969ef84f61f4b74cca01",
+      "sha256": "ed16c17ff213221232913f710f6b13f3a01e8e79c85a6ae6d2311ee47dac9e0d",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 2048984
+      "octets": 1528066
     },
     {
       "page": 11,
@@ -4058,15 +4158,19 @@
     {
       "vignette": "09-4",
       "motif": "Premier résultat élargissait le cadrage vers le bas et mettait Julien de face souriant : non intégré. Deuxième : retournement du corps de Julien exclu, seuls les quatre portraits importés. Masques élargis après contrôle de détail pour supprimer les reliquats des anciennes têtes."
+    },
+    {
+      "vignette": "10-2/3/4/5",
+      "motif": "Candidats complets trop larges avec cadrages/corps/décors déplacés : non intégrés. Portraits recalés séparément. Ayden repris trois fois localement pour éviter cheveux blonds et frange longue. Premier montage avec traces des anciennes têtes en 10/1 et doublons en 10/5 rejeté ; positions et masques corrigés, effacement limité aux anciennes pointes de cheveux avant montage final."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 48,
+    "vignettes_corrigees_premiere_passe": 53,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 104,
+    "vignettes_a_controler_individuellement": 99,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -4267,6 +4371,17 @@
         "09-4"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-j/"
+    },
+    {
+      "base": "814d16f",
+      "vignettes": [
+        "10-1",
+        "10-2",
+        "10-3",
+        "10-4",
+        "10-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-k/"
     }
   ]
 }
