@@ -1,0 +1,190 @@
+{
+  "base": "c2d5b46",
+  "originaux": "e0416a5",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "statut": "Cinquième passe : emprise des constructions de 30/4 et dérive violette des tenues en 27/3 corrigées localement ; pas de validation globale.",
+  "corrections": [
+    {
+      "page": 30,
+      "vignette": "30-4",
+      "rectangle": [
+        439,
+        390,
+        837,
+        718
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23e/30-4-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23e/30-4-personnages-proteges.png",
+      "statut": "Grande extension droite supprimée ; petit appentis gauche rétabli ; façade principale, personnages et sol conservés."
+    },
+    {
+      "page": 27,
+      "vignette": "27-3",
+      "rectangle": [
+        439,
+        497,
+        837,
+        823
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23e/27-3-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23e/27-3-protege.png",
+      "statut": "Dérive violette des tenues de quatre enfants ramenée au rouge et bleu ; modification de teinte uniquement, luminosité HSV et pixels hors masques conservés.",
+      "pixels_rouges": 305,
+      "pixels_bleus": 68,
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23e/27-3-vetements-regions.png"
+    }
+  ],
+  "geometrie": [
+    {
+      "vignette": "30-4-no-annex",
+      "native": [
+        1136,
+        944
+      ],
+      "contenu": [
+        398,
+        331
+      ],
+      "cadrage": [
+        0,
+        1,
+        398,
+        328
+      ]
+    },
+    {
+      "vignette": "30-4-left-fixed",
+      "native": [
+        944,
+        1120
+      ],
+      "contenu": [
+        110,
+        131
+      ],
+      "cadrage": [
+        0,
+        0,
+        110,
+        130
+      ]
+    }
+  ],
+  "generations": {
+    "produites": 2,
+    "retenues_par_masque": 2,
+    "exclus": "Tous les nouveaux personnages, la nouvelle façade principale et le nouveau chemin des candidats sont exclus."
+  },
+  "a_reprendre": [
+    "30/4 : proportions et détails architecturaux fins restent approximatifs ; ne pas certifier chaque ouverture ou élément de toiture.",
+    "Finitions des zones protégées et raccords fins de 23–30, identités/anatomies, petits figurants et marquages non certifiés."
+  ],
+  "protections_rectangles_locaux": [
+    [
+      62,
+      0,
+      264,
+      100
+    ],
+    [
+      62,
+      100,
+      220,
+      165
+    ],
+    [
+      170,
+      165,
+      225,
+      309
+    ],
+    [
+      0,
+      191,
+      398,
+      328
+    ]
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "octets": 1791886,
+      "sha256": "6ad77147090a369f3736716064b54df166da6b2b1f95488e0346dc4c5824af6d",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "octets": 1751839,
+      "sha256": "90a920ea08c62d4e4cbce0009d35bcdb64a35d43cc883eec9a44dc50e68f1715",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "octets": 2357283,
+      "sha256": "f04ef68a33e42e3f9144cf13ef8e25ff9c7d08d7190177d91b0a3dd1a827688f",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "octets": 1779732,
+      "sha256": "1adf6d06fe46ff57880761bc35442d5797c102e5c9a6ae0643d26be806219648",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "octets": 1688645,
+      "sha256": "ccdb8690db83d20c3bd7b414b15ef157f7f66eb4e48868236a7dfba6a124e489",
+      "dimensions": [
+        864,
+        1222
+      ]
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "octets": 1903236,
+      "sha256": "0029a5b19d9958b5254ae8beeb9bf9fcfb1ddc58ba3e63c0835bdbffb5499498",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "octets": 1679254,
+      "sha256": "3156e1b1f427b8bf5aa4af80827db699a961e3038835652b7368c4c222c9ec0e",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "octets": 1516016,
+      "sha256": "534747b878ffa81b546b8b5d9890150eebe3e43bb9879a8ca04ab3fc8a1b8425",
+      "dimensions": [
+        864,
+        1232
+      ]
+    }
+  ]
+}

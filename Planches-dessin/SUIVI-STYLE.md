@@ -225,3 +225,14 @@ Base `0532a10`. **Seule la page 24 est modifiée** ; 00–23 et 25–30 restent 
 Deux générations utilisées par masques, même témoin V2, échelle uniforme. Rapport courant : `validation/AUDIT4-23-30.md`, inventaire `AUDIT4-23-30.json`. Comparatif : `AUDIT4-23-30-AVANT-APRES.jpg` ; détail vérifié : `AUDIT4-28-6-MANCHES.jpg`. Vérificateur : `outils/retouche/verifier_audit4_23_30.py` ; chaîne des audits historiques et inventaire du lot actualisés.
 
 **Restent ouverts : architecture/proportions de 30/4, finitions des régions protégées, identités/anatomies fines, petits figurants et marquages. La reprise des deux décors n'est pas une validation globale de la BD.**
+
+## Cinquième passe 23–30 — emprise de maison et couleurs de cérémonie
+
+Base `c2d5b46`. **Pages 27 et 30 modifiées uniquement en 27/3 et 30/4**. Autres cases et fichiers principaux inchangés.
+
+- **30/4 :** grande extension droite inventée supprimée, fond boisé rétabli ; petit appentis gauche réduit d'après le recadrage source. Façade principale, personnages, enfant, visages, terrain bas, chemin et muret existants conservés par masques. Deux générations utilisées localement, pas de relance intégrale de la case ni des personnages.
+- **27/3 :** dérive violette de quatre tenues RCM corrigée en rouge/bleu par traitement de teinte local. Valeur HSV V conservée exactement, parties blanches et régions de visages contrôlées. Aucune génération ni changement de silhouette, de personne ou de décor.
+
+L'écart volumétrique manifeste de 30/4 est corrigé ; les détails/proportions architecturaux fins restent réservés, comme les finitions des régions protégées, les ressemblances/anatomies, petits figurants et marquages. **Pas de validation globale.** Les manches rouges authentiques de 28/6 et le groupe de 30/2 ne sont pas modifiés.
+
+Rapport courant : `validation/AUDIT5-23-30.md` ; inventaire `AUDIT5-23-30.json`. Preuves : `AUDIT5-23-30-AVANT-APRES.jpg` et `AUDIT5-27-3-COULEURS.jpg`. Vérificateur courant : `outils/retouche/verifier_audit5_23_30.py`, intégré à la chaîne historique ; inventaire du lot actualisé sans effacer les anciens états.
