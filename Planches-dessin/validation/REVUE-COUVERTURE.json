@@ -729,6 +729,120 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-5-masque.png",
       "type": "reprise_graphique",
       "intervention": "Kilian roux et Julien gris à bouc/moustache repris ; distribution des cinq garçons rétablie : Lyssandro/Milo debout, Ayden/Léon/Nolann accroupis. Nolann auparavant absent des ressemblances retrouve courte frange brune et teint mat, avec bras/mains et jambe découverte visibles accordés au visage ; pied du garçon voisin non recoloré. Pointage de Julien, poses et cinq adversaires vert/noir hors masques conservés."
+    },
+    {
+      "page": 7,
+      "vignette": "07-1",
+      "rectangle": [
+        20,
+        38,
+        844,
+        380
+      ],
+      "source_rectangle": [
+        56,
+        106,
+        2424,
+        1094
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Lyssandro de profil repris sur la couverture avec expression surprise ; manches rouges du premier plan corrigées en blanc comme le modèle. Cinq adversaires vert/noir et arrière-plan hors masque préservés."
+    },
+    {
+      "page": 7,
+      "vignette": "07-2",
+      "rectangle": [
+        21,
+        395,
+        425,
+        604
+      ],
+      "source_rectangle": [
+        56,
+        1130,
+        1222,
+        1736
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Milo retrouve sa frange châtaine pleine et son maillot rouge/bleu à manches blanches à la place du tee-shirt uni ; visage de Léon repris avec pics et agacement. Ballon tombant, deux défenseurs, gestes et décor hors masques conservés."
+    },
+    {
+      "page": 7,
+      "vignette": "07-3",
+      "rectangle": [
+        439,
+        395,
+        844,
+        604
+      ],
+      "source_rectangle": [
+        1258,
+        1130,
+        2424,
+        1736
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés."
+    },
+    {
+      "page": 7,
+      "vignette": "07-4",
+      "rectangle": [
+        20,
+        618,
+        425,
+        827
+      ],
+      "source_rectangle": [
+        56,
+        1772,
+        1222,
+        2378
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Léon/Ayden/Milo reprises : pics châtains, frange courte châtain clair et frange pleine. Porteur vert/noir, ballon, course, membres et lignes du terrain hors masques préservés. Composition existante conservée ; décalage entre texte et placement des défenseurs à relire."
+    },
+    {
+      "page": 7,
+      "vignette": "07-5",
+      "rectangle": [
+        439,
+        618,
+        844,
+        827
+      ],
+      "source_rectangle": [
+        1258,
+        1772,
+        2424,
+        2378
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Léon au touché, Milo derrière à gauche et Ayden derrière à droite repris sur les modèles. Correction locale supplémentaire de la coupe/couleur d’Ayden, sans importer les inscriptions altérées du recadrage. Deux mains au contact, ballon/adversaire, autres corps et terrain hors masques conservés."
+    },
+    {
+      "page": 7,
+      "vignette": "07-6",
+      "rectangle": [
+        21,
+        842,
+        844,
+        1184
+      ],
+      "source_rectangle": [
+        56,
+        2414,
+        2424,
+        3402
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-6-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Portraits de Julien gris à bouc/moustache et Kilian roux à barbe rousse repris en conservant les gestes d’encouragement. Candidat complet rejeté pour poteaux ajoutés ; seuls les portraits servent. Cinq adversaires verts dont le marqueur, trois joueurs RCM à droite et décor hors masques préservés."
     }
   ],
   "vignettes": [
@@ -1335,12 +1449,13 @@
         383
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Coup d'envoi ! Les 5 joueurs de **Montmélian (tenue Vert et Noir)** avancent d'un seul bloc, parfaitement alignés sur les 20 mètres de large.\n  - *Bulle (Joueur de Montmélian)* : « On monte ensemble les Vert et Noir ! Personne ne passe ! »\n  - *Bulle (Lyssandro, surpris)* : « Oh là là, ils sont déjà sur nous ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Lyssandro de profil repris sur la couverture avec expression surprise ; manches rouges du premier plan corrigées en blanc comme le modèle. Cinq adversaires vert/noir et arrière-plan hors masque préservés."
     },
     {
       "page": 7,
@@ -1352,12 +1467,13 @@
         607
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Sous la pression de deux défenseurs Vert et Noir, **Milo** veut attraper le ballon en courant avant de l'avoir contrôlé. Le ballon lui échappe des mains et rebondit vers l'avant.\n  - *Onomatopée* : **« PLOP ! FIIIIT ! »**\n  - *Bulle (Arbitre)* : « En-avant du RCM ! Ballon rendu à Montmélian ! »\n  - *Bulle (Léon, râlant déjà)* : « Mais fais attention Milo ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Milo retrouve sa frange châtaine pleine et son maillot rouge/bleu à manches blanches à la place du tee-shirt uni ; visage de Léon repris avec pics et agacement. Ballon tombant, deux défenseurs, gestes et décor hors masques conservés."
     },
     {
       "page": 7,
@@ -1369,12 +1485,13 @@
         607
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : Quelques secondes plus tard, **Nolann** tente de contourner le rideau Vert et Noir tout seul au bord du terrain mais pose le pied sur la ligne blanche.\n  - *Onomatopée* : **« FIIIIT ! »**\n  - *Bulle (Arbitre)* : « Touche ! Ballon rendu à Montmélian, joué comme une pénalité ! »\n  - *Bulle (Nolann)* : « Mince, le terrain de 20 mètres est moins large que je croyais ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés."
     },
     {
       "page": 7,
@@ -1386,12 +1503,14 @@
         830
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Le numéro 10 de Montmélian joue la pénalité ultra-vite ! En face, la défense du RCM est complètement désorganisée : **Léon** s'est jeté tout seul en avant tandis qu'**Ayden** et **Milo** sont restés en retrait. Le joueur Vert et Noir s'engouffre dans l'intervalle et marque !\n  - *Bulle (Flavien, depuis la touche)* : « La ligne défensive les garçons ! Si Léon monte tout seul, ça ouvre un boulevard ! »\n  - *Encadré* : « ESSAI DE MONTMÉLIAN ! +1 POINT ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Léon/Ayden/Milo reprises : pics châtains, frange courte châtain clair et frange pleine. Porteur vert/noir, ballon, course, membres et lignes du terrain hors masques préservés. Composition existante conservée ; décalage entre texte et placement des défenseurs à relire.",
+      "reserve_scenario": "La composition réaliste et dessinée montre les trois RCM poursuivant le porteur, tandis que le scénario explique le départ isolé de Léon et les autres restés en retrait. Cette passe corrige les ressemblances, sans certifier le placement tactique."
     },
     {
       "page": 7,
@@ -1403,12 +1522,14 @@
         830
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Vexé d'avoir encaissé un essai, Léon veut se venger tout de suite : sur l'action suivante, il ne recule pas assez vite et touche le porteur alors qu'il était hors-jeu.\n  - *Onomatopée* : **« FIIIIT ! »**\n  - *Bulle (Arbitre)* : « Hors-jeu du joueur du RCM ! Pénalité pour Montmélian ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon au touché, Milo derrière à gauche et Ayden derrière à droite repris sur les modèles. Correction locale supplémentaire de la coupe/couleur d’Ayden, sans importer les inscriptions altérées du recadrage. Deux mains au contact, ballon/adversaire, autres corps et terrain hors masques conservés.",
+      "distribution_identifiee": "Léon au touché, Milo en retrait à gauche, Ayden en retrait à droite ; un adversaire vert/noir porteur du ballon."
     },
     {
       "page": 7,
@@ -1420,12 +1541,14 @@
         1187
       ],
       "scenario": "- **Vignette 6** :\n  - *Visuel* : Sur le bord du terrain, **Julien** et **Kilian** s'époumonent pendant que Montmélian marque un nouvel essai collectif en se faisant des passes propres.\n  - *Bulle (Julien)* : « Calmez-vous le RCM ! Respirez ! Regardez vos copains avant de courir ! »\n  - *Bulle (Kilian)* : « Ils s'énervent au lieu de construire… »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portraits de Julien gris à bouc/moustache et Kilian roux à barbe rousse repris en conservant les gestes d’encouragement. Candidat complet rejeté pour poteaux ajoutés ; seuls les portraits servent. Cinq adversaires verts dont le marqueur, trois joueurs RCM à droite et décor hors masques préservés.",
+      "distribution_identifiee": "Julien et Kilian au premier plan ; cinq adversaires vert/noir dont le marqueur ; trois RCM et adultes de fond conservés."
     },
     {
       "page": 8,
@@ -3493,12 +3616,12 @@
     {
       "page": 7,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
-      "sha256": "5ea25991472bcf6211da9805c55c39453aeb374b2e582f15b9294f0694dd7af8",
+      "sha256": "436d19089c3c2ac3af5cf1685a797327465027e70cf1c8c9b7cce82e8956ca0c",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1668670
+      "octets": 1667844
     },
     {
       "page": 8,
@@ -3741,9 +3864,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 33,
+    "vignettes_corrigees_premiere_passe": 39,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 119,
+    "vignettes_a_controler_individuellement": 113,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3826,7 +3949,8 @@
     "verifier_lot23_30.py",
     "verifier_audit13_22.py",
     "verifier_audit2_13_22.py",
-    "git diff --check"
+    "git diff --check",
+    "verifier_planche07.py (audit antérieur historique, puis revue courante)"
   ],
   "lots": [
     {
@@ -3910,6 +4034,18 @@
         "06-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-g/"
+    },
+    {
+      "base": "da45f9b",
+      "vignettes": [
+        "07-1",
+        "07-2",
+        "07-3",
+        "07-4",
+        "07-5",
+        "07-6"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-h/"
     }
   ]
 }

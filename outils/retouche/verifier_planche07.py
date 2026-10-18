@@ -9,6 +9,7 @@ from io import BytesIO
 import json
 from pathlib import Path
 import subprocess
+import sys
 
 from PIL import Image, ImageChops
 
@@ -22,7 +23,15 @@ def main():
         ['git', 'show', f"{report['commit_avant']}:{report['fichier']}"], cwd=ROOT
     )
     before = Image.open(BytesIO(data)).convert('RGB')
-    after = Image.open(ROOT / report['fichier']).convert('RGB')
+    review = ROOT / 'Planches-dessin/validation/REVUE-COUVERTURE.json'
+    historical = json.loads(review.read_text())['base'] if review.exists() else None
+    if historical:
+        print(f'Audit 07 HISTORIQUE : {historical} ; revue couverture contrôlée séparément.')
+        raw = subprocess.check_output(
+            ['git', 'show', f"{historical}:{report['fichier']}"], cwd=ROOT)
+        after = Image.open(BytesIO(raw)).convert('RGB')
+    else:
+        after = Image.open(ROOT / report['fichier']).convert('RGB')
     assert before.size == after.size, 'Dimensions modifiées'
     outside = ImageChops.difference(before, after)
     for item in report['controles']:
@@ -40,6 +49,8 @@ def main():
         print(f"OK {item['vignette']} : pixels protégés identiques")
     assert outside.getbbox() is None, 'Pixels modifiés hors des cases autorisées'
     print('OK : dimensions et pixels hors cases inchangés')
+    if historical:
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_revue_couverture.py')], check=True, cwd=ROOT)
 
 
 if __name__ == '__main__':

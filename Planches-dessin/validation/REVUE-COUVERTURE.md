@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 33 |
+| Premières reprises intégrées, encore à relire | 39 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 119 |
+| Autres vignettes restant à contrôler individuellement | 113 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 34 vignettes ayant reçu une intervention ne sont pas 34 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 40 vignettes ayant reçu une intervention ne sont pas 40 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -117,6 +117,21 @@ Scénario, cinq recadrages réalistes, couverture et sorties intégrées examin�
 
 Preuves : `revue-couverture/lot-g/06-AVANT-APRES.jpg` et cinq masques. Les sources réalistes sont un support de pose/composition, pas une autorité pour conserver une substitution ou une absence de ressemblance. Tenues, raccords de carnation et traitement des corps/décors restent à relire avec la série entière ; le maintien des pixels ne certifie pas leur conformité graphique.
 
+## Huitième livraison : les six vignettes de la planche 7
+
+Six scènes comparées au scénario, à leurs recadrages réalistes et aux références nominatives de couverture. Les anciennes réparations approuvées de cette page ne valent pas validation contre la nouvelle autorité de couverture.
+
+- **07/1 :** Lyssandro de profil repris avec expression surprise et frange de côté. Sa manche visible rouge est corrigée en blanc comme sur la couverture. Le candidat complet prolongeait à tort la manche blanche sur l’avant-bras : non retenu pour cette zone. Tête intégrée séparément, manche d’origine recolorée localement en conservant les plis, logo et bras nu ; lettres existantes rendues foncées pour rester lisibles sur blanc. Cinq défenseurs vert/noir et décor hors masque conservés.
+- **07/2 :** Milo retrouve son visage/frange et le maillot rouge/bleu à manches blanches, à la place du tee-shirt bleu uni hérité de la source réaliste. Léon derrière lui retrouve ses pics avec un air contrarié. Gestes de réception manquée, ballon, deux adversaires et spectateurs hors masques préservés.
+- **07/3 :** Nolann reprend visage, courte frange brun foncé et teint mat de couverture ; mains et deux jambes visibles accordées localement. Pied sur la touche, ballon, course et deux poursuivants vert/noir préservés hors masques. Pas de normalisation globale de peau.
+- **07/4 :** Léon, Ayden et Milo repris avec leurs coiffures et traits respectifs. Porteur vert/noir, ballon, course et lignes d’origine hors masques conservés. **Réserve de scénario :** la source montre les trois RCM poursuivant le porteur ; le départ isolé de Léon et le retrait des autres ne sont pas explicités par cette composition. Ne pas déclarer le placement tactique parfaitement conforme à ce stade.
+- **07/5 :** Léon au touché, Milo en arrière à gauche, Ayden en arrière à droite repris. Un premier résultat gardait une coupe trop relevée et trop blonde pour Ayden : tête corrigée avec son recadrage nominatif, sans importer les vêtements/inscriptions altérés de cet essai local. Deux mains, ballon/adversaire et corps hors masques conservés.
+- **07/6 :** Julien gris à bouc/moustache et Kilian roux à barbe rousse repris. Les gestes de cri/pointage restent ceux de la scène. Le candidat avait ajouté des poteaux : **aucun poteau importé**, seuls les portraits sont intégrés. Cinq adversaires vert/noir, dont celui qui aplatit, trois RCM et adultes de fond hors masques conservés.
+
+Comparatif et six masques : `revue-couverture/lot-h/07-AVANT-APRES.jpg`. Contrôle après montage à l’échelle des cases et de la page. Tenues, petits marquages, raccords et homogénéité des corps/décors restent à relire globalement ; aucune validation définitive annoncée.
+
+Le vérificateur de l’ancienne réparation 07 s’applique désormais à l’état historique `d0cc063`, puis déclenche le contrôle cumulatif courant. Il ne doit pas bloquer les nouvelles corrections autorisées, ni présenter son ancienne réussite comme une certification des nouveaux portraits.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -125,7 +140,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **119 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **113 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
