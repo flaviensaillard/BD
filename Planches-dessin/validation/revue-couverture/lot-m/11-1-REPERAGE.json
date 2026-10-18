@@ -1,0 +1,44 @@
+{
+  "vignette": "11-1",
+  "coordonnees": "sur recadrage de travail 1200 x 667",
+  "nombre_enfants": 20,
+  "personnages": [
+    {
+      "nom": "Milo",
+      "centre": [
+        92,
+        435
+      ]
+    },
+    {
+      "nom": "Lyssandro",
+      "centre": [
+        213,
+        514
+      ]
+    },
+    {
+      "nom": "Nolann",
+      "centre": [
+        346,
+        437
+      ]
+    },
+    {
+      "nom": "Ayden",
+      "centre": [
+        478,
+        412
+      ]
+    },
+    {
+      "nom": "Léon",
+      "centre": [
+        548,
+        478
+      ]
+    }
+  ],
+  "autres_joueurs_anonymes": 15,
+  "statut": "premiere_reprise_relecture_globale_a_faire"
+}

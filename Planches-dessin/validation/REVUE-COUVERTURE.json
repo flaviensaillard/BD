@@ -1119,9 +1119,9 @@
         2424,
         1428
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-1-masque.png",
-      "type": "correction_partielle",
-      "intervention": "Trois portraits d'éducateurs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux à barbe rousse. Vingt têtes d'enfants repérées dans le dessin d'origine et conservées, sans déplacement du groupe. Correction PARTIELLE : les identités et tenues des enfants de cette vue collective restent à reprendre individuellement, ainsi que les projecteurs peu lumineux."
+      "masque": "Planches-dessin/validation/revue-couverture/lot-m/11-1-masque-cumulatif.png",
+      "type": "reprise_graphique",
+      "intervention": "Après les trois portraits d'éducateurs du lot L : quatre têtes d'enfants reprises localement (Milo en imperméable au premier plan gauche, Nolann devant à manches blanches/sous-manches noires, Ayden au milieu, Léon plus près de Flavien). Chevelure châtaine de Lyssandro vu de dos/profil conservée. Coupe pleine de Milo, courte frange brune et teint mat de Nolann, courte frange châtain clair d'Ayden, pics châtains de Léon ; main visible de Nolann accordée sans toucher la jambe du voisin. Manches rouges visibles corrigées localement et lumière du projecteur renforcée. Vingt enfants et trois coachs conservés. 11/1 passe de partielle à première reprise à relire, pas à validation définitive."
     },
     {
       "page": 11,
@@ -2147,9 +2147,9 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "correction_partielle_reste_a_reprendre",
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Trois portraits d'éducateurs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux à barbe rousse. Vingt têtes d'enfants repérées dans le dessin d'origine et conservées, sans déplacement du groupe. Correction PARTIELLE : les identités et tenues des enfants de cette vue collective restent à reprendre individuellement, ainsi que les projecteurs peu lumineux."
+      "intervention": "Après les trois portraits d'éducateurs du lot L : quatre têtes d'enfants reprises localement (Milo en imperméable au premier plan gauche, Nolann devant à manches blanches/sous-manches noires, Ayden au milieu, Léon plus près de Flavien). Chevelure châtaine de Lyssandro vu de dos/profil conservée. Coupe pleine de Milo, courte frange brune et teint mat de Nolann, courte frange châtain clair d'Ayden, pics châtains de Léon ; main visible de Nolann accordée sans toucher la jambe du voisin. Manches rouges visibles corrigées localement et lumière du projecteur renforcée. Vingt enfants et trois coachs conservés. 11/1 passe de partielle à première reprise à relire, pas à validation définitive."
     },
     {
       "page": 11,
@@ -4006,12 +4006,12 @@
     {
       "page": 11,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
-      "sha256": "d51d94670397fe650f3afb2e66da256f9806d012b6a79da934e1557e666be92e",
+      "sha256": "ec00f9feabee24a5dd8099d58c70d57a925b1ec194b38121e6cd7a58958a5c18",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 10384006
+      "octets": 10399215
     },
     {
       "page": 12,
@@ -4236,14 +4236,18 @@
     {
       "vignette": "11-2",
       "motif": "Candidat complet trop large et tête allongée après mise à taille : seul le portrait roux recalé est retenu, tableau et enfants non importés."
+    },
+    {
+      "vignette": "11-1",
+      "motif": "Reprise complète du groupe peu efficace : identités principales non corrigées et chevelure de Lyssandro modifiée à tort, non intégrée. Quatre portraits locaux retenus. Recoloration initiale touchant des pixels du visage de Lyssandro écartée ; visage explicitement protégé dans la sélection finale. Vestiges d'ancienne coiffure de Milo retirés ; Léon recalé après contrôle agrandi."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 57,
-    "vignettes_correction_partielle": 2,
+    "vignettes_corrigees_premiere_passe": 58,
+    "vignettes_correction_partielle": 1,
     "vignettes_a_controler_individuellement": 94,
     "validations_definitives": 0
   },
@@ -4467,6 +4471,16 @@
         "11-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-l/"
+    },
+    {
+      "base": "485490a",
+      "vignettes": [
+        "11-1"
+      ],
+      "remplace_correction_partielle": [
+        "11-1"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-m/"
     }
   ]
 }

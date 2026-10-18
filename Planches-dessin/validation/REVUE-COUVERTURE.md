@@ -21,8 +21,8 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 57 |
-| Corrections seulement partielles, à poursuivre | 2 |
+| Premières reprises intégrées, encore à relire | 58 |
+| Corrections seulement partielles, à poursuivre | 1 |
 | Autres vignettes restant à contrôler individuellement | 94 |
 | Validations définitives de style et ressemblance | **0** |
 
@@ -202,6 +202,20 @@ Preuves : `revue-couverture/lot-l/11-AVANT-APRES.jpg`, cinq masques et `11-1-COM
 
 **Réserves :** terminer les identités/tenues du groupe de vingt en 11/1 (notamment repérage de Nolann, absence de Léon clairement reconnaissable), éclairage des projecteurs, cohérence transversale des maillots/encrages et teintes de Nolann. Les manches longues blanches d'Ayden en 11/3 sont héritées de l'entraînement pluvieux et restent à confronter à la tenue canonique. Les schémas des tableaux sont préservés ; les trois intitulés et dialogues attendent la phase finale de lettrage, pas un remplissage maintenant. Pas de validation graphique définitive.
 
+## Treizième livraison : complément de la vue collective 11/1
+
+**11/1 passe de correction partielle à première reprise à relire.** Cette mise à jour complète le lot L sans prétendre valider définitivement la page. Les 94 vignettes encore sans contrôle individuel restent inchangées dans le bilan.
+
+Après les trois portraits d'éducateurs du lot L : quatre têtes d'enfants reprises localement (Milo en imperméable au premier plan gauche, Nolann devant à manches blanches/sous-manches noires, Ayden au milieu, Léon plus près de Flavien). Chevelure châtaine de Lyssandro vu de dos/profil conservée. Coupe pleine de Milo, courte frange brune et teint mat de Nolann, courte frange châtain clair d'Ayden, pics châtains de Léon ; main visible de Nolann accordée sans toucher la jambe du voisin. Manches rouges visibles corrigées localement et lumière du projecteur renforcée. Vingt enfants et trois coachs conservés. 11/1 passe de partielle à première reprise à relire, pas à validation définitive.
+
+Le placement des cinq personnages principaux dans la foule est explicité par `revue-couverture/lot-m/11-1-REPERAGE.jpg` et `11-1-REPERAGE.json` : Milo au premier plan gauche en imperméable, Lyssandro vu de dos/profil juste devant, Nolann à sa droite, Ayden au milieu et Léon au plus près de Flavien. Le scénario ne nomme pas ces placements précis dans le groupe de vingt : il s'agit d'une identification graphique retenue pour assurer le raccord avec les cases suivantes, pas d'une information prétendument extraite de la photographie. Les quinze autres joueurs restent anonymes et ne sont pas des occurrences supplémentaires des cinq héros.
+
+Les vingt têtes ont été repointées après montage. Les imperméables restent cohérents avec l'entraînement pluvieux ; les jerseys visibles sont vérifiés pour les manches et bandes. Les visages anonymes et leurs petits marquages ne sont pas redessinés sans nécessité. La source réaliste sert à la pose du groupe, pas à maintenir l'absence de Nolann reconnaissable ou une mauvaise coiffure de Léon.
+
+Preuves : comparatif `11-1-AVANT-APRES.jpg`, masque de cette passe et masque cumulatif comprenant les portraits de coachs du lot L. Contrôle des raccords après montage et détail agrandi de Léon. Le premier montage comportait des vestiges de coiffure et une recoloration débordant sur Lyssandro : corrigés, pas présentés comme conformes. Les coachs précédemment repris, les corps et les quinze autres têtes restent hors des nouvelles zones de portrait.
+
+**Réserves globales :** uniformité du niveau de détail entre portraits et foule, coupes/carnations sur les autres pages, plis et petits logos des tenues. Une première reprise n'est pas une validation définitive. Les éléments graphiques déjà présents sur les maillots sont conservés ; aucun dialogue, titre de tableau ou bulle ajouté.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -210,7 +224,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **94 autres vignettes**, terminer **11/1 et 14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **94 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
