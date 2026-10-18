@@ -16,7 +16,7 @@ def main():
     # The initial manifest remains a historical inventory. After a local audit,
     # use its current delivery hashes rather than the superseded batch hashes.
     candidates = [ROOT / 'Planches-dessin/validation' / name for name in (
-        'AUDIT5-23-30.json', 'AUDIT4-23-30.json', 'AUDIT3-23-30.json',
+        'AUDIT6-23-30.json', 'AUDIT5-23-30.json', 'AUDIT4-23-30.json', 'AUDIT3-23-30.json',
         'AUDIT2-23-30.json', 'audit-23-30.json')]
     audit = next((path for path in candidates if path.exists()), candidates[-1])
     entries = json.loads(audit.read_text())['fichiers_apres'] if audit.exists() else report['fichiers']

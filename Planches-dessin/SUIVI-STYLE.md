@@ -236,3 +236,14 @@ Base `c2d5b46`. **Pages 27 et 30 modifiées uniquement en 27/3 et 30/4**. Autres
 L'écart volumétrique manifeste de 30/4 est corrigé ; les détails/proportions architecturaux fins restent réservés, comme les finitions des régions protégées, les ressemblances/anatomies, petits figurants et marquages. **Pas de validation globale.** Les manches rouges authentiques de 28/6 et le groupe de 30/2 ne sont pas modifiés.
 
 Rapport courant : `validation/AUDIT5-23-30.md` ; inventaire `AUDIT5-23-30.json`. Preuves : `AUDIT5-23-30-AVANT-APRES.jpg` et `AUDIT5-27-3-COULEURS.jpg`. Vérificateur courant : `outils/retouche/verifier_audit5_23_30.py`, intégré à la chaîne historique ; inventaire du lot actualisé sans effacer les anciens états.
+
+## Sixième passe 23–30 — coiffure/orientation de 23/2 et teintes des plans larges
+
+Base `1cf3243`. **Pages 23 et 25 modifiées, uniquement en 23/1, 23/2 et 25/1** ; autres cases et fichiers inchangés.
+
+- **23/2 :** garçon central repris d'après son recadrage source : cheveux très courts et tête tournée à droite, au lieu d'une longue mèche et d'une face frontale. Une génération de tête/cou seulement, petit raccord de col ; bras et autres visages conservés. L'ancienne coiffure/son halo sont effacés avec le fond vide déjà retenu à la deuxième passe, pas avec un nouveau paysage ni avec le décor de 23/3 rejeté.
+- **23/1, 23/2, 25/1 :** teintes violettes de parties des maillots RCM ramenées au rouge par masques de couleur. Respectivement 782, 1 189 et 1 938 pixels corrigés, valeur HSV V inchangée. Bleus, blancs et peaux hors de la tête ciblée protégés ; pas de nouveau personnage ni de comptage/suppression dans les groupes.
+
+Rapport courant : `validation/AUDIT6-23-30.md`, inventaire `AUDIT6-23-30.json`. Preuves : `AUDIT6-23-30-AVANT-APRES.jpg` et `AUDIT6-23-25-COULEURS.jpg`. Vérificateur courant : `outils/retouche/verifier_audit6_23_30.py`, intégré à la chaîne historique ; inventaire du lot actualisé.
+
+**Coiffure et orientation corrigées ne signifient pas identité parfaite.** Source déjà tramée, ressemblances/expressions fines, anatomies, petits figurants, logos et finitions des zones protégées gardent des réserves. Pas de validation globale de la BD.

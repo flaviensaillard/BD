@@ -1,0 +1,190 @@
+{
+  "base": "1cf3243",
+  "originaux": "e0416a5",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "statut": "Sixième passe : tête centrale de 23/2 et teintes violacées des maillots en 23/1–2 et 25/1 ; pas de validation globale.",
+  "corrections": [
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "rectangle": [
+        27,
+        55,
+        837,
+        326
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23f/23-1-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23f/23-1-protege.png",
+      "couleur_masque": "Planches-dessin/validation/corrections-vignettes/audit23f/23-1-rouge-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23f/23-1-vetements-regions.png",
+      "visages_proteges": "Planches-dessin/validation/corrections-vignettes/audit23f/23-1-visages-proteges.png",
+      "pixels_rouges": 782,
+      "tete_masque": null,
+      "statut": "Teinte violette des maillots ramenée au rouge, V constant ; aucun personnage régénéré."
+    },
+    {
+      "page": 23,
+      "vignette": "23-2",
+      "rectangle": [
+        27,
+        339,
+        837,
+        609
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-protege.png",
+      "couleur_masque": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-rouge-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-vetements-regions.png",
+      "visages_proteges": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-visages-proteges.png",
+      "pixels_rouges": 1189,
+      "tete_masque": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-tete-masque.png",
+      "statut": "Tête/cou et petit raccord au col d’après la source, teintes violettes des maillots ramenées au rouge."
+    },
+    {
+      "page": 25,
+      "vignette": "25-1",
+      "rectangle": [
+        27,
+        29,
+        837,
+        484
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23f/25-1-masque.png",
+      "protege": "Planches-dessin/validation/corrections-vignettes/audit23f/25-1-protege.png",
+      "couleur_masque": "Planches-dessin/validation/corrections-vignettes/audit23f/25-1-rouge-masque.png",
+      "regions": "Planches-dessin/validation/corrections-vignettes/audit23f/25-1-vetements-regions.png",
+      "visages_proteges": "Planches-dessin/validation/corrections-vignettes/audit23f/25-1-visages-proteges.png",
+      "pixels_rouges": 1938,
+      "tete_masque": null,
+      "statut": "Teinte violette des maillots ramenée au rouge, V constant ; aucun personnage régénéré."
+    }
+  ],
+  "generations": {
+    "produites": 1,
+    "retenues_par_masque": 1,
+    "detail": "Tête seule issue du recadrage original ; fond vide déjà retenu à la passe 2 réutilisé uniquement derrière la tête, pas de nouveau décor."
+  },
+  "geometrie": [
+    {
+      "vignette": "23-2-tete",
+      "native": [
+        1024,
+        1024
+      ],
+      "contenu": [
+        78,
+        78
+      ],
+      "cadrage": [
+        0,
+        0,
+        78,
+        77
+      ]
+    }
+  ],
+  "a_reprendre": [
+    "23/2 : coiffure très courte et orientation corrigées ; ressemblances et expression fines non certifiées.",
+    "Détails et finitions des régions protégées de 23–30, petits figurants, anatomies et marquages non certifiés."
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "octets": 1791203,
+      "sha256": "6fdd4f24ddb2e6a8f27cb1f0edcde3141028bd8c2b0fc505aa5a79853a6d7396",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "octets": 1751839,
+      "sha256": "90a920ea08c62d4e4cbce0009d35bcdb64a35d43cc883eec9a44dc50e68f1715",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "octets": 1857851,
+      "sha256": "4291dc255af45223f99f1d1e64ec7efc148db6aaffa16b004343513d81349f5b",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "octets": 1779732,
+      "sha256": "1adf6d06fe46ff57880761bc35442d5797c102e5c9a6ae0643d26be806219648",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "octets": 1688645,
+      "sha256": "ccdb8690db83d20c3bd7b414b15ef157f7f66eb4e48868236a7dfba6a124e489",
+      "dimensions": [
+        864,
+        1222
+      ]
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "octets": 1903236,
+      "sha256": "0029a5b19d9958b5254ae8beeb9bf9fcfb1ddc58ba3e63c0835bdbffb5499498",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "octets": 1679254,
+      "sha256": "3156e1b1f427b8bf5aa4af80827db699a961e3038835652b7368c4c222c9ec0e",
+      "dimensions": [
+        864,
+        1232
+      ]
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "octets": 1516016,
+      "sha256": "534747b878ffa81b546b8b5d9890150eebe3e43bb9879a8ca04ab3fc8a1b8425",
+      "dimensions": [
+        864,
+        1232
+      ]
+    }
+  ],
+  "tete_source": {
+    "fichier_source": "Planches-dessin/validation/corrections-vignettes/audit23f/23-2-tete-source.png",
+    "ref": "e0416a5",
+    "cadre_source_case_native": [
+      1090,
+      100,
+      1314,
+      320
+    ],
+    "cadre_dans_case": [
+      380,
+      35,
+      458,
+      112
+    ],
+    "limite": "La tête, le cou et un petit raccord au col changent ; bras/gestes et autres visages conservés. Le fond réutilisé ne contient aucun acteur.",
+    "page_originale": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png"
+  }
+}
