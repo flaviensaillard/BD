@@ -13,7 +13,11 @@ ROOT = Path(__file__).resolve().parents[2]
 def main():
     report = json.loads((ROOT / 'Planches-dessin/validation/lot-23-30.json').read_text())
     assert [e['planche'] for e in report['fichiers']] == list(range(23, 31))
-    for entry in report['fichiers']:
+    # The initial manifest remains a historical inventory. After a local audit,
+    # use its current delivery hashes rather than the superseded batch hashes.
+    audit = ROOT / 'Planches-dessin/validation/audit-23-30.json'
+    entries = json.loads(audit.read_text())['fichiers_apres'] if audit.exists() else report['fichiers']
+    for entry in entries:
         data = (ROOT / entry['fichier']).read_bytes()
         assert hashlib.sha256(data).hexdigest() == entry['sha256']
         assert len(data) == entry['octets']

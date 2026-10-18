@@ -166,7 +166,21 @@ Après accord utilisateur sur la poursuite, **les huit dernières pages 23 à 30
 - Sorties PNG natives conservées sans étirement, majoritairement 864 × 1232, page 27 : 864 × 1222. Ce n'est pas un master A4 à 300 dpi.
 - Consignes renforcées sur les enfants U6, les couleurs, les mains, l'éclairage diurne et les décors dessinés. La présence de ces consignes ne garantit pas leur respect.
 - Vérification technique : huit PNG lisibles, dimensions portrait, empreintes enregistrées et pages 00–22 inchangées. **Pas de validation de fidélité des visages, du nombre de personnes, du style ou des petits détails.**
-- Un aperçu de livraison a été regardé, sans audit case par case ni reprise. Point manifeste à contrôler en priorité : **30**, dont les groupes et accessoires ont dérivé (quatre coachs au lieu des trois de la source dans la case correspondante ; ballon déplacé vers l'enfant dans la dernière case). Ce candidat reste à corriger/valider, pas annoncé conforme. D'autres écarts peuvent subsister sur les huit pages, notamment les fonds encore photographiques ou les identités.
+- Un aperçu de livraison a été regardé, sans audit case par case ni reprise. Point manifeste à contrôler en priorité : **30**, dont les groupes et accessoires ont dérivé (identités des trois coachs altérées (le premier comptage à quatre était erroné ; voir rectification ci-dessous) ; ballon déplacé vers l'enfant dans la dernière case). Ce candidat reste à corriger/valider, pas annoncé conforme. D'autres écarts peuvent subsister sur les huit pages, notamment les fonds encore photographiques ou les identités.
 - Inventaire : `validation/lot-23-30.json`. Aperçu : `validation/lot-23-30-apercu.jpg`.
 
 **Couverture et pages 01–30 ont maintenant toutes une version restylée. Aucune page ne reste à générer ; cela ne signifie pas que toute la BD est validée. Le contrôle détaillé de 23–30 est différé, conformément à la demande.**
+
+## Audit 23–30 — corrections partielles après contrôle des vignettes
+
+Comparaison des 40 cases aux originaux. Trois pages modifiées (23, 26, 30), six candidats générés retenus et une restauration provisoire de source. 00–22 et les pages 24, 25, 27, 28, 29 sont intactes depuis `6942a37`.
+
+- 23/1 : haut du fond corrigé par masque, tous les joueurs/maillots/ballon protégés. Fond près des personnages encore à reprendre.
+- 26/3 : garçon de gauche restauré (peau brune, cheveux noirs ras) ; deux autres enfants protégés.
+- 30/2–5 : enfants et trophée, identités/tenues des trois coachs, toit incliné/tenue civile, ballon rendu au père et gestes rétablis. Grille originale restaurée sans étirement. Architecture, rangs arrière et ressemblance fine gardent des réserves.
+- 30/1 : candidat rejeté pour tête/personnage supplémentaire. **Source originale rétablie provisoirement au lieu de la scène adulte inventée ; encrage V2 restant à faire.**
+- Rectification du premier bilan : 30/3 comptait déjà **trois**, pas quatre coachs. Leur identité était en revanche altérée.
+
+Dix générations produites, quatre rejetées : 24/1 (âge non corrigé), 28/6 (copie de la page témoin), 29/2 (semi-réalisme et coiffure), 30/1 (tête ajoutée). Limite de génération atteinte, trois appels supplémentaires refusés. Pas d'intégration des sorties rejetées.
+
+**Huit vignettes restent à reprendre : 23/1–4, 24/1, 28/6, 29/2, 30/1.** Audit détaillé : `validation/AUDIT-23-30.md`. Contrôles : `outils/retouche/verifier_audit23_30.py` et `verifier_lot23_30.py`. Ce travail est une correction partielle, pas une livraison intégralement validée.

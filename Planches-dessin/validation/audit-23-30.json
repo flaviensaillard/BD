@@ -1,0 +1,341 @@
+{
+  "base": "6942a37",
+  "originaux": "e0416a5",
+  "reference": "Planches-dessin/validation/01-la-legende-des-u6-temoin-v2.png",
+  "statut": "Audit des huit pages ; corrections PARTIELLES, pas de validation globale.",
+  "generations": {
+    "reussies": 10,
+    "integrees": 6,
+    "rejetees": [
+      "24-1 : vieillissement pas suffisamment corrigé",
+      "28-6 : contamination par la page témoin, sortie entière au lieu de la case",
+      "29-2 : visage semi-réaliste et coiffure non corrigée",
+      "30-1 : tête/personnage supplémentaire dans le groupe"
+    ]
+  },
+  "corrections": [
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "rectangle": [
+        27,
+        55,
+        837,
+        326
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23/23-1-masque.png",
+      "statut": "correction locale intégrée"
+    },
+    {
+      "page": 26,
+      "vignette": "26-3",
+      "rectangle": [
+        27,
+        675,
+        425,
+        918
+      ],
+      "masque": "Planches-dessin/validation/corrections-vignettes/audit23/26-3-masque.png",
+      "statut": "correction locale intégrée"
+    },
+    {
+      "page": 30,
+      "vignette": "30-1",
+      "rectangle": [
+        27,
+        50,
+        425,
+        377
+      ],
+      "masque": null,
+      "statut": "original restauré provisoirement ; encrage V2 NON réalisé"
+    },
+    {
+      "page": 30,
+      "vignette": "30-2",
+      "rectangle": [
+        439,
+        50,
+        837,
+        377
+      ],
+      "masque": null,
+      "statut": "vignette redessinée depuis la source"
+    },
+    {
+      "page": 30,
+      "vignette": "30-3",
+      "rectangle": [
+        27,
+        390,
+        425,
+        718
+      ],
+      "masque": null,
+      "statut": "vignette redessinée depuis la source"
+    },
+    {
+      "page": 30,
+      "vignette": "30-4",
+      "rectangle": [
+        439,
+        390,
+        837,
+        718
+      ],
+      "masque": null,
+      "statut": "vignette redessinée depuis la source"
+    },
+    {
+      "page": 30,
+      "vignette": "30-5",
+      "rectangle": [
+        27,
+        731,
+        837,
+        1181
+      ],
+      "masque": null,
+      "statut": "vignette redessinée depuis la source"
+    }
+  ],
+  "page_reconstruite": 30,
+  "raison_reconstruction": "Les cinq cases et la grille avaient dérivé ; retour au découpage original à échelle uniforme, sans déformer les dessins.",
+  "geometrie": [
+    {
+      "fichier": ".arena/audit23/23-1-fixed.png",
+      "native": [
+        1792,
+        592
+      ],
+      "redimensionne": [
+        810,
+        268
+      ],
+      "cible": [
+        810,
+        271
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    },
+    {
+      "fichier": ".arena/audit23/26-3-fixed.png",
+      "native": [
+        1328,
+        800
+      ],
+      "redimensionne": [
+        398,
+        240
+      ],
+      "cible": [
+        398,
+        243
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    },
+    {
+      "fichier": ".arena/audit23/30-1-source.png",
+      "native": [
+        1142,
+        939
+      ],
+      "redimensionne": [
+        398,
+        327
+      ],
+      "cible": [
+        398,
+        327
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    },
+    {
+      "fichier": ".arena/audit23/30-2-fixed.png",
+      "native": [
+        1136,
+        928
+      ],
+      "redimensionne": [
+        398,
+        325
+      ],
+      "cible": [
+        398,
+        327
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    },
+    {
+      "fichier": ".arena/audit23/30-3-fixed.png",
+      "native": [
+        1136,
+        944
+      ],
+      "redimensionne": [
+        395,
+        328
+      ],
+      "cible": [
+        398,
+        328
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    },
+    {
+      "fichier": ".arena/audit23/30-4-fixed.png",
+      "native": [
+        1376,
+        768
+      ],
+      "redimensionne": [
+        588,
+        328
+      ],
+      "cible": [
+        398,
+        328
+      ],
+      "methode": "échelle uniforme puis recadrage centré"
+    },
+    {
+      "fichier": ".arena/audit23/30-5-fixed.png",
+      "native": [
+        1376,
+        768
+      ],
+      "redimensionne": [
+        806,
+        450
+      ],
+      "cible": [
+        810,
+        450
+      ],
+      "methode": "échelle uniforme et prolongement des seuls pixels de bord"
+    }
+  ],
+  "protection23": [
+    [
+      0,
+      96,
+      809,
+      270
+    ],
+    [
+      7,
+      0,
+      17,
+      100
+    ],
+    [
+      112,
+      0,
+      122,
+      100
+    ],
+    [
+      5,
+      70,
+      122,
+      88
+    ]
+  ],
+  "a_reprendre": [
+    "23-1 : seule la partie haute du fond a été nettoyée ; abords des joueurs encore à reprendre",
+    "23-2 : fond photographique/flou",
+    "23-3 : fond photographique/flou",
+    "23-4 : fond encore texturé",
+    "24-1 : âge et proportions des enfants",
+    "28-6 : fond bokeh et rendu semi-réaliste",
+    "29-2 : coiffure et ressemblance",
+    "30-1 : original rétabli pour le contenu, dessin V2 restant à faire"
+  ],
+  "reserves": [
+    "30-2 : nombre et identités de tous les enfants des rangs arrière non certifiés individuellement.",
+    "30-4 : toiture inclinée, pierres, tenues et geste rétablis, mais architecture et cadrage restent approximatifs après recadrage isotrope du candidat trop large.",
+    "Autres visages lointains, anatomie fine, logos et lettrages non certifiés."
+  ],
+  "fichiers_apres": [
+    {
+      "planche": 23,
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1777087,
+      "sha256": "3e08e32719ccce89b9877364ad0baa5d4433dbbc8262dbdd763d71ef78ce1c47"
+    },
+    {
+      "planche": 24,
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2410783,
+      "sha256": "3257444ec8c99dab97b8068161b141b5c2c9f1db1a52d5f4b98b12d91a819ee9"
+    },
+    {
+      "planche": 25,
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2357283,
+      "sha256": "f04ef68a33e42e3f9144cf13ef8e25ff9c7d08d7190177d91b0a3dd1a827688f"
+    },
+    {
+      "planche": 26,
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1779732,
+      "sha256": "1adf6d06fe46ff57880761bc35442d5797c102e5c9a6ae0643d26be806219648"
+    },
+    {
+      "planche": 27,
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "dimensions": [
+        864,
+        1222
+      ],
+      "octets": 2116007,
+      "sha256": "3e75d69306fb489dd21afaa22bb352a0f62cbacba1ee7950491744abe26cc6a3"
+    },
+    {
+      "planche": 28,
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2508992,
+      "sha256": "d95ffbfea17455568db3d89b5d4584eeaf2707f734ddaf3e274b275fab50ea50"
+    },
+    {
+      "planche": 29,
+      "fichier": "Planches-dessin/29-la-passe-de-la-victoire-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 2132567,
+      "sha256": "66b20514ca0d1c1eb05d5a773630a53a2357b4f02ec29b8c0e63aa28851bc8a4"
+    },
+    {
+      "planche": 30,
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "dimensions": [
+        864,
+        1232
+      ],
+      "octets": 1655137,
+      "sha256": "941dac306de8a8ff85eb10c16a41f315942b93c8381da4faa0434d9340c9f342"
+    }
+  ]
+}
