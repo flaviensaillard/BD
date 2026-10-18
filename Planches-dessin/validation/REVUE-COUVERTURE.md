@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 53 |
-| Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 99 |
+| Premières reprises intégrées, encore à relire | 57 |
+| Corrections seulement partielles, à poursuivre | 2 |
+| Autres vignettes restant à contrôler individuellement | 94 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 54 vignettes ayant reçu une intervention ne sont pas 54 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 59 vignettes ayant reçu une intervention ne sont pas 59 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -184,6 +184,24 @@ Comparatif : `revue-couverture/lot-k/10-AVANT-APRES.jpg` ; cinq masques. Les por
 
 **Réserves de relecture :** continuité de mobilier/trophées entre 10/1 et 10/2 (quatre coupes visibles dans la première, davantage dans la seconde, écart déjà présent dans les sources), regard de Léon vers son père plutôt que les trophées en 10/1, direction peu explicite du pouce en 10/4, petits raccords de col, différence d'encrage des corps/décors et visages. Ne pas convertir la réussite technique en certification des ressemblances. Les vêtements civils/pyjama sont requis ici par le scénario : ils ne sont pas remplacés par la tenue de rugby de la couverture. Aucun texte ni bulle ajoutés.
 
+## Douzième livraison : les cinq vignettes de la planche 11
+
+Quatre premières reprises et **une correction explicitement partielle en 11/1**. Les anciennes réparations de cette page restent historiques ; la couverture est seule autorité.
+
+**11/1 :** Trois portraits d'éducateurs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux à barbe rousse. Vingt têtes d'enfants repérées dans le dessin d'origine et conservées, sans déplacement du groupe. Correction PARTIELLE : les identités et tenues des enfants de cette vue collective restent à reprendre individuellement, ainsi que les projecteurs peu lumineux.
+
+**11/2 :** Portrait de Kilian repris avec cheveux/barbe roux, traits rapprochés de la couverture et expression d'explication. Candidat complet recadré et étiré exclu : tête recalée séparément. Six enfants, tableau/diagrammes, mains et décor d'origine conservés hors masque. Textes pédagogiques du tableau réservés au lettrage final.
+
+**11/3 :** Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement.
+
+**11/4 :** Flavien, Léon et Nolann repris localement : légère pilosité brune, pics châtains au lieu de la mèche blonde, courte frange brune au lieu de la coupe rasée. Teint de Nolann rapproché du modèle. Gestes, tableau à schémas, corps et autres enfants hors masques conservés. Trois mots du tableau non ajoutés avant le lettrage ; l'orientation du pointage reste à relire.
+
+**11/5 :** Julien gris à bouc/moustache repris sans déplacer le sifflet jaune. Milo retrouve frange châtaine et maillot rayé rouge/bleu à manches courtes blanches, à la place du tee-shirt marine. Écusson RCM de couverture intégré. Expression joyeuse de saut conservée ; bras nus, jambes, flaque, quatre jeunes de fond et stade d'origine hors masques préservés.
+
+Preuves : `revue-couverture/lot-l/11-AVANT-APRES.jpg`, cinq masques et `11-1-COMPTAGE.jpg`. Les vingt repères de comptage sont des observations manuelles de têtes visibles, pas une reconnaissance automatique ni une preuve d'identité. Les acteurs et cadrages de 11/1, 11/2, 11/4 et 11/5 sont conservés hors masques ; 11/3 est une reprise de toute la case et demande donc une relecture visuelle de la composition, non une simple assertion de pixels. Le premier placement des écussons laissait apparaître les anciens : corrigé, retrait local des anciens écussons avant placement des RCM.
+
+**Réserves :** terminer les identités/tenues du groupe de vingt en 11/1 (notamment repérage de Nolann, absence de Léon clairement reconnaissable), éclairage des projecteurs, cohérence transversale des maillots/encrages et teintes de Nolann. Les manches longues blanches d'Ayden en 11/3 sont héritées de l'entraînement pluvieux et restent à confronter à la tenue canonique. Les schémas des tableaux sont préservés ; les trois intitulés et dialogues attendent la phase finale de lettrage, pas un remplissage maintenant. Pas de validation graphique définitive.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -192,7 +210,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **99 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **94 autres vignettes**, terminer **11/1 et 14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 

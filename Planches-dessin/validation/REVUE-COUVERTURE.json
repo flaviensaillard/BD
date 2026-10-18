@@ -1109,6 +1109,71 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-k/10-5-masque.png",
       "type": "reprise_graphique",
       "intervention": "Ayden à gauche et Léon à droite repris pendant leur marche : coupe courte châtain clair et expression explicative, pics châtains et sourcils froncés. Portrait spécifique d'Ayden à la place des cheveux trop blonds du premier essai. Vêtements civils, sacs, corps, cloche, bâtiment et élèves secondaires hors masques conservés."
+    },
+    {
+      "page": 11,
+      "vignette": "11-1",
+      "rectangle": [
+        56,
+        112,
+        2424,
+        1428
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-1-masque.png",
+      "type": "correction_partielle",
+      "intervention": "Trois portraits d'éducateurs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux à barbe rousse. Vingt têtes d'enfants repérées dans le dessin d'origine et conservées, sans déplacement du groupe. Correction PARTIELLE : les identités et tenues des enfants de cette vue collective restent à reprendre individuellement, ainsi que les projecteurs peu lumineux."
+    },
+    {
+      "page": 11,
+      "vignette": "11-2",
+      "rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Portrait de Kilian repris avec cheveux/barbe roux, traits rapprochés de la couverture et expression d'explication. Candidat complet recadré et étiré exclu : tête recalée séparément. Six enfants, tableau/diagrammes, mains et décor d'origine conservés hors masque. Textes pédagogiques du tableau réservés au lettrage final."
+    },
+    {
+      "page": 11,
+      "vignette": "11-3",
+      "rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement."
+    },
+    {
+      "page": 11,
+      "vignette": "11-4",
+      "rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Flavien, Léon et Nolann repris localement : légère pilosité brune, pics châtains au lieu de la mèche blonde, courte frange brune au lieu de la coupe rasée. Teint de Nolann rapproché du modèle. Gestes, tableau à schémas, corps et autres enfants hors masques conservés. Trois mots du tableau non ajoutés avant le lettrage ; l'orientation du pointage reste à relire."
+    },
+    {
+      "page": 11,
+      "vignette": "11-5",
+      "rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Julien gris à bouc/moustache repris sans déplacer le sifflet jaune. Milo retrouve frange châtaine et maillot rayé rouge/bleu à manches courtes blanches, à la place du tee-shirt marine. Écusson RCM de couverture intégré. Expression joyeuse de saut conservée ; bras nus, jambes, flaque, quatre jeunes de fond et stade d'origine hors masques préservés."
     }
   ],
   "vignettes": [
@@ -2078,12 +2143,13 @@
         1434
       ],
       "scenario": "- **Vignette 1 (Plan large d'ambiance)** :\n  - *Visuel* : Fin octobre en Savoie. Des rideaux de pluie tombent sous les projecteurs allumés du stade de La Motte-Servolex. Les 20 joueurs U8 en tenue du RCM sont abrités sous l'auvent de la tribune face à **Flavien**, **Julien** et **Kilian**.\n  - *Encadré narratif* : « FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVITE À L'ENTRAÎNEMENT. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "correction_partielle_reste_a_reprendre",
+      "validation_definitive": false,
+      "intervention": "Trois portraits d'éducateurs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux à barbe rousse. Vingt têtes d'enfants repérées dans le dessin d'origine et conservées, sans déplacement du groupe. Correction PARTIELLE : les identités et tenues des enfants de cette vue collective restent à reprendre individuellement, ainsi que les projecteurs peu lumineux."
     },
     {
       "page": 11,
@@ -2095,12 +2161,13 @@
         2418
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : **Kilian** tient un tableau blanc où sont écrits en gros trois mots : **1. PASSES — 2. DÉFENSE EN LIGNE — 3. SOUTIEN OFFENSIF**.\n  - *Bulle (Kilian)* : « Écoutez-moi tous les vingt ! Samedi dernier, on a vu de belles choses, mais on a aussi compris pourquoi une équipe comme Montmélian nous a battus. »\n  - *Bulle (Julien)* : « Qui peut me dire ce qui nous a manqué quand ça devenait dur ? »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portrait de Kilian repris avec cheveux/barbe roux, traits rapprochés de la couverture et expression d'explication. Candidat complet recadré et étiré exclu : tête recalée séparément. Six enfants, tableau/diagrammes, mains et décor d'origine conservés hors masque. Textes pédagogiques du tableau réservés au lettrage final."
     },
     {
       "page": 11,
@@ -2112,12 +2179,13 @@
         2418
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : Dans le groupe des enfants, **Lyssandro** et **Ayden** lèvent la main.\n  - *Bulle (Lyssandro)* : « Quand ils couraient vers nous, on n'était pas alignés ! Y en avait un devant et les autres derrière ! »\n  - *Bulle (Ayden)* : « Et quand l'un de nous avait le ballon, il essayait de passer tout seul au lieu de faire la passe aux copains ! »\n  - *Bulle (Nolann, levant le doigt)* : « Et on a fait tomber le ballon vers l'avant plein de fois ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement."
     },
     {
       "page": 11,
@@ -2129,12 +2197,13 @@
         3402
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Flavien** pointe les trois mots sur le tableau en regardant Léon et ses camarades.\n  - *Bulle (Flavien)* : « Bravo les garçons, vous avez tout compris ! En U8, un joueur tout seul ne gagnera JAMAIS contre cinq adversaires organisés. »\n  - *Bulle (Flavien)* : « Pour progresser, on va travailler nos trois armes secrètes : des **passes** propres en arrière, une **défense en ligne** qui monte ensemble sans hors-jeu, et le **soutien offensif** toujours derrière le copain ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Flavien, Léon et Nolann repris localement : légère pilosité brune, pics châtains au lieu de la mèche blonde, courte frange brune au lieu de la coupe rasée. Teint de Nolann rapproché du modèle. Gestes, tableau à schémas, corps et autres enfants hors masques conservés. Trois mots du tableau non ajoutés avant le lettrage ; l'orientation du pointage reste à relire."
     },
     {
       "page": 11,
@@ -2146,12 +2215,13 @@
         3402
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Julien** souffle dans son sifflet jaune en montrant la pelouse mouillée.\n  - *Bulle (Julien)* : « Et sous la pluie, le ballon glisse ! C'est le meilleur moment pour apprendre à s'appliquer ! Allez, tout le monde sur le pré ! »\n  - *Bulle (Milo, sautant dans une flaque)* : « Ouais ! Du rugby sous la pluie ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Julien gris à bouc/moustache repris sans déplacer le sifflet jaune. Milo retrouve frange châtaine et maillot rayé rouge/bleu à manches courtes blanches, à la place du tee-shirt marine. Écusson RCM de couverture intégré. Expression joyeuse de saut conservée ; bras nus, jambes, flaque, quatre jeunes de fond et stade d'origine hors masques préservés."
     },
     {
       "page": 12,
@@ -3936,12 +4006,12 @@
     {
       "page": 11,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
-      "sha256": "fc156c02136f7bd86cdc5dfa91a0b4b725d367f5c4a4784fbeb58b4f1aadb875",
+      "sha256": "d51d94670397fe650f3afb2e66da256f9806d012b6a79da934e1557e666be92e",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 10383965
+      "octets": 10384006
     },
     {
       "page": 12,
@@ -4162,15 +4232,19 @@
     {
       "vignette": "10-2/3/4/5",
       "motif": "Candidats complets trop larges avec cadrages/corps/décors déplacés : non intégrés. Portraits recalés séparément. Ayden repris trois fois localement pour éviter cheveux blonds et frange longue. Premier montage avec traces des anciennes têtes en 10/1 et doublons en 10/5 rejeté ; positions et masques corrigés, effacement limité aux anciennes pointes de cheveux avant montage final."
+    },
+    {
+      "vignette": "11-2",
+      "motif": "Candidat complet trop large et tête allongée après mise à taille : seul le portrait roux recalé est retenu, tableau et enfants non importés."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 53,
-    "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 99,
+    "vignettes_corrigees_premiere_passe": 57,
+    "vignettes_correction_partielle": 2,
+    "vignettes_a_controler_individuellement": 94,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -4382,6 +4456,17 @@
         "10-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-k/"
+    },
+    {
+      "base": "dd51a92",
+      "vignettes": [
+        "11-1",
+        "11-2",
+        "11-3",
+        "11-4",
+        "11-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-l/"
     }
   ]
 }
