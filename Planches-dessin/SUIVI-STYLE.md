@@ -213,3 +213,15 @@ Base `21e6081` ; quatre pages modifiées : **23, 24, 27, 30**. Les autres pages 
 - **30/2 :** contrôle visuel annoté : 14 enfants derrière + 5 devant, 3 adultes dans la source comme dans la version actuelle. Aucune modification de la case et aucune suppression injustifiée. Ce comptage ne valide pas les identités.
 
 Trois générations utilisées par masque ou dans la seule case concernée. Même témoin V2, extraits sans visage. Dimensions/grille conservées, transformations uniformes. Audit actuel : `validation/AUDIT3-23-30.md` ; preuves et inventaire : `AUDIT3-23-30.json`, `AUDIT3-23-30-AVANT-APRES.jpg`, `AUDIT3-30-2-COMPTAGE.jpg`. Vérificateur actuel : `outils/retouche/verifier_audit3_23_30.py` ; précédents audits contrôlés historiquement. **Pas de validation globale ; bas de 24/5, détails protégés et réserves de ressemblance/finitions restent ouverts.**
+
+## Quatrième passe 23–30 — deux décors de 24, sans changer les personnages
+
+Base `0532a10`. **Seule la page 24 est modifiée** ; 00–23 et 25–30 restent identiques octet pour octet.
+
+- **24/5 :** herbe basse reprise avec les aplats d'une nouvelle proposition dessinée. Chemin, supports, père/fils, maison et fond haut protégés ; pas de reprise de l'essai pixellisé rejeté précédemment. La géométrie du nouveau chemin et les supports du candidat sont exclus de l'échantillonnage.
+- **24/2 :** feuillage haut réencré par masque, avec garçon, cheveux/visage/tenue, personne jaune recadrée, piliers, grille, école et sol conservés.
+- **28/6 contrôlée sans retouche :** les manches rouges du troisième garçon figurent bien dans la source. Pas de correction arbitraire en blanc et pas de modification de la page.
+
+Deux générations utilisées par masques, même témoin V2, échelle uniforme. Rapport courant : `validation/AUDIT4-23-30.md`, inventaire `AUDIT4-23-30.json`. Comparatif : `AUDIT4-23-30-AVANT-APRES.jpg` ; détail vérifié : `AUDIT4-28-6-MANCHES.jpg`. Vérificateur : `outils/retouche/verifier_audit4_23_30.py` ; chaîne des audits historiques et inventaire du lot actualisés.
+
+**Restent ouverts : architecture/proportions de 30/4, finitions des régions protégées, identités/anatomies fines, petits figurants et marquages. La reprise des deux décors n'est pas une validation globale de la BD.**

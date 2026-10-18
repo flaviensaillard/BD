@@ -5,6 +5,7 @@ from pathlib import Path
 import hashlib
 import json
 import subprocess
+import sys
 from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -18,11 +19,17 @@ def previous(ref, path):
 
 def main():
     plan = json.loads((ROOT / 'Planches-dessin/validation/AUDIT3-23-30.json').read_text())
+    fourth = ROOT / 'Planches-dessin/validation/AUDIT4-23-30.json'
+    historical = json.loads(fourth.read_text())['base'] if fourth.exists() else None
+    def delivered(path):
+        return previous(historical, path) if historical else Image.open(path).convert('RGB')
+    if historical:
+        print(f'Vérification historique troisième passe : {historical}')
     assert {c['page'] for c in plan['corrections']} == {23, 24, 27, 30}
     for n in range(31):
         path = next((ROOT / 'Planches-dessin').glob(f'{n:02}-*.png'))
         old = previous(plan['base'], path)
-        new = Image.open(path).convert('RGB')
+        new = delivered(path)
         assert old.size == new.size, f'Dimensions : {n}'
         changes = [c for c in plan['corrections'] if c['page'] == n]
         diff = ImageChops.difference(old, new)
@@ -45,10 +52,11 @@ def main():
         if not changes:
             data = subprocess.check_output(
                 ['git', 'show', f'{plan["base"]}:{path.relative_to(ROOT).as_posix()}'], cwd=ROOT)
-            assert data == path.read_bytes(), f'Fichier non concerné réécrit : {n}'
+            actual = subprocess.check_output(['git', 'show', f'{historical}:{path.relative_to(ROOT).as_posix()}'], cwd=ROOT) if historical else path.read_bytes()
+            assert data == actual, f'Fichier non concerné réécrit : {n}'
         print(f'OK {n:02} : dimensions, périmètre, pixels protégés')
     for e in plan['fichiers_apres']:
-        data = (ROOT / e['fichier']).read_bytes()
+        data = subprocess.check_output(['git', 'show', f"{historical}:{e['fichier']}"], cwd=ROOT) if historical else (ROOT / e['fichier']).read_bytes()
         assert len(data) == e['octets']
         assert hashlib.sha256(data).hexdigest() == e['sha256']
         with Image.open(BytesIO(data)) as im:
@@ -63,14 +71,17 @@ def main():
     # Foregrounds and field below the scenery edits are exact, not regenerated.
     for n, box in [(23, (27, 770, 837, 893)), (24, (439, 1036, 837, 1159))]:
         path = next((ROOT / 'Planches-dessin').glob(f'{n}-*.png'))
-        assert ImageChops.difference(previous(plan['base'], path).crop(box), Image.open(path).convert('RGB').crop(box)).getbbox() is None
+        assert ImageChops.difference(previous(plan['base'], path).crop(box), delivered(path).crop(box)).getbbox() is None
     count = plan['comptage_30_2']
     assert count['enfants_arriere'] == len(count['reperes']['arriere']) == 14
     assert count['enfants_premier_plan'] == len(count['reperes']['premier_plan']) == 5
     assert count['adultes'] == len(count['reperes']['adultes']) == 3
     print('OK : empreintes, géométrie uniforme, champs protégés et cohérence du comptage manuel')
-    print('Réserves actuelles : ' + '; '.join(plan['a_reprendre']))
+    print(('Réserves historiques de cette passe : ' if historical else 'Réserves actuelles : ') + '; '.join(plan['a_reprendre']))
     print('Ces tests ne reconnaissent pas les personnes et ne certifient ni anatomie ni style.')
+    if historical:
+        sys.stdout.flush()
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_audit4_23_30.py')], check=True)
 
 
 if __name__ == '__main__':
