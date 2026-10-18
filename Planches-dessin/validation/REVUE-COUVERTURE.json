@@ -1174,6 +1174,120 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-5-masque.png",
       "type": "reprise_graphique",
       "intervention": "Julien gris à bouc/moustache repris sans déplacer le sifflet jaune. Milo retrouve frange châtaine et maillot rayé rouge/bleu à manches courtes blanches, à la place du tee-shirt marine. Écusson RCM de couverture intégré. Expression joyeuse de saut conservée ; bras nus, jambes, flaque, quatre jeunes de fond et stade d'origine hors masques préservés."
+    },
+    {
+      "page": 12,
+      "vignette": "12-1",
+      "rectangle": [
+        76,
+        76,
+        2404,
+        1065
+      ],
+      "source_rectangle": [
+        76,
+        76,
+        2404,
+        1065
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique."
+    },
+    {
+      "page": 12,
+      "vignette": "12-2",
+      "rectangle": [
+        76,
+        1105,
+        1220,
+        1734
+      ],
+      "source_rectangle": [
+        76,
+        1106,
+        1219,
+        1733
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Cinq visages des porteurs de chasubles rouges repris dans le même ordre, sans importer les sourires du premier essai. Franges/carnation identifiées ; dix enfants conservés (cinq rouges et cinq jaunes de dos). Manches courtes blanches sous chasubles corrigées localement, sans retirer les chasubles. Alignement, contacts et corps d'origine hors masques maintenus ; le touché à deux mains simultané reste peu explicite dans cette composition."
+    },
+    {
+      "page": 12,
+      "vignette": "12-3",
+      "rectangle": [
+        1260,
+        1105,
+        2404,
+        1734
+      ],
+      "source_rectangle": [
+        1261,
+        1106,
+        2404,
+        1733
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Lyssandro à gauche, Ayden porteur au centre, Milo à droite et Kilian roux barbu repris. Le candidat donnait à Ayden une longue coupe brune : remplacée par un portrait local spécifique à courte frange châtain clair. Manches courtes blanches de Lyssandro/Milo, sous-maillots noirs et gestes préservés. Ballon et trois courses en soutien hors masques conservés, profondeur d'un mètre non certifiée par le dessin."
+    },
+    {
+      "page": 12,
+      "vignette": "12-4",
+      "rectangle": [
+        76,
+        1774,
+        1220,
+        2403
+      ],
+      "source_rectangle": [
+        76,
+        1775,
+        1219,
+        2402
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Kilian, Ayden passeur et Lyssandro receveur repris avec leurs traits/coiffures ; manches du receveur remises en blanc. Joie de la passe réussie conservée. Ballon en vol, mains de passe/réception et contact du coach, trois enfants derrière et spectateurs/parapluies hors masques inchangés."
+    },
+    {
+      "page": 12,
+      "vignette": "12-5",
+      "rectangle": [
+        1260,
+        1774,
+        2404,
+        2403
+      ],
+      "source_rectangle": [
+        1261,
+        1775,
+        2404,
+        2402
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés."
+    },
+    {
+      "page": 12,
+      "vignette": "12-6",
+      "rectangle": [
+        76,
+        2443,
+        2404,
+        3432
+      ],
+      "source_rectangle": [
+        76,
+        2443,
+        2404,
+        3432
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-6-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Léon à gauche agacé, Lyssandro au centre lui répondant, Milo baissant les yeux et Flavien intervenant repris sur les modèles. Pics de Léon ramenés du blond au châtain ; manches rouges de Lyssandro remplacées par du blanc sans peindre le bras nu. Corps, mains sur les hanches, geste à la poitrine et main levée du père, fond hors masques préservés. Candidat complet rejeté car il recolorait à tort en rouge les manches de Léon."
     }
   ],
   "vignettes": [
@@ -2233,12 +2347,13 @@
         1071
       ],
       "scenario": "- **Vignette 1 (Atelier 1 — La Défense en Ligne avec Julien)** :\n  - *Visuel* : **Léon**, **Lyssandro**, **Ayden**, **Nolann** et **Milo** sont alignés sur la largeur du terrain de 20 mètres. **Julien** court à reculons devant eux en levant des cônes de couleur.\n  - *Bulle (Julien)* : « On monte ensemble ! Regardez à votre gauche et à votre droite ! Si Léon accélère tout seul, vous criez quoi ? »\n  - *Bulle (Ayden & Lyssandro, en chœur)* : « ATTENDS LA LIGNE ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique."
     },
     {
       "page": 12,
@@ -2250,12 +2365,13 @@
         1740
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Les cinq garçons avancent au même rythme et touchent à deux mains les joueurs d'en face sans laisser un seul trou.\n  - *Bulle (Nolann)* : « Eh ! Vous avez vu ? Quand on reste collés sur la même ligne, ils savent plus du tout par où passer ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq visages des porteurs de chasubles rouges repris dans le même ordre, sans importer les sourires du premier essai. Franges/carnation identifiées ; dix enfants conservés (cinq rouges et cinq jaunes de dos). Manches courtes blanches sous chasubles corrigées localement, sans retirer les chasubles. Alignement, contacts et corps d'origine hors masques maintenus ; le touché à deux mains simultané reste peu explicite dans cette composition."
     },
     {
       "page": 12,
@@ -2267,12 +2383,13 @@
         1740
       ],
       "scenario": "- **Vignette 3 (Atelier 2 — Le Soutien Offensif avec Kilian)** :\n  - *Visuel* : **Kilian** dirige une vague d'attaque à trois : **Ayden** porte le ballon, tandis que **Lyssandro** et **Milo** courent à un mètre derrière lui, sur ses hanches gauche et droite.\n  - *Bulle (Kilian)* : « C'est ça le **soutien offensif** ! Vous êtes les gardes du corps du porteur de balle ! Toujours derrière lui pour ne pas être hors-jeu ou faire d'en-avant, mais prêts à crier \"JE SUIS LÀ !\" »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Lyssandro à gauche, Ayden porteur au centre, Milo à droite et Kilian roux barbu repris. Le candidat donnait à Ayden une longue coupe brune : remplacée par un portrait local spécifique à courte frange châtain clair. Manches courtes blanches de Lyssandro/Milo, sous-maillots noirs et gestes préservés. Ballon et trois courses en soutien hors masques conservés, profondeur d'un mètre non certifiée par le dessin."
     },
     {
       "page": 12,
@@ -2284,12 +2401,13 @@
         2409
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Dès qu'Ayden est touché à deux mains par Kilian, il se retourne et donne le ballon à Lyssandro lancé à pleine vitesse.\n  - *Bulle (Ayden)* : « Tiens Lyssandro ! »\n  - *Bulle (Lyssandro)* : « Super passe Ayden, j'ai même pas eu besoin de ralentir ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Kilian, Ayden passeur et Lyssandro receveur repris avec leurs traits/coiffures ; manches du receveur remises en blanc. Joie de la passe réussie conservée. Ballon en vol, mains de passe/réception et contact du coach, trois enfants derrière et spectateurs/parapluies hors masques inchangés."
     },
     {
       "page": 12,
@@ -2301,12 +2419,13 @@
         2409
       ],
       "scenario": "- **Vignette 5 (Atelier 3 — Les Passes sous la pluie avec Flavien)** :\n  - *Visuel* : Le ballon est trempé et boueux. **Nolann** fait une passe rapide à **Milo**, mais le ballon glisse entre les doigts mouillés de Milo et tombe au sol.\n  - *Onomatopée* : **« SPLATCH ! »**\n  - *Bulle (Milo, gêné)* : « Oups… Il glisse comme un savon ce ballon ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés."
     },
     {
       "page": 12,
@@ -2318,12 +2437,13 @@
         3438
       ],
       "scenario": "- **Vignette 6** :\n  - *Visuel* : Alors que **Flavien** s'apprête à conseiller Milo, **Léon** met les mains sur les hanches et soupire bruyamment.\n  - *Bulle (Léon, agacé)* : « Pfff… Sérieux Milo, si tu fais encore tomber le ballon comme ça au prochain tournoi, on va encore perdre ! »\n  - *Bulle (Lyssandro, fronçant les sourcils)* : « Oh ça va Léon, arrête de râler ! Toi aussi t'en as fait tomber un tout à l'heure ! »\n  - *Bulle (Flavien, intervenant)* : « Lyssandro a raison, Léon. À l'entraînement, on est là pour essayer et se tromper. Encourage ton copain au lieu de soupirer. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon à gauche agacé, Lyssandro au centre lui répondant, Milo baissant les yeux et Flavien intervenant repris sur les modèles. Pics de Léon ramenés du blond au châtain ; manches rouges de Lyssandro remplacées par du blanc sans peindre le bras nu. Corps, mains sur les hanches, geste à la poitrine et main levée du père, fond hors masques préservés. Candidat complet rejeté car il recolorait à tort en rouge les manches de Léon."
     },
     {
       "page": 13,
@@ -4016,12 +4136,12 @@
     {
       "page": 12,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
-      "sha256": "0fdb34ea6f7f9498627183b3f6e1a824f4a64979852d67fa618c1db556f33c51",
+      "sha256": "3029a6905695e3d3b24e010f006fcde2a578400d7fab0074ff0c6119c4c12c0e",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 9759548
+      "octets": 9784154
     },
     {
       "page": 13,
@@ -4240,15 +4360,27 @@
     {
       "vignette": "11-1",
       "motif": "Reprise complète du groupe peu efficace : identités principales non corrigées et chevelure de Lyssandro modifiée à tort, non intégrée. Quatre portraits locaux retenus. Recoloration initiale touchant des pixels du visage de Lyssandro écartée ; visage explicitement protégé dans la sélection finale. Vestiges d'ancienne coiffure de Milo retirés ; Léon recalé après contrôle agrandi."
+    },
+    {
+      "vignette": "12-1/2",
+      "motif": "Premiers essais avec sourires de couverture : têtes rejetées pour nouvelles versions concentrées. Corps et manches seuls peuvent fournir des zones de vêtement retenues."
+    },
+    {
+      "vignette": "12-3",
+      "motif": "Ayden avec longue coupe brune dans le candidat complet : tête rejetée, portrait local spécifique repris au châtain clair court."
+    },
+    {
+      "vignette": "12-6",
+      "motif": "Candidat complet recolorant en rouge les manches blanches de Léon : corps rejeté, portraits seuls et manches blanches de Lyssandro retenus. Recoloration des cheveux limitée pour préserver le front."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 58,
+    "vignettes_corrigees_premiere_passe": 64,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 94,
+    "vignettes_a_controler_individuellement": 88,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -4481,6 +4613,18 @@
         "11-1"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-m/"
+    },
+    {
+      "base": "4c81d74",
+      "vignettes": [
+        "12-1",
+        "12-2",
+        "12-3",
+        "12-4",
+        "12-5",
+        "12-6"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-n/"
     }
   ]
 }

@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 58 |
+| Premières reprises intégrées, encore à relire | 64 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 94 |
+| Autres vignettes restant à contrôler individuellement | 88 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 59 vignettes ayant reçu une intervention ne sont pas 59 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 65 vignettes ayant reçu une intervention ne sont pas 65 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -216,6 +216,26 @@ Preuves : comparatif `11-1-AVANT-APRES.jpg`, masque de cette passe et masque cum
 
 **Réserves globales :** uniformité du niveau de détail entre portraits et foule, coupes/carnations sur les autres pages, plis et petits logos des tenues. Une première reprise n'est pas une validation définitive. Les éléments graphiques déjà présents sur les maillots sont conservés ; aucun dialogue, titre de tableau ou bulle ajouté.
 
+## Quatorzième livraison : les six vignettes de la planche 12
+
+Six premières reprises après comparaison du scénario, des recadrages réalistes et des références de couverture. La livraison historique de cette planche n'est pas une validation contre la couverture. Aucun candidat complet intégré : portraits et zones de vêtement seulement, avec conservation des corps/décors hors masques.
+
+**12/1 :** Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique.
+
+**12/2 :** Cinq visages des porteurs de chasubles rouges repris dans le même ordre, sans importer les sourires du premier essai. Franges/carnation identifiées ; dix enfants conservés (cinq rouges et cinq jaunes de dos). Manches courtes blanches sous chasubles corrigées localement, sans retirer les chasubles. Alignement, contacts et corps d'origine hors masques maintenus ; le touché à deux mains simultané reste peu explicite dans cette composition.
+
+**12/3 :** Lyssandro à gauche, Ayden porteur au centre, Milo à droite et Kilian roux barbu repris. Le candidat donnait à Ayden une longue coupe brune : remplacée par un portrait local spécifique à courte frange châtain clair. Manches courtes blanches de Lyssandro/Milo, sous-maillots noirs et gestes préservés. Ballon et trois courses en soutien hors masques conservés, profondeur d'un mètre non certifiée par le dessin.
+
+**12/4 :** Kilian, Ayden passeur et Lyssandro receveur repris avec leurs traits/coiffures ; manches du receveur remises en blanc. Joie de la passe réussie conservée. Ballon en vol, mains de passe/réception et contact du coach, trois enfants derrière et spectateurs/parapluies hors masques inchangés.
+
+**12/5 :** Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés.
+
+**12/6 :** Léon à gauche agacé, Lyssandro au centre lui répondant, Milo baissant les yeux et Flavien intervenant repris sur les modèles. Pics de Léon ramenés du blond au châtain ; manches rouges de Lyssandro remplacées par du blanc sans peindre le bras nu. Corps, mains sur les hanches, geste à la poitrine et main levée du père, fond hors masques préservés. Candidat complet rejeté car il recolorait à tort en rouge les manches de Léon.
+
+Comparatif : `revue-couverture/lot-n/12-AVANT-APRES.jpg` ; six masques à la résolution d'origine 2480 × 3508 pour la page, aux dimensions de chaque recadrage pour les masques. Les candidats ont été contrôlés avant intégration : sourires des premières scènes rejetés, tenue rouge inventée de Léon en 12/6 exclue, portrait spécifique d'Ayden en 12/3. Après montage, les derniers fragments rouges des sous-manches de Milo et des manches sous chasubles ont été corrigés ; front de Léon protégé lors du changement de couleur des cheveux.
+
+**Réserves globales :** les exercices ne sont pas certifiés tactiquement par la seule correction des visages : recul de Julien en 12/1, touchés simultanés à deux mains en 12/2 et distance d'un mètre derrière le porteur en 12/3 restent à relire. Plis/marquages des manches, cohérence des sous-maillots de pluie, carnation de Nolann et encrage des corps/décors restent soumis à la relecture transversale. La scène de passe réussie peut être joyeuse, tandis que l'agacement de Léon, la réaction de Lyssandro et la gêne de Milo sont conservés en 12/6. Aucun dialogue, bulle ni onomatopée ajouté.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -224,7 +244,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **94 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **88 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
