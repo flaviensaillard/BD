@@ -843,6 +843,101 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-6-masque.png",
       "type": "reprise_graphique",
       "intervention": "Portraits de Julien gris à bouc/moustache et Kilian roux à barbe rousse repris en conservant les gestes d’encouragement. Candidat complet rejeté pour poteaux ajoutés ; seuls les portraits servent. Cinq adversaires verts dont le marqueur, trois joueurs RCM à droite et décor hors masques préservés."
+    },
+    {
+      "page": 8,
+      "vignette": "08-1",
+      "rectangle": [
+        21,
+        40,
+        844,
+        497
+      ],
+      "source_rectangle": [
+        56,
+        112,
+        2424,
+        1428
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Ayden passeur/Léon receveur reprises sur la couverture : frange courte châtain clair et pics caractéristiques, visages adaptés à la passe. Ballon, mains, corps, deux adversaires et terrain hors masques conservés ; pylône ajouté dans le candidat exclu."
+    },
+    {
+      "page": 8,
+      "vignette": "08-2",
+      "rectangle": [
+        21,
+        511,
+        425,
+        839
+      ],
+      "source_rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Lyssandro et Nolann en soutien repris ; manche blanche de Lyssandro, avant-bras nus conservés. Nolann retrouve courte frange brun foncé et teint mat, mains/avant-bras/jambes accordés localement. Premier essai portrait rejeté ; cadrage paysage, ballon, gestes et cinq adversaires de fond préservés hors zones de correction."
+    },
+    {
+      "page": 8,
+      "vignette": "08-3",
+      "rectangle": [
+        439,
+        511,
+        844,
+        839
+      ],
+      "source_rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Vignette entière reprise pour rapprocher le rendu du modèle de couverture et retirer la trame de points. Léon reste crispé, regard détourné, ballon serré contre lui ; cinq adversaires et composition conservés, sans copie du sourire de couverture."
+    },
+    {
+      "page": 8,
+      "vignette": "08-4",
+      "rectangle": [
+        21,
+        854,
+        425,
+        1182
+      ],
+      "source_rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés."
+    },
+    {
+      "page": 8,
+      "vignette": "08-5",
+      "rectangle": [
+        439,
+        854,
+        844,
+        1182
+      ],
+      "source_rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Ayden/Nolann/Milo reprises avec déception préservée ; Lyssandro et Léon proches du modèle conservés. Manche visible de Lyssandro corrigée en blanc, bras nu conservé ; trame atténuée par filtre localement documenté sans déplacement des figures. Groupe adverse célébrant conservé. Aucun sourire de couverture importé."
     }
   ],
   "vignettes": [
@@ -1560,12 +1655,13 @@
         500
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Il reste trente secondes à jouer. Le RCM est mené d'un essai. **Ayden** récupère un bon ballon et le transmet proprement à **Léon** au centre du terrain de 30m x 20m.\n  - *Bulle (Ayden)* : « Vas-y Léon ! On monte avec toi ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Ayden passeur/Léon receveur reprises sur la couverture : frange courte châtain clair et pics caractéristiques, visages adaptés à la passe. Ballon, mains, corps, deux adversaires et terrain hors masques conservés ; pylône ajouté dans le candidat exclu."
     },
     {
       "page": 8,
@@ -1577,12 +1673,13 @@
         842
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : **Lyssandro** à gauche et **Nolann** à droite sprintent en **soutien offensif**, complètement démarqués, les mains levées pour recevoir la passe.\n  - *Bulle (Lyssandro)* : « Léon ! Passe à gauche, on est deux contre un ! »\n  - *Bulle (Nolann)* : « Ici Léon ! Je suis tout seul sur l'aile ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Lyssandro et Nolann en soutien repris ; manche blanche de Lyssandro, avant-bras nus conservés. Nolann retrouve courte frange brun foncé et teint mat, mains/avant-bras/jambes accordés localement. Premier essai portrait rejeté ; cadrage paysage, ballon, gestes et cinq adversaires de fond préservés hors zones de correction."
     },
     {
       "page": 8,
@@ -1594,12 +1691,13 @@
         842
       ],
       "scenario": "- **Vignette 3 (Gros plan sur Léon)** :\n  - *Visuel* : Le visage crispé par l'orgueil et la frustration, Léon refuse de regarder ses coéquipiers et serre le ballon contre lui.\n  - *Bulle de pensée (Léon)* : *« Non ! C'est moi qui vais sauver l'équipe ! Je vais passer au milieu tout seul comme en U6 ! »*",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Vignette entière reprise pour rapprocher le rendu du modèle de couverture et retirer la trame de points. Léon reste crispé, regard détourné, ballon serré contre lui ; cinq adversaires et composition conservés, sans copie du sourire de couverture."
     },
     {
       "page": 8,
@@ -1611,12 +1709,13 @@
         1185
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Trois défenseurs de **Montmélian (Vert et Noir)** se referment sur Léon comme un étau et le touchent simultanément à deux mains à la taille ! Dans sa précipitation pour lâcher le ballon, Léon l'envoie directement par terre vers l'avant.\n  - *Onomatopée* : **« TCHAC ! FIIIIIIIT ! »**\n  - *Bulle (Arbitre)* : « Touché à deux mains… et en-avant ! C'est terminé, fin du match ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés."
     },
     {
       "page": 8,
@@ -1628,12 +1727,13 @@
         1185
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Les joueurs de Montmélian en Vert et Noir lèvent les bras au ciel. Autour de Léon, **Lyssandro**, **Ayden**, **Nolann** et **Milo** s'arrêtent, essoufflés et déçus.\n  - *Encadré narratif* : « PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVINCIBILITÉ VIENT DE VOLER EN ÉCLATS. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Ayden/Nolann/Milo reprises avec déception préservée ; Lyssandro et Léon proches du modèle conservés. Manche visible de Lyssandro corrigée en blanc, bras nu conservé ; trame atténuée par filtre localement documenté sans déplacement des figures. Groupe adverse célébrant conservé. Aucun sourire de couverture importé."
     },
     {
       "page": 9,
@@ -3626,12 +3726,12 @@
     {
       "page": 8,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
-      "sha256": "324ee06f588e5358d44ebdc2cced951bb9d8c6b8cdd78c86ddec448f57a64050",
+      "sha256": "d9f2d41811127c47d1e2042664414d1283985de400aa5f823bb0a5a964c7c282",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1788277
+      "octets": 1689172
     },
     {
       "page": 9,
@@ -3858,15 +3958,31 @@
     {
       "vignette": "27-5",
       "motif": "Première sortie : coupe de Nolann allongée ; seconde sortie : décor et marquages modifiés. Ne pas intégrer ces sorties complètes."
+    },
+    {
+      "vignette": "08-1",
+      "motif": "Pylône inventé : candidat complet non importé, têtes seulement."
+    },
+    {
+      "vignette": "08-2",
+      "motif": "Premier candidat portrait avec cadrage altéré, remplacé par une reprise paysage."
+    },
+    {
+      "vignette": "08-4",
+      "motif": "Premier visage trop grimaçant/vieilli remplacé ; tête seule intégrée."
+    },
+    {
+      "vignette": "08-5",
+      "motif": "Première reprise : Ayden trop blond, Nolann rasé, Milo souriant ; trois têtes reprises, manche de Lyssandro recolorée localement."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 39,
+    "vignettes_corrigees_premiere_passe": 44,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 113,
+    "vignettes_a_controler_individuellement": 108,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -4046,6 +4162,17 @@
         "07-6"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-h/"
+    },
+    {
+      "base": "77b16bb",
+      "vignettes": [
+        "08-1",
+        "08-2",
+        "08-3",
+        "08-4",
+        "08-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-i/"
     }
   ]
 }

@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 39 |
+| Premières reprises intégrées, encore à relire | 44 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 113 |
+| Autres vignettes restant à contrôler individuellement | 108 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 40 vignettes ayant reçu une intervention ne sont pas 40 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 45 vignettes ayant reçu une intervention ne sont pas 45 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -132,6 +132,24 @@ Comparatif et six masques : `revue-couverture/lot-h/07-AVANT-APRES.jpg`. Contrô
 
 Le vérificateur de l’ancienne réparation 07 s’applique désormais à l’état historique `d0cc063`, puis déclenche le contrôle cumulatif courant. Il ne doit pas bloquer les nouvelles corrections autorisées, ni présenter son ancienne réussite comme une certification des nouveaux portraits.
 
+## Neuvième livraison : les cinq vignettes de la planche 8
+
+Cinq cases comparées aux références nominatives de couverture, au scénario et aux sources réalistes, puis relues après intégration. Première reprise seulement, pas de validation définitive.
+
+**08/1 :** Têtes Ayden passeur/Léon receveur reprises sur la couverture : frange courte châtain clair et pics caractéristiques, visages adaptés à la passe. Ballon, mains, corps, deux adversaires et terrain hors masques conservés ; pylône ajouté dans le candidat exclu.
+
+**08/2 :** Lyssandro et Nolann en soutien repris ; manche blanche de Lyssandro, avant-bras nus conservés. Nolann retrouve courte frange brun foncé et teint mat, mains/avant-bras/jambes accordés localement. Premier essai portrait rejeté ; cadrage paysage, ballon, gestes et cinq adversaires de fond préservés hors zones de correction.
+
+**08/3 :** Vignette entière reprise pour rapprocher le rendu du modèle de couverture et retirer la trame de points. Léon reste crispé, regard détourné, ballon serré contre lui ; cinq adversaires et composition conservés, sans copie du sourire de couverture.
+
+**08/4 :** Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés.
+
+**08/5 :** Têtes Ayden/Nolann/Milo reprises avec déception préservée ; Lyssandro et Léon proches du modèle conservés. Manche visible de Lyssandro corrigée en blanc, bras nu conservé ; trame atténuée par filtre localement documenté sans déplacement des figures. Groupe adverse célébrant conservé. Aucun sourire de couverture importé.
+
+Comparatif : `revue-couverture/lot-i/08-AVANT-APRES.jpg` ; cinq masques documentent les zones modifiées. Pour 08/3 le masque couvre toute la vignette ; pour 08/5 il inclut l’atténuation de trame et n’est donc pas limité aux trois portraits. La conservation des acteurs et de leur composition a été relue visuellement, pas déduite de ces masques larges.
+
+**Réserves maintenues :** encrage des corps et décors encore variable entre les cases, petits marquages hérités, continuité de coupe et de carnation de Nolann notamment entre 08/2 et 08/5 ; à rapprocher lors de la relecture transversale. Aucun texte ni aucune bulle ajoutés. Les contrôles techniques ci-dessous ne certifient pas ces points graphiques.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -140,7 +158,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **113 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **108 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
