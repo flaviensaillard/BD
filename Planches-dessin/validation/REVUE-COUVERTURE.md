@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 28 |
+| Premières reprises intégrées, encore à relire | 33 |
 | Corrections seulement partielles, à poursuivre | 1 |
-| Autres vignettes restant à contrôler individuellement | 124 |
+| Autres vignettes restant à contrôler individuellement | 119 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 29 vignettes ayant reçu une intervention ne sont pas 29 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 34 vignettes ayant reçu une intervention ne sont pas 34 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -105,6 +105,18 @@ Chaque case a été comparée à son scénario, à sa source réaliste et aux re
 
 Preuves : `revue-couverture/lot-f/05-AVANT-APRES.jpg`, `AIMANTS-05.jpg` et cinq masques. Le contrôle indépendant des composantes colorées/sombres dans les zones de tableaux retrouve 20 disques complets dans chaque résultat (éléments de pièce/cadre touchant les limites de zone exclus). Il ne certifie ni les ressemblances ni le style. Montage relu à l’échelle des portraits et de la page ; tenues, raccords et encrage des corps/décors restent soumis à la relecture globale.
 
+## Septième livraison : les cinq vignettes de la planche 6
+
+Scénario, cinq recadrages réalistes, couverture et sorties intégrées examinés. Cinq premières reprises, pas de validation définitive de la page.
+
+- **06/1 :** Flavien et les quatre visages visibles repris ; pics châtains de Léon rétablis. Distribution gauche à droite : Ayden, Léon, Lyssandro, Nolann porteur du ballon et Milo de dos (chevelure arrière conservée). Carnation des membres visibles de Nolann rapprochée de son nouveau visage mat par sélection locale, sans éclaircir tout le dessin. Cinq garçons, gestes, ballon, plots, public et paysage automnal hors masques conservés.
+- **06/2 :** Nolann aplatissant, Ayden au touché à deux mains et Lyssandro repris. Le joueur touchant l’adversaire jaune/noir avait à tort les pics de Léon : Ayden retrouve la coupe courte vers l’avant. La frange pleine de Milo était meilleure dans l’original que dans le candidat : conservée, visage seul repris dessous. Ballon, gestes, quatre joueurs RCM visibles et adversaire jaune/noir préservés hors masques.
+- **06/3 :** Milo passeur et Léon receveur repris sur leurs modèles : frange châtaine pleine et pics distinctifs. Corps, mains, ballon, terrain et adversaire rouge/blanc hors masques inchangés.
+- **06/4 :** cinq têtes reprises, de gauche à droite **Lyssandro, Nolann, Léon, Milo, Ayden**. Courte frange de Nolann rétablie, pics de Léon, cheveux d’Ayden ramenés au châtain clair. Mains et jambes visibles de Nolann raccordées au visage mat ; base noire des manches et vêtements conservés. Ayden garde une expression réservée plutôt que le sourire de couverture.
+- **06/5 :** les cinq enfants étaient tous clairs dans la source réaliste comme dans le dessin, rendant Nolann non identifiable. Répartition rétablie : **Lyssandro/Milo debout, Ayden/Léon/Nolann accroupis**. Têtes de Kilian roux à barbe rousse et Julien gris à bouc/moustache reprises. Bras/mains et jambe découverte de Nolann accordés au teint du visage. Un agrandissement des membres a permis d’éviter de recolorer le pied clair du voisin, qui ne lui appartient pas. Pointage de Julien, corps, positions et cinq adversaires vert/noir (dernier partiellement en bord de cadre) conservés hors masques.
+
+Preuves : `revue-couverture/lot-g/06-AVANT-APRES.jpg` et cinq masques. Les sources réalistes sont un support de pose/composition, pas une autorité pour conserver une substitution ou une absence de ressemblance. Tenues, raccords de carnation et traitement des corps/décors restent à relire avec la série entière ; le maintien des pixels ne certifie pas leur conformité graphique.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -113,7 +125,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **124 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **119 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 

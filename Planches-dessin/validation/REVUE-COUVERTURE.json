@@ -634,6 +634,101 @@
       "masque": "Planches-dessin/validation/revue-couverture/lot-f/05-5-masque.png",
       "type": "reprise_graphique",
       "intervention": "Têtes Flavien/Julien/Kilian reprises ; tableau ramené de 21 à 20 aimants par retrait local d’un aimant rouge du groupe, l’aimant rouge isolé étant conservé. Main, tenues et autres aimants hors masques préservés. Nom LÉON/listes et dialogues non ajoutés avant la phase de lettrage."
+    },
+    {
+      "page": 6,
+      "vignette": "06-1",
+      "rectangle": [
+        18,
+        40,
+        847,
+        501
+      ],
+      "source_rectangle": [
+        56,
+        112,
+        2424,
+        1428
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-1-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Flavien et les quatre têtes visibles Ayden/Léon/Lyssandro/Nolann repris sur la couverture ; pics de Léon rétablis, Milo de dos conservé. Carnation des bras/mains/jambes de Nolann accordée localement au teint mat. Corps, ballon, plots, tenue et paysage automnal hors masque préservés."
+    },
+    {
+      "page": 6,
+      "vignette": "06-2",
+      "rectangle": [
+        18,
+        515,
+        425,
+        846
+      ],
+      "source_rectangle": [
+        56,
+        1464,
+        1222,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-2-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Nolann aplatissant et Ayden effectuant le touché à deux mains repris ; Ayden ne porte plus les pics de Léon. Lyssandro et visage de Milo rapprochés des modèles, frange pleine d’origine de Milo conservée. Ballon, touché, adversaire jaune/noir, membres et figurants hors masques préservés."
+    },
+    {
+      "page": 6,
+      "vignette": "06-3",
+      "rectangle": [
+        440,
+        515,
+        848,
+        846
+      ],
+      "source_rectangle": [
+        1258,
+        1464,
+        2424,
+        2412
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-3-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Têtes Milo passeur et Léon receveur reprises avec frange châtaine et pics caractéristiques. Gestes, trajectoire du ballon, adversaire rouge/blanc, vêtements et décor hors masques conservés."
+    },
+    {
+      "page": 6,
+      "vignette": "06-4",
+      "rectangle": [
+        18,
+        861,
+        425,
+        1192
+      ],
+      "source_rectangle": [
+        56,
+        2448,
+        1222,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-4-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Cinq têtes de gauche à droite Lyssandro/Nolann/Léon/Milo/Ayden reprises ; Nolann retrouve sa courte frange brune au lieu du crâne presque nu, Léon ses pics, Ayden une frange châtain clair non jaune. Mains et jambes visibles de Nolann accordées à son visage mat. Tenues/corps et fond hors masques conservés."
+    },
+    {
+      "page": 6,
+      "vignette": "06-5",
+      "rectangle": [
+        440,
+        861,
+        847,
+        1192
+      ],
+      "source_rectangle": [
+        1258,
+        2448,
+        2424,
+        3396
+      ],
+      "masque": "Planches-dessin/validation/revue-couverture/lot-g/06-5-masque.png",
+      "type": "reprise_graphique",
+      "intervention": "Kilian roux et Julien gris à bouc/moustache repris ; distribution des cinq garçons rétablie : Lyssandro/Milo debout, Ayden/Léon/Nolann accroupis. Nolann auparavant absent des ressemblances retrouve courte frange brune et teint mat, avec bras/mains et jambe découverte visibles accordés au visage ; pied du garçon voisin non recoloré. Pointage de Julien, poses et cinq adversaires vert/noir hors masques conservés."
     }
   ],
   "vignettes": [
@@ -1139,12 +1234,14 @@
         504
       ],
       "scenario": "- **Vignette 1 (Large)** :\n  - *Visuel* : Grand soleil d'automne sur le complexe sportif. Plusieurs terrains de **30m x 20m** sont tracés. Les 4 équipes de 5 du RCM s'échauffent au milieu des maillots de toute la Savoie.\n  - *Encadré narratif* : « OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS AU PROGRAMME DE LA POULE ! »\n  - *Bulle (Flavien)* : « Allez le RCM ! On se souvient des règles : 5 contre 5, touché à deux mains, pas de hors-jeu et on fait vivre le ballon ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
       "realiste": "planches/06-deux-victoires-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Flavien et les quatre têtes visibles Ayden/Léon/Lyssandro/Nolann repris sur la couverture ; pics de Léon rétablis, Milo de dos conservé. Carnation des bras/mains/jambes de Nolann accordée localement au teint mat. Corps, ballon, plots, tenue et paysage automnal hors masque préservés.",
+      "distribution_identifiee": "Flavien ; de gauche à droite Ayden, Léon, Lyssandro, Nolann avec le ballon et Milo vu de dos."
     },
     {
       "page": 6,
@@ -1156,12 +1253,14 @@
         849
       ],
       "scenario": "- **Vignette 2 (Match 1 vs Chambéry — Jaune et Noir)** :\n  - *Visuel* : Affrontement rythmé contre **Chambéry (tenue Jaune et Noir)**. **Ayden** touche à deux mains un porteur Jaune et Noir, puis sur la récupération, **Lyssandro** fixe et donne à **Nolann** qui aplatit dans l'en-but !\n  - *Bulle (Lyssandro)* : « Bien joué Ayden ! Tiens Nolann, fonce ! »\n  - *Bulle (Nolann, plongeant)* : « ESSAI ! UN POINT POUR LE RCM ! »\n  - *Encadré score* : « MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
       "realiste": "planches/06-deux-victoires-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Nolann aplatissant et Ayden effectuant le touché à deux mains repris ; Ayden ne porte plus les pics de Léon. Lyssandro et visage de Milo rapprochés des modèles, frange pleine d’origine de Milo conservée. Ballon, touché, adversaire jaune/noir, membres et figurants hors masques préservés.",
+      "distribution_identifiee": "Nolann aplatit ; Ayden applique le touché à deux mains au joueur jaune/noir ; Lyssandro et Milo derrière. Frange pleine de Milo conservée depuis le dessin existant."
     },
     {
       "page": 6,
@@ -1173,12 +1272,14 @@
         849
       ],
       "scenario": "- **Vignette 3 (Match 2 vs Albertville — Rouge et Blanc)** :\n  - *Visuel* : Deuxième match contre **Albertville (tenue Rouge et Blanc)**. **Milo** réalise un joli crochet et transmet à **Léon** qui sprinte le long de la ligne pour marquer l'essai victorieux.\n  - *Bulle (Milo)* : « À toi Léon ! »\n  - *Bulle (Léon)* : « Personne ne me rattrapera ! ESSAI ! »\n  - *Encadré score* : « MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
       "realiste": "planches/06-deux-victoires-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Milo passeur et Léon receveur reprises avec frange châtaine et pics caractéristiques. Gestes, trajectoire du ballon, adversaire rouge/blanc, vêtements et décor hors masques conservés.",
+      "distribution_identifiee": "Milo passe à Léon ; adversaire rouge/blanc préservé."
     },
     {
       "page": 6,
@@ -1190,12 +1291,20 @@
         1195
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Entre les deux matchs, Léon bombe le torse devant ses quatre copains.\n  - *Bulle (Léon)* : « Deux matchs, deux victoires ! Qu'est-ce que je vous avais dit ?! C'est trop facile la catégorie U8, on est toujours invincibles ! »\n  - *Bulle (Ayden)* : « Attends Léon, contre Albertville on a quand même eu chaud sur la fin… »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
       "realiste": "planches/06-deux-victoires-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq têtes de gauche à droite Lyssandro/Nolann/Léon/Milo/Ayden reprises ; Nolann retrouve sa courte frange brune au lieu du crâne presque nu, Léon ses pics, Ayden une frange châtain clair non jaune. Mains et jambes visibles de Nolann accordées à son visage mat. Tenues/corps et fond hors masques conservés.",
+      "identites_au_scenario_de_gauche_a_droite": [
+        "Lyssandro",
+        "Nolann",
+        "Léon",
+        "Milo",
+        "Ayden"
+      ]
     },
     {
       "page": 6,
@@ -1207,12 +1316,14 @@
         1195
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Kilian** et **Julien** s'accroupissent devant les cinq garçons en désignant l'équipe suivante qui s'approche en maillot **Vert et Noir**.\n  - *Bulle (Kilian)* : « Écoutez bien les garçons : le troisième match, c'est contre **Montmélian**. Ils ont gagné leurs deux matchs aussi. »\n  - *Bulle (Julien)* : « Ils montent très vite en défense et ils ne laissent aucun espace. Si vous jouez chacun pour vous, ça ne passera pas ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
       "realiste": "planches/06-deux-victoires-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Kilian roux et Julien gris à bouc/moustache repris ; distribution des cinq garçons rétablie : Lyssandro/Milo debout, Ayden/Léon/Nolann accroupis. Nolann auparavant absent des ressemblances retrouve courte frange brune et teint mat, avec bras/mains et jambe découverte visibles accordés au visage ; pied du garçon voisin non recoloré. Pointage de Julien, poses et cinq adversaires vert/noir hors masques conservés.",
+      "distribution_identifiee": "Kilian et Julien ; Lyssandro/Milo debout ; Ayden/Léon/Nolann accroupis. Cinq adversaires vert/noir, dont une figure partielle en bord de cadre."
     },
     {
       "page": 7,
@@ -3372,12 +3483,12 @@
     {
       "page": 6,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
-      "sha256": "e0391dadcbd99273b91d0c51ac7e021fd5a5d16847222707c93da20968a3f2a0",
+      "sha256": "431676784790a3fde0cacf3fd1fcce1b2c886472691a827afa5ba652ead7f011",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1747961
+      "octets": 1753859
     },
     {
       "page": 7,
@@ -3630,9 +3741,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 28,
+    "vignettes_corrigees_premiere_passe": 33,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 124,
+    "vignettes_a_controler_individuellement": 119,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3788,6 +3899,17 @@
         "05-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-f/"
+    },
+    {
+      "base": "166d4b4",
+      "vignettes": [
+        "06-1",
+        "06-2",
+        "06-3",
+        "06-4",
+        "06-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-g/"
     }
   ]
 }
