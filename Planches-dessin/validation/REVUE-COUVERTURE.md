@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 79 |
+| Premières reprises intégrées, encore à relire | 84 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 73 |
+| Autres vignettes restant à contrôler individuellement | 68 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 79 vignettes ayant reçu une intervention ne sont pas 79 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 84 vignettes ayant reçu une intervention ne sont pas 84 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -295,6 +295,26 @@ Preuves : `revue-couverture/lot-q/15-AVANT-APRES.jpg` et cinq masques. Aucun can
 
 **Réserves transversales :** homogénéité de teinte des cheveux châtains de Léon sous la lumière chaude (excès cuivré de 15/3 atténué localement), âge/détail des visages par rapport aux corps, petits raccords de fond et de col, degré de tendresse du sourire de Flavien et lecture de ses deux mains sur les épaules en 15/4. Les deux chocolats restent visibles en 15/2 ; aucune mère/sœur n'est ajoutée, puisqu'elles sont hors champ selon le scénario. Aucun texte, bulle ni onomatopée ajouté. Il reste 73 cases à examiner individuellement, puis la relecture de continuité de toute la série.
 
+## Dix-huitième livraison : les cinq vignettes de la planche 16
+
+Cinq premières interventions, pas cinq validations définitives. Le scénario et les cinq sources réalistes ont été comparés : deux scènes scolaires civiles, puis trois scènes au stade. La couverture reste seule autorité des identités/du dessin, pas la couleur erronée des cheveux ou des manches dans les sources.
+
+**16/1 :** Deux portraits isolés intégrés : Léon à gauche en manteau olive, pics châtains et expression hésitante d'excuse ; Ayden à droite en manteau marine, courte frange châtain clair et accueil souriant. Le candidat de case entière déformait fortement les proportions : rejeté. Manteaux, mains, jeans et cour conservés hors masques ; Baptiste reste hors champ.
+
+**16/2 :** Léon et Ayden se tapent dans la main : portraits seuls du candidat conservant la pose, pics châtains pour Léon et courte frange châtain clair pour Ayden. Les deux manteaux civils, bras levés, main en contact et cour d'école restent d'origine hors masques.
+
+**16/3 :** Quatre enfants devant les trois coachs, sans Ayden dans ce cadrage : Léon à gauche face à Lyssandro/Nolann/Milo. Portraits spécifiques de Lyssandro et Nolann ; ce dernier retrouve la très courte frange brun foncé et le teint mat. Milo conserve sa frange pleine et son visage de profil, avec carnation éclaircie localement. Maillot rouge uni de Lyssandro rapproché du modèle à rayures bleues et manches courtes blanches. Léon déjà en pics et les trois coachs déjà identifiables conservés à cette passe. Candidat complet au cadrage/proportions erronés rejeté.
+
+**16/4 :** Cinq enfants réunis : Léon, Lyssandro, Ayden, Nolann, Milo. Têtes reprises localement : pics, frange latérale, courte frange châtain clair non blonde, très courte frange brune/teint mat et frange pleine respectives. Manches courtes extérieures rouges de Lyssandro et Milo corrigées en blanc. Bras de Lyssandro autour de Léon et empilement des mains d'origine préservés, sans importer de nouveau geste.
+
+**16/5 :** Trois coachs et cinq enfants conservés, mêmes positions et mains. Portrait spécifique de Flavien brun à légère pilosité ; cheveux en pics de Léon repris par import local de cheveux, teinte trop blonde/grise d'Ayden rapprochée du châtain clair, carnation de Nolann et frange châtaine de Milo ajustées localement. Manche courte rouge de Lyssandro blanchie. Julien, Kilian, visage de Lyssandro et visages des autres enfants hors zones de palette conservés à cette passe ; pas de nouveau personnage.
+
+Preuves : `revue-couverture/lot-r/16-AVANT-APRES.jpg` et cinq masques. Aucun candidat complet intégré. Deux cadrages déformés (16/1 et 16/3) rejetés ; cinq portraits isolés réellement produits et utilisés (Léon/Ayden 16/1, Lyssandro/Nolann 16/3, Flavien 16/5). Le premier montage de Lyssandro conservait un morceau de l'ancienne mâchoire : recalage vertical et raccord du col repris. Les fragments de l'ancienne coiffure/du nez de Flavien ont nécessité un périmètre élargi en 16/5. Les portraits des trois coachs de 16/3, déjà identifiables, sont délibérément conservés plutôt que remplacés par le candidat au mauvais cadrage.
+
+Le maillot uni de Lyssandro en 16/3 est corrigé localement (bande bleue et manches blanches), pas remplacé par un corps déplacé. L'empilement central des mains de 16/4 n'est pas redessiné. En 16/5, la correction de Léon porte sur les cheveux seuls et celle d'Ayden sur la palette ; il ne s'agit pas de nouveaux portraits complets. Les trois demandes de portraits non produites après la limite de dix générations du tour ne sont pas comptées comme des réalisations.
+
+**Réserves transversales :** âge apparent des nouveaux profils et détail portraits/corps, cohérence des franges d'Ayden entre 16/1–2 et 16/4–5, rondeur/frange de Milo en 16/3/5, raccord des cheveux seuls de Léon 16/5, col et bande du maillot de Lyssandro en 16/3, petits raccords de fond autour de Flavien 16/5, lisibilité des marquages après blanchiment de manche et correspondance visage/bras de Nolann. Rien ici ne vaut une validation définitive de ces raccords. Aucun dialogue/bulle/onomatopée ajouté. Il reste 68 cases à examiner individuellement, puis la relecture de continuité des 153 cases.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -303,7 +323,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **73 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **68 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 

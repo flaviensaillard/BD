@@ -1554,6 +1554,101 @@
       "type": "reprise_graphique",
       "intervention": "Portraits père/fils locaux : brun de Flavien et pics châtains de Léon, trait et traits rapprochés de la couverture. Léon reste pensif, blotti contre son père qui lui sourit tendrement. Bras et main entourant l'enfant, tenues civiles et salon nocturne conservés hors masques.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-q/15-5-masque.png"
+    },
+    {
+      "page": 16,
+      "vignette": "16-1",
+      "rectangle": [
+        27,
+        27,
+        424,
+        257
+      ],
+      "source_rectangle": [
+        75,
+        75,
+        1221,
+        741
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Deux portraits isolés intégrés : Léon à gauche en manteau olive, pics châtains et expression hésitante d'excuse ; Ayden à droite en manteau marine, courte frange châtain clair et accueil souriant. Le candidat de case entière déformait fortement les proportions : rejeté. Manteaux, mains, jeans et cour conservés hors masques ; Baptiste reste hors champ.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-1-masque.png"
+    },
+    {
+      "page": 16,
+      "vignette": "16-2",
+      "rectangle": [
+        440,
+        27,
+        837,
+        257
+      ],
+      "source_rectangle": [
+        1259,
+        75,
+        2405,
+        741
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon et Ayden se tapent dans la main : portraits seuls du candidat conservant la pose, pics châtains pour Léon et courte frange châtain clair pour Ayden. Les deux manteaux civils, bras levés, main en contact et cour d'école restent d'origine hors masques.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-2-masque.png"
+    },
+    {
+      "page": 16,
+      "vignette": "16-3",
+      "rectangle": [
+        27,
+        272,
+        837,
+        537
+      ],
+      "source_rectangle": [
+        75,
+        778,
+        2405,
+        1544
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Quatre enfants devant les trois coachs, sans Ayden dans ce cadrage : Léon à gauche face à Lyssandro/Nolann/Milo. Portraits spécifiques de Lyssandro et Nolann ; ce dernier retrouve la très courte frange brun foncé et le teint mat. Milo conserve sa frange pleine et son visage de profil, avec carnation éclaircie localement. Maillot rouge uni de Lyssandro rapproché du modèle à rayures bleues et manches courtes blanches. Léon déjà en pics et les trois coachs déjà identifiables conservés à cette passe. Candidat complet au cadrage/proportions erronés rejeté.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-3-masque.png"
+    },
+    {
+      "page": 16,
+      "vignette": "16-4",
+      "rectangle": [
+        27,
+        552,
+        837,
+        937
+      ],
+      "source_rectangle": [
+        75,
+        1582,
+        2405,
+        2693
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Cinq enfants réunis : Léon, Lyssandro, Ayden, Nolann, Milo. Têtes reprises localement : pics, frange latérale, courte frange châtain clair non blonde, très courte frange brune/teint mat et frange pleine respectives. Manches courtes extérieures rouges de Lyssandro et Milo corrigées en blanc. Bras de Lyssandro autour de Léon et empilement des mains d'origine préservés, sans importer de nouveau geste.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-4-masque.png"
+    },
+    {
+      "page": 16,
+      "vignette": "16-5",
+      "rectangle": [
+        27,
+        952,
+        837,
+        1195
+      ],
+      "source_rectangle": [
+        75,
+        2730,
+        2405,
+        3433
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Trois coachs et cinq enfants conservés, mêmes positions et mains. Portrait spécifique de Flavien brun à légère pilosité ; cheveux en pics de Léon repris par import local de cheveux, teinte trop blonde/grise d'Ayden rapprochée du châtain clair, carnation de Nolann et frange châtaine de Milo ajustées localement. Manche courte rouge de Lyssandro blanchie. Julien, Kilian, visage de Lyssandro et visages des autres enfants hors zones de palette conservés à cette passe ; pas de nouveau personnage.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-5-masque.png"
     }
   ],
   "vignettes": [
@@ -3009,12 +3104,13 @@
         260
       ],
       "scenario": "- **Vignette 1 (À l'école — Tenue civile)** :\n  - *Visuel* : Lundi matin dans la cour de l'école. **Léon** (en manteau et jean) s'approche d'**Ayden** (en blouson civil).\n  - *Bulle (Léon)* : « Salut Ayden… Je voulais te demander pardon pour samedi. T'avais raison, j'avais pas le droit de vous parler comme ça. »\n  - *Bulle (Ayden, souriant)* : « Je suis content que tu dises ça, Léon ! Justement, j'en parlais ce matin avec **Baptiste** devant le portail : Baptiste m'a dit que dans son équipe aussi, ils se sont promis de toujours s'encourager après une erreur ! » *(Baptiste reste hors-champ).*",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
       "realiste": "planches/16-le-pardon-des-copains-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Deux portraits isolés intégrés : Léon à gauche en manteau olive, pics châtains et expression hésitante d'excuse ; Ayden à droite en manteau marine, courte frange châtain clair et accueil souriant. Le candidat de case entière déformait fortement les proportions : rejeté. Manteaux, mains, jeans et cour conservés hors masques ; Baptiste reste hors champ."
     },
     {
       "page": 16,
@@ -3026,12 +3122,13 @@
         260
       ],
       "scenario": "- **Vignette 2 (À l'école — Tenue civile)** :\n  - *Visuel* : Léon et Ayden se tapent dans la main dans la cour de récréation.\n  - *Bulle (Léon)* : « Il a raison Baptiste. Mercredi au stade, je vais m'excuser auprès de Lyssandro, Nolann et Milo ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
       "realiste": "planches/16-le-pardon-des-copains-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon et Ayden se tapent dans la main : portraits seuls du candidat conservant la pose, pics châtains pour Léon et courte frange châtain clair pour Ayden. Les deux manteaux civils, bras levés, main en contact et cour d'école restent d'origine hors masques."
     },
     {
       "page": 16,
@@ -3043,12 +3140,13 @@
         540
       ],
       "scenario": "- **Vignette 3 (Au stade de La Motte-Servolex — Tenue RCM)** :\n  - *Visuel* : Mercredi après-midi au stade du RCM. Avant le début de l'entraînement, **Léon** s'avance devant **Lyssandro**, **Nolann** et **Milo**, sous le regard attentif de **Flavien**, **Julien** et **Kilian**.\n  - *Bulle (Léon)* : « Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m'a expliqué qu'on apprend toujours de nos échecs. Si on fait un en-avant ou qu'on perd, je ne m'énerverai plus : on cherchera ensemble comment faire mieux ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
       "realiste": "planches/16-le-pardon-des-copains-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Quatre enfants devant les trois coachs, sans Ayden dans ce cadrage : Léon à gauche face à Lyssandro/Nolann/Milo. Portraits spécifiques de Lyssandro et Nolann ; ce dernier retrouve la très courte frange brun foncé et le teint mat. Milo conserve sa frange pleine et son visage de profil, avec carnation éclaircie localement. Maillot rouge uni de Lyssandro rapproché du modèle à rayures bleues et manches courtes blanches. Léon déjà en pics et les trois coachs déjà identifiables conservés à cette passe. Candidat complet au cadrage/proportions erronés rejeté."
     },
     {
       "page": 16,
@@ -3060,12 +3158,13 @@
         940
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Milo** et **Nolann** retrouvent immédiatement leur grand sourire caractéristique ; **Lyssandro** passe son bras autour du cou de Léon.\n  - *Bulle (Milo)* : « C'est vrai, tu nous crieras plus dessus si le ballon glisse ? »\n  - *Bulle (Léon, riant)* : « Promis juré ! Même s'il est plein de boue ! »\n  - *Bulle (Nolann)* : « Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires du RCM ! »\n  - *Bulle (Lyssandro)* : « Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS POUR LE RCM ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
       "realiste": "planches/16-le-pardon-des-copains-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq enfants réunis : Léon, Lyssandro, Ayden, Nolann, Milo. Têtes reprises localement : pics, frange latérale, courte frange châtain clair non blonde, très courte frange brune/teint mat et frange pleine respectives. Manches courtes extérieures rouges de Lyssandro et Milo corrigées en blanc. Bras de Lyssandro autour de Léon et empilement des mains d'origine préservés, sans importer de nouveau geste."
     },
     {
       "page": 16,
@@ -3077,12 +3176,13 @@
         1198
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Les trois coachs observent le cercle des cinq enfants.\n  - *Bulle (Kilian)* : « Eh bien Flavien, je crois que ta discussion à la maison a fait des miracles ! »\n  - *Bulle (Julien)* : « Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le mois de décembre… ils vont avoir besoin d'être soudés ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
       "realiste": "planches/16-le-pardon-des-copains-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois coachs et cinq enfants conservés, mêmes positions et mains. Portrait spécifique de Flavien brun à légère pilosité ; cheveux en pics de Léon repris par import local de cheveux, teinte trop blonde/grise d'Ayden rapprochée du châtain clair, carnation de Nolann et frange châtaine de Milo ajustées localement. Manche courte rouge de Lyssandro blanchie. Julien, Kilian, visage de Lyssandro et visages des autres enfants hors zones de palette conservés à cette passe ; pas de nouveau personnage."
     },
     {
       "page": 17,
@@ -4457,12 +4557,12 @@
     {
       "page": 16,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
-      "sha256": "c5ce0d0c91e5e3bf42c22d907a1b55188cb0d7603b934f2431efbd9e54e628bc",
+      "sha256": "0fe8e133b5f783718f560452a389bb37dff77a8c9e39686000218ceaa1ab183c",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1606337
+      "octets": 1607161
     },
     {
       "page": 17,
@@ -4681,15 +4781,27 @@
     {
       "vignette": "15-1/3",
       "motif": "Premiers masques laissant des fragments des anciennes têtes ou important un cadre du décor du portrait isolé : périmètres élargis pour retirer les anciens contours et resserrés sur le crâne de Flavien ; tête et cou de Léon 15/1 intégrés jusqu'au bord bas pour éviter un double menton."
+    },
+    {
+      "vignette": "16-1/3",
+      "motif": "Deux candidats de cases complètes changeaient fortement cadrage, proportions et positions des têtes : rejetés. Portraits isolés de Léon/Ayden en 16/1 et Lyssandro/Nolann en 16/3, retouches de palette/kit complémentaires sur les originaux."
+    },
+    {
+      "vignette": "16-3/5",
+      "motif": "Premier montage laissait l'ancien menton de Lyssandro sous son nouveau portrait et des fragments de la silhouette de Flavien : hauteur du premier portrait recalée et contours/mask du second élargis pour retirer l'ancienne tête."
+    },
+    {
+      "vignette": "16-5",
+      "motif": "Candidat complet ne corrigeait pas suffisamment les coiffures : non importé. Portrait isolé de Flavien, import de cheveux seuls pour Léon et palette locale pour Ayden/Nolann/Milo. Après dix générations utilisables/rejetées, trois demandes supplémentaires n'ont pas été produites (limite du tour) ; aucun portrait absent prétendu intégré."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 79,
+    "vignettes_corrigees_premiere_passe": 84,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 73,
+    "vignettes_a_controler_individuellement": 68,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -4971,6 +5083,17 @@
         "15-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-q/"
+    },
+    {
+      "base": "6e351c0",
+      "vignettes": [
+        "16-1",
+        "16-2",
+        "16-3",
+        "16-4",
+        "16-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-r/"
     }
   ],
   "relectures_sans_retouche": [
