@@ -276,6 +276,82 @@
       "intervention": "Arrivée au stade reprise : Flavien au volant avec son visage brun et légère barbe ; Léon aux cheveux châtains en pics se penchant vers la fenêtre, civil bleu ; voiture, grilles, projecteurs, relief et voiture bleue secondaire conservés dans la composition.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-c/02-5-masque.png",
       "type": "reprise_graphique"
+    },
+    {
+      "page": 3,
+      "vignette": "03-1",
+      "rectangle": [
+        31,
+        31,
+        424,
+        324
+      ],
+      "source_rectangle": [
+        86,
+        86,
+        1219,
+        934
+      ],
+      "intervention": "Première reprise du rendu du vestiaire et des enfants sortant de dos : contours/modelé, carnations et vêtements dans le cadrage source. Portemanteau, vêtements suspendus et banc restaurés localement pour exclure un gilet jaune inventé par le candidat. Groupe visible conservé ; ne pas annoncer vingt silhouettes visibles dans ce cadrage.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-d/03-1-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 3,
+      "vignette": "03-2",
+      "rectangle": [
+        441,
+        31,
+        833,
+        324
+      ],
+      "source_rectangle": [
+        1261,
+        86,
+        2394,
+        934
+      ],
+      "intervention": "Cinq têtes reprises : Lyssandro, Léon (pics rétablis), Ayden (frange châtain clair), Milo (frange pleine), Nolann (courte frange brune et teint mat), de gauche à droite. Gestes, mains, corps, tenues et marquages d’origine hors masque préservés ; faux lettrages du candidat complet exclus.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-d/03-2-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 3,
+      "vignette": "03-4",
+      "rectangle": [
+        441,
+        341,
+        833,
+        634
+      ],
+      "source_rectangle": [
+        1261,
+        976,
+        2394,
+        1824
+      ],
+      "intervention": "Têtes des trois coachs reprises sur la couverture : Flavien brun/légère barbe, Julien gris/bouc et moustache, Kilian roux/barbe rousse. Geste de Julien conservé ; vestes, écussons et décor hors masque préservés. Sortie portrait initiale et badges inventés exclus. Sifflet/cordon à relire en détail, sans validation définitive.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-d/03-4-masque.png",
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 3,
+      "vignette": "03-5",
+      "rectangle": [
+        31,
+        651,
+        833,
+        1191
+      ],
+      "source_rectangle": [
+        86,
+        1866,
+        2394,
+        3422
+      ],
+      "intervention": "Reprise locale du coach Kilian roux/barbe rousse et des têtes de Léon/Lyssandro au premier rang ; cheveux d’Ayden ramenés au châtain en conservant sa coupe courte d’origine (frange trop longue du candidat rejetée). Ajout local du vingtième joueur assis derrière Kilian, après comptage de 19 enfants dans dessin et source réaliste. Tous les autres enfants et le terrain hors masque conservés. Relecture globale des tenues/style encore requise.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-d/03-5-masque.png",
+      "type": "reprise_graphique"
     }
   ],
   "vignettes": [
@@ -453,12 +529,13 @@
         327
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Sortie des vestiaires sous un beau soleil de septembre. Les **20 joueurs U8** dévalent vers le pré verdoyant dans un joyeux tumulte.\n  - *Encadré narratif* : « NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSENT LE GROUPE U8 DU RCM ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Première reprise du rendu du vestiaire et des enfants sortant de dos : contours/modelé, carnations et vêtements dans le cadrage source. Portemanteau, vêtements suspendus et banc restaurés localement pour exclure un gilet jaune inventé par le candidat. Groupe visible conservé ; ne pas annoncer vingt silhouettes visibles dans ce cadrage."
     },
     {
       "page": 3,
@@ -470,12 +547,20 @@
         327
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Nos cinq héros en maillot Rouge, Bleu et Blanc (*Locaself* / blason *RCM*) se retrouvent au milieu du terrain en se tapant dans les mains.\n  - *Bulle (Léon)* : « Salut les gars ! Alors, prêts pour notre nouvelle saison de champions ? »\n  - *Bulle (Lyssandro)* : « Trop content de vous retrouver ! Mon père m'a dit qu'on est vingt joueurs cette année, ça va faire quatre équipes de cinq ! »\n  - *Bulle (Ayden)* : « Ouais ! Avec Léon, on en a parlé toute la semaine à l'école ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq têtes reprises : Lyssandro, Léon (pics rétablis), Ayden (frange châtain clair), Milo (frange pleine), Nolann (courte frange brune et teint mat), de gauche à droite. Gestes, mains, corps, tenues et marquages d’origine hors masque préservés ; faux lettrages du candidat complet exclus.",
+      "identites_au_scenario_de_gauche_a_droite": [
+        "Lyssandro",
+        "Léon",
+        "Ayden",
+        "Milo",
+        "Nolann"
+      ]
     },
     {
       "page": 3,
@@ -493,7 +578,8 @@
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Têtes Nolann/Milo reprises sur la couverture ; Nolann retrouve son teint mat (ici ancien rendu trop pâle), bras/mains/jambes accordés au visage ; coiffure de Milo ramenée au châtain. Gestes, ballon, tenues et décor préservés hors masque."
+      "intervention": "Têtes Nolann/Milo reprises sur la couverture ; Nolann retrouve son teint mat (ici ancien rendu trop pâle), bras/mains/jambes accordés au visage ; coiffure de Milo ramenée au châtain. Gestes, ballon, tenues et décor préservés hors masque.",
+      "relecture_lot_d": "Cas revu avec scénario et source : Nolann tire son blason, Milo fait rebondir le ballon. Nouveau candidat complet écarté pour amélioration insuffisante ; montage antérieur inchangé. Encrage du corps et conformité de la tenue encore à reprendre, pas de validation définitive."
     },
     {
       "page": 3,
@@ -505,12 +591,14 @@
         637
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Les trois coachs — **Flavien** (survêtement bleu/épaules rouges), **Julien** (veste bleue FXV, sifflet jaune au cou) et **Kilian** (veste *Rugby Club Motterain 1905*) — se tiennent droits au centre du terrain. Julien souffle dans son sifflet.\n  - *Onomatopée* : **« FIIIIIIIIT ! »**\n  - *Bulle (Julien)* : « Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle devant nous, et on pose les ballons ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes des trois coachs reprises sur la couverture : Flavien brun/légère barbe, Julien gris/bouc et moustache, Kilian roux/barbe rousse. Geste de Julien conservé ; vestes, écussons et décor hors masque préservés. Sortie portrait initiale et badges inventés exclus. Sifflet/cordon à relire en détail, sans validation définitive.",
+      "reserve_scenario": "Sifflet et cordon de Julien à relire en détail ; pas de validation définitive."
     },
     {
       "page": 3,
@@ -522,12 +610,19 @@
         1194
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Les 20 enfants s'installent dans l'herbe. Léon est au premier rang entre Lyssandro et Ayden, grand sourire aux lèvres.\n  - *Bulle (Kilian)* : « Bienvenue en U8 les garçons ! Avant de commencer l'entraînement, on doit vous parler franchement de ce qui s'est passé la saison dernière… »\n  - *Bulle (Léon, chuchotant à Lyssandro)* : « Tu vas voir, ils vont nous féliciter pour nos cinq trophées ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Reprise locale du coach Kilian roux/barbe rousse et des têtes de Léon/Lyssandro au premier rang ; cheveux d’Ayden ramenés au châtain en conservant sa coupe courte d’origine (frange trop longue du candidat rejetée). Ajout local du vingtième joueur assis derrière Kilian, après comptage de 19 enfants dans dessin et source réaliste. Tous les autres enfants et le terrain hors masque conservés. Relecture globale des tenues/style encore requise.",
+      "comptage_enfants": {
+        "avant": 19,
+        "apres": 20,
+        "coach": "Kilian",
+        "preuve": "Planches-dessin/validation/revue-couverture/lot-d/COMPTAGE-03-5.jpg"
+      }
     },
     {
       "page": 4,
@@ -2938,12 +3033,12 @@
     {
       "page": 3,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
-      "sha256": "3661b0b23e2af4e61d6130503e3a90cf17777dc4446cd7c476e977c76c601193",
+      "sha256": "e6a403d5ca48ccfb6aee4f7b53cc6895cf851479b4c28e6e38c75628840cf9cd",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1736120
+      "octets": 1730388
     },
     {
       "page": 4,
@@ -3226,9 +3321,9 @@
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 13,
+    "vignettes_corrigees_premiere_passe": 17,
     "vignettes_correction_partielle": 2,
-    "vignettes_a_controler_individuellement": 138,
+    "vignettes_a_controler_individuellement": 134,
     "validations_definitives": 0
   },
   "references_personnages": {
@@ -3345,6 +3440,19 @@
         "02-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-c/"
+    },
+    {
+      "base": "5c94d9d",
+      "vignettes": [
+        "03-1",
+        "03-2",
+        "03-4",
+        "03-5"
+      ],
+      "relecture_sans_nouvelle_modification": [
+        "03-3"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-d/"
     }
   ]
 }

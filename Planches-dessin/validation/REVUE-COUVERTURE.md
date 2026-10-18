@@ -21,12 +21,12 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 13 |
+| Premières reprises intégrées, encore à relire | 17 |
 | Corrections seulement partielles, à poursuivre | 2 |
-| Autres vignettes restant à contrôler individuellement | 138 |
+| Autres vignettes restant à contrôler individuellement | 134 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 15 interventions ne signifient donc pas 15 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 19 vignettes ayant reçu une intervention ne sont pas 19 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -68,6 +68,18 @@ Comparatif et cinq masques : `revue-couverture/lot-c/02-AVANT-APRES.jpg`. Contr�
 
 En parallèle, **04/5** a été réexaminée : les identités au scénario sont bien **Ayden, Lyssandro, Nolann**, et non Milo au centre. Un nouvel essai avec les trois références nominatives de couverture a été écarté pour amélioration insuffisante du style et des ressemblances. Cette case reste en correction partielle, sans nouvelle modification livrée.
 
+## Quatrième livraison : revue des cinq vignettes de la planche 3
+
+Quatre nouvelles interventions ; **03/3** a été réexaminée mais conserve sa reprise antérieure. Aucune validation définitive supplémentaire.
+
+- **03/1 :** première reprise du rendu du vestiaire, des joueurs de dos et du terrain. Un premier candidat trop panoramique et à lumière jaune a été rejeté. Le second conserve le cadrage source ; le portemanteau et ses vêtements ont été restaurés depuis l’original pour exclure un gilet fluorescent inventé. Ne pas confondre effectif de 20 joueurs et nombre de silhouettes visibles dans ce cadrage de sortie.
+- **03/2 :** cinq têtes reprises localement, de gauche à droite **Lyssandro, Léon, Ayden, Milo, Nolann**. Pics châtains de Léon, frange châtain clair d’Ayden et pleine frange châtaine de Milo rétablis. Visages adaptés à leurs angles de vue et aux retrouvailles ; Nolann reste de teint mat. Corps, gestes, maillots et lettrages d’origine hors masque préservés, faux marquages générés exclus.
+- **03/3 :** scénario et source relus : Nolann tire sur son blason, Milo fait rebondir le ballon. Le nouveau candidat complet n’améliore pas suffisamment la conformité ; non intégré. Tenues et encrage des corps restent à reprendre : ne pas déclarer cette première correction terminée.
+- **03/4 :** têtes Flavien/Julien/Kilian reprises sur leurs recadrages nominatifs de couverture : brun et légère barbe ; gris, bouc/moustache ; roux et barbe rousse. Candidat au format couverture vertical rejeté. Vestes/badges/décor d’origine préservés hors masques, geste de Julien conservé. **Sifflet et cordon encore à relire** avant validation.
+- **03/5 :** correction locale de Kilian (roux/barbe rousse) et des têtes Léon/Lyssandro au premier rang ; couleur des cheveux d’Ayden corrigée sans importer la frange trop longue du candidat. Le comptage manuel trouve **19 enfants** dans la source réaliste et le dessin antérieur. Un **vingtième enfant** est ajouté localement, assis derrière le genou relevé de Kilian, sans retirer ni déplacer les 19 autres. Le coach blond du recadrage d’ajout n’est pas importé. Le candidat complet, qui changeait aussi un autre joueur près du coach, n’a pas remplacé le cercle : seuls les éléments masqués sont intégrés.
+
+Preuves : `revue-couverture/lot-d/03-AVANT-APRES.jpg`, `COMPTAGE-03-5.jpg` et quatre masques. Montage relu en comparatif et en contexte de page. Les différences encore présentes de traitement des tenues, des corps et des décors ne sont pas dispensées de relecture globale.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -76,7 +88,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **138 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **134 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
