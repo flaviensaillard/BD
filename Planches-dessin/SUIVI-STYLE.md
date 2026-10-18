@@ -1,3 +1,13 @@
+# État courant : revue fondée sur la couverture — EN COURS
+
+**La couverture `00-couverture-marvel.png` est désormais la seule référence de style et d’identité.** La décision utilisateur remplace la priorité V2 décrite dans l’historique ci-dessous. La couverture reste inchangée.
+
+Suivi actuel : [`validation/REVUE-COUVERTURE.md`](validation/REVUE-COUVERTURE.md) et son manifeste JSON : 153 vignettes inventoriées, 8 premières reprises, 2 corrections partielles, 143 autres contrôles individuels à faire, aucune validation définitive. Les anciennes approbations ne valent pas conformité au nouveau référentiel.
+
+---
+
+## Historique antérieur à la décision couverture (non prescriptif)
+
 # Harmonisation du style comics
 
 ## Référence validée par l'utilisateur

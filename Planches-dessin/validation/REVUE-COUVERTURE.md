@@ -1,34 +1,67 @@
 # Revue intégrale fondée sur la couverture — EN COURS
 
-## Nouvelle autorité utilisateur
+## Autorité utilisateur
 
-La couverture **`Planches-dessin/00-couverture-marvel.png` est l’unique référence canonique de STYLE ET D’IDENTITÉ**. Elle reste inchangée. Les témoins V1/V2 et les planches déjà générées ne sont plus des autorités de style. Les anciens audits sont historiques : leurs tests de pixels n’ont pas prouvé la ressemblance.
+La couverture **`Planches-dessin/00-couverture-marvel.png` est l’unique référence canonique de STYLE ET D’IDENTITÉ**. Elle reste inchangée. Les témoins V1/V2 ne sont plus des autorités de style. Les anciens audits sont historiques : leurs tests de pixels n’ont pas prouvé la ressemblance.
 
 - La couverture fixe visages, morphologies, coupes, couleurs de cheveux, carnations et modèles de tenues.
-- Le scénario fixe les noms, rôles, actions, émotions, saisons et contexte civil/rugby. Il permet notamment d’éviter de confondre deux coachs.
-- Les planches réalistes documentent cadrages, poses, lieux et distribution des acteurs. Une apparence ou substitution déjà erronée dans une source ne prime pas sur la couverture et le scénario.
-- **Nolann a le teint mat**, pas une peau beaucoup plus foncée que sur la couverture. Les ombres ne changent pas sa carnation de base. Contrôler visage, oreilles, cou, mains, bras et jambes ensemble.
+- Le scénario fixe les noms, rôles, actions, émotions, saisons et contexte civil/rugby.
+- Les planches réalistes documentent cadrages, poses, lieux et distribution des acteurs. Une substitution erronée dans une source ne prime pas sur la couverture et le scénario.
+- **Nolann a le teint mat** de la couverture, pas une carnation arbitrairement beaucoup plus foncée. Contrôler visage, oreilles, cou, mains, bras et jambes ensemble ; ne pas éclaircir uniformément les ombres ou tous les personnages.
 
-## Modèle nominatif de la couverture
+## Modèle nominatif
 
-Enfants de gauche à droite : **Lyssandro, Ayden, Léon au centre, Nolann, Milo**. Adultes de gauche à droite : **Flavien, Julien, Kilian**.
+Enfants de gauche à droite sur la couverture : **Lyssandro, Ayden, Léon au centre, Nolann, Milo**. Adultes : **Flavien, Julien, Kilian**. Leur position peut changer dans une scène ; leur identité ne change pas.
 
-Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`. `REFERENCES-COUVERTURE.jpg` les rapproche des photos existantes pour l’identification ; la couverture prime pour le dessin demandé.
+Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`. `REFERENCES-COUVERTURE.jpg` les rapproche des photos existantes pour l’identification ; la couverture prime pour le dessin.
 
-## Travail effectivement accompli à ce stade
+## Bilan vérifiable
 
-1. Lecture de la charte, du scénario pertinent et vue d’ensemble des **30 planches**. Cette vue d’ensemble **n’est pas une validation de chaque vignette**.
-2. Inventaire des **153 vignettes** réellement présentes sur les 30 pages (151 encore à contrôler individuellement après ces deux premières corrections), avec rattachement au scénario à vérifier lorsque le découpage ne coïncide pas. Toutes les décisions restent explicitement ouvertes dans `REVUE-COUVERTURE.json` sauf le statut de première correction des deux cas ci-dessous ; aucune validation définitive annoncée.
-3. **26/3 :** trois têtes reprises sur les modèles de couverture : Nolann à gauche, Milo au centre, Ayden à droite, conformément au scénario. Courte frange de Nolann rétablie et carnation visible de ses bras/jambes réchauffée et éclaircie localement. Visages adaptés à la déception, pas sourire de couverture copié. Les tenues et leurs inscriptions, le décor et les autres personnages de cette vignette sont préservés par masque.
-4. **26/6 :** substitution manifeste corrigée : le coach accroupi est **Flavien**, brun avec légère pilosité, et non Kilian roux. Julien et les cinq enfants sont repris avec les modèles de couverture. Pose accroupie, schéma au sol, clappement de Léon et groupe de sept personnes conservés. Cette vignette a été redessinée entièrement ; les autres cases ne sont pas régénérées.
-5. **27/5 :** sorties complètes **écartées**, notamment pour changement de coiffure, de décor et de marquages. La vignette livrée n’est pas remplacée par ces candidats. À reprendre localement.
+| Étape | Nombre |
+|---|---:|
+| Planches vues en ensemble | 30 |
+| Vignettes réellement inventoriées | 153 |
+| Premières reprises intégrées, encore à relire | 8 |
+| Corrections seulement partielles, à poursuivre | 2 |
+| Autres vignettes restant à contrôler individuellement | 143 |
+| Validations définitives de style et ressemblance | **0** |
 
-Preuve : `revue-couverture/PREMIERES-CORRECTIONS-26.jpg`.
+Les 10 interventions ne signifient donc pas 10 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
-## Suite obligatoire — ne pas confondre progression et achèvement
+## Première livraison : 26/3 et 26/6
 
-La revue intégrale demandée **n’est pas terminée**. La priorité suivante est de reprendre les occurrences de Nolann sur toutes les planches, puis de vérifier chaque autre personnage et le traitement de chaque décor, sans réduire ce travail à une correction colorimétrique globale. Les différences de coiffure de Léon, Lyssandro, Ayden et Milo, la barbe de Julien, les confusions Flavien/Kilian et les écarts entre dessin simplifié et encrage de la couverture font partie du contrôle.
+- **26/3 :** têtes de Nolann à gauche, Milo au centre, Ayden à droite ; courte frange et carnation visible de Nolann reprises. Déception conservée. Tenues, inscriptions et décor préservés hors masque.
+- **26/6 :** substitution du coach corrigée : **Flavien brun**, non Kilian roux, accroupi devant le schéma au sol. Julien et cinq enfants repris ; disposition du groupe et actions conservées. Redessin de cette vignette entière, pas de la page.
 
-Chaque vignette doit passer successivement : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture du résultat en contexte de page. Les raccords cou/cheveux/mains et les tenues ne sont pas dispensés de contrôle. Aucune image simplement générée n’est validée automatiquement.
+Preuve : `revue-couverture/PREMIERES-CORRECTIONS-26.jpg`. Livraison précédente : `c00ec1f` ; référence cumulative avant cette revue : `d0cc063`.
 
-**Pas de mention « parfait », « tout conforme » ou « terminé » tant que toutes les entrées n’ont pas été relues individuellement et les écarts corrigés.** Les tests ne prouvent que localité, intégrité et invariance des fichiers non concernés.
+## Deuxième livraison : huit interventions supplémentaires
+
+| Vignette | Intervention intégrée | Réserve |
+|---|---|---|
+| **01/1** | Groupe U6, trois coachs et cinq enfants ; coiffures/visages rapprochés des modèles. Applaudissements des coachs rétablis conformément au scénario. Tête de Milo reprise séparément pour retrouver sa frange châtaine. | Le second essai complet a été rejeté : composition et identité de Léon altérées. Seule sa tête de Milo a servi au montage. |
+| **01/2** | Lyssandro porteur du ballon, Milo à gauche et Ayden à droite, redessinés sur les modèles de couverture. | La bande rouge basse du maillot existait déjà dans la source : elle n’a pas été supprimée sur une fausse présomption d’invention. |
+| **01/3** | Cinq têtes du groupe de médaillés reprises localement. | Décor supérieur, corps, médailles et inscriptions d’origine conservés hors masque. La tribune importée par le candidat complet est exclue. |
+| **01/4** | Portrait de Léon repris : visage, cheveux en pics et sourire fermé. | Bas du maillot et écusson d’origine conservés ; faux nom/millésime de club généré non intégré. |
+| **03/3** | Têtes Nolann/Milo reprises ; teint mat de Nolann accordé aux membres visibles ; cheveux de Milo ramenés au châtain. | Ballon, gestes, maillots et terrain conservés hors masque. |
+| **04/5** | Cheveux d’Ayden, trop jaunes, ramenés au châtain clair. | **PARTIEL :** les candidats de visages/coupes ont été rejetés ; ressemblances et style encore à reprendre. |
+| **14/2** | Couleur des cheveux d’Ayden et carnation du visage/cou de Nolann reprises localement. | **PARTIEL :** coupes, visages et style non validés. Expressions et doigt pointé de Léon conservés. |
+| **27/5** | Reprise locale des cinq têtes ; Nolann retrouve sa courte frange brune, le visage du modèle et un teint mat accordé aux genoux ; cheveux d’Ayden corrigés. | Corps, inscriptions, écussons et stade conservés hors masque. Les anciennes sorties complètes restent rejetées ; ce nouveau montage local les remplace comme première reprise. |
+
+**Comparatifs avant/après :** `revue-couverture/lot-b/{01,03,04,14,27}-AVANT-APRES.jpg`. Les images 04 et 14 portent explicitement la mention PARTIEL. Les huit masques documentent les périmètres autorisés.
+
+Les candidats redessinés ont été relus, puis les montages intégrés ont été examinés en comparatif et en contexte de page. Ce contrôle de première passe n’équivaut pas à une validation définitive de tous les raccords, tenues, proportions et expressions.
+
+## Contrôles techniques et audits historiques
+
+`outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
+
+Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent désormais à leur état historique avant cette revue. Ils ne doivent ni interdire les nouvelles corrections autorisées ni faire croire que leurs anciens résultats valident les nouveaux dessins. Ils déclenchent aussi le contrôle technique courant.
+
+## Suite obligatoire
+
+Contrôler individuellement les **143 autres vignettes**, terminer **04/5 et 14/2**, puis relire les premières reprises. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+
+Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
+
+**Ne pas annoncer « parfait », « tout conforme » ou « terminé » tant que toutes les entrées n’ont pas été relues et les écarts corrigés.**

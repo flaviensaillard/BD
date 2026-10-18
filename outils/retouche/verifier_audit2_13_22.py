@@ -7,6 +7,7 @@ from io import BytesIO
 import json
 from pathlib import Path
 import subprocess
+import sys
 from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -17,11 +18,27 @@ def from_git(ref, path):
     return Image.open(BytesIO(raw)).convert('RGB')
 
 
+REVIEW = ROOT / 'Planches-dessin/validation/REVUE-COUVERTURE.json'
+HISTORICAL = json.loads(REVIEW.read_text())['base'] if REVIEW.exists() else None
+
+
+def delivered(path):
+    # Freeze this superseded audit at the start of the cover-authoritative
+    # review. Current modifications are checked separately, below, not ignored.
+    if HISTORICAL:
+        raw = subprocess.check_output(
+            ['git', 'show', f'{HISTORICAL}:{path.relative_to(ROOT).as_posix()}'], cwd=ROOT)
+        return Image.open(BytesIO(raw)).convert('RGB')
+    return Image.open(path).convert('RGB')
+
+
 def main():
+    if HISTORICAL:
+        print(f'Audit 13–22 HISTORIQUE : {HISTORICAL} ; contrôle courant distinct en fin de script.')
     plan = json.loads((ROOT / 'Planches-dessin/validation/AUDIT2-13-22.json').read_text())
     for n in range(13, 23):
         path = next((ROOT / 'Planches-dessin').glob(f'{n}-*.png'))
-        old, new = from_git(plan['base'], path), Image.open(path).convert('RGB')
+        old, new = from_git(plan['base'], path), delivered(path)
         assert new.size == old.size, f'Dimensions modifiées : {n}'
         diff = ImageChops.difference(old, new)
         changes = plan['retouches'].get(str(n), [])
@@ -53,7 +70,7 @@ def main():
     ]
     for n, box in protected:
         path = next((ROOT / 'Planches-dessin').glob(f'{n}-*.png'))
-        old, new = from_git(plan['base'], path), Image.open(path).convert('RGB')
+        old, new = from_git(plan['base'], path), delivered(path)
         assert ImageChops.difference(old.crop(box), new.crop(box)).getbbox() is None, f'Protection {n}: {box}'
     for g in plan['geometrie']:
         w, h = g['native']; rw, rh = g['contenu_redimensionne']
@@ -64,3 +81,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    if HISTORICAL:
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_revue_couverture.py')], check=True, cwd=ROOT)

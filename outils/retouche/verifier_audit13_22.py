@@ -7,6 +7,7 @@ from io import BytesIO
 import json
 from pathlib import Path
 import subprocess
+import sys
 from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -18,7 +19,23 @@ def previous(path):
     return Image.open(BytesIO(raw)).convert('RGB')
 
 
+REVIEW = ROOT / 'Planches-dessin/validation/REVUE-COUVERTURE.json'
+HISTORICAL = json.loads(REVIEW.read_text())['base'] if REVIEW.exists() else None
+
+
+def delivered(path):
+    # Freeze this superseded audit at the start of the cover-authoritative
+    # review. Current modifications are checked separately, below, not ignored.
+    if HISTORICAL:
+        raw = subprocess.check_output(
+            ['git', 'show', f'{HISTORICAL}:{path.relative_to(ROOT).as_posix()}'], cwd=ROOT)
+        return Image.open(BytesIO(raw)).convert('RGB')
+    return Image.open(path).convert('RGB')
+
+
 def main():
+    if HISTORICAL:
+        print(f'Audit 13–22 HISTORIQUE : {HISTORICAL} ; contrôle courant distinct en fin de script.')
     report = json.loads((ROOT / 'Planches-dessin/validation/audit-13-22.json').read_text())
     entries = {entry['page']: entry for entry in report['corrections']}
     second_path = ROOT / 'Planches-dessin/validation/AUDIT2-13-22.json'
@@ -27,7 +44,7 @@ def main():
     for n in range(13, 23):
         path = next((ROOT / 'Planches-dessin').glob(f'{n}-*.png'))
         old = previous(path.relative_to(ROOT))
-        new = Image.open(path).convert('RGB')
+        new = delivered(path)
         assert old.size == new.size, f'Dimensions : {n}'
         difference = ImageChops.difference(old, new)
         if n == 17:
@@ -73,3 +90,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    if HISTORICAL:
+        subprocess.run([sys.executable, str(ROOT / 'outils/retouche/verifier_revue_couverture.py')], check=True, cwd=ROOT)

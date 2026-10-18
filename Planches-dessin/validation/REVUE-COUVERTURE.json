@@ -13,7 +13,9 @@
         918
       ],
       "masque": "Planches-dessin/validation/revue-couverture/26-3-masque.png",
-      "intervention": "Têtes Nolann/Milo/Ayden et carnation visible de Nolann ; maillots, inscriptions et décor préservés."
+      "intervention": "Têtes Nolann/Milo/Ayden et carnation visible de Nolann ; maillots, inscriptions et décor préservés.",
+      "page": 26,
+      "type": "reprise_graphique"
     },
     {
       "vignette": "26-6",
@@ -24,7 +26,161 @@
         1174
       ],
       "masque": "Planches-dessin/validation/revue-couverture/26-6-masque.png",
-      "intervention": "Vignette redessinée : Flavien brun accroupi, Julien, cinq enfants identifiés ; style et carnations repris sur la couverture."
+      "intervention": "Vignette redessinée : Flavien brun accroupi, Julien, cinq enfants identifiés ; style et carnations repris sur la couverture.",
+      "page": 26,
+      "type": "reprise_graphique"
+    },
+    {
+      "page": 1,
+      "vignette": "01-1",
+      "rectangle": [
+        31,
+        31,
+        833,
+        781
+      ],
+      "source_rectangle": [
+        86,
+        86,
+        2394,
+        2244
+      ],
+      "intervention": "Vignette redessinée : trois éducateurs, cinq enfants et trophée ; Milo repris localement avec sa frange châtaine, sans importer la composition ni le Léon erroné du second essai.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/01-1-masque.png"
+    },
+    {
+      "page": 1,
+      "vignette": "01-2",
+      "rectangle": [
+        31,
+        797,
+        287,
+        1185
+      ],
+      "source_rectangle": [
+        86,
+        2286,
+        828,
+        3404
+      ],
+      "intervention": "Trois joueurs en course : Lyssandro porteur, Milo à gauche et Ayden à droite ; visages/coiffures repris sur la couverture, ballon et rôles conservés.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/01-2-masque.png"
+    },
+    {
+      "page": 1,
+      "vignette": "01-3",
+      "rectangle": [
+        304,
+        797,
+        560,
+        1185
+      ],
+      "source_rectangle": [
+        869,
+        2286,
+        1611,
+        3404
+      ],
+      "intervention": "Cinq têtes au groupe de médaillés reprises ; décor, maillots, inscriptions, médailles, mains et jambes d’origine conservés hors masque. Tribune importée du candidat exclue.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/01-3-masque.png"
+    },
+    {
+      "page": 1,
+      "vignette": "01-4",
+      "rectangle": [
+        577,
+        797,
+        833,
+        1185
+      ],
+      "source_rectangle": [
+        1652,
+        2286,
+        2394,
+        3404
+      ],
+      "intervention": "Portrait de Léon repris, cheveux châtains en pics et sourire bouche fermée ; bas du maillot/écusson d’origine conservé pour exclure un faux millésime/nom de club généré.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/01-4-masque.png"
+    },
+    {
+      "page": 3,
+      "vignette": "03-3",
+      "rectangle": [
+        31,
+        341,
+        424,
+        634
+      ],
+      "source_rectangle": [
+        86,
+        976,
+        1219,
+        1824
+      ],
+      "intervention": "Têtes Nolann/Milo reprises sur la couverture ; Nolann retrouve son teint mat (ici ancien rendu trop pâle), bras/mains/jambes accordés au visage ; coiffure de Milo ramenée au châtain. Gestes, ballon, tenues et décor préservés hors masque.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/03-3-masque.png"
+    },
+    {
+      "page": 4,
+      "vignette": "04-5",
+      "rectangle": [
+        20,
+        689,
+        847,
+        936
+      ],
+      "source_rectangle": [
+        39,
+        1379,
+        1692,
+        1863
+      ],
+      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre.",
+      "type": "correction_partielle",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/04-5-masque.png"
+    },
+    {
+      "page": 14,
+      "vignette": "14-2",
+      "rectangle": [
+        26,
+        285,
+        870,
+        612
+      ],
+      "source_rectangle": [
+        76,
+        823,
+        2404,
+        1787
+      ],
+      "intervention": "Correction partielle : cheveux d’Ayden et carnation du visage/cou de Nolann ; expressions et pointage de Léon conservés. Reprise des coupes/visages/style encore nécessaire ; candidat complet non retenu.",
+      "type": "correction_partielle",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/14-2-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-5",
+      "rectangle": [
+        440,
+        837,
+        840,
+        1158
+      ],
+      "source_rectangle": [
+        1260,
+        2382,
+        2402,
+        3300
+      ],
+      "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés.",
+      "type": "reprise_graphique",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-b/27-5-masque.png"
     }
   ],
   "vignettes": [
@@ -38,12 +194,13 @@
         784
       ],
       "scenario": "- **Vignette 1 (Demi-page haute — Flashback épique)** :\n  - *Visuel* : Sous une pluie de confettis dorés et un grand soleil, l'équipe U6 du RCM brandit un trophée étincelant. **Léon** est au centre, entouré de **Lyssandro**, **Ayden**, **Nolann** et **Milo**, tandis que **Flavien**, **Julien** et **Kilian** applaudissent derrière eux.\n  - *Encadré narratif (jaune style Comics)* : « SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ REMPORTÉS. DEUX FOIS DEUXIÈMES. »\n  - *Bulle (Léon, levant la coupe)* : « ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE ! »\n  - *Bulle (Nolann, sautant de joie)* : « Cinq coupes en une seule saison ! Même les grands du club n'en reviennent pas ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
       "realiste": "planches/01-la-legende-des-u6-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Vignette redessinée : trois éducateurs, cinq enfants et trophée ; Milo repris localement avec sa frange châtaine, sans importer la composition ni le Léon erroné du second essai."
     },
     {
       "page": 1,
@@ -55,12 +212,13 @@
         1188
       ],
       "scenario": "- **Vignette 2 (Bas gauche)** :\n  - *Visuel* : Flashback d'action : **Lyssandro** court ballon en main, **Ayden** et **Milo** le suivent en riant.\n  - *Encadré narratif (voix de Léon)* : « Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby Club Motterain, on a vécu une saison magique. »\n  - *Bulle (Milo)* : « Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
       "realiste": "planches/01-la-legende-des-u6-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois joueurs en course : Lyssandro porteur, Milo à gauche et Ayden à droite ; visages/coiffures repris sur la couverture, ballon et rôles conservés."
     },
     {
       "page": 1,
@@ -72,12 +230,13 @@
         1188
       ],
       "scenario": "- **Vignette 3 (Bas milieu)** :\n  - *Visuel* : Les médailles alignées autour du cou des cinq garçons.\n  - *Bulle (Lyssandro)* : « Cinq fois premiers et deux fois deuxièmes… Vous vous rendez compte ? »\n  - *Bulle (Ayden)* : « C'est sûr, l'année prochaine chez les U8, ce sera exactement pareil ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
       "realiste": "planches/01-la-legende-des-u6-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq têtes au groupe de médaillés reprises ; décor, maillots, inscriptions, médailles, mains et jambes d’origine conservés hors masque. Tribune importée du candidat exclue."
     },
     {
       "page": 1,
@@ -89,12 +248,13 @@
         1188
       ],
       "scenario": "- **Vignette 4 (Bas droite — Gros plan sur Léon)** :\n  - *Visuel* : Gros plan sur le regard brillant et ultra-compétiteur de Léon.\n  - *Bulle (Léon)* : « Pas \"exactement pareil\", Ayden… Ce sera encore MIEUX ! En U8, on ne finira même plus deuxièmes : on va TOUT gagner ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
       "realiste": "planches/01-la-legende-des-u6-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Portrait de Léon repris, cheveux châtains en pics et sourire bouche fermée ; bas du maillot/écusson d’origine conservé pour exclure un faux millésime/nom de club généré."
     },
     {
       "page": 2,
@@ -225,12 +385,13 @@
         637
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : **Nolann** tire fièrement sur le blason RCM de son maillot pendant que **Milo** fait rebondir un ballon ovale.\n  - *Bulle (Nolann)* : « Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait carrément l'équipe première ! »\n  - *Bulle (Milo)* : « Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
       "realiste": "planches/03-les-20-guerriers-du-rcm-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Têtes Nolann/Milo reprises sur la couverture ; Nolann retrouve son teint mat (ici ancien rendu trop pâle), bras/mains/jambes accordés au visage ; coiffure de Milo ramenée au châtain. Gestes, ballon, tenues et décor préservés hors masque."
     },
     {
       "page": 3,
@@ -344,12 +505,13 @@
         939
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Ayden**, **Lyssandro** et **Nolann** échangent des regards impressionnés.\n  - *Bulle (Ayden)* : « Faut faire super attention aux passes alors, sinon on rend tout le temps le ballon… »\n  - *Bulle (Lyssandro)* : « Et en défense, si on est hors-jeu, on se fait punir direct ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
       "realiste": "planches/04-nouvelles-regles-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "correction_partielle_reste_a_reprendre",
+      "validation_definitive": false,
+      "intervention": "Correction partielle : cheveux d’Ayden, trop jaunes/blonds, ramenés au châtain clair. Candidats de visages/coupes rejetés ; style et ressemblances de la vignette restent à reprendre."
     },
     {
       "page": 4,
@@ -1194,12 +1356,13 @@
         615
       ],
       "scenario": "- **Vignette 2 (Grande vignette choc — Le dérapage de Léon)** :\n  - *Visuel* : **Léon** explose de colère. Le visage déformé par la frustration, il pointe ses coéquipiers du doigt en criant devant tout le monde.\n  - *Bulle (Léon, en colère)* : « OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on a perdu ! Vous faites que des en-avant, vous savez même pas attraper un ballon ! Avec vous, on gagnera jamais rien ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/14-les-mots-de-trop-marvel.png",
       "realiste": "planches/14-les-mots-de-trop-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "correction_partielle_reste_a_reprendre",
+      "validation_definitive": false,
+      "intervention": "Correction partielle : cheveux d’Ayden et carnation du visage/cou de Nolann ; expressions et pointage de Léon conservés. Reprise des coupes/visages/style encore nécessaire ; candidat complet non retenu."
     },
     {
       "page": 14,
@@ -2367,12 +2530,13 @@
         1161
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Léon** réunit **Lyssandro**, **Ayden**, **Nolann** et **Milo** en cercle, les bras sur les épaules les uns des autres.\n  - *Bulle (Léon)* : « Au premier tournoi, on était cinq joueurs qui couraient chacun dans leur coin, et moi je pleurais de colère. Aujourd'hui, on a appris de tous nos échecs de la saison. On joue ensemble, passes, soutien et défense en ligne ! »\n  - *Bulle (Tous les cinq)* : « ALLEZ LE RCM !! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés."
     },
     {
       "page": 28,
@@ -2644,12 +2808,12 @@
     {
       "page": 1,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
-      "sha256": "8e8adcd655f9bb371b24b2a5b60617704af511132b8bdce6b9592a3565d004da",
+      "sha256": "4a543afa9b8f8c43e163e312d15ce2f7308452f60524098c215cf5592ec4c976",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 2250100
+      "octets": 1756722
     },
     {
       "page": 2,
@@ -2664,22 +2828,22 @@
     {
       "page": 3,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
-      "sha256": "5912844ca77d640478fa585e0bf46ba720edc68bbc9a533bd1c90d623fc3a1a1",
+      "sha256": "3661b0b23e2af4e61d6130503e3a90cf17777dc4446cd7c476e977c76c601193",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1737006
+      "octets": 1736120
     },
     {
       "page": 4,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
-      "sha256": "318fb2034606443da57fc32bc282b61c215015ad4d4812c45920fe30ad2d12a1",
+      "sha256": "8d37d02f7bbe6e371a0d0621d549b0c032c4872dca928582773f0d72d2be862b",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1566290
+      "octets": 1565476
     },
     {
       "page": 5,
@@ -2774,12 +2938,12 @@
     {
       "page": 14,
       "fichier": "Planches-dessin/14-les-mots-de-trop-marvel.png",
-      "sha256": "9e6210156e594b52c98d44db17283dc2ef98a1e9de6fa0845c698173fd0e827c",
+      "sha256": "a9bcfd324674345f24e3df8526b8838ec62eea4e99cd0825a1603e2b40811ca3",
       "dimensions": [
         896,
         1200
       ],
-      "octets": 1771118
+      "octets": 1771261
     },
     {
       "page": 15,
@@ -2904,12 +3068,12 @@
     {
       "page": 27,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
-      "sha256": "dc51cac3c9fff4c275e6c550f10073ae33d764d540880524baa473a9c4189255",
+      "sha256": "e3711d927c00f9daf00cd00964c4a8d6ad4f8d224e7c0d185f1fe84e9727e601",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1688793
+      "octets": 1688267
     },
     {
       "page": 28,
@@ -2950,10 +3114,12 @@
   ],
   "nombre_vignettes": 153,
   "bilan": {
-    "planches_en_vue_ensemble": 30,
-    "vignettes_corrigees_premiere_passe": 2,
-    "vignettes_restant_a_controler_individuellement": 151,
-    "vignettes_validees_definitivement": 0
+    "planches_vues_en_ensemble": 30,
+    "vignettes_inventoriees": 153,
+    "vignettes_corrigees_premiere_passe": 8,
+    "vignettes_correction_partielle": 2,
+    "vignettes_a_controler_individuellement": 143,
+    "validations_definitives": 0
   },
   "references_personnages": {
     "Flavien": {
@@ -3036,5 +3202,28 @@
     "verifier_audit13_22.py",
     "verifier_audit2_13_22.py",
     "git diff --check"
+  ],
+  "lots": [
+    {
+      "base": "d0cc063",
+      "vignettes": [
+        "26-3",
+        "26-6"
+      ]
+    },
+    {
+      "base": "c00ec1f",
+      "vignettes": [
+        "01-1",
+        "01-2",
+        "01-3",
+        "01-4",
+        "03-3",
+        "04-5",
+        "14-2",
+        "27-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-b/"
+    }
   ]
 }
