@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 89 |
-| Corrections seulement partielles, à poursuivre | 0 |
+| Premières reprises intégrées, encore à relire | 94 |
+| Corrections seulement partielles, à poursuivre | 1 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 63 |
+| Autres vignettes restant à contrôler individuellement | 57 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 89 vignettes ayant reçu une intervention ne sont pas 89 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 95 vignettes ayant reçu une intervention ne sont pas 95 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -335,6 +335,30 @@ Seule 17/4 est reprise dans son ensemble pour réparer le groupe ; les autres ca
 
 **Réserves de continuité à relire :** mêmes cinq visages sous les bonnets entre 17/2, 17/4 et 17/5, âge apparent des visages et écart de détail corps/portraits, forme (pas seulement couleur) des bonnets, mains gantées/occlusions et rattachement des bras aux 20 corps, sous-couches et manches courtes blanches encore à revoir sur les anonymes en arrière-plan, carnation de Nolann visage/cou, cols des coachs et petits raccords des bonnets ajoutés. L'ajout de trois enfants et le repérage de 20 têtes ne certifient pas seuls l'anatomie de tous les bras. Aucun dialogue, bulle ni onomatopée ajouté. Il reste 63 cases à examiner individuellement, puis la relecture transversale de toute la série.
 
+## Vingtième livraison : planche 18 — cinq premières reprises, une correction partielle
+
+**La planche 18 n'est pas terminée : 18/4 reste à reprendre avant de passer à 19.** Les six scénarios et sources réalistes ont été comparés, sans considérer leur dessin comme une preuve de conformité. La source montrait un seul défenseur là où le scénario demande deux plaqueurs et perdait les équipements d'hiver dans la passe au sol.
+
+**18/1 :** Démonstration : Kilian tient le boudin bleu à gauche (barbe rousse rétablie par portrait local issu de 18/2), Julien accroupi au milieu (portrait isolé, moustache/bouc gris) et Flavien pointe bas à droite, conservé. Deux enfants observateurs sont rapprochés d'Ayden/Milo : bonnet bleu ajouté au premier, bonnet/portrait gris pour le second. Le scénario ne nomme pas ces deux spectateurs ; attribution de continuité graphique, pas preuve nominale du texte. Corps, mains, boudin, postures et décor hors masques gardés ; candidat complet rejeté pour cadrage aplati.
+
+**18/2 :** Nolann réalise le plaquage-école sur le boudin : visage mat et bonnet bleu repris, manche courte extérieure blanche sur thermique noir. Kilian retrouve sa barbe rousse sous bonnet, même boudin et même action. Seules tête et zone de manche sont importées ; corps/mains/pad d'origine hors masques préservés. Pas de BOUM ajouté à cette étape.
+
+**18/3 :** Trois acteurs conservés : porteur anonyme à gauche avec le ballon, Ayden en plaquage bas au centre, Milo prêt en soutien à droite. Bonnet bleu à pompon ajouté à Ayden, bonnet gris à Milo ; portraits rapprochés des modèles sous bonnets. Manches extérieures blanches et thermiques/gants noirs rapprochés de l'hiver, dont caps rouges résiduels corrigés localement. Vignette reprise avec même disposition et même ballon encore tenu par le porteur ; pas de récupération anticipée inventée.
+
+**18/4 :** PARTIEL : deuxième défenseur anonyme ajouté à gauche, deux plaqueurs désormais visibles autour de Léon au lieu d'un seul. Bonnet de Léon rapproché du bleu, thermiques longs rapprochés du noir. Le défenseur de gauche prend bas au genou ; le défenseur de droite garde une prise trop haute, encore proche taille/haut de hanche. Ce montage n'est PAS déclaré conforme au plaquage aux jambes : baisser/reconstruire la prise droite avant de poursuivre la validation de cette case. Pas de PAF ajouté.
+
+**18/5 :** Passe vers le soutien : Léon au sol à droite et Lyssandro accroupi à gauche gardent les corps, l'unique ballon et les contacts de mains originaux. Deux portraits isolés ajoutent les bonnets bleu/marine et les traits rapprochés de la couverture. Mains reprises en gants noirs, avant-bras longs en thermiques sombres sous caps blancs et jambes nues du receveur couvertes localement. Candidat complet écarté car il déplaçait/aplatissait l'action et étirait la passe.
+
+**18/6 :** Flavien à gauche et Kilian à droite applaudissent : portrait de Kilian repris localement avec barbe/sourcils roux ; son bonnet original est conservé, sans l'écusson inventé sur le portrait généré. Flavien déjà reconnaissable, corps et quatre mains gantées applaudissant gardés. Candidat complet rejeté pour proportions aplaties et gestes déplacés.
+
+Preuves : `revue-couverture/lot-t/18-AVANT-APRES.jpg`, six masques et **`18-4-A-REPRENDRE.jpg`**, où la prise droite trop haute est entourée. La correction partielle a un état et un type séparés dans le manifeste et ne gonfle pas le nombre de premières reprises complètes. Les trois acteurs visibles de 18/4 sont Léon et deux défenseurs anonymes ; les autres participants du 5 contre 5 sont hors cadre dans ce plan rapproché.
+
+Les têtes/bonnets sont rapprochés de la couverture sans faire sortir les coiffures à travers les bonnets. Les gants et thermiques de 18/5 sont des corrections locales de palette autour des contacts originaux, pas une nouvelle passe inventée par le candidat qui étirait l'action. Le dessin de l'unique ballon reste celui de la case originale. En 18/6, les quatre mains gantées des deux coachs n'ont pas été remplacées et le badge ajouté au bonnet par le portrait candidat n'est pas intégré.
+
+**À faire immédiatement :** reconstruire la prise du défenseur droit en 18/4 entre la taille et les cuisses, clairement sur les jambes, tout en gardant deux petits plaqueurs, le ballon dans les mains de Léon, les contacts distincts et la lisibilité de la chute. L'ajout du deuxième défenseur ne suffit pas à rendre la technique conforme.
+
+**Réserves pour la relecture transversale :** âge/proportions des portraits isolés et sous les bonnets, encrage plus détaillé des montagnes de 18/3–4 que dans les autres cases, raccords des caps blancs/thermiques, détails de gants des trois contacts au ballon en 18/5 et continuité des bonnets avec 17. La présence du ballon dans les mains du porteur de 18/3 ne doit pas devenir une récupération anticipée de Milo. Aucun BOUM, PAF, dialogue, bulle ni autre texte ajouté aux planches. Bilan courant : 94 premières reprises, 1 correction partielle, 1 contrôle sans retouche, 57 cases encore à examiner individuellement ; aucune validation définitive.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -343,7 +367,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **63 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **57 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
