@@ -1,0 +1,168 @@
+{
+  "total": 20,
+  "premier_plan": 5,
+  "autres_deja_visibles": 12,
+  "ajoutes": 3,
+  "positions": [
+    {
+      "numero": 1,
+      "position_travail": [
+        362,
+        355
+      ],
+      "role": "Leon"
+    },
+    {
+      "numero": 2,
+      "position_travail": [
+        503,
+        360
+      ],
+      "role": "Lyssandro"
+    },
+    {
+      "numero": 3,
+      "position_travail": [
+        646,
+        356
+      ],
+      "role": "Ayden"
+    },
+    {
+      "numero": 4,
+      "position_travail": [
+        794,
+        360
+      ],
+      "role": "Nolann"
+    },
+    {
+      "numero": 5,
+      "position_travail": [
+        950,
+        363
+      ],
+      "role": "Milo"
+    },
+    {
+      "numero": 6,
+      "position_travail": [
+        169,
+        247
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 7,
+      "position_travail": [
+        266,
+        250
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 8,
+      "position_travail": [
+        364,
+        267
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 9,
+      "position_travail": [
+        444,
+        246
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 10,
+      "position_travail": [
+        527,
+        264
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 11,
+      "position_travail": [
+        610,
+        241
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 12,
+      "position_travail": [
+        696,
+        254
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 13,
+      "position_travail": [
+        747,
+        264
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 14,
+      "position_travail": [
+        801,
+        273
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 15,
+      "position_travail": [
+        881,
+        263
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 16,
+      "position_travail": [
+        970,
+        255
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 17,
+      "position_travail": [
+        1047,
+        291
+      ],
+      "role": "anonyme_conserve"
+    },
+    {
+      "numero": 18,
+      "position_travail": [
+        517,
+        181
+      ],
+      "role": "anonyme_ajoute"
+    },
+    {
+      "numero": 19,
+      "position_travail": [
+        607,
+        168
+      ],
+      "role": "anonyme_ajoute"
+    },
+    {
+      "numero": 20,
+      "position_travail": [
+        708,
+        183
+      ],
+      "role": "anonyme_ajoute"
+    }
+  ]
+}

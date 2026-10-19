@@ -1649,6 +1649,101 @@
       "type": "reprise_graphique",
       "intervention": "Trois coachs et cinq enfants conservés, mêmes positions et mains. Portrait spécifique de Flavien brun à légère pilosité ; cheveux en pics de Léon repris par import local de cheveux, teinte trop blonde/grise d'Ayden rapprochée du châtain clair, carnation de Nolann et frange châtaine de Milo ajustées localement. Manche courte rouge de Lyssandro blanchie. Julien, Kilian, visage de Lyssandro et visages des autres enfants hors zones de palette conservés à cette passe ; pas de nouveau personnage.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-r/16-5-masque.png"
+    },
+    {
+      "page": 17,
+      "vignette": "17-1",
+      "rectangle": [
+        23,
+        27,
+        825,
+        278
+      ],
+      "source_rectangle": [
+        75,
+        75,
+        2405,
+        784
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Paysage hivernal déjà dessiné en BD conservé : montagnes enneigées, stade, gradins, poteaux et projecteurs inchangés hors flocons. Ajout local de petits flocons visibles pour la chute de neige prescrite, sans changer la météo lumineuse ni le cadrage.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-s/17-1-masque.png"
+    },
+    {
+      "page": 17,
+      "vignette": "17-2",
+      "rectangle": [
+        23,
+        293,
+        416,
+        520
+      ],
+      "source_rectangle": [
+        75,
+        821,
+        1221,
+        1453
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Cinq garçons dans l'ordre Léon/Lyssandro/Ayden/Nolann/Milo. Portraits sous les bonnets et buée repris localement ; bonnet manquant de Lyssandro ajouté. Son haut/bras rapprochés du modèle d'hiver : manches courtes blanches et sous-couche noire. Les bonnets sont harmonisés avec les cases suivantes : Léon bleu, Lyssandro marine, Ayden bleu à pompon, Nolann bleu, Milo gris. Carnation mate de Nolann, visages clairs des autres et cinq coureurs conservés. Corps/terrain hors zones locales gardés, pas de texte.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-s/17-2-masque.png"
+    },
+    {
+      "page": 17,
+      "vignette": "17-3",
+      "rectangle": [
+        432,
+        293,
+        825,
+        520
+      ],
+      "source_rectangle": [
+        1259,
+        821,
+        2405,
+        1453
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Trois coachs avec trois boudins bleu/rouge/bleu conservés. Portraits isolés pour Julien (moustache/bouc gris, pas barbe intégrale) et Kilian (bonnet marine ajouté, barbe et sourcils roux, pas noirs). Flavien à gauche déjà sous bonnet et identifiable, corps/mains/boudins/décor d'origine conservés. Candidat complet rejeté : il déplaçait/aplatissait les coachs et les équipements.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-s/17-3-masque.png"
+    },
+    {
+      "page": 17,
+      "vignette": "17-4",
+      "rectangle": [
+        23,
+        535,
+        825,
+        913
+      ],
+      "source_rectangle": [
+        75,
+        1490,
+        2405,
+        2543
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Comptage source : 17 enfants visibles, pas les 20 prescrits. Reprise de la vignette pour ajouter trois enfants anonymes derrière le groupe : 5 principaux devant, 12 autres déjà visibles, 3 ajoutés plus loin = 20. Les cinq de devant sont Léon/Lyssandro/Ayden/Nolann/Milo. Bonnet/carnation mate de Nolann et couleurs de bonnets harmonisés ; mains nues restantes reprises en gants sombres, bonnets ajoutés sur les têtes anonymes dénudées et sous-couches longues rapprochées du noir. Flocons et équipement d'hiver, pas d'adulte ni de nouveau dialogue.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-s/17-4-masque.png"
+    },
+    {
+      "page": 17,
+      "vignette": "17-5",
+      "rectangle": [
+        23,
+        929,
+        825,
+        1233
+      ],
+      "source_rectangle": [
+        75,
+        2581,
+        2405,
+        3433
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Flavien de profil à gauche retrouve sa légère moustache/barbe, bonnet conservé ; son doigt levé, sa main et son corps sont gardés. Portraits des cinq enfants attentifs sous bonnets repris localement, couleurs harmonisées ; Nolann reste mat, pas arbitrairement plus foncé. Maillot uni et manches rouges de Lyssandro remplacés localement par rayures et épaules/manches courtes blanches, sous-col thermique noir. Autres corps et décor hors masque conservés.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-s/17-5-masque.png"
     }
   ],
   "vignettes": [
@@ -3194,12 +3289,13 @@
         281
       ],
       "scenario": "- **Vignette 1 (Plan large hivernal spectaculaire)** :\n  - *Visuel* : Les sommets de Savoie sont entièrement enneigés. Des flocons blancs virevoltent autour des projecteurs du stade de La Motte-Servolex, où une fine pellicule blanche borde la pelouse.\n  - *Encadré narratif* : « DÉCEMBRE EN SAVOIE. LE FROID ET LA NEIGE SONT LÀ… MAIS AU RUGBY CLUB MOTTERAIN, L'ENTRAÎNEMENT EST MAINTENU ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
       "realiste": "planches/17-decembre-sous-la-neige-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Paysage hivernal déjà dessiné en BD conservé : montagnes enneigées, stade, gradins, poteaux et projecteurs inchangés hors flocons. Ajout local de petits flocons visibles pour la chute de neige prescrite, sans changer la météo lumineuse ni le cadrage."
     },
     {
       "page": 17,
@@ -3211,12 +3307,13 @@
         523
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : **Léon**, **Lyssandro**, **Ayden**, **Nolann** et **Milo** trottinent sur le terrain dans leur équipement d'hiver complet : bonnets de sport vissés sur la tête, gants de sport, collants thermiques et maillot Rouge, Bleu et Blanc du RCM par-dessus leur veste/sous-maillot. De la buée sort de leur bouche.\n  - *Bulle (Nolann, soufflant un nuage de buée)* : « Brrr ! Regardez, on dirait des dragons qui crachent de la fumée ! »\n  - *Bulle (Milo, agitant ses doigts gantés)* : « Avec mes gants de sport et mon bonnet, j'ai même pas froid ! »\n  - *Bulle (Ayden)* : « Et surtout… vous avez vu le calendrier ? On est au mois de DÉCEMBRE ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
       "realiste": "planches/17-decembre-sous-la-neige-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq garçons dans l'ordre Léon/Lyssandro/Ayden/Nolann/Milo. Portraits sous les bonnets et buée repris localement ; bonnet manquant de Lyssandro ajouté. Son haut/bras rapprochés du modèle d'hiver : manches courtes blanches et sous-couche noire. Les bonnets sont harmonisés avec les cases suivantes : Léon bleu, Lyssandro marine, Ayden bleu à pompon, Nolann bleu, Milo gris. Carnation mate de Nolann, visages clairs des autres et cinq coureurs conservés. Corps/terrain hors zones locales gardés, pas de texte."
     },
     {
       "page": 17,
@@ -3228,12 +3325,13 @@
         523
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : **Flavien**, **Julien** et **Kilian** (en grosses vestes d'hiver du RCM et bonnets) arrivent en portant de gros boudins de plaquage bleus et rouges.\n  - *Bulle (Julien)* : « Eh oui les garçons ! Qui dit mois de décembre en U8 dit… nouvelle règle ! »\n  - *Bulle (Kilian)* : « Le touché à deux mains, c'est terminé ! À partir d'aujourd'hui, **les vrais PLAQUAGES sont autorisés** ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
       "realiste": "planches/17-decembre-sous-la-neige-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois coachs avec trois boudins bleu/rouge/bleu conservés. Portraits isolés pour Julien (moustache/bouc gris, pas barbe intégrale) et Kilian (bonnet marine ajouté, barbe et sourcils roux, pas noirs). Flavien à gauche déjà sous bonnet et identifiable, corps/mains/boudins/décor d'origine conservés. Candidat complet rejeté : il déplaçait/aplatissait les coachs et les équipements."
     },
     {
       "page": 17,
@@ -3245,12 +3343,13 @@
         916
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Les **20 joueurs U8** lèvent les bras au ciel sous les flocons de neige.\n  - *Bulle (Les 20 joueurs en chœur)* : « OUAAAAIS ! LES PLAQUAGES ! »\n  - *Bulle (Léon)* : « Enfin du vrai rugby de grands ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
       "realiste": "planches/17-decembre-sous-la-neige-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Comptage source : 17 enfants visibles, pas les 20 prescrits. Reprise de la vignette pour ajouter trois enfants anonymes derrière le groupe : 5 principaux devant, 12 autres déjà visibles, 3 ajoutés plus loin = 20. Les cinq de devant sont Léon/Lyssandro/Ayden/Nolann/Milo. Bonnet/carnation mate de Nolann et couleurs de bonnets harmonisés ; mains nues restantes reprises en gants sombres, bonnets ajoutés sur les têtes anonymes dénudées et sous-couches longues rapprochées du noir. Flocons et équipement d'hiver, pas d'adulte ni de nouveau dialogue."
     },
     {
       "page": 17,
@@ -3262,12 +3361,13 @@
         1236
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Flavien** lève le doigt pour capter toute leur attention.\n  - *Bulle (Flavien)* : « Attention les guerriers ! Plaquer, ce n'est pas se jeter n'importe comment. Pour ne blesser personne et ne pas se faire mal, il y a une technique précise à apprendre. Regardez bien ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
       "realiste": "planches/17-decembre-sous-la-neige-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Flavien de profil à gauche retrouve sa légère moustache/barbe, bonnet conservé ; son doigt levé, sa main et son corps sont gardés. Portraits des cinq enfants attentifs sous bonnets repris localement, couleurs harmonisées ; Nolann reste mat, pas arbitrairement plus foncé. Maillot uni et manches rouges de Lyssandro remplacés localement par rayures et épaules/manches courtes blanches, sous-col thermique noir. Autres corps et décor hors masque conservés."
     },
     {
       "page": 18,
@@ -4567,12 +4667,12 @@
     {
       "page": 17,
       "fichier": "Planches-dessin/17-decembre-sous-la-neige-marvel.png",
-      "sha256": "63f00c3f6cd7ea404a25599f6c382e76c43edc0626ef460ed1d91d729956fbc0",
+      "sha256": "1c4159a29266bc1bf3faf4520b6fbcebe134a5419967f7d6fde2f247c20f8b60",
       "dimensions": [
         848,
         1264
       ],
-      "octets": 2038109
+      "octets": 1587244
     },
     {
       "page": 18,
@@ -4793,15 +4893,27 @@
     {
       "vignette": "16-5",
       "motif": "Candidat complet ne corrigeait pas suffisamment les coiffures : non importé. Portrait isolé de Flavien, import de cheveux seuls pour Léon et palette locale pour Ayden/Nolann/Milo. Après dix générations utilisables/rejetées, trois demandes supplémentaires n'ont pas été produites (limite du tour) ; aucun portrait absent prétendu intégré."
+    },
+    {
+      "vignette": "17-3",
+      "motif": "Le candidat complet élargissait/aplatissait les visages et déplaçait les trois coachs et les boudins : rejeté. Deux portraits isolés Julien/Kilian intégrés aux corps originaux, en excluant logos de veste inventés et long cou de Julien."
+    },
+    {
+      "vignette": "17-4",
+      "motif": "Premier appel sans image retournée ; seconde génération fournit les trois enfants ajoutés et 20 joueurs repérés. Ce candidat conservait encore mains nues et têtes sans bonnet : corrigées localement, les bonnets anonymes proviennent d'un bonnet dessiné du même groupe, pas de nouveaux visages. Recolorations de bonnets pour continuité des cinq principaux."
+    },
+    {
+      "vignette": "17-2/5",
+      "motif": "Candidats complets modifiaient les marquages et certaines sous-couches : imports de têtes, buée et zones de tenue seulement. Le doigt de Flavien en 17/5 n'est pas remplacé. Couleurs des bonnets rapprochées d'une case à l'autre au lieu de conserver les changements arbitraires."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 84,
+    "vignettes_corrigees_premiere_passe": 89,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 68,
+    "vignettes_a_controler_individuellement": 63,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5094,6 +5206,17 @@
         "16-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-r/"
+    },
+    {
+      "base": "6735fbb",
+      "vignettes": [
+        "17-1",
+        "17-2",
+        "17-3",
+        "17-4",
+        "17-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-s/"
     }
   ],
   "relectures_sans_retouche": [

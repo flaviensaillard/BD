@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 84 |
+| Premières reprises intégrées, encore à relire | 89 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 68 |
+| Autres vignettes restant à contrôler individuellement | 63 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 84 vignettes ayant reçu une intervention ne sont pas 84 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 89 vignettes ayant reçu une intervention ne sont pas 89 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -315,6 +315,26 @@ Le maillot uni de Lyssandro en 16/3 est corrigé localement (bande bleue et manc
 
 **Réserves transversales :** âge apparent des nouveaux profils et détail portraits/corps, cohérence des franges d'Ayden entre 16/1–2 et 16/4–5, rondeur/frange de Milo en 16/3/5, raccord des cheveux seuls de Léon 16/5, col et bande du maillot de Lyssandro en 16/3, petits raccords de fond autour de Flavien 16/5, lisibilité des marquages après blanchiment de manche et correspondance visage/bras de Nolann. Rien ici ne vaut une validation définitive de ces raccords. Aucun dialogue/bulle/onomatopée ajouté. Il reste 68 cases à examiner individuellement, puis la relecture de continuité des 153 cases.
 
+## Dix-neuvième livraison : les cinq vignettes de la planche 17
+
+Première passe hivernale, pas une validation définitive. Scénario et cinq sources réalistes comparés : bonnet/gants/sous-couches pour les enfants, vestes épaisses et bonnets pour les éducateurs. Le modèle d'identité est celui de la couverture, mais les cheveux sont normalement cachés sous les bonnets ; les pics de Léon ne sont pas artificiellement ajoutés à travers son bonnet.
+
+**17/1 :** Paysage hivernal déjà dessiné en BD conservé : montagnes enneigées, stade, gradins, poteaux et projecteurs inchangés hors flocons. Ajout local de petits flocons visibles pour la chute de neige prescrite, sans changer la météo lumineuse ni le cadrage.
+
+**17/2 :** Cinq garçons dans l'ordre Léon/Lyssandro/Ayden/Nolann/Milo. Portraits sous les bonnets et buée repris localement ; bonnet manquant de Lyssandro ajouté. Son haut/bras rapprochés du modèle d'hiver : manches courtes blanches et sous-couche noire. Les bonnets sont harmonisés avec les cases suivantes : Léon bleu, Lyssandro marine, Ayden bleu à pompon, Nolann bleu, Milo gris. Carnation mate de Nolann, visages clairs des autres et cinq coureurs conservés. Corps/terrain hors zones locales gardés, pas de texte.
+
+**17/3 :** Trois coachs avec trois boudins bleu/rouge/bleu conservés. Portraits isolés pour Julien (moustache/bouc gris, pas barbe intégrale) et Kilian (bonnet marine ajouté, barbe et sourcils roux, pas noirs). Flavien à gauche déjà sous bonnet et identifiable, corps/mains/boudins/décor d'origine conservés. Candidat complet rejeté : il déplaçait/aplatissait les coachs et les équipements.
+
+**17/4 :** Comptage source : 17 enfants visibles, pas les 20 prescrits. Reprise de la vignette pour ajouter trois enfants anonymes derrière le groupe : 5 principaux devant, 12 autres déjà visibles, 3 ajoutés plus loin = 20. Les cinq de devant sont Léon/Lyssandro/Ayden/Nolann/Milo. Bonnet/carnation mate de Nolann et couleurs de bonnets harmonisés ; mains nues restantes reprises en gants sombres, bonnets ajoutés sur les têtes anonymes dénudées et sous-couches longues rapprochées du noir. Flocons et équipement d'hiver, pas d'adulte ni de nouveau dialogue.
+
+**17/5 :** Flavien de profil à gauche retrouve sa légère moustache/barbe, bonnet conservé ; son doigt levé, sa main et son corps sont gardés. Portraits des cinq enfants attentifs sous bonnets repris localement, couleurs harmonisées ; Nolann reste mat, pas arbitrairement plus foncé. Maillot uni et manches rouges de Lyssandro remplacés localement par rayures et épaules/manches courtes blanches, sous-col thermique noir. Autres corps et décor hors masque conservés.
+
+Preuves : `revue-couverture/lot-s/17-AVANT-APRES.jpg`, cinq masques et **`17-4-COMPTAGE.jpg/.json`**. Le repérage numérote 20 têtes distinctes (les 5 principaux, 12 anonymes déjà présents, puis les 3 ajouts), dont des enfants de dos ou partiellement masqués par les bras. Ce n'est pas une reconnaissance automatique des identités ; les points ont été relus visuellement sur le montage. Les sources BD et réaliste montraient seulement 17 enfants : elles ne priment pas sur le nombre de 20 demandé dans le scénario.
+
+Seule 17/4 est reprise dans son ensemble pour réparer le groupe ; les autres cases sont des retouches locales. Les flocons de 17/1 sont la seule intervention sur le paysage déjà dessiné : pas de nouveau décor ou de visage à y inventer. Le candidat déplaçant les trois coachs et leurs boudins est écarté. Le maintien des corps originaux conserve les boudins bleu/rouge/bleu et le doigt levé de 17/5. Les bonnets manquants des anonymes sont des imports d'un bonnet déjà dessiné dans le groupe, détourés derrière les poings du premier plan ; pas une substitution d'identités.
+
+**Réserves de continuité à relire :** mêmes cinq visages sous les bonnets entre 17/2, 17/4 et 17/5, âge apparent des visages et écart de détail corps/portraits, forme (pas seulement couleur) des bonnets, mains gantées/occlusions et rattachement des bras aux 20 corps, sous-couches et manches courtes blanches encore à revoir sur les anonymes en arrière-plan, carnation de Nolann visage/cou, cols des coachs et petits raccords des bonnets ajoutés. L'ajout de trois enfants et le repérage de 20 têtes ne certifient pas seuls l'anatomie de tous les bras. Aucun dialogue, bulle ni onomatopée ajouté. Il reste 63 cases à examiner individuellement, puis la relecture transversale de toute la série.
+
 ## Contrôles techniques et audits historiques
 
 `outils/retouche/verifier_revue_couverture.py` compare les 31 PNG au début de la revue : couverture inchangée, dimensions, empreintes, absence de modification des fichiers non concernés et invariance des pixels hors masques. Il contrôle également la cohérence des états et du bilan. **Il ne mesure pas la ressemblance ou la qualité du dessin.**
@@ -323,7 +343,7 @@ Les vérificateurs des audits 13–22, comme ceux de 23–30, s’appliquent dé
 
 ## Suite obligatoire
 
-Contrôler individuellement les **68 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
+Contrôler individuellement les **63 autres vignettes**, terminer **14/2**, puis relire les premières reprises, notamment les six cases de la planche 4 et les réserves de scénario. Vérifier systématiquement chaque occurrence de Nolann et des sept autres personnages, ainsi que décors et encrage : la revue ne peut pas se limiter aux couleurs de peau/cheveux.
 
 Procédure : identification au scénario → comparaison aux personnages de couverture → comparaison à la planche réaliste → correction locale → relecture en contexte de page. Les raccords cou/cheveux/mains et les tenues restent à contrôler. Aucun candidat simplement généré n’est automatiquement validé.
 
