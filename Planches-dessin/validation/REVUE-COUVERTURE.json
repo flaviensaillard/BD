@@ -2248,6 +2248,90 @@
       "type": "reprise_graphique",
       "intervention": "Ligne des cinq copains (Léon, Lyssandro, Ayden, Nolann au teint mat, Milo) : visages adoucis et rapprochés de la couverture, chevelure châtain clair d'Ayden, teint mat de Nolann, et clin d'œil complice de Milo à droite (un œil fermé, un œil ouvert).",
       "masque": "Planches-dessin/validation/revue-couverture/lot-z/22-5-masque.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-1",
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "rectangle": [
+        25,
+        56,
+        840,
+        324
+      ],
+      "source": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        159,
+        2411,
+        923
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Bande 1 (L'Art de la Passe) : reprise intégrale des cinq garçons en séquence de passe de gauche à droite (Léon venant de passer près des poteaux, ballon en vol vers Lyssandro mains en W, puis Ayden aux cheveux châtain clair, Nolann au teint mat et Milo en soutien) dans le style de la couverture.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-aa/23-1-masque.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-2",
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "rectangle": [
+        25,
+        340,
+        840,
+        608
+      ],
+      "source": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        968,
+        2411,
+        1731
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Bande 2 (La Défense en Ligne) : reprise des cinq garçons montant de front (Léon, Lyssandro, Ayden au centre bras écartés avec sa chevelure châtain clair rétablie, Nolann au teint mat, Milo à droite) et nettoyage des taches blanches de postérisation sur la crête montagneuse.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-aa/23-2-masque.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-3",
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "rectangle": [
+        25,
+        624,
+        840,
+        892
+      ],
+      "source": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        1777,
+        2411,
+        2540
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Bande 3 (Le Soutien Offensif et le Plaquage) : reprise de Lyssandro ballon en mains plaqué bas par le partenaire en chasuble jaune (dont la tête est désormais distincte sous le ballon), entouré de Léon à gauche et Milo à droite surgissant au soutien ; nettoyage des griffonnages parasites sur le mur blanc du club-house.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-aa/23-3-masque.png"
+    },
+    {
+      "page": 23,
+      "vignette": "23-4",
+      "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
+      "rectangle": [
+        25,
+        908,
+        840,
+        1176
+      ],
+      "source": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        2585,
+        2411,
+        3349
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Bande 4 (Le Regard des Coachs) : reprise de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique) sur la touche à gauche, ainsi que des groupes d'entraînement au premier plan à droite, en conservant les éducateurs d'arrière-plan.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-aa/23-4-masque.png"
     }
   ],
   "vignettes": [
@@ -4351,12 +4435,13 @@
         327
       ],
       "scenario": null,
-      "raccord_scenario": "decoupage_different_raccord_a_etablir",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": "**Découpage :** 4 grandes bandes horizontales ultra-dynamiques façon planche d'action Marvel.  \n**Lieu / Tenue :** Stade de La Motte-Servolex au soleil. Tenues du RCM.\n\n- **Bande 1 — L'Art de la Passe** :\n  - *Visuel* : Séquence décomposée (effet *motion-blur* Comics) où le ballon vole de mains en mains : **Léon** fixe → passe en arrière à **Lyssandro** → passe à **Ayden** → passe à **Nolann** → passe à **Milo** qui marque !\n  - *Bulle (Léon)* : « Mains en W ! »\n  - *Bulle (Lyssandro)* : « Toujours en arrière, zéro en-avant ! »\n  - *Bulle (Milo)* : « Et au bout, toute la ligne a touché le ballon ! »\n- **Bande 2 — La Défense en Ligne** :\n  - *Visuel* : Les cinq garçons montent de front sur les 20 mètres de largeur. **Ayden** au centre communique avec ses bras pendant que **Nolann** et **Léon** ferment les extérieurs.\n  - *Bulle (Ayden)* : « À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon ! »\n  - *Bulle (Léon)* : « Je te vois Ayden, on est alignés ! Personne n'est hors-jeu ! »\n- **Bande 3 — Le Soutien Offensif & le Plaquage** :\n  - *Visuel* : **Lyssandro** est plaqué aux jambes par un adversaire d'entraînement, mais dans la même seconde, **Léon** et **Milo** surgissent à sa hauteur pour recevoir sa passe au contact.\n  - *Bulle (Lyssandro)* : « Je suis pris aux jambes ! Soutien ! »\n  - *Bulle (Léon & Milo)* : « ON EST LÀ DANS TON DOS ! »\n- **Bande 4 — Le Regard des Coachs** :\n  - *Visuel* : **Flavien**, **Julien** (sifflet au cou) et **Kilian** regardent les 20 enfants s'entraîner avec une harmonie parfaite sous le soleil savoyard.\n  - *Bulle (Julien)* : « Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule ! »\n  - *Bulle (Kilian)* : « Ils sont prêts pour le dernier grand tournoi de la saison. »\n\n---\n\n",
       "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
       "realiste": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Bande 1 (L'Art de la Passe) : reprise intégrale des cinq garçons en séquence de passe de gauche à droite (Léon venant de passer près des poteaux, ballon en vol vers Lyssandro mains en W, puis Ayden aux cheveux châtain clair, Nolann au teint mat et Milo en soutien) dans le style de la couverture."
     },
     {
       "page": 23,
@@ -4368,12 +4453,13 @@
         611
       ],
       "scenario": null,
-      "raccord_scenario": "decoupage_different_raccord_a_etablir",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": "**Découpage :** 4 grandes bandes horizontales ultra-dynamiques façon planche d'action Marvel.  \n**Lieu / Tenue :** Stade de La Motte-Servolex au soleil. Tenues du RCM.\n\n- **Bande 1 — L'Art de la Passe** :\n  - *Visuel* : Séquence décomposée (effet *motion-blur* Comics) où le ballon vole de mains en mains : **Léon** fixe → passe en arrière à **Lyssandro** → passe à **Ayden** → passe à **Nolann** → passe à **Milo** qui marque !\n  - *Bulle (Léon)* : « Mains en W ! »\n  - *Bulle (Lyssandro)* : « Toujours en arrière, zéro en-avant ! »\n  - *Bulle (Milo)* : « Et au bout, toute la ligne a touché le ballon ! »\n- **Bande 2 — La Défense en Ligne** :\n  - *Visuel* : Les cinq garçons montent de front sur les 20 mètres de largeur. **Ayden** au centre communique avec ses bras pendant que **Nolann** et **Léon** ferment les extérieurs.\n  - *Bulle (Ayden)* : « À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon ! »\n  - *Bulle (Léon)* : « Je te vois Ayden, on est alignés ! Personne n'est hors-jeu ! »\n- **Bande 3 — Le Soutien Offensif & le Plaquage** :\n  - *Visuel* : **Lyssandro** est plaqué aux jambes par un adversaire d'entraînement, mais dans la même seconde, **Léon** et **Milo** surgissent à sa hauteur pour recevoir sa passe au contact.\n  - *Bulle (Lyssandro)* : « Je suis pris aux jambes ! Soutien ! »\n  - *Bulle (Léon & Milo)* : « ON EST LÀ DANS TON DOS ! »\n- **Bande 4 — Le Regard des Coachs** :\n  - *Visuel* : **Flavien**, **Julien** (sifflet au cou) et **Kilian** regardent les 20 enfants s'entraîner avec une harmonie parfaite sous le soleil savoyard.\n  - *Bulle (Julien)* : « Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule ! »\n  - *Bulle (Kilian)* : « Ils sont prêts pour le dernier grand tournoi de la saison. »\n\n---\n\n",
       "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
       "realiste": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Bande 2 (La Défense en Ligne) : reprise des cinq garçons montant de front (Léon, Lyssandro, Ayden au centre bras écartés avec sa chevelure châtain clair rétablie, Nolann au teint mat, Milo à droite) et nettoyage des taches blanches de postérisation sur la crête montagneuse."
     },
     {
       "page": 23,
@@ -4385,12 +4471,13 @@
         895
       ],
       "scenario": null,
-      "raccord_scenario": "decoupage_different_raccord_a_etablir",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": "**Découpage :** 4 grandes bandes horizontales ultra-dynamiques façon planche d'action Marvel.  \n**Lieu / Tenue :** Stade de La Motte-Servolex au soleil. Tenues du RCM.\n\n- **Bande 1 — L'Art de la Passe** :\n  - *Visuel* : Séquence décomposée (effet *motion-blur* Comics) où le ballon vole de mains en mains : **Léon** fixe → passe en arrière à **Lyssandro** → passe à **Ayden** → passe à **Nolann** → passe à **Milo** qui marque !\n  - *Bulle (Léon)* : « Mains en W ! »\n  - *Bulle (Lyssandro)* : « Toujours en arrière, zéro en-avant ! »\n  - *Bulle (Milo)* : « Et au bout, toute la ligne a touché le ballon ! »\n- **Bande 2 — La Défense en Ligne** :\n  - *Visuel* : Les cinq garçons montent de front sur les 20 mètres de largeur. **Ayden** au centre communique avec ses bras pendant que **Nolann** et **Léon** ferment les extérieurs.\n  - *Bulle (Ayden)* : « À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon ! »\n  - *Bulle (Léon)* : « Je te vois Ayden, on est alignés ! Personne n'est hors-jeu ! »\n- **Bande 3 — Le Soutien Offensif & le Plaquage** :\n  - *Visuel* : **Lyssandro** est plaqué aux jambes par un adversaire d'entraînement, mais dans la même seconde, **Léon** et **Milo** surgissent à sa hauteur pour recevoir sa passe au contact.\n  - *Bulle (Lyssandro)* : « Je suis pris aux jambes ! Soutien ! »\n  - *Bulle (Léon & Milo)* : « ON EST LÀ DANS TON DOS ! »\n- **Bande 4 — Le Regard des Coachs** :\n  - *Visuel* : **Flavien**, **Julien** (sifflet au cou) et **Kilian** regardent les 20 enfants s'entraîner avec une harmonie parfaite sous le soleil savoyard.\n  - *Bulle (Julien)* : « Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule ! »\n  - *Bulle (Kilian)* : « Ils sont prêts pour le dernier grand tournoi de la saison. »\n\n---\n\n",
       "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
       "realiste": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Bande 3 (Le Soutien Offensif et le Plaquage) : reprise de Lyssandro ballon en mains plaqué bas par le partenaire en chasuble jaune (dont la tête est désormais distincte sous le ballon), entouré de Léon à gauche et Milo à droite surgissant au soutien ; nettoyage des griffonnages parasites sur le mur blanc du club-house."
     },
     {
       "page": 23,
@@ -4402,12 +4489,13 @@
         1179
       ],
       "scenario": null,
-      "raccord_scenario": "decoupage_different_raccord_a_etablir",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": "**Découpage :** 4 grandes bandes horizontales ultra-dynamiques façon planche d'action Marvel.  \n**Lieu / Tenue :** Stade de La Motte-Servolex au soleil. Tenues du RCM.\n\n- **Bande 1 — L'Art de la Passe** :\n  - *Visuel* : Séquence décomposée (effet *motion-blur* Comics) où le ballon vole de mains en mains : **Léon** fixe → passe en arrière à **Lyssandro** → passe à **Ayden** → passe à **Nolann** → passe à **Milo** qui marque !\n  - *Bulle (Léon)* : « Mains en W ! »\n  - *Bulle (Lyssandro)* : « Toujours en arrière, zéro en-avant ! »\n  - *Bulle (Milo)* : « Et au bout, toute la ligne a touché le ballon ! »\n- **Bande 2 — La Défense en Ligne** :\n  - *Visuel* : Les cinq garçons montent de front sur les 20 mètres de largeur. **Ayden** au centre communique avec ses bras pendant que **Nolann** et **Léon** ferment les extérieurs.\n  - *Bulle (Ayden)* : « À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon ! »\n  - *Bulle (Léon)* : « Je te vois Ayden, on est alignés ! Personne n'est hors-jeu ! »\n- **Bande 3 — Le Soutien Offensif & le Plaquage** :\n  - *Visuel* : **Lyssandro** est plaqué aux jambes par un adversaire d'entraînement, mais dans la même seconde, **Léon** et **Milo** surgissent à sa hauteur pour recevoir sa passe au contact.\n  - *Bulle (Lyssandro)* : « Je suis pris aux jambes ! Soutien ! »\n  - *Bulle (Léon & Milo)* : « ON EST LÀ DANS TON DOS ! »\n- **Bande 4 — Le Regard des Coachs** :\n  - *Visuel* : **Flavien**, **Julien** (sifflet au cou) et **Kilian** regardent les 20 enfants s'entraîner avec une harmonie parfaite sous le soleil savoyard.\n  - *Bulle (Julien)* : « Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule ! »\n  - *Bulle (Kilian)* : « Ils sont prêts pour le dernier grand tournoi de la saison. »\n\n---\n\n",
       "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
       "realiste": "planches/23-les-trois-piliers-du-jeu-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Bande 4 (Le Regard des Coachs) : reprise de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique) sur la touche à gauche, ainsi que des groupes d'entraînement au premier plan à droite, en conservant les éducateurs d'arrière-plan."
     },
     {
       "page": 24,
@@ -5257,12 +5345,12 @@
     {
       "page": 23,
       "fichier": "Planches-dessin/23-les-trois-piliers-du-jeu-marvel.png",
-      "sha256": "75ae248335e50fcfcb883a2a95c1b8aa723a23bedd987d9c00f036242d4bfa87",
+      "sha256": "ee5f15a9a787398bb2e393f8e25d5de9f793a1146f7ee8d8283185a3007ae70f",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1791351
+      "octets": 1741282
     },
     {
       "page": 24,
@@ -5491,15 +5579,23 @@
     {
       "vignette": "22-5",
       "motif": "Un premier candidat recadrait la scène en plan en pied vertical sur une ligne blanche inventée ; le second candidat conserve le cadrage mi-jambe d'origine mais fermait les deux yeux de Milo, corrigé par réouverture de son œil gauche pour restituer le clin d'œil complice."
+    },
+    {
+      "vignette": "23-1",
+      "motif": "Le bord gauche du sous-recadrage droit (23-1R) dupliquait partiellement Lyssandro avec un second ballon ; zone exclue au montage par raccord dans l'herbe ouverte entre le pied arrière de Lyssandro et Ayden."
+    },
+    {
+      "vignette": "23-4",
+      "motif": "Le sous-recadrage droit (23-4R) altérait quelques silhouettes très lointaines d'éducateurs près des poteaux du fond ; l'intégration est restreinte au groupe d'entraînement de droite au premier plan pour conserver les silhouettes d'arrière-plan intactes."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 115,
+    "vignettes_corrigees_premiere_passe": 119,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 37,
+    "vignettes_a_controler_individuellement": 33,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5883,6 +5979,17 @@
         "22-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-z/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "76ba242",
+      "vignettes": [
+        "23-1",
+        "23-2",
+        "23-3",
+        "23-4"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-aa/",
       "reste_a_reprendre": []
     }
   ],

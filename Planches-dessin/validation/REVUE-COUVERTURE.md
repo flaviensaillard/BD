@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 115 |
+| Premières reprises intégrées, encore à relire | 119 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 37 |
+| Autres vignettes restant à contrôler individuellement | 33 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 115 vignettes ayant reçu une intervention ne sont pas 115 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 119 vignettes ayant reçu une intervention ne sont pas 119 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -448,6 +448,24 @@ Preuves : `revue-couverture/lot-z/22-AVANT-APRES.jpg` et cinq masques des intér
 **Réserves de relecture transversale :** harmonisation fine des visages de face dans 22/1 et 22/5 (notamment la micro-frange frontale de Nolann par rapport à sa coupe très courte actuelle et l'homogénéité des traits avec la couverture), nettoyage de quelques manches sombres résiduelles sur de petites silhouettes d'arrière-plan dans 22/1 et 22/2, et cohérence des écussons/inscriptions de maillots (`LOCASELF` déformé par la génération).
 
 **Bilan courant : 115 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 37 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 23.** Aucune bulle ni texte ajouté.
+
+## Vingt-cinquième livraison : les quatre bandes de la planche 23
+
+Contrôle des quatre bandes horizontales (« Les Trois Piliers du Jeu ») avec la couverture comme unique référence de style et d'identités, en utilisant des sous-recadrages pleine hauteur (ratios natifs 16:9 et 5:4) afin d'éviter tout écrasement vertical des personnages.
+
+**23/1 :** Bande 1 (L'Art de la Passe) : reprise intégrale des cinq garçons en séquence de passe de gauche à droite (Léon venant de passer près des poteaux, ballon en vol vers Lyssandro mains en W, puis Ayden aux cheveux châtain clair, Nolann au teint mat et Milo en soutien) dans le style de la couverture.
+
+**23/2 :** Bande 2 (La Défense en Ligne) : reprise des cinq garçons montant de front (Léon, Lyssandro, Ayden au centre bras écartés avec sa chevelure châtain clair rétablie, Nolann au teint mat, Milo à droite) et nettoyage des taches blanches de postérisation sur la crête montagneuse.
+
+**23/3 :** Bande 3 (Le Soutien Offensif et le Plaquage) : reprise de Lyssandro ballon en mains plaqué bas par le partenaire en chasuble jaune (dont la tête est désormais distincte sous le ballon), entouré de Léon à gauche et Milo à droite surgissant au soutien ; nettoyage des griffonnages parasites sur le mur blanc du club-house.
+
+**23/4 :** Bande 4 (Le Regard des Coachs) : reprise de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique) sur la touche à gauche, ainsi que des groupes d'entraînement au premier plan à droite, en conservant les éducateurs d'arrière-plan.
+
+Preuves : `revue-couverture/lot-aa/23-AVANT-APRES.jpg` et quatre masques des intérieurs de bandes. Cadres et gouttières hors masques intégralement préservés.
+
+**Réserves de relecture transversale :** harmonisation fine des visages à petite échelle dans 23/1 et 23/2, lisibilité de la tête du plaqueur en chasuble jaune sous le ballon dans 23/3, et homogénéité du fond postérisé hors zones d'acteurs (nuages sur la crête de 23/2, petites silhouettes d'ateliers au second plan de 23/4).
+
+**Bilan courant : 119 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 33 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 24.** Aucune bulle ni texte ajouté.
 
 ## Contrôles techniques et audits historiques
 
