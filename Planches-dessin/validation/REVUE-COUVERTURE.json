@@ -1817,9 +1817,9 @@
         2404,
         2754
       ],
-      "type": "correction_partielle",
-      "intervention": "PARTIEL : deuxième défenseur anonyme ajouté à gauche, deux plaqueurs désormais visibles autour de Léon au lieu d'un seul. Bonnet de Léon rapproché du bleu, thermiques longs rapprochés du noir. Le défenseur de gauche prend bas au genou ; le défenseur de droite garde une prise trop haute, encore proche taille/haut de hanche. Ce montage n'est PAS déclaré conforme au plaquage aux jambes : baisser/reconstruire la prise droite avant de poursuivre la validation de cette case. Pas de PAF ajouté.",
-      "masque": "Planches-dessin/validation/revue-couverture/lot-t/18-4-masque.png"
+      "type": "reprise_graphique",
+      "intervention": "Reprise U après le lot T partiel : avant-bras et gant du défenseur droit reconstruits sur la cuisse, sous la ceinture, sa tête au contact latéral de la jambe et son buste dégagé. Import borné au seul défenseur droit et à l'ancienne prise, pas du candidat entier. Léon, visage, ballon, haut du corps et défenseur gauche conservés hors masque. Deux plaqueurs lisibles, prises désormais basses ; relecture transversale de la chute et des contacts reste requise, aucune validation définitive.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-u/18-4-masque-cumulatif.png"
     },
     {
       "page": 18,
@@ -1858,6 +1858,101 @@
       "type": "reprise_graphique",
       "intervention": "Flavien à gauche et Kilian à droite applaudissent : portrait de Kilian repris localement avec barbe/sourcils roux ; son bonnet original est conservé, sans l'écusson inventé sur le portrait généré. Flavien déjà reconnaissable, corps et quatre mains gantées applaudissant gardés. Candidat complet rejeté pour proportions aplaties et gestes déplacés.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-t/18-6-masque.png"
+    },
+    {
+      "page": 19,
+      "vignette": "19-1",
+      "rectangle": [
+        28,
+        89,
+        836,
+        542
+      ],
+      "source_rectangle": [
+        76,
+        253,
+        2404,
+        1559
+      ],
+      "type": "correction_partielle",
+      "intervention": "PARTIEL : Cinq garçons en pause, gauche à droite Léon/Lyssandro/Nolann/Ayden/Milo : bonnets bleu/marine/bleu/bleu à pompon/gris ajoutés, portraits locaux rapprochés des références. Trois portraits isolés pour Léon, Milo et Nolann, ce dernier regardant vers son crampon et le dessin ; peau trop mate du candidat Milo éclaircie localement pour ne pas confondre avec Nolann. Deux autres portraits du candidat recalés individuellement, sans importer le cadrage aplati. Caps de manches blanchis, longs thermiques, gants et jambes nues de Nolann couverts en sombre. Bouteilles, corps et schéma dans la neige d'origine conservés hors zones locales ; trace de crampon renforcée sans texte. Le montage intégré garde des raccords visibles : petite zone de ciel rectangulaire au-dessus de Léon, bords et jonctions col/bonnet/épaule de Lyssandro et Ayden et contours/limites de caps de manches, en particulier Milo. Ces défauts sont vus et non validés ; nettoyer avant de poursuivre vers la planche 20. La correction de la tenue n'est pas déclarée terminée.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-1-masque.png"
+    },
+    {
+      "page": 19,
+      "vignette": "19-2",
+      "rectangle": [
+        28,
+        557,
+        424,
+        837
+      ],
+      "source_rectangle": [
+        76,
+        1595,
+        1222,
+        2407
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Trois copains : Lyssandro à gauche, Milo au centre et Nolann à droite. Le texte impose les trois noms mais pas leur ordre. Nolann déjà mat à droite est conservé à cette place ; l'enfant clair du centre reçoit le portrait sous bonnet gris de Milo, pas un Nolann blanchi ou un Ayden substitué. Portraits sous bonnets recalés séparément, pas le candidat de case entière au mauvais cadrage. Manches courtes blanches, thermiques et gants sombres repris localement ; bras autour des épaules et gestes du milieu gardés.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-2-masque.png"
+    },
+    {
+      "page": 19,
+      "vignette": "19-3",
+      "rectangle": [
+        440,
+        557,
+        836,
+        837
+      ],
+      "source_rectangle": [
+        1258,
+        1595,
+        2404,
+        2407
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Trois éducateurs seuls au premier plan : Flavien à gauche, Julien au milieu, Kilian à droite. Reprises locales des traits et pilosités : légère barbe brune, moustache/bouc gris, barbe rousse sous bonnets. Calendrier/presse-papiers et mains d'origine, silhouettes lointaines des enfants et terrain hors masques conservés. Pas d'ajout de fausse date ou de texte sur la feuille.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-3-masque.png"
+    },
+    {
+      "page": 19,
+      "vignette": "19-4",
+      "rectangle": [
+        28,
+        852,
+        425,
+        1195
+      ],
+      "source_rectangle": [
+        76,
+        2443,
+        1222,
+        3255
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Kilian à gauche montrant la feuille, Flavien à droite : portraits locaux rapprochés de la couverture, barbe/sourcils roux et légère moustache/barbe brune respectifs. Bonnets, gestes gantés, feuille originale et ses marques non verbales, manteaux et décor hors masques gardés. Aucun contenu de dialogue écrit sur la feuille.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-4-masque.png"
+    },
+    {
+      "page": 19,
+      "vignette": "19-5",
+      "rectangle": [
+        440,
+        852,
+        836,
+        1195
+      ],
+      "source_rectangle": [
+        1258,
+        2443,
+        2404,
+        3255
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Lyssandro à gauche, Julien derrière au centre, Léon à droite : bonnets marine/marine/bleu ajoutés sans changer les regards échangés et les sourires. Visages rapprochés des modèles, bouc/moustache gris de Julien conservés ; longs cols thermiques sombres et manches extérieures blanches, notamment le cap rouge de Lyssandro repris. Corps et écussons hors zones locales conservés ; petits marquages historiques restent à harmoniser avec la série.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-5-masque.png"
     }
   ],
   "vignettes": [
@@ -3547,13 +3642,13 @@
         961
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Opposition à 5 contre 5. **Léon** porte le ballon mais deux joueurs d'une autre équipe du RCM montent bien en ligne et le plaquent proprement aux jambes dans l'herbe givrée !\n  - *Onomatopée* : **« PAF ! »**",
-      "raccord_scenario": "prise_droite_trop_haute_a_reconstruire",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/18-ecole-du-plaquage-dans-le-froid-marvel.png",
       "realiste": "planches/18-ecole-du-plaquage-dans-le-froid-realisme-sans-texte.png",
-      "etat": "correction_partielle_reste_a_reprendre",
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "PARTIEL : deuxième défenseur anonyme ajouté à gauche, deux plaqueurs désormais visibles autour de Léon au lieu d'un seul. Bonnet de Léon rapproché du bleu, thermiques longs rapprochés du noir. Le défenseur de gauche prend bas au genou ; le défenseur de droite garde une prise trop haute, encore proche taille/haut de hanche. Ce montage n'est PAS déclaré conforme au plaquage aux jambes : baisser/reconstruire la prise droite avant de poursuivre la validation de cette case. Pas de PAF ajouté."
+      "intervention": "Reprise U après le lot T partiel : avant-bras et gant du défenseur droit reconstruits sur la cuisse, sous la ceinture, sa tête au contact latéral de la jambe et son buste dégagé. Import borné au seul défenseur droit et à l'ancienne prise, pas du candidat entier. Léon, visage, ballon, haut du corps et défenseur gauche conservés hors masque. Deux plaqueurs lisibles, prises désormais basses ; relecture transversale de la chute et des contacts reste requise, aucune validation définitive."
     },
     {
       "page": 18,
@@ -3601,12 +3696,13 @@
         545
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Pause boisson au bord du terrain. Les cinq garçons discutent entre eux, leurs bonnets sur la tête, en dessinant avec le bout de leurs crampons dans la fine neige au bord de la touche.\n  - *Bulle (Léon)* : « Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaquages maintenant, le premier qui a le ballon se fait presque toujours arrêter s'il court tout droit. »\n  - *Bulle (Ayden)* : « Oui ! Alors que si on est deux juste derrière lui en **soutien offensif**, dès qu'il est plaqué, l'action continue sans s'arrêter ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "raccords_de_montage_et_tenues_a_nettoyer",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "correction_partielle_reste_a_reprendre",
+      "validation_definitive": false,
+      "intervention": "PARTIEL : Cinq garçons en pause, gauche à droite Léon/Lyssandro/Nolann/Ayden/Milo : bonnets bleu/marine/bleu/bleu à pompon/gris ajoutés, portraits locaux rapprochés des références. Trois portraits isolés pour Léon, Milo et Nolann, ce dernier regardant vers son crampon et le dessin ; peau trop mate du candidat Milo éclaircie localement pour ne pas confondre avec Nolann. Deux autres portraits du candidat recalés individuellement, sans importer le cadrage aplati. Caps de manches blanchis, longs thermiques, gants et jambes nues de Nolann couverts en sombre. Bouteilles, corps et schéma dans la neige d'origine conservés hors zones locales ; trace de crampon renforcée sans texte. Le montage intégré garde des raccords visibles : petite zone de ciel rectangulaire au-dessus de Léon, bords et jonctions col/bonnet/épaule de Lyssandro et Ayden et contours/limites de caps de manches, en particulier Milo. Ces défauts sont vus et non validés ; nettoyer avant de poursuivre vers la planche 20. La correction de la tenue n'est pas déclarée terminée."
     },
     {
       "page": 19,
@@ -3618,12 +3714,13 @@
         840
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : **Lyssandro**, **Nolann** et **Milo** hochent la tête avec enthousiasme.\n  - *Bulle (Lyssandro)* : « Et en défense, c'est pareil : mon papa dit que si un seul de nous cinq monte trop vite, il est hors-jeu ou il se fait éviter. Faut qu'on avance comme un mur ! »\n  - *Bulle (Milo)* : « Le mur Rouge, Bleu et Blanc du RCM ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois copains : Lyssandro à gauche, Milo au centre et Nolann à droite. Le texte impose les trois noms mais pas leur ordre. Nolann déjà mat à droite est conservé à cette place ; l'enfant clair du centre reçoit le portrait sous bonnet gris de Milo, pas un Nolann blanchi ou un Ayden substitué. Portraits sous bonnets recalés séparément, pas le candidat de case entière au mauvais cadrage. Manches courtes blanches, thermiques et gants sombres repris localement ; bras autour des épaules et gestes du milieu gardés."
     },
     {
       "page": 19,
@@ -3635,12 +3732,13 @@
         840
       ],
       "scenario": "- **Vignette 3 (Scène entre les 3 coachs seuls, un peu plus loin)** :\n  - *Visuel* : **Flavien**, **Julien** et **Kilian** observent les 20 joueurs tout en consultant le calendrier des tournois d'hiver et de printemps.\n  - *Bulle (Julien)* : « Regardez-les tous les cinq là-bas… Ils n'attendent même plus qu'on leur parle, ils préparent déjà leurs combinaisons entre eux ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Trois éducateurs seuls au premier plan : Flavien à gauche, Julien au milieu, Kilian à droite. Reprises locales des traits et pilosités : légère barbe brune, moustache/bouc gris, barbe rousse sous bonnets. Calendrier/presse-papiers et mains d'origine, silhouettes lointaines des enfants et terrain hors masques conservés. Pas d'ajout de fausse date ou de texte sur la feuille."
     },
     {
       "page": 19,
@@ -3652,12 +3750,13 @@
         1198
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : **Kilian** montre la feuille de match du plateau d'hiver à venir.\n  - *Bulle (Kilian)* : « Ce week-end, on affronte **Le Môle** et **Thonon**. Ce sont deux équipes très solides qui plaquent fort. »\n  - *Bulle (Flavien)* : « Ce sera le vrai test pour voir si Léon garde son calme quand un copain fera une erreur sous pression. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Kilian à gauche montrant la feuille, Flavien à droite : portraits locaux rapprochés de la couverture, barbe/sourcils roux et légère moustache/barbe brune respectifs. Bonnets, gestes gantés, feuille originale et ses marques non verbales, manteaux et décor hors masques gardés. Aucun contenu de dialogue écrit sur la feuille."
     },
     {
       "page": 19,
@@ -3669,12 +3768,13 @@
         1198
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Julien sourit sous sa moustache grise en regardant Lyssandro et Léon rire ensemble.\n  - *Bulle (Julien)* : « J'ai confiance en eux, Flavien. Nos petits U8 sont en train de devenir une vraie équipe de rugby. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Lyssandro à gauche, Julien derrière au centre, Léon à droite : bonnets marine/marine/bleu ajoutés sans changer les regards échangés et les sourires. Visages rapprochés des modèles, bouc/moustache gris de Julien conservés ; longs cols thermiques sombres et manches extérieures blanches, notamment le cap rouge de Lyssandro repris. Corps et écussons hors zones locales conservés ; petits marquages historiques restent à harmoniser avec la série."
     },
     {
       "page": 20,
@@ -4797,22 +4897,22 @@
     {
       "page": 18,
       "fichier": "Planches-dessin/18-ecole-du-plaquage-dans-le-froid-marvel.png",
-      "sha256": "dfe250b13c9f1a01d138aaaac3bcd52d0120004fb09b7a6bb7ef854023c2946a",
+      "sha256": "6787e2dd8f9ee5b420210cce9b6f3eaf6deefeb94e3c6c320e7d163ef059d42c",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1767600
+      "octets": 1768030
     },
     {
       "page": 19,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
-      "sha256": "8db228f0f39b2429843a1b964b06076e6c04b73eae536efbf98eeb79872d54c7",
+      "sha256": "7ad5fa559711d9179ec61680cd63427db14d305a06c700f4ba9e88efb11f3dcf",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1606671
+      "octets": 1542997
     },
     {
       "page": 20,
@@ -5037,15 +5137,19 @@
     {
       "vignette": "18-3/6",
       "motif": "Candidat 18/3 conservait des bandes bleues/rouges sur les caps de manches : correction locale supplémentaire vers blanc. Portrait Kilian 18/6 inventait un badge de bonnet : bonnet original conservé, visage/barbe seuls importés."
+    },
+    {
+      "vignette": "19-1/2",
+      "motif": "Candidats entiers déplaçaient les corps et aplatissaient les visages : non importés tels quels. Portraits individuels recalés, trois portraits isolés en 19/1. Le premier visage frontal de Nolann 19/1 est écarté au profit du portrait isolé aux yeux baissés vers le crampon et le dessin. Le montage 19/1 reste PARTIEL pour raccords et caps de manches ; prochaine priorité, pas de passage direct à 20."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 94,
+    "vignettes_corrigees_premiere_passe": 99,
     "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 57,
+    "vignettes_a_controler_individuellement": 52,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5363,6 +5467,28 @@
       "preuves": "Planches-dessin/validation/revue-couverture/lot-t/",
       "reste_a_reprendre": [
         "18-4"
+      ]
+    },
+    {
+      "base": "fa72eec",
+      "vignettes": [
+        "18-4"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-u/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "fa72eec",
+      "vignettes": [
+        "19-1",
+        "19-2",
+        "19-3",
+        "19-4",
+        "19-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-v/",
+      "reste_a_reprendre": [
+        "19-1"
       ]
     }
   ],

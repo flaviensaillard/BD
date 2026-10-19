@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 94 |
+| Premières reprises intégrées, encore à relire | 99 |
 | Corrections seulement partielles, à poursuivre | 1 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 57 |
+| Autres vignettes restant à contrôler individuellement | 52 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 95 vignettes ayant reçu une intervention ne sont pas 95 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 100 vignettes ayant reçu une intervention ne sont pas 100 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -337,7 +337,7 @@ Seule 17/4 est reprise dans son ensemble pour réparer le groupe ; les autres ca
 
 ## Vingtième livraison : planche 18 — cinq premières reprises, une correction partielle
 
-**La planche 18 n'est pas terminée : 18/4 reste à reprendre avant de passer à 19.** Les six scénarios et sources réalistes ont été comparés, sans considérer leur dessin comme une preuve de conformité. La source montrait un seul défenseur là où le scénario demande deux plaqueurs et perdait les équipements d'hiver dans la passe au sol.
+**État historique du lot T : 18/4 était partielle. La reprise U ci-dessous résout la prise trop haute ; la page reste à relire transversalement.** Les six scénarios et sources réalistes ont été comparés, sans considérer leur dessin comme une preuve de conformité. La source montrait un seul défenseur là où le scénario demande deux plaqueurs et perdait les équipements d'hiver dans la passe au sol.
 
 **18/1 :** Démonstration : Kilian tient le boudin bleu à gauche (barbe rousse rétablie par portrait local issu de 18/2), Julien accroupi au milieu (portrait isolé, moustache/bouc gris) et Flavien pointe bas à droite, conservé. Deux enfants observateurs sont rapprochés d'Ayden/Milo : bonnet bleu ajouté au premier, bonnet/portrait gris pour le second. Le scénario ne nomme pas ces deux spectateurs ; attribution de continuité graphique, pas preuve nominale du texte. Corps, mains, boudin, postures et décor hors masques gardés ; candidat complet rejeté pour cadrage aplati.
 
@@ -355,9 +355,33 @@ Preuves : `revue-couverture/lot-t/18-AVANT-APRES.jpg`, six masques et **`18-4-A-
 
 Les têtes/bonnets sont rapprochés de la couverture sans faire sortir les coiffures à travers les bonnets. Les gants et thermiques de 18/5 sont des corrections locales de palette autour des contacts originaux, pas une nouvelle passe inventée par le candidat qui étirait l'action. Le dessin de l'unique ballon reste celui de la case originale. En 18/6, les quatre mains gantées des deux coachs n'ont pas été remplacées et le badge ajouté au bonnet par le portrait candidat n'est pas intégré.
 
-**À faire immédiatement :** reconstruire la prise du défenseur droit en 18/4 entre la taille et les cuisses, clairement sur les jambes, tout en gardant deux petits plaqueurs, le ballon dans les mains de Léon, les contacts distincts et la lisibilité de la chute. L'ajout du deuxième défenseur ne suffit pas à rendre la technique conforme.
+**Priorité historique du lot T, traitée au lot U :** reconstruire la prise du défenseur droit en 18/4 entre la taille et les cuisses, clairement sur les jambes, tout en gardant deux petits plaqueurs, le ballon dans les mains de Léon, les contacts distincts et la lisibilité de la chute. L'ajout du deuxième défenseur ne suffit pas à rendre la technique conforme.
 
 **Réserves pour la relecture transversale :** âge/proportions des portraits isolés et sous les bonnets, encrage plus détaillé des montagnes de 18/3–4 que dans les autres cases, raccords des caps blancs/thermiques, détails de gants des trois contacts au ballon en 18/5 et continuité des bonnets avec 17. La présence du ballon dans les mains du porteur de 18/3 ne doit pas devenir une récupération anticipée de Milo. Aucun BOUM, PAF, dialogue, bulle ni autre texte ajouté aux planches. Bilan courant : 94 premières reprises, 1 correction partielle, 1 contrôle sans retouche, 57 cases encore à examiner individuellement ; aucune validation définitive.
+
+## Vingt-et-unième livraison : prise basse 18/4 et première revue de 19
+
+**18/4 :** Reprise U après le lot T partiel : avant-bras et gant du défenseur droit reconstruits sur la cuisse, sous la ceinture, sa tête au contact latéral de la jambe et son buste dégagé. Import borné au seul défenseur droit et à l'ancienne prise, pas du candidat entier. Léon, visage, ballon, haut du corps et défenseur gauche conservés hors masque. Deux plaqueurs lisibles, prises désormais basses ; relecture transversale de la chute et des contacts reste requise, aucune validation définitive.
+
+Preuves U : `revue-couverture/lot-u/18-4-AVANT-APRES.jpg`, masque de cette reprise et masque cumulatif. L'entrée 18/4 a été actualisée sur place, sans doublon. Le témoin historique T « à reprendre » reste conservé pour la traçabilité, pas comme état courant.
+
+**Planche 19 : quatre premières reprises et une case encore partielle, 19/1.**
+
+**19/1 :** PARTIEL : Cinq garçons en pause, gauche à droite Léon/Lyssandro/Nolann/Ayden/Milo : bonnets bleu/marine/bleu/bleu à pompon/gris ajoutés, portraits locaux rapprochés des références. Trois portraits isolés pour Léon, Milo et Nolann, ce dernier regardant vers son crampon et le dessin ; peau trop mate du candidat Milo éclaircie localement pour ne pas confondre avec Nolann. Deux autres portraits du candidat recalés individuellement, sans importer le cadrage aplati. Caps de manches blanchis, longs thermiques, gants et jambes nues de Nolann couverts en sombre. Bouteilles, corps et schéma dans la neige d'origine conservés hors zones locales ; trace de crampon renforcée sans texte. Le montage intégré garde des raccords visibles : petite zone de ciel rectangulaire au-dessus de Léon, bords et jonctions col/bonnet/épaule de Lyssandro et Ayden et contours/limites de caps de manches, en particulier Milo. Ces défauts sont vus et non validés ; nettoyer avant de poursuivre vers la planche 20. La correction de la tenue n'est pas déclarée terminée.
+
+**19/2 :** Trois copains : Lyssandro à gauche, Milo au centre et Nolann à droite. Le texte impose les trois noms mais pas leur ordre. Nolann déjà mat à droite est conservé à cette place ; l'enfant clair du centre reçoit le portrait sous bonnet gris de Milo, pas un Nolann blanchi ou un Ayden substitué. Portraits sous bonnets recalés séparément, pas le candidat de case entière au mauvais cadrage. Manches courtes blanches, thermiques et gants sombres repris localement ; bras autour des épaules et gestes du milieu gardés.
+
+**19/3 :** Trois éducateurs seuls au premier plan : Flavien à gauche, Julien au milieu, Kilian à droite. Reprises locales des traits et pilosités : légère barbe brune, moustache/bouc gris, barbe rousse sous bonnets. Calendrier/presse-papiers et mains d'origine, silhouettes lointaines des enfants et terrain hors masques conservés. Pas d'ajout de fausse date ou de texte sur la feuille.
+
+**19/4 :** Kilian à gauche montrant la feuille, Flavien à droite : portraits locaux rapprochés de la couverture, barbe/sourcils roux et légère moustache/barbe brune respectifs. Bonnets, gestes gantés, feuille originale et ses marques non verbales, manteaux et décor hors masques gardés. Aucun contenu de dialogue écrit sur la feuille.
+
+**19/5 :** Lyssandro à gauche, Julien derrière au centre, Léon à droite : bonnets marine/marine/bleu ajoutés sans changer les regards échangés et les sourires. Visages rapprochés des modèles, bouc/moustache gris de Julien conservés ; longs cols thermiques sombres et manches extérieures blanches, notamment le cap rouge de Lyssandro repris. Corps et écussons hors zones locales conservés ; petits marquages historiques restent à harmoniser avec la série.
+
+Preuves V : `revue-couverture/lot-v/19-AVANT-APRES.jpg`, cinq masques et `19-1-A-REPRENDRE.jpg`. Ces preuves ne certifient ni ressemblance exacte ni raccord parfait. Les faces recalées et les jerseys blancs/noirs de 19/1 ont amélioré l'identification et la continuité hivernale, mais les raccords d'assemblage visibles empêchent de déclarer cette case achevée même en première passe. **Priorité suivante : nettoyer 19/1, avant la planche 20.**
+
+Réserves transversales pour 19/2–5 : proportions et âge sous bonnets, carnations comparées à la couverture, contours des thermiques/gants et caps blancs ; cohérence de l'encrage avec le paysage ; petits écussons historiques aux lettres variables FCM/RCM/SCN à harmoniser graphiquement sans inventer de dialogue. En 19/3, le groupe lointain n'est pas une vue exhaustive et dénombrable des vingt enfants. Les mains et marques du calendrier/feuille restent celles de l'image source. Aucun nom d'adversaire ni date fabriqué.
+
+Bilan courant : **99 premières reprises, 1 correction partielle (19/1), 1 contrôle sans retouche, 52 cases encore à examiner individuellement ; 0 validation définitive sur 153.** Pas de bulles, dialogues ni onomatopées ajoutés. La dernière phase de textes reste différée jusqu'à la validation graphique complète et transversale.
 
 ## Contrôles techniques et audits historiques
 
