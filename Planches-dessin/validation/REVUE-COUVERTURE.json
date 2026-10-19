@@ -2048,6 +2048,101 @@
       "type": "reprise_graphique",
       "intervention": "Milo gris assis en tailleur, deux mains gantées sur son bonnet et regard inquiet tourné vers Léon ; Léon bleu agenouillé à droite garde le contact rassurant à l'épaule. Visages rapprochés des références sans sourire de Milo ni colère inventée. Cols/caps blancs, leggings et gants repris ; longues manches rouges de Léon ramenées au noir localement et petit jour de peau au poignet de Milo couvert. Aucun dialogue ajouté, pas de ballon dans cette case.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-5-masque.png"
+    },
+    {
+      "page": 21,
+      "vignette": "21-1",
+      "rectangle": [
+        28,
+        28,
+        836,
+        480
+      ],
+      "source_rectangle": [
+        80,
+        80,
+        2400,
+        1378
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon au centre, sous bonnet bleu, sourcils froncés et deux poings gantés visibles au bas du cadre. Visage rapproché de la couverture en conservant la tension momentanée, pas un sourire prématuré. Le Flavien physiquement debout à droite de la source est remplacé par une évocation de son visage bienveillant/épaules, auréolée de lumière dorée et sans corps sur le terrain : il s'agit du souvenir mental demandé au scénario. Aucun mot gravé ni texte de pensée ajouté à ce stade.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-y/21-1-masque.png"
+    },
+    {
+      "page": 21,
+      "vignette": "21-2",
+      "rectangle": [
+        28,
+        496,
+        425,
+        814
+      ],
+      "source_rectangle": [
+        80,
+        1424,
+        1220,
+        2337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon bleu à gauche sourit en aidant Milo gris, assis à droite, surpris et rassuré. Le geste de relevage à deux prises gantées est gardé, à relire pour la séparation exacte des doigts et l'attache des quatre mains. Bonnets, cols et couches d'hiver noirs/bleus/blancs repris. La bouffée de buée du candidat avait un contour de petit nuage de BD : contour retiré et remplacé par une vapeur blanche diffuse sans queue, contour ni texte, pas une bulle de dialogue.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-y/21-2-masque.png"
+    },
+    {
+      "page": 21,
+      "vignette": "21-3",
+      "rectangle": [
+        440,
+        496,
+        836,
+        814
+      ],
+      "source_rectangle": [
+        1263,
+        1424,
+        2400,
+        2337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Cinq garçons de gauche à droite : Léon bleu, Milo gris, Lyssandro marine, Ayden bleu à pompon, Nolann bleu. Milo montre la surprise puis le soulagement. Les deux premiers candidats donnaient à Ayden une carnation mate proche de Nolann : ces visages sont rejetés. Un portrait isolé d'Ayden, basé en priorité sur son propre modèle de couverture, est détouré et recalé sur le quatrième garçon. Nolann à droite garde son teint mat. Gants repris sur la main d'Ayden au torse de son ami et sur la main basse de Nolann ; les positions et contacts d'épaules sont conservés.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-y/21-3-masque.png"
+    },
+    {
+      "page": 21,
+      "vignette": "21-4",
+      "rectangle": [
+        28,
+        830,
+        425,
+        1148
+      ],
+      "source_rectangle": [
+        80,
+        2383,
+        1220,
+        3296
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon bleu au premier plan félicite le capitaine Thonon jaune/bleu ; quatre partenaires RCM derrière identifiés sous bonnets gris/marine/bleu/bleu à pompon, dont Nolann mat. Les équipes et les cinq RCM restent distincts ; les regards/sourires et la file de félicitations sont conservés. Gants assombris localement sur les contacts et quelques mains initialement nues du candidat, notamment le capitaine. Pas d'onomatopée ni texte de félicitations ajouté.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-y/21-4-masque.png"
+    },
+    {
+      "page": 21,
+      "vignette": "21-5",
+      "rectangle": [
+        440,
+        830,
+        836,
+        1148
+      ],
+      "source_rectangle": [
+        1263,
+        2383,
+        2400,
+        3296
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Flavien brun/légèrement barbu à gauche, Julien moustache/bouc gris au centre, Kilian barbe rousse à droite, tous sous bonnets foncés. Le premier candidat ajoutait deux mains sur les épaules de Julien, geste non conforme : rejeté pour les mains et le manteau bleu vif. Second candidat : un seul gant visible, rattaché au bras de Julien passant derrière Flavien et posé sur l'épaule de Flavien ; manteau de Julien ramené au marine, sifflet jaune gardé. Sourires fiers rapprochés des références, pas de larmes ni texte ajoutés. Lisibilité de l'attache du bras derrière le corps à revoir transversalement.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-y/21-5-masque.png"
     }
   ],
   "vignettes": [
@@ -3971,12 +4066,13 @@
         483
       ],
       "scenario": "- **Vignette 1 (Gros plan psychologique façon Comics)** :\n  - *Visuel* : Gros plan sur le visage de **Léon**. Pendant une seconde, ses sourcils se froncent et ses poings se serrent… Mais en arrière-plan lumineux dans son esprit, on voit le visage bienveillant de **Flavien** et ses mots gravés : *« On apprend toujours de ses échecs, jamais de ses victoires… »*\n  - *Bulle de pensée (Léon)* : *« Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquoi on a raté l'action, Léon… »*",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
       "realiste": "planches/21-la-plus-belle-des-victoires-de-leon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon au centre, sous bonnet bleu, sourcils froncés et deux poings gantés visibles au bas du cadre. Visage rapproché de la couverture en conservant la tension momentanée, pas un sourire prématuré. Le Flavien physiquement debout à droite de la source est remplacé par une évocation de son visage bienveillant/épaules, auréolée de lumière dorée et sans corps sur le terrain : il s'agit du souvenir mental demandé au scénario. Aucun mot gravé ni texte de pensée ajouté à ce stade."
     },
     {
       "page": 21,
@@ -3988,12 +4084,13 @@
         817
       ],
       "scenario": "- **Vignette 2 (Grande vignette pleine d'émotion)** :\n  - *Visuel* : Léon souffle un grand nuage de buée dans l'air froid, s'approche de **Milo** avec un vrai sourire et lui tend ses deux mains gantées pour le relever !\n  - *Bulle (Léon)* : « Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai fait la passe trop tard, le joueur de Thonon était déjà sur toi ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
       "realiste": "planches/21-la-plus-belle-des-victoires-de-leon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon bleu à gauche sourit en aidant Milo gris, assis à droite, surpris et rassuré. Le geste de relevage à deux prises gantées est gardé, à relire pour la séparation exacte des doigts et l'attache des quatre mains. Bonnets, cols et couches d'hiver noirs/bleus/blancs repris. La bouffée de buée du candidat avait un contour de petit nuage de BD : contour retiré et remplacé par une vapeur blanche diffuse sans queue, contour ni texte, pas une bulle de dialogue."
     },
     {
       "page": 21,
@@ -4005,12 +4102,13 @@
         817
       ],
       "scenario": "- **Vignette 3** :\n  - *Visuel* : **Milo** écarquille les yeux de surprise, puis sourit de soulagement pendant que **Lyssandro**, **Ayden** et **Nolann** les entourent.\n  - *Bulle (Milo)* : « Tu… tu n'es pas en colère Léon ? »\n  - *Bulle (Léon)* : « Bien sûr que non ! On a perdu d'un point contre Thonon, mais on sait exactement quoi travailler mercredi à l'entraînement : faire la passe AVant le plaquage ! »\n  - *Bulle (Ayden)* : « Et moi j'aurais dû être encore plus près de Milo en soutien offensif ! »\n  - *Bulle (Lyssandro)* : « Trop bien dit Léon ! Au prochain tournoi, cette action-là, elle ira au bout ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
       "realiste": "planches/21-la-plus-belle-des-victoires-de-leon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cinq garçons de gauche à droite : Léon bleu, Milo gris, Lyssandro marine, Ayden bleu à pompon, Nolann bleu. Milo montre la surprise puis le soulagement. Les deux premiers candidats donnaient à Ayden une carnation mate proche de Nolann : ces visages sont rejetés. Un portrait isolé d'Ayden, basé en priorité sur son propre modèle de couverture, est détouré et recalé sur le quatrième garçon. Nolann à droite garde son teint mat. Gants repris sur la main d'Ayden au torse de son ami et sur la main basse de Nolann ; les positions et contacts d'épaules sont conservés."
     },
     {
       "page": 21,
@@ -4022,12 +4120,13 @@
         1151
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Les cinq garçons vont féliciter les joueurs de **Thonon (Jaune et Bleu)** avec le sourire.\n  - *Bulle (Léon, tapant dans la main du capitaine de Thonon)* : « Bravo Thonon ! Vos plaquages étaient super rapides ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
       "realiste": "planches/21-la-plus-belle-des-victoires-de-leon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon bleu au premier plan félicite le capitaine Thonon jaune/bleu ; quatre partenaires RCM derrière identifiés sous bonnets gris/marine/bleu/bleu à pompon, dont Nolann mat. Les équipes et les cinq RCM restent distincts ; les regards/sourires et la file de félicitations sont conservés. Gants assombris localement sur les contacts et quelques mains initialement nues du candidat, notamment le capitaine. Pas d'onomatopée ni texte de félicitations ajouté."
     },
     {
       "page": 21,
@@ -4039,12 +4138,13 @@
         1151
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Sur la touche, **Flavien**, **Julien** et **Kilian** ont les yeux brillants de fierté. Julien tape amicalement sur l'épaule de Flavien.\n  - *Bulle (Julien)* : « Tu as vu ça, Flavien ? Ils viennent de perdre le match sur un en-avant à la dernière seconde… et Léon analyse la passe en relevant son copain ! »\n  - *Bulle (Flavien, ému)* : « Il a compris, Julien. Il a enfin compris ce que veut dire grandir. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
       "realiste": "planches/21-la-plus-belle-des-victoires-de-leon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Flavien brun/légèrement barbu à gauche, Julien moustache/bouc gris au centre, Kilian barbe rousse à droite, tous sous bonnets foncés. Le premier candidat ajoutait deux mains sur les épaules de Julien, geste non conforme : rejeté pour les mains et le manteau bleu vif. Second candidat : un seul gant visible, rattaché au bras de Julien passant derrière Flavien et posé sur l'épaule de Flavien ; manteau de Julien ramené au marine, sifflet jaune gardé. Sourires fiers rapprochés des références, pas de larmes ni texte ajoutés. Lisibilité de l'attache du bras derrière le corps à revoir transversalement."
     },
     {
       "page": 22,
@@ -5027,12 +5127,12 @@
     {
       "page": 21,
       "fichier": "Planches-dessin/21-la-plus-belle-des-victoires-de-leon-marvel.png",
-      "sha256": "6c70715dac9261223b56ac5d77071ee12fb88c032fed512319b59e03f4cbb345",
+      "sha256": "b25ffb89bff11755a73cf94a8345d243b44da5595da415fe980bddf3a0e7b265",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1560789
+      "octets": 1477304
     },
     {
       "page": 22,
@@ -5257,15 +5357,27 @@
     {
       "vignette": "20-4",
       "motif": "Le premier candidat gardait une prise à la taille : non validée. Reconstruction basse supplémentaire importée par masque local autour du défenseur/ancienne prise. Ballon, gants du receveur, portrait de Milo, visage de Léon et deux poursuivants hors zone conservés du premier montage. Tête du défenseur en partie cachée, à relire avec l'anatomie des contacts."
+    },
+    {
+      "vignette": "21-3",
+      "motif": "Deux candidats entiers conservaient à tort Ayden mat comme un second Nolann ; pas d'import de ces visages. Portrait isolé depuis la référence propre d'Ayden, couleur claire et traits repris, détourage limité à son bonnet/visage/cou. Seule la correction de gant du deuxième candidat est importée, pas ses écussons modifiés ni les autres garçons."
+    },
+    {
+      "vignette": "21-5",
+      "motif": "Premier candidat ajoutait deux mains sur les épaules du coach central et gardait son manteau bleu vif. Non intégré. Second candidat replace un gant au bout du bras de Julien derrière Flavien, sur l'épaule de Flavien, et remplace la veste par le marine."
+    },
+    {
+      "vignette": "21-2",
+      "motif": "Petite buée dessinée en nuage à contour : contour écarté/effacé, vapeur diffuse sans contour ni queue, aucun texte ni bulle de dialogue. Le dessin des deux prises gantées reste à relire pour les doigts et articulations."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 105,
+    "vignettes_corrigees_premiere_passe": 110,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 47,
+    "vignettes_a_controler_individuellement": 42,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5625,6 +5737,18 @@
         "20-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-x/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "bdda9f1",
+      "vignettes": [
+        "21-1",
+        "21-2",
+        "21-3",
+        "21-4",
+        "21-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-y/",
       "reste_a_reprendre": []
     }
   ],

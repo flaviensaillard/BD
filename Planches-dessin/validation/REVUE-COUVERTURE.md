@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 105 |
+| Premières reprises intégrées, encore à relire | 110 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 47 |
+| Autres vignettes restant à contrôler individuellement | 42 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 105 vignettes ayant reçu une intervention ne sont pas 105 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 110 vignettes ayant reçu une intervention ne sont pas 110 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -406,6 +406,28 @@ Preuves : `revue-couverture/lot-x/20-AVANT-APRES.jpg`, cinq masques des intérie
 **Réserves de relecture transversale (aucune validation définitive) :** âge et proportions des enfants sous bonnets, teintes des ombres sur Nolann, noir des thermiques et formes des gants, densité de tricot variable des bonnets ; motif exact des maillots/sponsors/écussons à harmoniser graphiquement sur la couverture (notamment les petites lettres variables et les modèles de bandes en 19–20). Vérifier les contacts tête/bras/jambes des deux plaquages de 20/1 et du défenseur largement masqué en 20/4, ainsi que les articulations et la lecture spatiale des lignes entre les deux matchs. La touche ajoutée en 20/1 est un marqueur de terrain, pas une mesure dessinée certifiant les 30 m × 20 m. Ni score, ni chronomètre, ni distances exactes de trois mètres ne sont attestés par le dessin seul.
 
 **Bilan courant : 105 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 47 vignettes encore à examiner individuellement, 0 validation définitive sur 153. Prochaine planche : 21.** Aucun dialogue, encadré score, bulle ou onomatopée ajouté. La phase de textes attend la validation graphique individuelle puis transversale complète.
+
+## Vingt-troisième livraison : les cinq cases de la planche 21
+
+Cinq scénarios et cinq recadrages réalistes comparés ; modèle unique de dessin et d'identité : la couverture, pas les visages génériques des sources. L'instant d'hésitation de Léon, le relevage de Milo, la surprise/soulagement, les félicitations et le geste des coachs restent distincts. Les visages ne sont pas uniformisés en cinq sourires identiques.
+
+**21/1 :** Léon au centre, sous bonnet bleu, sourcils froncés et deux poings gantés visibles au bas du cadre. Visage rapproché de la couverture en conservant la tension momentanée, pas un sourire prématuré. Le Flavien physiquement debout à droite de la source est remplacé par une évocation de son visage bienveillant/épaules, auréolée de lumière dorée et sans corps sur le terrain : il s'agit du souvenir mental demandé au scénario. Aucun mot gravé ni texte de pensée ajouté à ce stade.
+
+**21/2 :** Léon bleu à gauche sourit en aidant Milo gris, assis à droite, surpris et rassuré. Le geste de relevage à deux prises gantées est gardé, à relire pour la séparation exacte des doigts et l'attache des quatre mains. Bonnets, cols et couches d'hiver noirs/bleus/blancs repris. La bouffée de buée du candidat avait un contour de petit nuage de BD : contour retiré et remplacé par une vapeur blanche diffuse sans queue, contour ni texte, pas une bulle de dialogue.
+
+**21/3 :** Cinq garçons de gauche à droite : Léon bleu, Milo gris, Lyssandro marine, Ayden bleu à pompon, Nolann bleu. Milo montre la surprise puis le soulagement. Les deux premiers candidats donnaient à Ayden une carnation mate proche de Nolann : ces visages sont rejetés. Un portrait isolé d'Ayden, basé en priorité sur son propre modèle de couverture, est détouré et recalé sur le quatrième garçon. Nolann à droite garde son teint mat. Gants repris sur la main d'Ayden au torse de son ami et sur la main basse de Nolann ; les positions et contacts d'épaules sont conservés.
+
+**21/4 :** Léon bleu au premier plan félicite le capitaine Thonon jaune/bleu ; quatre partenaires RCM derrière identifiés sous bonnets gris/marine/bleu/bleu à pompon, dont Nolann mat. Les équipes et les cinq RCM restent distincts ; les regards/sourires et la file de félicitations sont conservés. Gants assombris localement sur les contacts et quelques mains initialement nues du candidat, notamment le capitaine. Pas d'onomatopée ni texte de félicitations ajouté.
+
+**21/5 :** Flavien brun/légèrement barbu à gauche, Julien moustache/bouc gris au centre, Kilian barbe rousse à droite, tous sous bonnets foncés. Le premier candidat ajoutait deux mains sur les épaules de Julien, geste non conforme : rejeté pour les mains et le manteau bleu vif. Second candidat : un seul gant visible, rattaché au bras de Julien passant derrière Flavien et posé sur l'épaule de Flavien ; manteau de Julien ramené au marine, sifflet jaune gardé. Sourires fiers rapprochés des références, pas de larmes ni texte ajoutés. Lisibilité de l'attache du bras derrière le corps à revoir transversalement.
+
+**Continuité du terrain avec 20 :** la planche originale traitait toute la pelouse comme un manteau neigeux blanc ; les sources réalistes et la scène précédente montrent un terrain gelé. Palette du sol ramenée localement au vert grisé givré, en gardant les ombres/taches de givre et les blancs des vêtements. Le traitement est limité aux composantes de fond, avec sélection explicite des poches de fond entre les acteurs et raccord adouci autour de l'évocation lumineuse de Flavien. Les corps, contacts et tenues ne sont pas globalement teints en vert.
+
+Preuves : `revue-couverture/lot-y/21-AVANT-APRES.jpg` et cinq masques des intérieurs de cases. Cadrages et proportions relus dans la planche montée, cadres/gouttières hors masques préservés. Le portrait isolé d'Ayden n'autorise pas à éclaircir Nolann à sa droite ; sa carnation reste mate.
+
+**Réserves de relecture transversale :** ressemblance et âge sous les bonnets, silhouettes des cinq modèles dans les plans moyens, cohérence des bandes de maillot et des sponsors/écussons aux petites lettres variables ; anatomie des deux prises de relevage (quatre mains), des poignées de main et du bras de Julien occulté derrière Flavien ; finesse du fondu lumineux mental par rapport à l'encrage des autres cases. La buée est atmosphérique, pas un emplacement de dialogue. Les inscriptions internes aux maillots restent un chantier graphique d'harmonisation, pas une validation du lettrage généré.
+
+**Bilan courant : 110 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 42 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 22.** Aucun mot de pensée, bulle, dialogue, onomatopée ou encadré ajouté ; la dernière phase de textes reste différée jusqu'à la validation graphique individuelle et transversale complète.
 
 ## Contrôles techniques et audits historiques
 
