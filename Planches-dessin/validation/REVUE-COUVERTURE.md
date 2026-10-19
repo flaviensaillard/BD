@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 99 |
-| Corrections seulement partielles, à poursuivre | 1 |
+| Premières reprises intégrées, encore à relire | 105 |
+| Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 52 |
+| Autres vignettes restant à contrôler individuellement | 47 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 100 vignettes ayant reçu une intervention ne sont pas 100 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 105 vignettes ayant reçu une intervention ne sont pas 105 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -377,11 +377,35 @@ Preuves U : `revue-couverture/lot-u/18-4-AVANT-APRES.jpg`, masque de cette repri
 
 **19/5 :** Lyssandro à gauche, Julien derrière au centre, Léon à droite : bonnets marine/marine/bleu ajoutés sans changer les regards échangés et les sourires. Visages rapprochés des modèles, bouc/moustache gris de Julien conservés ; longs cols thermiques sombres et manches extérieures blanches, notamment le cap rouge de Lyssandro repris. Corps et écussons hors zones locales conservés ; petits marquages historiques restent à harmoniser avec la série.
 
-Preuves V : `revue-couverture/lot-v/19-AVANT-APRES.jpg`, cinq masques et `19-1-A-REPRENDRE.jpg`. Ces preuves ne certifient ni ressemblance exacte ni raccord parfait. Les faces recalées et les jerseys blancs/noirs de 19/1 ont amélioré l'identification et la continuité hivernale, mais les raccords d'assemblage visibles empêchent de déclarer cette case achevée même en première passe. **Priorité suivante : nettoyer 19/1, avant la planche 20.**
+Preuves V : `revue-couverture/lot-v/19-AVANT-APRES.jpg`, cinq masques et `19-1-A-REPRENDRE.jpg`. Ces preuves ne certifient ni ressemblance exacte ni raccord parfait. Les faces recalées et les jerseys blancs/noirs de 19/1 ont amélioré l'identification et la continuité hivernale, mais les raccords d'assemblage visibles empêchent de déclarer cette case achevée même en première passe. **Priorité historique du lot V : nettoyer 19/1 avant 20 — reprise W ci-dessous effectuée.**
 
 Réserves transversales pour 19/2–5 : proportions et âge sous bonnets, carnations comparées à la couverture, contours des thermiques/gants et caps blancs ; cohérence de l'encrage avec le paysage ; petits écussons historiques aux lettres variables FCM/RCM/SCN à harmoniser graphiquement sans inventer de dialogue. En 19/3, le groupe lointain n'est pas une vue exhaustive et dénombrable des vingt enfants. Les mains et marques du calendrier/feuille restent celles de l'image source. Aucun nom d'adversaire ni date fabriqué.
 
 Bilan courant : **99 premières reprises, 1 correction partielle (19/1), 1 contrôle sans retouche, 52 cases encore à examiner individuellement ; 0 validation définitive sur 153.** Pas de bulles, dialogues ni onomatopées ajoutés. La dernière phase de textes reste différée jusqu'à la validation graphique complète et transversale.
+
+## Vingt-deuxième livraison : raccords 19/1 repris, planche 20 examinée et corrigée
+
+**19/1 — lot W :** Reprise W de la case restée partielle : assemblage nettoyé, ciel sans rectangle, cols thermiques noirs raccordés aux visages/anneaux blancs, caps de manches blancs redessinés en volumes continus, sans limites de peinture géométriques. Les cinq poses, regards, bonnets et carnations conservés : Léon/Lyssandro/Nolann/Ayden/Milo de gauche à droite. Oreillette grise inventée sur Ayden retirée par import limité au bord du bonnet/oreille ; minuscule mèche jaune ramenée au châtain clair. Main de Milo près de la bouteille couverte en sombre. Bouteilles et tracé de neige maintenus. La case passe en première reprise, pas en validation définitive : cohérence des marques de maillot, proportions/âge et densité du tricot des bonnets restent à relire transversalement.
+
+Preuves : `revue-couverture/lot-w/19-1-AVANT-APRES.jpg` et masque cumulatif. L'entrée existante de 19/1 est actualisée, sans doublon ; le témoin V « à reprendre » reste historique.
+
+**Planche 20 — lot X :** scénario des deux matchs et cinq recadrages réalistes consultés. La source réaliste donne les poses et le terrain, pas l'autorité sur les identités ou sur la technique : sa première case conservait un unique plaquage haut et omettait la touche lisible. Les candidats ont gardé les cadrages sans l'aplatissement des anciennes sorties de 19 ; leurs proportions ont été contrôlées avant intégration.
+
+**20/1 :** Reconstruction de l'action : deux plaqueurs RCM désormais bas aux jambes du porteur Le Môle, Nolann mat à gauche sous bonnet bleu, Ayden clair à droite sous bonnet bleu à pompon. Le porteur rouge/blanc garde l'unique ballon au buste. Trois soutiens en ligne derrière : Milo gris à gauche, Lyssandro marine au milieu, Léon bleu à droite. Le faux enfant barbu du fond a été remplacé par un enfant. Mise en continuité des bonnets/thermiques/leggings ; petit badge de bonnet inventé et pompon supplémentaire de Léon exclus localement. Le Môle blanc/rouge reste distinct du RCM. La source n'avait pas de ligne de touche lisible : ligne blanche et petit plot ajoutés derrière les acteurs, sans surimpression sur leurs membres ; pied droit du porteur au-delà, pied gauche encore côté terrain, pour rendre la sortie lisible avant la pénalité en 20/2. Raccord spatial de la séquence encore à relire.
+
+**20/2 :** Léon sous bonnet bleu aplatit l'unique ballon en plongeant ; main gantée au ballon et ligne d'en-but gardées. Lyssandro sous bonnet marine, derrière à gauche, finit son geste de passe vers l'essai ; adversaires Le Môle blanc/rouge maintenus derrière. Manches longues rouges du candidat ramenées au noir par masque local ; caps blancs, gants, leggings et bonnets repris. Pas d'encadré victoire ajouté.
+
+**20/3 :** Deuxième match, adversaires Thonon jaune/bleu conservés, porteur à droite marquant, partenaires bras levés, RCM derrière. Kilian à gauche sous bonnet marine reçoit visage/pilosité rousse du modèle ; tenues hivernales des enfants reprises. L'action suggère l'essai adverse mais aucun score, chronomètre ou texte n'est fabriqué. Cadrage et alignements de terrain/montagnes gardés ; groupe RCM partiellement cadré, pas une vue exhaustive des cinq.
+
+**20/4 :** Milo identifié sous bonnet gris, Léon sous bonnet bleu partiellement cadré à gauche en fin de passe, deux poursuivants Thonon jaune/bleu. Le premier candidat gardait une prise à la taille : rejeté pour cette prise. Deuxième reconstruction importée uniquement autour du défenseur et de l'ancienne prise, avec bras désormais aux cuisses/genoux sous la ceinture, mains recolorées en gants sombres. Sa tête est largement occultée derrière la cuisse/hanche de Milo : lisibilité et anatomie du contact restent à relire. L'unique balle lâchée vers l'avant, séparée des gants de Milo, reste celle du premier montage et n'a pas été réimportée avec le défenseur.
+
+**20/5 :** Milo gris assis en tailleur, deux mains gantées sur son bonnet et regard inquiet tourné vers Léon ; Léon bleu agenouillé à droite garde le contact rassurant à l'épaule. Visages rapprochés des références sans sourire de Milo ni colère inventée. Cols/caps blancs, leggings et gants repris ; longues manches rouges de Léon ramenées au noir localement et petit jour de peau au poignet de Milo couvert. Aucun dialogue ajouté, pas de ballon dans cette case.
+
+Preuves : `revue-couverture/lot-x/20-AVANT-APRES.jpg`, cinq masques des intérieurs de cases, et `20-4-PRISE-AVANT-APRES.jpg` montrant la prise haute du candidat écarté puis le montage bas. La couverture, les cadres, les gouttières et les zones hors cases restent inchangés. Les deux cas de marque gardent une seule balle, et l'en-avant une balle séparée des mains : ni balle dupliquée ni récupération anticipée.
+
+**Réserves de relecture transversale (aucune validation définitive) :** âge et proportions des enfants sous bonnets, teintes des ombres sur Nolann, noir des thermiques et formes des gants, densité de tricot variable des bonnets ; motif exact des maillots/sponsors/écussons à harmoniser graphiquement sur la couverture (notamment les petites lettres variables et les modèles de bandes en 19–20). Vérifier les contacts tête/bras/jambes des deux plaquages de 20/1 et du défenseur largement masqué en 20/4, ainsi que les articulations et la lecture spatiale des lignes entre les deux matchs. La touche ajoutée en 20/1 est un marqueur de terrain, pas une mesure dessinée certifiant les 30 m × 20 m. Ni score, ni chronomètre, ni distances exactes de trois mètres ne sont attestés par le dessin seul.
+
+**Bilan courant : 105 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 47 vignettes encore à examiner individuellement, 0 validation définitive sur 153. Prochaine planche : 21.** Aucun dialogue, encadré score, bulle ou onomatopée ajouté. La phase de textes attend la validation graphique individuelle puis transversale complète.
 
 ## Contrôles techniques et audits historiques
 

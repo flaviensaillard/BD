@@ -1874,9 +1874,9 @@
         2404,
         1559
       ],
-      "type": "correction_partielle",
-      "intervention": "PARTIEL : Cinq garçons en pause, gauche à droite Léon/Lyssandro/Nolann/Ayden/Milo : bonnets bleu/marine/bleu/bleu à pompon/gris ajoutés, portraits locaux rapprochés des références. Trois portraits isolés pour Léon, Milo et Nolann, ce dernier regardant vers son crampon et le dessin ; peau trop mate du candidat Milo éclaircie localement pour ne pas confondre avec Nolann. Deux autres portraits du candidat recalés individuellement, sans importer le cadrage aplati. Caps de manches blanchis, longs thermiques, gants et jambes nues de Nolann couverts en sombre. Bouteilles, corps et schéma dans la neige d'origine conservés hors zones locales ; trace de crampon renforcée sans texte. Le montage intégré garde des raccords visibles : petite zone de ciel rectangulaire au-dessus de Léon, bords et jonctions col/bonnet/épaule de Lyssandro et Ayden et contours/limites de caps de manches, en particulier Milo. Ces défauts sont vus et non validés ; nettoyer avant de poursuivre vers la planche 20. La correction de la tenue n'est pas déclarée terminée.",
-      "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-1-masque.png"
+      "type": "reprise_graphique",
+      "intervention": "Reprise W de la case restée partielle : assemblage nettoyé, ciel sans rectangle, cols thermiques noirs raccordés aux visages/anneaux blancs, caps de manches blancs redessinés en volumes continus, sans limites de peinture géométriques. Les cinq poses, regards, bonnets et carnations conservés : Léon/Lyssandro/Nolann/Ayden/Milo de gauche à droite. Oreillette grise inventée sur Ayden retirée par import limité au bord du bonnet/oreille ; minuscule mèche jaune ramenée au châtain clair. Main de Milo près de la bouteille couverte en sombre. Bouteilles et tracé de neige maintenus. La case passe en première reprise, pas en validation définitive : cohérence des marques de maillot, proportions/âge et densité du tricot des bonnets restent à relire transversalement.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-w/19-1-masque-cumulatif.png"
     },
     {
       "page": 19,
@@ -1953,6 +1953,101 @@
       "type": "reprise_graphique",
       "intervention": "Lyssandro à gauche, Julien derrière au centre, Léon à droite : bonnets marine/marine/bleu ajoutés sans changer les regards échangés et les sourires. Visages rapprochés des modèles, bouc/moustache gris de Julien conservés ; longs cols thermiques sombres et manches extérieures blanches, notamment le cap rouge de Lyssandro repris. Corps et écussons hors zones locales conservés ; petits marquages historiques restent à harmoniser avec la série.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-v/19-5-masque.png"
+    },
+    {
+      "page": 20,
+      "vignette": "20-1",
+      "rectangle": [
+        27,
+        31,
+        836,
+        480
+      ],
+      "source_rectangle": [
+        78,
+        89,
+        2400,
+        1378
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Reconstruction de l'action : deux plaqueurs RCM désormais bas aux jambes du porteur Le Môle, Nolann mat à gauche sous bonnet bleu, Ayden clair à droite sous bonnet bleu à pompon. Le porteur rouge/blanc garde l'unique ballon au buste. Trois soutiens en ligne derrière : Milo gris à gauche, Lyssandro marine au milieu, Léon bleu à droite. Le faux enfant barbu du fond a été remplacé par un enfant. Mise en continuité des bonnets/thermiques/leggings ; petit badge de bonnet inventé et pompon supplémentaire de Léon exclus localement. Le Môle blanc/rouge reste distinct du RCM. La source n'avait pas de ligne de touche lisible : ligne blanche et petit plot ajoutés derrière les acteurs, sans surimpression sur leurs membres ; pied droit du porteur au-delà, pied gauche encore côté terrain, pour rendre la sortie lisible avant la pénalité en 20/2. Raccord spatial de la séquence encore à relire.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-1-masque.png"
+    },
+    {
+      "page": 20,
+      "vignette": "20-2",
+      "rectangle": [
+        28,
+        496,
+        424,
+        814
+      ],
+      "source_rectangle": [
+        80,
+        1424,
+        1217,
+        2337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Léon sous bonnet bleu aplatit l'unique ballon en plongeant ; main gantée au ballon et ligne d'en-but gardées. Lyssandro sous bonnet marine, derrière à gauche, finit son geste de passe vers l'essai ; adversaires Le Môle blanc/rouge maintenus derrière. Manches longues rouges du candidat ramenées au noir par masque local ; caps blancs, gants, leggings et bonnets repris. Pas d'encadré victoire ajouté.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-2-masque.png"
+    },
+    {
+      "page": 20,
+      "vignette": "20-3",
+      "rectangle": [
+        440,
+        496,
+        836,
+        814
+      ],
+      "source_rectangle": [
+        1263,
+        1424,
+        2400,
+        2337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Deuxième match, adversaires Thonon jaune/bleu conservés, porteur à droite marquant, partenaires bras levés, RCM derrière. Kilian à gauche sous bonnet marine reçoit visage/pilosité rousse du modèle ; tenues hivernales des enfants reprises. L'action suggère l'essai adverse mais aucun score, chronomètre ou texte n'est fabriqué. Cadrage et alignements de terrain/montagnes gardés ; groupe RCM partiellement cadré, pas une vue exhaustive des cinq.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-3-masque.png"
+    },
+    {
+      "page": 20,
+      "vignette": "20-4",
+      "rectangle": [
+        28,
+        830,
+        424,
+        1148
+      ],
+      "source_rectangle": [
+        80,
+        2383,
+        1217,
+        3296
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Milo identifié sous bonnet gris, Léon sous bonnet bleu partiellement cadré à gauche en fin de passe, deux poursuivants Thonon jaune/bleu. Le premier candidat gardait une prise à la taille : rejeté pour cette prise. Deuxième reconstruction importée uniquement autour du défenseur et de l'ancienne prise, avec bras désormais aux cuisses/genoux sous la ceinture, mains recolorées en gants sombres. Sa tête est largement occultée derrière la cuisse/hanche de Milo : lisibilité et anatomie du contact restent à relire. L'unique balle lâchée vers l'avant, séparée des gants de Milo, reste celle du premier montage et n'a pas été réimportée avec le défenseur.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-4-masque.png"
+    },
+    {
+      "page": 20,
+      "vignette": "20-5",
+      "rectangle": [
+        440,
+        831,
+        836,
+        1148
+      ],
+      "source_rectangle": [
+        1263,
+        2386,
+        2400,
+        3296
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Milo gris assis en tailleur, deux mains gantées sur son bonnet et regard inquiet tourné vers Léon ; Léon bleu agenouillé à droite garde le contact rassurant à l'épaule. Visages rapprochés des références sans sourire de Milo ni colère inventée. Cols/caps blancs, leggings et gants repris ; longues manches rouges de Léon ramenées au noir localement et petit jour de peau au poignet de Milo couvert. Aucun dialogue ajouté, pas de ballon dans cette case.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-x/20-5-masque.png"
     }
   ],
   "vignettes": [
@@ -3696,13 +3791,13 @@
         545
       ],
       "scenario": "- **Vignette 1** :\n  - *Visuel* : Pause boisson au bord du terrain. Les cinq garçons discutent entre eux, leurs bonnets sur la tête, en dessinant avec le bout de leurs crampons dans la fine neige au bord de la touche.\n  - *Bulle (Léon)* : « Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaquages maintenant, le premier qui a le ballon se fait presque toujours arrêter s'il court tout droit. »\n  - *Bulle (Ayden)* : « Oui ! Alors que si on est deux juste derrière lui en **soutien offensif**, dès qu'il est plaqué, l'action continue sans s'arrêter ! »",
-      "raccord_scenario": "raccords_de_montage_et_tenues_a_nettoyer",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
       "realiste": "planches/19-les-joueurs-analysent-les-coachs-preparent-realisme-sans-texte.png",
-      "etat": "correction_partielle_reste_a_reprendre",
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "PARTIEL : Cinq garçons en pause, gauche à droite Léon/Lyssandro/Nolann/Ayden/Milo : bonnets bleu/marine/bleu/bleu à pompon/gris ajoutés, portraits locaux rapprochés des références. Trois portraits isolés pour Léon, Milo et Nolann, ce dernier regardant vers son crampon et le dessin ; peau trop mate du candidat Milo éclaircie localement pour ne pas confondre avec Nolann. Deux autres portraits du candidat recalés individuellement, sans importer le cadrage aplati. Caps de manches blanchis, longs thermiques, gants et jambes nues de Nolann couverts en sombre. Bouteilles, corps et schéma dans la neige d'origine conservés hors zones locales ; trace de crampon renforcée sans texte. Le montage intégré garde des raccords visibles : petite zone de ciel rectangulaire au-dessus de Léon, bords et jonctions col/bonnet/épaule de Lyssandro et Ayden et contours/limites de caps de manches, en particulier Milo. Ces défauts sont vus et non validés ; nettoyer avant de poursuivre vers la planche 20. La correction de la tenue n'est pas déclarée terminée."
+      "intervention": "Reprise W de la case restée partielle : assemblage nettoyé, ciel sans rectangle, cols thermiques noirs raccordés aux visages/anneaux blancs, caps de manches blancs redessinés en volumes continus, sans limites de peinture géométriques. Les cinq poses, regards, bonnets et carnations conservés : Léon/Lyssandro/Nolann/Ayden/Milo de gauche à droite. Oreillette grise inventée sur Ayden retirée par import limité au bord du bonnet/oreille ; minuscule mèche jaune ramenée au châtain clair. Main de Milo près de la bouteille couverte en sombre. Bouteilles et tracé de neige maintenus. La case passe en première reprise, pas en validation définitive : cohérence des marques de maillot, proportions/âge et densité du tricot des bonnets restent à relire transversalement."
     },
     {
       "page": 19,
@@ -3786,12 +3881,13 @@
         483
       ],
       "scenario": "- **Vignette 1 (Match 1 contre Le Môle — Rouge et Blanc)** :\n  - *Visuel* : Affrontement engagé contre **Le Môle (tenue Rouge et Blanc)**. Les cinq joueurs du RCM montent dans une **défense en ligne** impeccable. **Nolann** et **Ayden** plaquent aux jambes le porteur Rouge et Blanc près de la ligne de touche, le faisant sortir en touche !\n  - *Onomatopée* : **« TCHAC ! FIIIIT ! »**\n  - *Bulle (Arbitre)* : « Sortie en touche ! Ballon rendu au RCM et joué comme une pénalité ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
       "realiste": "planches/20-le-test-du-grand-froid-le-mole-et-thonon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Reconstruction de l'action : deux plaqueurs RCM désormais bas aux jambes du porteur Le Môle, Nolann mat à gauche sous bonnet bleu, Ayden clair à droite sous bonnet bleu à pompon. Le porteur rouge/blanc garde l'unique ballon au buste. Trois soutiens en ligne derrière : Milo gris à gauche, Lyssandro marine au milieu, Léon bleu à droite. Le faux enfant barbu du fond a été remplacé par un enfant. Mise en continuité des bonnets/thermiques/leggings ; petit badge de bonnet inventé et pompon supplémentaire de Léon exclus localement. Le Môle blanc/rouge reste distinct du RCM. La source n'avait pas de ligne de touche lisible : ligne blanche et petit plot ajoutés derrière les acteurs, sans surimpression sur leurs membres ; pied droit du porteur au-delà, pied gauche encore côté terrain, pour rendre la sortie lisible avant la pénalité en 20/2. Raccord spatial de la séquence encore à relire."
     },
     {
       "page": 20,
@@ -3803,12 +3899,13 @@
         817
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : **Lyssandro** joue vite la pénalité à la main, fixe son adversaire et fait une passe parfaite en arrière à **Léon** qui file aplatir dans l'en-but !\n  - *Bulle (Lyssandro)* : « Vite, ils ne sont pas replacés ! À toi Léon ! »\n  - *Bulle (Léon)* : « Merci Lyssandro ! ESSAI ! »\n  - *Encadré score* : « VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
       "realiste": "planches/20-le-test-du-grand-froid-le-mole-et-thonon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Léon sous bonnet bleu aplatit l'unique ballon en plongeant ; main gantée au ballon et ligne d'en-but gardées. Lyssandro sous bonnet marine, derrière à gauche, finit son geste de passe vers l'essai ; adversaires Le Môle blanc/rouge maintenus derrière. Manches longues rouges du candidat ramenées au noir par masque local ; caps blancs, gants, leggings et bonnets repris. Pas d'encadré victoire ajouté."
     },
     {
       "page": 20,
@@ -3820,12 +3917,13 @@
         817
       ],
       "scenario": "- **Vignette 3 (Match 2 contre Thonon — Jaune et Bleu)** :\n  - *Visuel* : Match suivant contre **Thonon (tenue Jaune et Bleu)**. Les joueurs en Jaune et Bleu sont très rapides et mènent d'un essai à quelques secondes de la fin.\n  - *Bulle (Kilian, depuis le bord)* : « Dernière action le RCM ! Construisez, ne vous précipitez pas ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
       "realiste": "planches/20-le-test-du-grand-froid-le-mole-et-thonon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Deuxième match, adversaires Thonon jaune/bleu conservés, porteur à droite marquant, partenaires bras levés, RCM derrière. Kilian à gauche sous bonnet marine reçoit visage/pilosité rousse du modèle ; tenues hivernales des enfants reprises. L'action suggère l'essai adverse mais aucun score, chronomètre ou texte n'est fabriqué. Cadrage et alignements de terrain/montagnes gardés ; groupe RCM partiellement cadré, pas une vue exhaustive des cinq."
     },
     {
       "page": 20,
@@ -3837,12 +3935,13 @@
         1151
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Le RCM remonte tout le terrain de 30 mètres en passes courtes ! **Léon** attire deux défenseurs de **Thonon (Jaune et Bleu)** et fait la passe à **Milo** à trois mètres de la ligne d'essai… Mais un joueur de Thonon plonge pour plaquer Milo aux jambes au moment où il reçoit le ballon : la balle glisse des gants de Milo et tombe vers l'avant !\n  - *Onomatopée* : **« BOUM ! FIIIIIIIT ! »**\n  - *Bulle (Arbitre)* : « En-avant ! Et c'est la fin du match ! Victoire de Thonon ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
       "realiste": "planches/20-le-test-du-grand-froid-le-mole-et-thonon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Milo identifié sous bonnet gris, Léon sous bonnet bleu partiellement cadré à gauche en fin de passe, deux poursuivants Thonon jaune/bleu. Le premier candidat gardait une prise à la taille : rejeté pour cette prise. Deuxième reconstruction importée uniquement autour du défenseur et de l'ancienne prise, avec bras désormais aux cuisses/genoux sous la ceinture, mains recolorées en gants sombres. Sa tête est largement occultée derrière la cuisse/hanche de Milo : lisibilité et anatomie du contact restent à relire. L'unique balle lâchée vers l'avant, séparée des gants de Milo, reste celle du premier montage et n'a pas été réimportée avec le défenseur."
     },
     {
       "page": 20,
@@ -3854,12 +3953,13 @@
         1151
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : **Milo** est assis par terre sur la pelouse gelée. Il se prend la tête entre les mains et regarde Léon avec inquiétude, redoutant une nouvelle colère.\n  - *Bulle (Milo, la voix tremblante)* : « Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, pardon les gars… »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
       "realiste": "planches/20-le-test-du-grand-froid-le-mole-et-thonon-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Milo gris assis en tailleur, deux mains gantées sur son bonnet et regard inquiet tourné vers Léon ; Léon bleu agenouillé à droite garde le contact rassurant à l'épaule. Visages rapprochés des références sans sourire de Milo ni colère inventée. Cols/caps blancs, leggings et gants repris ; longues manches rouges de Léon ramenées au noir localement et petit jour de peau au poignet de Milo couvert. Aucun dialogue ajouté, pas de ballon dans cette case."
     },
     {
       "page": 21,
@@ -4907,22 +5007,22 @@
     {
       "page": 19,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
-      "sha256": "7ad5fa559711d9179ec61680cd63427db14d305a06c700f4ba9e88efb11f3dcf",
+      "sha256": "70dc0a0b75d3f922b18523359706b1dec818e0d8887113459e3952cbf34c68e5",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1542997
+      "octets": 1555341
     },
     {
       "page": 20,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
-      "sha256": "cfe5f55682c853aab84b55813fa08414689fbbdf925240815c2426e5f308a764",
+      "sha256": "69b3fe38d2f889abd129909b9b290545a0d7968e3e25208ce1013c9752dc201d",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1705179
+      "octets": 1682049
     },
     {
       "page": 21,
@@ -5141,15 +5241,31 @@
     {
       "vignette": "19-1/2",
       "motif": "Candidats entiers déplaçaient les corps et aplatissaient les visages : non importés tels quels. Portraits individuels recalés, trois portraits isolés en 19/1. Le premier visage frontal de Nolann 19/1 est écarté au profit du portrait isolé aux yeux baissés vers le crampon et le dessin. Le montage 19/1 reste PARTIEL pour raccords et caps de manches ; prochaine priorité, pas de passage direct à 20."
+    },
+    {
+      "vignette": "19-1",
+      "motif": "Nettoyage W entier conservait une oreillette grise parasite sur Ayden : correction supplémentaire limitée à la zone du bonnet/oreille. Pas d'import du deuxième candidat entier. Carnations, acteurs et gestes restent ceux du montage W."
+    },
+    {
+      "vignette": "20-1",
+      "motif": "Première génération sans image (MAX_TOKENS), non utilisée ; nouvelle génération plus concise réussie. Badge inventé sur bonnet marine et pompon de Léon exclus localement ; seule la continuité du pompon d'Ayden est gardée."
+    },
+    {
+      "vignette": "20-2/5",
+      "motif": "Les candidats gardaient des longues manches rouges : palette localement ramenée au noir, pas déclarées correctes sur la seule instruction du prompt."
+    },
+    {
+      "vignette": "20-4",
+      "motif": "Le premier candidat gardait une prise à la taille : non validée. Reconstruction basse supplémentaire importée par masque local autour du défenseur/ancienne prise. Ballon, gants du receveur, portrait de Milo, visage de Léon et deux poursuivants hors zone conservés du premier montage. Tête du défenseur en partie cachée, à relire avec l'anatomie des contacts."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 99,
-    "vignettes_correction_partielle": 1,
-    "vignettes_a_controler_individuellement": 52,
+    "vignettes_corrigees_premiere_passe": 105,
+    "vignettes_correction_partielle": 0,
+    "vignettes_a_controler_individuellement": 47,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5490,6 +5606,26 @@
       "reste_a_reprendre": [
         "19-1"
       ]
+    },
+    {
+      "base": "1bbd7fa",
+      "vignettes": [
+        "19-1"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-w/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "1bbd7fa",
+      "vignettes": [
+        "20-1",
+        "20-2",
+        "20-3",
+        "20-4",
+        "20-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-x/",
+      "reste_a_reprendre": []
     }
   ],
   "relectures_sans_retouche": [

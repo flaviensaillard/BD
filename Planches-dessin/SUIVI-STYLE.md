@@ -2,7 +2,7 @@
 
 **La couverture `00-couverture-marvel.png` est désormais la seule référence de style et d’identité.** La décision utilisateur remplace la priorité V2 décrite dans l’historique ci-dessous. La couverture reste inchangée.
 
-Suivi actuel : [`validation/REVUE-COUVERTURE.md`](validation/REVUE-COUVERTURE.md) et son manifeste JSON : 153 vignettes inventoriées, 99 premières reprises, 1 contrôle sans retouche, 1 correction partielle, 52 autres contrôles individuels à faire, aucune validation définitive. Les anciennes approbations ne valent pas conformité au nouveau référentiel. La prise trop haute de 18/4 est reprise au lot U. Priorité active : nettoyer les raccords du ciel, des cols/épaules et des caps de manches de 19/1, encore PARTIELLE, avant la planche 20. Aucune bulle ni texte ajouté.
+Suivi actuel : [`validation/REVUE-COUVERTURE.md`](validation/REVUE-COUVERTURE.md) et son manifeste JSON : 153 vignettes inventoriées, 105 premières reprises, 1 contrôle sans retouche, 0 correction partielle, 47 autres contrôles individuels à faire, aucune validation définitive. Les anciennes approbations ne valent pas conformité au nouveau référentiel. La prise de 18/4 est reprise au lot U ; les raccords de 19/1 sont nettoyés au lot W, puis les cinq cases de 20 reprises au lot X. Prochaine planche : 21. Réserves transversales sur contacts de plaquage, âge/traits sous bonnets et conformité des motifs/écussons/sponsors des tenues. Aucune bulle ni texte de dialogue ajouté.
 
 ---
 
