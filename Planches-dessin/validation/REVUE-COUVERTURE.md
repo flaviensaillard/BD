@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 110 |
+| Premières reprises intégrées, encore à relire | 115 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 42 |
+| Autres vignettes restant à contrôler individuellement | 37 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 110 vignettes ayant reçu une intervention ne sont pas 110 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 115 vignettes ayant reçu une intervention ne sont pas 115 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -428,6 +428,26 @@ Preuves : `revue-couverture/lot-y/21-AVANT-APRES.jpg` et cinq masques des intér
 **Réserves de relecture transversale :** ressemblance et âge sous les bonnets, silhouettes des cinq modèles dans les plans moyens, cohérence des bandes de maillot et des sponsors/écussons aux petites lettres variables ; anatomie des deux prises de relevage (quatre mains), des poignées de main et du bras de Julien occulté derrière Flavien ; finesse du fondu lumineux mental par rapport à l'encrage des autres cases. La buée est atmosphérique, pas un emplacement de dialogue. Les inscriptions internes aux maillots restent un chantier graphique d'harmonisation, pas une validation du lettrage généré.
 
 **Bilan courant : 110 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 42 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 22.** Aucun mot de pensée, bulle, dialogue, onomatopée ou encadré ajouté ; la dernière phase de textes reste différée jusqu'à la validation graphique individuelle et transversale complète.
+
+## Vingt-quatrième livraison : les cinq cases de la planche 22
+
+Passage au soleil de mars à La Motte-Servolex (« Finis les bonnets et les gants : place à la vitesse ! ») : contrôle des cinq vignettes avec la couverture pour unique référence d'identité et de style, en appui sur le scénario et la planche réaliste.
+
+**22/1 :** Bandeau panoramique de mars à La Motte-Servolex : reprise des cinq garçons au premier plan (Léon, Lyssandro, Ayden, Nolann au teint mat, Milo) et suppression des sous-pulls d'hiver à manches longues (blanc sur Ayden, noir sur Nolann) ainsi que du legging noir du coureur d'arrière-plan à gauche et des manches longues résiduelles de plusieurs coureurs d'arrière-plan, conformément au retour du printemps sans bonnets ni gants.
+
+**22/2 :** Causerie au centre du terrain : reprise de Flavien (brun, barbe légère, survêtement marine à épaules rouges), Julien (cheveux gris, moustache et petit bouc gris au menton, veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (cheveux et barbe rousse, veste marine) face au demi-cercle des joueurs U8 en manches courtes.
+
+**22/3 :** Prise de parole devant le groupe : reprise de Léon à gauche (cheveux châtains en épis, expression calme et assurée), complété à droite par Lyssandro (mèche châtain) et Nolann (teint mat, cheveux courts foncés) en maillots manches courtes du RCM devant la ligne des coéquipiers.
+
+**22/4 :** Relance de l'atelier : reprise de Kilian de profil à gauche (cheveux et barbe rousse, grand sourire, haut de survêtement ramené au bleu marine à épaule rouge au lieu du bleu ciel) lançant le ballon à Léon à droite en maillot manches courtes ; nettoyage d'une silhouette grise parasite à l'arrière-plan.
+
+**22/5 :** Ligne des cinq copains (Léon, Lyssandro, Ayden, Nolann au teint mat, Milo) : visages adoucis et rapprochés de la couverture, chevelure châtain clair d'Ayden, teint mat de Nolann, et clin d'œil complice de Milo à droite (un œil fermé, un œil ouvert).
+
+Preuves : `revue-couverture/lot-z/22-AVANT-APRES.jpg` et cinq masques des intérieurs de cases. Cadres noirs et gouttières hors masques intégralement préservés.
+
+**Réserves de relecture transversale :** harmonisation fine des visages de face dans 22/1 et 22/5 (notamment la micro-frange frontale de Nolann par rapport à sa coupe très courte actuelle et l'homogénéité des traits avec la couverture), nettoyage de quelques manches sombres résiduelles sur de petites silhouettes d'arrière-plan dans 22/1 et 22/2, et cohérence des écussons/inscriptions de maillots (`LOCASELF` déformé par la génération).
+
+**Bilan courant : 115 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 37 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 23.** Aucune bulle ni texte ajouté.
 
 ## Contrôles techniques et audits historiques
 
