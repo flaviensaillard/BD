@@ -2833,6 +2833,76 @@
       "type": "reprise_graphique",
       "intervention": "Essai de la victoire de Milo : reprise complète des quatre personnages au centre avec Milo (frange châtain arrondie, bras nus) plongeant pour aplatir le ballon sur la ligne d'en-but sous le coup de sifflet et le bras levé de l'arbitre, encadré par les deux défenseurs de Montmélian en manches courtes.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-ag/29-4-masque.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-1",
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "rectangle": [
+        28,
+        51,
+        424,
+        376
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Accolade et poignée de main de fin de match : reprise à gauche de Milo, Ayden (cheveux ramenés du blond au châtain clair) et Nolann (teint mat non noir) tombant dans les bras les uns des autres, et au centre de Léon (cheveux châtains en épis) serrant sportivement la main du capitaine de Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-1-masque.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-2",
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "rectangle": [
+        440,
+        51,
+        836,
+        376
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Podium final et trophée des U8 : reprise au premier plan d'Ayden (cheveux châtain clair), Léon, Lyssandro, Milo (frange châtain arrondie) et Nolann (teint mat, avant-bras nus) soulevant la coupe en maillots et shorts du RCM à manches courtes blanches nettoyés des inscriptions parasites (LOCASELF, ME25), devant leurs coéquipiers et éducateurs.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-2-masque.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-3",
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "rectangle": [
+        28,
+        391,
+        424,
+        717
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Fierté des trois éducateurs : reprise en style couverture de Flavien (barbe courte légère, survêtement bleu marine à épaules rouges), Julien (veste bleu marine, sifflet jaune) et Kilian (barbe rousse, veste bleu marine unie nettoyée du panneau bleu clair et du texte RBY CLUB) bras dessus bras dessous devant les enfants.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-3-masque.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-4",
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "rectangle": [
+        440,
+        391,
+        836,
+        717
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Retour à Saint-Sulpice en tenue civile : reprise de Léon (cheveux châtains en épis) et de son père Flavien marchant main dans la main sur le chemin de gravier devant la maison familiale dans la lumière dorée de fin de journée.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-4-masque.png"
+    },
+    {
+      "page": 30,
+      "vignette": "30-5",
+      "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
+      "rectangle": [
+        28,
+        732,
+        836,
+        1180
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Image finale de Léon et Flavien : reprise en style couverture du portrait final de Léon (cheveux châtains en épis, regard brun, sourire calme et fier, médaille autour du cou, conservant le ballon ovale crème à liseré rouge/bleu sous le bras) avec son père Flavien (barbe courte légère, sourire fier) posant la main sur son épaule.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-5-masque.png"
     }
   ],
   "vignettes": [
@@ -5718,8 +5788,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
       "realiste": "planches/30-on-apprend-de-ses-echecs-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Accolade et poignée de main de fin de match : reprise à gauche de Milo, Ayden (cheveux ramenés du blond au châtain clair) et Nolann (teint mat non noir) tombant dans les bras les uns des autres, et au centre de Léon (cheveux châtains en épis) serrant sportivement la main du capitaine de Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-1-masque.png",
+      "rectangle": [
+        28,
+        51,
+        424,
+        376
+      ]
     },
     {
       "page": 30,
@@ -5735,8 +5813,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
       "realiste": "planches/30-on-apprend-de-ses-echecs-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Podium final et trophée des U8 : reprise au premier plan d'Ayden (cheveux châtain clair), Léon, Lyssandro, Milo (frange châtain arrondie) et Nolann (teint mat, avant-bras nus) soulevant la coupe en maillots et shorts du RCM à manches courtes blanches nettoyés des inscriptions parasites (LOCASELF, ME25), devant leurs coéquipiers et éducateurs.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-2-masque.png",
+      "rectangle": [
+        440,
+        51,
+        836,
+        376
+      ]
     },
     {
       "page": 30,
@@ -5752,8 +5838,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
       "realiste": "planches/30-on-apprend-de-ses-echecs-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Fierté des trois éducateurs : reprise en style couverture de Flavien (barbe courte légère, survêtement bleu marine à épaules rouges), Julien (veste bleu marine, sifflet jaune) et Kilian (barbe rousse, veste bleu marine unie nettoyée du panneau bleu clair et du texte RBY CLUB) bras dessus bras dessous devant les enfants.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-3-masque.png",
+      "rectangle": [
+        28,
+        391,
+        424,
+        717
+      ]
     },
     {
       "page": 30,
@@ -5769,8 +5863,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
       "realiste": "planches/30-on-apprend-de-ses-echecs-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Retour à Saint-Sulpice en tenue civile : reprise de Léon (cheveux châtains en épis) et de son père Flavien marchant main dans la main sur le chemin de gravier devant la maison familiale dans la lumière dorée de fin de journée.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-4-masque.png",
+      "rectangle": [
+        440,
+        391,
+        836,
+        717
+      ]
     },
     {
       "page": 30,
@@ -5786,8 +5888,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
       "realiste": "planches/30-on-apprend-de-ses-echecs-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Image finale de Léon et Flavien : reprise en style couverture du portrait final de Léon (cheveux châtains en épis, regard brun, sourire calme et fier, médaille autour du cou, conservant le ballon ovale crème à liseré rouge/bleu sous le bras) avec son père Flavien (barbe courte légère, sourire fier) posant la main sur son épaule.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ah/30-5-masque.png",
+      "rectangle": [
+        28,
+        732,
+        836,
+        1180
+      ]
     }
   ],
   "fichiers_apres": [
@@ -6094,12 +6204,12 @@
     {
       "page": 30,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
-      "sha256": "07df6cca579806085903511204074b96ddcbfb277b29d5b1141b0dd51c78e9df",
+      "sha256": "daee31890b56d9e981a0f787cb34fc80c47b204008bdb461242aa41cede2dbf0",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1514134
+      "octets": 1512436
     }
   ],
   "candidats_ecartes": [
@@ -6302,15 +6412,23 @@
     {
       "vignette": "28-6",
       "motif": "Le premier sous-recadrage droit (28-6R-gen) conservait l'inscription LOCASELF sur Ayden et Nolann et remplaçait le maillot du RCM de Milo par un t-shirt rouge uni ; un second sous-recadrage droit (28-6R2-gen) combiné à 28-6L-gen rétablit les maillots du RCM sans texte et les bras nus en manches courtes sur les quatre joueurs."
+    },
+    {
+      "vignette": "30-2",
+      "motif": "Le candidat généré colorait en rouge les manches courtes d'Ayden, Milo et Nolann et allongeait les cheveux de Milo sur les côtés ; les manches courtes sont ramenées au blanc canonique du RCM et la coupe courte arrondie de Milo est rétablie."
+    },
+    {
+      "vignette": "30-5",
+      "motif": "Le candidat généré remplaçait le ballon ovale crème à liseré rouge/bleu sous le bras de Léon par un ballon rond à motif en croix ; le ballon ovale crème canonique et la main gauche de Léon sont rétablis au montage."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 147,
+    "vignettes_corrigees_premiere_passe": 152,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 5,
+    "vignettes_a_controler_individuellement": 0,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -6778,6 +6896,18 @@
         "29-4"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ag/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "c76d832",
+      "vignettes": [
+        "30-1",
+        "30-2",
+        "30-3",
+        "30-4",
+        "30-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ah/",
       "reste_a_reprendre": []
     }
   ],
