@@ -719,9 +719,12 @@
         2424,
         1736
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-h/07-3-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/07-3-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés."
+      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/07-3-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/07-3-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann au profit de ses avant-bras nus au teint mat sous les manches courtes blanches de son maillot du RCM."
     },
     {
       "page": 7,
@@ -852,9 +855,12 @@
         1222,
         3396
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-i/08-4-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/08-4-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés."
+      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/08-4-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/08-4-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : abaissement de la saisie défensive des joueurs de Montmélian aux hanches/cuisses de Milo (plaquage bas conforme U8) et harmonisation des maillots du RCM à manches courtes blanches, bande pectorale blanche et bas bleu roi."
     },
     {
       "page": 8,
@@ -928,9 +934,12 @@
         2424,
         2348
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-j/09-3-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/09-3-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique."
+      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/09-3-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/09-3-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression de la manche longue blanche de Milo et de la manche longue noire de Nolann afin que Milo, Léon et Nolann portent tous leurs manches courtes blanches avec avant-bras nus."
     },
     {
       "page": 9,
@@ -1081,9 +1090,12 @@
         2424,
         2412
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-l/11-3-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/11-3-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement."
+      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/11-3-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/11-3-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression des manches longues blanches d'Ayden et des manches longues noires de Nolann sous l'abri pluvieux afin d'harmoniser leurs manches courtes blanches et bras nus avec Lyssandro et la vignette suivante 11-4."
     },
     {
       "page": 11,
@@ -1126,9 +1138,12 @@
         2404,
         1065
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-1-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/12-1-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique. Harmonisation transversale (Lot AI) : veste de Flavien à droite ramenée au bleu marine foncé canonique."
+      "intervention": "Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique. Harmonisation transversale (Lot AI) : veste de Flavien à droite ramenée au bleu marine foncé canonique.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/12-1-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/12-1-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann (quatrième enfant) au profit de ses avant-bras nus au teint mat sous ses manches courtes blanches et nettoyage du marquage de son maillot."
     },
     {
       "page": 12,
@@ -1202,9 +1217,12 @@
         2404,
         2402
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-n/12-5-masque.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/12-5-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés."
+      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/12-5-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/12-5-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann et de Léon lors de l'exercice de passes dans la boue au profit de leurs avant-bras nus sous les manches courtes blanches du RCM."
     },
     {
       "page": 12,
@@ -1354,9 +1372,12 @@
         2404,
         1787
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-p/14-2-masque-cumulatif.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/14-2-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Ancienne correction partielle de palette dépassée par une première reprise des cinq portraits : Léon criant de profil et pointant, Lyssandro/Ayden blessés, Nolann à courte frange brun foncé/teint mat, Milo à frange pleine châtaine et yeux humides. Têtes spécifiques pour Nolann et Milo. Geste du doigt, corps/tenues et disposition d'origine hors masques conservés ; pas de bulle ajoutée."
+      "intervention": "Ancienne correction partielle de palette dépassée par une première reprise des cinq portraits : Léon criant de profil et pointant, Lyssandro/Ayden blessés, Nolann à courte frange brun foncé/teint mat, Milo à frange pleine châtaine et yeux humides. Têtes spécifiques pour Nolann et Milo. Geste du doigt, corps/tenues et disposition d'origine hors masques conservés ; pas de bulle ajoutée.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/14-2-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/14-2-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression de la manche longue noire et du marquage BR sur le bras tendu de Milo ainsi que des sous-manches sombres de Lyssandro et Nolann, et nettoyage des maillots du RCM."
     },
     {
       "page": 14,
@@ -1411,9 +1432,12 @@
         2404,
         3432
       ],
-      "masque": "Planches-dessin/validation/revue-couverture/lot-p/14-5-masque-cumulatif.png",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/14-5-masque-cumulatif.png",
       "type": "reprise_graphique",
-      "intervention": "Léon regrettant sur son sac et Flavien à ses côtés repris localement. Groupe de consolation reconstruit : Julien et Kilian avec QUATRE enfants (Milo de dos gauche, Nolann face avant au milieu, Ayden de dos droite, Lyssandro visible derrière). La source ne montrait que trois enfants : quatrième rétabli selon le scénario. Noms ajoutés aux dos par le candidat supprimés ; numéros 7 et 8 des deux dos conservés. Terrain/cadrage général maintenus, corps du groupe de consolation nécessairement repris. Harmonisation transversale (Lot AI) : pan latéral de la veste de Kilian ramené au bleu marine foncé canonique."
+      "intervention": "Léon regrettant sur son sac et Flavien à ses côtés repris localement. Groupe de consolation reconstruit : Julien et Kilian avec QUATRE enfants (Milo de dos gauche, Nolann face avant au milieu, Ayden de dos droite, Lyssandro visible derrière). La source ne montrait que trois enfants : quatrième rétabli selon le scénario. Noms ajoutés aux dos par le candidat supprimés ; numéros 7 et 8 des deux dos conservés. Terrain/cadrage général maintenus, corps du groupe de consolation nécessairement repris. Harmonisation transversale (Lot AI) : pan latéral de la veste de Kilian ramené au bleu marine foncé canonique.",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/14-5-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/14-5-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : suppression des manches longues noires et du marquage RCR sur Milo assis à gauche ainsi que des manches longues noires des joueurs debout à droite sous leurs manches courtes blanches."
     },
     {
       "page": 15,
@@ -1717,7 +1741,10 @@
       ],
       "type": "reprise_graphique",
       "intervention": "Démonstration : Kilian tient le boudin bleu à gauche (barbe rousse rétablie par portrait local issu de 18/2), Julien accroupi au milieu (portrait isolé, moustache/bouc gris) et Flavien pointe bas à droite, conservé. Deux enfants observateurs sont rapprochés d'Ayden/Milo : bonnet bleu ajouté au premier, bonnet/portrait gris pour le second. Le scénario ne nomme pas ces deux spectateurs ; attribution de continuité graphique, pas preuve nominale du texte. Corps, mains, boudin, postures et décor hors masques gardés ; candidat complet rejeté pour cadrage aplati.",
-      "masque": "Planches-dessin/validation/revue-couverture/lot-t/18-1-masque.png"
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ak/18-1-masque-cumulatif.png",
+      "avant_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/18-1-avant-ak.png",
+      "apres_lot_ak": "Planches-dessin/validation/revue-couverture/lot-ak/18-1-apres-ak.png",
+      "reprise": " Reprise transversale Lot AK : harmonisation des maillots du RCM des deux enfants à droite (épaules et manches courtes blanches sur sous-pull thermique noir, rayures horizontales rouge et bleu, bande pectorale blanche et bas bleu roi uni)."
     },
     {
       "page": 18,
@@ -3560,7 +3587,8 @@
       "realiste": "planches/07-mur-vert-et-noir-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés."
+      "intervention": "Nolann retrouve courte frange brun foncé, traits du modèle et teint mat, avec mains/jambes visibles accordées localement. Course, ballon, pied sur la touche, deux adversaires vert/noir et terrain hors masques préservés.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann au profit de ses avant-bras nus au teint mat sous les manches courtes blanches de son maillot du RCM."
     },
     {
       "page": 7,
@@ -3690,7 +3718,8 @@
       "realiste": "planches/08-action-individuelle-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés."
+      "intervention": "Tête de Léon reprise avec pics et traits du modèle, expression proche de la source. Premier essai trop grimaçant rejeté. Trois défenseurs, contacts des mains, ballon tombant, corps et deux équipiers de fond hors masque conservés.",
+      "statut_visuel": " Reprise transversale Lot AK : abaissement de la saisie défensive des joueurs de Montmélian aux hanches/cuisses de Milo (plaquage bas conforme U8) et harmonisation des maillots du RCM à manches courtes blanches, bande pectorale blanche et bas bleu roi."
     },
     {
       "page": 8,
@@ -3762,7 +3791,8 @@
       "realiste": "planches/09-colere-et-larmes-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique."
+      "intervention": "Trois garçons repris : Léon essuyant sa larme, Lyssandro au centre avec manches courtes blanches, Nolann à droite avec teint mat du visage aux mains et jambes et courte frange brune. Gestes de consolation, trois acteurs, escalier et cadre automnal maintenus. La manche blanche portée au visage de Léon reste conforme au geste scénarisé, à relire avec la tenue canonique.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression de la manche longue blanche de Milo et de la manche longue noire de Nolann afin que Milo, Léon et Nolann portent tous leurs manches courtes blanches avec avant-bras nus."
     },
     {
       "page": 9,
@@ -3927,7 +3957,8 @@
       "realiste": "planches/11-diagnostic-sous-la-pluie-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement."
+      "intervention": "Lyssandro à gauche, Ayden au centre, Nolann à droite repris en conservant les trois mains levées. Manche courte rouge de Lyssandro remplacée par du blanc, frange courte châtain clair d'Ayden et courte frange brune de Nolann. Carnation de Nolann ajustée localement pour éviter un orange trop saturé. Écussons fantaisistes des trois garçons remplacés localement par l'écusson RCM exact prélevé sur la couverture. Scène entière reprise, arrière-plan et groupe relus visuellement.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression des manches longues blanches d'Ayden et des manches longues noires de Nolann sous l'abri pluvieux afin d'harmoniser leurs manches courtes blanches et bras nus avec Lyssandro et la vignette suivante 11-4."
     },
     {
       "page": 11,
@@ -3983,7 +4014,8 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Cinq garçons alignés gauche à droite Léon/Lyssandro/Ayden/Nolann/Milo : portraits rapprochés de la couverture, pics châtains, franges distinctives et teint mat de Nolann. Julien retrouve moustache/bouc gris. Premier essai souriant rejeté pour des visages concentrés. Manches rouges visibles remplacées par du blanc, sous-maillots et membres conservés. Cônes, cinq positions, terrain et coach hors masques conservés. Course à reculons non explicite dans la pose héritée, réserve tactique.",
-      "notes": "Harmonisation transversale (Lot AI) : veste de Flavien à droite ramenée au bleu marine foncé canonique."
+      "notes": "Harmonisation transversale (Lot AI) : veste de Flavien à droite ramenée au bleu marine foncé canonique.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann (quatrième enfant) au profit de ses avant-bras nus au teint mat sous ses manches courtes blanches et nettoyage du marquage de son maillot."
     },
     {
       "page": 12,
@@ -4057,7 +4089,8 @@
       "realiste": "planches/12-travail-dans-la-boue-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés."
+      "intervention": "Nolann retrouve courte frange brun foncé au lieu de la tête rasée, carnation du visage/membres accordée au teint mat. Milo avec frange pleine châtaine et expression surprise, sous-manches rouges remplacées par du noir. Flavien brun à légère moustache/barbe repris. Deux mains ouvertes, ballon tombant, flaque et corps hors masques préservés.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression des manches longues noires de Nolann et de Léon lors de l'exercice de passes dans la boue au profit de leurs avant-bras nus sous les manches courtes blanches du RCM."
     },
     {
       "page": 12,
@@ -4219,7 +4252,8 @@
       "realiste": "planches/14-les-mots-de-trop-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Ancienne correction partielle de palette dépassée par une première reprise des cinq portraits : Léon criant de profil et pointant, Lyssandro/Ayden blessés, Nolann à courte frange brun foncé/teint mat, Milo à frange pleine châtaine et yeux humides. Têtes spécifiques pour Nolann et Milo. Geste du doigt, corps/tenues et disposition d'origine hors masques conservés ; pas de bulle ajoutée."
+      "intervention": "Ancienne correction partielle de palette dépassée par une première reprise des cinq portraits : Léon criant de profil et pointant, Lyssandro/Ayden blessés, Nolann à courte frange brun foncé/teint mat, Milo à frange pleine châtaine et yeux humides. Têtes spécifiques pour Nolann et Milo. Geste du doigt, corps/tenues et disposition d'origine hors masques conservés ; pas de bulle ajoutée.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression de la manche longue noire et du marquage BR sur le bras tendu de Milo ainsi que des sous-manches sombres de Lyssandro et Nolann, et nettoyage des maillots du RCM."
     },
     {
       "page": 14,
@@ -4275,7 +4309,8 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Léon regrettant sur son sac et Flavien à ses côtés repris localement. Groupe de consolation reconstruit : Julien et Kilian avec QUATRE enfants (Milo de dos gauche, Nolann face avant au milieu, Ayden de dos droite, Lyssandro visible derrière). La source ne montrait que trois enfants : quatrième rétabli selon le scénario. Noms ajoutés aux dos par le candidat supprimés ; numéros 7 et 8 des deux dos conservés. Terrain/cadrage général maintenus, corps du groupe de consolation nécessairement repris.",
-      "notes": "Harmonisation transversale (Lot AI) : pan latéral de la veste de Kilian ramené au bleu marine foncé canonique."
+      "notes": "Harmonisation transversale (Lot AI) : pan latéral de la veste de Kilian ramené au bleu marine foncé canonique.",
+      "statut_visuel": " Reprise transversale Lot AK : suppression des manches longues noires et du marquage RCR sur Milo assis à gauche ainsi que des manches longues noires des joueurs debout à droite sous leurs manches courtes blanches."
     },
     {
       "page": 15,
@@ -4564,7 +4599,8 @@
       "realiste": "planches/18-ecole-du-plaquage-dans-le-froid-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Démonstration : Kilian tient le boudin bleu à gauche (barbe rousse rétablie par portrait local issu de 18/2), Julien accroupi au milieu (portrait isolé, moustache/bouc gris) et Flavien pointe bas à droite, conservé. Deux enfants observateurs sont rapprochés d'Ayden/Milo : bonnet bleu ajouté au premier, bonnet/portrait gris pour le second. Le scénario ne nomme pas ces deux spectateurs ; attribution de continuité graphique, pas preuve nominale du texte. Corps, mains, boudin, postures et décor hors masques gardés ; candidat complet rejeté pour cadrage aplati."
+      "intervention": "Démonstration : Kilian tient le boudin bleu à gauche (barbe rousse rétablie par portrait local issu de 18/2), Julien accroupi au milieu (portrait isolé, moustache/bouc gris) et Flavien pointe bas à droite, conservé. Deux enfants observateurs sont rapprochés d'Ayden/Milo : bonnet bleu ajouté au premier, bonnet/portrait gris pour le second. Le scénario ne nomme pas ces deux spectateurs ; attribution de continuité graphique, pas preuve nominale du texte. Corps, mains, boudin, postures et décor hors masques gardés ; candidat complet rejeté pour cadrage aplati.",
+      "statut_visuel": " Reprise transversale Lot AK : harmonisation des maillots du RCM des deux enfants à droite (épaules et manches courtes blanches sur sous-pull thermique noir, rayures horizontales rouge et bleu, bande pectorale blanche et bas bleu roi uni)."
     },
     {
       "page": 18,
@@ -5994,32 +6030,32 @@
     {
       "page": 7,
       "fichier": "Planches-dessin/07-mur-vert-et-noir-marvel.png",
-      "sha256": "4c5a12e5291cc71fa10f403834384d28d9f3269a39ce653b7082bebd341e1bdb",
+      "sha256": "bfc269df7e3175f7c185c1a0b2cc67ce0ce4781b3d3544f11e0c2f84bbe0f233",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1666786
+      "octets": 1665952
     },
     {
       "page": 8,
       "fichier": "Planches-dessin/08-action-individuelle-marvel.png",
-      "sha256": "d9f2d41811127c47d1e2042664414d1283985de400aa5f823bb0a5a964c7c282",
+      "sha256": "89509c4b29217e1267d762599d7444617e69f82922c887ce2a5230f5becd85fa",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1689172
+      "octets": 1673093
     },
     {
       "page": 9,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
-      "sha256": "9dee5c470c8ded11630f273b69daaa02a8407f3abf1d0568f925d9472e2bc70c",
+      "sha256": "5635f8e50113f6d1647dbf9b13f5ff0e4197bd96e1afb586a6ba9d3768f9df7d",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1618949
+      "octets": 1619297
     },
     {
       "page": 10,
@@ -6034,22 +6070,22 @@
     {
       "page": 11,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
-      "sha256": "540b0f46a6bee1f45b3bc661eb32762c1f44d9e35880402d669d9b8f14df61be",
+      "sha256": "3c8ed525c841a829759ca4a2dd795977b8be48861930694c4ec3e52c353a573a",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 10321769
+      "octets": 10367842
     },
     {
       "page": 12,
       "fichier": "Planches-dessin/12-travail-dans-la-boue-marvel.png",
-      "sha256": "d19df575f1769a4337ce2a33e1dd502efc20b20c3c441914a55065ec3829244d",
+      "sha256": "9a304d36849fba69e69ebe3779beabba3d381ba84ec962eba69eb94a5e6063f3",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 9741699
+      "octets": 9740631
     },
     {
       "page": 13,
@@ -6064,12 +6100,12 @@
     {
       "page": 14,
       "fichier": "Planches-dessin/14-les-mots-de-trop-marvel.png",
-      "sha256": "29b40f7ba1e1d06295507a1e532e49f4595eda0639a9c1c6315ececb14c2f1d5",
+      "sha256": "645550d898b370cae021bc2d1f815e2d452ad162f15f06bf113f14d1313615cd",
       "dimensions": [
         896,
         1200
       ],
-      "octets": 1787639
+      "octets": 1758050
     },
     {
       "page": 15,
@@ -6104,12 +6140,12 @@
     {
       "page": 18,
       "fichier": "Planches-dessin/18-ecole-du-plaquage-dans-le-froid-marvel.png",
-      "sha256": "6787e2dd8f9ee5b420210cce9b6f3eaf6deefeb94e3c6c320e7d163ef059d42c",
+      "sha256": "fe1d4706937fcad9cb8b5b641b436acc03ddc5ffa457a97596d2088ecb8cb6f2",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1768030
+      "octets": 1766868
     },
     {
       "page": 19,
@@ -6942,6 +6978,23 @@
         "06-4"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-aj/",
+      "reste_a_reprendre": []
+    },
+    {
+      "lot": "AK",
+      "base": "12d2b95",
+      "vignettes": [
+        "07-3",
+        "08-4",
+        "09-3",
+        "11-3",
+        "12-1",
+        "12-5",
+        "14-2",
+        "14-5",
+        "18-1"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ak/",
       "reste_a_reprendre": []
     }
   ],
