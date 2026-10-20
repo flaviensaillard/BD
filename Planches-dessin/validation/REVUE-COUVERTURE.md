@@ -626,3 +626,12 @@ Corrections directes en style BD de couverture répondant point par point aux re
 - **`20-1` (`Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png`)** : rétablissement d'**un seul plaqueur** (**Nolann** au teint bronzé européen plaquant bas aux hanches/cuisses le porteur du Môle en blanc et rouge), suppression du second plaqueur surnuméraire à droite et maintien de la ligne défensive du RCM montant ensemble (**Milo** à gauche, **Lyssandro** au second plan, **Ayden** en soutien à droite).
 - **`30-1` et `30-5` (`Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png`)** : en `30-1`, harmonisation du teint bronzé européen clair (nuque, bras, jambes) et des cheveux châtain foncé de Nolann dans l'accolade de gauche ; en `30-5`, remplacement du pavillon beige d'arrière-plan par la **maison familiale canonique de Saint-Sulpice** (identique à `30-4` et `24-3`..`24-5` : maison savoyarde blanche à deux niveaux, toit à deux pans en bois, muret en pierres et allée de gravier) derrière Léon et Flavien.
 - **Preuves** : `Planches-dessin/validation/revue-couverture/lot-ao/AO-AVANT-APRES.jpg` et masques cumulatifs mis à jour.
+
+## Quarante-deuxième livraison (Lot AP) — unification de la teinte de Léon en `09-4` et suppression des coupures de teinte en `11-4` et `14-4`
+
+Correction de la double teinte signalée par l'utilisateur sur **Léon** dans la dernière vignette de la planche 9 (`09-4`) ainsi que des deux coupures de boîte adjacentes en `11-4` et `14-4` :
+
+- **`09-4` (`Planches-dessin/09-colere-et-larmes-marvel.png`)** : suppression complète de la démarcation verticale à double teinte au milieu des cheveux et du front de **Léon** (`x=262`) et harmonisation uniforme de la carnation claire de son visage, de son oreille et de son cou avec celle de son avant-bras.
+- **`11-4` (`Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png`)** : suppression de la démarcation verticale à double teinte sur la joue gauche et les cheveux d'**Ayden** à gauche de Nolann.
+- **`14-4` (`Planches-dessin/14-les-mots-de-trop-marvel.png`)** : unification du teint bronzé européen sur le bord droit de la joue et la main gauche de **Nolann**.
+- **Preuves** : `Planches-dessin/validation/revue-couverture/lot-ap/AP-AVANT-APRES.jpg` et masques cumulatifs mis à jour.

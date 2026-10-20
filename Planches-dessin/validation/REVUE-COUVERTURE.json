@@ -3811,7 +3811,7 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés. Harmonisation transversale de Nolann (teint bronzé européen et coupe brune courte à micro-frange, sans carnation noire/africaine).",
-      "notes": "Harmonisation transversale (Lot AI) : panneau avant de la veste de Kilian ramené au bleu marine foncé canonique. Lot AO : reprise de Julien vu de face (col ouvert, fermeture éclair frontale, sifflet jaune sur cordon au milieu du torse, visage de trois-quarts tourné vers Kilian) et veste marine unie de Kilian."
+      "notes": "Harmonisation transversale (Lot AI) : panneau avant de la veste de Kilian ramené au bleu marine foncé canonique. Lot AO : reprise de Julien vu de face (col ouvert, fermeture éclair frontale, sifflet jaune sur cordon au milieu du torse, visage de trois-quarts tourné vers Kilian) et veste marine unie de Kilian. Lot AP : suppression de la double teinte verticale sur les cheveux et le front de Léon et harmonisation complète de la carnation de son visage et de son cou avec son avant-bras."
     },
     {
       "page": 10,
@@ -4290,7 +4290,7 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Portraits des trois coachs repris : Flavien brun à légère pilosité, Julien gris à bouc/moustache, Kilian roux barbu. Léon à gauche, Milo au centre et Nolann à droite identifiés ; pics, frange pleine et courte frange respectives, visages tristes. Gestes sur les épaules, corps et deux joueurs d'une autre équipe vus de dos hors masques préservés. Harmonisation transversale de Nolann (teint bronzé européen et coupe brune courte à micro-frange, sans carnation noire/africaine).",
-      "notes": "Harmonisation transversale (Lot AI) : veste de Kilian à droite ramenée au bleu marine foncé canonique et inscription parasite supprimée."
+      "notes": "Harmonisation transversale (Lot AI) : veste de Kilian à droite ramenée au bleu marine foncé canonique et inscription parasite supprimée. Lot AP : unification de la teinte bronzée sur le bord droit de la joue et la main gauche de Nolann."
     },
     {
       "page": 14,
@@ -6067,12 +6067,12 @@
     {
       "page": 9,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
-      "sha256": "bdc6203442d90411fc62bf9c8628c05ea1f545d9da1f7452255a9ec5be38723e",
+      "sha256": "a0d185d67d644ff05350d5b4d0205333d76290ba53e2597955479493f15c8270",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1606386
+      "octets": 1605873
     },
     {
       "page": 10,
@@ -6087,12 +6087,12 @@
     {
       "page": 11,
       "fichier": "Planches-dessin/11-diagnostic-sous-la-pluie-marvel.png",
-      "sha256": "4c0388a4853ecccac5dfbe2d2e9999b629f88309d073acfcd01a3b32c38fcea5",
+      "sha256": "df5b1d88e0533529bc8cc101a72f4c6a132989458728ed9c0858966aa27777a8",
       "dimensions": [
         2480,
         3508
       ],
-      "octets": 10387129
+      "octets": 10385263
     },
     {
       "page": 12,
@@ -6117,12 +6117,12 @@
     {
       "page": 14,
       "fichier": "Planches-dessin/14-les-mots-de-trop-marvel.png",
-      "sha256": "f52d0717eaccc05ac064b30c0381c9fab78cb92691f6dcdfcbb1717f22a326cc",
+      "sha256": "096c93ae9a88fdba73a382f20330dada723b2f66bc92d6b5c7d2da29395a7675",
       "dimensions": [
         896,
         1200
       ],
-      "octets": 1720571
+      "octets": 1720572
     },
     {
       "page": 15,
@@ -7027,6 +7027,17 @@
         "30-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ao/AO-AVANT-APRES.jpg",
+      "reste_a_reprendre": []
+    },
+    {
+      "lot": "AP",
+      "base": "b561811",
+      "vignettes": [
+        "09-4",
+        "11-4",
+        "14-4"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ap/AP-AVANT-APRES.jpg",
       "reste_a_reprendre": []
     }
   ],
