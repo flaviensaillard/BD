@@ -119,25 +119,6 @@
       "intervention": "Reprise des trois têtes Ayden/Lyssandro/Nolann : frange courte châtain clair, frange châtaine de côté, courte frange brun foncé et teint mat. Tenues et décor hors masques conservés. La correction partielle de couleur est remplacée par une première reprise des ressemblances, encore à relire et non validée définitivement."
     },
     {
-      "page": 27,
-      "vignette": "27-5",
-      "rectangle": [
-        440,
-        837,
-        840,
-        1158
-      ],
-      "source_rectangle": [
-        1260,
-        2382,
-        2402,
-        3300
-      ],
-      "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés.",
-      "type": "reprise_graphique",
-      "masque": "Planches-dessin/validation/revue-couverture/lot-b/27-5-masque.png"
-    },
-    {
       "page": 2,
       "vignette": "02-1",
       "rectangle": [
@@ -2642,6 +2623,76 @@
       "type": "reprise_graphique",
       "intervention": "Explication tactique au sol : reprise de la vignette avec veste de Julien ramenée du bleu roi au bleu marine canonique bras écartés, Flavien accroupi montrant les trois brins d'herbe au sol, et les cinq garçons attentifs à gauche (Léon tapant dans ses mains, Lyssandro, Ayden aux cheveux ramenés du blond au châtain clair, Nolann au teint mat, Milo).",
       "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-6-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-1",
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "rectangle": [
+        25,
+        28,
+        840,
+        484
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Match 4 contre Aix-les-Bains (défense en ligne et plaquage bas) : reprise complète de la vignette avec Ayden (cheveux châtain clair) plaquant bas aux cuisses le porteur d'Aix-les-Bains en jaune et noir au centre, tandis que Milo, Léon, Nolann (teint mat, cheveux courts foncés) et Lyssandro restent parfaitement écartés sur la ligne défensive.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-1-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-2",
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "rectangle": [
+        25,
+        500,
+        425,
+        821
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Essai de Lyssandro en soutien offensif : reprise de Lyssandro aplatissant le ballon à deux mains sur la ligne d'en-but, soutenu au second plan par Ayden (cheveux châtain clair), Nolann (teint mat) et Léon (cheveux châtains en épis).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-2-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-3",
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "rectangle": [
+        440,
+        500,
+        840,
+        821
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Annonce du dernier match décisif : reprise en style couverture du speaker au micro à gauche, du public et des jeunes joueurs du RCM courant vers le terrain n°1 face à Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-3-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-4",
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "rectangle": [
+        25,
+        837,
+        425,
+        1158
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Face-à-face RCM contre Montmélian : reprise à gauche des cinq joueurs du RCM alignés (Milo, Lyssandro, Léon, Nolann au teint mat, Ayden aux cheveux châtain clair) et à droite des cinq joueurs de Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-4-masque.png"
+    },
+    {
+      "page": 27,
+      "vignette": "27-5",
+      "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
+      "rectangle": [
+        440,
+        837,
+        840,
+        1158
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Cercle de motivation des cinq copains : reprise complète de Léon, Lyssandro, Nolann (teint mat), Ayden (cheveux châtain clair) et Milo bras dessus bras dessous en maillots et shorts du RCM nettoyés des inscriptions parasites (LOCASELF, SCASELF, RCR, NOLANN).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-5-masque.png"
     }
   ],
   "vignettes": [
@@ -5151,8 +5202,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Match 4 contre Aix-les-Bains (défense en ligne et plaquage bas) : reprise complète de la vignette avec Ayden (cheveux châtain clair) plaquant bas aux cuisses le porteur d'Aix-les-Bains en jaune et noir au centre, tandis que Milo, Léon, Nolann (teint mat, cheveux courts foncés) et Lyssandro restent parfaitement écartés sur la ligne défensive.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-1-masque.png",
+      "rectangle": [
+        25,
+        28,
+        840,
+        484
+      ]
     },
     {
       "page": 27,
@@ -5168,8 +5227,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Essai de Lyssandro en soutien offensif : reprise de Lyssandro aplatissant le ballon à deux mains sur la ligne d'en-but, soutenu au second plan par Ayden (cheveux châtain clair), Nolann (teint mat) et Léon (cheveux châtains en épis).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-2-masque.png",
+      "rectangle": [
+        25,
+        500,
+        425,
+        821
+      ]
     },
     {
       "page": 27,
@@ -5185,8 +5252,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Annonce du dernier match décisif : reprise en style couverture du speaker au micro à gauche, du public et des jeunes joueurs du RCM courant vers le terrain n°1 face à Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-3-masque.png",
+      "rectangle": [
+        440,
+        500,
+        840,
+        821
+      ]
     },
     {
       "page": 27,
@@ -5202,8 +5277,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Face-à-face RCM contre Montmélian : reprise à gauche des cinq joueurs du RCM alignés (Milo, Lyssandro, Léon, Nolann au teint mat, Ayden aux cheveux châtain clair) et à droite des cinq joueurs de Montmélian en vert et noir.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-4-masque.png",
+      "rectangle": [
+        25,
+        837,
+        425,
+        1158
+      ]
     },
     {
       "page": 27,
@@ -5221,7 +5304,15 @@
       "realiste": "planches/27-la-correction-appliquee-l-heure-de-la-revanche-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
-      "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés."
+      "intervention": "Cinq têtes et raccords de cou/épaules repris ; Nolann avec courte frange brune, visage du modèle et teint mat accordé aux genoux ; cheveux d’Ayden corrigés. Stade, ciel, corps, inscriptions et écussons hors masque conservés.",
+      "Correction": "Cercle de motivation des cinq copains : reprise complète de Léon, Lyssandro, Nolann (teint mat), Ayden (cheveux châtain clair) et Milo bras dessus bras dessous en maillots et shorts du RCM nettoyés des inscriptions parasites (LOCASELF, SCASELF, RCR, NOLANN).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-5-masque.png",
+      "rectangle": [
+        440,
+        837,
+        840,
+        1158
+      ]
     },
     {
       "page": 28,
@@ -5753,12 +5844,12 @@
     {
       "page": 27,
       "fichier": "Planches-dessin/27-la-correction-appliquee-l-heure-de-la-revanche-marvel.png",
-      "sha256": "e3711d927c00f9daf00cd00964c4a8d6ad4f8d224e7c0d185f1fe84e9727e601",
+      "sha256": "1a9d2d696316b0b666e9de3698a77bc4b031051ddea8d6cc3ad289ad2eb893ca",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1688267
+      "octets": 1641847
     },
     {
       "page": 28,
@@ -5979,15 +6070,19 @@
     {
       "vignette": "26-6",
       "motif": "Le candidat généré conservait la veste bleu roi de Julien et grisonnait légèrement la barbe de Flavien ; la veste de Julien est ramenée au bleu marine canonique et la barbe courte de Flavien au châtain."
+    },
+    {
+      "vignette": "27-1",
+      "motif": "Le premier candidat complet conservait les bras d'Ayden haut autour de la taille du porteur d'Aix-les-Bains ; un sous-recadrage dédié (27-1-tackle) abaisse le plaquage d'Ayden aux cuisses conformément au scénario et aux règles U8, en excluant la ligne blanche inventée par le sous-recadrage."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 133,
+    "vignettes_corrigees_premiere_passe": 137,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 19,
+    "vignettes_a_controler_individuellement": 15,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -6419,6 +6514,18 @@
         "26-6"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ad/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "7017804",
+      "vignettes": [
+        "27-1",
+        "27-2",
+        "27-3",
+        "27-4",
+        "27-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ae/",
       "reste_a_reprendre": []
     }
   ],
