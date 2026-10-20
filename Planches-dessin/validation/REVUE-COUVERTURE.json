@@ -2693,6 +2693,90 @@
       "type": "reprise_graphique",
       "intervention": "Cercle de motivation des cinq copains : reprise complète de Léon, Lyssandro, Nolann (teint mat), Ayden (cheveux châtain clair) et Milo bras dessus bras dessous en maillots et shorts du RCM nettoyés des inscriptions parasites (LOCASELF, SCASELF, RCR, NOLANN).",
       "masque": "Planches-dessin/validation/revue-couverture/lot-ae/27-5-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-1",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        25,
+        27,
+        425,
+        267
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Égalisation de Nolann (1-1) : reprise complète de Nolann (teint mat, cheveux courts foncés, avant-bras nus en manches courtes) aplatissant le ballon sur la ligne d'en-but après la passe d'Ayden (cheveux châtain clair, maillot nettoyé de l'inscription USASDX) avec Léon en soutien à gauche face à Montmélian.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-1-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-2",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        440,
+        27,
+        840,
+        267
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Montée en ligne défensive à 2-2 : reprise des cinq défenseurs du RCM montant en ligne (Léon, Lyssandro, Ayden aux cheveux châtain clair, Nolann au teint mat, Milo) face à l'attaquant de Montmélian sous le regard de l'arbitre indiquant une dernière minute.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-2-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-3",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        25,
+        283,
+        840,
+        608
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Mur défensif et plaquage bas de Lyssandro : reprise des six joueurs avec Lyssandro plaquant bas au niveau du short le porteur de Montmélian en vert et noir, entouré de Léon, Ayden (cheveux châtain clair), Nolann (teint mat) et Milo en manches courtes bras nus et maillots nettoyés des inscriptions parasites.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-3-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-4",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        25,
+        624,
+        425,
+        864
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Plaquage en touche de Milo et Nolann : reprise de Milo (frange châtain, bras nus) et Nolann (teint mat, cheveux courts foncés) entraînant l'ailier de Montmélian au-delà de la ligne de touche sous le geste de l'arbitre.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-4-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-5",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        440,
+        624,
+        840,
+        864
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Pénalité jouée à 5 mètres par Ayden : reprise d'Ayden (cheveux ramenés du blond au châtain clair) tapotant le ballon du pied devant Julien (sifflet jaune en main, veste bleu marine), Kilian (barbe rousse, veste bleu marine) et Flavien (survêtement bleu marine à épaules rouges).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-5-masque.png"
+    },
+    {
+      "page": 28,
+      "vignette": "28-6",
+      "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
+      "rectangle": [
+        25,
+        881,
+        840,
+        1205
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Passe tendue d'Ayden vers Léon : reprise complète de la vignette par assemblage gauche/droite avec Ayden (cheveux châtain clair, bras nus) adressant une passe tendue vers Léon lancé à pleine vitesse à gauche, soutenus par Milo et Nolann (teint mat) à droite en maillots et shorts du RCM nettoyés de toutes les inscriptions (LOCASELF, SAVOIE MOTOCULTURE, ME25).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-6-masque.png"
     }
   ],
   "vignettes": [
@@ -5328,8 +5412,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Égalisation de Nolann (1-1) : reprise complète de Nolann (teint mat, cheveux courts foncés, avant-bras nus en manches courtes) aplatissant le ballon sur la ligne d'en-but après la passe d'Ayden (cheveux châtain clair, maillot nettoyé de l'inscription USASDX) avec Léon en soutien à gauche face à Montmélian.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-1-masque.png",
+      "rectangle": [
+        25,
+        27,
+        425,
+        267
+      ]
     },
     {
       "page": 28,
@@ -5345,8 +5437,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Montée en ligne défensive à 2-2 : reprise des cinq défenseurs du RCM montant en ligne (Léon, Lyssandro, Ayden aux cheveux châtain clair, Nolann au teint mat, Milo) face à l'attaquant de Montmélian sous le regard de l'arbitre indiquant une dernière minute.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-2-masque.png",
+      "rectangle": [
+        440,
+        27,
+        840,
+        267
+      ]
     },
     {
       "page": 28,
@@ -5362,8 +5462,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Mur défensif et plaquage bas de Lyssandro : reprise des six joueurs avec Lyssandro plaquant bas au niveau du short le porteur de Montmélian en vert et noir, entouré de Léon, Ayden (cheveux châtain clair), Nolann (teint mat) et Milo en manches courtes bras nus et maillots nettoyés des inscriptions parasites.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-3-masque.png",
+      "rectangle": [
+        25,
+        283,
+        840,
+        608
+      ]
     },
     {
       "page": 28,
@@ -5379,8 +5487,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Plaquage en touche de Milo et Nolann : reprise de Milo (frange châtain, bras nus) et Nolann (teint mat, cheveux courts foncés) entraînant l'ailier de Montmélian au-delà de la ligne de touche sous le geste de l'arbitre.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-4-masque.png",
+      "rectangle": [
+        25,
+        624,
+        425,
+        864
+      ]
     },
     {
       "page": 28,
@@ -5396,8 +5512,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Pénalité jouée à 5 mètres par Ayden : reprise d'Ayden (cheveux ramenés du blond au châtain clair) tapotant le ballon du pied devant Julien (sifflet jaune en main, veste bleu marine), Kilian (barbe rousse, veste bleu marine) et Flavien (survêtement bleu marine à épaules rouges).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-5-masque.png",
+      "rectangle": [
+        440,
+        624,
+        840,
+        864
+      ]
     },
     {
       "page": 28,
@@ -5413,8 +5537,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
       "realiste": "planches/28-le-choc-des-titans-rcm-vs-montmelian-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Passe tendue d'Ayden vers Léon : reprise complète de la vignette par assemblage gauche/droite avec Ayden (cheveux châtain clair, bras nus) adressant une passe tendue vers Léon lancé à pleine vitesse à gauche, soutenus par Milo et Nolann (teint mat) à droite en maillots et shorts du RCM nettoyés de toutes les inscriptions (LOCASELF, SAVOIE MOTOCULTURE, ME25).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-af/28-6-masque.png",
+      "rectangle": [
+        25,
+        881,
+        840,
+        1205
+      ]
     },
     {
       "page": 29,
@@ -5854,12 +5986,12 @@
     {
       "page": 28,
       "fichier": "Planches-dessin/28-le-choc-des-titans-rcm-vs-montmelian-marvel.png",
-      "sha256": "2982f7cecfe450e7e14a926847d56136f75c38ac0a71896f61566cf55103361e",
+      "sha256": "55e2135b5de7df7e0774335225a36ffc145a9ce817f3250c40fe115a2afc780f",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1903413
+      "octets": 1813866
     },
     {
       "page": 29,
@@ -6074,15 +6206,23 @@
     {
       "vignette": "27-1",
       "motif": "Le premier candidat complet conservait les bras d'Ayden haut autour de la taille du porteur d'Aix-les-Bains ; un sous-recadrage dédié (27-1-tackle) abaisse le plaquage d'Ayden aux cuisses conformément au scénario et aux règles U8, en excluant la ligne blanche inventée par le sous-recadrage."
+    },
+    {
+      "vignette": "28-3",
+      "motif": "Le premier candidat (28-3C-gen) dédoublait le menton et le col d'Ayden au-dessus de la tête de Lyssandro ; un second candidat (28-3C-gen2) rétablit le visage et le col uniques d'Ayden tout en conservant les chaussettes rayées vert et noir du porteur de Montmélian issues du premier candidat."
+    },
+    {
+      "vignette": "28-6",
+      "motif": "Le premier sous-recadrage droit (28-6R-gen) conservait l'inscription LOCASELF sur Ayden et Nolann et remplaçait le maillot du RCM de Milo par un t-shirt rouge uni ; un second sous-recadrage droit (28-6R2-gen) combiné à 28-6L-gen rétablit les maillots du RCM sans texte et les bras nus en manches courtes sur les quatre joueurs."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 137,
+    "vignettes_corrigees_premiere_passe": 143,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 15,
+    "vignettes_a_controler_individuellement": 9,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -6526,6 +6666,19 @@
         "27-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ae/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "2879935",
+      "vignettes": [
+        "28-1",
+        "28-2",
+        "28-3",
+        "28-4",
+        "28-5",
+        "28-6"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-af/",
       "reste_a_reprendre": []
     }
   ],
