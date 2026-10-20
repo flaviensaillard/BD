@@ -5934,12 +5934,12 @@
     {
       "page": 1,
       "fichier": "Planches-dessin/01-la-legende-des-u6-marvel.png",
-      "sha256": "4a543afa9b8f8c43e163e312d15ce2f7308452f60524098c215cf5592ec4c976",
+      "sha256": "60782dc01b797d9effa2054da4101e2aec9cc52a98af29889862c2403f82e317",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1756722
+      "octets": 1718521
     },
     {
       "page": 2,
@@ -5954,42 +5954,42 @@
     {
       "page": 3,
       "fichier": "Planches-dessin/03-les-20-guerriers-du-rcm-marvel.png",
-      "sha256": "57e2a3cafed84cd2534706ab3deab3db65cebff4f603a0a0146c4254ce78e2ee",
+      "sha256": "ecf3af699b80f3fe61ba2b05ec9abd29d4e717a4e74791d6dad176b4eee83eb9",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1716331
+      "octets": 1716654
     },
     {
       "page": 4,
       "fichier": "Planches-dessin/04-nouvelles-regles-marvel.png",
-      "sha256": "9912c3f07ec5fada6c0ccd981fc4d6c27db4cdc63ae4d3c364d16c7b93043257",
+      "sha256": "db2944fc42ece78e0cfc9e5d3b9d8a003069fb2403cfca4837402b04b672d120",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1574849
+      "octets": 1570360
     },
     {
       "page": 5,
       "fichier": "Planches-dessin/05-premiers-sifflets-marvel.png",
-      "sha256": "7f916b73c386d5002ead080ce8d36bc8b3ff873ea4a74b38ea92fd3b6df6d0d8",
+      "sha256": "6cbc07a9e64c3b85f3b9103cc60147a77f98b9d957dcbe06af5482ff13798286",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1611544
+      "octets": 1601108
     },
     {
       "page": 6,
       "fichier": "Planches-dessin/06-deux-victoires-marvel.png",
-      "sha256": "431676784790a3fde0cacf3fd1fcce1b2c886472691a827afa5ba652ead7f011",
+      "sha256": "8781d7829ba2db495082bdc0cd862157a3c8fd9c55edecab33bad0fd2c4961fa",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1753859
+      "octets": 1751065
     },
     {
       "page": 7,
@@ -6928,6 +6928,20 @@
         "30-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ah/",
+      "reste_a_reprendre": []
+    },
+    {
+      "lot": "AJ",
+      "base": "490dcf7",
+      "vignettes": [
+        "01-1",
+        "03-3",
+        "04-4",
+        "05-1",
+        "06-2",
+        "06-4"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-aj/",
       "reste_a_reprendre": []
     }
   ],
