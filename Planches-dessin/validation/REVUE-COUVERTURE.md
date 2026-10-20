@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 129 |
+| Premières reprises intégrées, encore à relire | 152 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 23 |
+| Autres vignettes restant à contrôler individuellement | 0 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 129 vignettes ayant reçu une intervention ne sont pas 129 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 152 vignettes ayant reçu une intervention et la vignette contrôlée sans retouche (`13-1`) ne sont pas 153 vignettes définitivement conformes : la relecture transversale de continuité des 30 planches est en cours avant l'étape finale des bulles et textes. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -546,3 +546,13 @@ Procédure : identification au scénario → comparaison aux personnages de couv
 | `30-3` | 30 | `[28, 391, 424, 717]` | Corrigée 1re passe (relecture globale à faire) | Les trois coachs bras dessus bras dessous : reprise en style couverture de Flavien (survêtement bleu marine à épaules rouges nettoyé du carré publicitaire blanc), Julien (veste bleu marine et sifflet jaune) et Kilian (veste bleu marine unie nettoyée du panneau bleu clair RUGBY CLUB) devant les joueurs radieux. |
 | `30-4` | 30 | `[440, 391, 836, 717]` | Corrigée 1re passe (relecture globale à faire) | Retour à Saint-Sulpice au soleil couchant : reprise en style couverture de Léon et de son père Flavien en tenue civile marchant main dans la main sur le chemin de gravier devant la maison familiale. |
 | `30-5` | 30 | `[28, 732, 836, 1180]` | Corrigée 1re passe (relecture globale à faire) | Portrait final père-fils : reprise en style couverture de Léon en tenue civile avec sa médaille tricolore autour du cou et le ballon crème à liseré rouge/bleu sous le bras gauche, entouré de son père Flavien posant la main sur son épaule avec un sourire fier. |
+
+## Trente-cinquième livraison (Lot AI) — harmonisation transversale sur 20 vignettes des planches 03, 04, 05, 07, 09, 11, 12, 14 et 16
+
+Première passe de relecture globale transversale des 30 planches contre la couverture canonique (`00-couverture-marvel.png`) :
+
+- **Harmonisation des vestes des trois éducateurs (`03-4`, `03-5`, `04-1`, `04-3`, `04-4`, `05-3`, `05-4`, `05-5`, `07-6`, `09-4`, `11-1`, `11-2`, `11-5`, `12-1`, `12-3`, `12-4`, `14-4`, `14-5`, `16-3`)** : les vestes bleu roi vif ou à empiècements bleu ciel et lettrages parasites (`IG/C CLUS`, `NICHI B`, `2HRV`, `SOY CLUB`, `UB`, `CM OGC`) sur Flavien, Julien et Kilian ont été ramenées au bleu marine foncé canonique de la couverture, avec suppression locale des inscriptions parasites et conservation intégrale des visages, écussons du RCM, sifflets et contours encrés.
+- **Harmonisation des manches courtes d'Ayden (`03-2`)** : les manches courtes rayées rouge et bleu d'Ayden au centre ont été ramenées au blanc canonique du maillot du RCM.
+- **Preuves** : `Planches-dessin/validation/revue-couverture/lot-ai/` (`<vignette>-avant-ai.png`, `<vignette>-apres-ai.png`, `<vignette>-masque-cumulatif.png`).
+- **Suite de la relecture globale transversale** : poursuivre les reprises ciblées sur les réserves visuelles restantes des premières planches (`01-1` coupe de Milo et manche longue noire de Nolann, `04-4` et `06-2` hauteur de plaquage aux jambes, `05-1` et `06-4` manches de Nolann et manches courtes blanches) avant toute validation définitive et avant l'étape finale d'ajout des bulles et textes.
+

@@ -269,3 +269,11 @@ Base `112958e`. Les **40 vignettes** ont une décision explicite dans `validatio
 L’utilisateur remplace le témoin V2 par la couverture comme référence exacte de **style ET personnages** et demande une revue intégrale des 30 planches à l’appui du scénario et des sources réalistes. Les conclusions des anciens audits ne sont pas des validations de ressemblance. Suivi courant : `validation/REVUE-COUVERTURE.md` et `.json`.
 
 Premières corrections : 26/3 (têtes Nolann/Milo/Ayden et carnation visible de Nolann), 26/6 (Flavien brun accroupi à la place de Kilian roux, groupe et style repris). Deux essais complets de 27/5 écartés ; vignette non remplacée. La couverture est inchangée. **Revue intégrale non terminée ; aucune validation définitive de vignette à ce stade.**
+
+### Point d’avancement — Lot AH (planche 30) et Lot AI (relecture transversale des planches 03 à 16)
+
+- **152 premières reprises intégrées + 1 contrôle sans retouche (`13-1`) = 153 vignettes inventoriées** (`0` correction partielle, `0` contrôle individuel en attente, `0` validation définitive).
+- **Lots AG et AH (planches 29 et 30)** : reprises complètes en style couverture des 9 vignettes des planches 29 et 30 livrées et vérifiées (`d7dc059`).
+- **Lot AI (relecture transversale, 20 vignettes sur les planches 03, 04, 05, 07, 09, 11, 12, 14 et 16)** : harmonisation au bleu marine foncé canonique des vestes des trois éducateurs (Flavien, Julien, Kilian), suppression des inscriptions parasites sur leurs vestes (`04-1`, `04-3`, `05-3`, `05-4`, `11-2`, `14-4`) et rétablissement des manches courtes blanches d’Ayden en `03-2`.
+- **Prochaine étape** : poursuivre les reprises graphiques ciblées de relecture transversale sur les réserves visuelles restantes des premières planches (`01-1`, `04-4`, `05-1`, `06-2`, `06-4`) avant la validation définitive et l’ajout final des bulles et textes.
+
