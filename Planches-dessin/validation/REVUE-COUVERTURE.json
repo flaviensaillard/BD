@@ -5,32 +5,6 @@
   "etat": "EN COURS — pas de validation globale",
   "corrections": [
     {
-      "vignette": "26-3",
-      "rectangle": [
-        27,
-        675,
-        425,
-        918
-      ],
-      "masque": "Planches-dessin/validation/revue-couverture/26-3-masque.png",
-      "intervention": "Têtes Nolann/Milo/Ayden et carnation visible de Nolann ; maillots, inscriptions et décor préservés.",
-      "page": 26,
-      "type": "reprise_graphique"
-    },
-    {
-      "vignette": "26-6",
-      "rectangle": [
-        439,
-        931,
-        837,
-        1174
-      ],
-      "masque": "Planches-dessin/validation/revue-couverture/26-6-masque.png",
-      "intervention": "Vignette redessinée : Flavien brun accroupi, Julien, cinq enfants identifiés ; style et carnations repris sur la couverture.",
-      "page": 26,
-      "type": "reprise_graphique"
-    },
-    {
       "page": 1,
       "vignette": "01-1",
       "rectangle": [
@@ -2542,6 +2516,132 @@
       "type": "reprise_graphique",
       "intervention": "Entrée de Rumilly (rouge et noir) : reprise à gauche de Léon (épis châtains), Lyssandro (mèche châtain) et Ayden (cheveux ramenés du blond au châtain clair), faisant face aux quatre joueurs de Rumilly en maillots rayés rouge et noir à manches courtes (suppression des sous-pulls noirs à manches longues).",
       "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-5-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-1",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        25,
+        60,
+        840,
+        352
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        171,
+        2411,
+        1002
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Match 3 contre Rumilly (action serrée) : reprise du regroupement des cinq défenseurs du RCM au centre autour du grand porteur de Rumilly en rouge et noir (avec présence de Nolann au teint mat et d'Ayden aux cheveux châtain clair) et correction à droite de l'ailier de Rumilly démarqué, désormais campé sur ses deux appuis les mains tendues pour appeler la passe au lieu d'une jambe levée incohérente.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-1-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-2",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        25,
+        368,
+        840,
+        661
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        1048,
+        2411,
+        1882
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Essai de Rumilly en coin : reprise à gauche des cinq joueurs du RCM regroupés au centre (dont Léon et Nolann au teint mat) et du passeur de Rumilly, et reprise à droite de l'ailier de Rumilly en rouge et noir aplatissant l'unique ballon près du poteau de coin.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-2-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-3",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        27,
+        675,
+        425,
+        918
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        1925,
+        1220,
+        2611
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Sortie de terrain tête basse : reprise complète de Nolann (teint mat, cheveux courts foncés), Milo (frange châtain) et Ayden (cheveux châtain clair, suppression des halos blancs autour des oreilles) les épaules basses en maillots du RCM nettoyés des inscriptions parasites.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-3-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-4",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        440,
+        676,
+        840,
+        917
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        1925,
+        2411,
+        2611
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Consultation du tableau du tournoi : reprise de Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) montrant le tableau et de Kilian (survêtement bleu marine) rassurant les trois joueurs du RCM à droite.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-4-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-5",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        25,
+        932,
+        425,
+        1172
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        2654,
+        1220,
+        3337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Prise de parole de Léon : reprise de Flavien, Julien (veste ramenée au bleu marine canonique avec sifflet jaune) et Kilian (survêtement bleu marine), entourant Léon (cheveux châtains en épis rétablis sur l'enfant levant la main avec un regard vif) et ses quatre coéquipiers (dont Nolann au teint mat à droite).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-5-masque.png"
+    },
+    {
+      "page": 26,
+      "vignette": "26-6",
+      "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
+      "rectangle": [
+        439,
+        931,
+        837,
+        1174
+      ],
+      "source": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        2654,
+        2411,
+        3337
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Explication tactique au sol : reprise de la vignette avec veste de Julien ramenée du bleu roi au bleu marine canonique bras écartés, Flavien accroupi montrant les trois brins d'herbe au sol, et les cinq garçons attentifs à gauche (Léon tapant dans ses mains, Lyssandro, Ayden aux cheveux ramenés du blond au châtain clair, Nolann au teint mat, Milo).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-6-masque.png"
     }
   ],
   "vignettes": [
@@ -4901,8 +5001,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Match 3 contre Rumilly (action serrée) : reprise du regroupement des cinq défenseurs du RCM au centre autour du grand porteur de Rumilly en rouge et noir (avec présence de Nolann au teint mat et d'Ayden aux cheveux châtain clair) et correction à droite de l'ailier de Rumilly démarqué, désormais campé sur ses deux appuis les mains tendues pour appeler la passe au lieu d'une jambe levée incohérente.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-1-masque.png",
+      "rectangle": [
+        25,
+        60,
+        840,
+        352
+      ]
     },
     {
       "page": 26,
@@ -4918,8 +5026,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Essai de Rumilly en coin : reprise à gauche des cinq joueurs du RCM regroupés au centre (dont Léon et Nolann au teint mat) et du passeur de Rumilly, et reprise à droite de l'ailier de Rumilly en rouge et noir aplatissant l'unique ballon près du poteau de coin.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-2-masque.png",
+      "rectangle": [
+        25,
+        368,
+        840,
+        661
+      ]
     },
     {
       "page": 26,
@@ -4936,7 +5052,15 @@
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
-      "validation_definitive": false
+      "validation_definitive": false,
+      "Correction": "Sortie de terrain tête basse : reprise complète de Nolann (teint mat, cheveux courts foncés), Milo (frange châtain) et Ayden (cheveux châtain clair, suppression des halos blancs autour des oreilles) les épaules basses en maillots du RCM nettoyés des inscriptions parasites.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-3-masque.png",
+      "rectangle": [
+        27,
+        675,
+        425,
+        918
+      ]
     },
     {
       "page": 26,
@@ -4952,8 +5076,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Consultation du tableau du tournoi : reprise de Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) montrant le tableau et de Kilian (survêtement bleu marine) rassurant les trois joueurs du RCM à droite.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-4-masque.png",
+      "rectangle": [
+        440,
+        676,
+        840,
+        917
+      ]
     },
     {
       "page": 26,
@@ -4969,8 +5101,16 @@
       "scenario_page": null,
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "Correction": "Prise de parole de Léon : reprise de Flavien, Julien (veste ramenée au bleu marine canonique avec sifflet jaune) et Kilian (survêtement bleu marine), entourant Léon (cheveux châtains en épis rétablis sur l'enfant levant la main avec un regard vif) et ses quatre coéquipiers (dont Nolann au teint mat à droite).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-5-masque.png",
+      "rectangle": [
+        25,
+        932,
+        425,
+        1172
+      ]
     },
     {
       "page": 26,
@@ -4987,7 +5127,15 @@
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
       "realiste": "planches/26-l-echec-qui-fait-grandir-realisme-sans-texte.png",
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
-      "validation_definitive": false
+      "validation_definitive": false,
+      "Correction": "Explication tactique au sol : reprise de la vignette avec veste de Julien ramenée du bleu roi au bleu marine canonique bras écartés, Flavien accroupi montrant les trois brins d'herbe au sol, et les cinq garçons attentifs à gauche (Léon tapant dans ses mains, Lyssandro, Ayden aux cheveux ramenés du blond au châtain clair, Nolann au teint mat, Milo).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ad/26-6-masque.png",
+      "rectangle": [
+        439,
+        931,
+        837,
+        1174
+      ]
     },
     {
       "page": 27,
@@ -5595,12 +5743,12 @@
     {
       "page": 26,
       "fichier": "Planches-dessin/26-l-echec-qui-fait-grandir-marvel.png",
-      "sha256": "fd6a4e4c4850fe7b9700363d8818eb99462661d860e0c0764c8daec26a806d38",
+      "sha256": "797586078d1643e9f892a353f58ea9fedbed0088984e7620d35cd17114b00339",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1766022
+      "octets": 1688494
     },
     {
       "page": 27,
@@ -5819,15 +5967,27 @@
     {
       "vignette": "25-5",
       "motif": "Le premier candidat conservait les manches longues noires des joueurs de Rumilly, tandis que le second éclaircissait par erreur les cheveux de Léon à gauche ; les deux sont combinés par raccord vertical entre Lyssandro et Ayden."
+    },
+    {
+      "vignette": "26-1",
+      "motif": "Le sous-recadrage droit (26-1R) importait une texture d'herbe photographique autour de l'ailier de Rumilly et assombrissait en noir ses avant-bras ; seuls l'ailier debout aux avant-bras nus et le groupe central sont intégrés sur le gazon BD uniforme."
+    },
+    {
+      "vignette": "26-2",
+      "motif": "Le sous-recadrage gauche (26-2L) ajoutait un second ballon en vol au centre alors que l'ailier de Rumilly aplatit déjà le ballon en coin dans 26-2R ; le ballon surnuméraire en vol est exclu au montage."
+    },
+    {
+      "vignette": "26-6",
+      "motif": "Le candidat généré conservait la veste bleu roi de Julien et grisonnait légèrement la barbe de Flavien ; la veste de Julien est ramenée au bleu marine canonique et la barbe courte de Flavien au châtain."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 129,
+    "vignettes_corrigees_premiere_passe": 133,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 23,
+    "vignettes_a_controler_individuellement": 19,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -6246,6 +6406,19 @@
         "25-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ac/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "cc9036a",
+      "vignettes": [
+        "26-1",
+        "26-2",
+        "26-3",
+        "26-4",
+        "26-5",
+        "26-6"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ad/",
       "reste_a_reprendre": []
     }
   ],
