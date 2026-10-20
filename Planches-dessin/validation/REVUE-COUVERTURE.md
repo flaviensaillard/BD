@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 124 |
+| Premières reprises intégrées, encore à relire | 129 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 28 |
+| Autres vignettes restant à contrôler individuellement | 23 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 124 vignettes ayant reçu une intervention ne sont pas 124 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 129 vignettes ayant reçu une intervention ne sont pas 129 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -486,6 +486,26 @@ Preuves : `revue-couverture/lot-ab/24-AVANT-APRES.jpg` et cinq masques des inté
 **Réserves de relecture transversale :** homogénéité des profils de Léon entre 24/1, 24/3, 24/4 et 24/5, et continuité de l'encrage du décor d'arrière-plan de 24/2 (arbres et piliers du portail légèrement plus doux que dans 24/1).
 
 **Bilan courant : 124 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 28 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 25.** Aucune bulle ni texte ajouté.
+
+## Vingt-septième livraison : les cinq cases de la planche 25
+
+Contrôle des cinq cases du « Grand Tournoi Final » avec la couverture pour unique référence d'identités et de style, en appui sur le scénario et la planche réaliste.
+
+**25/1 :** Panorama d'ouverture du tournoi final : reprise au centre de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique), entourés au premier plan des quatre équipes de cinq joueurs du RCM aux visages adoucis, en conservant à l'arrière-plan les équipes de Savoie dans leurs couleurs respectives (Montmélian vert/noir, Chambéry/Aix jaune/noir, Albertville/Le Môle rouge/blanc, Rumilly rouge/noir, Thonon jaune/bleu).
+
+**25/2 :** Match 1 contre Chambéry (jaune et noir) : reprise de Léon à gauche venant de donner le ballon, des deux défenseurs de Chambéry en jaune et noir au centre, et d'Ayden (cheveux châtain clair, yeux gris-bleu) filant aplatir à droite, ainsi que des spectateurs derrière la main courante.
+
+**25/3 :** Match 2 contre Albertville (rouge et blanc) : reprise de Lyssandro à gauche, du porteur d'Albertville en rouge et blanc plaqué bas aux jambes par Nolann (teint mat et cheveux courts foncés rétablis), et de Milo en soutien à droite.
+
+**25/4 :** Pause hydratation auprès des coachs : reprise nette des huit visages (Flavien, Julien en veste bleu marine avec sifflet jaune, Kilian accroupi en survêtement bleu marine, et de gauche à droite Léon, Lyssandro, Ayden aux cheveux châtain clair, Nolann au teint mat et Milo tenant leurs gobelets).
+
+**25/5 :** Entrée de Rumilly (rouge et noir) : reprise à gauche de Léon (épis châtains), Lyssandro (mèche châtain) et Ayden (cheveux ramenés du blond au châtain clair), faisant face aux quatre joueurs de Rumilly en maillots rayés rouge et noir à manches courtes (suppression des sous-pulls noirs à manches longues).
+
+Preuves : `revue-couverture/lot-ac/25-AVANT-APRES.jpg` et cinq masques des intérieurs de cases. Cadres et gouttières hors masques intégralement préservés.
+
+**Réserves de relecture transversale :** finesse des visages à très petite échelle dans la vue d'ensemble 25/1, lisibilité partielle du visage de Nolann engagé au plaquage bas dans 25/3, et petits marquages résiduels sur les manches/shorts dans 25/2, 25/3 et 25/4.
+
+**Bilan courant : 129 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 23 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 26.** Aucune bulle ni texte ajouté.
 
 ## Contrôles techniques et audits historiques
 

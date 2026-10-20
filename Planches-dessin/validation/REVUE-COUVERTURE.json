@@ -2437,6 +2437,111 @@
       "type": "reprise_graphique",
       "intervention": "Coucher de soleil orangé sur la Savoie : reprise de Flavien (regard clairement lisible et sourire fier, barbe légère) ébouriffant affectueusement les cheveux châtains en épis de Léon qui lui sourit.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-5-masque.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-1",
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "rectangle": [
+        25,
+        32,
+        840,
+        484
+      ],
+      "source": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        91,
+        2411,
+        1378
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Panorama d'ouverture du tournoi final : reprise au centre de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique), entourés au premier plan des quatre équipes de cinq joueurs du RCM aux visages adoucis, en conservant à l'arrière-plan les équipes de Savoie dans leurs couleurs respectives (Montmélian vert/noir, Chambéry/Aix jaune/noir, Albertville/Le Môle rouge/blanc, Rumilly rouge/noir, Thonon jaune/bleu).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-1-masque.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-2",
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "rectangle": [
+        25,
+        500,
+        425,
+        821
+      ],
+      "source": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        1424,
+        1220,
+        2338
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Match 1 contre Chambéry (jaune et noir) : reprise de Léon à gauche venant de donner le ballon, des deux défenseurs de Chambéry en jaune et noir au centre, et d'Ayden (cheveux châtain clair, yeux gris-bleu) filant aplatir à droite, ainsi que des spectateurs derrière la main courante.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-2-masque.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-3",
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "rectangle": [
+        440,
+        500,
+        840,
+        821
+      ],
+      "source": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        1424,
+        2411,
+        2338
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Match 2 contre Albertville (rouge et blanc) : reprise de Lyssandro à gauche, du porteur d'Albertville en rouge et blanc plaqué bas aux jambes par Nolann (teint mat et cheveux courts foncés rétablis), et de Milo en soutien à droite.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-3-masque.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-4",
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "rectangle": [
+        25,
+        837,
+        425,
+        1158
+      ],
+      "source": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        2383,
+        1220,
+        3297
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Pause hydratation auprès des coachs : reprise nette des huit visages (Flavien, Julien en veste bleu marine avec sifflet jaune, Kilian accroupi en survêtement bleu marine, et de gauche à droite Léon, Lyssandro, Ayden aux cheveux châtain clair, Nolann au teint mat et Milo tenant leurs gobelets).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-4-masque.png"
+    },
+    {
+      "page": 25,
+      "vignette": "25-5",
+      "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
+      "rectangle": [
+        440,
+        837,
+        840,
+        1158
+      ],
+      "source": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        2383,
+        2411,
+        3297
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Entrée de Rumilly (rouge et noir) : reprise à gauche de Léon (épis châtains), Lyssandro (mèche châtain) et Ayden (cheveux ramenés du blond au châtain clair), faisant face aux quatre joueurs de Rumilly en maillots rayés rouge et noir à manches courtes (suppression des sous-pulls noirs à manches longues).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ac/25-5-masque.png"
     }
   ],
   "vignettes": [
@@ -4702,12 +4807,13 @@
         487
       ],
       "scenario": "- **Vignette 1 (Grande vignette panoramique façon festival Marvel)** :\n  - *Visuel* : Le stade déborde de couleurs sous un ciel bleu azur ! On aperçoit les maillots de **Montmélian (Vert et Noir)**, **Chambéry (Jaune et Noir)**, **Aix-les-Bains (Jaune et Noir)**, **Albertville (Rouge et Blanc)**, **Le Môle (Rouge et Blanc)**, **Rumilly (Rouge et Noir)** et **Thonon (Jaune et Bleu)**. Au premier plan, les **20 joueurs du RCM** (4 équipes de 5) entourent **Flavien**, **Julien** et **Kilian**.\n  - *Encadré narratif* : « DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOIE SONT AU RENDEZ-VOUS ! »\n  - *Bulle (Julien)* : « Cinq matchs dans la journée pour aller chercher le bouclier du tournoi ! Faites-vous plaisir et jouez les uns pour les autres ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
       "realiste": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Panorama d'ouverture du tournoi final : reprise au centre de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique), entourés au premier plan des quatre équipes de cinq joueurs du RCM aux visages adoucis, en conservant à l'arrière-plan les équipes de Savoie dans leurs couleurs respectives (Montmélian vert/noir, Chambéry/Aix jaune/noir, Albertville/Le Môle rouge/blanc, Rumilly rouge/noir, Thonon jaune/bleu)."
     },
     {
       "page": 25,
@@ -4719,12 +4825,13 @@
         824
       ],
       "scenario": "- **Vignette 2 (Match 1 vs Chambéry — Jaune et Noir)** :\n  - *Visuel* : Premier match contre **Chambéry (tenue Jaune et Noir)**. Sur le terrain de 30m x 20m, **Léon** fixe deux joueurs Jaune et Noir et sert **Ayden** lancé en soutien offensif qui marque l'essai !\n  - *Bulle (Léon)* : « J'ai fixé ! Vas-y Ayden ! »\n  - *Bulle (Ayden)* : « ESSAI ! Super passe Léon ! »\n  - *Encadré score* : « MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
       "realiste": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Match 1 contre Chambéry (jaune et noir) : reprise de Léon à gauche venant de donner le ballon, des deux défenseurs de Chambéry en jaune et noir au centre, et d'Ayden (cheveux châtain clair, yeux gris-bleu) filant aplatir à droite, ainsi que des spectateurs derrière la main courante."
     },
     {
       "page": 25,
@@ -4736,12 +4843,13 @@
         824
       ],
       "scenario": "- **Vignette 3 (Match 2 vs Albertville — Rouge et Blanc)** :\n  - *Visuel* : Deuxième match contre **Albertville (tenue Rouge et Blanc)** (et sur le terrain voisin une autre équipe du RCM affronte **Le Môle** et **Thonon**). **Nolann** et **Lyssandro** plaquent bas en ligne, récupèrent le ballon et **Milo** file marquer en coin !\n  - *Bulle (Nolann)* : « Plaqué aux jambes ! »\n  - *Bulle (Milo)* : « Et deuxième victoire pour nous ! »\n  - *Encadré score* : « MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
       "realiste": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Match 2 contre Albertville (rouge et blanc) : reprise de Lyssandro à gauche, du porteur d'Albertville en rouge et blanc plaqué bas aux jambes par Nolann (teint mat et cheveux courts foncés rétablis), et de Milo en soutien à droite."
     },
     {
       "page": 25,
@@ -4753,12 +4861,13 @@
         1161
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Les cinq copains reviennent boire un coup auprès des coachs, heureux mais concentrés.\n  - *Bulle (Lyssandro)* : « Deux sur deux ! Et on n'a presque pas fait d'en-avant ! »\n  - *Bulle (Kilian)* : « Très bien les garçons ! Maintenant attention : le troisième match, c'est contre **Rumilly** ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
       "realiste": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Pause hydratation auprès des coachs : reprise nette des huit visages (Flavien, Julien en veste bleu marine avec sifflet jaune, Kilian accroupi en survêtement bleu marine, et de gauche à droite Léon, Lyssandro, Ayden aux cheveux châtain clair, Nolann au teint mat et Milo tenant leurs gobelets)."
     },
     {
       "page": 25,
@@ -4770,12 +4879,13 @@
         1161
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Les joueurs de **Rumilly (tenue Rouge et Noir)** entrent sur le terrain avec détermination.\n  - *Bulle (Léon)* : « Rumilly… C'est contre eux que je m'étais énervé en novembre. Aujourd'hui, on reste calmes quoi qu'il arrive ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
       "realiste": "planches/25-le-grand-tournoi-final-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Entrée de Rumilly (rouge et noir) : reprise à gauche de Léon (épis châtains), Lyssandro (mèche châtain) et Ayden (cheveux ramenés du blond au châtain clair), faisant face aux quatre joueurs de Rumilly en maillots rayés rouge et noir à manches courtes (suppression des sous-pulls noirs à manches longues)."
     },
     {
       "page": 26,
@@ -5475,12 +5585,12 @@
     {
       "page": 25,
       "fichier": "Planches-dessin/25-le-grand-tournoi-final-marvel.png",
-      "sha256": "ae0f675a2e0b1795f007cc7d7e5dd9d92bd45baf9c7a98c5497bbe8c636bfdcb",
+      "sha256": "a608b13b73920146df853b1d14a70d2cfa7a97cfe12d431ce0dd0ad24dd828f4",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1858072
+      "octets": 1802331
     },
     {
       "page": 26,
@@ -5701,15 +5811,23 @@
     {
       "vignette": "24-1",
       "motif": "Le candidat généré ajoutait l'inscription anglaise « SCHOOL » sur le linteau au-dessus de la porte du fond ; zone restaurée localement depuis le linteau vierge d'origine."
+    },
+    {
+      "vignette": "25-4",
+      "motif": "Un premier candidat conservait la veste bleu roi de Julien et le rendu flou des huit visages ; écarté au profit d'un second candidat redessinant nettement les trois coachs en bleu marine et les cinq garçons."
+    },
+    {
+      "vignette": "25-5",
+      "motif": "Le premier candidat conservait les manches longues noires des joueurs de Rumilly, tandis que le second éclaircissait par erreur les cheveux de Léon à gauche ; les deux sont combinés par raccord vertical entre Lyssandro et Ayden."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 124,
+    "vignettes_corrigees_premiere_passe": 129,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 28,
+    "vignettes_a_controler_individuellement": 23,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -6116,6 +6234,18 @@
         "24-5"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ab/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "7068f25",
+      "vignettes": [
+        "25-1",
+        "25-2",
+        "25-3",
+        "25-4",
+        "25-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ac/",
       "reste_a_reprendre": []
     }
   ],
