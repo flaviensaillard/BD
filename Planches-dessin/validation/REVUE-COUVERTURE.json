@@ -3811,7 +3811,7 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Quatre portraits seuls repris : Léon tête baissée avec pics, Flavien brun à légère pilosité, Julien gris à bouc/moustache tourné vers Kilian roux barbu. Premier Julien frontal souriant rejeté. Le second candidat tournait aussi son corps : seul son portrait est importé, corps d'origine conservé. Bouteille, gestes, poses et six personnages secondaires hors masques préservés. Harmonisation transversale de Nolann (teint bronzé européen et coupe brune courte à micro-frange, sans carnation noire/africaine).",
-      "notes": "Harmonisation transversale (Lot AI) : panneau avant de la veste de Kilian ramené au bleu marine foncé canonique."
+      "notes": "Harmonisation transversale (Lot AI) : panneau avant de la veste de Kilian ramené au bleu marine foncé canonique. Lot AO : reprise de Julien vu de face (col ouvert, fermeture éclair frontale, sifflet jaune sur cordon au milieu du torse, visage de trois-quarts tourné vers Kilian) et veste marine unie de Kilian."
     },
     {
       "page": 10,
@@ -4455,7 +4455,7 @@
       "etat": "corrige_premiere_passe_relecture_globale_a_faire",
       "validation_definitive": false,
       "intervention": "Quatre enfants devant les trois coachs, sans Ayden dans ce cadrage : Léon à gauche face à Lyssandro/Nolann/Milo. Portraits spécifiques de Lyssandro et Nolann ; ce dernier retrouve la très courte frange brun foncé et le teint mat. Milo conserve sa frange pleine et son visage de profil, avec carnation éclaircie localement. Maillot rouge uni de Lyssandro rapproché du modèle à rayures bleues et manches courtes blanches. Léon déjà en pics et les trois coachs déjà identifiables conservés à cette passe. Candidat complet au cadrage/proportions erronés rejeté. Harmonisation transversale de Nolann (teint bronzé européen et coupe brune courte à micro-frange, sans carnation noire/africaine).",
-      "notes": "Harmonisation transversale (Lot AI) : bas de la veste de Kilian ramené au bleu marine foncé canonique."
+      "notes": "Harmonisation transversale (Lot AI) : bas de la veste de Kilian ramené au bleu marine foncé canonique. Lot AO : restitution complète du volume supérieur des cheveux bruns de Flavien sur le ciel clair sans coupe horizontale."
     },
     {
       "page": 16,
@@ -6067,12 +6067,12 @@
     {
       "page": 9,
       "fichier": "Planches-dessin/09-colere-et-larmes-marvel.png",
-      "sha256": "027c80b8bffb89014b16cf91d2b6b6c5f71281555990257fc2cb19afa0587c6c",
+      "sha256": "bdc6203442d90411fc62bf9c8628c05ea1f545d9da1f7452255a9ec5be38723e",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1610392
+      "octets": 1606386
     },
     {
       "page": 10,
@@ -6137,12 +6137,12 @@
     {
       "page": 16,
       "fichier": "Planches-dessin/16-le-pardon-des-copains-marvel.png",
-      "sha256": "a5052be7f5b5f7f783393f060c6778645578d23806edc720fa372e3886061901",
+      "sha256": "feeecf507c3c0d5fb6cc96c818edf1de563ebac51a3c9f50910fb6fd8b884296",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1553842
+      "octets": 1563869
     },
     {
       "page": 17,
@@ -6167,22 +6167,22 @@
     {
       "page": 19,
       "fichier": "Planches-dessin/19-les-joueurs-analysent-les-coachs-preparent-marvel.png",
-      "sha256": "76f264afc4033b1a0be8638f69f58986642c53c3a530551456c5af7fa4f70fcc",
+      "sha256": "e0a6450d7054cee05cb48447808118511f918b7337427b19af9b9c7da3d18c5f",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1555165
+      "octets": 1571215
     },
     {
       "page": 20,
       "fichier": "Planches-dessin/20-le-test-du-grand-froid-le-mole-et-thonon-marvel.png",
-      "sha256": "b79cf3ff6999fab3ab8eb281565912a6a8fa1b9fc4cce5342dd75178afe5a0ee",
+      "sha256": "4f15962ce03851113fee989664f66c0f32f4fb864ef608dabc9c028a8d39ef2d",
       "dimensions": [
         864,
         1222
       ],
-      "octets": 1667368
+      "octets": 1638527
     },
     {
       "page": 21,
@@ -6277,12 +6277,12 @@
     {
       "page": 30,
       "fichier": "Planches-dessin/30-on-apprend-de-ses-echecs-marvel.png",
-      "sha256": "462f1f3ff148a21df38c5df7d10162494c369c16485f3c0cbf3a9faaa0020377",
+      "sha256": "fdfa4d3d4907e3435e40d521d2f05fba11005b3e36e381fc2c89603550d32d2c",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1513242
+      "octets": 1593113
     }
   ],
   "candidats_ecartes": [
@@ -7012,6 +7012,21 @@
         "18-1"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-ak/",
+      "reste_a_reprendre": []
+    },
+    {
+      "lot": "AO",
+      "base": "8f23226",
+      "vignettes": [
+        "09-4",
+        "16-3",
+        "16-5",
+        "19-5",
+        "20-1",
+        "30-1",
+        "30-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ao/AO-AVANT-APRES.jpg",
       "reste_a_reprendre": []
     }
   ],
