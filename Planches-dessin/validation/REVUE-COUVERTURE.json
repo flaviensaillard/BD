@@ -2332,6 +2332,111 @@
       "type": "reprise_graphique",
       "intervention": "Bande 4 (Le Regard des Coachs) : reprise de Flavien, Julien (veste ramenée du bleu roi au bleu marine canonique avec sifflet jaune) et Kilian (haut ramené du bleu ciel au bleu marine canonique) sur la touche à gauche, ainsi que des groupes d'entraînement au premier plan à droite, en conservant les éducateurs d'arrière-plan.",
       "masque": "Planches-dessin/validation/revue-couverture/lot-aa/23-4-masque.png"
+    },
+    {
+      "page": 24,
+      "vignette": "24-1",
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "rectangle": [
+        25,
+        29,
+        840,
+        484
+      ],
+      "source": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        83,
+        2411,
+        1378
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Cour de l'école (tenue civile) : reprise de Léon à gauche (cheveux châtains en épis, visage enfantin adouci, t-shirt bleu clair) et d'Ayden à droite (chevelure ramenée du blond jaune au châtain clair canonique de la couverture, yeux gris-bleu, expression animée en parlant à Léon, t-shirt moutarde) ; suppression de l'inscription anglaise parasite « SCHOOL » au-dessus de la porte du bâtiment.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-1-masque.png"
+    },
+    {
+      "page": 24,
+      "vignette": "24-2",
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "rectangle": [
+        25,
+        500,
+        425,
+        821
+      ],
+      "source": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        1424,
+        1220,
+        2338
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Gros plan de Léon au portail : remplacement du visage marqué de plis adultes par le visage enfantin, lisse et serein de Léon conforme à la couverture (cheveux châtains en épis, grands yeux bruns, sourire calme et confiant).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-2-masque.png"
+    },
+    {
+      "page": 24,
+      "vignette": "24-3",
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "rectangle": [
+        440,
+        500,
+        840,
+        821
+      ],
+      "source": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        1424,
+        2411,
+        2338
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Jardin à Saint-Sulpice en fin d'après-midi : reprise de Léon à gauche et de Flavien à droite échangeant des passes en tenue civile devant la maison familiale dans le style de la couverture.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-3-masque.png"
+    },
+    {
+      "page": 24,
+      "vignette": "24-4",
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "rectangle": [
+        25,
+        837,
+        425,
+        1158
+      ],
+      "source": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
+      "source_rectangle": [
+        72,
+        2383,
+        1220,
+        3297
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Échange père-fils devant la maison : reprise du profil enfantin de Léon à gauche et du visage bienveillant de Flavien à droite (barbe de trois jours légère et régulière sans tache sombre à la bouche, regard clair, ballon sous le bras débarrassé du marquage partiel).",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-4-masque.png"
+    },
+    {
+      "page": 24,
+      "vignette": "24-5",
+      "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
+      "rectangle": [
+        440,
+        837,
+        840,
+        1158
+      ],
+      "source": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
+      "source_rectangle": [
+        1263,
+        2383,
+        2411,
+        3297
+      ],
+      "type": "reprise_graphique",
+      "intervention": "Coucher de soleil orangé sur la Savoie : reprise de Flavien (regard clairement lisible et sourire fier, barbe légère) ébouriffant affectueusement les cheveux châtains en épis de Léon qui lui sourit.",
+      "masque": "Planches-dessin/validation/revue-couverture/lot-ab/24-5-masque.png"
     }
   ],
   "vignettes": [
@@ -4507,12 +4612,13 @@
         487
       ],
       "scenario": "- **Vignette 1 (À l'école — Tenue civile)** :\n  - *Visuel* : Vendredi après-midi sous le soleil dans la cour de l'école. **Léon** et **Ayden** (en t-shirts civils) discutent avec animation près du portail.\n  - *Bulle (Ayden)* : « Demain c'est le grand tournoi de fin de saison ! **Baptiste** vient de me dire que tous les clubs de Savoie seront là : Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon… et Montmélian ! » *(Baptiste reste hors-champ).*",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
       "realiste": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Cour de l'école (tenue civile) : reprise de Léon à gauche (cheveux châtains en épis, visage enfantin adouci, t-shirt bleu clair) et d'Ayden à droite (chevelure ramenée du blond jaune au châtain clair canonique de la couverture, yeux gris-bleu, expression animée en parlant à Léon, t-shirt moutarde) ; suppression de l'inscription anglaise parasite « SCHOOL » au-dessus de la porte du bâtiment."
     },
     {
       "page": 24,
@@ -4524,12 +4630,13 @@
         824
       ],
       "scenario": "- **Vignette 2** :\n  - *Visuel* : Léon sourit sereinement, bien loin de l'enfant anxieux ou orgueilleux du début d'année.\n  - *Bulle (Léon)* : « Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus beau tournoi de l'année ! À demain matin au stade ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
       "realiste": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Gros plan de Léon au portail : remplacement du visage marqué de plis adultes par le visage enfantin, lisse et serein de Léon conforme à la couverture (cheveux châtains en épis, grands yeux bruns, sourire calme et confiant)."
     },
     {
       "page": 24,
@@ -4541,12 +4648,13 @@
         824
       ],
       "scenario": "- **Vignette 3 (À Saint-Sulpice — Tenue civile)** :\n  - *Visuel* : Fin d'après-midi dorée à **Saint-Sulpice (500 habitants)**. Dans le jardin devant la maison, **Flavien** et **Léon** (tous deux en tenue civile) s'échangent quelques passes souples pendant qu'on entend la vie de la maison à 5.\n  - *Bulle (Flavien, vers la fenêtre de la maison hors-champ)* : « On fait encore dix passes avec Léon et on vient mettre la table, Vanessa ! »\n  - *Bulle (Voix d'Alice hors-champ)* : « Dépêchez-vous, j'ai trop faim moi ! »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
       "realiste": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Jardin à Saint-Sulpice en fin d'après-midi : reprise de Léon à gauche et de Flavien à droite échangeant des passes en tenue civile devant la maison familiale dans le style de la couverture."
     },
     {
       "page": 24,
@@ -4558,12 +4666,13 @@
         1161
       ],
       "scenario": "- **Vignette 4** :\n  - *Visuel* : Flavien garde le ballon sous le bras et regarde son fils de 6 ans qui a tant mûri depuis septembre.\n  - *Bulle (Flavien)* : « Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la saison. Tu me promets que quoi qu'il arrive, tu garderas ce beau sourire ? »\n  - *Bulle (Léon)* : « Promis Papa ! En septembre, je voulais juste la coupe pour dire qu'on était les plus forts. Demain, je veux qu'on joue notre meilleur rugby avec Lyssandro, Ayden, Nolann et Milo. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
       "realiste": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Échange père-fils devant la maison : reprise du profil enfantin de Léon à gauche et du visage bienveillant de Flavien à droite (barbe de trois jours légère et régulière sans tache sombre à la bouche, regard clair, ballon sous le bras débarrassé du marquage partiel)."
     },
     {
       "page": 24,
@@ -4575,12 +4684,13 @@
         1161
       ],
       "scenario": "- **Vignette 5** :\n  - *Visuel* : Flavien ébouriffe affectueusement les cheveux en pics de Léon devant les montagnes de Savoie teintées d'orange par le coucher du soleil.\n  - *Bulle (Léon)* : « Et si jamais on fait une erreur… on saura quoi faire : apprendre tout de suite pour le match d'après ! »\n  - *Bulle (Flavien)* : « Je suis tellement fier de toi, mon fils. »",
-      "raccord_scenario": "a_verifier",
+      "raccord_scenario": "distribution_et_action_comparees_aux_sources",
       "scenario_page": null,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
       "realiste": "planches/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-realisme-sans-texte.png",
-      "etat": "a_controler_individuellement",
-      "validation_definitive": false
+      "etat": "corrige_premiere_passe_relecture_globale_a_faire",
+      "validation_definitive": false,
+      "intervention": "Coucher de soleil orangé sur la Savoie : reprise de Flavien (regard clairement lisible et sourire fier, barbe légère) ébouriffant affectueusement les cheveux châtains en épis de Léon qui lui sourit."
     },
     {
       "page": 25,
@@ -5355,12 +5465,12 @@
     {
       "page": 24,
       "fichier": "Planches-dessin/24-veille-de-grand-tournoi-a-l-ecole-et-a-saint-sulpice-marvel.png",
-      "sha256": "90a920ea08c62d4e4cbce0009d35bcdb64a35d43cc883eec9a44dc50e68f1715",
+      "sha256": "58e25a4cc7fb5682c5b2b1cc0a323fcd2fe7d20607ba319f172920afbf2da36c",
       "dimensions": [
         864,
         1232
       ],
-      "octets": 1751839
+      "octets": 1740805
     },
     {
       "page": 25,
@@ -5587,15 +5697,19 @@
     {
       "vignette": "23-4",
       "motif": "Le sous-recadrage droit (23-4R) altérait quelques silhouettes très lointaines d'éducateurs près des poteaux du fond ; l'intégration est restreinte au groupe d'entraînement de droite au premier plan pour conserver les silhouettes d'arrière-plan intactes."
+    },
+    {
+      "vignette": "24-1",
+      "motif": "Le candidat généré ajoutait l'inscription anglaise « SCHOOL » sur le linteau au-dessus de la porte du fond ; zone restaurée localement depuis le linteau vierge d'origine."
     }
   ],
   "nombre_vignettes": 153,
   "bilan": {
     "planches_vues_en_ensemble": 30,
     "vignettes_inventoriees": 153,
-    "vignettes_corrigees_premiere_passe": 119,
+    "vignettes_corrigees_premiere_passe": 124,
     "vignettes_correction_partielle": 0,
-    "vignettes_a_controler_individuellement": 33,
+    "vignettes_a_controler_individuellement": 28,
     "validations_definitives": 0,
     "vignettes_controlees_sans_retouche": 1
   },
@@ -5990,6 +6104,18 @@
         "23-4"
       ],
       "preuves": "Planches-dessin/validation/revue-couverture/lot-aa/",
+      "reste_a_reprendre": []
+    },
+    {
+      "base": "d1bb5a3",
+      "vignettes": [
+        "24-1",
+        "24-2",
+        "24-3",
+        "24-4",
+        "24-5"
+      ],
+      "preuves": "Planches-dessin/validation/revue-couverture/lot-ab/",
       "reste_a_reprendre": []
     }
   ],

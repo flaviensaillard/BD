@@ -21,13 +21,13 @@ Les huit recadrages exacts sont dans `revue-couverture/<Prénom>-couverture.png`
 |---|---:|
 | Planches vues en ensemble | 30 |
 | Vignettes réellement inventoriées | 153 |
-| Premières reprises intégrées, encore à relire | 119 |
+| Premières reprises intégrées, encore à relire | 124 |
 | Corrections seulement partielles, à poursuivre | 0 |
 | Contrôles sans retouche, encore à relire | 1 |
-| Autres vignettes restant à contrôler individuellement | 33 |
+| Autres vignettes restant à contrôler individuellement | 28 |
 | Validations définitives de style et ressemblance | **0** |
 
-Les 119 vignettes ayant reçu une intervention ne sont pas 119 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
+Les 124 vignettes ayant reçu une intervention ne sont pas 124 vignettes définitivement conformes. Le reste de la revue demandée n’est pas terminé. Le manifeste `REVUE-COUVERTURE.json` conserve une entrée et un état explicite pour chacune des 153 vignettes.
 
 ## Première livraison : 26/3 et 26/6
 
@@ -466,6 +466,26 @@ Preuves : `revue-couverture/lot-aa/23-AVANT-APRES.jpg` et quatre masques des int
 **Réserves de relecture transversale :** harmonisation fine des visages à petite échelle dans 23/1 et 23/2, lisibilité de la tête du plaqueur en chasuble jaune sous le ballon dans 23/3, et homogénéité du fond postérisé hors zones d'acteurs (nuages sur la crête de 23/2, petites silhouettes d'ateliers au second plan de 23/4).
 
 **Bilan courant : 119 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 33 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 24.** Aucune bulle ni texte ajouté.
+
+## Vingt-sixième livraison : les cinq cases de la planche 24
+
+Contrôle des cinq cases en tenue civile (« Veille de Grand Tournoi à l'École et à Saint-Sulpice ») avec la couverture comme unique référence d'identités et de style.
+
+**24/1 :** Cour de l'école (tenue civile) : reprise de Léon à gauche (cheveux châtains en épis, visage enfantin adouci, t-shirt bleu clair) et d'Ayden à droite (chevelure ramenée du blond jaune au châtain clair canonique de la couverture, yeux gris-bleu, expression animée en parlant à Léon, t-shirt moutarde) ; suppression de l'inscription anglaise parasite « SCHOOL » au-dessus de la porte du bâtiment.
+
+**24/2 :** Gros plan de Léon au portail : remplacement du visage marqué de plis adultes par le visage enfantin, lisse et serein de Léon conforme à la couverture (cheveux châtains en épis, grands yeux bruns, sourire calme et confiant).
+
+**24/3 :** Jardin à Saint-Sulpice en fin d'après-midi : reprise de Léon à gauche et de Flavien à droite échangeant des passes en tenue civile devant la maison familiale dans le style de la couverture.
+
+**24/4 :** Échange père-fils devant la maison : reprise du profil enfantin de Léon à gauche et du visage bienveillant de Flavien à droite (barbe de trois jours légère et régulière sans tache sombre à la bouche, regard clair, ballon sous le bras débarrassé du marquage partiel).
+
+**24/5 :** Coucher de soleil orangé sur la Savoie : reprise de Flavien (regard clairement lisible et sourire fier, barbe légère) ébouriffant affectueusement les cheveux châtains en épis de Léon qui lui sourit.
+
+Preuves : `revue-couverture/lot-ab/24-AVANT-APRES.jpg` et cinq masques des intérieurs de cases. Cadres et gouttières hors masques intégralement préservés.
+
+**Réserves de relecture transversale :** homogénéité des profils de Léon entre 24/1, 24/3, 24/4 et 24/5, et continuité de l'encrage du décor d'arrière-plan de 24/2 (arbres et piliers du portail légèrement plus doux que dans 24/1).
+
+**Bilan courant : 124 premières reprises, 0 correction partielle, 1 contrôle sans retouche, 28 vignettes encore à examiner individuellement ; 0 validation définitive sur 153. Prochaine planche : 25.** Aucune bulle ni texte ajouté.
 
 ## Contrôles techniques et audits historiques
 
