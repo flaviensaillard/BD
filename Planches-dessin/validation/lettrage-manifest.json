@@ -1,0 +1,3291 @@
+{
+ "trame": [
+  864,
+  1222
+ ],
+ "pages": {
+  "1": [
+   {
+    "kind": "encadre",
+    "rect": [
+     23,
+     29,
+     568,
+     71
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     351,
+     95,
+     841,
+     130
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     23,
+     587,
+     353,
+     639
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     23,
+     789,
+     253,
+     844
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     23,
+     1035,
+     267,
+     1087
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     296,
+     807,
+     447,
+     909
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     296,
+     1041,
+     540,
+     1093
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     569,
+     1095,
+     813,
+     1180
+    ],
+    "panel": 3,
+    "size": 14
+   }
+  ],
+  "2": [
+   {
+    "kind": "encadre",
+    "rect": [
+     20,
+     29,
+     380,
+     71
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     71,
+     606,
+     156
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "voix",
+    "rect": [
+     489,
+     209,
+     789,
+     253
+    ],
+    "panel": 1,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     257,
+     763,
+     325
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     360,
+     193,
+     495
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     498,
+     385,
+     550
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     360,
+     606,
+     495
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     607,
+     366,
+     845,
+     468
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     20,
+     654,
+     370,
+     683
+    ],
+    "panel": 4,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     1038,
+     370,
+     1090
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "3": [
+   {
+    "kind": "encadre",
+    "rect": [
+     23,
+     29,
+     388,
+     71
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     161,
+     798,
+     213
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     215,
+     798,
+     283
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     476,
+     287,
+     841,
+     319
+    ],
+    "panel": 1,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     23,
+     411,
+     259,
+     479
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     196,
+     507,
+     432,
+     559
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     442,
+     338,
+     538,
+     374
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     441,
+     669,
+     526
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     23,
+     739,
+     388,
+     807
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     23,
+     1045,
+     388,
+     1097
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "4": [
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     85,
+     189,
+     253
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     253,
+     387,
+     321
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     433,
+     37,
+     610,
+     205
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     26,
+     503,
+     216,
+     591
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     228,
+     503,
+     418,
+     545
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     26,
+     609,
+     419,
+     639
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     447,
+     609,
+     565
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     610,
+     525,
+     854,
+     643
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     861,
+     387,
+     913
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     480,
+     843,
+     855,
+     895
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     1113,
+     379,
+     1181
+    ],
+    "panel": 5,
+    "size": 14
+   }
+  ],
+  "5": [
+   {
+    "kind": "ono",
+    "rect": [
+     62,
+     33,
+     158,
+     69
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     80,
+     377,
+     148
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     42,
+     479,
+     138,
+     515
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     701,
+     189,
+     769
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     190,
+     725,
+     433,
+     777
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     551,
+     509,
+     851,
+     538
+    ],
+    "panel": 2,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     629,
+     607,
+     797
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     1014,
+     256,
+     1116
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     257,
+     1026,
+     433,
+     1128
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     990,
+     607,
+     1108
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     608,
+     1014,
+     851,
+     1082
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "6": [
+   {
+    "kind": "encadre",
+    "rect": [
+     10,
+     38,
+     395,
+     80
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     10,
+     116,
+     517,
+     168
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     10,
+     621,
+     375,
+     656
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     188,
+     663,
+     433,
+     698
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     10,
+     705,
+     375,
+     734
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     627,
+     678,
+     662
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     456,
+     705,
+     831,
+     740
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     432,
+     741,
+     807,
+     770
+    ],
+    "panel": 2,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     10,
+     1069,
+     375,
+     1137
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     39,
+     1141,
+     404,
+     1193
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     480,
+     967,
+     855,
+     1035
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     480,
+     1039,
+     855,
+     1107
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "7": [
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     210,
+     387,
+     262
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     477,
+     168,
+     852,
+     203
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     52,
+     388,
+     148,
+     424
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     252,
+     382,
+     348,
+     418
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     501,
+     189,
+     569
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     190,
+     495,
+     433,
+     530
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     652,
+     382,
+     748,
+     418
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     495,
+     675,
+     563
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     675,
+     495,
+     852,
+     563
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     700,
+     189,
+     785
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     12,
+     790,
+     377,
+     819
+    ],
+    "panel": 3,
+    "size": 11
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     652,
+     617,
+     748,
+     653
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     724,
+     608,
+     792
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     948,
+     388,
+     1000
+    ],
+    "panel": 5,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     477,
+     990,
+     852,
+     1025
+    ],
+    "panel": 5,
+    "size": 14
+   }
+  ],
+  "8": [
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     152,
+     388,
+     187
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     611,
+     256,
+     663
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     40,
+     665,
+     405,
+     700
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "pensee",
+    "rect": [
+     431,
+     707,
+     675,
+     771
+    ],
+    "panel": 2,
+    "size": 13
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     52,
+     862,
+     148,
+     898
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     282,
+     845,
+     378,
+     881
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     990,
+     256,
+     1058
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     431,
+     852,
+     806,
+     894
+    ],
+    "panel": 4,
+    "size": 11
+   }
+  ],
+  "9": [
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     143,
+     388,
+     178
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     477,
+     143,
+     852,
+     178
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     601,
+     196,
+     703
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     334,
+     487,
+     554,
+     555
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     548,
+     421,
+     851,
+     473
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     334,
+     727,
+     554,
+     812
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     943,
+     388,
+     995
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     476,
+     943,
+     851,
+     995
+    ],
+    "panel": 3,
+    "size": 14
+   }
+  ],
+  "10": [
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     140,
+     388,
+     192
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     471,
+     158,
+     851,
+     210
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     623,
+     256,
+     725
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     257,
+     713,
+     433,
+     765
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     431,
+     509,
+     806,
+     538
+    ],
+    "panel": 2,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     683,
+     674,
+     735
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     675,
+     725,
+     851,
+     827
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     13,
+     882,
+     189,
+     1050
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     190,
+     1020,
+     433,
+     1072
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     918,
+     607,
+     1020
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     608,
+     1002,
+     851,
+     1070
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "11": [
+   {
+    "kind": "encadre",
+    "rect": [
+     12,
+     37,
+     397,
+     79
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     550,
+     189,
+     685
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     40,
+     694,
+     405,
+     746
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     430,
+     664,
+     607,
+     766
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     608,
+     682,
+     852,
+     767
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     675,
+     766,
+     852,
+     834
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     12,
+     893,
+     189,
+     1011
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     190,
+     851,
+     434,
+     969
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     453,
+     959,
+     828,
+     1027
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     453,
+     1031,
+     828,
+     1066
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "12": [
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     108,
+     378,
+     176
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     252,
+     378,
+     287
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     473,
+     258,
+     558
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     407,
+     605,
+     575
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     712,
+     388,
+     747
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     748,
+     388,
+     800
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     628,
+     632,
+     724,
+     668
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     431,
+     772,
+     671,
+     824
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     933,
+     388,
+     985
+    ],
+    "panel": 5,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     486,
+     981,
+     846,
+     1033
+    ],
+    "panel": 5,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     18,
+     1077,
+     378,
+     1145
+    ],
+    "panel": 5,
+    "size": 14
+   }
+  ],
+  "13": [
+   {
+    "kind": "encadre",
+    "rect": [
+     17,
+     27,
+     797,
+     56
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     424,
+     193,
+     476
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     193,
+     442,
+     435,
+     477
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     434,
+     412,
+     608,
+     480
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     609,
+     442,
+     848,
+     510
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     105,
+     645,
+     347,
+     697
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     434,
+     663,
+     673,
+     715
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     612,
+     717,
+     708,
+     753
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     722,
+     717,
+     818,
+     753
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     928,
+     387,
+     963
+    ],
+    "panel": 5,
+    "size": 14
+   }
+  ],
+  "14": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     183,
+     387,
+     235
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     477,
+     171,
+     847,
+     206
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     468,
+     387,
+     553
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     810,
+     192,
+     862
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     258,
+     792,
+     433,
+     866
+    ],
+    "panel": 2,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     708,
+     606,
+     810
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     607,
+     744,
+     847,
+     812
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "pensee",
+    "rect": [
+     17,
+     1061,
+     397,
+     1095
+    ],
+    "panel": 4,
+    "size": 13
+   }
+  ],
+  "15": [
+   {
+    "kind": "encadre",
+    "rect": [
+     15,
+     24,
+     477,
+     53
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     350,
+     210,
+     850,
+     262
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     325,
+     191,
+     427
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     257,
+     373,
+     433,
+     475
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     289,
+     608,
+     474
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     498,
+     387,
+     566
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     475,
+     804,
+     850,
+     889
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     1008,
+     387,
+     1060
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     1062,
+     390,
+     1164
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     350,
+     1158,
+     850,
+     1193
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "16": [
+   {
+    "kind": "bulle",
+    "rect": [
+     19,
+     79,
+     192,
+     197
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     49,
+     605,
+     234
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     19,
+     390,
+     389,
+     442
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     475,
+     270,
+     845,
+     323
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     19,
+     754,
+     389,
+     806
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     486,
+     742,
+     845,
+     777
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     350,
+     802,
+     845,
+     837
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     247,
+     844,
+     617,
+     896
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     19,
+     1118,
+     389,
+     1170
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     475,
+     1004,
+     845,
+     1072
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "17": [
+   {
+    "kind": "encadre",
+    "rect": [
+     15,
+     24,
+     797,
+     53
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     419,
+     387,
+     471
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     473,
+     387,
+     505
+    ],
+    "panel": 1,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     335,
+     607,
+     420
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     599,
+     387,
+     651
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     474,
+     557,
+     849,
+     609
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     827,
+     387,
+     862
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     474,
+     785,
+     849,
+     820
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     15,
+     992,
+     378,
+     1077
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "18": [
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     68,
+     193,
+     186
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     50,
+     605,
+     185
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     572,
+     13,
+     668,
+     49
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     188,
+     802,
+     223
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     453,
+     224,
+     823,
+     255
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     370,
+     388,
+     405
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     244,
+     406,
+     619,
+     441
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     382,
+     632,
+     478,
+     668
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     1043,
+     193,
+     1128
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1073,
+     605,
+     1125
+    ],
+    "panel": 5,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1127,
+     802,
+     1195
+    ],
+    "panel": 5,
+    "size": 14
+   }
+  ],
+  "19": [
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     123,
+     388,
+     191
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     469,
+     129,
+     844,
+     197
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     585,
+     193,
+     720
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     259,
+     687,
+     432,
+     739
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     591,
+     605,
+     726
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     844,
+     388,
+     896
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     1132,
+     388,
+     1184
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1072,
+     670,
+     1140
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "20": [
+   {
+    "kind": "ono",
+    "rect": [
+     52,
+     42,
+     148,
+     78
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     252,
+     37,
+     348,
+     73
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     252,
+     161,
+     611,
+     213
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     596,
+     258,
+     648
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     259,
+     620,
+     432,
+     672
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     20,
+     674,
+     388,
+     703
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     596,
+     670,
+     664
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     62,
+     837,
+     158,
+     873
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     252,
+     832,
+     348,
+     868
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     972,
+     193,
+     1040
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     961,
+     605,
+     1046
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "21": [
+   {
+    "kind": "pensee",
+    "rect": [
+     20,
+     326,
+     408,
+     375
+    ],
+    "panel": 0,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     554,
+     193,
+     672
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     502,
+     632,
+     530
+    ],
+    "panel": 2,
+    "size": 8
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     644,
+     502,
+     830,
+     558
+    ],
+    "panel": 2,
+    "size": 8
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     642,
+     632,
+     679
+    ],
+    "panel": 2,
+    "size": 8
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     644,
+     642,
+     830,
+     679
+    ],
+    "panel": 2,
+    "size": 8
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     930,
+     193,
+     998
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     972,
+     605,
+     1107
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     606,
+     990,
+     844,
+     1042
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "22": [
+   {
+    "kind": "encadre",
+    "rect": [
+     19,
+     29,
+     797,
+     58
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     488,
+     388,
+     568
+    ],
+    "panel": 1,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     502,
+     831,
+     566
+    ],
+    "panel": 2,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     734,
+     632,
+     814
+    ],
+    "panel": 2,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     644,
+     734,
+     830,
+     814
+    ],
+    "panel": 2,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     996,
+     258,
+     1064
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1002,
+     807,
+     1037
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "23": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     192,
+     347,
+     227
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     350,
+     198,
+     848,
+     233
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     518,
+     234,
+     848,
+     269
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     455,
+     387,
+     507
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     473,
+     449,
+     848,
+     501
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     725,
+     387,
+     760
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     473,
+     725,
+     848,
+     760
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     1019,
+     387,
+     1071
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     487,
+     983,
+     848,
+     1035
+    ],
+    "panel": 3,
+    "size": 14
+   }
+  ],
+  "24": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     225,
+     378,
+     327
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     369,
+     378,
+     437
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     626,
+     192,
+     711
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "voix",
+    "rect": [
+     89,
+     710,
+     361,
+     740
+    ],
+    "panel": 1,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     578,
+     607,
+     696
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     607,
+     554,
+     848,
+     672
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     918,
+     192,
+     1020
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     192,
+     984,
+     433,
+     1036
+    ],
+    "panel": 3,
+    "size": 14
+   }
+  ],
+  "25": [
+   {
+    "kind": "encadre",
+    "rect": [
+     17,
+     30,
+     397,
+     72
+    ],
+    "panel": 0,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     242,
+     138,
+     622,
+     206
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     596,
+     192,
+     648
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     192,
+     632,
+     433,
+     667
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     17,
+     668,
+     387,
+     697
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     632,
+     807,
+     667
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     452,
+     668,
+     827,
+     703
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     432,
+     704,
+     807,
+     733
+    ],
+    "panel": 2,
+    "size": 11
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     1026,
+     387,
+     1078
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     1080,
+     387,
+     1132
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     918,
+     607,
+     1020
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "26": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     202,
+     378,
+     237
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     352,
+     377,
+     448,
+     413
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     567,
+     387,
+     602
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     33,
+     676,
+     220,
+     729
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     232,
+     676,
+     419,
+     718
+    ],
+    "panel": 2,
+    "size": 10
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     747,
+     607,
+     882
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     607,
+     777,
+     848,
+     895
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     1060,
+     387,
+     1145
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     445,
+     929,
+     831,
+     989
+    ],
+    "panel": 5,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     445,
+     995,
+     831,
+     1041
+    ],
+    "panel": 5,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     445,
+     1125,
+     831,
+     1171
+    ],
+    "panel": 5,
+    "size": 12
+   }
+  ],
+  "27": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     146,
+     387,
+     198
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     473,
+     194,
+     848,
+     229
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     678,
+     192,
+     780
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     17,
+     780,
+     387,
+     809
+    ],
+    "panel": 1,
+    "size": 11
+   },
+   {
+    "kind": "voix",
+    "rect": [
+     471,
+     492,
+     809,
+     536
+    ],
+    "panel": 2,
+    "size": 12
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     931,
+     258,
+     999
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     258,
+     961,
+     433,
+     1046
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1009,
+     807,
+     1094
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     1123,
+     807,
+     1158
+    ],
+    "panel": 4,
+    "size": 14
+   }
+  ],
+  "28": [
+   {
+    "kind": "encadre",
+    "rect": [
+     17,
+     79,
+     387,
+     117
+    ],
+    "panel": 0,
+    "size": 9
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     91,
+     607,
+     193
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     352,
+     297,
+     448,
+     333
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     465,
+     387,
+     500
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     62,
+     632,
+     158,
+     668
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     252,
+     627,
+     348,
+     663
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     761,
+     192,
+     846
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     743,
+     673,
+     795
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "cri",
+    "rect": [
+     287,
+     866,
+     577,
+     916
+    ],
+    "panel": 5,
+    "size": 17
+   }
+  ],
+  "29": [
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     145,
+     192,
+     230
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "pensee",
+    "rect": [
+     432,
+     325,
+     807,
+     374
+    ],
+    "panel": 1,
+    "size": 13
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     494,
+     347,
+     529
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     267,
+     566,
+     597,
+     601
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     518,
+     602,
+     848,
+     637
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     102,
+     882,
+     198,
+     918
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "ono",
+    "rect": [
+     352,
+     882,
+     448,
+     918
+    ],
+    "panel": null,
+    "size": null
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     17,
+     1086,
+     387,
+     1138
+    ],
+    "panel": 3,
+    "size": 14
+   }
+  ],
+  "30": [
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     247,
+     388,
+     299
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     42,
+     331,
+     410,
+     383
+    ],
+    "panel": 0,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     217,
+     807,
+     285
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     289,
+     605,
+     374
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     606,
+     325,
+     844,
+     360
+    ],
+    "panel": 1,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     518,
+     193,
+     636
+    ],
+    "panel": 2,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     432,
+     458,
+     605,
+     576
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     606,
+     524,
+     844,
+     592
+    ],
+    "panel": 3,
+    "size": 14
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     20,
+     910,
+     388,
+     962
+    ],
+    "panel": 4,
+    "size": 14
+   },
+   {
+    "kind": "encadre",
+    "rect": [
+     20,
+     964,
+     798,
+     993
+    ],
+    "panel": 4,
+    "size": 11
+   }
+  ]
+ }
+}
