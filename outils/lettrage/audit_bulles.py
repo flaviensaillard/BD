@@ -70,6 +70,9 @@ def audit_page(page, report):
         vigs = [{'hints': {}, 'presence': pres, 'match': any(v['match'] for v in vigs)}] * len(panels)
     speakers = G.locuteurs_alignes(page, scen)
     zones_perso = G._zones_persos(persons)   # silhouettes (maillots compris)
+    _gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
+    _edges = cv2.dilate(cv2.Canny(_gray, 40, 120), np.ones((5, 5), np.uint8)).astype(np.float64) / 255
+    ii_dessin = cv2.integral(_edges)
     # planche finale lettrée (contrôle des fonds blanc / jaune-brun)
     final = np.asarray(Image.open(ROOT / G.dst_path(page)).convert('RGB'))
 
@@ -145,8 +148,15 @@ def audit_page(page, report):
                 iy = max(0, min(ry2, zy + zh) - max(ry1, zy))
                 if ix * iy > 0:
                     sil = max(sil, ix * iy / za)
-            if sil > 0.45:
+            rx1i, ry1i, rx2i, ry2i = (max(0, int(rect[0])), max(0, int(rect[1])),
+                                      min(863, int(rect[2])), min(1221, int(rect[3])))
+            cov = ((ii_dessin[ry2i, rx2i] - ii_dessin[ry1i, rx2i]
+                    - ii_dessin[ry2i, rx1i] + ii_dessin[ry1i, rx1i])
+                   / max(1, (rx2i - rx1i) * (ry2i - ry1i)))
+            if sil > 0.45 and cov > 0.5:
                 issue['perso'] = f'cache {min(100, sil * 100):.0f}% d\'un personnage'
+            elif el[0] != 'ono' and cov > 0.75:
+                issue['dessin'] = f'recouvre une zone dense du dessin ({cov:.0%})'
         report.append(issue)
 
 
@@ -216,7 +226,7 @@ if __name__ == '__main__':
     out.write_text(json.dumps(report, ensure_ascii=False, indent=1))
 
     n_dial = n_enc = 0
-    n_prefixe = n_fond = n_cache = n_tete = n_perso = 0
+    n_prefixe = n_fond = n_cache = n_tete = n_perso = n_dessin = 0
     vignettes = {}
     for r in report:
         if r['kind'] in G._KINDS_DIAL:
@@ -233,6 +243,8 @@ if __name__ == '__main__':
                 n_tete += 1
         if 'perso' in r:
             n_perso += 1
+        if 'dessin' in r:
+            n_dessin += 1
         if 'prefixe' in r or 'fond' in r or 'cache' in r or 'perso' in r:
             vignettes.setdefault((r['page'], r['panel']), []).append(r)
 
@@ -253,6 +265,7 @@ if __name__ == '__main__':
         f'- Éléments recouvrant de la peau (corps nus) : **{n_cache}** '
         f'(dont têtes/visages couverts : {n_tete})',
         f'- Éléments cachant un personnage (silhouette, maillot compris) : **{n_perso}**',
+        f'- Boîtes recouvrant une zone dense du dessin (avertissement) : **{n_dessin}**',
         f'- Vignettes avec au moins un défaut : **{len(vignettes)}** sur 153', '',
     ]
     if vignettes:
@@ -280,5 +293,6 @@ if __name__ == '__main__':
     (ROOT / 'Planches-dessin/validation/AUDIT-BULLES.md').write_text('\n'.join(lines))
     print(f'dialogues={n_dial} encadrés={n_enc} | préfixes faux={n_prefixe} '
           f'| fonds faux={n_fond} | peau={n_cache} (têtes={n_tete}) '
-          f'| silhouettes={n_perso} | vignettes en défaut={len(vignettes)}/153')
+          f'| silhouettes={n_perso} | dessin dense={n_dessin} '
+          f'| vignettes en défaut={len(vignettes)}/153')
     print('JSON :', out)

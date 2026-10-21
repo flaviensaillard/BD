@@ -20,6 +20,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).parent))
 from bd_common import Lettrage, ROOT  # noqa: E402
 import personnages as PS  # noqa: E402
+import placer as _P  # noqa: E402
 
 SRC = {
     1: 'Planches-dessin/01-la-legende-des-u6-marvel.png',
@@ -667,10 +668,13 @@ def _place_ono(ctx, cx, cy):
             inter = _inter_box(box, (r[0], r[1], r[2] - r[0], r[3] - r[1]))
             if inter:
                 c_p = max(c_p, inter / surf)
+        c_d = _P._couv_dessin(box)
         if not eloigne:                    # fenêtre locale : compromis distance/propreté
-            return 3 * c_t + c_b + c_p + (abs(bx - cx) + abs(by - cy)) / 300
+            # jamais de chevauchement de bulle contre la couverture dessin
+            return 3 * c_t + c_b + 10 * c_p + 10 * c_d + (abs(bx - cx) + abs(by - cy)) / 300
         # balayage large : la propreté domine largement la distance
-        return 40 * c_t + 10 * c_p + c_b + ((bx - cx) ** 2 + (by - cy) ** 2) ** 0.5 / 800
+        return (40 * c_t + 10 * c_p + c_b + 30 * c_d
+                + ((bx - cx) ** 2 + (by - cy) ** 2) ** 0.5 / 800)
 
     best, best_c = (cx, cy), None
     for dy in range(-150, 151, 12):
@@ -817,7 +821,8 @@ def apply_page(page, ctx, manifest):
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
                           + 300 * _P._peau_overlap(cand, corps)
-                          + 60 * _P._peau_overlap(cand, persos))
+                          + 60 * _P._peau_overlap(cand, persos)
+                          + 250 * _P._couv_dessin(cand))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:
@@ -865,6 +870,51 @@ def apply_page(page, ctx, manifest):
                                  'queue': placements[i].get('queue'),
                                  'kind': placements[i].get('kind', els[i][0])}
 
+    # --- Phase 2.9 : vignettes denses — replacer le groupe au complet -------
+    # une boîte qui enterrerait l'action (couverture du dessin > 0.80) ou un
+    # groupe couvrant plus de la moitié de la vignette : la réparation sait
+    # réduire la police et viser les rangées les moins denses. Le résultat ne
+    # remplace l'existant que s'il est strictement meilleur.
+    for pidx, idxs in panel_elems.items():
+        if any(not placements[i] for i in idxs):
+            continue
+        rects_now = [placements[i]['rect'] for i in idxs]
+        qx1, qy1, qx2, qy2 = panels[pidx]
+        aire = max(1, (qx2 - qx1) * (qy2 - qy1))
+        surf_tot = sum((r[2] - r[0]) * (r[3] - r[1]) for r in rects_now) / aire
+        cov_max = max(_P._couv_dessin(r) for r in rects_now)
+        if cov_max <= 0.80 and surf_tot <= 0.50:
+            continue
+        els_p = []
+        for i in idxs:
+            pr = placements[i]['pers']
+            els_p.append({'kind': els[i][0], 'text': txts[i],
+                          'speaker': PS.point_bouche(pr) if pr is not None else priors.get(i)})
+        placed_other = [placements[j]['rect'] for j, q in enumerate(placements)
+                        if q and q['panel'] != pidx] + list(onos)
+        res = P.reparer_panel(panels[pidx], els_p, tetes, placed_other, bodies=corps,
+                              persos=persos)
+        if not res:
+            continue
+        rects, size = res
+        cov_new = max(_P._couv_dessin(r) for r in rects)
+        moy_new = sum(_P._couv_dessin(r) for r in rects) / len(rects)
+        moy_old = sum(_P._couv_dessin(r) for r in rects_now) / len(rects)
+        surf_new = sum((r[2] - r[0]) * (r[3] - r[1]) for r in rects) / aire
+        mieux = ((cov_new < cov_max - 0.03 and moy_new <= moy_old + 0.02)
+                 or (surf_new < surf_tot - 0.08 and cov_new <= cov_max + 0.03
+                     and moy_new <= moy_old + 0.02))
+        if not mieux:
+            continue
+        print(f'  page {page:02d} : vignette {pidx} dense — groupe replacé '
+              f'(couverture {cov_max:.2f}->{cov_new:.2f}, surf {surf_tot:.0%}->{surf_new:.0%}, '
+              f'taille {size})', file=sys.stderr)
+        for i, r in zip(idxs, rects):
+            placements[i] = {'rect': r, 'size': size, 'soft': False, 'panel': pidx,
+                             'pers': placements[i]['pers'],
+                             'queue': placements[i].get('queue'),
+                             'kind': placements[i].get('kind', els[i][0])}
+
     if os.environ.get('ARENA_DEBUG'):
         _dbg(page, 'apres 2', placements)
 
@@ -905,7 +955,8 @@ def apply_page(page, ctx, manifest):
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
                           + 300 * _P._peau_overlap(cand, corps)
-                          + 60 * _P._peau_overlap(cand, persos))
+                          + 60 * _P._peau_overlap(cand, persos)
+                          + 250 * _P._couv_dessin(cand))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:
@@ -954,7 +1005,8 @@ def apply_page(page, ctx, manifest):
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
                           + 300 * _P._peau_overlap(cand, corps)
-                          + 60 * _P._peau_overlap(cand, persos))
+                          + 60 * _P._peau_overlap(cand, persos)
+                          + 250 * _P._couv_dessin(cand))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:
@@ -1057,6 +1109,10 @@ if __name__ == '__main__':
         bgr = base[..., ::-1].copy()
         pers = PS.detecter_personnages(bgr)
         import cv2
+        # carte de densité du dessin (contours dilatés -> image intégrale)
+        _gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
+        _edges = cv2.dilate(cv2.Canny(_gray, 40, 120), np.ones((5, 5), np.uint8)).astype(np.float64) / 255
+        P.set_dessin(cv2.integral(_edges))
         pm = PS.masque_peau(bgr)
         n_cc, _, stats_cc, _ = cv2.connectedComponentsWithStats(pm, 8)
         blobs = [(int(stats_cc[i, 0]), int(stats_cc[i, 1]),

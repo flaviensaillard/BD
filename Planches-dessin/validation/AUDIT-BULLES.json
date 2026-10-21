@@ -6,9 +6,9 @@
   "speaker": "jaune style Comics",
   "text": "SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ REMPORTÉS",
   "rect": [
-   159,
+   55,
    35,
-   704,
+   491,
    77
   ],
   "panel": "1-1",
@@ -21,9 +21,9 @@
   "speaker": "Léon",
   "text": "Léon: \"ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE !\"",
   "rect": [
-   187,
+   54,
    77,
-   677,
+   544,
    112
   ],
   "panel": "1-1",
@@ -36,10 +36,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Cinq coupes en une seule saison ! Même les grands du club n'e",
   "rect": [
-   267,
-   461,
-   597,
-   507
+   53,
+   449,
+   353,
+   498
   ],
   "panel": "1-1",
   "personnes": 28
@@ -51,13 +51,14 @@
   "speaker": "voix de Léon",
   "text": "Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby Club Motte",
   "rect": [
-   44,
+   33,
    801,
-   274,
-   856
+   217,
+   869
   ],
   "panel": "1-2",
-  "personnes": 7
+  "personnes": 7,
+  "dessin": "recouvre une zone dense du dessin (77%)"
  },
  {
   "page": 1,
@@ -67,9 +68,9 @@
   "text": "Milo: \"Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées !\"",
   "rect": [
    37,
-   1089,
+   1113,
    281,
-   1157
+   1181
   ],
   "panel": "1-2",
   "personnes": 7
@@ -82,9 +83,9 @@
   "text": "Lyssandro: \"Cinq fois premiers et deux fois deuxièmes… Vous vous rende",
   "rect": [
    310,
-   849,
+   801,
    554,
-   917
+   869
   ],
   "panel": "1-3",
   "personnes": 7
@@ -99,10 +100,11 @@
    310,
    999,
    554,
-   1045
+   1043
   ],
   "panel": "1-3",
-  "personnes": 7
+  "personnes": 7,
+  "dessin": "recouvre une zone dense du dessin (80%)"
  },
  {
   "page": 1,
@@ -112,9 +114,9 @@
   "text": "Léon: \"Pas « exactement pareil », Ayden… Ce sera encore MIEUX ! En U8,",
   "rect": [
    583,
-   1089,
+   1095,
    827,
-   1174
+   1180
   ],
   "panel": "1-4",
   "personnes": 1
@@ -126,9 +128,9 @@
   "speaker": null,
   "text": "SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE. LE JOUR DE LA REPRISE EN CATÉGO",
   "rect": [
-   46,
+   60,
    35,
-   406,
+   420,
    77
   ],
   "panel": "2-1",
@@ -171,10 +173,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va ",
   "rect": [
-   593,
-   262,
+   658,
+   160,
    831,
-   326
+   255
   ],
   "panel": "2-2",
   "personnes": 2
@@ -186,10 +188,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sept t",
   "rect": [
-   107,
-   378,
-   345,
-   480
+   60,
+   348,
+   425,
+   416
   ],
   "panel": "2-3",
   "personnes": 1
@@ -201,10 +203,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un pe",
   "rect": [
-   43,
-   564,
-   408,
-   616
+   180,
+   552,
+   418,
+   637
   ],
   "panel": "2-3",
   "personnes": 1
@@ -216,10 +218,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on a t",
   "rect": [
-   520,
-   366,
-   758,
-   468
+   553,
+   348,
+   726,
+   458
   ],
   "panel": "2-4",
   "personnes": 2
@@ -231,10 +233,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Justement, Léon. En U8, les autres clubs aussi ont grandi. E",
   "rect": [
-   456,
-   552,
-   821,
-   637
+   593,
+   546,
+   766,
+   602
   ],
   "panel": "2-4",
   "personnes": 2
@@ -246,9 +248,9 @@
   "speaker": null,
   "text": "LA MOTTE-SERVOLEX — STADE DU RUGBY CLUB MOTTERAIN.",
   "rect": [
-   257,
+   60,
    660,
-   607,
+   410,
    689
   ],
   "panel": "2-5",
@@ -261,10 +263,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro est",
   "rect": [
-   257,
-   858,
-   607,
-   910
+   260,
+   690,
+   563,
+   742
   ],
   "panel": "2-5",
   "personnes": 2
@@ -276,10 +278,10 @@
   "speaker": null,
   "text": "NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSENT LE GROUP",
   "rect": [
-   45,
-   35,
-   410,
-   77
+   50,
+   47,
+   342,
+   89
   ],
   "panel": "3-1",
   "personnes": 0
@@ -293,8 +295,8 @@
   "rect": [
    447,
    37,
-   827,
-   83
+   631,
+   90
   ],
   "panel": "3-2",
   "personnes": 6
@@ -306,10 +308,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Trop content de vous retrouver ! Mon père m'a dit qu'on es",
   "rect": [
-   447,
-   233,
-   631,
-   321
+   643,
+   37,
+   827,
+   102
   ],
   "panel": "3-2",
   "personnes": 6
@@ -321,13 +323,14 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Ouais ! Avec Léon, on en a parlé toute la semaine à l'école !\"",
   "rect": [
-   643,
-   233,
+   656,
+   234,
    827,
-   293
+   287
   ],
   "panel": "3-2",
-  "personnes": 6
+  "personnes": 6,
+  "dessin": "recouvre une zone dense du dessin (80%)"
  },
  {
   "page": 3,
@@ -336,10 +339,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait c",
   "rect": [
-   182,
-   437,
-   418,
-   494
+   183,
+   345,
+   419,
+   398
   ],
   "panel": "3-3",
   "personnes": 3
@@ -351,10 +354,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?!\"",
   "rect": [
-   182,
-   578,
-   418,
-   622
+   197,
+   459,
+   342,
+   544
   ],
   "panel": "3-3",
   "personnes": 3
@@ -366,9 +369,9 @@
   "speaker": null,
   "text": "FIIIIIIIIT !",
   "rect": [
-   436,
+   448,
    344,
-   532,
+   544,
    380
   ],
   "panel": "-",
@@ -381,10 +384,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle ",
   "rect": [
-   551,
-   519,
-   722,
-   621
+   549,
+   345,
+   785,
+   382
   ],
   "panel": "3-4",
   "personnes": 3
@@ -396,10 +399,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Bienvenue en U8 les garçons ! Avant de commencer l'entraîneme",
   "rect": [
-   187,
-   697,
-   677,
-   765
+   42,
+   763,
+   342,
+   848
   ],
   "panel": "3-5",
   "personnes": 20
@@ -411,10 +414,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Tu vas voir, ils vont nous féliciter pour nos cinq trophées !\"",
   "rect": [
-   254,
-   919,
-   610,
-   971
+   503,
+   781,
+   803,
+   833
   ],
   "panel": "3-5",
   "personnes": 20
@@ -427,9 +430,9 @@
   "text": "Flavien: \"La saison dernière en U6, sur 7 tournois, vous en avez gagné",
   "rect": [
    26,
-   189,
+   200,
    216,
-   330
+   341
   ],
   "panel": "4-1",
   "personnes": 2
@@ -442,9 +445,9 @@
   "text": "Kilian: \"Si vous croyez que vous allez gagner sans effort cette année ",
   "rect": [
    228,
-   189,
+   200,
    418,
-   284
+   295
   ],
   "panel": "4-1",
   "personnes": 2
@@ -457,9 +460,9 @@
   "text": "Julien: \"En U8, voici vos nouvelles règles ! On joue à 5 contre 5 sur ",
   "rect": [
    456,
-   301,
+   25,
    831,
-   386
+   105
   ],
   "panel": "4-2",
   "personnes": 2
@@ -471,10 +474,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Deuxième grand changement : l'arbitre siffle TOUS les en-avan",
   "rect": [
-   175,
-   491,
-   419,
-   537
+   178,
+   417,
+   327,
+   539
   ],
   "panel": "4-3",
   "personnes": 6
@@ -486,10 +489,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Tous les en-avant ?! Même les tout petits ?!\"",
   "rect": [
-   26,
-   627,
-   216,
-   664
+   52,
+   597,
+   201,
+   665
   ],
   "panel": "4-3",
   "personnes": 6
@@ -501,14 +504,14 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Même les tout petits, Milo !\"",
   "rect": [
-   228,
+   252,
    627,
-   418,
-   655
+   401,
+   664
   ],
   "panel": "4-3",
   "personnes": 6,
-  "cache": "corps/peau 65% de 676px²"
+  "dessin": "recouvre une zone dense du dessin (80%)"
  },
  {
   "page": 4,
@@ -517,10 +520,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Et quand un joueur sort en touche, le ballon est directement ",
   "rect": [
-   446,
-   485,
-   690,
-   542
+   441,
+   495,
+   685,
+   580
   ],
   "panel": "4-4",
   "personnes": 4
@@ -532,10 +535,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Enfin, pour les contacts : de septembre à fin novembre, c'est",
   "rect": [
-   446,
-   548,
-   840,
-   605
+   600,
+   579,
+   844,
+   667
   ],
   "panel": "4-4",
   "personnes": 4
@@ -547,10 +550,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Faut faire super attention aux passes alors, sinon on rend tou",
   "rect": [
-   26,
-   689,
-   841,
-   723
+   508,
+   687,
+   818,
+   739
   ],
   "panel": "4-5",
   "personnes": 3
@@ -563,9 +566,9 @@
   "text": "Lyssandro: \"Et en défense, si on est hors-jeu, on se fait punir direct",
   "rect": [
    26,
-   861,
+   867,
    531,
-   895
+   902
   ],
   "panel": "4-5",
   "personnes": 3
@@ -577,10 +580,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Pfff, vous inquiétez pas les gars ! Touché à deux mains ou nouv",
   "rect": [
-   181,
-   951,
-   686,
-   1000
+   532,
+   945,
+   842,
+   1030
   ],
   "panel": "4-6",
   "personnes": 3
@@ -593,9 +596,9 @@
   "text": "FIIIIT !",
   "rect": [
    56,
-   51,
+   -9,
    152,
-   87
+   27
   ],
   "panel": "-",
   "personnes": 36
@@ -607,10 +610,10 @@
   "speaker": "Julien",
   "text": "Julien: \"En-avant ! Ballon rendu à l'autre équipe ! On garde les mains",
   "rect": [
-   172,
-   92,
-   692,
-   144
+   380,
+   44,
+   688,
+   112
   ],
   "panel": "5-1",
   "personnes": 13
@@ -622,9 +625,9 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   48,
+   -96,
    521,
-   144,
+   0,
    557
   ],
   "panel": "-",
@@ -637,14 +640,14 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Hors-jeu Léon ! Tu étais devant tes copains au départ de l'ac",
   "rect": [
-   27,
-   799,
-   217,
-   839
+   243,
+   630,
+   419,
+   690
   ],
   "panel": "5-2",
   "personnes": 12,
-  "cache": "corps/peau 65% de 713px² ; corps/peau 92% de 677px²"
+  "dessin": "recouvre une zone dense du dessin (96%)"
  },
  {
   "page": 5,
@@ -653,10 +656,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U",
   "rect": [
-   229,
-   799,
+   176,
+   788,
    419,
-   839
+   834
   ],
   "panel": "5-2",
   "personnes": 12
@@ -683,10 +686,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme p",
   "rect": [
-   453,
-   743,
-   828,
-   828
+   566,
+   719,
+   809,
+   837
   ],
   "panel": "5-3",
   "personnes": 4
@@ -698,10 +701,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Du feu dans les jambes, oui… mais tu as vu leur réaction à ch",
   "rect": [
-   27,
-   860,
-   419,
-   913
+   23,
+   858,
+   398,
+   898
   ],
   "panel": "5-4",
   "personnes": 3
@@ -713,10 +716,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"C'est vrai qu'au niveau des passes sous pression et de la déf",
   "rect": [
-   27,
-   1117,
-   419,
-   1159
+   23,
+   1116,
+   398,
+   1165
   ],
   "panel": "5-4",
   "personnes": 3
@@ -728,10 +731,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"C'est surtout pour Léon que je m'inquiète. Il a un tel espri",
   "rect": [
-   594,
-   1028,
-   837,
-   1108
+   453,
+   858,
+   828,
+   898
   ],
   "panel": "5-5",
   "personnes": 5
@@ -743,10 +746,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Le premier tournoi va être un sacré révélateur, Flavien. On s",
   "rect": [
-   594,
-   1114,
-   837,
-   1178
+   438,
+   1128,
+   813,
+   1180
   ],
   "panel": "5-5",
   "personnes": 5
@@ -758,9 +761,9 @@
   "speaker": null,
   "text": "OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS AU PROGRA",
   "rect": [
-   240,
+   172,
    44,
-   625,
+   480,
    86
   ],
   "panel": "6-1",
@@ -773,10 +776,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Allez le RCM ! On se souvient des règles : 5 contre 5, touch",
   "rect": [
-   179,
-   122,
-   686,
-   174
+   210,
+   86,
+   520,
+   154
   ],
   "panel": "6-1",
   "personnes": 8
@@ -788,10 +791,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Bien joué Ayden ! Tiens Nolann, fonce !\"",
   "rect": [
-   174,
+   241,
    521,
    419,
-   563
+   565
   ],
   "panel": "6-2",
   "personnes": 13
@@ -804,9 +807,9 @@
   "text": "Nolann: \"ESSAI ! UN POINT POUR LE RCM !\"",
   "rect": [
    24,
-   803,
+   799,
    215,
-   845
+   843
   ],
   "panel": "6-2",
   "personnes": 13
@@ -819,9 +822,9 @@
   "text": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !",
   "rect": [
    227,
-   803,
+   799,
    418,
-   843
+   841
   ],
   "panel": "6-2",
   "personnes": 13
@@ -833,10 +836,10 @@
   "speaker": "Milo",
   "text": "Milo: \"À toi Léon !\"",
   "rect": [
-   446,
-   533,
-   638,
-   567
+   664,
+   521,
+   842,
+   555
   ],
   "panel": "6-3",
   "personnes": 6
@@ -848,10 +851,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Personne ne me rattrapera ! ESSAI !\"",
   "rect": [
-   650,
-   533,
-   842,
-   582
+   446,
+   759,
+   624,
+   808
   ],
   "panel": "6-3",
   "personnes": 6
@@ -864,9 +867,9 @@
   "text": "MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) !",
   "rect": [
    446,
-   678,
+   814,
    842,
-   710
+   846
   ],
   "panel": "6-3",
   "personnes": 6
@@ -878,9 +881,9 @@
   "speaker": "Léon",
   "text": "Léon: \"Deux matchs, deux victoires ! Qu'est-ce que je vous avais dit ?",
   "rect": [
-   39,
+   50,
    865,
-   404,
+   415,
    925
   ],
   "panel": "6-4",
@@ -893,9 +896,9 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Attends Léon, contre Albertville on a quand même eu chaud sur ",
   "rect": [
-   39,
+   99,
    1015,
-   404,
+   344,
    1061
   ],
   "panel": "6-4",
@@ -908,10 +911,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Écoutez bien les garçons : le troisième match, c'est contre M",
   "rect": [
-   446,
-   867,
+   663,
+   1007,
    841,
-   916
+   1077
   ],
   "panel": "6-5",
   "personnes": 10
@@ -923,10 +926,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Ils montent très vite en défense et ils ne laissent aucun esp",
   "rect": [
-   596,
-   1060,
+   663,
+   1083,
    841,
-   1140
+   1166
   ],
   "panel": "6-5",
   "personnes": 10
@@ -938,10 +941,10 @@
   "speaker": "adversaire-vert",
   "text": "Adversaire vert: \"On monte ensemble les Vert et Noir ! Personne ne pas",
   "rect": [
-   26,
-   44,
+   473,
+   266,
    838,
-   78
+   315
   ],
   "panel": "7-1",
   "personnes": 8
@@ -954,9 +957,9 @@
   "text": "Lyssandro: \"Oh là là, ils sont déjà sur nous !\"",
   "rect": [
    335,
-   216,
+   333,
    838,
-   250
+   367
   ],
   "panel": "7-1",
   "personnes": 8
@@ -968,9 +971,9 @@
   "speaker": null,
   "text": "PLOP !",
   "rect": [
-   46,
+   -86,
    406,
-   142,
+   10,
    442
   ],
   "panel": "-",
@@ -983,10 +986,10 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   194,
-   330,
-   290,
-   366
+   50,
+   174,
+   146,
+   210
   ],
   "panel": "-",
   "personnes": 30
@@ -999,9 +1002,9 @@
   "text": "Arbitre: \"En-avant du RCM ! Ballon rendu à Montmélian !\"",
   "rect": [
    27,
-   515,
+   524,
    217,
-   579
+   588
   ],
   "panel": "7-2",
   "personnes": 2
@@ -1014,9 +1017,9 @@
   "text": "Léon: \"Mais fais attention Milo !\"",
   "rect": [
    229,
-   515,
+   524,
    419,
-   564
+   573
   ],
   "panel": "7-2",
   "personnes": 2
@@ -1028,10 +1031,10 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   658,
-   388,
-   754,
-   424
+   746,
+   150,
+   842,
+   186
   ],
   "panel": "-",
   "personnes": 30
@@ -1043,10 +1046,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Touche ! Ballon rendu à Montmélian, joué comme une pénalité ",
   "rect": [
-   445,
-   515,
-   635,
-   579
+   446,
+   513,
+   623,
+   581
   ],
   "panel": "7-3",
   "personnes": 1
@@ -1058,10 +1061,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Mince, le terrain de 20 mètres est moins large que je croyais",
   "rect": [
-   647,
-   515,
-   837,
-   579
+   639,
+   519,
+   816,
+   604
   ],
   "panel": "7-3",
   "personnes": 1
@@ -1073,10 +1076,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"La ligne défensive les garçons ! Si Léon monte tout seul, ça",
   "rect": [
-   40,
-   742,
-   405,
-   794
+   26,
+   747,
+   216,
+   827
   ],
   "panel": "7-4",
   "personnes": 5
@@ -1088,10 +1091,10 @@
   "speaker": null,
   "text": "ESSAI DE MONTMÉLIAN ! +1 POINT !",
   "rect": [
-   40,
-   796,
-   405,
-   825
+   228,
+   747,
+   418,
+   794
   ],
   "panel": "7-4",
   "personnes": 5
@@ -1103,10 +1106,10 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   646,
-   611,
-   742,
-   647
+   574,
+   623,
+   670,
+   659
   ],
   "panel": "-",
   "personnes": 30
@@ -1118,10 +1121,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Hors-jeu du joueur du RCM ! Pénalité pour Montmélian !\"",
   "rect": [
-   454,
-   730,
-   829,
-   776
+   446,
+   712,
+   623,
+   780
   ],
   "panel": "7-5",
   "personnes": 4
@@ -1133,10 +1136,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Calmez-vous le RCM ! Respirez ! Regardez vos copains avant de",
   "rect": [
-   335,
-   848,
-   838,
-   882
+   124,
+   1020,
+   432,
+   1072
   ],
   "panel": "7-6",
   "personnes": 11
@@ -1148,10 +1151,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Ils s'énervent au lieu de construire…\"",
   "rect": [
-   335,
-   888,
-   838,
-   922
+   293,
+   1134,
+   601,
+   1169
   ],
   "panel": "7-6",
   "personnes": 11
@@ -1163,10 +1166,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Vas-y Léon ! On monte avec toi !\"",
   "rect": [
-   181,
-   374,
-   684,
-   409
+   253,
+   386,
+   561,
+   421
   ],
   "panel": "8-1",
   "personnes": 17
@@ -1178,10 +1181,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Léon ! Passe à gauche, on est deux contre un !\"",
   "rect": [
-   135,
-   545,
-   311,
-   613
+   27,
+   517,
+   217,
+   581
   ],
   "panel": "8-2",
   "personnes": 4
@@ -1193,10 +1196,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Ici Léon ! Je suis tout seul sur l'aile !\"",
   "rect": [
-   135,
-   719,
-   311,
-   787
+   229,
+   517,
+   419,
+   566
   ],
   "panel": "8-2",
   "personnes": 4
@@ -1223,9 +1226,9 @@
   "speaker": null,
   "text": "TCHAC !",
   "rect": [
-   46,
+   -86,
    856,
-   142,
+   10,
    892
   ],
   "panel": "-",
@@ -1238,10 +1241,10 @@
   "speaker": null,
   "text": "FIIIIIIIT !",
   "rect": [
-   276,
-   851,
-   372,
-   887
+   156,
+   767,
+   252,
+   803
   ],
   "panel": "-",
   "personnes": 43
@@ -1253,10 +1256,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Touché à deux mains… et en-avant ! C'est terminé, fin du mat",
   "rect": [
-   27,
-   1136,
-   270,
-   1180
+   22,
+   1122,
+   198,
+   1182
   ],
   "panel": "8-4",
   "personnes": 12
@@ -1268,10 +1271,10 @@
   "speaker": null,
   "text": "PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVINCIBILITÉ V",
   "rect": [
-   491,
-   1056,
-   791,
-   1098
+   536,
+   858,
+   836,
+   898
   ],
   "panel": "8-5",
   "personnes": 6
@@ -1283,10 +1286,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Bien joué Montmélian… Vous avez super bien défendu.\"",
   "rect": [
-   181,
-   101,
-   684,
-   136
+   19,
+   83,
+   522,
+   118
   ],
   "panel": "9-1",
   "personnes": 15
@@ -1298,10 +1301,10 @@
   "speaker": "adversaire-vert",
   "text": "Adversaire vert: \"Merci ! À bientôt au prochain tournoi !\"",
   "rect": [
-   181,
-   353,
-   684,
-   388
+   343,
+   245,
+   846,
+   280
   ],
   "panel": "9-1",
   "personnes": 15
@@ -1313,10 +1316,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! On e",
   "rect": [
-   27,
-   607,
-   322,
-   675
+   133,
+   637,
+   273,
+   755
   ],
   "panel": "9-2",
   "personnes": 3
@@ -1328,10 +1331,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Léon, calme-toi… On a quand même gagné deux matchs sur tro",
   "rect": [
-   348,
-   411,
-   586,
-   475
+   343,
+   433,
+   563,
+   501
   ],
   "panel": "9-3",
   "personnes": 12
@@ -1343,10 +1346,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Ouais, contre Chambéry et Albertville on a super bien joué !\"",
   "rect": [
-   598,
-   411,
-   836,
-   460
+   622,
+   409,
+   842,
+   455
   ],
   "panel": "9-3",
   "personnes": 12
@@ -1358,14 +1361,13 @@
   "speaker": "Léon",
   "text": "Léon: \"Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on n'",
   "rect": [
-   534,
-   751,
-   837,
-   815
+   343,
+   613,
+   563,
+   693
   ],
   "panel": "9-3",
-  "personnes": 12,
-  "cache": "corps/peau 36% de 814px²"
+  "personnes": 12
  },
  {
   "page": 9,
@@ -1374,10 +1376,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Viens boire une gorgée d'eau, Léon. La colère ne fera pas re",
   "rect": [
-   27,
-   927,
-   426,
-   976
+   493,
+   1075,
+   801,
+   1127
   ],
   "panel": "9-4",
   "personnes": 5
@@ -1389,10 +1391,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Ce n'est que le début de la saison… Il va falloir que le grou",
   "rect": [
-   335,
-   1072,
-   837,
-   1121
+   29,
+   1147,
+   337,
+   1191
   ],
   "panel": "9-4",
   "personnes": 5
@@ -1406,7 +1408,7 @@
   "rect": [
    27,
    46,
-   837,
+   529,
    80
   ],
   "panel": "10-1",
@@ -1420,9 +1422,9 @@
   "text": "Léon: \"Papa… Pourquoi l'arbitre il a sifflé tout le temps contre nous ",
   "rect": [
    27,
-   86,
+   158,
    529,
-   135
+   207
   ],
   "panel": "10-1",
   "personnes": 5
@@ -1434,10 +1436,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles ",
   "rect": [
-   27,
-   643,
-   270,
-   738
+   22,
+   641,
+   265,
+   736
   ],
   "panel": "10-2",
   "personnes": 3
@@ -1449,10 +1451,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Pfff… Ils ont surtout eu de la chance !\"",
   "rect": [
-   27,
-   774,
-   270,
-   823
+   34,
+   767,
+   183,
+   835
   ],
   "panel": "10-2",
   "personnes": 3
@@ -1464,10 +1466,10 @@
   "speaker": null,
   "text": "LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN.",
   "rect": [
-   453,
-   515,
-   828,
-   544
+   445,
+   517,
+   635,
+   564
   ],
   "panel": "10-3",
   "personnes": 5
@@ -1479,10 +1481,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Alors Léon, t'es toujours fâché pour samedi ?\"",
   "rect": [
-   453,
-   557,
-   828,
-   592
+   647,
+   517,
+   837,
+   581
   ],
   "panel": "10-3",
   "personnes": 5
@@ -1494,10 +1496,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Bien sûr que je suis fâché ! Quand je repense à leurs maillots ",
   "rect": [
-   453,
-   725,
-   828,
-   777
+   445,
+   701,
+   621,
+   781
   ],
   "panel": "10-3",
   "personnes": 5
@@ -1509,10 +1511,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Tu sais, j'en ai parlé tout à l'heure avec Baptiste avant la s",
   "rect": [
-   35,
-   864,
-   410,
-   949
+   27,
+   860,
+   419,
+   940
   ],
   "panel": "10-4",
   "personnes": 2
@@ -1524,10 +1526,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Ah ouais ? Même Baptiste il a perdu un match ?\"",
   "rect": [
-   135,
-   1074,
-   311,
-   1142
+   27,
+   1024,
+   203,
+   1088
   ],
   "panel": "10-4",
   "personnes": 2
@@ -1540,12 +1542,13 @@
   "text": "Ayden: \"Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'au ",
   "rect": [
    594,
-   1064,
+   1072,
    837,
-   1117
+   1112
   ],
   "panel": "10-5",
-  "personnes": 9
+  "personnes": 9,
+  "dessin": "recouvre une zone dense du dessin (82%)"
  },
  {
   "page": 10,
@@ -1555,12 +1558,13 @@
   "text": "Léon: \"Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus qu'",
   "rect": [
    445,
-   1123,
-   688,
-   1176
+   1118,
+   621,
+   1168
   ],
   "panel": "10-5",
-  "personnes": 9
+  "personnes": 9,
+  "dessin": "recouvre une zone dense du dessin (96%)"
  },
  {
   "page": 11,
@@ -1569,9 +1573,9 @@
   "speaker": null,
   "text": "FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVITE À L'ENT",
   "rect": [
-   239,
+   25,
    43,
-   624,
+   333,
    85
   ],
   "panel": "11-1",
@@ -1584,10 +1588,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Écoutez-moi tous les vingt ! Samedi dernier, on a vu de belle",
   "rect": [
-   40,
-   514,
-   405,
-   574
+   174,
+   520,
+   418,
+   570
   ],
   "panel": "11-2",
   "personnes": 4
@@ -1599,10 +1603,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Qui peut me dire ce qui nous a manqué quand ça devenait dur ?",
   "rect": [
-   40,
-   796,
-   405,
-   840
+   71,
+   568,
+   248,
+   632
   ],
   "panel": "11-2",
   "personnes": 4
@@ -1614,13 +1618,14 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Quand ils couraient vers nous, on n'était pas alignés ! Y ",
   "rect": [
-   519,
+   594,
    516,
-   763,
-   553
+   838,
+   569
   ],
   "panel": "11-3",
-  "personnes": 11
+  "personnes": 11,
+  "cache": "corps/peau 39% de 1306px²"
  },
  {
   "page": 11,
@@ -1629,13 +1634,14 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Et quand l'un de nous avait le ballon, il essayait de passer t",
   "rect": [
-   444,
-   679,
-   688,
-   716
+   594,
+   689,
+   838,
+   742
   ],
   "panel": "11-3",
-  "personnes": 11
+  "personnes": 11,
+  "dessin": "recouvre une zone dense du dessin (85%)"
  },
  {
   "page": 11,
@@ -1645,13 +1651,13 @@
   "text": "Nolann: \"Et on a fait tomber le ballon vers l'avant plein de fois !\"",
   "rect": [
    444,
-   800,
-   688,
-   837
+   796,
+   621,
+   838
   ],
   "panel": "11-3",
   "personnes": 11,
-  "cache": "corps/peau 44% de 736px²"
+  "cache": "corps/peau 53% de 736px²"
  },
  {
   "page": 11,
@@ -1660,10 +1666,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Bravo les garçons, vous avez tout compris ! En U8, un joueur",
   "rect": [
-   26,
+   243,
    859,
    420,
-   896
+   969
   ],
   "panel": "11-4",
   "personnes": 5
@@ -1676,9 +1682,9 @@
   "text": "Flavien: \"Pour progresser, on va travailler nos trois armes secrètes :",
   "rect": [
    26,
-   1088,
-   270,
-   1144
+   975,
+   203,
+   1131
   ],
   "panel": "11-4",
   "personnes": 5
@@ -1690,10 +1696,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Et sous la pluie, le ballon glisse ! C'est le meilleur moment",
   "rect": [
-   594,
-   859,
-   838,
-   939
+   470,
+   971,
+   647,
+   1089
   ],
   "panel": "11-5",
   "personnes": 2
@@ -1705,10 +1711,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Ouais ! Du rugby sous la pluie !\"",
   "rect": [
-   444,
-   945,
-   838,
-   979
+   642,
+   869,
+   819,
+   921
   ],
   "panel": "11-5",
   "personnes": 2
@@ -1720,10 +1726,10 @@
   "speaker": "Julien",
   "text": "Julien: \"On monte ensemble ! Regardez à votre gauche et à votre droite",
   "rect": [
-   42,
-   138,
-   822,
-   173
+   178,
+   30,
+   482,
+   98
   ],
   "panel": "12-1",
   "personnes": 13
@@ -1735,10 +1741,10 @@
   "speaker": "Ayden & Lyssandro",
   "text": "Ayden & Lyssandro: \"ATTENDS LA LIGNE !\"",
   "rect": [
-   184,
-   258,
-   680,
-   293
+   154,
+   114,
+   458,
+   149
   ],
   "panel": "12-1",
   "personnes": 13
@@ -1750,10 +1756,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Eh ! Vous avez vu ? Quand on reste collés sur la même ligne, ",
   "rect": [
-   40,
-   521,
-   410,
-   573
+   110,
+   389,
+   284,
+   491
   ],
   "panel": "12-2",
   "personnes": 3
@@ -1765,10 +1771,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"C'est ça le soutien offensif ! Vous êtes les gardes du corps ",
   "rect": [
-   451,
-   515,
-   826,
-   600
+   447,
+   389,
+   621,
+   557
   ],
   "panel": "12-3",
   "personnes": 1
@@ -1780,13 +1786,14 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Tiens Lyssandro !\"",
   "rect": [
-   40,
-   622,
-   410,
-   657
+   32,
+   624,
+   419,
+   658
   ],
   "panel": "12-4",
-  "personnes": 2
+  "personnes": 2,
+  "dessin": "recouvre une zone dense du dessin (81%)"
  },
  {
   "page": 12,
@@ -1795,10 +1802,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Super passe Ayden, j'ai même pas eu besoin de ralentir !\"",
   "rect": [
-   40,
-   760,
-   410,
-   812
+   179,
+   748,
+   419,
+   797
   ],
   "panel": "12-4",
   "personnes": 2
@@ -1810,10 +1817,10 @@
   "speaker": null,
   "text": "SPLATCH !",
   "rect": [
-   625,
-   634,
-   721,
-   670
+   802,
+   614,
+   898,
+   650
   ],
   "panel": "-",
   "personnes": 31
@@ -1825,10 +1832,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Oups… Il glisse comme un savon ce ballon !\"",
   "rect": [
-   451,
-   772,
-   826,
-   807
+   551,
+   670,
+   698,
+   730
   ],
   "panel": "12-5",
   "personnes": 4
@@ -1857,8 +1864,8 @@
   "rect": [
    32,
    894,
-   528,
-   925
+   392,
+   938
   ],
   "panel": "12-6",
   "personnes": 8
@@ -1871,9 +1878,9 @@
   "text": "Flavien: \"Lyssandro a raison, Léon. À l'entraînement, on est là pour e",
   "rect": [
    32,
-   931,
-   528,
-   975
+   944,
+   392,
+   988
   ],
   "panel": "12-6",
   "personnes": 8
@@ -1886,9 +1893,9 @@
   "text": "NOVEMBRE 2026 — DEUXIÈME TOURNOI. AU FIL DES SEMAINES, L'ÉQUIPE CONNAÎ",
   "rect": [
    42,
-   33,
+   39,
    822,
-   62
+   68
   ],
   "panel": "13-1",
   "personnes": 0
@@ -1900,10 +1907,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Soutien à droite ! Vas-y Ayden !\"",
   "rect": [
-   41,
-   346,
-   411,
-   381
+   245,
+   469,
+   421,
+   515
   ],
   "panel": "13-2",
   "personnes": 4
@@ -1915,10 +1922,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Pour toi Léon, va marquer !\"",
   "rect": [
-   41,
-   472,
-   411,
-   507
+   105,
+   521,
+   347,
+   553
   ],
   "panel": "13-2",
   "personnes": 4
@@ -1930,9 +1937,9 @@
   "speaker": "Léon",
   "text": "Léon: \"Oui ! Quand on gagne comme ça, j'adore le rugby !\"",
   "rect": [
-   448,
-   342,
-   687,
+   450,
+   340,
+   689,
    386
   ],
   "panel": "13-3",
@@ -1945,10 +1952,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Super collectif les garçons ! Gardez cette tête-là pour le ma",
   "rect": [
-   448,
-   506,
-   834,
-   550
+   453,
+   502,
+   828,
+   554
   ],
   "panel": "13-3",
   "personnes": 5
@@ -1960,10 +1967,10 @@
   "speaker": "adversaire-rumilly",
   "text": "Adversaire de Rumilly: \"On les bloque chez eux les Rouge et Noir !\"",
   "rect": [
-   41,
-   669,
-   411,
-   700
+   262,
+   573,
+   410,
+   658
   ],
   "panel": "13-4",
   "personnes": 5
@@ -1975,10 +1982,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Mais plus vite ! Passez-moi le ballon !\"",
   "rect": [
-   453,
-   573,
-   828,
-   601
+   458,
+   711,
+   605,
+   779
   ],
   "panel": "13-5",
   "personnes": 7
@@ -1990,10 +1997,10 @@
   "speaker": null,
   "text": "PAF !",
   "rect": [
-   616,
-   705,
-   712,
-   741
+   762,
+   831,
+   858,
+   867
   ],
   "panel": "-",
   "personnes": 42
@@ -2005,9 +2012,9 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   716,
+   848,
    711,
-   812,
+   944,
    747
   ],
   "panel": "-",
@@ -2020,10 +2027,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Essai pour Rumilly ! Fin du match !\"",
   "rect": [
-   183,
-   1084,
-   681,
-   1119
+   84,
+   1138,
+   389,
+   1190
   ],
   "panel": "13-6",
   "personnes": 22
@@ -2035,9 +2042,9 @@
   "speaker": "Milo",
   "text": "Milo: \"Désolé les gars… Le ballon est arrivé super vite et j'ai glissé",
   "rect": [
-   183,
+   217,
    33,
-   680,
+   714,
    85
   ],
   "panel": "14-1",
@@ -2050,10 +2057,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"C'est ma faute aussi Milo, ma passe était trop haute…\"",
   "rect": [
-   247,
-   183,
-   617,
-   215
+   288,
+   177,
+   785,
+   212
   ],
   "panel": "14-1",
   "personnes": 14
@@ -2065,10 +2072,10 @@
   "speaker": "Léon",
   "text": "Léon: \"OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on",
   "rect": [
-   247,
-   306,
-   617,
-   363
+   74,
+   294,
+   571,
+   362
   ],
   "panel": "14-2",
   "personnes": 9
@@ -2080,9 +2087,9 @@
   "speaker": "Milo",
   "text": "Milo: \"Je l'ai pas fait exprès Léon…\"",
   "rect": [
-   31,
+   137,
    644,
-   272,
+   312,
    672
   ],
   "panel": "14-3",
@@ -2155,9 +2162,9 @@
   "speaker": "Léon",
   "text": "Léon: \"Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…\"",
   "rect": [
-   183,
+   74,
    1043,
-   680,
+   571,
    1077
   ],
   "panel": "14-5",
@@ -2170,10 +2177,10 @@
   "speaker": null,
   "text": "LE SOIR MÊME, À SAINT-SULPICE…",
   "rect": [
-   29,
    32,
-   426,
-   60
+   54,
+   494,
+   83
   ],
   "panel": "15-1",
   "personnes": 4
@@ -2185,10 +2192,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Vanessa et Alice préparent le dîner à côté. Toi et moi, on a",
   "rect": [
-   438,
-   32,
-   835,
-   74
+   23,
+   84,
+   330,
+   152
   ],
   "panel": "15-1",
   "personnes": 4
@@ -2200,10 +2207,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lys",
   "rect": [
-   29,
-   417,
-   218,
-   474
+   23,
+   283,
+   199,
+   385
   ],
   "panel": "15-2",
   "personnes": 2
@@ -2215,10 +2222,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Pourquoi tu t'es mis dans une colère pareille, mon grand ? D",
   "rect": [
-   230,
-   417,
-   419,
-   487
+   23,
+   397,
+   199,
+   485
   ],
   "panel": "15-2",
   "personnes": 2
@@ -2245,13 +2252,14 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Écoute-moi bien, Léon, et garde cette phrase dans ta tête po",
   "rect": [
-   271,
-   786,
-   634,
-   828
+   473,
+   772,
+   836,
+   809
   ],
   "panel": "15-4",
-  "personnes": 8
+  "personnes": 8,
+  "cache": "corps/peau 50% de 14501px²"
  },
  {
   "page": 15,
@@ -2260,9 +2268,9 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Quand on gagne tout comme en U6, on croit qu'on est parfait ",
   "rect": [
-   232,
-   854,
-   732,
+   251,
+   845,
+   614,
    891
   ],
   "panel": "15-4",
@@ -2275,10 +2283,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça ve",
   "rect": [
-   29,
-   914,
-   426,
-   951
+   23,
+   912,
+   330,
+   980
   ],
   "panel": "15-5",
   "personnes": 4
@@ -2290,10 +2298,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Exactement champion : on apprend de ses échecs, c'est ce qui",
   "rect": [
-   438,
-   914,
-   835,
-   960
+   535,
+   1104,
+   842,
+   1192
   ],
   "panel": "15-5",
   "personnes": 4
@@ -2305,14 +2313,13 @@
   "speaker": "Léon",
   "text": "Léon: \"Oui Papa. Dès demain.\"",
   "rect": [
-   336,
-   1170,
-   836,
-   1198
+   23,
+   1146,
+   330,
+   1181
   ],
   "panel": "15-5",
-  "personnes": 4,
-  "cache": "corps/peau 44% de 5414px² ; corps/peau 100% de 817px²"
+  "personnes": 4
  },
  {
   "page": 16,
@@ -2337,9 +2344,9 @@
   "text": "Ayden: \"Je suis content que tu dises ça, Léon ! Justement, j'en parlai",
   "rect": [
    453,
-   151,
+   175,
    823,
-   253
+   255
   ],
   "panel": "16-2",
   "personnes": 2
@@ -2351,10 +2358,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Il a raison Baptiste. Mercredi au stade, je vais m'excuser aupr",
   "rect": [
-   33,
-   278,
-   426,
-   306
+   324,
+   276,
+   683,
+   325
   ],
   "panel": "16-3",
   "personnes": 6
@@ -2366,10 +2373,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m",
   "rect": [
-   438,
-   278,
-   831,
-   324
+   26,
+   390,
+   396,
+   440
   ],
   "panel": "16-3",
   "personnes": 6
@@ -2382,9 +2389,9 @@
   "text": "Milo: \"C'est vrai, tu nous crieras plus dessus si le ballon glisse ?\"",
   "rect": [
    33,
-   558,
-   426,
-   586
+   592,
+   392,
+   620
   ],
   "panel": "16-4",
   "personnes": 8
@@ -2396,7 +2403,7 @@
   "speaker": "Léon",
   "text": "Léon: \"Promis juré ! Même s'il est plein de boue !\"",
   "rect": [
-   438,
+   472,
    558,
    831,
    586
@@ -2411,10 +2418,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires ",
   "rect": [
-   33,
-   904,
-   426,
-   932
+   472,
+   758,
+   831,
+   786
   ],
   "panel": "16-4",
   "personnes": 8
@@ -2426,14 +2433,13 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS",
   "rect": [
-   438,
-   904,
-   831,
-   932
+   33,
+   906,
+   392,
+   934
   ],
   "panel": "16-4",
-  "personnes": 8,
-  "cache": "corps/peau 44% de 1726px²"
+  "personnes": 8
  },
  {
   "page": 16,
@@ -2442,10 +2448,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Eh bien Flavien, je crois que ta discussion à la maison a fai",
   "rect": [
-   336,
-   958,
-   831,
-   1007
+   260,
+   956,
+   563,
+   1008
   ],
   "panel": "16-5",
   "personnes": 8
@@ -2457,10 +2463,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le ",
   "rect": [
-   33,
-   1145,
-   528,
-   1194
+   368,
+   1010,
+   671,
+   1074
   ],
   "panel": "16-5",
   "personnes": 8
@@ -2487,10 +2493,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Brrr ! Regardez, on dirait des dragons qui crachent de la fum",
   "rect": [
-   29,
-   289,
-   418,
-   338
+   28,
+   287,
+   269,
+   355
   ],
   "panel": "17-2",
   "personnes": 0
@@ -2502,10 +2508,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Avec mes gants de sport et mon bonnet, j'ai même pas froid !\"",
   "rect": [
-   29,
-   344,
-   418,
-   393
+   267,
+   287,
+   415,
+   372
   ],
   "panel": "17-2",
   "personnes": 0
@@ -2517,10 +2523,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Et surtout… vous avez vu le calendrier ? On est au mois de DÉC",
   "rect": [
-   453,
-   437,
-   828,
-   489
+   455,
+   287,
+   830,
+   336
   ],
   "panel": "17-3",
   "personnes": 3
@@ -2592,10 +2598,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Attention les guerriers ! Plaquer, ce n'est pas se jeter n'i",
   "rect": [
-   250,
+   279,
    914,
-   613,
-   999
+   585,
+   1016
   ],
   "panel": "17-5",
   "personnes": 7
@@ -2607,10 +2613,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Règle numéro 1 : on baisse son centre de gravité, on vise ent",
   "rect": [
-   107,
-   38,
-   345,
-   123
+   42,
+   32,
+   410,
+   78
   ],
   "panel": "18-1",
   "personnes": 1
@@ -2622,10 +2628,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux br",
   "rect": [
-   592,
-   100,
-   830,
-   170
+   678,
+   32,
+   824,
+   200
   ],
   "panel": "18-2",
   "personnes": 1
@@ -2637,10 +2643,10 @@
   "speaker": null,
   "text": "BOUM !",
   "rect": [
-   638,
-   32,
-   734,
-   68
+   566,
+   -17,
+   662,
+   19
   ],
   "panel": "-",
   "personnes": 13
@@ -2652,10 +2658,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\"",
   "rect": [
-   446,
-   176,
-   830,
-   207
+   460,
+   164,
+   633,
+   232
   ],
   "panel": "18-2",
   "personnes": 1
@@ -2667,13 +2673,14 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Même le boudin il a pas bougé d'un centimètre !\"",
   "rect": [
-   446,
-   213,
-   830,
-   244
+   672,
+   200,
+   818,
+   240
   ],
   "panel": "18-2",
-  "personnes": 1
+  "personnes": 1,
+  "dessin": "recouvre une zone dense du dessin (95%)"
  },
  {
   "page": 18,
@@ -2682,10 +2689,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Je le plaque en bas, Milo !\"",
   "rect": [
-   248,
-   298,
-   616,
-   333
+   340,
+   268,
+   642,
+   303
   ],
   "panel": "18-3",
   "personnes": 5
@@ -2697,10 +2704,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Et moi je récupère le ballon dès qu'il est au sol !\"",
   "rect": [
-   244,
-   412,
-   619,
-   447
+   100,
+   304,
+   594,
+   338
   ],
   "panel": "18-3",
   "personnes": 5
@@ -2712,10 +2719,10 @@
   "speaker": null,
   "text": "PAF !",
   "rect": [
-   346,
-   635,
-   442,
-   671
+   352,
+   626,
+   448,
+   662
   ],
   "panel": "-",
   "personnes": 13
@@ -2772,10 +2779,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaq",
   "rect": [
-   248,
-   105,
-   616,
-   190
+   30,
+   93,
+   524,
+   161
   ],
   "panel": "19-1",
   "personnes": 5
@@ -2787,9 +2794,9 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Oui ! Alors que si on est deux juste derrière lui en soutien o",
   "rect": [
-   185,
+   220,
    489,
-   679,
+   714,
    541
   ],
   "panel": "19-1",
@@ -2803,9 +2810,9 @@
   "text": "Lyssandro: \"Et en défense, c'est pareil : mon papa dit que si un seul ",
   "rect": [
    34,
-   731,
-   220,
-   833
+   563,
+   418,
+   603
   ],
   "panel": "19-2",
   "personnes": 3
@@ -2817,10 +2824,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Le mur Rouge, Bleu et Blanc du RCM !\"",
   "rect": [
-   232,
-   731,
-   418,
-   777
+   34,
+   687,
+   207,
+   727
   ],
   "panel": "19-2",
   "personnes": 3
@@ -2832,10 +2839,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Regardez-les tous les cinq là-bas… Ils n'attendent même plus ",
   "rect": [
-   450,
-   603,
-   825,
-   671
+   472,
+   561,
+   710,
+   663
   ],
   "panel": "19-3",
   "personnes": 1
@@ -2847,10 +2854,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Ce week-end, on affronte Le Môle et Thonon. Ce sont deux équi",
   "rect": [
-   34,
-   1068,
-   220,
-   1148
+   60,
+   1090,
+   233,
+   1192
   ],
   "panel": "19-4",
   "personnes": 2
@@ -2862,10 +2869,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Ce sera le vrai test pour voir si Léon garde son calme quand",
   "rect": [
-   232,
-   1068,
-   418,
-   1148
+   240,
+   1090,
+   413,
+   1192
   ],
   "panel": "19-4",
   "personnes": 2
@@ -2893,9 +2900,9 @@
   "text": "TCHAC !",
   "rect": [
    46,
-   36,
+   -12,
    142,
-   72
+   24
   ],
   "panel": "-",
   "personnes": 8
@@ -2908,9 +2915,9 @@
   "text": "FIIIIT !",
   "rect": [
    246,
-   31,
+   -17,
    342,
-   67
+   19
   ],
   "panel": "-",
   "personnes": 8
@@ -2922,10 +2929,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Sortie en touche ! Ballon rendu au RCM et joué comme une pén",
   "rect": [
-   221,
-   401,
-   641,
-   453
+   379,
+   35,
+   682,
+   87
   ],
   "panel": "20-1",
   "personnes": 6
@@ -2938,9 +2945,9 @@
   "text": "Lyssandro: \"Vite, ils ne sont pas replacés ! À toi Léon !\"",
   "rect": [
    34,
-   502,
-   418,
-   536
+   550,
+   220,
+   599
   ],
   "panel": "20-2",
   "personnes": 0
@@ -2952,10 +2959,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Merci Lyssandro ! ESSAI !\"",
   "rect": [
-   34,
-   542,
+   232,
+   550,
    418,
-   576
+   599
   ],
   "panel": "20-2",
   "personnes": 0
@@ -2968,9 +2975,9 @@
   "text": "VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) !",
   "rect": [
    34,
-   582,
-   418,
-   614
+   605,
+   272,
+   652
   ],
   "panel": "20-2",
   "personnes": 0
@@ -2983,9 +2990,9 @@
   "text": "Kilian: \"Dernière action le RCM ! Construisez, ne vous précipitez pas ",
   "rect": [
    450,
-   608,
+   500,
    825,
-   660
+   552
   ],
   "panel": "20-3",
   "personnes": 0
@@ -2997,9 +3004,9 @@
   "speaker": null,
   "text": "BOUM !",
   "rect": [
-   56,
+   -76,
    831,
-   152,
+   20,
    867
   ],
   "panel": "-",
@@ -3012,10 +3019,10 @@
   "speaker": null,
   "text": "FIIIIIIIT !",
   "rect": [
-   246,
-   826,
-   342,
-   862
+   318,
+   838,
+   414,
+   874
   ],
   "panel": "-",
   "personnes": 8
@@ -3028,9 +3035,9 @@
   "text": "Arbitre: \"En-avant ! Et c'est la fin du match ! Victoire de Thonon !\"",
   "rect": [
    42,
-   984,
+   900,
    410,
-   1036
+   952
   ],
   "panel": "20-4",
   "personnes": 0
@@ -3042,10 +3049,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, pardon",
   "rect": [
-   450,
-   889,
-   825,
-   941
+   456,
+   835,
+   602,
+   937
   ],
   "panel": "20-5",
   "personnes": 2
@@ -3057,10 +3064,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquoi o",
   "rect": [
-   185,
-   56,
-   679,
-   105
+   50,
+   32,
+   438,
+   81
   ],
   "panel": "21-1",
   "personnes": 4
@@ -3072,10 +3079,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai fait",
   "rect": [
-   140,
-   692,
-   313,
-   810
+   42,
+   512,
+   410,
+   558
   ],
   "panel": "21-2",
   "personnes": 2
@@ -3089,8 +3096,8 @@
   "rect": [
    446,
    502,
-   632,
-   530
+   684,
+   531
   ],
   "panel": "21-3",
   "personnes": 5
@@ -3102,10 +3109,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Bien sûr que non ! On a perdu d'un point contre Thonon, mais on",
   "rect": [
-   644,
-   502,
+   446,
+   639,
    830,
-   558
+   679
   ],
   "panel": "21-3",
   "personnes": 5
@@ -3117,10 +3124,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Et moi j'aurais dû être encore plus près de Milo en soutien of",
   "rect": [
-   446,
-   726,
-   632,
-   763
+   657,
+   709,
+   830,
+   759
   ],
   "panel": "21-3",
   "personnes": 5
@@ -3132,10 +3139,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Trop bien dit Léon ! Au prochain tournoi, cette action-là,",
   "rect": [
-   644,
-   726,
+   592,
+   765,
    830,
-   763
+   805
   ],
   "panel": "21-3",
   "personnes": 5
@@ -3147,10 +3154,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Bravo Thonon ! Vos plaquages étaient super rapides !\"",
   "rect": [
-   42,
-   840,
-   410,
-   892
+   39,
+   1002,
+   185,
+   1087
   ],
   "panel": "21-4",
   "personnes": 3
@@ -3162,10 +3169,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Tu as vu ça, Flavien ? Ils viennent de perdre le match sur un",
   "rect": [
-   446,
-   1004,
-   830,
-   1068
+   442,
+   834,
+   817,
+   894
   ],
   "panel": "21-5",
   "personnes": 3
@@ -3177,10 +3184,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Il a compris, Julien. Il a enfin compris ce que veut dire gr",
   "rect": [
-   446,
-   1074,
-   684,
-   1138
+   442,
+   1014,
+   817,
+   1066
   ],
   "panel": "21-5",
   "personnes": 3
@@ -3192,10 +3199,10 @@
   "speaker": null,
   "text": "MARS — LE SOLEIL DU PRINTEMPS REVIENT SUR LA SAVOIE. FINIS LES BONNETS",
   "rect": [
-   43,
    35,
-   821,
-   64
+   35,
+   657,
+   63
   ],
   "panel": "22-1",
   "personnes": 14
@@ -3208,9 +3215,9 @@
   "text": "Flavien: \"Les garçons, depuis septembre, on a connu des victoires, des",
   "rect": [
    42,
-   512,
+   500,
    410,
-   569
+   557
   ],
   "panel": "22-2",
   "personnes": 8
@@ -3225,7 +3232,7 @@
    446,
    502,
    632,
-   579
+   563
   ],
   "panel": "22-3",
   "personnes": 6
@@ -3240,7 +3247,7 @@
    644,
    502,
    830,
-   567
+   552
   ],
   "panel": "22-3",
   "personnes": 6
@@ -3253,12 +3260,13 @@
   "text": "Nolann: \"Et qu'en défense en ligne, on doit avancer tous les cinq comm",
   "rect": [
    446,
-   771,
-   831,
-   813
+   671,
+   619,
+   721
   ],
   "panel": "22-3",
-  "personnes": 6
+  "personnes": 6,
+  "dessin": "recouvre une zone dense du dessin (76%)"
  },
  {
   "page": 22,
@@ -3267,10 +3275,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Eh bien montrez-nous ça sur le terrain ! Les 4 équipes de 5 e",
   "rect": [
-   42,
-   834,
-   410,
-   883
+   186,
+   858,
+   332,
+   960
   ],
   "panel": "22-4",
   "personnes": 4
@@ -3282,10 +3290,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Attention les yeux, la machine du RCM est lancée !\"",
   "rect": [
-   450,
-   870,
-   825,
-   922
+   519,
+   834,
+   757,
+   886
   ],
   "panel": "22-5",
   "personnes": 5
@@ -3297,10 +3305,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Mains en W !\"",
   "rect": [
-   267,
-   114,
-   597,
-   149
+   177,
+   60,
+   482,
+   95
   ],
   "panel": "23-1",
   "personnes": 5
@@ -3312,10 +3320,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Toujours en arrière, zéro en-avant !\"",
   "rect": [
-   267,
-   246,
-   597,
-   281
+   177,
+   216,
+   507,
+   251
   ],
   "panel": "23-1",
   "personnes": 5
@@ -3327,10 +3335,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Et au bout, toute la ligne a touché le ballon !\"",
   "rect": [
-   183,
-   282,
-   681,
-   317
+   208,
+   258,
+   569,
+   293
   ],
   "panel": "23-1",
   "personnes": 5
@@ -3342,10 +3350,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léo",
   "rect": [
-   247,
-   341,
-   617,
-   393
+   471,
+   353,
+   776,
+   405
   ],
   "panel": "23-2",
   "personnes": 5
@@ -3357,10 +3365,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Je te vois Ayden, on est alignés ! Personne n'est hors-jeu !\"",
   "rect": [
-   245,
-   503,
-   620,
-   555
+   469,
+   497,
+   830,
+   549
   ],
   "panel": "23-2",
   "personnes": 5
@@ -3372,10 +3380,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Je suis pris aux jambes ! Soutien !\"",
   "rect": [
-   247,
-   623,
-   617,
-   658
+   57,
+   773,
+   362,
+   807
   ],
   "panel": "23-3",
   "personnes": 8
@@ -3387,10 +3395,10 @@
   "speaker": "Léon & Milo",
   "text": "Léon & Milo: \"ON EST LÀ DANS TON DOS !\"",
   "rect": [
-   245,
-   839,
-   620,
-   874
+   497,
+   767,
+   802,
+   796
   ],
   "panel": "23-3",
   "personnes": 8
@@ -3402,10 +3410,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Plus un cri de colère, plus une tête baissée… Regardez la vit",
   "rect": [
-   183,
-   1007,
-   681,
-   1059
+   50,
+   905,
+   420,
+   957
   ],
   "panel": "23-4",
   "personnes": 1
@@ -3417,10 +3425,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Ils sont prêts pour le dernier grand tournoi de la saison.\"",
   "rect": [
-   245,
-   1097,
-   620,
-   1149
+   207,
+   995,
+   512,
+   1047
   ],
   "panel": "23-4",
   "personnes": 1
@@ -3432,10 +3440,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Demain c'est le grand tournoi de fin de saison ! Baptiste vien",
   "rect": [
-   252,
-   33,
-   613,
-   135
+   32,
+   39,
+   337,
+   141
   ],
   "panel": "24-1",
   "personnes": 4
@@ -3448,9 +3456,9 @@
   "text": "Léon: \"Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus beau ",
   "rect": [
    37,
-   429,
-   827,
-   464
+   327,
+   535,
+   379
   ],
   "panel": "24-1",
   "personnes": 4
@@ -3462,10 +3470,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"On fait encore dix passes avec Léon et on vient mettre la ta",
   "rect": [
-   40,
-   506,
-   410,
-   558
+   31,
+   662,
+   219,
+   726
   ],
   "panel": "24-2",
   "personnes": 3
@@ -3477,10 +3485,10 @@
   "speaker": "Voix d'Alice hors-champ",
   "text": "Alice: \"Dépêchez-vous, j'ai trop faim moi !\"",
   "rect": [
-   89,
-   674,
-   361,
-   704
+   231,
+   662,
+   419,
+   709
   ],
   "panel": "24-2",
   "personnes": 3
@@ -3492,9 +3500,9 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la sais",
   "rect": [
-   552,
+   505,
    512,
-   727,
+   680,
    630
   ],
   "panel": "24-3",
@@ -3507,10 +3515,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Promis Papa ! En septembre, je voulais juste la coupe pour dire",
   "rect": [
-   452,
-   728,
-   827,
-   813
+   576,
+   632,
+   751,
+   784
   ],
   "panel": "24-3",
   "personnes": 4
@@ -3522,10 +3530,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Et si jamais on fait une erreur… on saura quoi faire : apprendr",
   "rect": [
-   31,
-   836,
-   272,
-   896
+   86,
+   852,
+   261,
+   954
   ],
   "panel": "24-4",
   "personnes": 5
@@ -3537,10 +3545,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Je suis tellement fier de toi, mon fils.\"",
   "rect": [
-   31,
-   902,
-   272,
-   948
+   157,
+   1062,
+   304,
+   1130
   ],
   "panel": "24-4",
   "personnes": 5
@@ -3552,9 +3560,9 @@
   "speaker": null,
   "text": "DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOIE SONT AU ",
   "rect": [
-   242,
+   24,
    36,
-   622,
+   328,
    78
   ],
   "panel": "25-1",
@@ -3567,10 +3575,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Cinq matchs dans la journée pour aller chercher le bouclier d",
   "rect": [
-   242,
-   138,
-   622,
-   206
+   337,
+   36,
+   835,
+   88
   ],
   "panel": "25-1",
   "personnes": 0
@@ -3582,10 +3590,10 @@
   "speaker": "Léon",
   "text": "Léon: \"J'ai fixé ! Vas-y Ayden !\"",
   "rect": [
-   40,
-   512,
-   410,
-   547
+   31,
+   502,
+   272,
+   536
   ],
   "panel": "25-2",
   "personnes": 10
@@ -3597,10 +3605,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"ESSAI ! Super passe Léon !\"",
   "rect": [
-   40,
+   31,
    752,
-   410,
-   787
+   219,
+   801
   ],
   "panel": "25-2",
   "personnes": 10
@@ -3612,9 +3620,9 @@
   "speaker": null,
   "text": "MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) !",
   "rect": [
-   40,
-   788,
-   410,
+   231,
+   752,
+   419,
    814
   ],
   "panel": "25-2",
@@ -3629,8 +3637,8 @@
   "rect": [
    446,
    502,
-   834,
-   536
+   634,
+   551
   ],
   "panel": "25-3",
   "personnes": 6
@@ -3642,10 +3650,10 @@
   "speaker": "Milo",
   "text": "Milo: \"Et deuxième victoire pour nous !\"",
   "rect": [
-   446,
-   662,
+   646,
+   502,
    834,
-   696
+   551
   ],
   "panel": "25-3",
   "personnes": 6
@@ -3657,10 +3665,10 @@
   "speaker": null,
   "text": "MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) !",
   "rect": [
-   446,
-   762,
+   659,
+   677,
    834,
-   809
+   739
   ],
   "panel": "25-3",
   "personnes": 6
@@ -3672,10 +3680,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Deux sur deux ! Et on n'a presque pas fait d'en-avant !\"",
   "rect": [
-   178,
-   836,
-   419,
-   878
+   40,
+   834,
+   410,
+   865
   ],
   "panel": "25-4",
   "personnes": 8
@@ -3687,10 +3695,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Très bien les garçons ! Maintenant attention : le troisième m",
   "rect": [
-   31,
-   1088,
-   272,
-   1141
+   274,
+   864,
+   421,
+   952
   ],
   "panel": "25-4",
   "personnes": 8
@@ -3703,9 +3711,9 @@
   "text": "Léon: \"Rumilly… C'est contre eux que je m'étais énervé en novembre. Au",
   "rect": [
    452,
-   882,
+   834,
    827,
-   950
+   902
   ],
   "panel": "25-5",
   "personnes": 1
@@ -3717,10 +3725,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Attention, il est costaud lui, venez m'aider au milieu !\"",
   "rect": [
-   252,
-   118,
-   613,
-   170
+   497,
+   220,
+   802,
+   272
   ],
   "panel": "26-1",
   "personnes": 3
@@ -3732,10 +3740,10 @@
   "speaker": null,
   "text": "FIIIIIIIT !",
   "rect": [
-   346,
-   371,
-   442,
-   407
+   202,
+   227,
+   298,
+   263
   ],
   "panel": "-",
   "personnes": 21
@@ -3747,10 +3755,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Essai de Rumilly ! Victoire de Rumilly 3 essais à 2 !\"",
   "rect": [
-   183,
-   531,
-   681,
-   566
+   296,
+   543,
+   601,
+   595
   ],
   "panel": "26-2",
   "personnes": 0
@@ -3792,10 +3800,10 @@
   "speaker": "Julien",
   "text": "Julien: \"Mais non, rien n'est fini ! Regardez le tableau : Rumilly a p",
   "rect": [
-   452,
+   444,
    675,
-   827,
-   717
+   591,
+   860
   ],
   "panel": "26-4",
   "personnes": 4
@@ -3807,10 +3815,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Ça veut dire que si vous gagnez vos deux derniers matchs cont",
   "rect": [
-   519,
-   861,
-   760,
-   907
+   650,
+   675,
+   825,
+   791
   ],
   "panel": "26-4",
   "personnes": 4
@@ -3822,10 +3830,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Les gars, écoutez ! On a perdu contre Rumilly, alors il faut co",
   "rect": [
-   40,
-   1102,
-   410,
-   1162
+   37,
+   934,
+   407,
+   971
   ],
   "panel": "26-5",
   "personnes": 5
@@ -3837,10 +3845,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense e",
   "rect": [
-   445,
-   929,
-   831,
-   993
+   450,
+   927,
+   825,
+   991
   ],
   "panel": "26-6",
   "personnes": 1
@@ -3852,13 +3860,14 @@
   "speaker": "Julien",
   "text": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, e",
   "rect": [
-   445,
-   1053,
-   632,
-   1148
+   671,
+   993,
+   818,
+   1128
   ],
   "panel": "26-6",
-  "personnes": 1
+  "personnes": 1,
+  "dessin": "recouvre une zone dense du dessin (81%)"
  },
  {
   "page": 26,
@@ -3867,9 +3876,9 @@
   "speaker": "Léon",
   "text": "Léon: \"Compris ! Merci Rumilly de nous avoir montré notre erreur : con",
   "rect": [
-   644,
-   1053,
-   831,
+   444,
+   1047,
+   591,
    1163
   ],
   "panel": "26-6",
@@ -3882,10 +3891,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Ayden l'a pris au centre ! Ne vous resserrez pas, gardez vos po",
   "rect": [
-   183,
-   134,
-   681,
-   186
+   97,
+   32,
+   402,
+   100
   ],
   "panel": "27-1",
   "personnes": 1
@@ -3897,10 +3906,10 @@
   "speaker": "Porteur d'Aix-les-Bains",
   "text": "Porteur d'Aix-les-Bains: \"Mince, tout est fermé sur les côtés !\"",
   "rect": [
-   245,
-   188,
-   620,
-   240
+   411,
+   32,
+   716,
+   84
   ],
   "panel": "27-1",
   "personnes": 1
@@ -3912,10 +3921,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"ESSAI ! Ça marche ! Quand on corrige notre erreur du match",
   "rect": [
-   137,
-   534,
-   312,
-   636
+   29,
+   630,
+   176,
+   748
   ],
   "panel": "27-2",
   "personnes": 2
@@ -3942,10 +3951,10 @@
   "speaker": "Haut-parleur du stade",
   "text": "Haut-parleur: \"DERNIER MATCH DÉCISIF POUR LE TROPHÉE U8 : RUGBY CLUB M",
   "rect": [
-   471,
+   476,
    504,
-   809,
-   562
+   814,
+   546
   ],
   "panel": "27-3",
   "personnes": 0
@@ -3958,9 +3967,9 @@
   "text": "Milo: \"C'est Montmélian… Ceux qui nous avaient battus au tout premier ",
   "rect": [
    40,
-   913,
+   841,
    410,
-   965
+   893
   ],
   "panel": "27-4",
   "personnes": 2
@@ -3972,10 +3981,10 @@
   "speaker": "Nolann",
   "text": "Nolann: \"Ils ont toujours l'air aussi costauds dans leurs maillots Ver",
   "rect": [
-   137,
-   973,
-   312,
-   1058
+   177,
+   1087,
+   418,
+   1155
   ],
   "panel": "27-4",
   "personnes": 2
@@ -3988,9 +3997,9 @@
   "text": "Léon: \"Au premier tournoi, on était cinq joueurs qui couraient chacun ",
   "rect": [
    452,
-   847,
+   841,
    827,
-   927
+   921
   ],
   "panel": "27-5",
   "personnes": 15
@@ -4002,9 +4011,9 @@
   "speaker": "Tous les cinq",
   "text": "Tous les cinq: \"ALLEZ LE RCM !!\"",
   "rect": [
-   519,
+   503,
    1075,
-   760,
+   744,
    1110
   ],
   "panel": "27-5",
@@ -4017,9 +4026,9 @@
   "speaker": null,
   "text": "UN COMBAT MAGNIFIQUE À 5 CONTRE 5 ! CHAQUE ÉQUIPE REND COUP POUR COUP ",
   "rect": [
-   40,
+   47,
    217,
-   410,
+   417,
    259
   ],
   "panel": "28-1",
@@ -4032,10 +4041,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Attention les garçons, c'est maintenant ! Montez en ligne co",
   "rect": [
-   452,
-   145,
-   827,
-   197
+   463,
+   31,
+   838,
+   83
   ],
   "panel": "28-2",
   "personnes": 0
@@ -4047,10 +4056,10 @@
   "speaker": null,
   "text": "BAM !",
   "rect": [
-   346,
-   291,
-   442,
-   327
+   394,
+   183,
+   490,
+   219
   ],
   "panel": "-",
   "personnes": 47
@@ -4062,14 +4071,13 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Je l'ai en bas ! Gardez la ligne sur l'extérieur !\"",
   "rect": [
-   247,
-   393,
-   617,
-   421
+   30,
+   519,
+   335,
+   571
   ],
   "panel": "28-3",
-  "personnes": 18,
-  "cache": "corps/peau 43% de 900px²"
+  "personnes": 18
  },
  {
   "page": 28,
@@ -4078,9 +4086,9 @@
   "speaker": null,
   "text": "TCHAC !",
   "rect": [
-   56,
+   -76,
    626,
-   152,
+   20,
    662
   ],
   "panel": "-",
@@ -4093,10 +4101,10 @@
   "speaker": null,
   "text": "FIIIIT !",
   "rect": [
-   246,
-   621,
-   342,
-   657
+   282,
+   729,
+   378,
+   765
   ],
   "panel": "-",
   "personnes": 47
@@ -4108,10 +4116,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Touche ! Ballon rendu au RCM et joué comme une pénalité ! Il",
   "rect": [
-   40,
-   791,
-   410,
-   843
+   31,
+   731,
+   178,
+   849
   ],
   "panel": "28-4",
   "personnes": 2
@@ -4123,10 +4131,10 @@
   "speaker": "Ayden",
   "text": "Ayden: \"Dernière balle les gars ! En place le soutien !\"",
   "rect": [
-   452,
-   755,
-   827,
-   790
+   442,
+   623,
+   817,
+   658
   ],
   "panel": "28-5",
   "personnes": 0
@@ -4153,10 +4161,10 @@
   "speaker": "Défenseur de Montmélian",
   "text": "Défenseur de Montmélian: \"Bloquez Léon ! Il va essayer de passer tout ",
   "rect": [
-   40,
-   85,
-   410,
-   137
+   97,
+   67,
+   338,
+   135
   ],
   "panel": "29-1",
   "personnes": 3
@@ -4168,10 +4176,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Ils croient que je vais forcer tout seul… Mais j'ai appris de m",
   "rect": [
-   452,
-   319,
-   827,
-   368
+   592,
+   325,
+   833,
+   371
   ],
   "panel": "29-2",
   "personnes": 2
@@ -4183,10 +4191,10 @@
   "speaker": "Léon",
   "text": "Léon: \"POUR VOUS LES COPAINS ! SOUTIEN !\"",
   "rect": [
-   267,
-   482,
-   597,
-   517
+   31,
+   418,
+   426,
+   452
   ],
   "panel": "29-3",
   "personnes": 9
@@ -4198,10 +4206,10 @@
   "speaker": "Lyssandro",
   "text": "Lyssandro: \"Je l'ai Léon ! Tiens Milo, va marquer !\"",
   "rect": [
-   267,
-   632,
-   597,
-   684
+   438,
+   418,
+   833,
+   452
   ],
   "panel": "29-3",
   "personnes": 9
@@ -4214,9 +4222,9 @@
   "text": "Nolann: \"VAS-Y MILO, IL N'Y A PLUS PERSONNE !\"",
   "rect": [
    252,
-   686,
+   458,
    613,
-   721
+   492
   ],
   "panel": "29-3",
   "personnes": 9
@@ -4228,10 +4236,10 @@
   "speaker": null,
   "text": "ESSAAAAI !",
   "rect": [
-   96,
-   876,
-   192,
-   912
+   559,
+   822,
+   655,
+   858
   ],
   "panel": "-",
   "personnes": 19
@@ -4243,10 +4251,10 @@
   "speaker": null,
   "text": "FIIIIIIIIIIIT !",
   "rect": [
-   346,
-   876,
-   442,
-   912
+   655,
+   786,
+   751,
+   822
   ],
   "panel": "-",
   "personnes": 19
@@ -4258,10 +4266,10 @@
   "speaker": "Arbitre",
   "text": "Arbitre: \"Essai validé ! 1 point de plus ! Le Rugby Club Motterain bat",
   "rect": [
-   247,
-   1104,
-   617,
-   1156
+   177,
+   786,
+   538,
+   838
   ],
   "panel": "29-4",
   "personnes": 5
@@ -4273,10 +4281,10 @@
   "speaker": "Capitaine de Montmélian",
   "text": "Capitaine de Montmélian: \"Bravo le RCM… Votre dernière passe en soutie",
   "rect": [
-   34,
-   57,
-   418,
-   106
+   212,
+   55,
+   385,
+   135
   ],
   "panel": "30-1",
   "personnes": 6
@@ -4288,10 +4296,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Merci ! C'est grâce à vous au premier tournoi qu'on a appris à ",
   "rect": [
-   34,
-   256,
-   272,
-   320
+   157,
+   253,
+   330,
+   338
   ],
   "panel": "30-1",
   "personnes": 6
@@ -4305,8 +4313,8 @@
   "rect": [
    446,
    57,
-   830,
-   117
+   632,
+   145
   ],
   "panel": "30-2",
   "personnes": 6
@@ -4318,10 +4326,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Parce qu'après Rumilly, au lieu de pleurer ou de s'énerver, on ",
   "rect": [
-   446,
-   267,
-   684,
-   327
+   644,
+   57,
+   830,
+   131
   ],
   "panel": "30-2",
   "personnes": 6
@@ -4334,9 +4342,9 @@
   "text": "Lyssandro: \"VIVE LES U8 DU RCM !\"",
   "rect": [
    446,
-   333,
-   830,
-   365
+   265,
+   619,
+   311
   ],
   "panel": "30-2",
   "personnes": 6
@@ -4348,10 +4356,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Quelle saison… De la pluie d'automne à la neige de décembre j",
   "rect": [
-   42,
-   638,
-   410,
-   706
+   140,
+   626,
+   378,
+   711
   ],
   "panel": "30-3",
   "personnes": 3
@@ -4363,10 +4371,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lundi à",
   "rect": [
-   450,
-   542,
-   825,
-   610
+   512,
+   446,
+   658,
+   556
   ],
   "panel": "30-4",
   "personnes": 1
@@ -4378,13 +4386,14 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande quel est le ",
   "rect": [
-   519,
-   614,
-   757,
-   699
+   512,
+   572,
+   685,
+   674
   ],
   "panel": "30-4",
-  "personnes": 1
+  "personnes": 1,
+  "dessin": "recouvre une zone dense du dessin (85%)"
  },
  {
   "page": 30,
@@ -4393,10 +4402,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Je leur dirai ta phrase, Papa : on apprend toujours de ses éche",
   "rect": [
-   248,
-   736,
-   616,
-   788
+   461,
+   730,
+   829,
+   782
   ],
   "panel": "30-5",
   "personnes": 7
