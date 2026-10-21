@@ -429,9 +429,8 @@ def resoudre_panel(elements, personnes, panel, hints=None, priors=None, presence
             proches = sorted(proches,
                              key=lambda q: dist_box(prior, zone_tete(q))
                              + (0 if q['tete'] is not None else 45))
-            if proches and (len(dans) <= 3 or
-                            (proches[0]['tete'] is not None
-                             and dist_box(prior, zone_tete(proches[0])) <= 60)):
+            d0 = dist_box(prior, zone_tete(proches[0])) if proches else 1e9
+            if proches and (len(dans) <= 3 or d0 <= 90):
                 res[e['idx']] = proches[0]
             else:
                 res[e['idx']] = None

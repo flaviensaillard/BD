@@ -57,7 +57,7 @@ def audit_page(page, report):
     pm = PS.masque_peau(bgr)
     n, lab, stats, _ = cv2.connectedComponentsWithStats(pm, 8)
     blobs = [(int(stats[i, 4]), int(stats[i, 0]), int(stats[i, 1]), int(stats[i, 2]), int(stats[i, 3]))
-             for i in range(1, n) if stats[i, 4] >= 400]
+             for i in range(1, n) if stats[i, 4] >= 450]
     manifest = json.loads((ROOT / 'Planches-dessin/validation/lettrage-manifest.json')
                           .read_text())['pages'][str(page)]
     scen = PS.parse_scenario()
@@ -132,22 +132,47 @@ def audit_page(page, report):
                                       f'{spk} à {d_spk:.0f}px)')
                     issue['dist_locuteur'] = round(d_spk)
 
+        # --- contrôle 1bis : la queue traverse-t-elle une autre bulle ?
+        if el[0] == 'bulle' and 'queue_tip' in mf and 'queue_base' in mf:
+            bx, by = mf['queue_base']
+            tx, ty = mf['queue_tip']
+            for j, o in enumerate(manifest):
+                if j == i or o['kind'] == 'ono' or not o.get('rect'):
+                    continue
+                r = o['rect']
+                dedans = 0
+                for t in range(21):
+                    t /= 20
+                    px, py = bx + (tx - bx) * t, by + (ty - by) * t
+                    if r[0] <= px <= r[2] and r[1] <= py <= r[3]:
+                        dedans += 1
+                if dedans / 21 > 0.10:
+                    issue['traverse'] = f'traverse la bulle élément {j} ({100 * dedans / 21:.0f}% du segment)'
+
         # --- contrôle 2 : la bulle cache un personnage ?
         rx1, ry1, rx2, ry2 = rect
         cache = []
-        for p in in_panel:
+        visages = list(in_panel)
+        for p in in_panel:            # orphelins « forme de tête » = visage probable
+            if p['tete'] is None and p.get('corps'):
+                bx, by, bw, bh = p['corps']
+                if 22 <= bw <= 90 and 22 <= bh <= 90 and bw * bh >= 500 \
+                        and 0.55 <= bw / bh <= 1.8:
+                    visages.append(p)
+        for p in visages:
             x, y, w, h = PS.zone_tete(p)
             gx1, gy1, gx2, gy2 = x - 0.15 * w, y - 0.15 * h, x + 1.15 * w, y + 1.15 * h
             ix = max(0, min(rx2, gx2) - max(rx1, gx1))
             iy = max(0, min(ry2, gy2) - max(ry1, gy1))
             if ix * iy > 0.10 * w * h and ix * iy > 60:
-                cache.append(f'tête {ids[in_panel.index(p)]} ({min(100, ix * iy / (w * h) * 100):.0f}%)')
+                idp = ids[in_panel.index(p)] if p in in_panel else 'visage probable'
+                cache.append(f'tête {idp} ({min(100, ix * iy / (w * h) * 100):.0f}%)')
         for (a, bx, by, bw, bh) in blobs:
             if not (bx < px2 and bx + bw > px1 and by < py2 and by + bh > py1):
                 continue
             ix = max(0, min(rx2, bx + bw) - max(rx1, bx))
             iy = max(0, min(ry2, by + bh) - max(ry1, by))
-            if ix * iy >= 0.35 * a and a >= 600:
+            if ix * iy >= 0.35 * a and a >= 450:
                 cache.append(f'corps/peau {min(100, ix * iy / a * 100):.0f}% de {a}px²')
         if cache:
             issue['cache'] = ' ; '.join(cache[:3])
@@ -209,7 +234,7 @@ if __name__ == '__main__':
         return ''
 
     tot = {}
-    n_cache = n_tete = 0
+    n_cache = n_tete = n_traverse = 0
     vignettes = {}
     for r in report:
         v = verdict(r)
@@ -219,7 +244,10 @@ if __name__ == '__main__':
             n_cache += 1
             if 'tête' in r['cache']:
                 n_tete += 1
-        if 'cache' in r or v in ('MAUVAIS LOCUTEUR', 'QUEUE DANS LE VIDE', 'IMPRÉCIS'):
+        if 'traverse' in r:
+            n_traverse += 1
+        if ('cache' in r or 'traverse' in r
+                or v in ('MAUVAIS LOCUTEUR', 'QUEUE DANS LE VIDE', 'IMPRÉCIS')):
             vignettes.setdefault((r['page'], r['panel']), []).append(r)
 
     lines = [
@@ -242,7 +270,8 @@ if __name__ == '__main__':
         if tot.get(k):
             lines.append(f'- {k} : **{tot[k]}**')
     lines += [
-        f'- Éléments recouvrant un personnage : **{n_cache}** (dont têtes couvertes : {n_tete})',
+        f'- Éléments recouvrant un personnage : **{n_cache}** (dont têtes/visages couverts : {n_tete})',
+        f'- Queues traversant une autre bulle : **{n_traverse}**',
         f'- Vignettes avec au moins un défaut : **{len(vignettes)}** sur 153', '',
         '## Détail par planche et vignette', '',
     ]
@@ -263,7 +292,7 @@ if __name__ == '__main__':
             if not q:
                 q = '—'
             rows.append(f'| {panel} | {r["el"]} | {r["kind"]} | {r["speaker"] or "—"} '
-                        f'| {q} | {r.get("cache", "—")} |')
+                        f'| {q} | {r.get("cache", "—")} {r.get("traverse", "")} |')
     if rows:
         lines += rows + ['']
     lines.append('\\* Non vérifiable : locuteur non détecté (ancre estimée) ou identité non '
@@ -271,5 +300,6 @@ if __name__ == '__main__':
     (ROOT / 'Planches-dessin/validation/AUDIT-BULLES.md').write_text('\n'.join(lines))
     print('bulles/pensées :', sum(tot.values()), '| ' +
           ' '.join(f'{k}={v}' for k, v in tot.items()),
-          f'| recouvrements={n_cache} (têtes={n_tete}) | vignettes en défaut={len(vignettes)}/153')
+          f'| recouvrements={n_cache} (têtes={n_tete}) | traversées={n_traverse} '
+          f'| vignettes en défaut={len(vignettes)}/153')
     print('JSON :', out)

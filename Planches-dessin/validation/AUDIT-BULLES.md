@@ -15,61 +15,65 @@ d'Ayden (page 14, vignette 3) manquait.
 ## Bilan
 
 - Bulles et pensées auditées : **242** (réplique d'Ayden p14 v3 réintégrée)
-- OK : **150**
-- IMPRÉCIS : **4**
-- non vérifiable : **88**
-- Éléments recouvrant un personnage : **6** (dont têtes couvertes : 0)
+- OK : **145**
+- OK large : **1**
+- IMPRÉCIS : **9**
+- non vérifiable : **87**
+- Éléments recouvrant un personnage : **3** (dont têtes/visages couverts : 0)
+- Queues traversant une autre bulle : **0**
 - Vignettes avec au moins un défaut : **8** sur 153
 
 ## Détail par planche et vignette
 
-### Planche 04 — 04-nouvelles-regles
+### Planche 02 — 02-matin-de-rentree
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 4-3 | 5 | bulle | Flavien | — | corps/peau 56% de 676px² |
+| 2-2 | 3 | bulle | Léon | IMPRÉCIS | corps/peau 44% de 743px²  |
+
+### Planche 03 — 03-les-20-guerriers-du-rcm
+
+| Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
+|---|---|---|---|---|---|
+| 3-3 | 5 | bulle | Milo | IMPRÉCIS | —  |
+
+### Planche 05 — 05-premiers-sifflets
+
+| Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
+|---|---|---|---|---|---|
+| 5-2 | 4 | bulle | Léon | IMPRÉCIS | —  |
 
 ### Planche 10 — 10-ruminations
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 10-2 | 3 | bulle | Léon | IMPRÉCIS | — |
-
-### Planche 11 — 11-diagnostic-sous-la-pluie
-
-| Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
-|---|---|---|---|---|---|
-| 11-3 | 5 | bulle | Nolann | non vérifiable* | corps/peau 52% de 810px² |
-
-### Planche 12 — 12-travail-dans-la-boue
-
-| Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
-|---|---|---|---|---|---|
-| 12-6 | 10 | bulle | Flavien | — | corps/peau 100% de 977px² |
+| 10-2 | 3 | bulle | Léon | IMPRÉCIS | —  |
 
 ### Planche 15 — 15-la-lecon-d-un-pere
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 15-5 | 9 | bulle | Léon | IMPRÉCIS | corps/peau 49% de 5414px² ; corps/peau 100% de 817px² |
+| 15-5 | 9 | bulle | Léon | IMPRÉCIS | —  |
 
 ### Planche 16 — 16-le-pardon-des-copains
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 16-4 | 6 | bulle | Nolann | — | corps/peau 74% de 4539px² |
+| 16-4 | 6 | bulle | Nolann | — | corps/peau 47% de 4160px²  |
+| 16-4 | 7 | bulle | Lyssandro | — | corps/peau 44% de 1726px²  |
 
 ### Planche 21 — 21-la-plus-belle-des-victoires-de-leon
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 21-3 | 4 | bulle | Ayden | IMPRÉCIS | — |
-| 21-3 | 5 | bulle | Lyssandro | IMPRÉCIS | — |
+| 21-3 | 4 | bulle | Ayden | IMPRÉCIS | —  |
+| 21-3 | 5 | bulle | Lyssandro | IMPRÉCIS | —  |
 
 ### Planche 22 — 22-le-soleil-de-mars-sur-la-motte-servolex
 
 | Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |
 |---|---|---|---|---|---|
-| 22-3 | 4 | bulle | Nolann | — | corps/peau 64% de 1511px² |
+| 22-3 | 2 | bulle | Léon | IMPRÉCIS | —  |
+| 22-3 | 3 | bulle | Lyssandro | IMPRÉCIS | —  |
 
 \* Non vérifiable : locuteur non détecté (ancre estimée) ou identité non isolable dans la vignette. Détail chiffré dans `AUDIT-BULLES.json`.

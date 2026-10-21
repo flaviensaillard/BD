@@ -123,6 +123,19 @@ def _face_overlap(rect, faces):
     return worst
 
 
+def _peau_overlap(rect, zones):
+    """Recouvrement d'une zone de peau (x, y, w, h, aire_pixels) : fraction
+    de la zone réellement couverte (aire du composant, comme l'audit)."""
+    x1, y1, x2, y2 = rect
+    box = (x1, y1, x2 - x1, y2 - y1)
+    worst = 0.0
+    for f in zones:
+        inter = _inter(box, f)
+        if inter:
+            worst = max(worst, inter / f[4])
+    return worst
+
+
 def _placed_overlap(rect, placed):
     x1, y1, x2, y2 = rect
     box = (x1, y1, x2 - x1, y2 - y1)
@@ -198,7 +211,7 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                     rect = (x, y, x + w, y + h)
                     if _face_overlap(rect, faces) > 0.015:
                         continue
-                    if _face_overlap(rect, bodies) > 0.30:
+                    if _peau_overlap(rect, bodies) > 0.30:
                         continue   # ne pas cacher un corps entier
                     if _placed_overlap(rect, placed) > 0.015:
                         continue
@@ -213,7 +226,9 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                     else:
                         score = (rect[1] - py1) / 25 + abs((rect[0] + rect[2]) / 2 - (px1 + px2) / 2) / 40
                     score += abs(rect[1] - prefer[1]) / 500
-                    score += _face_overlap(rect, bodies) * 25   # ne pas cacher les corps
+                    score += _peau_overlap(rect, bodies) * 25   # ne pas cacher les corps
+                    if speaker is not None:
+                        score += 60 * _blocage_vers(rect, speaker, placed)
                     cands.append((score, rect, size))
         if cands:
             cands.sort(key=lambda c: c[0])
@@ -227,10 +242,12 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                 for y in range(int(lo_y), int(hi_y - h) + 1, 12):
                     rect = (x, y, x + w, y + h)
                     pen = (_face_overlap(rect, faces) * 3000
-                           + _face_overlap(rect, bodies) * 1200
+                           + _peau_overlap(rect, bodies) * 1200
                            + _placed_overlap(rect, placed) * 2600
                            + (1 - _inside_ratio(rect, panel)) * 500
                            + (0 if _order_ok(rect, prev) else 400))
+                    if speaker is not None:
+                        pen += 2500 * _blocage_vers(rect, speaker, placed)
                     if speaker is not None:
                         pen += _dist_bord(rect, speaker) / 80
                     if soft is None or pen < soft[0]:
@@ -243,6 +260,21 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
         return soft[1], soft[2], True
     # ultime recours : rectangle préféré
     return tuple(prefer), smin, True
+
+
+def _blocage_vers(rect, spk, placed):
+    """Fraction du trajet rect->locuteur passant à travers des éléments posés."""
+    if spk is None or not placed:
+        return 0.0
+    ax = min(max(spk[0], rect[0]), rect[2])
+    ay = min(max(spk[1], rect[1]), rect[3])
+    dedans = 0
+    for t in range(21):
+        t /= 20
+        px, py = ax + (spk[0] - ax) * t, ay + (spk[1] - ay) * t
+        if any(r[0] <= px <= r[2] and r[1] <= py <= r[3] for r in placed):
+            dedans += 1
+    return dedans / 21
 
 
 def _eviter_visages_lignes(x, y, w, h, faces, y_max, tol=0.015):
@@ -267,8 +299,9 @@ def reparer_panel(panel, els, faces, placed_other, bodies=()):
     col = (pw - 24) // 2
     y_max = py2 + 10
     meilleur = None
-    for tol in (0.015, 0.08):   # 2e échelon : vignettes très pleines
-      for size in range(13, 7, -1):
+    for tol in (0.015, 0.05, 0.08):   # 0.05 reste sous le seuil d'audit
+                                     # (10% de la boîte brute de tête)
+      for size in range(13, 7, -1):   # plancher 8 : textfit ne rend pas sous 8
           for arr in ('stack', '2col', 'full+2col', '2col+full'):
               if arr == 'stack' or n == 1:
                   rows = [[i] for i in range(n)]
@@ -332,9 +365,21 @@ def reparer_panel(panel, els, faces, placed_other, bodies=()):
                   continue
               if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
                   continue
-              corps = sum(_face_overlap(r, bodies) for r in rects)
-              if meilleur is None or corps < meilleur[0]:
-                  meilleur = (corps, rects, size)
+              corps = sum(_peau_overlap(r, bodies) for r in rects)
+              if any(_peau_overlap(r, bodies) > 0.55 for r in rects):
+                  continue          # pas de bulle entièrement sur un corps
+              # queues bloquées : le trajet bulle -> locuteur ne doit traverser
+              # ni les autres bulles de l'agencement, ni les éléments posés
+              bloc = 0.0
+              for k in range(n):
+                  spk = els[k].get('speaker')
+                  if spk is None:
+                      continue
+                  obst = [rects[m] for m in range(n) if m != k] + list(placed_other)
+                  bloc += _blocage_vers(rects[k], spk, obst)
+              score = corps + 5 * bloc
+              if meilleur is None or score < meilleur[0]:
+                  meilleur = (score, rects, size)
     if meilleur is not None:
         return meilleur[1], meilleur[2]
     return None

@@ -106,6 +106,33 @@ def main():
     if overlap_ok:
         print('  OK : aucune bulle ne se chevauche.')
 
+    print('--- Contrôle queues : aucune traversée d\'autre bulle ---')
+    n_trav = 0
+    for page in sorted(PAGES, key=int):
+        els = manifest['pages'][str(page)]
+        for i, el in enumerate(els):
+            if el.get('kind') != 'bulle' or 'queue_tip' not in el or 'queue_base' not in el:
+                continue
+            bx, by = el['queue_base']
+            tx, ty = el['queue_tip']
+            for j, o in enumerate(els):
+                if j == i or o.get('kind') == 'ono' or not o.get('rect'):
+                    continue
+                r = o['rect']
+                dedans = 0
+                for t in range(21):
+                    t /= 20
+                    px, py = bx + (tx - bx) * t, by + (ty - by) * t
+                    if r[0] <= px <= r[2] and r[1] <= py <= r[3]:
+                        dedans += 1
+                if dedans / 21 > 0.10:
+                    n_trav += 1
+                    print(f'  ATTENTION page {page} élément {i} : la queue traverse '
+                          f'l\'élément {j} ({100 * dedans / 21:.0f}% du segment)')
+    if n_trav == 0:
+        print('  OK : aucune queue ne traverse une autre bulle.')
+    errors += n_trav
+
     print('--- Contrôle queues de bulles (audit v2) ---')
     audit = json.loads((ROOT / 'Planches-dessin/validation/AUDIT-BULLES.json').read_text())
     bloquant = 0

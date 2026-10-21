@@ -30,6 +30,10 @@
      421,
      292
     ],
+    "queue_base": [
+     421,
+     124
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -54,6 +58,10 @@
     "queue_tip": [
      214,
      522
+    ],
+    "queue_base": [
+     214,
+     489
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -81,15 +89,19 @@
     "kind": "bulle",
     "rect": [
      23,
-     1089,
+     945,
      267,
-     1141
+     997
     ],
     "panel": 1,
     "size": 14,
     "queue_tip": [
      108,
      920
+    ],
+    "queue_base": [
+     108,
+     951
     ],
     "locuteur": {
      "id": "chatain",
@@ -116,6 +128,10 @@
      342,
      950
     ],
+    "queue_base": [
+     342,
+     909
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -141,6 +157,10 @@
      533,
      976
     ],
+    "queue_base": [
+     534,
+     1007
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -165,6 +185,10 @@
     "queue_tip": [
      706,
      986
+    ],
+    "queue_base": [
+     706,
+     1095
     ],
     "locuteur": {
      "id": "chatain",
@@ -195,14 +219,18 @@
     "rect": [
      447,
      91,
-     831,
-     119
+     633,
+     131
     ],
     "panel": 1,
-    "size": 8,
+    "size": 9,
     "queue_tip": [
      579,
      176
+    ],
+    "queue_base": [
+     579,
+     125
     ],
     "locuteur": {
      "id": "Flavien",
@@ -218,27 +246,31 @@
    {
     "kind": "voix",
     "rect": [
-     447,
-     125,
-     633,
-     160
+     645,
+     91,
+     831,
+     129
     ],
     "panel": 1,
-    "size": 8
+    "size": 9
    },
    {
     "kind": "bulle",
     "rect": [
-     645,
-     125,
+     447,
+     203,
      831,
-     171
+     232
     ],
     "panel": 1,
-    "size": 8,
+    "size": 9,
     "queue_tip": [
      718,
-     77
+     136
+    ],
+    "queue_base": [
+     718,
+     209
     ],
     "locuteur": {
      "id": "chatain",
@@ -265,6 +297,10 @@
      248,
      489
     ],
+    "queue_base": [
+     244,
+     474
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -290,6 +326,10 @@
      370,
      508
     ],
+    "queue_base": [
+     370,
+     522
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": null,
@@ -309,6 +349,10 @@
     "queue_tip": [
      676,
      480
+    ],
+    "queue_base": [
+     686,
+     465
     ],
     "locuteur": {
      "id": "?",
@@ -334,6 +378,10 @@
     "queue_tip": [
      744,
      496
+    ],
+    "queue_base": [
+     744,
+     516
     ],
     "locuteur": {
      "id": "?",
@@ -370,6 +418,10 @@
     "queue_tip": [
      504,
      945
+    ],
+    "queue_base": [
+     504,
+     966
     ],
     "locuteur": {
      "id": "Flavien",
@@ -409,6 +461,10 @@
      532,
      118
     ],
+    "queue_base": [
+     532,
+     93
+    ],
     "locuteur": {
      "id": "adversaire-vert",
      "tete": [
@@ -433,6 +489,10 @@
     "queue_tip": [
      584,
      142
+    ],
+    "queue_base": [
+     584,
+     233
     ],
     "locuteur": {
      "id": "chatain",
@@ -459,6 +519,10 @@
      765,
      141
     ],
+    "queue_base": [
+     765,
+     239
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": [
@@ -484,6 +548,10 @@
      152,
      535
     ],
+    "queue_base": [
+     202,
+     529
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -506,8 +574,12 @@
     "panel": 2,
     "size": 14,
     "queue_tip": [
-     147,
-     390
+     397,
+     539
+    ],
+    "queue_base": [
+     426,
+     557
     ],
     "locuteur": {
      "id": "Flavien",
@@ -545,6 +617,10 @@
      638,
      510
     ],
+    "queue_base": [
+     664,
+     509
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -565,6 +641,10 @@
      93,
      804
     ],
+    "queue_base": [
+     132,
+     801
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -574,16 +654,20 @@
    {
     "kind": "bulle",
     "rect": [
-     187,
-     955,
-     677,
-     990
+     249,
+     913,
+     614,
+     965
     ],
     "panel": 4,
     "size": 14,
     "queue_tip": [
-     180,
-     900
+     185,
+     897
+    ],
+    "queue_base": [
+     255,
+     949
     ],
     "locuteur": {
      "id": "chatain",
@@ -612,6 +696,10 @@
      214,
      88
     ],
+    "queue_base": [
+     214,
+     115
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": [
@@ -637,6 +725,10 @@
      380,
      263
     ],
+    "queue_base": [
+     381,
+     273
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -657,6 +749,10 @@
      752,
      136
     ],
+    "queue_base": [
+     752,
+     98
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -671,16 +767,20 @@
    {
     "kind": "bulle",
     "rect": [
-     26,
-     509,
-     419,
-     546
+     12,
+     567,
+     189,
+     676
     ],
     "panel": 2,
-    "size": 8,
+    "size": 11,
     "queue_tip": [
-     70,
-     557
+     62,
+     567
+    ],
+    "queue_base": [
+     39,
+     573
     ],
     "locuteur": {
      "id": "Kilian",
@@ -691,16 +791,20 @@
    {
     "kind": "bulle",
     "rect": [
-     26,
-     630,
-     216,
-     658
+     189,
+     495,
+     433,
+     544
     ],
     "panel": 2,
-    "size": 8,
+    "size": 13,
     "queue_tip": [
-     140,
-     476
+     147,
+     472
+    ],
+    "queue_base": [
+     195,
+     502
     ],
     "locuteur": {
      "id": "Flavien",
@@ -716,16 +820,20 @@
    {
     "kind": "bulle",
     "rect": [
-     228,
-     630,
-     418,
-     658
+     256,
+     627,
+     433,
+     659
     ],
     "panel": 2,
-    "size": 8,
+    "size": 12,
     "queue_tip": [
      288,
      586
+    ],
+    "queue_base": [
+     288,
+     633
     ],
     "locuteur": {
      "id": "chatain",
@@ -752,6 +860,10 @@
      494,
      566
     ],
+    "queue_base": [
+     505,
+     568
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -772,6 +884,10 @@
      814,
      530
     ],
+    "queue_base": [
+     827,
+     531
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -791,6 +907,10 @@
     "queue_tip": [
      236,
      783
+    ],
+    "queue_base": [
+     252,
+     719
     ],
     "locuteur": {
      "id": "chatain",
@@ -817,6 +937,10 @@
      464,
      798
     ],
+    "queue_base": [
+     464,
+     873
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -841,6 +965,10 @@
     "queue_tip": [
      432,
      1065
+    ],
+    "queue_base": [
+     432,
+     995
     ],
     "locuteur": {
      "id": "chatain",
@@ -880,6 +1008,10 @@
      340,
      197
     ],
+    "queue_base": [
+     340,
+     138
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -901,35 +1033,48 @@
     "kind": "bulle",
     "rect": [
      257,
-     629,
+     623,
      433,
-     697
+     691
     ],
     "panel": 1,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
-     78,
-     723
+     66,
+     700
+    ],
+    "queue_base": [
+     263,
+     681
     ],
     "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      48,
+      687,
+      20,
+      28
+     ],
+     "src": "resolu"
     }
    },
    {
     "kind": "bulle",
     "rect": [
      190,
-     797,
+     791,
      433,
-     846
+     843
     ],
     "panel": 1,
     "size": 13,
     "queue_tip": [
-     338,
-     594
+     379,
+     696
+    ],
+    "queue_base": [
+     427,
+     827
     ],
     "locuteur": {
      "id": "Kilian",
@@ -967,6 +1112,10 @@
      719,
      624
     ],
+    "queue_base": [
+     719,
+     653
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": [
@@ -981,16 +1130,20 @@
    {
     "kind": "bulle",
     "rect": [
-     257,
-     1026,
-     433,
-     1161
+     27,
+     860,
+     419,
+     913
     ],
     "panel": 3,
-    "size": 14,
+    "size": 10,
     "queue_tip": [
-     186,
-     968
+     180,
+     956
+    ],
+    "queue_base": [
+     180,
+     907
     ],
     "locuteur": {
      "id": "Julien",
@@ -1006,16 +1159,20 @@
    {
     "kind": "bulle",
     "rect": [
-     13,
-     1116,
-     256,
-     1180
+     27,
+     1117,
+     419,
+     1159
     ],
     "panel": 3,
-    "size": 13,
+    "size": 10,
     "queue_tip": [
-     325,
-     981
+     328,
+     982
+    ],
+    "queue_base": [
+     328,
+     1123
     ],
     "locuteur": {
      "id": "?",
@@ -1031,16 +1188,20 @@
    {
     "kind": "bulle",
     "rect": [
-     608,
-     1014,
-     851,
-     1099
+     445,
+     860,
+     635,
+     906
     ],
     "panel": 4,
-    "size": 14,
+    "size": 8,
     "queue_tip": [
      616,
-     961
+     945
+    ],
+    "queue_base": [
+     616,
+     900
     ],
     "locuteur": {
      "id": "chatain",
@@ -1056,21 +1217,30 @@
    {
     "kind": "bulle",
     "rect": [
-     608,
-     1098,
-     851,
-     1166
+     647,
+     860,
+     837,
+     897
     ],
     "panel": 4,
-    "size": 14,
+    "size": 8,
     "queue_tip": [
-     810,
-     1023
+     716,
+     958
+    ],
+    "queue_base": [
+     716,
+     891
     ],
     "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      694,
+      945,
+      43,
+      43
+     ],
+     "src": "resolu"
     }
    }
   ],
@@ -1100,6 +1270,10 @@
      574,
      398
     ],
+    "queue_base": [
+     574,
+     440
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -1122,8 +1296,12 @@
     "panel": 1,
     "size": 14,
     "queue_tip": [
-     154,
-     676
+     228,
+     617
+    ],
+    "queue_base": [
+     304,
+     557
     ],
     "locuteur": {
      "id": "Flavien",
@@ -1139,16 +1317,20 @@
    {
     "kind": "bulle",
     "rect": [
-     99,
-     609,
-     344,
-     644
+     10,
+     621,
+     255,
+     656
     ],
     "panel": 1,
     "size": 14,
     "queue_tip": [
-     343,
-     653
+     338,
+     660
+    ],
+    "queue_base": [
+     249,
+     650
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -1186,6 +1368,10 @@
      555,
      596
     ],
+    "queue_base": [
+     555,
+     578
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -1210,6 +1396,10 @@
     "queue_tip": [
      770,
      619
+    ],
+    "queue_base": [
+     770,
+     651
     ],
     "locuteur": {
      "id": "chatain",
@@ -1247,6 +1437,10 @@
      54,
      958
     ],
+    "queue_base": [
+     54,
+     915
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -1272,6 +1466,10 @@
      392,
      982
     ],
+    "queue_base": [
+     241,
+     1055
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -1294,13 +1492,22 @@
     "panel": 4,
     "size": 14,
     "queue_tip": [
-     493,
-     1028
+     511,
+     1016
+    ],
+    "queue_base": [
+     535,
+     932
     ],
     "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      499,
+      1013,
+      20,
+      22
+     ],
+     "src": "resolu"
     }
    },
    {
@@ -1316,6 +1523,10 @@
     "queue_tip": [
      637,
      973
+    ],
+    "queue_base": [
+     637,
+     1009
     ],
     "locuteur": {
      "id": "Julien",
@@ -1344,6 +1555,10 @@
      304,
      153
     ],
+    "queue_base": [
+     304,
+     222
+    ],
     "locuteur": {
      "id": "adversaire-vert",
      "tete": [
@@ -1368,6 +1583,10 @@
     "queue_tip": [
      481,
      149
+    ],
+    "queue_base": [
+     483,
+     174
     ],
     "locuteur": {
      "id": "Nolann",
@@ -1416,6 +1635,10 @@
      62,
      564
     ],
+    "queue_base": [
+     39,
+     563
+    ],
     "locuteur": {
      "id": "Arbitre",
      "tete": null,
@@ -1435,6 +1658,10 @@
     "queue_tip": [
      297,
      447
+    ],
+    "queue_base": [
+     297,
+     465
     ],
     "locuteur": {
      "id": "chatain",
@@ -1472,6 +1699,10 @@
      494,
      559
     ],
+    "queue_base": [
+     504,
+     557
+    ],
     "locuteur": {
      "id": "Arbitre",
      "tete": null,
@@ -1491,6 +1722,10 @@
     "queue_tip": [
      651,
      446
+    ],
+    "queue_base": [
+     681,
+     457
     ],
     "locuteur": {
      "id": "Nolann",
@@ -1516,6 +1751,10 @@
     "queue_tip": [
      215,
      663
+    ],
+    "queue_base": [
+     215,
+     694
     ],
     "locuteur": {
      "id": "chatain",
@@ -1554,15 +1793,19 @@
     "kind": "bulle",
     "rect": [
      431,
-     742,
-     806,
-     777
+     724,
+     675,
+     776
     ],
     "panel": 4,
     "size": 14,
     "queue_tip": [
      624,
      781
+    ],
+    "queue_base": [
+     624,
+     770
     ],
     "locuteur": {
      "id": "?",
@@ -1589,6 +1832,10 @@
      70,
      987
     ],
+    "queue_base": [
+     70,
+     954
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -1608,6 +1855,10 @@
     "queue_tip": [
      487,
      1003
+    ],
+    "queue_base": [
+     483,
+     1014
     ],
     "locuteur": {
      "id": "Kilian",
@@ -1630,6 +1881,10 @@
     "queue_tip": [
      171,
      43
+    ],
+    "queue_base": [
+     355,
+     62
     ],
     "locuteur": {
      "id": "adversaire-vert",
@@ -1656,6 +1911,10 @@
      116,
      614
     ],
+    "queue_base": [
+     141,
+     607
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -1680,6 +1939,10 @@
     "queue_tip": [
      350,
      721
+    ],
+    "queue_base": [
+     338,
+     709
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -1753,6 +2016,10 @@
      88,
      1078
     ],
+    "queue_base": [
+     88,
+     1116
+    ],
     "locuteur": {
      "id": "Nolann-corps",
      "tete": [
@@ -1791,6 +2058,10 @@
      70,
      167
     ],
+    "queue_base": [
+     70,
+     112
+    ],
     "locuteur": {
      "id": "Ayden",
      "tete": null,
@@ -1811,6 +2082,10 @@
      490,
      179
     ],
+    "queue_base": [
+     491,
+     191
+    ],
     "locuteur": {
      "id": "adversaire-vert",
      "tete": null,
@@ -1830,6 +2105,10 @@
     "queue_tip": [
      181,
      539
+    ],
+    "queue_base": [
+     181,
+     613
     ],
     "locuteur": {
      "id": "chatain",
@@ -1853,28 +2132,41 @@
     "panel": 2,
     "size": 14,
     "queue_tip": [
-     390,
-     542
+     484,
+     546
+    ],
+    "queue_base": [
+     484,
+     513
     ],
     "locuteur": {
-     "id": "Lyssandro",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      474,
+      540,
+      20,
+      28
+     ],
+     "src": "resolu"
     }
    },
    {
     "kind": "bulle",
     "rect": [
      631,
-     433,
+     421,
      851,
-     501
+     489
     ],
     "panel": 2,
     "size": 14,
     "queue_tip": [
      735,
      527
+    ],
+    "queue_base": [
+     735,
+     483
     ],
     "locuteur": {
      "id": "Nolann",
@@ -1890,16 +2182,20 @@
    {
     "kind": "bulle",
     "rect": [
-     352,
-     775,
-     832,
-     827
+     548,
+     757,
+     851,
+     825
     ],
     "panel": 2,
     "size": 14,
     "queue_tip": [
-     390,
-     804
+     398,
+     812
+    ],
+    "queue_base": [
+     554,
+     811
     ],
     "locuteur": {
      "id": "Léon",
@@ -1910,16 +2206,20 @@
    {
     "kind": "bulle",
     "rect": [
-     349,
-     1069,
-     851,
-     1104
+     27,
+     927,
+     426,
+     976
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      372,
-     1044
+     1028
+    ],
+    "queue_base": [
+     372,
+     970
     ],
     "locuteur": {
      "id": "chatain",
@@ -1935,16 +2235,20 @@
    {
     "kind": "bulle",
     "rect": [
-     476,
-     1105,
-     851,
-     1157
+     438,
+     927,
+     837,
+     976
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      557,
      894
+    ],
+    "queue_base": [
+     557,
+     933
     ],
     "locuteur": {
      "id": "Julien",
@@ -1973,6 +2277,10 @@
      352,
      252
     ],
+    "queue_base": [
+     352,
+     210
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -1997,6 +2305,10 @@
     "queue_tip": [
      600,
      130
+    ],
+    "queue_base": [
+     600,
+     164
     ],
     "locuteur": {
      "id": "chatain",
@@ -2023,6 +2335,10 @@
      320,
      668
     ],
+    "queue_base": [
+     320,
+     701
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2047,6 +2363,10 @@
     "queue_tip": [
      204,
      756
+    ],
+    "queue_base": [
+     204,
+     785
     ],
     "locuteur": {
      "id": "?",
@@ -2084,6 +2404,10 @@
      692,
      628
     ],
+    "queue_base": [
+     692,
+     653
+    ],
     "locuteur": {
      "id": "chatain-clair",
      "tete": [
@@ -2109,6 +2433,10 @@
      813,
      727
     ],
+    "queue_base": [
+     822,
+     733
+    ],
     "locuteur": {
      "id": "Léon",
      "tete": null,
@@ -2128,6 +2456,10 @@
     "queue_tip": [
      180,
      954
+    ],
+    "queue_base": [
+     180,
+     943
     ],
     "locuteur": {
      "id": "?",
@@ -2154,6 +2486,10 @@
      291,
      993
     ],
+    "queue_base": [
+     291,
+     1014
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -2179,6 +2515,10 @@
      612,
      966
     ],
+    "queue_base": [
+     612,
+     1098
+    ],
     "locuteur": {
      "id": "chatain-clair",
      "tete": [
@@ -2203,6 +2543,10 @@
     "queue_tip": [
      675,
      971
+    ],
+    "queue_base": [
+     689,
+     1044
     ],
     "locuteur": {
      "id": "chatain",
@@ -2242,6 +2586,10 @@
      298,
      596
     ],
+    "queue_base": [
+     298,
+     564
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": [
@@ -2266,6 +2614,10 @@
     "queue_tip": [
      369,
      718
+    ],
+    "queue_base": [
+     369,
+     702
     ],
     "locuteur": {
      "id": "?",
@@ -2292,6 +2644,10 @@
      535,
      627
     ],
+    "queue_base": [
+     614,
+     512
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2317,6 +2673,10 @@
      750,
      656
     ],
+    "queue_base": [
+     750,
+     682
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2332,20 +2692,29 @@
     "kind": "bulle",
     "rect": [
      430,
-     808,
-     805,
-     843
+     814,
+     674,
+     842
     ],
     "panel": 2,
-    "size": 14,
+    "size": 8,
     "queue_tip": [
-     823,
-     723
+     827,
+     761
+    ],
+    "queue_base": [
+     668,
+     820
     ],
     "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
+     "id": "Nolann-corps",
+     "tete": [
+      824,
+      743,
+      20,
+      30
+     ],
+     "src": "resolu"
     }
    },
    {
@@ -2361,6 +2730,10 @@
     "queue_tip": [
      187,
      934
+    ],
+    "queue_base": [
+     175,
+     965
     ],
     "locuteur": {
      "id": "Flavien",
@@ -2387,6 +2760,10 @@
      399,
      1016
     ],
+    "queue_base": [
+     250,
+     1156
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -2412,6 +2789,10 @@
      419,
      1084
     ],
+    "queue_base": [
+     436,
+     1084
+    ],
     "locuteur": {
      "id": "Nolann-corps",
      "tete": [
@@ -2427,15 +2808,19 @@
     "kind": "bulle",
     "rect": [
      430,
-     1121,
+     1133,
      805,
-     1156
+     1168
     ],
     "panel": 4,
     "size": 14,
     "queue_tip": [
      521,
-     890
+     1121
+    ],
+    "queue_base": [
+     521,
+     1139
     ],
     "locuteur": {
      "id": "?",
@@ -2464,6 +2849,10 @@
      83,
      174
     ],
+    "queue_base": [
+     126,
+     170
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -2483,6 +2872,10 @@
     "queue_tip": [
      166,
      214
+    ],
+    "queue_base": [
+     166,
+     234
     ],
     "locuteur": {
      "id": "chatain",
@@ -2509,6 +2902,10 @@
      81,
      545
     ],
+    "queue_base": [
+     90,
+     552
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": null,
@@ -2529,6 +2926,10 @@
      482,
      574
     ],
+    "queue_base": [
+     457,
+     569
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -2548,6 +2949,10 @@
     "queue_tip": [
      194,
      670
+    ],
+    "queue_base": [
+     194,
+     651
     ],
     "locuteur": {
      "id": "chatain",
@@ -2573,6 +2978,10 @@
     "queue_tip": [
      359,
      686
+    ],
+    "queue_base": [
+     359,
+     706
     ],
     "locuteur": {
      "id": "chatain",
@@ -2610,6 +3019,10 @@
      722,
      702
     ],
+    "queue_base": [
+     722,
+     778
+    ],
     "locuteur": {
      "id": "adversaire-vert",
      "tete": [
@@ -2635,6 +3048,10 @@
      238,
      1030
     ],
+    "queue_base": [
+     238,
+     979
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2650,15 +3067,19 @@
     "kind": "bulle",
     "rect": [
      486,
-     1053,
+     855,
      846,
-     1105
+     892
     ],
     "panel": 5,
-    "size": 14,
+    "size": 9,
     "queue_tip": [
+     490,
+     1002
+    ],
+    "queue_base": [
      492,
-     1018
+     886
     ],
     "locuteur": {
      "id": "Lyssandro",
@@ -2669,16 +3090,20 @@
    {
     "kind": "bulle",
     "rect": [
-     18,
-     1161,
-     378,
-     1203
+     486,
+     1053,
+     846,
+     1105
     ],
     "panel": 5,
-    "size": 10,
+    "size": 11,
     "queue_tip": [
-     368,
-     1029
+     376,
+     1023
+    ],
+    "queue_base": [
+     492,
+     1061
     ],
     "locuteur": {
      "id": "Nolann",
@@ -2708,28 +3133,37 @@
     "kind": "bulle",
     "rect": [
      17,
-     424,
-     193,
-     476
+     346,
+     387,
+     381
     ],
     "panel": 1,
     "size": 14,
     "queue_tip": [
-     67,
-     474
+     107,
+     392
+    ],
+    "queue_base": [
+     107,
+     375
     ],
     "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      93,
+      386,
+      28,
+      28
+     ],
+     "src": "resolu"
     }
    },
    {
     "kind": "bulle",
     "rect": [
-     193,
+     17,
      424,
-     435,
+     387,
      459
     ],
     "panel": 1,
@@ -2737,6 +3171,10 @@
     "queue_tip": [
      351,
      410
+    ],
+    "queue_base": [
+     351,
+     430
     ],
     "locuteur": {
      "id": "chatain",
@@ -2763,6 +3201,10 @@
      592,
      406
     ],
+    "queue_base": [
+     592,
+     380
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2788,6 +3230,10 @@
      810,
      453
     ],
+    "queue_base": [
+     810,
+     508
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -2807,6 +3253,10 @@
     "queue_tip": [
      97,
      710
+    ],
+    "queue_base": [
+     97,
+     697
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -2833,6 +3283,10 @@
      546,
      636
     ],
+    "queue_base": [
+     546,
+     717
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -2847,10 +3301,10 @@
    {
     "kind": "ono",
     "rect": [
-     724,
-     669,
-     820,
-     705
+     616,
+     705,
+     712,
+     741
     ],
     "panel": null,
     "size": null
@@ -2858,9 +3312,9 @@
    {
     "kind": "ono",
     "rect": [
-     728,
+     716,
      711,
-     824,
+     812,
      747
     ],
     "panel": null,
@@ -2879,6 +3333,10 @@
     "queue_tip": [
      81,
      938
+    ],
+    "queue_base": [
+     189,
+     927
     ],
     "locuteur": {
      "id": "?",
@@ -2907,6 +3365,10 @@
      786,
      71
     ],
+    "queue_base": [
+     786,
+     56
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": [
@@ -2929,13 +3391,22 @@
     "panel": 0,
     "size": 14,
     "queue_tip": [
-     490,
-     173
+     516,
+     224
+    ],
+    "queue_base": [
+     516,
+     206
     ],
     "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      506,
+      222,
+      20,
+      21
+     ],
+     "src": "resolu"
     }
    },
    {
@@ -2951,6 +3422,10 @@
     "queue_tip": [
      244,
      443
+    ],
+    "queue_base": [
+     244,
+     367
     ],
     "locuteur": {
      "id": "chatain",
@@ -2977,6 +3452,10 @@
      122,
      727
     ],
+    "queue_base": [
+     122,
+     664
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -3000,7 +3479,11 @@
     "size": 9,
     "queue_tip": [
      349,
-     746
+     745
+    ],
+    "queue_base": [
+     186,
+     818
     ],
     "locuteur": {
      "id": "chatain",
@@ -3027,6 +3510,10 @@
      211,
      773
     ],
+    "queue_base": [
+     264,
+     844
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -3041,16 +3528,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     756,
-     807,
-     808
+     446,
+     758,
+     633,
+     838
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      536,
      744
+    ],
+    "queue_base": [
+     536,
+     764
     ],
     "locuteur": {
      "id": "Flavien",
@@ -3066,16 +3557,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     810,
-     807,
-     862
+     645,
+     758,
+     832,
+     822
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      680,
      692
+    ],
+    "queue_base": [
+     680,
+     764
     ],
     "locuteur": {
      "id": "Julien",
@@ -3140,6 +3635,10 @@
      554,
      150
     ],
+    "queue_base": [
+     554,
+     216
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -3154,16 +3653,20 @@
    {
     "kind": "bulle",
     "rect": [
-     15,
-     385,
+     29,
      387,
-     437
+     218,
+     467
     ],
     "panel": 1,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
-     221,
-     372
+     217,
+     371
+    ],
+    "queue_base": [
+     204,
+     393
     ],
     "locuteur": {
      "id": "chatain",
@@ -3179,16 +3682,20 @@
    {
     "kind": "bulle",
     "rect": [
-     15,
-     439,
+     230,
      387,
-     488
+     419,
+     482
     ],
     "panel": 1,
     "size": 13,
     "queue_tip": [
      269,
      343
+    ],
+    "queue_base": [
+     269,
+     393
     ],
     "locuteur": {
      "id": "chatain",
@@ -3215,6 +3722,10 @@
      574,
      391
     ],
+    "queue_base": [
+     680,
+     478
+    ],
     "locuteur": {
      "id": "adversaire-vert",
      "tete": [
@@ -3240,6 +3751,10 @@
      134,
      723
     ],
+    "queue_base": [
+     257,
+     763
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -3255,15 +3770,19 @@
     "kind": "bulle",
     "rect": [
      350,
-     846,
+     852,
      850,
-     898
+     901
     ],
     "panel": 3,
     "size": 9,
     "queue_tip": [
-     534,
-     616
+     538,
+     614
+    ],
+    "queue_base": [
+     700,
+     858
     ],
     "locuteur": {
      "id": "chatain",
@@ -3279,16 +3798,20 @@
    {
     "kind": "bulle",
     "rect": [
-     29,
-     914,
-     426,
-     942
+     15,
+     996,
+     387,
+     1048
     ],
     "panel": 4,
-    "size": 8,
+    "size": 14,
     "queue_tip": [
-     476,
-     1093
+     474,
+     1095
+    ],
+    "queue_base": [
+     381,
+     1040
     ],
     "locuteur": {
      "id": "adversaire-vert",
@@ -3304,16 +3827,20 @@
    {
     "kind": "bulle",
     "rect": [
-     438,
-     914,
-     835,
-     960
+     475,
+     918,
+     850,
+     968
     ],
     "panel": 4,
-    "size": 8,
+    "size": 9,
     "queue_tip": [
      548,
      1022
+    ],
+    "queue_base": [
+     548,
+     962
     ],
     "locuteur": {
      "id": "Nolann",
@@ -3329,16 +3856,20 @@
    {
     "kind": "bulle",
     "rect": [
-     29,
-     1176,
-     836,
-     1204
+     478,
+     1170,
+     850,
+     1205
     ],
     "panel": 4,
-    "size": 8,
+    "size": 14,
     "queue_tip": [
-     360,
-     1095
+     366,
+     1092
+    ],
+    "queue_base": [
+     484,
+     1199
     ],
     "locuteur": {
      "id": "?",
@@ -3367,6 +3898,10 @@
      184,
      112
     ],
+    "queue_base": [
+     184,
+     139
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -3392,6 +3927,10 @@
      596,
      110
     ],
+    "queue_base": [
+     596,
+     133
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -3406,16 +3945,20 @@
    {
     "kind": "bulle",
     "rect": [
-     19,
-     390,
-     389,
-     442
+     33,
+     278,
+     426,
+     306
     ],
     "panel": 2,
-    "size": 14,
+    "size": 8,
     "queue_tip": [
-     481,
-     477
+     410,
+     449
+    ],
+    "queue_base": [
+     39,
+     300
     ],
     "locuteur": {
      "id": "chatain",
@@ -3431,16 +3974,20 @@
    {
     "kind": "bulle",
     "rect": [
-     475,
-     270,
-     845,
-     323
+     438,
+     278,
+     831,
+     324
     ],
     "panel": 2,
-    "size": 10,
+    "size": 8,
     "queue_tip": [
-     103,
-     445
+     82,
+     452
+    ],
+    "queue_base": [
+     444,
+     317
     ],
     "locuteur": {
      "id": "Léon",
@@ -3454,13 +4001,17 @@
      33,
      558,
      426,
-     588
+     586
     ],
     "panel": 3,
-    "size": 10,
+    "size": 8,
     "queue_tip": [
      271,
      678
+    ],
+    "queue_base": [
+     271,
+     580
     ],
     "locuteur": {
      "id": "chatain",
@@ -3479,13 +4030,17 @@
      438,
      558,
      831,
-     588
+     586
     ],
     "panel": 3,
-    "size": 10,
+    "size": 8,
     "queue_tip": [
      452,
      696
+    ],
+    "queue_base": [
+     452,
+     580
     ],
     "locuteur": {
      "id": "chatain",
@@ -3502,15 +4057,19 @@
     "kind": "bulle",
     "rect": [
      33,
-     756,
+     892,
      426,
-     786
+     920
     ],
     "panel": 3,
-    "size": 10,
+    "size": 8,
     "queue_tip": [
-     470,
-     802
+     473,
+     812
+    ],
+    "queue_base": [
+     420,
+     898
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -3527,15 +4086,19 @@
     "kind": "bulle",
     "rect": [
      438,
-     756,
+     892,
      831,
-     786
+     920
     ],
     "panel": 3,
-    "size": 10,
+    "size": 8,
     "queue_tip": [
      545,
      684
+    ],
+    "queue_base": [
+     545,
+     898
     ],
     "locuteur": {
      "id": "Flavien",
@@ -3562,6 +4125,10 @@
      75,
      1118
     ],
+    "queue_base": [
+     75,
+     1146
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": null,
@@ -3581,6 +4148,10 @@
     "queue_tip": [
      487,
      1100
+    ],
+    "queue_base": [
+     481,
+     1062
     ],
     "locuteur": {
      "id": "?",
@@ -3620,6 +4191,10 @@
      65,
      414
     ],
+    "queue_base": [
+     41,
+     409
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": null,
@@ -3640,6 +4215,10 @@
      384,
      386
     ],
+    "queue_base": [
+     396,
+     389
+    ],
     "locuteur": {
      "id": "Milo",
      "tete": null,
@@ -3659,6 +4238,10 @@
     "queue_tip": [
      563,
      361
+    ],
+    "queue_base": [
+     563,
+     377
     ],
     "locuteur": {
      "id": "chatain",
@@ -3685,6 +4268,10 @@
      73,
      662
     ],
+    "queue_base": [
+     73,
+     645
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -3704,6 +4291,10 @@
     "queue_tip": [
      504,
      624
+    ],
+    "queue_base": [
+     504,
+     603
     ],
     "locuteur": {
      "id": "?",
@@ -3730,6 +4321,10 @@
      73,
      812
     ],
+    "queue_base": [
+     73,
+     791
+    ],
     "locuteur": {
      "id": "Les 20 joueurs en chœur",
      "tete": null,
@@ -3749,6 +4344,10 @@
     "queue_tip": [
      688,
      685
+    ],
+    "queue_base": [
+     843,
+     791
     ],
     "locuteur": {
      "id": "chatain",
@@ -3774,6 +4373,10 @@
     "queue_tip": [
      398,
      1111
+    ],
+    "queue_base": [
+     398,
+     1072
     ],
     "locuteur": {
      "id": "chatain",
@@ -3802,6 +4405,10 @@
      381,
      120
     ],
+    "queue_base": [
+     374,
+     140
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -3816,16 +4423,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     98,
-     802,
-     166
+     446,
+     100,
+     632,
+     165
     ],
     "panel": 1,
-    "size": 14,
+    "size": 10,
     "queue_tip": [
      605,
      79
+    ],
+    "queue_base": [
+     605,
+     106
     ],
     "locuteur": {
      "id": "?",
@@ -3852,16 +4463,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     170,
-     802,
-     205
+     644,
+     100,
+     830,
+     142
     ],
     "panel": 1,
-    "size": 14,
+    "size": 10,
     "queue_tip": [
-     605,
-     79
+     611,
+     76
+    ],
+    "queue_base": [
+     650,
+     106
     ],
     "locuteur": {
      "id": "?",
@@ -3877,16 +4492,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     206,
-     802,
-     241
+     446,
+     171,
+     830,
+     201
     ],
     "panel": 1,
-    "size": 14,
+    "size": 10,
     "queue_tip": [
-     605,
-     79
+     671,
+     145
+    ],
+    "queue_base": [
+     715,
+     195
     ],
     "locuteur": {
      "id": "?",
@@ -3902,16 +4521,20 @@
    {
     "kind": "bulle",
     "rect": [
-     248,
-     412,
-     616,
-     447
+     34,
+     270,
+     426,
+     304
     ],
     "panel": 2,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
-     609,
-     387
+     601,
+     376
+    ],
+    "queue_base": [
+     420,
+     298
     ],
     "locuteur": {
      "id": "Julien",
@@ -3927,16 +4550,20 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     448,
-     395,
-     483
+     438,
+     270,
+     830,
+     304
     ],
     "panel": 2,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
-     483,
-     408
+     490,
+     397
+    ],
+    "queue_base": [
+     490,
+     298
     ],
     "locuteur": {
      "id": "Milo",
@@ -3969,6 +4596,10 @@
      152,
      1036
     ],
+    "queue_base": [
+     152,
+     1023
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -3994,6 +4625,10 @@
      596,
      1024
     ],
+    "queue_base": [
+     596,
+     1006
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -4018,6 +4653,10 @@
     "queue_tip": [
      596,
      1040
+    ],
+    "queue_base": [
+     596,
+     1061
     ],
     "locuteur": {
      "id": "?",
@@ -4046,6 +4685,10 @@
      340,
      241
     ],
+    "queue_base": [
+     364,
+     191
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -4070,6 +4713,10 @@
     "queue_tip": [
      651,
      266
+    ],
+    "queue_base": [
+     651,
+     327
     ],
     "locuteur": {
      "id": "Julien",
@@ -4096,6 +4743,10 @@
      156,
      650
     ],
+    "queue_base": [
+     156,
+     687
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -4120,6 +4771,10 @@
     "queue_tip": [
      314,
      662
+    ],
+    "queue_base": [
+     314,
+     693
     ],
     "locuteur": {
      "id": "chatain",
@@ -4146,6 +4801,10 @@
      482,
      724
     ],
+    "queue_base": [
+     458,
+     720
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -4155,16 +4814,20 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     982,
-     388,
-     1034
+     34,
+     978,
+     220,
+     1058
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      77,
-     1012
+     1028
+    ],
+    "queue_base": [
+     77,
+     1052
     ],
     "locuteur": {
      "id": "Kilian",
@@ -4175,16 +4838,20 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     1036,
-     388,
-     1088
+     232,
+     978,
+     418,
+     1058
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
      302,
      948
+    ],
+    "queue_base": [
+     302,
+     984
     ],
     "locuteur": {
      "id": "chatain",
@@ -4210,6 +4877,10 @@
     "queue_tip": [
      644,
      978
+    ],
+    "queue_base": [
+     644,
+     902
     ],
     "locuteur": {
      "id": "Julien",
@@ -4260,6 +4931,10 @@
      361,
      270
     ],
+    "queue_base": [
+     361,
+     305
+    ],
     "locuteur": {
      "id": "arbitre",
      "tete": [
@@ -4285,6 +4960,10 @@
      81,
      644
     ],
+    "queue_base": [
+     91,
+     642
+    ],
     "locuteur": {
      "id": "Lyssandro",
      "tete": null,
@@ -4304,6 +4983,10 @@
     "queue_tip": [
      388,
      625
+    ],
+    "queue_base": [
+     406,
+     626
     ],
     "locuteur": {
      "id": "Léon",
@@ -4335,6 +5018,10 @@
     "queue_tip": [
      482,
      659
+    ],
+    "queue_base": [
+     468,
+     658
     ],
     "locuteur": {
      "id": "Kilian",
@@ -4378,6 +5065,10 @@
      69,
      1035
     ],
+    "queue_base": [
+     46,
+     1034
+    ],
     "locuteur": {
      "id": "Arbitre",
      "tete": null,
@@ -4397,6 +5088,10 @@
     "queue_tip": [
      544,
      973
+    ],
+    "queue_base": [
+     544,
+     938
     ],
     "locuteur": {
      "id": "chatain",
@@ -4445,6 +5140,10 @@
      330,
      644
     ],
+    "queue_base": [
+     330,
+     606
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -4461,14 +5160,18 @@
     "rect": [
      446,
      502,
-     830,
-     536
+     632,
+     530
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
      600,
      598
+    ],
+    "queue_base": [
+     600,
+     524
     ],
     "locuteur": {
      "id": "Julien",
@@ -4484,16 +5187,20 @@
    {
     "kind": "bulle",
     "rect": [
-     446,
-     638,
+     644,
+     502,
      830,
-     702
+     558
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
-     656,
-     598
+     655,
+     582
+    ],
+    "queue_base": [
+     650,
+     550
     ],
     "locuteur": {
      "id": "chatain",
@@ -4510,15 +5217,19 @@
     "kind": "bulle",
     "rect": [
      446,
-     708,
-     830,
-     757
+     642,
+     632,
+     679
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
      525,
      597
+    ],
+    "queue_base": [
+     525,
+     648
     ],
     "locuteur": {
      "id": "?",
@@ -4534,16 +5245,20 @@
    {
     "kind": "bulle",
     "rect": [
-     446,
-     763,
+     644,
+     642,
      830,
-     812
+     679
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
      761,
      600
+    ],
+    "queue_base": [
+     761,
+     648
     ],
     "locuteur": {
      "id": "?",
@@ -4570,6 +5285,10 @@
      206,
      938
     ],
+    "queue_base": [
+     206,
+     966
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -4595,6 +5314,10 @@
      482,
      1003
     ],
+    "queue_base": [
+     458,
+     996
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -4614,6 +5337,10 @@
     "queue_tip": [
      772,
      952
+    ],
+    "queue_base": [
+     772,
+     990
     ],
     "locuteur": {
      "id": "chatain",
@@ -4653,6 +5380,10 @@
      40,
      684
     ],
+    "queue_base": [
+     40,
+     623
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -4667,16 +5398,20 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
-     506,
-     671,
-     591
+     446,
+     502,
+     632,
+     548
     ],
     "panel": 2,
-    "size": 14,
+    "size": 8,
     "queue_tip": [
-     562,
-     622
+     616,
+     549
+    ],
+    "queue_base": [
+     626,
+     534
     ],
     "locuteur": {
      "id": "chatain",
@@ -4692,36 +5427,49 @@
    {
     "kind": "bulle",
     "rect": [
-     672,
-     494,
-     845,
-     589
+     644,
+     502,
+     830,
+     548
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
-     803,
-     587
+     659,
+     550
+    ],
+    "queue_base": [
+     650,
+     541
     ],
     "locuteur": {
-     "id": "Lyssandro",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      699,
+      593,
+      28,
+      25
+     ],
+     "src": "resolu"
     }
    },
    {
     "kind": "bulle",
     "rect": [
-     432,
-     758,
-     671,
-     822
+     446,
+     554,
+     831,
+     582
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "queue_tip": [
-     764,
-     652
+     769,
+     638
+    ],
+    "queue_base": [
+     769,
+     576
     ],
     "locuteur": {
      "id": "Nolann",
@@ -4748,6 +5496,10 @@
      151,
      926
     ],
+    "queue_base": [
+     151,
+     960
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": [
@@ -4772,6 +5524,10 @@
     "queue_tip": [
      502,
      976
+    ],
+    "queue_base": [
+     502,
+     1008
     ],
     "locuteur": {
      "id": "chatain",
@@ -4800,6 +5556,10 @@
      534,
      160
     ],
+    "queue_base": [
+     534,
+     143
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": [
@@ -4824,6 +5584,10 @@
     "queue_tip": [
      590,
      185
+    ],
+    "queue_base": [
+     591,
+     204
     ],
     "locuteur": {
      "id": "chatain",
@@ -4850,6 +5614,10 @@
      750,
      181
     ],
+    "queue_base": [
+     750,
+     240
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -4874,6 +5642,10 @@
     "queue_tip": [
      260,
      438
+    ],
+    "queue_base": [
+     260,
+     455
     ],
     "locuteur": {
      "id": "chatain",
@@ -4900,6 +5672,10 @@
      455,
      411
     ],
+    "queue_base": [
+     479,
+     397
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -4915,15 +5691,19 @@
     "kind": "bulle",
     "rect": [
      17,
-     635,
+     713,
      387,
-     670
+     748
     ],
     "panel": 2,
     "size": 14,
     "queue_tip": [
      350,
-     684
+     700
+    ],
+    "queue_base": [
+     350,
+     719
     ],
     "locuteur": {
      "id": "chatain",
@@ -4950,6 +5730,10 @@
      451,
      679
     ],
+    "queue_base": [
+     479,
+     652
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -4975,6 +5759,10 @@
      75,
      1062
     ],
+    "queue_base": [
+     75,
+     1025
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -4994,6 +5782,10 @@
     "queue_tip": [
      491,
      1047
+    ],
+    "queue_base": [
+     493,
+     1023
     ],
     "locuteur": {
      "id": "Kilian",
@@ -5016,6 +5808,10 @@
     "queue_tip": [
      506,
      180
+    ],
+    "queue_base": [
+     506,
+     129
     ],
     "locuteur": {
      "id": "Kilian",
@@ -5042,6 +5838,10 @@
      384,
      196
     ],
+    "queue_base": [
+     384,
+     333
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -5066,6 +5866,10 @@
     "queue_tip": [
      233,
      599
+    ],
+    "queue_base": [
+     233,
+     550
     ],
     "locuteur": {
      "id": "?",
@@ -5103,6 +5907,10 @@
      546,
      643
     ],
+    "queue_base": [
+     546,
+     624
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -5128,6 +5936,10 @@
      794,
      643
     ],
+    "queue_base": [
+     754,
+     688
+    ],
     "locuteur": {
      "id": "Nolann-corps",
      "tete": [
@@ -5150,13 +5962,22 @@
     "panel": 3,
     "size": 14,
     "queue_tip": [
-     75,
-     1012
+     69,
+     1041
+    ],
+    "queue_base": [
+     23,
+     923
     ],
     "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
+     "id": "Nolann-corps",
+     "tete": [
+      86,
+      1099,
+      20,
+      19
+     ],
+     "src": "resolu"
     }
    },
    {
@@ -5172,6 +5993,10 @@
     "queue_tip": [
      142,
      1004
+    ],
+    "queue_base": [
+     142,
+     1050
     ],
     "locuteur": {
      "id": "Nolann",
@@ -5211,6 +6036,10 @@
      493,
      203
     ],
+    "queue_base": [
+     508,
+     200
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -5220,16 +6049,20 @@
    {
     "kind": "bulle",
     "rect": [
-     17,
-     512,
-     387,
-     547
+     31,
+     502,
+     419,
+     534
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "queue_tip": [
      104,
      568
+    ],
+    "queue_base": [
+     104,
+     528
     ],
     "locuteur": {
      "id": "?",
@@ -5245,16 +6078,20 @@
    {
     "kind": "bulle",
     "rect": [
-     17,
-     752,
-     387,
-     787
+     31,
+     732,
+     219,
+     764
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "queue_tip": [
-     352,
-     616
+     346,
+     614
+    ],
+    "queue_base": [
+     213,
+     738
     ],
     "locuteur": {
      "id": "Kilian",
@@ -5270,13 +6107,13 @@
    {
     "kind": "encadre",
     "rect": [
-     17,
-     788,
-     387,
-     817
+     231,
+     732,
+     419,
+     776
     ],
     "panel": 1,
-    "size": 11
+    "size": 12
    },
    {
     "kind": "bulle",
@@ -5291,6 +6128,10 @@
     "queue_tip": [
      610,
      596
+    ],
+    "queue_base": [
+     601,
+     583
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -5317,6 +6158,10 @@
      796,
      618
     ],
+    "queue_base": [
+     796,
+     638
+    ],
     "locuteur": {
      "id": "Flavien",
      "tete": [
@@ -5332,9 +6177,9 @@
     "kind": "encadre",
     "rect": [
      432,
-     764,
+     770,
      807,
-     793
+     799
     ],
     "panel": 2,
     "size": 11
@@ -5343,15 +6188,19 @@
     "kind": "bulle",
     "rect": [
      104,
-     1062,
+     1020,
      345,
-     1114
+     1072
     ],
     "panel": 3,
     "size": 14,
     "queue_tip": [
-     81,
+     82,
      1008
+    ],
+    "queue_base": [
+     110,
+     1056
     ],
     "locuteur": {
      "id": "chatain",
@@ -5367,16 +6216,20 @@
    {
     "kind": "bulle",
     "rect": [
-     17,
-     1116,
-     387,
-     1156
+     192,
+     1074,
+     433,
+     1142
     ],
     "panel": 3,
-    "size": 9,
+    "size": 14,
     "queue_tip": [
      380,
      993
+    ],
+    "queue_base": [
+     380,
+     1080
     ],
     "locuteur": {
      "id": "Kilian",
@@ -5397,6 +6250,10 @@
     "queue_tip": [
      464,
      959
+    ],
+    "queue_base": [
+     464,
+     942
     ],
     "locuteur": {
      "id": "Flavien",
@@ -5424,6 +6281,10 @@
     "queue_tip": [
      373,
      194
+    ],
+    "queue_base": [
+     372,
+     177
     ],
     "locuteur": {
      "id": "?",
@@ -5461,6 +6322,10 @@
      75,
      567
     ],
+    "queue_base": [
+     75,
+     549
+    ],
     "locuteur": {
      "id": "Arbitre",
      "tete": null,
@@ -5478,28 +6343,41 @@
     "panel": 2,
     "size": 14,
     "queue_tip": [
-     75,
-     827
+     152,
+     878
+    ],
+    "queue_base": [
+     25,
+     724
     ],
     "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      147,
+      877,
+      20,
+      14
+     ],
+     "src": "resolu"
     }
    },
    {
     "kind": "bulle",
     "rect": [
      259,
-     866,
+     872,
      433,
      918
     ],
     "panel": 2,
-    "size": 14,
+    "size": 12,
     "queue_tip": [
      328,
      768
+    ],
+    "queue_base": [
+     328,
+     878
     ],
     "locuteur": {
      "id": "chatain",
@@ -5526,6 +6404,10 @@
      622,
      745
     ],
+    "queue_base": [
+     622,
+     765
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": [
@@ -5551,6 +6433,10 @@
      793,
      810
     ],
+    "queue_base": [
+     793,
+     789
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -5566,15 +6452,19 @@
     "kind": "bulle",
     "rect": [
      17,
-     1084,
-     387,
-     1169
+     1030,
+     192,
+     1156
     ],
     "panel": 4,
-    "size": 14,
+    "size": 13,
     "queue_tip": [
-     75,
-     1153
+     67,
+     1146
+    ],
+    "queue_base": [
+     43,
+     1150
     ],
     "locuteur": {
      "id": "Léon",
@@ -5594,6 +6484,10 @@
     "size": 14,
     "queue_tip": [
      622,
+     1012
+    ],
+    "queue_base": [
+     599,
      1012
     ],
     "locuteur": {
@@ -5621,6 +6515,10 @@
      806,
      996
     ],
+    "queue_base": [
+     793,
+     999
+    ],
     "locuteur": {
      "id": "Julien",
      "tete": null,
@@ -5640,6 +6538,10 @@
     "queue_tip": [
      482,
      1162
+    ],
+    "queue_base": [
+     437,
+     1159
     ],
     "locuteur": {
      "id": "Léon",
@@ -5663,6 +6565,10 @@
      75,
      187
     ],
+    "queue_base": [
+     75,
+     152
+    ],
     "locuteur": {
      "id": "Léon",
      "tete": null,
@@ -5683,6 +6589,10 @@
      487,
      192
     ],
+    "queue_base": [
+     479,
+     185
+    ],
     "locuteur": {
      "id": "Porteur d'Aix-les-Bains",
      "tete": null,
@@ -5702,6 +6612,10 @@
     "queue_tip": [
      202,
      652
+    ],
+    "queue_base": [
+     202,
+     630
     ],
     "locuteur": {
      "id": "chatain",
@@ -5750,6 +6664,10 @@
      369,
      975
     ],
+    "queue_base": [
+     369,
+     959
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": [
@@ -5775,6 +6693,10 @@
      380,
      973
     ],
+    "queue_base": [
+     380,
+     1009
+    ],
     "locuteur": {
      "id": "Nolann",
      "tete": null,
@@ -5794,6 +6716,10 @@
     "queue_tip": [
      599,
      966
+    ],
+    "queue_base": [
+     599,
+     920
     ],
     "locuteur": {
      "id": "chatain",
@@ -5817,13 +6743,22 @@
     "panel": 4,
     "size": 14,
     "queue_tip": [
-     495,
-     1148
+     500,
+     1136
+    ],
+    "queue_base": [
+     525,
+     1104
     ],
     "locuteur": {
-     "id": "Tous les cinq",
-     "tete": null,
-     "src": "estime"
+     "id": "?",
+     "tete": [
+      485,
+      1135,
+      20,
+      14
+     ],
+     "src": "resolu"
     }
    }
   ],
@@ -5852,6 +6787,10 @@
     "queue_tip": [
      482,
      194
+    ],
+    "queue_base": [
+     458,
+     193
     ],
     "locuteur": {
      "id": "Flavien",
@@ -5883,6 +6822,10 @@
     "queue_tip": [
      568,
      358
+    ],
+    "queue_base": [
+     568,
+     320
     ],
     "locuteur": {
      "id": "Flavien",
@@ -5931,6 +6874,10 @@
      266,
      756
     ],
+    "queue_base": [
+     272,
+     744
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -5955,6 +6902,10 @@
     "queue_tip": [
      494,
      790
+    ],
+    "queue_base": [
+     504,
+     789
     ],
     "locuteur": {
      "id": "Ayden",
@@ -5988,6 +6939,10 @@
     "queue_tip": [
      224,
      150
+    ],
+    "queue_base": [
+     224,
+     131
     ],
     "locuteur": {
      "id": "?",
@@ -6039,6 +6994,10 @@
      396,
      535
     ],
+    "queue_base": [
+     396,
+     511
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -6064,6 +7023,10 @@
      608,
      544
     ],
+    "queue_base": [
+     608,
+     608
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -6088,6 +7051,10 @@
     "queue_tip": [
      257,
      558
+    ],
+    "queue_base": [
+     273,
+     644
     ],
     "locuteur": {
      "id": "Nolann",
@@ -6125,16 +7092,20 @@
    {
     "kind": "bulle",
     "rect": [
-     247,
-     1110,
-     617,
-     1162
+     487,
+     1098,
+     848,
+     1150
     ],
     "panel": 3,
     "size": 14,
     "queue_tip": [
      505,
      1058
+    ],
+    "queue_base": [
+     505,
+     1104
     ],
     "locuteur": {
      "id": "?",
@@ -6163,6 +7134,10 @@
      77,
      218
     ],
+    "queue_base": [
+     77,
+     253
+    ],
     "locuteur": {
      "id": "Capitaine de Montmélian",
      "tete": null,
@@ -6182,6 +7157,10 @@
     "queue_tip": [
      261,
      189
+    ],
+    "queue_base": [
+     261,
+     295
     ],
     "locuteur": {
      "id": "chatain",
@@ -6208,6 +7187,10 @@
      559,
      185
     ],
+    "queue_base": [
+     559,
+     152
+    ],
     "locuteur": {
      "id": "?",
      "tete": [
@@ -6233,6 +7216,10 @@
      612,
      200
     ],
+    "queue_base": [
+     612,
+     265
+    ],
     "locuteur": {
      "id": "chatain",
      "tete": [
@@ -6255,8 +7242,12 @@
     "panel": 1,
     "size": 14,
     "queue_tip": [
-     665,
-     195
+     666,
+     194
+    ],
+    "queue_base": [
+     677,
+     223
     ],
     "locuteur": {
      "id": "chatain",
@@ -6283,6 +7274,10 @@
      337,
      515
     ],
+    "queue_base": [
+     331,
+     548
+    ],
     "locuteur": {
      "id": "Kilian",
      "tete": [
@@ -6307,6 +7302,10 @@
     "queue_tip": [
      466,
      616
+    ],
+    "queue_base": [
+     466,
+     606
     ],
     "locuteur": {
      "id": "Nolann-corps",
@@ -6333,6 +7332,10 @@
      466,
      632
     ],
+    "queue_base": [
+     466,
+     650
+    ],
     "locuteur": {
      "id": "Nolann-corps",
      "tete": [
@@ -6357,6 +7360,10 @@
     "queue_tip": [
      396,
      847
+    ],
+    "queue_base": [
+     382,
+     786
     ],
     "locuteur": {
      "id": "chatain",

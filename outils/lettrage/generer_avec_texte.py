@@ -425,6 +425,16 @@ def _norm_txt(t):
     return re.sub(r'\s+', ' ', t).strip().lower()
 
 
+def _ordre_lecture(r, pr):
+    """r (après pr dans le dialogue) ne doit pas se lire avant pr."""
+    below = r[1] >= pr[1] + 40
+    if r[0] >= pr[2] - 8:      # colonne à droite : escalier toléré
+        return r[1] >= pr[1] - 120
+    if r[2] <= pr[0] + 8:      # colonne à gauche : rangée suivante
+        return below
+    return r[1] >= pr[1] - 16  # même colonne : jamais plus haut
+
+
 def _point_estime(el):
     """Point locuteur estimé à la main (3e point de la queue) — simple prior.""" 
     if el[0] == 'bulle':
@@ -485,6 +495,27 @@ def _snap_face(loc, faces, max_dist=55):
     return loc, None
 
 
+def _frac_segment_rects(ax, ay, bx, by, rects):
+    """Fraction du segment [A,B] passant à l'intérieur des rectangles."""
+    dedans = 0
+    for t in range(21):
+        t /= 20
+        px, py = ax + (bx - ax) * t, ay + (by - ay) * t
+        if any(r[0] <= px <= r[2] and r[1] <= py <= r[3] for r in rects):
+            dedans += 1
+    return dedans / 21
+
+
+def _t0_segment_rect(ax, ay, bx, by, r):
+    """Premier t (0..1) où le segment entre dans le rectangle, sinon None."""
+    for t in range(41):
+        t /= 40
+        px, py = ax + (bx - ax) * t, ay + (by - ay) * t
+        if r[0] <= px <= r[2] and r[1] <= py <= r[3]:
+            return t
+    return None
+
+
 def _dist_segment_box(ax, ay, bx, by, box):
     """Distance minimale entre le segment [A,B] et une boîte (0 si traversée)."""
     best = 1e9
@@ -497,7 +528,7 @@ def _dist_segment_box(ax, ay, bx, by, box):
     return best
 
 
-def _queue_auto(rect, locuteur, face=None, autres=None, max_long=400):
+def _queue_auto(rect, locuteur, face=None, autres=None, bulles=None, max_long=400):
     """Queue de bulle : base sur le bord de la bulle dont la ligne vers le
     locuteur évite le mieux les autres têtes ; pointe arrêtée juste avant la
     tête visée (queues longues autorisées : la pointe doit ATTEINDRE la tête)."""
@@ -524,6 +555,14 @@ def _queue_auto(rect, locuteur, face=None, autres=None, max_long=400):
         for b in (autres or []):
             clearance = min(clearance, _dist_segment_box(ax, ay, tx, ty, b))
         score = (0 if clearance > 26 else 26 - clearance) * 3 + d / 200
+        # interdit : une base dont la queue retraverse sa propre bulle
+        for tt in (0.2, 0.4, 0.6, 0.8):
+            px, py = ax + (tx - ax) * tt, ay + (ty - ay) * tt
+            if x1 + 2 <= px <= x2 - 2 and y1 + 2 <= py <= y2 - 2:
+                score += 500
+                break
+        if bulles:
+            score += 200 * _frac_segment_rects(ax, ay, tx, ty, bulles)
         if best is None or score < best[0]:
             best = (score, ax, ay, ori, d)
     if best is None:
@@ -534,6 +573,24 @@ def _queue_auto(rect, locuteur, face=None, autres=None, max_long=400):
         tip_d = max(6, d - 4)
     ux, uy = (tx - ax) / max(d, 1e-6), (ty - ay) / max(d, 1e-6)
     tip = (ax + ux * tip_d, ay + uy * tip_d)
+    # la pointe ne doit jamais pénétrer une autre bulle : on s'arrête avant
+    if bulles:
+        for r in bulles:
+            t0 = _t0_segment_rect(ax, ay, tx, ty, r)
+            if t0 is not None:
+                coupe = t0 * d - 8
+                if coupe < tip_d:
+                    tip_d = max(12, coupe)
+                    tip = (ax + ux * tip_d, ay + uy * tip_d)
+        # garde-fou : si la pointe est encore dans une bulle, on recule par pas
+        for _ in range(40):
+            if not any(r[0] < tip[0] < r[2] and r[1] < tip[1] < r[3] for r in bulles):
+                break
+            tip_d -= 4
+            if tip_d <= 12:
+                tip_d = 12
+                break
+            tip = (ax + ux * tip_d, ay + uy * tip_d)
     if ori == 'h':
         base = [(ax - 13, ay), (ax + 13, ay)]
     else:
@@ -556,7 +613,7 @@ def _place_ono(ctx, cx, cy):
         for f in ctx['corps']:
             inter = _inter_box(box, f)
             if inter:
-                c_b = max(c_b, inter / min(surf, f[2] * f[3]))
+                c_b = max(c_b, inter / min(surf, f[4]))
         for r in ctx['placed']:
             inter = _inter_box(box, (r[0], r[1], r[2] - r[0], r[3] - r[1]))
             if inter:
@@ -621,10 +678,18 @@ def apply_page(page, ctx, manifest):
             continue
         x, y, w, h = z
         tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
-    corps = list(ctx.get('blobs') or [])
+    # visages probables non détectés par Haar : orphelins dont le blob de peau
+    # a une forme de tête (carré, 22-90 px) -> protégés comme une tête
     for pr in pers:
-        if pr.get('corps'):
-            corps.append(pr['corps'])
+        if pr['tete'] is not None or not pr.get('corps'):
+            continue
+        bx, by, bw, bh = pr['corps']
+        if 22 <= bw <= 90 and 22 <= bh <= 90 and 500 <= bw * bh \
+                and 0.55 <= bw / bh <= 1.8:
+            z = PS.zone_tete(pr)
+            x, y, w, h = z
+            tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
+    corps = list(ctx.get('blobs') or [])   # zones de peau (avec aire réelle)
     ctx['tetes'] = tetes
     ctx['corps'] = corps
 
@@ -652,12 +717,70 @@ def apply_page(page, ctx, manifest):
                          'pers': pr, 'kind': el[0]}
         panel_elems.setdefault(pidx, []).append(i)
 
-    # --- Phase 2 : réparation (repli OU recouvrement de peau > 30 %) --------
+    # --- Phase 1.5 : déblocage local (seule la bulle bloquée bouge) ---------
     import placer as _P
+    _debloque = []
     for pidx, idxs in panel_elems.items():
-        trop_couvert = any(_P._face_overlap(placements[i]['rect'], corps) > 0.30
+        for k, i in enumerate(idxs):
+            if els[i][0] not in ('bulle', 'pensee'):
+                continue
+            pr = placements[i]['pers']
+            spk = PS.point_bouche(pr) if pr is not None else priors.get(i)
+            if spk is None:
+                continue
+            obst = [placements[j]['rect'] for j, q in enumerate(placements)
+                    if q and j != i] + list(onos)
+            if _P._blocage_vers(placements[i]['rect'], spk, obst) <= 0.10:
+                continue
+            # chercher une position de la même bulle, queue dégagée
+            panel = panels[pidx]
+            rect0 = placements[i]['rect']
+            prev_r = placements[idxs[k - 1]]['rect'] if k > 0 else None
+            next_r = placements[idxs[k + 1]]['rect'] if k + 1 < len(idxs) else None
+            best = None
+            for dy in range(-100, 101, 10):
+                for dx in range(-100, 101, 10):
+                    cand = (rect0[0] + dx, rect0[1] + dy,
+                            rect0[2] + dx, rect0[3] + dy)
+                    if _P._inside_ratio(cand, panel) < 0.8:
+                        continue
+                    if _P._face_overlap(cand, tetes) > 0.015:
+                        continue
+                    if any(_P._placed_overlap(cand, [o]) > 0.015 for o in obst):
+                        continue
+                    if _P._peau_overlap(cand, corps) > 0.30:
+                        continue
+                    if prev_r is not None and not _ordre_lecture(cand, prev_r):
+                        continue
+                    if next_r is not None and not _ordre_lecture(next_r, cand):
+                        continue
+                    if _P._blocage_vers(cand, spk, obst) > 0.0:
+                        continue
+                    ec = ((dx * dx + dy * dy) ** 0.5
+                          + 300 * _P._peau_overlap(cand, corps))
+                    if best is None or ec < best[0]:
+                        best = (ec, cand)
+            if best is not None:
+                placements[i]['rect'] = best[1]
+                placements[i]['soft'] = False
+                _debloque.append((page, pidx, i))
+
+    # --- Phase 2 : réparation (repli, recouvrement de peau, queue bloquée) --
+    for pidx, idxs in panel_elems.items():
+        trop_couvert = any(_P._peau_overlap(placements[i]['rect'], corps) > 0.30
                            for i in idxs if placements[i])
-        if not any(placements[i]['soft'] for i in idxs) and not trop_couvert:
+        queue_bloquee = False
+        for i in idxs:
+            pr = placements[i]['pers']
+            spk = PS.point_bouche(pr) if pr is not None else priors.get(i)
+            if spk is None:
+                continue
+            obst = [placements[j]['rect'] for j, q in enumerate(placements)
+                    if q and j != i] + list(onos)
+            if _P._blocage_vers(placements[i]['rect'], spk, obst) > 0.10:
+                queue_bloquee = True
+        if (not any(placements[i]['soft'] for i in idxs)
+                and not trop_couvert and not queue_bloquee):
             continue
         panel = panels[pidx]
         els_p = []
@@ -678,20 +801,60 @@ def apply_page(page, ctx, manifest):
                                  'queue': placements[i].get('queue'),
                                  'kind': placements[i].get('kind', els[i][0])}
 
+    # --- Phase 2.7 : sécurité têtes (dernier filet anti-visage couvert) ----
+    # l'audit signale une tête couverte dès 10% de la boîte BRUTE ; la
+    # génération padde les boîtes (1.3x) : 5% paddé ≈ 8.4% brut -> marge.
+    # Toute bulle qui couvre encore une tête tente un décalage local strict.
+    for pidx, idxs in panel_elems.items():
+        for k, i in enumerate(idxs):
+            if els[i][0] not in ('bulle', 'pensee') or not placements[i]:
+                continue
+            if _P._face_overlap(placements[i]['rect'], tetes) <= 0.05:
+                continue
+            panel = panels[pidx]
+            rect0 = placements[i]['rect']
+            prev_r = placements[idxs[k - 1]]['rect'] if k > 0 else None
+            next_r = placements[idxs[k + 1]]['rect'] if k + 1 < len(idxs) else None
+            pr = placements[i]['pers']
+            spk = PS.point_bouche(pr) if pr is not None else priors.get(i)
+            obst = [placements[j]['rect'] for j, q in enumerate(placements)
+                    if q and j != i] + list(onos)
+            best = None
+            for dy in range(-120, 121, 10):
+                for dx in range(-120, 121, 10):
+                    cand = (rect0[0] + dx, rect0[1] + dy,
+                            rect0[2] + dx, rect0[3] + dy)
+                    if _P._inside_ratio(cand, panel) < 0.8:
+                        continue
+                    if _P._face_overlap(cand, tetes) > 0.015:
+                        continue
+                    if any(_P._placed_overlap(cand, [o]) > 0.015 for o in obst):
+                        continue
+                    if _P._peau_overlap(cand, corps) > 0.30:
+                        continue
+                    if prev_r is not None and not _ordre_lecture(cand, prev_r):
+                        continue
+                    if next_r is not None and not _ordre_lecture(next_r, cand):
+                        continue
+                    if spk is not None and _P._blocage_vers(cand, spk, obst) > 0.0:
+                        continue
+                    ec = ((dx * dx + dy * dy) ** 0.5
+                          + 300 * _P._peau_overlap(cand, corps))
+                    if best is None or ec < best[0]:
+                        best = (ec, cand)
+            if best is not None:
+                placements[i]['rect'] = best[1]
+                placements[i]['soft'] = False
+                print(f'  page {page:02d} : sécurité tête, élément {i} décalé '
+                      f'({best[1][0] - rect0[0]:+d},{best[1][1] - rect0[1]:+d})',
+                      file=sys.stderr)
+
     # --- Phase 2.5 : ordre de lecture au sein de chaque vignette -----------
     # deux bulles inversées spatialement -> on échange leurs textes si chacun
     # tient dans le rectangle de l'autre (les queues suivent le locuteur du texte)
-    def _ordre_ok(r, pr):
-        below = r[1] >= pr[1] + 40
-        if r[0] >= pr[2] - 8:      # colonne à droite : escalier toléré
-            return r[1] >= pr[1] - 120
-        if r[2] <= pr[0] + 8:      # colonne à gauche : rangée suivante
-            return below
-        return r[1] >= pr[1] - 16  # même colonne : jamais plus haut
-
     def _taille_qui_tient(texte, kind, r, s_max):
         w, h = r[2] - r[0], r[3] - r[1]
-        for taille in range(min(s_max, 13), 6, -1):
+        for taille in range(min(s_max, 13), 7, -1):   # plancher 8 (textfit)
             if P.mesurer(texte, w, taille, *P.PADS[kind][:2]) <= h:
                 return taille
         return None
@@ -709,7 +872,7 @@ def apply_page(page, ctx, manifest):
             for b in range(a + 1, len(idxs)):
                 ia, ib = idxs[a], idxs[b]
                 ra, rb = placements[ia]['rect'], placements[ib]['rect']
-                if not _ordre_ok(rb, ra) and _echange_possible(ia, ib):
+                if not _ordre_lecture(rb, ra) and _echange_possible(ia, ib):
                     placements[ia]['rect'], placements[ib]['rect'] = rb, ra
                     placements[ia]['size'] = _taille_qui_tient(els[ia][2], els[ia][0], rb, 13)
                     placements[ib]['size'] = _taille_qui_tient(els[ib][2], els[ib][0], ra, 13)
@@ -731,10 +894,13 @@ def apply_page(page, ctx, manifest):
                       if q is not pr and q['tete'] is not None
                       and pn[0] - 30 <= PS.zone_tete(q)[0] + PS.zone_tete(q)[2] / 2 <= pn[2] + 30
                       and pn[1] - 30 <= PS.zone_tete(q)[1] + PS.zone_tete(q)[3] / 2 <= pn[3] + 30]
+            bulles_eviter = [tuple(placements[j]['rect']) for j, qq in enumerate(placements)
+                             if qq and j != i and els[j][0] != 'ono']
             if pr is not None:
-                q = _queue_auto(rect, PS.point_bouche(pr), face=PS.zone_tete(pr), autres=autres)
+                q = _queue_auto(rect, PS.point_bouche(pr), face=PS.zone_tete(pr),
+                                autres=autres, bulles=bulles_eviter)
             else:
-                q = _queue_auto(rect, _point_estime(el))
+                q = _queue_auto(rect, _point_estime(el), bulles=bulles_eviter)
             p['queue'] = q
             L.bulle(rect, el[2], q, maximum=size)
         elif kind == 'pensee':
@@ -784,6 +950,7 @@ def apply_page(page, ctx, manifest):
             q = p['queue']
             if el[0] == 'bulle':          # [base1, base2, pointe]
                 ent['queue_tip'] = [round(q[2][0]), round(q[2][1])]
+                ent['queue_base'] = [round((q[0][0] + q[1][0]) / 2), round((q[0][1] + q[1][1]) / 2)]
             else:                         # pensée : position de la dernière bulle
                 ent['queue_tip'] = [round(q[0]), round(q[1])]
             if pr is not None:
@@ -812,8 +979,8 @@ if __name__ == '__main__':
         pm = PS.masque_peau(bgr)
         n_cc, _, stats_cc, _ = cv2.connectedComponentsWithStats(pm, 8)
         blobs = [(int(stats_cc[i, 0]), int(stats_cc[i, 1]),
-                  int(stats_cc[i, 2]), int(stats_cc[i, 3]))
-                 for i in range(1, n_cc) if stats_cc[i, 4] >= 600]
+                  int(stats_cc[i, 2]), int(stats_cc[i, 3]), int(stats_cc[i, 4]))
+                 for i in range(1, n_cc) if stats_cc[i, 4] >= 450]
         panels_p = panels_all.get(page, [(20, 20, 844, 1202)])
         vigs = scen.get(page, [])
         if len(vigs) != len(panels_p):
