@@ -9,6 +9,7 @@ Plus de queue pointée : chaque dialogue est préfixé du locuteur
 Usage : PYTHONPATH=.arena/vendor python outils/lettrage/generer_avec_texte.py [--check]
   --check : contrôle que les bulles ne recouvrent pas de zones de peau (visages).
 """
+import os
 import re
 import sys
 from pathlib import Path
@@ -623,6 +624,12 @@ def _texte_affiche(el, spk):
     return el[2]
 
 
+def _dbg(page, label, placements):
+    print(f'DBG p{page:02d} {label}: '
+          + ' '.join(f'{i}:{tuple(round(v) for v in q["rect"])}'
+                     for i, q in enumerate(placements) if q), file=sys.stderr)
+
+
 def _zones_persos(pers):
     """Silhouettes présumées sous chaque tête détectée : torse et jambes,
     maillot compris (la peau seule est couverte par les blobs). Un personnage
@@ -764,6 +771,9 @@ def apply_page(page, ctx, manifest):
                          'pers': pr, 'kind': el[0]}
         panel_elems.setdefault(pidx, []).append(i)
 
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres phase 1', placements)
+
     # --- Phase 1.5 : déblocage local (seule la bulle bloquée bouge) ---------
     import placer as _P
     _debloque = []
@@ -789,9 +799,9 @@ def apply_page(page, ctx, manifest):
                 for dx in range(-100, 101, 10):
                     cand = (rect0[0] + dx, rect0[1] + dy,
                             rect0[2] + dx, rect0[3] + dy)
-                    if _P._inside_ratio(cand, panel) < 0.8:
+                    if _P._inside_ratio(cand, panel) < 0.995:
                         continue
-                    if _P._face_overlap(cand, tetes) > 0.015:
+                    if not _P._face_ok(cand, tetes, 0.03):
                         continue
                     if any(_P._placed_overlap(cand, [o]) > 0.015 for o in obst):
                         continue
@@ -814,6 +824,9 @@ def apply_page(page, ctx, manifest):
                 placements[i]['rect'] = best[1]
                 placements[i]['soft'] = False
                 _debloque.append((page, pidx, i))
+
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres 1.5', placements)
 
     # --- Phase 2 : réparation (repli, recouvrement de peau, queue bloquée) --
     for pidx, idxs in panel_elems.items():
@@ -852,6 +865,9 @@ def apply_page(page, ctx, manifest):
                                  'queue': placements[i].get('queue'),
                                  'kind': placements[i].get('kind', els[i][0])}
 
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres 2', placements)
+
     # --- Phase 2.7 : sécurité têtes (dernier filet anti-visage couvert) ----
     # l'audit signale une tête couverte dès 10% de la boîte BRUTE ; la
     # génération padde les boîtes (1.3x) : 5% paddé ≈ 8.4% brut -> marge.
@@ -860,7 +876,7 @@ def apply_page(page, ctx, manifest):
         for k, i in enumerate(idxs):
             if els[i][0] not in ('bulle', 'pensee') or not placements[i]:
                 continue
-            if _P._face_overlap(placements[i]['rect'], tetes) <= 0.05:
+            if _P._face_ok(placements[i]['rect'], tetes, 0.05):
                 continue
             panel = panels[pidx]
             rect0 = placements[i]['rect']
@@ -873,9 +889,9 @@ def apply_page(page, ctx, manifest):
                 for dx in range(-120, 121, 10):
                     cand = (rect0[0] + dx, rect0[1] + dy,
                             rect0[2] + dx, rect0[3] + dy)
-                    if _P._inside_ratio(cand, panel) < 0.8:
+                    if _P._inside_ratio(cand, panel) < 0.995:
                         continue
-                    if _P._face_overlap(cand, tetes) > 0.015:
+                    if not _P._face_ok(cand, tetes, 0.03):
                         continue
                     if any(_P._placed_overlap(cand, [o]) > 0.015 for o in obst):
                         continue
@@ -899,6 +915,9 @@ def apply_page(page, ctx, manifest):
                       f'({best[1][0] - rect0[0]:+d},{best[1][1] - rect0[1]:+d})',
                       file=sys.stderr)
 
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres 2.7', placements)
+
     # --- Phase 2.8 : sécurité chevauchements (aucune boîte sur une autre) --
     # un repli peut laisser deux boîtes superposées : on décale localement
     # celle qui gêne, avec les mêmes contraintes dures que la phase 2.7.
@@ -919,9 +938,9 @@ def apply_page(page, ctx, manifest):
                 for dx in range(-140, 141, 10):
                     cand = (rect0[0] + dx, rect0[1] + dy,
                             rect0[2] + dx, rect0[3] + dy)
-                    if _P._inside_ratio(cand, panel) < 0.8:
+                    if _P._inside_ratio(cand, panel) < 0.995:
                         continue
-                    if _P._face_overlap(cand, tetes) > 0.015:
+                    if not _P._face_ok(cand, tetes, 0.03):
                         continue
                     if any(_P._placed_overlap(cand, [o]) > 0.015 for o in obst):
                         continue
@@ -944,6 +963,9 @@ def apply_page(page, ctx, manifest):
                 print(f'  page {page:02d} : sécurité chevauchement, élément {i} décalé '
                       f'({best[1][0] - rect0[0]:+d},{best[1][1] - rect0[1]:+d})',
                       file=sys.stderr)
+
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres 2.8', placements)
 
     # --- Phase 2.5 : ordre de lecture au sein de chaque vignette -----------
     # deux bulles inversées spatialement -> on échange leurs textes si chacun
@@ -974,6 +996,9 @@ def apply_page(page, ctx, manifest):
                     placements[ib]['size'] = _taille_qui_tient(txts[ib], els[ib][0], ra, 13)
                     print(f'  page {page:02d} : ordre rétabli dans la vignette {pidx} '
                           f'(éléments {ia} et {ib} échangés)', file=sys.stderr)
+
+    if os.environ.get('ARENA_DEBUG'):
+        _dbg(page, 'apres 2.5 (final)', placements)
 
     # --- Phase 3 : rendu (boîtes blanches et encadrés, puis onomatopées) ---
     for i, el in enumerate(els):

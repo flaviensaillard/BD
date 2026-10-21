@@ -112,6 +112,27 @@ def _panel_of(rect, panels):
     return best
 
 
+def _face_ok(rect, faces, seuil=0.03):
+    """Visage respecté, au sens de l'audit : l'intersection avec la boîte
+    paddée (marge cheveux) reste sous `seuil` de l'aire BRUTE de la tête ET
+    sous `seuil` de min(aire boîte, aire paddée). La double normalisation
+    couvre les gros plans (petite boîte sur grande tête) que l'ancienne
+    normalisation min(boîte, paddée) rejetait à tort."""
+    rx1, ry1, rx2, ry2 = rect
+    surf = max(1, (rx2 - rx1) * (ry2 - ry1))
+    for f in faces:
+        ix = max(0, min(rx2, f[0] + f[2]) - max(rx1, f[0]))
+        iy = max(0, min(ry2, f[1] + f[3]) - max(ry1, f[1]))
+        inter = ix * iy
+        if inter <= 0:
+            continue
+        if inter > seuil * (f[2] / 1.3) * (f[3] / 1.3):
+            return False
+        if inter > seuil * min(surf, f[2] * f[3]):
+            return False
+    return True
+
+
 def _face_overlap(rect, faces):
     x1, y1, x2, y2 = rect
     box = (x1, y1, x2 - x1, y2 - y1)
@@ -209,7 +230,7 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                 x = int(max(lo_x, min(x, hi_x - w)))
                 for y in range(int(lo_y), int(hi_y - h) + 1, 6):
                     rect = (x, y, x + w, y + h)
-                    if _face_overlap(rect, faces) > 0.015:
+                    if not _face_ok(rect, faces, 0.03):
                         continue
                     if _peau_overlap(rect, bodies) > 0.30:
                         continue   # ne pas cacher un corps entier
@@ -217,8 +238,8 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                         continue   # ni la silhouette d'un personnage (maillot)
                     if _placed_overlap(rect, placed) > 0.015:
                         continue
-                    if _inside_ratio(rect, panel) < 0.8:
-                        continue
+                    if _inside_ratio(rect, panel) < 0.995:
+                        continue   # jamais à cheval sur le cadre de la vignette
                     if not _order_ok(rect, prev):
                         continue
                     if speaker is not None:
@@ -254,13 +275,19 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                         pen += 2500 * _blocage_vers(rect, speaker, placed)
                     if speaker is not None:
                         pen += _dist_bord(rect, speaker) / 80
-                    if soft is None or pen < soft[0]:
-                        soft = (pen, rect, size)
+                    # contraintes dures du repli, par priorité décroissante :
+                    # 1) dans la vignette et dans l'ordre de lecture,
+                    # 2) dans l'ordre seulement, 3) sans garantie.
+                    tier = ((0 if _order_ok(rect, prev) else 1) * 2
+                            + (0 if _inside_ratio(rect, panel) >= 0.995 else 1))
+                    if soft is None or (tier, pen) < soft[0]:
+                        soft = ((tier, pen), rect, size)
     if best is not None:
         return best[1], best[2], False
     if soft is not None:
         print(f'  [repli] {kind} : aucune position parfaite, choix le moins mauvais {soft[1]} '
-              f'(taille {soft[2]})', file=sys.stderr)
+              f'(taille {soft[2]}, garanties {"vignette+ordre" if soft[0][0] == 0 else "partielles"})',
+              file=sys.stderr)
         return soft[1], soft[2], True
     # ultime recours : rectangle préféré
     return tuple(prefer), smin, True
@@ -311,7 +338,7 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
     n = len(els)
     full = pw - 12
     col = (pw - 24) // 2
-    y_max = py2 + 10
+    y_max = py2          # jamais à cheval sur le cadre bas
     w62 = round(0.62 * full)
 
     def _cout_couverture(rect, steps):
@@ -330,12 +357,12 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
             h = mesurer(els[i]['text'], w, size, *PADS[els[i]['kind']][:2])
             cands_x = [px1 + 6]
             if w < pw - 40:
-                cands_x += [px1 + (pw - w) // 2, px2 - 6 - w, px1 - 8]
+                cands_x += [px1 + (pw - w) // 2, px2 - 6 - w]
             for x in cands_x:
                 ty = y
                 while ty + h <= y_max:
                     rect = (x, ty, x + w, ty + h)
-                    if _face_overlap(rect, faces) <= tol:
+                    if _face_ok(rect, faces, tol):
                         cout = _cout_couverture(rect, (ty - y) // 6)
                         if meilleur is None or cout < meilleur[0]:
                             meilleur = (cout, x, ty, w, h)
@@ -343,7 +370,7 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
         return meilleur
 
     for peau_cap in (0.55, None):
-        for tol in (0.015, 0.05, 0.058):
+        for tol in (0.03, 0.06, 0.09):   # seuils audit (aire brute de tête)
             meilleur = None
             for size in range(13, 7, -1):   # plancher 8 : textfit sous 8 impossible
                 for arr in ('stack', '2col', 'full+2col', '2col+full'):
@@ -379,8 +406,8 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
                             while ty + h <= y_max:
                                 ra = (xa, ty, xa + col, ty + ha)
                                 rb = (xb, ty, xb + col, ty + hb)
-                                if (_face_overlap(ra, faces) <= tol
-                                        and _face_overlap(rb, faces) <= tol):
+                                if (_face_ok(ra, faces, tol)
+                                        and _face_ok(rb, faces, tol)):
                                     cout = (_cout_couverture(ra, (ty - y) // 6)
                                             + _cout_couverture(rb, 0))
                                     if meilleur_2c is None or cout < meilleur_2c[0]:
