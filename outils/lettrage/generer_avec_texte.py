@@ -623,6 +623,23 @@ def _texte_affiche(el, spk):
     return el[2]
 
 
+def _zones_persos(pers):
+    """Silhouettes présumées sous chaque tête détectée : torse et jambes,
+    maillot compris (la peau seule est couverte par les blobs). Un personnage
+    habillé n'apparaît pas dans le masque de peau mais reste à ne pas cacher."""
+    zones = []
+    for p in pers:
+        if p['tete'] is None:
+            continue
+        z = PS.zone_tete(p)
+        if z is None:
+            continue
+        x, y, w, h = z
+        zw, zh = 2.0 * w, 2.5 * h
+        zones.append((x - 0.5 * w, y + 0.5 * h, zw, zh, zw * zh))
+    return zones
+
+
 def _place_ono(ctx, cx, cy):
     """Décale une onomatopée pour éviter têtes, corps et bulles déjà posées.
     Fenêtre locale d'abord, puis balayage de toute la vignette en dernier
@@ -717,8 +734,10 @@ def apply_page(page, ctx, manifest):
             x, y, w, h = z
             tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
     corps = list(ctx.get('blobs') or [])   # zones de peau (avec aire réelle)
+    persos = _zones_persos(pers)           # silhouettes (maillots compris)
     ctx['tetes'] = tetes
     ctx['corps'] = corps
+    ctx['persos'] = persos
 
     # --- Phase 1 : placement glouton, élément par élément ------------------
     placements = [None] * len(els)
@@ -737,7 +756,8 @@ def apply_page(page, ctx, manifest):
         pr = resol.get(i)
         spk = PS.point_bouche(pr) if pr is not None else priors.get(i)
         rect, size, soft = P.placer(el[0], txts[i], el[1], tetes, placed, panel,
-                                     speaker=spk, prev=prev_per_panel.get(pidx), bodies=corps)
+                                     speaker=spk, prev=prev_per_panel.get(pidx),
+                                     bodies=corps, persos=persos)
         prev_per_panel[pidx] = rect
         placed.append(rect)
         placements[i] = {'rect': rect, 'size': size, 'soft': soft, 'panel': pidx,
@@ -777,6 +797,8 @@ def apply_page(page, ctx, manifest):
                         continue
                     if _P._peau_overlap(cand, corps) > 0.30:
                         continue
+                    if _P._peau_overlap(cand, persos) > 0.45:
+                        continue
                     if prev_r is not None and not _ordre_lecture(cand, prev_r):
                         continue
                     if next_r is not None and not _ordre_lecture(next_r, cand):
@@ -784,7 +806,8 @@ def apply_page(page, ctx, manifest):
                     if _P._blocage_vers(cand, spk, obst) > 0.0:
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
-                          + 300 * _P._peau_overlap(cand, corps))
+                          + 300 * _P._peau_overlap(cand, corps)
+                          + 60 * _P._peau_overlap(cand, persos))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:
@@ -817,7 +840,8 @@ def apply_page(page, ctx, manifest):
                           'speaker': PS.point_bouche(pr) if pr is not None else priors.get(i)})
         placed_other = [placements[j]['rect'] for j, q in enumerate(placements)
                         if q and q['panel'] != pidx] + list(onos)
-        res = P.reparer_panel(panel, els_p, tetes, placed_other, bodies=corps)
+        res = P.reparer_panel(panel, els_p, tetes, placed_other, bodies=corps,
+                              persos=persos)
         if res:
             rects, size = res
             print(f'  page {page:02d} : réparation vignette {pidx} '
@@ -857,12 +881,15 @@ def apply_page(page, ctx, manifest):
                         continue
                     if _P._peau_overlap(cand, corps) > 0.30:
                         continue
+                    if _P._peau_overlap(cand, persos) > 0.45:
+                        continue
                     if prev_r is not None and not _ordre_lecture(cand, prev_r):
                         continue
                     if next_r is not None and not _ordre_lecture(next_r, cand):
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
-                          + 300 * _P._peau_overlap(cand, corps))
+                          + 300 * _P._peau_overlap(cand, corps)
+                          + 60 * _P._peau_overlap(cand, persos))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:
@@ -900,12 +927,15 @@ def apply_page(page, ctx, manifest):
                         continue
                     if _P._peau_overlap(cand, corps) > 0.30:
                         continue
+                    if _P._peau_overlap(cand, persos) > 0.45:
+                        continue
                     if prev_r is not None and not _ordre_lecture(cand, prev_r):
                         continue
                     if next_r is not None and not _ordre_lecture(next_r, cand):
                         continue
                     ec = ((dx * dx + dy * dy) ** 0.5
-                          + 300 * _P._peau_overlap(cand, corps))
+                          + 300 * _P._peau_overlap(cand, corps)
+                          + 60 * _P._peau_overlap(cand, persos))
                     if best is None or ec < best[0]:
                         best = (ec, cand)
             if best is not None:

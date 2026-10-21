@@ -176,7 +176,7 @@ def _dist_bord(rect, pt):
     return (dx * dx + dy * dy) ** 0.5
 
 
-def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bodies=()):
+def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bodies=(), persos=()):
     """Retourne (rect, taille_police, repli) pour un élément de lettrage."""
     px1, py1, px2, py2 = panel
     pw = px2 - px1
@@ -213,6 +213,8 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                         continue
                     if _peau_overlap(rect, bodies) > 0.30:
                         continue   # ne pas cacher un corps entier
+                    if _peau_overlap(rect, persos) > 0.45:
+                        continue   # ni la silhouette d'un personnage (maillot)
                     if _placed_overlap(rect, placed) > 0.015:
                         continue
                     if _inside_ratio(rect, panel) < 0.8:
@@ -226,7 +228,8 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                     else:
                         score = (rect[1] - py1) / 25 + abs((rect[0] + rect[2]) / 2 - (px1 + px2) / 2) / 40
                     score += abs(rect[1] - prefer[1]) / 500
-                    score += _peau_overlap(rect, bodies) * 25   # ne pas cacher les corps
+                    score += (_peau_overlap(rect, bodies) * 25      # ne pas cacher les corps
+                              + _peau_overlap(rect, persos) * 12)    # ni les silhouettes
                     if speaker is not None:
                         score += 60 * _blocage_vers(rect, speaker, placed)
                     cands.append((score, rect, size))
@@ -243,6 +246,7 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                     rect = (x, y, x + w, y + h)
                     pen = (_face_overlap(rect, faces) * 3000
                            + _peau_overlap(rect, bodies) * 1200
+                           + _peau_overlap(rect, persos) * 700
                            + _placed_overlap(rect, placed) * 2600
                            + (1 - _inside_ratio(rect, panel)) * 500
                            + (0 if _order_ok(rect, prev) else 400))
@@ -286,22 +290,20 @@ def _eviter_visages_lignes(x, y, w, h, faces, y_max, tol=0.015):
     return None
 
 
-def reparer_panel(panel, els, faces, placed_other, bodies=()):
+def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
     """Ré-agence tous les éléments d'une vignette après un repli du placement glouton.
 
     els : liste ordonnée de dicts {kind, text}. Retourne (rects, taille)
     ou None si aucun agencement ne convient.
 
-    Plus de queues de bulle : le score ne mesure que le recouvrement de peau.
+    Plus de queues de bulle : le score ne mesure que le recouvrement.
     Les échelons de tolérance sur les têtes sont essayés du plus strict au
     plus souple et le PREMIER qui réussit gagne (jamais au-dessus de 0.058,
     soit ~9,8% de la boîte brute de tête — sous le seuil d'audit de 10%).
-    À tolérance égale, on minimise le recouvrement de peau avec un léger
-    bonus pour les grandes tailles de police (0,15 point par cran).
-    Les rangées seules essaient plusieurs largeurs (pleine, 62%) et positions
-    (gauche, centre, droite, gauche -8px) ; entre les largeurs qui marchent,
-    la moins couvrante de peau gagne (égalité : la plus large).
-    Dernier recours sans plafond de peau : mieux vaut un recouvrement de corps
+    Chaque rangée cherche, parmi les positions sans visage, celle qui couvre
+    le moins (peau + silhouette), avec un léger bonus pour rester haute et
+    large : on ne prend plus la première place libre au-dessus des têtes.
+    Dernier recours sans plafond de peau : mieux vaut un recouvrement
     (avertissement d'audit) qu'un chevauchement de boîtes (bloquant).
     """
     px1, py1, px2, py2 = panel
@@ -312,24 +314,33 @@ def reparer_panel(panel, els, faces, placed_other, bodies=()):
     y_max = py2 + 10
     w62 = round(0.62 * full)
 
-    def _essais_largeurs(i, y, size):
-        """Positions possibles de la rangée i : [(x, ty, w, h)] les plus hautes."""
-        trouves = []
+    def _cout_couverture(rect, steps):
+        """Coût d'une rangée : peau + silhouette + malus de descente."""
+        return (_peau_overlap(rect, bodies)
+                + 0.5 * _peau_overlap(rect, persos)
+                + 0.02 * steps - 0.001 * (rect[2] - rect[0]) / max(full, 1))
+
+    def _meilleure_rangee_seule(i, y, size):
+        """Meilleure (x, ty, w, h) pour la rangée i en balayant toutes les
+        positions sans visage (plusieurs largeurs, plusieurs x)."""
+        meilleur = None
         for w in dict.fromkeys((wof[i], w62)):
             if w < 120:
                 continue
             h = mesurer(els[i]['text'], w, size, *PADS[els[i]['kind']][:2])
-            meilleur = None
             cands_x = [px1 + 6]
             if w < pw - 40:
                 cands_x += [px1 + (pw - w) // 2, px2 - 6 - w, px1 - 8]
             for x in cands_x:
-                ty = _eviter_visages_lignes(x, y, w, h, faces, y_max, tol)
-                if ty is not None and (meilleur is None or ty < meilleur[1]):
-                    meilleur = (x, ty, w, h)
-            if meilleur is not None:
-                trouves.append(meilleur)
-        return trouves
+                ty = y
+                while ty + h <= y_max:
+                    rect = (x, ty, x + w, ty + h)
+                    if _face_overlap(rect, faces) <= tol:
+                        cout = _cout_couverture(rect, (ty - y) // 6)
+                        if meilleur is None or cout < meilleur[0]:
+                            meilleur = (cout, x, ty, w, h)
+                    ty += 6
+        return meilleur
 
     for peau_cap in (0.55, None):
         for tol in (0.015, 0.05, 0.058):
@@ -363,43 +374,45 @@ def reparer_panel(panel, els, faces, placed_other, bodies=()):
                                          *PADS[els[b]['kind']][:2])
                             h = max(ha, hb)
                             xa, xb = px1 + 6, px1 + 6 + col + 12
-                            yy = None
+                            meilleur_2c = None
                             ty = y
                             while ty + h <= y_max:
-                                if (_face_overlap((xa, ty, xa + col, ty + ha),
-                                                  faces) <= tol
-                                        and _face_overlap((xb, ty, xb + col, ty + hb),
-                                                          faces) <= tol):
-                                    yy = ty
-                                    break
+                                ra = (xa, ty, xa + col, ty + ha)
+                                rb = (xb, ty, xb + col, ty + hb)
+                                if (_face_overlap(ra, faces) <= tol
+                                        and _face_overlap(rb, faces) <= tol):
+                                    cout = (_cout_couverture(ra, (ty - y) // 6)
+                                            + _cout_couverture(rb, 0))
+                                    if meilleur_2c is None or cout < meilleur_2c[0]:
+                                        meilleur_2c = (cout, ty)
                                 ty += 6
-                            if yy is None:
+                            if meilleur_2c is None:
                                 ok = False
                                 break
+                            yy = meilleur_2c[1]
                             rects[a] = (xa, yy, xa + col, yy + ha)
                             rects[b] = (xb, yy, xb + col, yy + hb)
                             y = yy + h + 6
                         else:
                             i = row[0]
-                            trouves = _essais_largeurs(i, y, size)
-                            if not trouves:
+                            choix = _meilleure_rangee_seule(i, y, size)
+                            if choix is None:
                                 ok = False
                                 break
-                            chosen = min(trouves, key=lambda c: (
-                                _peau_overlap((c[0], c[1], c[0] + c[2], c[1] + c[3]),
-                                              bodies), -c[2]))
-                            rects[i] = (chosen[0], chosen[1], chosen[0] + chosen[2],
-                                        chosen[1] + chosen[3])
-                            y = chosen[1] + chosen[3] + 6
+                            _, x, ty, w, h = choix
+                            rects[i] = (x, ty, x + w, ty + h)
+                            y = ty + h + 6
                     if not ok:
                         continue
                     if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
                         continue
                     corps = sum(_peau_overlap(r, bodies) for r in rects)
-                    if peau_cap is not None and any(_peau_overlap(r, bodies) > peau_cap
-                                                    for r in rects):
-                        continue      # pas de bulle entièrement sur un corps
-                    score = corps + 0.15 * (13 - size)
+                    sil = sum(_peau_overlap(r, persos) for r in rects)
+                    if peau_cap is not None and (
+                            any(_peau_overlap(r, bodies) > peau_cap for r in rects)
+                            or any(_peau_overlap(r, persos) > 0.45 for r in rects)):
+                        continue      # pas de bulle sur un corps ni une silhouette
+                    score = corps + 0.5 * sil + 0.15 * (13 - size)
                     if meilleur is None or score < meilleur[0]:
                         meilleur = (score, rects, size)
             if meilleur is not None:

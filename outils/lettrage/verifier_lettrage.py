@@ -126,10 +126,15 @@ def main():
                 print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} couvre une tête : {r["cache"]}')
             else:
                 ncorps += 1
+        if 'perso' in r:
+            bloquant += 1
+            print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} {r["perso"]} : '
+                  f'texte qui cache un personnage')
     if bloquant == 0:
         print('  OK : chaque dialogue nomme son locuteur (préfixe conforme au scénario), '
-              'fonds conformes (blanc/dialogue, jaune-brun/narration), aucune tête couverte.')
-    print(f'  avertissements : {ncorps} recouvrements de corps résiduels '
+              'fonds conformes (blanc/dialogue, jaune-brun/narration), aucune tête couverte, '
+              'aucun personnage caché.')
+    print(f'  avertissements : {ncorps} recouvrements de peau résiduels '
           f'(planche dense, sans position libre).')
     errors += bloquant
 

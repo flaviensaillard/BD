@@ -49,8 +49,8 @@
     "rect": [
      23,
      789,
-     253,
-     844
+     207,
+     857
     ],
     "panel": 1,
     "size": 11,
@@ -61,9 +61,9 @@
     "kind": "bulle",
     "rect": [
      23,
-     945,
-     174,
-     1030
+     1089,
+     267,
+     1157
     ],
     "panel": 1,
     "size": 14,
@@ -74,9 +74,9 @@
     "kind": "bulle",
     "rect": [
      296,
-     801,
-     447,
-     919
+     849,
+     540,
+     917
     ],
     "panel": 2,
     "size": 14,
@@ -128,25 +128,25 @@
     "kind": "bulle",
     "rect": [
      447,
-     91,
-     633,
-     148
+     37,
+     685,
+     101
     ],
     "panel": 1,
-    "size": 11,
+    "size": 13,
     "speaker": "Flavien",
     "texte": "Flavien: \"Vanessa ! Alice ! On file au stade avec Léon, on rentre pour le déjeuner !\""
    },
    {
     "kind": "voix",
     "rect": [
-     645,
-     91,
-     831,
-     133
+     447,
+     107,
+     685,
+     154
     ],
     "panel": 1,
-    "size": 11,
+    "size": 13,
     "speaker": "Voix hors-champ depuis l'étage",
     "texte": "Maman: \"Bon entraînement les garçons ! Amuse-toi bien Léon !\""
    },
@@ -154,12 +154,12 @@
     "kind": "bulle",
     "rect": [
      593,
-     202,
+     262,
      831,
-     259
+     326
     ],
     "panel": 1,
-    "size": 11,
+    "size": 13,
     "speaker": "Léon",
     "texte": "Léon: \"Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va arriver après les copains !\""
    },
@@ -179,10 +179,10 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     516,
-     385,
-     568
+     259,
+     378,
+     432,
+     480
     ],
     "panel": 2,
     "size": 14,
@@ -206,9 +206,9 @@
     "kind": "bulle",
     "rect": [
      433,
-     510,
+     558,
      798,
-     595
+     643
     ],
     "panel": 3,
     "size": 14,
@@ -231,10 +231,10 @@
    {
     "kind": "bulle",
     "rect": [
-     257,
-     960,
-     607,
-     1012
+     20,
+     864,
+     514,
+     916
     ],
     "panel": 4,
     "size": 14,
@@ -259,39 +259,39 @@
    {
     "kind": "bulle",
     "rect": [
-     433,
-     47,
-     798,
-     99
+     447,
+     37,
+     827,
+     83
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "speaker": "Léon",
     "texte": "Léon: \"Salut les gars ! Alors, prêts pour notre nouvelle saison de champions ?\""
    },
    {
     "kind": "bulle",
     "rect": [
-     433,
-     227,
-     669,
-     312
+     447,
+     233,
+     631,
+     321
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Trop content de vous retrouver ! Mon père m'a dit qu'on est vingt joueurs cette année, ça va faire quatre équipes de cinq !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     670,
+     643,
      233,
-     841,
-     318
+     827,
+     293
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "speaker": "Ayden",
     "texte": "Ayden: \"Ouais ! Avec Léon, on en a parlé toute la semaine à l'école !\""
    },
@@ -299,9 +299,9 @@
     "kind": "bulle",
     "rect": [
      196,
-     453,
+     447,
      432,
-     538
+     532
     ],
     "panel": 2,
     "size": 14,
@@ -312,9 +312,9 @@
     "kind": "bulle",
     "rect": [
      196,
-     543,
+     537,
      432,
-     611
+     605
     ],
     "panel": 2,
     "size": 14,
@@ -337,10 +337,10 @@
    {
     "kind": "bulle",
     "rect": [
-     433,
-     447,
-     763,
-     515
+     605,
+     519,
+     841,
+     604
     ],
     "panel": 3,
     "size": 14,
@@ -351,9 +351,9 @@
     "kind": "bulle",
     "rect": [
      23,
-     721,
+     745,
      388,
-     806
+     830
     ],
     "panel": 4,
     "size": 14,
@@ -363,10 +363,10 @@
    {
     "kind": "bulle",
     "rect": [
-     249,
-     913,
-     614,
-     965
+     254,
+     919,
+     610,
+     971
     ],
     "panel": 4,
     "size": 14,
@@ -379,9 +379,9 @@
     "kind": "bulle",
     "rect": [
      12,
-     109,
-     256,
-     244
+     187,
+     189,
+     389
     ],
     "panel": 0,
     "size": 14,
@@ -391,10 +391,10 @@
    {
     "kind": "bulle",
     "rect": [
-     12,
+     189,
      253,
-     387,
-     321
+     433,
+     355
     ],
     "panel": 0,
     "size": 14,
@@ -469,22 +469,22 @@
    {
     "kind": "bulle",
     "rect": [
-     677,
-     525,
+     610,
+     579,
      854,
-     677
+     674
     ],
     "panel": 3,
-    "size": 14,
+    "size": 13,
     "speaker": "Kilian",
     "texte": "Kilian: \"Enfin, pour les contacts : de septembre à fin novembre, c'est du touché à 2 mains simultanées ! Les vrais plaquages seront autorisés à partir du mois de décembre !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     246,
+     350,
      675,
-     621,
+     855,
      727
     ],
     "panel": 4,
@@ -495,10 +495,10 @@
    {
     "kind": "bulle",
     "rect": [
-     246,
+     12,
      867,
-     621,
-     919
+     517,
+     902
     ],
     "panel": 4,
     "size": 14,
@@ -508,10 +508,10 @@
    {
     "kind": "bulle",
     "rect": [
-     246,
-     933,
-     621,
-     1001
+     488,
+     945,
+     855,
+     1013
     ],
     "panel": 5,
     "size": 14,
@@ -563,12 +563,12 @@
     "kind": "bulle",
     "rect": [
      27,
-     799,
+     811,
      217,
-     839
+     848
     ],
     "panel": 1,
-    "size": 9,
+    "size": 8,
     "speaker": "Kilian",
     "texte": "Kilian: \"Hors-jeu Léon ! Tu étais devant tes copains au départ de l'action !\""
    },
@@ -576,12 +576,12 @@
     "kind": "bulle",
     "rect": [
      229,
-     799,
+     811,
      419,
-     839
+     848
     ],
     "panel": 1,
-    "size": 9,
+    "size": 8,
     "speaker": "Léon",
     "texte": "Léon: \"Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U8 !\""
    },
@@ -601,10 +601,10 @@
    {
     "kind": "bulle",
     "rect": [
-     431,
-     647,
-     806,
-     732
+     608,
+     731,
+     851,
+     849
     ],
     "panel": 2,
     "size": 14,
@@ -640,13 +640,13 @@
    {
     "kind": "bulle",
     "rect": [
-     445,
-     860,
+     594,
+     1028,
      837,
-     897
+     1108
     ],
     "panel": 4,
-    "size": 8,
+    "size": 13,
     "speaker": "Flavien",
     "texte": "Flavien: \"C'est surtout pour Léon que je m'inquiète. Il a un tel esprit de gagnant qu'il ne conçoit même pas qu'on puisse perdre un match.\""
    },
@@ -654,12 +654,12 @@
     "kind": "bulle",
     "rect": [
      445,
-     999,
+     1120,
      688,
-     1036
+     1184
     ],
     "panel": 4,
-    "size": 8,
+    "size": 13,
     "speaker": "Julien",
     "texte": "Julien: \"Le premier tournoi va être un sacré révélateur, Flavien. On sera là pour les accompagner.\""
    }
@@ -681,10 +681,10 @@
    {
     "kind": "bulle",
     "rect": [
-     242,
-     434,
-     622,
-     502
+     10,
+     356,
+     517,
+     408
     ],
     "panel": 0,
     "size": 14,
@@ -697,10 +697,10 @@
      174,
      521,
      419,
-     550
+     563
     ],
     "panel": 1,
-    "size": 9,
+    "size": 10,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Bien joué Ayden ! Tiens Nolann, fonce !\""
    },
@@ -708,12 +708,12 @@
     "kind": "bulle",
     "rect": [
      24,
-     610,
+     803,
      215,
-     650
+     845
     ],
     "panel": 1,
-    "size": 9,
+    "size": 10,
     "speaker": "Nolann",
     "texte": "Nolann: \"ESSAI ! UN POINT POUR LE RCM !\""
    },
@@ -721,12 +721,12 @@
     "kind": "encadre",
     "rect": [
      227,
-     610,
+     803,
      418,
-     648
+     843
     ],
     "panel": 1,
-    "size": 9,
+    "size": 10,
     "speaker": null,
     "texte": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !"
    },
@@ -746,10 +746,10 @@
    {
     "kind": "bulle",
     "rect": [
-     610,
-     645,
-     856,
-     697
+     432,
+     759,
+     678,
+     811
     ],
     "panel": 2,
     "size": 14,
@@ -760,9 +760,9 @@
     "kind": "encadre",
     "rect": [
      432,
-     795,
+     813,
      807,
-     824
+     842
     ],
     "panel": 2,
     "size": 11,
@@ -785,13 +785,13 @@
    {
     "kind": "bulle",
     "rect": [
-     10,
-     1009,
-     255,
-     1077
+     39,
+     1015,
+     404,
+     1061
     ],
     "panel": 3,
-    "size": 14,
+    "size": 12,
     "speaker": "Ayden",
     "texte": "Ayden: \"Attends Léon, contre Albertville on a quand même eu chaud sur la fin…\""
    },
@@ -811,10 +811,10 @@
    {
     "kind": "bulle",
     "rect": [
-     610,
-     1003,
+     677,
+     973,
      855,
-     1088
+     1091
     ],
     "panel": 4,
     "size": 14,
@@ -826,10 +826,10 @@
    {
     "kind": "bulle",
     "rect": [
-     12,
-     216,
-     387,
-     268
+     349,
+     36,
+     852,
+     88
     ],
     "panel": 0,
     "size": 14,
@@ -840,9 +840,9 @@
     "kind": "bulle",
     "rect": [
      477,
-     168,
+     222,
      852,
-     203
+     257
     ],
     "panel": 0,
     "size": 14,
@@ -892,9 +892,9 @@
     "kind": "bulle",
     "rect": [
      257,
-     459,
+     513,
      433,
-     511
+     565
     ],
     "panel": 1,
     "size": 14,
@@ -919,7 +919,7 @@
     "rect": [
      431,
      495,
-     675,
+     608,
      563
     ],
     "panel": 2,
@@ -944,9 +944,9 @@
     "kind": "bulle",
     "rect": [
      12,
-     688,
+     742,
      377,
-     740
+     794
     ],
     "panel": 3,
     "size": 14,
@@ -957,9 +957,9 @@
     "kind": "encadre",
     "rect": [
      12,
-     742,
+     796,
      377,
-     771
+     825
     ],
     "panel": 3,
     "size": 11,
@@ -984,8 +984,8 @@
     "rect": [
      431,
      724,
-     806,
-     776
+     608,
+     792
     ],
     "panel": 4,
     "size": 14,
@@ -996,9 +996,9 @@
     "kind": "bulle",
     "rect": [
      13,
-     948,
+     1002,
      388,
-     1000
+     1054
     ],
     "panel": 5,
     "size": 14,
@@ -1009,9 +1009,9 @@
     "kind": "bulle",
     "rect": [
      477,
-     990,
+     894,
      852,
-     1025
+     929
     ],
     "panel": 5,
     "size": 14,
@@ -1037,9 +1037,9 @@
     "kind": "bulle",
     "rect": [
      135,
-     551,
+     545,
      311,
-     619
+     613
     ],
     "panel": 1,
     "size": 14,
@@ -1049,10 +1049,10 @@
    {
     "kind": "bulle",
     "rect": [
-     101,
-     665,
-     344,
-     717
+     135,
+     719,
+     311,
+     787
     ],
     "panel": 1,
     "size": 14,
@@ -1143,9 +1143,9 @@
     "kind": "bulle",
     "rect": [
      477,
-     185,
+     83,
      852,
-     237
+     135
     ],
     "panel": 0,
     "size": 14,
@@ -1207,26 +1207,26 @@
    {
     "kind": "bulle",
     "rect": [
-     27,
-     927,
-     837,
-     961
+     13,
+     949,
+     388,
+     1001
     ],
     "panel": 3,
-    "size": 13,
+    "size": 14,
     "speaker": "Flavien",
     "texte": "Flavien: \"Viens boire une gorgée d'eau, Léon. La colère ne fera pas rejouer le match.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     27,
-     967,
-     837,
-     1001
+     476,
+     1015,
+     851,
+     1067
     ],
     "panel": 3,
-    "size": 13,
+    "size": 14,
     "speaker": "Julien",
     "texte": "Julien: \"Ce n'est que le début de la saison… Il va falloir que le groupe apprenne à rebondir.\""
    }
@@ -1249,9 +1249,9 @@
     "kind": "bulle",
     "rect": [
      471,
-     158,
+     254,
      851,
-     210
+     306
     ],
     "panel": 0,
     "size": 14,
@@ -1261,13 +1261,13 @@
    {
     "kind": "bulle",
     "rect": [
-     257,
-     695,
-     433,
-     847
+     13,
+     641,
+     256,
+     736
     ],
     "panel": 1,
-    "size": 14,
+    "size": 13,
     "speaker": "Flavien",
     "texte": "Flavien: \"Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles sont les mêmes pour tout le monde. Montmélian a juste mieux joué en équipe que nous sur ce match-là.\""
    },
@@ -1300,10 +1300,10 @@
    {
     "kind": "bulle",
     "rect": [
-     675,
-     647,
-     851,
-     715
+     431,
+     557,
+     806,
+     592
     ],
     "panel": 2,
     "size": 14,
@@ -1340,9 +1340,9 @@
     "kind": "bulle",
     "rect": [
      13,
-     1008,
-     388,
-     1060
+     990,
+     256,
+     1042
     ],
     "panel": 3,
     "size": 14,
@@ -1394,9 +1394,9 @@
     "kind": "bulle",
     "rect": [
      12,
-     526,
+     502,
      256,
-     628
+     604
     ],
     "panel": 1,
     "size": 14,
@@ -1407,9 +1407,9 @@
     "kind": "bulle",
     "rect": [
      190,
-     640,
+     778,
      434,
-     708
+     846
     ],
     "panel": 1,
     "size": 14,
@@ -1433,9 +1433,9 @@
     "kind": "bulle",
     "rect": [
      444,
-     673,
-     635,
-     719
+     679,
+     688,
+     716
     ],
     "panel": 2,
     "size": 8,
@@ -1445,10 +1445,10 @@
    {
     "kind": "bulle",
     "rect": [
-     647,
-     673,
-     838,
-     710
+     444,
+     812,
+     688,
+     849
     ],
     "panel": 2,
     "size": 8,
@@ -1458,26 +1458,26 @@
    {
     "kind": "bulle",
     "rect": [
-     12,
-     959,
-     189,
-     1094
+     26,
+     859,
+     420,
+     896
     ],
     "panel": 3,
-    "size": 14,
+    "size": 8,
     "speaker": "Flavien",
     "texte": "Flavien: \"Bravo les garçons, vous avez tout compris ! En U8, un joueur tout seul ne gagnera JAMAIS contre cinq adversaires organisés.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     257,
-     863,
-     434,
-     972
+     12,
+     1040,
+     256,
+     1096
     ],
     "panel": 3,
-    "size": 11,
+    "size": 8,
     "speaker": "Flavien",
     "texte": "Flavien: \"Pour progresser, on va travailler nos trois armes secrètes : des passes propres en arrière, une défense en ligne qui monte ensemble sans hors-jeu, et le soutien offensif toujours derrière le copain !\""
    },
@@ -1526,9 +1526,9 @@
     "kind": "bulle",
     "rect": [
      18,
-     228,
+     264,
      378,
-     263
+     299
     ],
     "panel": 0,
     "size": 14,
@@ -1539,9 +1539,9 @@
     "kind": "bulle",
     "rect": [
      18,
-     473,
-     258,
-     558
+     521,
+     388,
+     573
     ],
     "panel": 1,
     "size": 14,
@@ -1577,10 +1577,10 @@
    {
     "kind": "bulle",
     "rect": [
-     18,
-     700,
-     388,
-     752
+     259,
+     748,
+     433,
+     816
     ],
     "panel": 3,
     "size": 14,
@@ -1642,9 +1642,9 @@
    {
     "kind": "bulle",
     "rect": [
-     32,
+     18,
      931,
-     528,
+     514,
      975
     ],
     "panel": 5,
@@ -1684,9 +1684,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     424,
+     472,
      387,
-     459
+     507
     ],
     "panel": 1,
     "size": 14,
@@ -1710,9 +1710,9 @@
     "kind": "bulle",
     "rect": [
      453,
-     502,
+     508,
      828,
-     554
+     560
     ],
     "panel": 2,
     "size": 14,
@@ -1722,10 +1722,10 @@
    {
     "kind": "bulle",
     "rect": [
-     17,
+     259,
      651,
-     387,
-     703
+     435,
+     719
     ],
     "panel": 3,
     "size": 14,
@@ -1736,9 +1736,9 @@
     "kind": "bulle",
     "rect": [
      434,
-     711,
+     723,
      608,
-     763
+     775
     ],
     "panel": 4,
     "size": 14,
@@ -1774,10 +1774,10 @@
    {
     "kind": "bulle",
     "rect": [
-     183,
-     898,
-     681,
-     933
+     17,
+     1048,
+     387,
+     1083
     ],
     "panel": 5,
     "size": 14,
@@ -1829,38 +1829,38 @@
     "kind": "bulle",
     "rect": [
      17,
-     630,
+     644,
      258,
-     670
+     672
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "speaker": "Milo",
     "texte": "Milo: \"Je l'ai pas fait exprès Léon…\""
    },
    {
     "kind": "bulle",
     "rect": [
-     17,
+     31,
      810,
-     192,
-     862
+     219,
+     856
     ],
     "panel": 2,
-    "size": 9,
+    "size": 8,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Arrête Léon, t'es super méchant ! Toi non plus t'étais pas en ligne sur leur essai !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     258,
-     792,
-     433,
-     866
+     231,
+     810,
+     419,
+     856
     ],
     "panel": 2,
-    "size": 11,
+    "size": 8,
     "speaker": "Ayden",
     "texte": "Ayden: \"Ouais ! Si c'est pour nous crier dessus comme ça, on n'a même plus envie de te faire des passes !\""
    },
@@ -1868,25 +1868,25 @@
     "kind": "bulle",
     "rect": [
      446,
-     758,
-     833,
-     807
+     788,
+     633,
+     862
     ],
     "panel": 3,
-    "size": 13,
+    "size": 12,
     "speaker": "Flavien",
     "texte": "Flavien: \"Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipiers. Viens avec moi sur le banc, tout de suite.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     446,
-     813,
-     833,
-     862
+     645,
+     788,
+     832,
+     848
     ],
     "panel": 3,
-    "size": 13,
+    "size": 12,
     "speaker": "Julien",
     "texte": "Julien: \"Venez les garçons, n'écoutez pas ça. Vous avez tout donné sur le terrain.\""
    },
@@ -1921,10 +1921,10 @@
    {
     "kind": "bulle",
     "rect": [
-     350,
-     210,
-     850,
-     262
+     15,
+     72,
+     378,
+     140
     ],
     "panel": 0,
     "size": 14,
@@ -1934,26 +1934,26 @@
    {
     "kind": "bulle",
     "rect": [
-     29,
-     387,
-     218,
-     467
+     15,
+     289,
+     191,
+     391
     ],
     "panel": 1,
-    "size": 13,
+    "size": 14,
     "speaker": "Léon",
     "texte": "Léon: \"Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lyssandro et Ayden aussi.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     230,
+     15,
+     433,
      387,
-     419,
-     482
+     501
     ],
     "panel": 1,
-    "size": 13,
+    "size": 14,
     "speaker": "Flavien",
     "texte": "Flavien: \"Pourquoi tu t'es mis dans une colère pareille, mon grand ? Dis-moi ce qui se passe dans ton cœur quand on perd.\""
    },
@@ -1973,23 +1973,23 @@
    {
     "kind": "bulle",
     "rect": [
-     336,
-     770,
-     836,
-     810
+     251,
+     798,
+     614,
+     851
     ],
     "panel": 3,
-    "size": 9,
+    "size": 10,
     "speaker": "Flavien",
     "texte": "Flavien: \"Écoute-moi bien, Léon, et garde cette phrase dans ta tête pour toute ta vie : on apprend toujours de ses échecs, jamais de ses victoires.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     336,
-     816,
-     836,
-     856
+     350,
+     852,
+     850,
+     901
     ],
     "panel": 3,
     "size": 9,
@@ -1999,10 +1999,10 @@
    {
     "kind": "bulle",
     "rect": [
-     15,
-     984,
-     387,
-     1052
+     487,
+     900,
+     850,
+     968
     ],
     "panel": 4,
     "size": 14,
@@ -2012,13 +2012,13 @@
    {
     "kind": "bulle",
     "rect": [
-     475,
-     918,
-     850,
-     968
+     15,
+     942,
+     390,
+     1044
     ],
     "panel": 4,
-    "size": 9,
+    "size": 14,
     "speaker": "Flavien",
     "texte": "Flavien: \"Exactement champion : on apprend de ses échecs, c'est ce qui conduit à la victoire. Mais pour que l'équipe apprenne, tes copains ont besoin que tu les aides à comprendre, pas que tu leur cries dessus. Tu sais ce qu'il te reste à faire ?\""
    },
@@ -2040,10 +2040,10 @@
    {
     "kind": "bulle",
     "rect": [
-     19,
-     133,
-     389,
-     201
+     259,
+     115,
+     432,
+     233
     ],
     "panel": 0,
     "size": 14,
@@ -2053,10 +2053,10 @@
    {
     "kind": "bulle",
     "rect": [
-     432,
+     606,
      127,
-     802,
-     229
+     845,
+     262
     ],
     "panel": 1,
     "size": 14,
@@ -2066,26 +2066,26 @@
    {
     "kind": "bulle",
     "rect": [
-     33,
-     278,
-     426,
-     306
+     475,
+     270,
+     845,
+     322
     ],
     "panel": 2,
-    "size": 8,
+    "size": 14,
     "speaker": "Léon",
     "texte": "Léon: \"Il a raison Baptiste. Mercredi au stade, je vais m'excuser auprès de Lyssandro, Nolann et Milo !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     438,
-     278,
-     831,
-     324
+     19,
+     396,
+     389,
+     446
     ],
     "panel": 2,
-    "size": 8,
+    "size": 9,
     "speaker": "Léon",
     "texte": "Léon: \"Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m'a expliqué qu'on apprend toujours de nos échecs. Si on fait un en-avant ou qu'on perd, je ne m'énerverai plus : on cherchera ensemble comment faire mieux !\""
    },
@@ -2119,9 +2119,9 @@
     "kind": "bulle",
     "rect": [
      33,
-     892,
+     916,
      426,
-     920
+     944
     ],
     "panel": 3,
     "size": 8,
@@ -2132,9 +2132,9 @@
     "kind": "bulle",
     "rect": [
      438,
-     892,
+     916,
      831,
-     920
+     944
     ],
     "panel": 3,
     "size": 8,
@@ -2144,10 +2144,10 @@
    {
     "kind": "bulle",
     "rect": [
-     19,
-     1100,
-     389,
-     1152
+     184,
+     944,
+     679,
+     996
     ],
     "panel": 4,
     "size": 14,
@@ -2212,9 +2212,9 @@
     "kind": "bulle",
     "rect": [
      432,
-     371,
-     607,
-     456
+     281,
+     807,
+     333
     ],
     "panel": 2,
     "size": 14,
@@ -2251,9 +2251,9 @@
     "kind": "bulle",
     "rect": [
      15,
-     785,
-     387,
-     820
+     851,
+     378,
+     886
     ],
     "panel": 3,
     "size": 14,
@@ -2264,9 +2264,9 @@
     "kind": "bulle",
     "rect": [
      474,
-     785,
+     851,
      849,
-     820
+     886
     ],
     "panel": 3,
     "size": 14,
@@ -2292,9 +2292,9 @@
     "kind": "bulle",
     "rect": [
      20,
-     134,
+     20,
      388,
-     202
+     88
     ],
     "panel": 0,
     "size": 14,
@@ -2304,13 +2304,13 @@
    {
     "kind": "bulle",
     "rect": [
-     446,
+     592,
      100,
      830,
-     164
+     170
     ],
     "panel": 1,
-    "size": 13,
+    "size": 11,
     "speaker": "Flavien",
     "texte": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux bras autour des jambes comme une ceinture, et on accompagne le joueur au sol !\""
    },
@@ -2331,12 +2331,12 @@
     "kind": "bulle",
     "rect": [
      446,
-     170,
+     176,
      830,
-     204
+     207
     ],
     "panel": 1,
-    "size": 13,
+    "size": 11,
     "speaker": "Kilian",
     "texte": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\""
    },
@@ -2344,38 +2344,38 @@
     "kind": "bulle",
     "rect": [
      446,
-     210,
+     213,
      830,
      244
     ],
     "panel": 1,
-    "size": 13,
+    "size": 11,
     "speaker": "Nolann",
     "texte": "Nolann: \"Même le boudin il a pas bougé d'un centimètre !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     34,
-     270,
-     426,
-     304
+     248,
+     298,
+     616,
+     333
     ],
     "panel": 2,
-    "size": 13,
+    "size": 14,
     "speaker": "Ayden",
     "texte": "Ayden: \"Je le plaque en bas, Milo !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     438,
-     270,
-     830,
-     304
+     20,
+     376,
+     514,
+     411
     ],
     "panel": 2,
-    "size": 13,
+    "size": 14,
     "speaker": "Milo",
     "texte": "Milo: \"Et moi je récupère le ballon dès qu'il est au sol !\""
    },
@@ -2422,9 +2422,9 @@
     "kind": "bulle",
     "rect": [
      432,
-     1055,
-     670,
-     1157
+     1133,
+     802,
+     1201
     ],
     "panel": 5,
     "size": 14,
@@ -2462,26 +2462,26 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     681,
-     258,
-     799
+     34,
+     743,
+     220,
+     845
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Et en défense, c'est pareil : mon papa dit que si un seul de nous cinq monte trop vite, il est hors-jeu ou il se fait éviter. Faut qu'on avance comme un mur !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     259,
-     687,
-     432,
-     755
+     232,
+     743,
+     418,
+     789
     ],
     "panel": 1,
-    "size": 14,
+    "size": 12,
     "speaker": "Milo",
     "texte": "Milo: \"Le mur Rouge, Bleu et Blanc du RCM !\""
    },
@@ -2502,9 +2502,9 @@
     "kind": "bulle",
     "rect": [
      34,
-     984,
-     419,
-     1033
+     1068,
+     220,
+     1148
     ],
     "panel": 3,
     "size": 13,
@@ -2514,10 +2514,10 @@
    {
     "kind": "bulle",
     "rect": [
-     34,
-     1039,
-     419,
-     1088
+     232,
+     1068,
+     418,
+     1148
     ],
     "panel": 3,
     "size": 13,
@@ -2568,10 +2568,10 @@
    {
     "kind": "bulle",
     "rect": [
-     19,
-     299,
-     439,
-     351
+     424,
+     245,
+     844,
+     297
     ],
     "panel": 0,
     "size": 14,
@@ -2700,10 +2700,10 @@
    {
     "kind": "bulle",
     "rect": [
-     260,
-     494,
-     433,
-     612
+     20,
+     626,
+     259,
+     711
     ],
     "panel": 1,
     "size": 14,
@@ -2715,24 +2715,24 @@
     "rect": [
      446,
      502,
-     830,
-     536
+     632,
+     530
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "speaker": "Milo",
     "texte": "Milo: \"Tu… tu n'es pas en colère Léon ?\""
    },
    {
     "kind": "bulle",
     "rect": [
-     446,
-     638,
+     644,
+     502,
      830,
-     702
+     558
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "speaker": "Léon",
     "texte": "Léon: \"Bien sûr que non ! On a perdu d'un point contre Thonon, mais on sait exactement quoi travailler mercredi à l'entraînement : faire la passe avant le plaquage !\""
    },
@@ -2740,25 +2740,25 @@
     "kind": "bulle",
     "rect": [
      446,
-     708,
-     830,
-     757
+     726,
+     632,
+     763
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "speaker": "Ayden",
     "texte": "Ayden: \"Et moi j'aurais dû être encore plus près de Milo en soutien offensif !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     446,
-     763,
+     644,
+     726,
      830,
-     812
+     763
     ],
     "panel": 2,
-    "size": 13,
+    "size": 8,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Trop bien dit Léon ! Au prochain tournoi, cette action-là, elle ira au bout !\""
    },
@@ -2766,9 +2766,9 @@
     "kind": "bulle",
     "rect": [
      20,
-     960,
-     388,
-     1012
+     828,
+     193,
+     896
     ],
     "panel": 3,
     "size": 14,
@@ -2779,9 +2779,9 @@
     "kind": "bulle",
     "rect": [
      432,
-     990,
-     605,
-     1142
+     822,
+     807,
+     890
     ],
     "panel": 4,
     "size": 14,
@@ -2791,10 +2791,10 @@
    {
     "kind": "bulle",
     "rect": [
-     671,
-     984,
-     844,
-     1069
+     432,
+     1092,
+     807,
+     1144
     ],
     "panel": 4,
     "size": 14,
@@ -2859,9 +2859,9 @@
     "kind": "bulle",
     "rect": [
      446,
-     759,
+     777,
      831,
-     801
+     819
     ],
     "panel": 2,
     "size": 10,
@@ -2871,10 +2871,10 @@
    {
     "kind": "bulle",
     "rect": [
-     20,
-     954,
-     258,
-     1022
+     194,
+     846,
+     432,
+     914
     ],
     "panel": 3,
     "size": 14,
@@ -2884,10 +2884,10 @@
    {
     "kind": "bulle",
     "rect": [
-     519,
-     1002,
-     757,
-     1054
+     432,
+     870,
+     807,
+     922
     ],
     "panel": 4,
     "size": 14,
@@ -2913,9 +2913,9 @@
     "kind": "bulle",
     "rect": [
      267,
-     198,
+     246,
      597,
-     233
+     281
     ],
     "panel": 0,
     "size": 14,
@@ -2925,10 +2925,10 @@
    {
     "kind": "bulle",
     "rect": [
-     518,
-     234,
+     350,
+     282,
      848,
-     286
+     317
     ],
     "panel": 0,
     "size": 14,
@@ -2939,9 +2939,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     449,
+     347,
      387,
-     501
+     399
     ],
     "panel": 1,
     "size": 14,
@@ -2965,9 +2965,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     713,
+     635,
      387,
-     748
+     670
     ],
     "panel": 2,
     "size": 14,
@@ -2991,9 +2991,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     1019,
+     1061,
      387,
-     1071
+     1113
     ],
     "panel": 3,
     "size": 14,
@@ -3032,9 +3032,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     327,
+     357,
      515,
-     379
+     409
     ],
     "panel": 0,
     "size": 14,
@@ -3083,10 +3083,10 @@
    {
     "kind": "bulle",
     "rect": [
-     519,
-     674,
-     760,
-     792
+     452,
+     734,
+     827,
+     819
     ],
     "panel": 2,
     "size": 14,
@@ -3151,9 +3151,9 @@
     "kind": "bulle",
     "rect": [
      31,
-     730,
-     219,
-     779
+     502,
+     419,
+     536
     ],
     "panel": 1,
     "size": 13,
@@ -3163,10 +3163,10 @@
    {
     "kind": "bulle",
     "rect": [
-     231,
-     730,
+     31,
+     752,
      419,
-     779
+     786
     ],
     "panel": 1,
     "size": 13,
@@ -3177,9 +3177,9 @@
     "kind": "encadre",
     "rect": [
      31,
-     785,
+     792,
      419,
-     817
+     824
     ],
     "panel": 1,
     "size": 13,
@@ -3203,9 +3203,9 @@
     "kind": "bulle",
     "rect": [
      673,
-     632,
+     524,
      848,
-     684
+     576
     ],
     "panel": 2,
     "size": 14,
@@ -3216,9 +3216,9 @@
     "kind": "encadre",
     "rect": [
      432,
-     770,
+     668,
      807,
-     799
+     697
     ],
     "panel": 2,
     "size": 11,
@@ -3228,10 +3228,10 @@
    {
     "kind": "bulle",
     "rect": [
-     104,
-     1020,
-     345,
-     1072
+     17,
+     1092,
+     258,
+     1144
     ],
     "panel": 3,
     "size": 14,
@@ -3241,10 +3241,10 @@
    {
     "kind": "bulle",
     "rect": [
-     192,
-     1074,
+     258,
+     1056,
      433,
-     1142
+     1158
     ],
     "panel": 3,
     "size": 14,
@@ -3335,9 +3335,9 @@
     "kind": "bulle",
     "rect": [
      432,
-     759,
+     807,
      673,
-     861
+     909
     ],
     "panel": 3,
     "size": 14,
@@ -3348,12 +3348,12 @@
     "kind": "bulle",
     "rect": [
      673,
-     669,
+     699,
      848,
      795
     ],
     "panel": 3,
-    "size": 13,
+    "size": 11,
     "speaker": "Kilian",
     "texte": "Kilian: \"Ça veut dire que si vous gagnez vos deux derniers matchs contre Aix-les-Bains puis contre Montmélian, vous finissez PREMIERS du tournoi au classement général !\""
    },
@@ -3361,9 +3361,9 @@
     "kind": "bulle",
     "rect": [
      17,
-     1030,
-     192,
-     1156
+     1108,
+     387,
+     1172
     ],
     "panel": 4,
     "size": 13,
@@ -3373,35 +3373,35 @@
    {
     "kind": "bulle",
     "rect": [
-     431,
-     933,
-     605,
-     1085
+     445,
+     929,
+     831,
+     993
     ],
     "panel": 5,
-    "size": 14,
+    "size": 13,
     "speaker": "Flavien",
     "texte": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense en ligne : vous vous êtes mis à trois sur le même porteur au milieu, ce qui a laissé tout le côté ouvert !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     671,
-     993,
-     845,
-     1111
+     445,
+     1059,
+     632,
+     1154
     ],
     "panel": 5,
-    "size": 14,
+    "size": 13,
     "speaker": "Julien",
     "texte": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, et les autres qui gardent la largeur des 20 mètres !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     431,
-     1089,
-     670,
+     644,
+     1059,
+     831,
      1169
     ],
     "panel": 5,
@@ -3492,10 +3492,10 @@
    {
     "kind": "bulle",
     "rect": [
-     192,
-     1003,
-     433,
-     1071
+     137,
+     973,
+     312,
+     1058
     ],
     "panel": 3,
     "size": 14,
@@ -3534,9 +3534,9 @@
     "kind": "encadre",
     "rect": [
      17,
-     163,
+     217,
      387,
-     205
+     259
     ],
     "panel": 0,
     "size": 11,
@@ -3678,39 +3678,39 @@
    {
     "kind": "bulle",
     "rect": [
-     31,
-     394,
-     834,
-     428
+     267,
+     482,
+     597,
+     517
     ],
     "panel": 2,
-    "size": 13,
+    "size": 14,
     "speaker": "Léon",
     "texte": "Léon: \"POUR VOUS LES COPAINS ! SOUTIEN !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     31,
-     434,
-     834,
-     468
+     267,
+     632,
+     597,
+     684
     ],
     "panel": 2,
-    "size": 13,
+    "size": 14,
     "speaker": "Lyssandro",
     "texte": "Lyssandro: \"Je l'ai Léon ! Tiens Milo, va marquer !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     336,
-     474,
-     834,
-     508
+     252,
+     686,
+     613,
+     721
     ],
     "panel": 2,
-    "size": 13,
+    "size": 14,
     "speaker": "Nolann",
     "texte": "Nolann: \"VAS-Y MILO, IL N'Y A PLUS PERSONNE !\""
    },
@@ -3759,9 +3759,9 @@
     "kind": "bulle",
     "rect": [
      20,
-     247,
-     193,
-     349
+     49,
+     388,
+     101
     ],
     "panel": 0,
     "size": 14,
@@ -3771,10 +3771,10 @@
    {
     "kind": "bulle",
     "rect": [
-     194,
+     259,
      289,
      432,
-     357
+     374
     ],
     "panel": 0,
     "size": 14,
@@ -3798,9 +3798,9 @@
     "kind": "bulle",
     "rect": [
      432,
-     259,
+     271,
      670,
-     327
+     339
     ],
     "panel": 1,
     "size": 14,
@@ -3823,10 +3823,10 @@
    {
     "kind": "bulle",
     "rect": [
-     107,
-     542,
-     345,
-     627
+     20,
+     638,
+     388,
+     706
     ],
     "panel": 2,
     "size": 14,
