@@ -8,6 +8,7 @@ queue de bulle pointée vers le personnage qui parle.
 Usage : PYTHONPATH=.arena/vendor python outils/lettrage/generer_avec_texte.py [--check]
   --check : contrôle que les bulles ne recouvrent pas de zones de peau (visages).
 """
+import re
 import sys
 from pathlib import Path
 
@@ -16,6 +17,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent))
 from bd_common import Lettrage, ROOT  # noqa: E402
+import personnages as PS  # noqa: E402
 
 SRC = {
     1: 'Planches-dessin/01-la-legende-des-u6-marvel.png',
@@ -222,6 +224,7 @@ PAGES = {
         ('bulle', (40, 305, 410, 450), "OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on a perdu ! Vous faites que des en-avant, vous savez même pas attraper un ballon ! Avec vous, on gagnera jamais rien !", [(65, 452), (90, 452), (120, 495)]),
         ('bulle', (40, 652, 410, 730), "Je l'ai pas fait exprès Léon…", [(65, 732), (90, 732), (75, 775)]),
         ('bulle', (40, 760, 410, 855), "Arrête Léon, t'es super méchant ! Toi non plus t'étais pas en ligne sur leur essai !", [(340, 762), (365, 762), (380, 725)]),
+        ('bulle', (40, 780, 410, 850), "Ouais ! Si c'est pour nous crier dessus comme ça, on n'a même plus envie de te faire des passes !", [(250, 782), (275, 782), (250, 800)]),
         ('bulle', (455, 652, 830, 760), "Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipiers. Viens avec moi sur le banc, tout de suite.", [(480, 762), (505, 762), (490, 805)]),
         ('bulle', (455, 780, 830, 855), "Venez les garçons, n'écoutez pas ça. Vous avez tout donné sur le terrain.", [(770, 782), (795, 782), (810, 745)]),
         ('pensee', (40, 900, 420, 1030), "Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…", [(60, 1045, 9), (82, 1063, 6), (100, 1078, 4)]),
@@ -416,6 +419,41 @@ def dst_path(page):
     return f'Planches-dessin/Avec-texte/{stem}-avec-texte.png'
 
 
+def _norm_txt(t):
+    t = (t.replace('**', '').replace('«', '').replace('»', '')
+         .replace('\u201c', '').replace('\u201d', '').replace('…', '...').replace('’', "'"))
+    return re.sub(r'\s+', ' ', t).strip().lower()
+
+
+def _point_estime(el):
+    """Point locuteur estimé à la main (3e point de la queue) — simple prior.""" 
+    if el[0] == 'bulle':
+        return el[3][2]
+    if el[0] == 'pensee':
+        cx, cy, _ = el[3][-1]
+        return (cx, cy)
+    return None
+
+
+def locuteurs_alignes(page, scen):
+    """Locuteur scénario de chaque élément PAGES (alignement par texte)."""
+    sc_els = [e for v in scen.get(page, []) for e in v['elements'] if e['kind'] != 'ono']
+    out = []
+    for el in PAGES[page]:
+        if el[0] == 'ono':
+            out.append('')
+            continue
+        n = _norm_txt(el[2])
+        sp = ''
+        for e in sc_els:
+            en = _norm_txt(e['text'])
+            if en == n or en.startswith(n[:60]) or n.startswith(en[:60]):
+                sp = e['speaker']
+                break
+        out.append(PS.locuteur_reference(sp))
+    return out
+
+
 def _locuteur(el):
     """Point locuteur : pointe de la bulle vers la bouche du personnage qui parle."""
     if el[0] == 'bulle':
@@ -447,61 +485,102 @@ def _snap_face(loc, faces, max_dist=55):
     return loc, None
 
 
-def _queue_auto(rect, locuteur, face=None):
-    """Triangle de queue : base sur le bord de la bulle le plus proche du locuteur,
-    pointe arrêtée juste avant le visage (ancré sur le visage détecté si fourni)."""
+def _dist_segment_box(ax, ay, bx, by, box):
+    """Distance minimale entre le segment [A,B] et une boîte (0 si traversée)."""
+    best = 1e9
+    for t in range(11):
+        t /= 10
+        px, py = ax + (bx - ax) * t, ay + (by - ay) * t
+        dx = max(box[0] - px, 0, px - (box[0] + box[2]))
+        dy = max(box[1] - py, 0, py - (box[1] + box[3]))
+        best = min(best, (dx * dx + dy * dy) ** 0.5)
+    return best
+
+
+def _queue_auto(rect, locuteur, face=None, autres=None, max_long=400):
+    """Queue de bulle : base sur le bord de la bulle dont la ligne vers le
+    locuteur évite le mieux les autres têtes ; pointe arrêtée juste avant la
+    tête visée (queues longues autorisées : la pointe doit ATTEINDRE la tête)."""
     x1, y1, x2, y2 = rect
     lx, ly = locuteur
-    ax = min(max(lx, x1), x2)
-    ay = min(max(ly, y1), y2)
-    if ax in (x1, x2) and ay not in (y1, y2):
-        pass
-    elif ax in (x1, x2):
-        ay = y1 if abs(ly - y1) < abs(ly - y2) else y2
-    else:
-        ax = x1 if abs(lx - x1) < abs(lx - x2) else x2
     if face is not None:
         tx, ty = face[0] + face[2] / 2, face[1] + face[3] / 2
-        dx = max(face[0] - ax, 0, ax - (face[0] + face[2]))
-        dy = max(face[1] - ay, 0, ay - (face[1] + face[3]))
-        dist = max(1e-6, (dx * dx + dy * dy) ** 0.5)
-        tip_d = min(dist - 8, 50)
     else:
         tx, ty = lx, ly
-        dx, dy = lx - ax, ly - ay
-        dist = max(1e-6, (dx * dx + dy * dy) ** 0.5)
-        tip_d = min(dist - 12, 48)
-    if tip_d < 14:
-        tip_d = min(dist - 4, 16)
-    tip = (ax + (tx - ax) / max(dist, 1e-6) * tip_d if face is None
-           else ax + (tx - ax) / (( (tx-ax)**2 + (ty-ay)**2 ) ** 0.5) * tip_d,
-           ay + (ty - ay) / (( (tx-ax)**2 + (ty-ay)**2 ) ** 0.5) * tip_d)
-    if ay in (y1, y2):  # bord horizontal : base le long du bord
+    cands = []
+    for t in (0.15, 0.3, 0.5, 0.7, 0.85):
+        cands.append((min(max(tx, x1 + 14), x2 - 14) if t == 0.5 else x1 + t * (x2 - x1), y1, 'h'))
+        cands.append((min(max(tx, x1 + 14), x2 - 14) if t == 0.5 else x1 + t * (x2 - x1), y2, 'h'))
+        cands.append((x1, min(max(ty, y1 + 14), y2 - 14) if t == 0.5 else y1 + t * (y2 - y1), 'v'))
+        cands.append((x2, min(max(ty, y1 + 14), y2 - 14) if t == 0.5 else y1 + t * (y2 - y1), 'v'))
+    best = None
+    for ax, ay, ori in cands:
+        ax = min(max(ax, x1 + 6), x2 - 6)
+        ay = min(max(ay, y1 + 6), y2 - 6)
+        d = ((tx - ax) ** 2 + (ty - ay) ** 2) ** 0.5
+        if d < 14:
+            continue
+        clearance = 1e9
+        for b in (autres or []):
+            clearance = min(clearance, _dist_segment_box(ax, ay, tx, ty, b))
+        score = (0 if clearance > 26 else 26 - clearance) * 3 + d / 200
+        if best is None or score < best[0]:
+            best = (score, ax, ay, ori, d)
+    if best is None:
+        return None
+    _, ax, ay, ori, d = best
+    tip_d = min(d - 8, max_long)
+    if tip_d < 10:
+        tip_d = max(6, d - 4)
+    ux, uy = (tx - ax) / max(d, 1e-6), (ty - ay) / max(d, 1e-6)
+    tip = (ax + ux * tip_d, ay + uy * tip_d)
+    if ori == 'h':
         base = [(ax - 13, ay), (ax + 13, ay)]
-    else:  # bord vertical
+    else:
         base = [(ax, ay - 13), (ax, ay + 13)]
     return [base[0], base[1], tip]
 
 
 def _place_ono(ctx, cx, cy):
-    """Décale une onomatopée pour éviter visages et bulles déjà posées."""
+    """Décale une onomatopée pour éviter têtes, corps et bulles déjà posées.
+    Fenêtre locale d'abord, puis balayage de toute la vignette en dernier
+    recours (avec préférence pour rester près de la position d'origine)."""
+    def cout(bx, by, eloigne):
+        box = (bx - 48, by - 20, bx + 48, by + 20)
+        surf = (box[2] - box[0]) * (box[3] - box[1])
+        c_t = c_p = c_b = 0.0
+        for f in ctx['tetes']:
+            inter = _inter_box(box, f)
+            if inter:
+                c_t = max(c_t, inter / min(surf, f[2] * f[3]))
+        for f in ctx['corps']:
+            inter = _inter_box(box, f)
+            if inter:
+                c_b = max(c_b, inter / min(surf, f[2] * f[3]))
+        for r in ctx['placed']:
+            inter = _inter_box(box, (r[0], r[1], r[2] - r[0], r[3] - r[1]))
+            if inter:
+                c_p = max(c_p, inter / surf)
+        if not eloigne:                    # fenêtre locale : compromis distance/propreté
+            return 3 * c_t + c_b + c_p + (abs(bx - cx) + abs(by - cy)) / 300
+        # balayage large : la propreté domine largement la distance
+        return 40 * c_t + 10 * c_p + c_b + ((bx - cx) ** 2 + (by - cy) ** 2) ** 0.5 / 800
+
     best, best_c = (cx, cy), None
-    for dy in range(-72, 73, 12):
-        for dx in range(-72, 73, 12):
-            bx, by = cx + dx, cy + dy
-            box = (bx - 48, by - 20, bx + 48, by + 20)
-            c = 0.0
-            for f in ctx['faces']:
-                inter = _inter_box(box, f)
-                if inter:
-                    c += inter / min((box[2] - box[0]) * (box[3] - box[1]), f[2] * f[3])
-            for r in ctx['placed']:
-                inter = _inter_box(box, (r[0], r[1], r[2] - r[0], r[3] - r[1]))
-                if inter:
-                    c += inter / ((box[2] - box[0]) * (box[3] - box[1]))
-            c += (abs(dx) + abs(dy)) / 300
+    for dy in range(-150, 151, 12):
+        for dx in range(-150, 151, 12):
+            c = cout(cx + dx, cy + dy, False)
             if best_c is None or c < best_c:
-                best, best_c = (bx, by), c
+                best, best_c = (cx + dx, cy + dy), c
+    if best_c is None or best_c > 0.05:          # conflit résiduel -> vignette entière
+        for pn in ctx['panels']:
+            if pn[0] - 40 <= cx <= pn[2] + 40 and pn[1] - 40 <= cy <= pn[3] + 40:
+                for by in range(int(pn[1]) + 22, int(pn[3]) - 22, 12):
+                    for bx in range(int(pn[0]) + 30, int(pn[2]) - 30, 12):
+                        c = cout(bx, by, True)
+                        if c < best_c:
+                            best, best_c = (bx, by), c
+                break
     return best
 
 
@@ -512,55 +591,154 @@ def _inter_box(a, b):
 
 
 def apply_page(page, ctx, manifest):
+    """Lettrage d'une planche : résolution des locuteurs, placement, rendu."""
     L = Lettrage(SRC[page], dst_path(page))
     els = PAGES[page]
+    panels = ctx['panels']
+    pers = ctx['personnes']
+    speakers = ctx['speakers']
 
-    # --- Phase 1 : placement glouton, élément par élément ------------------
-    placements = [None] * len(els)      # par élément : dict(rect, size, soft, panel)
-    panel_elems = {}                    # index vignette -> indices d'éléments
+    # panel de chaque élément (les onomatopées restent sans panel)
+    pidx_of = {}
     for i, el in enumerate(els):
         if el[0] == 'ono':
             continue
-        pidx, panel = P._panel_of(el[1], ctx['panels'])
-        loc = _locuteur(el)
-        prev = ctx['prev_per_panel'].get(pidx)
-        rect, size, soft = P.placer(el[0], el[2], el[1], ctx['faces'], ctx['placed'],
-                                    panel, speaker=loc, prev=prev)
-        ctx['prev_per_panel'][pidx] = rect
-        ctx['placed'].append(rect)
-        placements[i] = {'rect': rect, 'size': size, 'soft': soft, 'panel': pidx}
+        pidx_of[i] = P._panel_of(el[1], panels)[0]
+
+    # résolution locuteur -> personne (têtes détectées + identités + présence scénario)
+    priors = {i: _point_estime(el) for i, el in enumerate(els) if el[0] in ('bulle', 'pensee')}
+    a_res = [{'idx': i, 'panel': pidx_of[i], 'speaker': speakers[i]}
+             for i, el in enumerate(els)
+             if el[0] in ('bulle', 'pensee') and speakers[i]]
+    resol = PS.resoudre_page(a_res, pers, panels, ctx['vigs'], priors)
+
+    # obstacles : têtes (interdites, marge haute renforcée pour cheveux/front)
+    # et zones de peau (corps, mains, visages partiels : fortement pénalisées)
+    tetes = []
+    for pr in pers:
+        z = PS.zone_tete(pr)
+        if z is None:
+            continue
+        x, y, w, h = z
+        tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
+    corps = list(ctx.get('blobs') or [])
+    for pr in pers:
+        if pr.get('corps'):
+            corps.append(pr['corps'])
+    ctx['tetes'] = tetes
+    ctx['corps'] = corps
+
+    # --- Phase 1 : placement glouton, élément par élément ------------------
+    placements = [None] * len(els)
+    panel_elems = {}
+    prev_per_panel = {}
+    placed = []
+    # les onomatopées restent à leur place canonique : les bulles les évitent
+    onos = [(el[1][0] - 48, el[1][1] - 18, el[1][0] + 48, el[1][1] + 18)
+            for el in els if el[0] == 'ono']
+    placed.extend(onos)
+    for i, el in enumerate(els):
+        if el[0] == 'ono':
+            continue
+        pidx = pidx_of[i]
+        panel = panels[pidx]
+        pr = resol.get(i)
+        spk = PS.point_bouche(pr) if pr is not None else priors.get(i)
+        rect, size, soft = P.placer(el[0], el[2], el[1], tetes, placed, panel,
+                                     speaker=spk, prev=prev_per_panel.get(pidx), bodies=corps)
+        prev_per_panel[pidx] = rect
+        placed.append(rect)
+        placements[i] = {'rect': rect, 'size': size, 'soft': soft, 'panel': pidx,
+                         'pers': pr, 'kind': el[0]}
         panel_elems.setdefault(pidx, []).append(i)
 
-    # --- Phase 2 : réparation des vignettes ayant connu un repli -----------
+    # --- Phase 2 : réparation (repli OU recouvrement de peau > 30 %) --------
+    import placer as _P
     for pidx, idxs in panel_elems.items():
-        if not any(placements[i]['soft'] for i in idxs):
+        trop_couvert = any(_P._face_overlap(placements[i]['rect'], corps) > 0.30
+                           for i in idxs if placements[i])
+        if not any(placements[i]['soft'] for i in idxs) and not trop_couvert:
             continue
-        panel = ctx['panels'][pidx]
-        els_p = [{'kind': els[i][0], 'text': els[i][2], 'speaker': _locuteur(els[i])}
-                 for i in idxs]
-        placed_other = [placements[j]['rect'] for j, p in enumerate(placements)
-                        if p and p['panel'] != pidx]
-        res = P.reparer_panel(panel, els_p, ctx['faces'], placed_other)
+        panel = panels[pidx]
+        els_p = []
+        for i in idxs:
+            pr = placements[i]['pers']
+            els_p.append({'kind': els[i][0], 'text': els[i][2],
+                          'speaker': PS.point_bouche(pr) if pr is not None else priors.get(i)})
+        placed_other = [placements[j]['rect'] for j, q in enumerate(placements)
+                        if q and q['panel'] != pidx] + list(onos)
+        res = P.reparer_panel(panel, els_p, tetes, placed_other, bodies=corps)
         if res:
             rects, size = res
             print(f'  page {page:02d} : réparation vignette {pidx} '
                   f'({len(idxs)} éléments, taille {size})', file=sys.stderr)
             for i, r in zip(idxs, rects):
-                placements[i] = {'rect': r, 'size': size, 'soft': False, 'panel': pidx}
+                placements[i] = {'rect': r, 'size': size, 'soft': False, 'panel': pidx,
+                                 'pers': placements[i]['pers'],
+                                 'queue': placements[i].get('queue'),
+                                 'kind': placements[i].get('kind', els[i][0])}
 
-    # --- Phase 3 : rendu (bulles, puis onomatopées) -------------------------
-    ctx['placed'] = [p['rect'] for p in placements if p]
+    # --- Phase 2.5 : ordre de lecture au sein de chaque vignette -----------
+    # deux bulles inversées spatialement -> on échange leurs textes si chacun
+    # tient dans le rectangle de l'autre (les queues suivent le locuteur du texte)
+    def _ordre_ok(r, pr):
+        below = r[1] >= pr[1] + 40
+        if r[0] >= pr[2] - 8:      # colonne à droite : escalier toléré
+            return r[1] >= pr[1] - 120
+        if r[2] <= pr[0] + 8:      # colonne à gauche : rangée suivante
+            return below
+        return r[1] >= pr[1] - 16  # même colonne : jamais plus haut
+
+    def _taille_qui_tient(texte, kind, r, s_max):
+        w, h = r[2] - r[0], r[3] - r[1]
+        for taille in range(min(s_max, 13), 6, -1):
+            if P.mesurer(texte, w, taille, *P.PADS[kind][:2]) <= h:
+                return taille
+        return None
+
+    def _echange_possible(ia, ib):
+        ea, eb = els[ia], els[ib]
+        if ea[0] != eb[0] or ea[0] not in ('bulle', 'pensee'):
+            return False
+        ra, rb = placements[ia]['rect'], placements[ib]['rect']
+        return (_taille_qui_tient(ea[2], ea[0], rb, 13) is not None
+                and _taille_qui_tient(eb[2], eb[0], ra, 13) is not None)
+
+    for pidx, idxs in panel_elems.items():
+        for a in range(len(idxs)):
+            for b in range(a + 1, len(idxs)):
+                ia, ib = idxs[a], idxs[b]
+                ra, rb = placements[ia]['rect'], placements[ib]['rect']
+                if not _ordre_ok(rb, ra) and _echange_possible(ia, ib):
+                    placements[ia]['rect'], placements[ib]['rect'] = rb, ra
+                    placements[ia]['size'] = _taille_qui_tient(els[ia][2], els[ia][0], rb, 13)
+                    placements[ib]['size'] = _taille_qui_tient(els[ib][2], els[ib][0], ra, 13)
+                    print(f'  page {page:02d} : ordre rétabli dans la vignette {pidx} '
+                          f'(éléments {ia} et {ib} échangés)', file=sys.stderr)
+
+    # --- Phase 3 : rendu (bulles avec queues ancrées, puis onomatopées) ----
     for i, el in enumerate(els):
         p = placements[i]
         if p is None:
             continue
         rect, size, kind = p['rect'], p['size'], el[0]
-        loc, face_loc = _snap_face(_locuteur(el), ctx['faces'])
+        pr = p.get('pers')
         if kind == 'encadre':
             L.encadre(rect, el[2], maximum=size)
         elif kind == 'bulle':
-            L.bulle(rect, el[2], _queue_auto(rect, loc, face=face_loc), maximum=size)
+            pn = panels[pidx_of[i]]
+            autres = [PS.zone_tete(q) for q in pers
+                      if q is not pr and q['tete'] is not None
+                      and pn[0] - 30 <= PS.zone_tete(q)[0] + PS.zone_tete(q)[2] / 2 <= pn[2] + 30
+                      and pn[1] - 30 <= PS.zone_tete(q)[1] + PS.zone_tete(q)[3] / 2 <= pn[3] + 30]
+            if pr is not None:
+                q = _queue_auto(rect, PS.point_bouche(pr), face=PS.zone_tete(pr), autres=autres)
+            else:
+                q = _queue_auto(rect, _point_estime(el))
+            p['queue'] = q
+            L.bulle(rect, el[2], q, maximum=size)
         elif kind == 'pensee':
+            loc = PS.point_bouche(pr) if pr is not None else _point_estime(el)
             x1, y1, x2, y2 = rect
             ax = min(max(loc[0], x1), x2)
             ay = min(max(loc[1], y1), y2)
@@ -570,6 +748,7 @@ def apply_page(page, ctx, manifest):
             for d, r in ((16, 8), (28, 6), (38, 4)):
                 bx, by = ax + dx / n * min(d, max(6, n - 6)), ay + dy / n * min(d, max(6, n - 6))
                 bulles.append((bx, by, r))
+            p['queue'] = bulles[-1][:2]
             L.pensee(rect, el[2], bulles, maximum=size)
         elif kind == 'voix':
             L.voix_off(rect, el[2], maximum=size)
@@ -578,37 +757,77 @@ def apply_page(page, ctx, manifest):
     for i, el in enumerate(els):
         if el[0] != 'ono':
             continue
+        # obstacles à jour : bulles posées (après réparation) + autres onomatopées
+        ctx['placed'] = [q['rect'] for q in placements if q and q.get('kind') != 'ono']
+        for j, e2 in enumerate(els):
+            if e2[0] != 'ono' or j == i:
+                continue
+            if placements[j] is not None:
+                ctx['placed'].append(tuple(placements[j]['rect']))
+            else:
+                ctx['placed'].append((e2[1][0] - 48, e2[1][1] - 18,
+                                      e2[1][0] + 48, e2[1][1] + 18))
         bx, by = _place_ono(ctx, el[1][0], el[1][1])
         L.onomatopee((bx, by), el[2], size=el[3] if len(el) > 3 else 15)
         box = (bx - 48, by - 18, bx + 48, by + 18)
         ctx['placed'].append(box)
-        placements[i] = {'rect': [round(v) for v in box], 'size': None, 'soft': False, 'panel': None}
+        placements[i] = {'rect': box, 'size': None, 'soft': False,
+                         'panel': None, 'pers': None, 'kind': 'ono'}
 
+    # --- manifeste enrichi (pointe de queue + locuteur) --------------------
     for i, el in enumerate(els):
         p = placements[i]
-        manifest.append({'kind': el[0], 'rect': [round(v) for v in p['rect']],
-                         'panel': p['panel'], 'size': p['size']})
+        ent = {'kind': el[0], 'rect': [round(v) for v in p['rect']],
+               'panel': p['panel'], 'size': p['size']}
+        pr = p.get('pers')
+        if el[0] in ('bulle', 'pensee') and p.get('queue') is not None:
+            q = p['queue']
+            if el[0] == 'bulle':          # [base1, base2, pointe]
+                ent['queue_tip'] = [round(q[2][0]), round(q[2][1])]
+            else:                         # pensée : position de la dernière bulle
+                ent['queue_tip'] = [round(q[0]), round(q[1])]
+            if pr is not None:
+                z = PS.zone_tete(pr)
+                ent['locuteur'] = {'id': pr['id'],
+                                   'tete': [round(v) for v in z],
+                                   'src': 'resolu'}
+            else:
+                ent['locuteur'] = {'id': speakers[i] or None, 'tete': None, 'src': 'estime'}
+        manifest.append(ent)
     return L.save()
 
 
 if __name__ == '__main__':
-    import numpy as np
-    from PIL import Image
-
     import placer as P
 
-    panels = P.load_panels()
+    scen = PS.parse_scenario()
+    panels_all = P.load_panels()
     all_manifests = {}
     for page in sorted(PAGES):
         base = np.asarray(Image.open(ROOT / SRC[page]).convert('RGB')
                           .resize((864, 1222), Image.LANCZOS))
-        faces = P.detect_visages(base)
-        panels_p = panels.get(page, [(20, 20, 844, 1202)])
-        ctx = {'faces': faces, 'placed': [], 'panels': panels_p, 'prev_per_panel': {}}
+        bgr = base[..., ::-1].copy()
+        pers = PS.detecter_personnages(bgr)
+        import cv2
+        pm = PS.masque_peau(bgr)
+        n_cc, _, stats_cc, _ = cv2.connectedComponentsWithStats(pm, 8)
+        blobs = [(int(stats_cc[i, 0]), int(stats_cc[i, 1]),
+                  int(stats_cc[i, 2]), int(stats_cc[i, 3]))
+                 for i in range(1, n_cc) if stats_cc[i, 4] >= 600]
+        panels_p = panels_all.get(page, [(20, 20, 844, 1202)])
+        vigs = scen.get(page, [])
+        if len(vigs) != len(panels_p):
+            pres = set()
+            for v in vigs:
+                pres |= v['presence']
+            vigs = [{'hints': {}, 'presence': pres,
+                     'match': any(v['match'] for v in vigs)}] * len(panels_p)
+        ctx = {'personnes': pers, 'placed': [], 'panels': panels_p, 'vigs': vigs,
+               'speakers': locuteurs_alignes(page, scen), 'blobs': blobs}
         manifest = []
         out = apply_page(page, ctx, manifest)
         all_manifests[str(page)] = manifest
-        print(f'OK page {page:02d} -> {out} ({len(manifest)} éléments, {len(faces)} visages détectés)')
+        print(f'OK page {page:02d} -> {out} ({len(manifest)} éléments, {len(pers)} personnes)')
 
     import json
     mf = ROOT / 'Planches-dessin/validation/lettrage-manifest.json'

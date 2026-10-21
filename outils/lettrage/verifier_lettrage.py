@@ -3,8 +3,13 @@
 Vérifie le manifeste produit par generer_avec_texte.py (rectangles réellement posés)
 contre une détection de visages indépendante (cascades Haar OpenCV 4.x).
 
-Dépendances : OpenCV 4.x avec cascades (`.arena/vendor-cv4`), Pillow, NumPy.
-Usage : PYTHONPATH=.arena/vendor-cv4:.arena/vendor python outils/lettrage/verifier_lettrage.py
+Contrôle aussi l'audit v2 (queues pointant la tête du locuteur, recouvrements)
+via `AUDIT-BULLES.json` : 0 mauvais locuteur, 0 queue dans le vide, 0 tête
+couverte sont exigés ; les ancrages non vérifiables (tête non détectée) et les
+recouvrements de corps résiduels en planches denses sont listés en avertissements.
+
+Dépendances : OpenCV 4.x avec cascades (`.arena/vendor`), Pillow, NumPy.
+Usage : PYTHONPATH=.arena/vendor python outils/lettrage/verifier_lettrage.py
 """
 import json
 import sys
@@ -16,7 +21,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).parent))
 from generer_avec_texte import PAGES, SRC, dst_path  # noqa: E402
 from bd_common import ROOT  # noqa: E402
-from placer import detect_visages  # noqa: E402
+import personnages as PS  # noqa: E402
 
 
 def rect_overlap(rect, face):
@@ -33,23 +38,28 @@ def main():
     manifest = json.loads((ROOT / 'Planches-dessin/validation/lettrage-manifest.json').read_text())
     errors = 0
 
-    print('--- Contrôle visages (cascades Haar, rectangles posés) ---')
+    print('--- Contrôle têtes (détection 3 cascades + filtrage peau, rectangles posés) ---')
     total = 0
     for page in sorted(PAGES, key=int):
         base = np.asarray(Image.open(ROOT / SRC[int(page)]).convert('RGB')
                           .resize((864, 1222), Image.LANCZOS))
-        faces = detect_visages(base)
+        pers = PS.detecter_personnages(base[..., ::-1].copy())
+        tetes = []
+        for q in pers:
+            z = PS.zone_tete(q)
+            if z is not None:
+                x, y, w, h = z
+                tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
         for i, el in enumerate(manifest['pages'][str(page)]):
             rect = el['rect']
             total += 1
-            worst = max((rect_overlap(rect, f) for f in faces), default=0.0)
+            worst = max((rect_overlap(rect, f) for f in tetes), default=0.0)
             if worst > 0.10:
                 errors += 1
-                near = [f for f in faces if rect_overlap(rect, f) > 0.10]
                 print(f'  ATTENTION page {page} élément {i} ({el["kind"]}) rect={rect} '
-                      f'chevauche {len(near)} visage(s) (pire {worst * 100:.0f}%) : {near[:3]}')
+                      f'chevauche une tête (pire {worst * 100:.0f}%)')
     if errors == 0:
-        print(f'  OK : {total} éléments de lettrage, aucun ne chevauche un visage détecté.')
+        print(f'  OK : {total} éléments de lettrage, aucun ne chevauche une tête détectée.')
 
     print('--- Contrôle ordre de lecture (jamais plus haut, jamais à gauche sur la bande) ---')
     ordre_ok = True
@@ -95,6 +105,33 @@ def main():
                     overlap_ok = False
     if overlap_ok:
         print('  OK : aucune bulle ne se chevauche.')
+
+    print('--- Contrôle queues de bulles (audit v2) ---')
+    audit = json.loads((ROOT / 'Planches-dessin/validation/AUDIT-BULLES.json').read_text())
+    bloquant = 0
+    nvis = nimpr = ncorps = 0
+    for r in audit:
+        q = r.get('queue', '')
+        if q.startswith('MAUVAIS') or q.startswith('QUEUE DANS LE VIDE'):
+            bloquant += 1
+            print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} ({r["speaker"]}) : {q}')
+        elif q.startswith('IMPRÉCIS'):
+            nimpr += 1
+        elif q.startswith('NON'):
+            nvis += 1
+        if 'cache' in r:
+            if 'tête' in r['cache']:
+                bloquant += 1
+                print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} couvre une tête : {r["cache"]}')
+            else:
+                ncorps += 1
+    if bloquant == 0:
+        print('  OK : aucune bulle ne pointe un mauvais locuteur ou le vide ; '
+              'aucune tête couverte.')
+    print(f'  avertissements : {nimpr} ancrages imprécis, {nvis} non vérifiables '
+          f'(tête du locuteur non détectée), {ncorps} recouvrements de corps résiduels '
+          f'(planche dense, sans position libre).')
+    errors += bloquant
 
     print('--- Contrôle livrables ---')
     missing = [p for p in sorted(PAGES, key=int) if not (ROOT / dst_path(int(p))).exists()]

@@ -163,7 +163,7 @@ def _dist_bord(rect, pt):
     return (dx * dx + dy * dy) ** 0.5
 
 
-def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None):
+def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bodies=()):
     """Retourne (rect, taille_police, repli) pour un élément de lettrage."""
     px1, py1, px2, py2 = panel
     pw = px2 - px1
@@ -196,8 +196,10 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None):
                 x = int(max(lo_x, min(x, hi_x - w)))
                 for y in range(int(lo_y), int(hi_y - h) + 1, 6):
                     rect = (x, y, x + w, y + h)
-                    if _face_overlap(rect, faces) > 0.04:
+                    if _face_overlap(rect, faces) > 0.015:
                         continue
+                    if _face_overlap(rect, bodies) > 0.30:
+                        continue   # ne pas cacher un corps entier
                     if _placed_overlap(rect, placed) > 0.015:
                         continue
                     if _inside_ratio(rect, panel) < 0.8:
@@ -211,6 +213,7 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None):
                     else:
                         score = (rect[1] - py1) / 25 + abs((rect[0] + rect[2]) / 2 - (px1 + px2) / 2) / 40
                     score += abs(rect[1] - prefer[1]) / 500
+                    score += _face_overlap(rect, bodies) * 25   # ne pas cacher les corps
                     cands.append((score, rect, size))
         if cands:
             cands.sort(key=lambda c: c[0])
@@ -223,8 +226,9 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None):
                 x = int(max(lo_x, min(x, hi_x - w)))
                 for y in range(int(lo_y), int(hi_y - h) + 1, 12):
                     rect = (x, y, x + w, y + h)
-                    pen = (_face_overlap(rect, faces) * 1500
-                           + _placed_overlap(rect, placed) * 900
+                    pen = (_face_overlap(rect, faces) * 3000
+                           + _face_overlap(rect, bodies) * 1200
+                           + _placed_overlap(rect, placed) * 2600
                            + (1 - _inside_ratio(rect, panel)) * 500
                            + (0 if _order_ok(rect, prev) else 400))
                     if speaker is not None:
@@ -241,16 +245,16 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None):
     return tuple(prefer), smin, True
 
 
-def _eviter_visages_lignes(x, y, w, h, faces, y_max):
+def _eviter_visages_lignes(x, y, w, h, faces, y_max, tol=0.015):
     """Premier y >= y tel que le rectangle évite les visages (None sinon)."""
     while y + h <= y_max:
-        if _face_overlap((x, y, x + w, y + h), faces) <= 0.04:
+        if _face_overlap((x, y, x + w, y + h), faces) <= tol:
             return y
         y += 6
     return None
 
 
-def reparer_panel(panel, els, faces, placed_other):
+def reparer_panel(panel, els, faces, placed_other, bodies=()):
     """Ré-agence tous les éléments d'une vignette après un repli du placement glouton.
 
     els : liste ordonnée de dicts {kind, text, speaker}. Retourne (rects, taille)
@@ -262,69 +266,75 @@ def reparer_panel(panel, els, faces, placed_other):
     full = pw - 12
     col = (pw - 24) // 2
     y_max = py2 + 10
-    for size in range(13, 7, -1):
-        for arr in ('stack', '2col', 'full+2col', '2col+full'):
-            if arr == 'stack' or n == 1:
-                rows = [[i] for i in range(n)]
-                wof = [full] * n
-            elif arr == '2col':
-                rows = [[i, i + 1] for i in range(0, n, 2)]
-                wof = [col] * n
-            elif arr == 'full+2col':
-                rows = [[0]] + [[i, i + 1] for i in range(1, n, 2)]
-                wof = [full] + [col] * (n - 1)
-            else:  # 2col+full
-                rows = [[i, i + 1] for i in range(0, n - 1, 2)] + [[n - 1]]
-                wof = [col] * (n - 1) + [full]
-            if any(len(r) == 2 and r[1] >= n for r in rows):
-                continue
-            rects = [None] * n
-            y = py1 + 6
-            ok = True
-            for row in rows:
-                row = [i for i in row if i < n]
-                if len(row) == 2:
-                    a, b = row
-                    ha = mesurer(els[a]['text'], wof[a], size, *PADS[els[a]['kind']][:2])
-                    hb = mesurer(els[b]['text'], wof[b], size, *PADS[els[b]['kind']][:2])
-                    h = max(ha, hb)
-                    xa, xb = px1 + 6, px1 + 6 + col + 12
-                    yy = None
-                    ty = y
-                    while ty + h <= y_max:
-                        if (_face_overlap((xa, ty, xa + col, ty + ha), faces) <= 0.04
-                                and _face_overlap((xb, ty, xb + col, ty + hb), faces) <= 0.04):
-                            yy = ty
-                            break
-                        ty += 6
-                    if yy is None:
-                        ok = False
-                        break
-                    rects[a] = (xa, yy, xa + col, yy + ha)
-                    rects[b] = (xb, yy, xb + col, yy + hb)
-                    y = yy + h + 6
-                else:
-                    i = row[0]
-                    h = mesurer(els[i]['text'], wof[i], size, *PADS[els[i]['kind']][:2])
-                    w = wof[i]
-                    cands_x = [px1 + 6]
-                    if w < pw - 40:
-                        cands_x += [px1 + (pw - w) // 2, px2 - 6 - w]
-                    chosen = None
-                    for x in cands_x:
-                        ty = _eviter_visages_lignes(x, y, w, h, faces, y_max)
-                        if ty is not None and (chosen is None or ty < chosen[1]):
-                            chosen = (x, ty)
-                        if chosen and chosen[1] == y:
-                            break
-                    if chosen is None:
-                        ok = False
-                        break
-                    rects[i] = (chosen[0], chosen[1], chosen[0] + w, chosen[1] + h)
-                    y = chosen[1] + h + 6
-            if not ok:
-                continue
-            if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
-                continue
-            return rects, size
+    meilleur = None
+    for tol in (0.015, 0.08):   # 2e échelon : vignettes très pleines
+      for size in range(13, 7, -1):
+          for arr in ('stack', '2col', 'full+2col', '2col+full'):
+              if arr == 'stack' or n == 1:
+                  rows = [[i] for i in range(n)]
+                  wof = [full] * n
+              elif arr == '2col':
+                  rows = [[i, i + 1] for i in range(0, n, 2)]
+                  wof = [col] * n
+              elif arr == 'full+2col':
+                  rows = [[0]] + [[i, i + 1] for i in range(1, n, 2)]
+                  wof = [full] + [col] * (n - 1)
+              else:  # 2col+full
+                  rows = [[i, i + 1] for i in range(0, n - 1, 2)] + [[n - 1]]
+                  wof = [col] * (n - 1) + [full]
+              if any(len(r) == 2 and r[1] >= n for r in rows):
+                  continue
+              rects = [None] * n
+              y = py1 + 6
+              ok = True
+              for row in rows:
+                  row = [i for i in row if i < n]
+                  if len(row) == 2:
+                      a, b = row
+                      ha = mesurer(els[a]['text'], wof[a], size, *PADS[els[a]['kind']][:2])
+                      hb = mesurer(els[b]['text'], wof[b], size, *PADS[els[b]['kind']][:2])
+                      h = max(ha, hb)
+                      xa, xb = px1 + 6, px1 + 6 + col + 12
+                      yy = None
+                      ty = y
+                      while ty + h <= y_max:
+                          if (_face_overlap((xa, ty, xa + col, ty + ha), faces) <= 0.015
+                                  and _face_overlap((xb, ty, xb + col, ty + hb), faces) <= 0.015):
+                              yy = ty
+                              break
+                          ty += 6
+                      if yy is None:
+                          ok = False
+                          break
+                      rects[a] = (xa, yy, xa + col, yy + ha)
+                      rects[b] = (xb, yy, xb + col, yy + hb)
+                      y = yy + h + 6
+                  else:
+                      i = row[0]
+                      h = mesurer(els[i]['text'], wof[i], size, *PADS[els[i]['kind']][:2])
+                      w = wof[i]
+                      cands_x = [px1 + 6]
+                      if w < pw - 40:
+                          cands_x += [px1 + (pw - w) // 2, px2 - 6 - w]
+                      chosen = None
+                      for x in cands_x:
+                          ty = _eviter_visages_lignes(x, y, w, h, faces, y_max, tol)
+                          if ty is not None and (chosen is None or ty < chosen[1]):
+                              chosen = (x, ty)
+                          if chosen and chosen[1] == y:
+                              break
+                      if chosen is None:
+                          ok = False
+                          break
+                      rects[i] = (chosen[0], chosen[1], chosen[0] + w, chosen[1] + h)
+                      y = chosen[1] + h + 6
+              if not ok:
+                  continue
+              if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
+                  continue
+              corps = sum(_face_overlap(r, bodies) for r in rects)
+              if meilleur is None or corps < meilleur[0]:
+                  meilleur = (corps, rects, size)
+    if meilleur is not None:
+        return meilleur[1], meilleur[2]
     return None
