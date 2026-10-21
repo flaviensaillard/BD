@@ -1,0 +1,6297 @@
+[
+ {
+  "page": 1,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "jaune style Comics",
+  "text": "SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ",
+  "rect": [
+   23,
+   29,
+   568,
+   71
+  ],
+  "panel": "1-1",
+  "tetes_detectees": 17
+ },
+ {
+  "page": 1,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE !",
+  "rect": [
+   351,
+   95,
+   841,
+   130
+  ],
+  "panel": "1-1",
+  "tetes_detectees": 17,
+  "tip": [
+   399,
+   145
+  ],
+  "dist_tete_proche": 69,
+  "tete_proche": "Julien",
+  "dist_locuteur": 81,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 69px)"
+ },
+ {
+  "page": 1,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Cinq coupes en une seule saison ! Même les grands du club n'",
+  "rect": [
+   23,
+   587,
+   353,
+   639
+  ],
+  "panel": "1-1",
+  "tetes_detectees": 17,
+  "tip": [
+   328,
+   653
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 36,
+  "queue": "IMPRÉCIS (locuteur Nolann à 36px)",
+  "cache": "tête Nolann (59%) ; corps/peau 79% de 1254px² ; corps/peau 80% de 2136px²"
+ },
+ {
+  "page": 1,
+  "el": 3,
+  "kind": "encadre",
+  "speaker": "voix de Léon",
+  "text": "Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby ",
+  "rect": [
+   23,
+   789,
+   253,
+   844
+  ],
+  "panel": "1-2",
+  "tetes_detectees": 3
+ },
+ {
+  "page": 1,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées",
+  "rect": [
+   23,
+   1035,
+   267,
+   1087
+  ],
+  "panel": "1-2",
+  "tetes_detectees": 3,
+  "tip": [
+   71,
+   1040
+  ],
+  "dist_tete_proche": 117,
+  "tete_proche": "chatain",
+  "dist_locuteur": 117,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 117px)"
+ },
+ {
+  "page": 1,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Cinq fois premiers et deux fois deuxièmes… Vous vous rendez ",
+  "rect": [
+   296,
+   807,
+   447,
+   909
+  ],
+  "panel": "1-3",
+  "tetes_detectees": 5,
+  "tip": [
+   306,
+   920
+  ],
+  "dist_tete_proche": 17,
+  "tete_proche": "chatain",
+  "dist_locuteur": 17,
+  "queue": "OK"
+ },
+ {
+  "page": 1,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "C'est sûr, l'année prochaine chez les U8, ce sera exactement",
+  "rect": [
+   296,
+   1041,
+   540,
+   1093
+  ],
+  "panel": "1-3",
+  "tetes_detectees": 5,
+  "tip": [
+   537,
+   1008
+  ],
+  "dist_tete_proche": 16,
+  "tete_proche": "chatain",
+  "dist_locuteur": 16,
+  "queue": "OK",
+  "cache": "corps/peau 100% de 897px² ; corps/peau 99% de 959px²"
+ },
+ {
+  "page": 1,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Pas « exactement pareil », Ayden… Ce sera encore MIEUX ! En ",
+  "rect": [
+   569,
+   1095,
+   813,
+   1180
+  ],
+  "panel": "1-4",
+  "tetes_detectees": 1,
+  "tip": [
+   816,
+   1098
+  ],
+  "dist_tete_proche": 41,
+  "tete_proche": "chatain",
+  "dist_locuteur": 41,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 41px)"
+ },
+ {
+  "page": 2,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE. LE JOUR DE LA REPRISE",
+  "rect": [
+   20,
+   29,
+   380,
+   71
+  ],
+  "panel": "2-1",
+  "tetes_detectees": 0
+ },
+ {
+  "page": 2,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Vanessa ! Alice ! On file au stade avec Léon, on rentre pour",
+  "rect": [
+   433,
+   71,
+   606,
+   156
+  ],
+  "panel": "2-2",
+  "tetes_detectees": 2,
+  "tip": [
+   604,
+   158
+  ],
+  "dist_tete_proche": 13,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 13,
+  "queue": "OK"
+ },
+ {
+  "page": 2,
+  "el": 2,
+  "kind": "voix",
+  "speaker": "Voix hors-champ depuis l'étage",
+  "text": "Bon entraînement les garçons ! Amuse-toi bien Léon !",
+  "rect": [
+   489,
+   209,
+   789,
+   253
+  ],
+  "panel": "2-2",
+  "tetes_detectees": 2,
+  "cache": "corps/peau 100% de 737px²"
+ },
+ {
+  "page": 2,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on ",
+  "rect": [
+   433,
+   257,
+   763,
+   325
+  ],
+  "panel": "2-2",
+  "tetes_detectees": 2,
+  "tip": [
+   461,
+   218
+  ],
+  "dist_tete_proche": 104,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 104,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 104px)"
+ },
+ {
+  "page": 2,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sep",
+  "rect": [
+   20,
+   360,
+   193,
+   495
+  ],
+  "panel": "2-3",
+  "tetes_detectees": 1,
+  "tip": [
+   145,
+   490
+  ],
+  "dist_tete_proche": 93,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Julien à 93px)"
+ },
+ {
+  "page": 2,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un pe",
+  "rect": [
+   20,
+   498,
+   385,
+   550
+  ],
+  "panel": "2-3",
+  "tetes_detectees": 1,
+  "tip": [
+   374,
+   500
+  ],
+  "dist_tete_proche": 111,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : Julien à 111px)",
+  "cache": "tête Julien (77%)"
+ },
+ {
+  "page": 2,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on ",
+  "rect": [
+   433,
+   360,
+   606,
+   495
+  ],
+  "panel": "2-4",
+  "tetes_detectees": 3,
+  "tip": [
+   478,
+   490
+  ],
+  "dist_tete_proche": 180,
+  "tete_proche": "?",
+  "dist_locuteur": 270,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 180px)"
+ },
+ {
+  "page": 2,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Justement, Léon. En U8, les autres clubs aussi ont grandi. E",
+  "rect": [
+   607,
+   366,
+   845,
+   468
+  ],
+  "panel": "2-4",
+  "tetes_detectees": 3,
+  "tip": [
+   848,
+   465
+  ],
+  "dist_tete_proche": 20,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 20,
+  "queue": "OK"
+ },
+ {
+  "page": 2,
+  "el": 8,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "LA MOTTE-SERVOLEX — STADE DU RUGBY CLUB MOTTERAIN.",
+  "rect": [
+   20,
+   654,
+   370,
+   683
+  ],
+  "panel": "2-5",
+  "tetes_detectees": 3
+ },
+ {
+  "page": 2,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro ",
+  "rect": [
+   20,
+   1038,
+   370,
+   1090
+  ],
+  "panel": "2-5",
+  "tetes_detectees": 3,
+  "tip": [
+   68,
+   1040
+  ],
+  "dist_tete_proche": 66,
+  "tete_proche": "adversaire-jaune",
+  "dist_locuteur": 430,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 66px)"
+ },
+ {
+  "page": 3,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSEN",
+  "rect": [
+   23,
+   29,
+   388,
+   71
+  ],
+  "panel": "3-1",
+  "tetes_detectees": 1
+ },
+ {
+  "page": 3,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Salut les gars ! Alors, prêts pour notre nouvelle saison de ",
+  "rect": [
+   433,
+   161,
+   798,
+   213
+  ],
+  "panel": "3-2",
+  "tetes_detectees": 5,
+  "tip": [
+   478,
+   160
+  ],
+  "dist_tete_proche": 38,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 147,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 38px)",
+  "cache": "corps/peau 100% de 1474px² ; corps/peau 100% de 842px²"
+ },
+ {
+  "page": 3,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Trop content de vous retrouver ! Mon père m'a dit qu'on est ",
+  "rect": [
+   433,
+   215,
+   798,
+   283
+  ],
+  "panel": "3-2",
+  "tetes_detectees": 5,
+  "tip": [
+   448,
+   215
+  ],
+  "dist_tete_proche": 96,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 188,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 96px)",
+  "cache": "corps/peau 66% de 1474px² ; corps/peau 100% de 842px²"
+ },
+ {
+  "page": 3,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Ouais ! Avec Léon, on en a parlé toute la semaine à l'école ",
+  "rect": [
+   476,
+   287,
+   841,
+   319
+  ],
+  "panel": "3-2",
+  "tetes_detectees": 5,
+  "tip": [
+   829,
+   290
+  ],
+  "dist_tete_proche": 144,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 144,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 144px)"
+ },
+ {
+  "page": 3,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait ",
+  "rect": [
+   23,
+   411,
+   259,
+   479
+  ],
+  "panel": "3-3",
+  "tetes_detectees": 3,
+  "tip": [
+   214,
+   501
+  ],
+  "dist_tete_proche": 28,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 28,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 28px)"
+ },
+ {
+  "page": 3,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?!",
+  "rect": [
+   196,
+   507,
+   432,
+   559
+  ],
+  "panel": "3-3",
+  "tetes_detectees": 3,
+  "tip": [
+   402,
+   510
+  ],
+  "dist_tete_proche": 79,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 261,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 79px)"
+ },
+ {
+  "page": 3,
+  "el": 6,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIIIIIT !",
+  "rect": [
+   442,
+   338,
+   538,
+   374
+  ],
+  "panel": "3-1",
+  "tetes_detectees": 21
+ },
+ {
+  "page": 3,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle",
+  "rect": [
+   433,
+   441,
+   669,
+   526
+  ],
+  "panel": "3-4",
+  "tetes_detectees": 3,
+  "tip": [
+   642,
+   510
+  ],
+  "dist_tete_proche": 74,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Flavien à 74px)"
+ },
+ {
+  "page": 3,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Bienvenue en U8 les garçons ! Avant de commencer l'entraînem",
+  "rect": [
+   23,
+   739,
+   388,
+   807
+  ],
+  "panel": "3-5",
+  "tetes_detectees": 9,
+  "tip": [
+   71,
+   805
+  ],
+  "dist_tete_proche": 115,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : chatain à 115px)"
+ },
+ {
+  "page": 3,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Tu vas voir, ils vont nous féliciter pour nos cinq trophées ",
+  "rect": [
+   23,
+   1045,
+   388,
+   1097
+  ],
+  "panel": "3-5",
+  "tetes_detectees": 9,
+  "tip": [
+   71,
+   1045
+  ],
+  "dist_tete_proche": 164,
+  "tete_proche": "chatain",
+  "dist_locuteur": 164,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 164px)",
+  "cache": "tête chatain (60%) ; corps/peau 70% de 782px² ; corps/peau 100% de 671px²"
+ },
+ {
+  "page": 4,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "La saison dernière en U6, sur 7 tournois, vous en avez gagné",
+  "rect": [
+   12,
+   85,
+   189,
+   253
+  ],
+  "panel": "4-1",
+  "tetes_detectees": 2,
+  "tip": [
+   58,
+   195
+  ],
+  "dist_tete_proche": 163,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 163,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 163px)"
+ },
+ {
+  "page": 4,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Si vous croyez que vous allez gagner sans effort cette année",
+  "rect": [
+   12,
+   253,
+   387,
+   321
+  ],
+  "panel": "4-1",
+  "tetes_detectees": 2,
+  "tip": [
+   384,
+   255
+  ],
+  "dist_tete_proche": 144,
+  "tete_proche": "Kilian",
+  "dist_locuteur": 144,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 144px)"
+ },
+ {
+  "page": 4,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "En U8, voici vos nouvelles règles ! On joue à 5 contre 5 sur",
+  "rect": [
+   433,
+   37,
+   610,
+   205
+  ],
+  "panel": "4-2",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   185
+  ],
+  "dist_tete_proche": 246,
+  "tete_proche": "Julien",
+  "dist_locuteur": 246,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 246px)"
+ },
+ {
+  "page": 4,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Deuxième grand changement : l'arbitre siffle TOUS les en-ava",
+  "rect": [
+   26,
+   503,
+   216,
+   591
+  ],
+  "panel": "4-3",
+  "tetes_detectees": 3,
+  "tip": [
+   58,
+   565
+  ],
+  "dist_tete_proche": 88,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : Flavien à 88px)",
+  "cache": "corps/peau 100% de 768px²"
+ },
+ {
+  "page": 4,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Tous les en-avant ?! Même les tout petits ?!",
+  "rect": [
+   228,
+   503,
+   418,
+   545
+  ],
+  "panel": "4-3",
+  "tetes_detectees": 3,
+  "tip": [
+   192,
+   577
+  ],
+  "dist_tete_proche": 71,
+  "tete_proche": "chatain",
+  "dist_locuteur": 71,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 71px)"
+ },
+ {
+  "page": 4,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Même les tout petits, Milo !",
+  "rect": [
+   26,
+   609,
+   419,
+   639
+  ],
+  "panel": "4-3",
+  "tetes_detectees": 3,
+  "tip": [
+   433,
+   687
+  ],
+  "dist_tete_proche": 148,
+  "tete_proche": "chatain",
+  "dist_locuteur": 206,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 148px)",
+  "cache": "corps/peau 100% de 671px²"
+ },
+ {
+  "page": 4,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Et quand un joueur sort en touche, le ballon est directement",
+  "rect": [
+   432,
+   447,
+   609,
+   565
+  ],
+  "panel": "4-4",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   565
+  ],
+  "dist_tete_proche": 238,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : chatain à 238px)",
+  "cache": "corps/peau 100% de 704px²"
+ },
+ {
+  "page": 4,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Enfin, pour les contacts : de septembre à fin novembre, c'es",
+  "rect": [
+   610,
+   525,
+   854,
+   643
+  ],
+  "panel": "4-4",
+  "tetes_detectees": 2,
+  "tip": [
+   822,
+   530
+  ],
+  "dist_tete_proche": 71,
+  "tete_proche": "Kilian",
+  "dist_locuteur": 71,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 71px)"
+ },
+ {
+  "page": 4,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Faut faire super attention aux passes alors, sinon on rend t",
+  "rect": [
+   12,
+   861,
+   387,
+   913
+  ],
+  "panel": "4-5",
+  "tetes_detectees": 3,
+  "tip": [
+   51,
+   832
+  ],
+  "dist_tete_proche": 131,
+  "tete_proche": "chatain",
+  "dist_locuteur": 131,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 131px)"
+ },
+ {
+  "page": 4,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Et en défense, si on est hors-jeu, on se fait punir direct !",
+  "rect": [
+   480,
+   843,
+   855,
+   895
+  ],
+  "panel": "4-5",
+  "tetes_detectees": 3,
+  "tip": [
+   481,
+   847
+  ],
+  "dist_tete_proche": 10,
+  "tete_proche": "chatain",
+  "dist_locuteur": 10,
+  "queue": "OK"
+ },
+ {
+  "page": 4,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Pfff, vous inquiétez pas les gars ! Touché à deux mains ou n",
+  "rect": [
+   12,
+   1113,
+   379,
+   1181
+  ],
+  "panel": "4-6",
+  "tetes_detectees": 1,
+  "tip": [
+   60,
+   1120
+  ],
+  "dist_tete_proche": 315,
+  "tete_proche": "chatain",
+  "dist_locuteur": 315,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 315px)",
+  "cache": "corps/peau 100% de 4319px²"
+ },
+ {
+  "page": 5,
+  "el": 0,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   62,
+   33,
+   158,
+   69
+  ],
+  "panel": "5-1",
+  "tetes_detectees": 29,
+  "cache": "tête adversaire-jaune (11%)"
+ },
+ {
+  "page": 5,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "En-avant ! Ballon rendu à l'autre équipe ! On garde les main",
+  "rect": [
+   13,
+   80,
+   377,
+   148
+  ],
+  "panel": "5-1",
+  "tetes_detectees": 9,
+  "tip": [
+   375,
+   149
+  ],
+  "dist_tete_proche": 16,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 405,
+  "queue": "MAUVAIS LOCUTEUR (pointe Flavien à 16px, Julien à 405px)",
+  "cache": "tête adversaire-jaune (100%)"
+ },
+ {
+  "page": 5,
+  "el": 2,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   42,
+   479,
+   138,
+   515
+  ],
+  "panel": "5-1",
+  "tetes_detectees": 29
+ },
+ {
+  "page": 5,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Hors-jeu Léon ! Tu étais devant tes copains au départ de l'a",
+  "rect": [
+   13,
+   701,
+   189,
+   769
+  ],
+  "panel": "5-2",
+  "tetes_detectees": 9,
+  "tip": [
+   58,
+   725
+  ],
+  "dist_tete_proche": 80,
+  "tete_proche": "chatain",
+  "dist_locuteur": 275,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 80px)",
+  "cache": "corps/peau 100% de 607px² ; corps/peau 100% de 1132px² ; corps/peau 48% de 1474px²"
+ },
+ {
+  "page": 5,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler e",
+  "rect": [
+   190,
+   725,
+   433,
+   777
+  ],
+  "panel": "5-2",
+  "tetes_detectees": 9,
+  "tip": [
+   392,
+   725
+  ],
+  "dist_tete_proche": 114,
+  "tete_proche": "Kilian",
+  "dist_locuteur": 166,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 114px)",
+  "cache": "corps/peau 93% de 1058px² ; corps/peau 100% de 1474px²"
+ },
+ {
+  "page": 5,
+  "el": 5,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "PLUS TARD, DANS LE VESTIAIRE DES COACHS…",
+  "rect": [
+   551,
+   509,
+   851,
+   538
+  ],
+  "panel": "5-3",
+  "tetes_detectees": 5
+ },
+ {
+  "page": 5,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme ",
+  "rect": [
+   431,
+   629,
+   607,
+   797
+  ],
+  "panel": "5-3",
+  "tetes_detectees": 5,
+  "tip": [
+   478,
+   755
+  ],
+  "dist_tete_proche": 152,
+  "tete_proche": "chatain",
+  "dist_locuteur": 248,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 152px)"
+ },
+ {
+  "page": 5,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Du feu dans les jambes, oui… mais tu as vu leur réaction à c",
+  "rect": [
+   13,
+   1014,
+   256,
+   1116
+  ],
+  "panel": "5-4",
+  "tetes_detectees": 3,
+  "tip": [
+   58,
+   1020
+  ],
+  "dist_tete_proche": 85,
+  "tete_proche": "Julien",
+  "dist_locuteur": 85,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 85px)",
+  "cache": "tête chatain (100%) ; corps/peau 100% de 2289px²"
+ },
+ {
+  "page": 5,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "C'est vrai qu'au niveau des passes sous pression et de la dé",
+  "rect": [
+   257,
+   1026,
+   433,
+   1128
+  ],
+  "panel": "5-4",
+  "tetes_detectees": 3,
+  "tip": [
+   269,
+   1017
+  ],
+  "dist_tete_proche": 22,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : ? à 22px)"
+ },
+ {
+  "page": 5,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "C'est surtout pour Léon que je m'inquiète. Il a un tel espri",
+  "rect": [
+   431,
+   990,
+   607,
+   1108
+  ],
+  "panel": "5-5",
+  "tetes_detectees": 4,
+  "tip": [
+   478,
+   1020
+  ],
+  "dist_tete_proche": 112,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 112px)",
+  "cache": "corps/peau 100% de 1908px²"
+ },
+ {
+  "page": 5,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Le premier tournoi va être un sacré révélateur, Flavien. On ",
+  "rect": [
+   608,
+   1014,
+   851,
+   1082
+  ],
+  "panel": "5-5",
+  "tetes_detectees": 4,
+  "tip": [
+   833,
+   999
+  ],
+  "dist_tete_proche": 27,
+  "tete_proche": "chatain-clair",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : chatain-clair à 27px)"
+ },
+ {
+  "page": 6,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS",
+  "rect": [
+   10,
+   38,
+   395,
+   80
+  ],
+  "panel": "6-1",
+  "tetes_detectees": 11
+ },
+ {
+  "page": 6,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Allez le RCM ! On se souvient des règles : 5 contre 5, touch",
+  "rect": [
+   10,
+   116,
+   517,
+   168
+  ],
+  "panel": "6-1",
+  "tetes_detectees": 11,
+  "tip": [
+   514,
+   166
+  ],
+  "dist_tete_proche": 7,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 159,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 7px, Flavien à 159px)"
+ },
+ {
+  "page": 6,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Bien joué Ayden ! Tiens Nolann, fonce !",
+  "rect": [
+   10,
+   621,
+   375,
+   656
+  ],
+  "panel": "6-2",
+  "tetes_detectees": 4,
+  "tip": [
+   58,
+   655
+  ],
+  "dist_tete_proche": 75,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 75,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 75px)"
+ },
+ {
+  "page": 6,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "ESSAI ! UN POINT POUR LE RCM !",
+  "rect": [
+   188,
+   663,
+   433,
+   698
+  ],
+  "panel": "6-2",
+  "tetes_detectees": 4,
+  "tip": [
+   392,
+   665
+  ],
+  "dist_tete_proche": 193,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : chatain à 193px)",
+  "cache": "corps/peau 100% de 641px²"
+ },
+ {
+  "page": 6,
+  "el": 4,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !",
+  "rect": [
+   10,
+   705,
+   375,
+   734
+  ],
+  "panel": "6-2",
+  "tetes_detectees": 4,
+  "cache": "corps/peau 100% de 808px²"
+ },
+ {
+  "page": 6,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "À toi Léon !",
+  "rect": [
+   432,
+   627,
+   678,
+   662
+  ],
+  "panel": "6-3",
+  "tetes_detectees": 5,
+  "tip": [
+   481,
+   618
+  ],
+  "dist_tete_proche": 59,
+  "tete_proche": "chatain",
+  "dist_locuteur": 59,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 59px)"
+ },
+ {
+  "page": 6,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Personne ne me rattrapera ! ESSAI !",
+  "rect": [
+   456,
+   705,
+   831,
+   740
+  ],
+  "panel": "6-3",
+  "tetes_detectees": 5,
+  "tip": [
+   819,
+   698
+  ],
+  "dist_tete_proche": 21,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 81,
+  "queue": "IMPRÉCIS (locuteur Léon à 81px)"
+ },
+ {
+  "page": 6,
+  "el": 7,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) !",
+  "rect": [
+   432,
+   741,
+   807,
+   770
+  ],
+  "panel": "6-3",
+  "tetes_detectees": 5,
+  "cache": "corps/peau 73% de 675px²"
+ },
+ {
+  "page": 6,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Deux matchs, deux victoires ! Qu'est-ce que je vous avais di",
+  "rect": [
+   10,
+   1069,
+   375,
+   1137
+  ],
+  "panel": "6-4",
+  "tetes_detectees": 10,
+  "tip": [
+   30,
+   1023
+  ],
+  "dist_tete_proche": 0,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 31,
+  "queue": "IMPRÉCIS (locuteur Léon à 31px)",
+  "cache": "corps/peau 100% de 800px² ; corps/peau 100% de 809px² ; corps/peau 100% de 1006px²"
+ },
+ {
+  "page": 6,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Attends Léon, contre Albertville on a quand même eu chaud su",
+  "rect": [
+   39,
+   1141,
+   404,
+   1193
+  ],
+  "panel": "6-4",
+  "tetes_detectees": 10,
+  "tip": [
+   403,
+   1091
+  ],
+  "dist_tete_proche": 29,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 85,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 29px)",
+  "cache": "corps/peau 52% de 800px² ; corps/peau 55% de 809px² ; corps/peau 67% de 1006px²"
+ },
+ {
+  "page": 6,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Écoutez bien les garçons : le troisième match, c'est contre ",
+  "rect": [
+   480,
+   967,
+   855,
+   1035
+  ],
+  "panel": "6-5",
+  "tetes_detectees": 6,
+  "tip": [
+   484,
+   1036
+  ],
+  "dist_tete_proche": 9,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : Nolann à 9px)",
+  "cache": "tête Julien (78%) ; tête Flavien (100%) ; tête Nolann (71%)"
+ },
+ {
+  "page": 6,
+  "el": 11,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Ils montent très vite en défense et ils ne laissent aucun es",
+  "rect": [
+   480,
+   1039,
+   855,
+   1107
+  ],
+  "panel": "6-5",
+  "tetes_detectees": 6,
+  "tip": [
+   821,
+   1029
+  ],
+  "dist_tete_proche": 170,
+  "tete_proche": "Julien",
+  "dist_locuteur": 170,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 170px)",
+  "cache": "tête Nolann (83%) ; corps/peau 100% de 1041px² ; corps/peau 100% de 743px²"
+ },
+ {
+  "page": 7,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "adversaire-vert",
+  "text": "On monte ensemble les Vert et Noir ! Personne ne passe !",
+  "rect": [
+   12,
+   210,
+   387,
+   262
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 6,
+  "tip": [
+   55,
+   188
+  ],
+  "dist_tete_proche": 198,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 198,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 198px)"
+ },
+ {
+  "page": 7,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Oh là là, ils sont déjà sur nous !",
+  "rect": [
+   477,
+   168,
+   852,
+   203
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 6,
+  "tip": [
+   477,
+   164
+  ],
+  "dist_tete_proche": 9,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 50,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 9px, Lyssandro à 50px)"
+ },
+ {
+  "page": 7,
+  "el": 2,
+  "kind": "ono",
+  "speaker": "",
+  "text": "PLOP !",
+  "rect": [
+   52,
+   388,
+   148,
+   424
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 28
+ },
+ {
+  "page": 7,
+  "el": 3,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   252,
+   382,
+   348,
+   418
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 28
+ },
+ {
+  "page": 7,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "En-avant du RCM ! Ballon rendu à Montmélian !",
+  "rect": [
+   13,
+   501,
+   189,
+   569
+  ],
+  "panel": "7-2",
+  "tetes_detectees": 3,
+  "tip": [
+   58,
+   565
+  ],
+  "dist_tete_proche": 74,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : adversaire-vert à 74px)"
+ },
+ {
+  "page": 7,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Mais fais attention Milo !",
+  "rect": [
+   190,
+   495,
+   433,
+   530
+  ],
+  "panel": "7-2",
+  "tetes_detectees": 3,
+  "tip": [
+   392,
+   495
+  ],
+  "dist_tete_proche": 91,
+  "tete_proche": "chatain",
+  "dist_locuteur": 91,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 91px)"
+ },
+ {
+  "page": 7,
+  "el": 6,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   652,
+   382,
+   748,
+   418
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 28
+ },
+ {
+  "page": 7,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Touche ! Ballon rendu à Montmélian, joué comme une pénalité ",
+  "rect": [
+   431,
+   495,
+   675,
+   563
+  ],
+  "panel": "7-3",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   560
+  ],
+  "dist_tete_proche": 184,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : Nolann à 184px)"
+ },
+ {
+  "page": 7,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Mince, le terrain de 20 mètres est moins large que je croyai",
+  "rect": [
+   675,
+   495,
+   852,
+   563
+  ],
+  "panel": "7-3",
+  "tetes_detectees": 1,
+  "tip": [
+   822,
+   495
+  ],
+  "dist_tete_proche": 168,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 168,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 168px)"
+ },
+ {
+  "page": 7,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "La ligne défensive les garçons ! Si Léon monte tout seul, ça",
+  "rect": [
+   12,
+   700,
+   189,
+   785
+  ],
+  "panel": "7-4",
+  "tetes_detectees": 5,
+  "tip": [
+   58,
+   785
+  ],
+  "dist_tete_proche": 106,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 106px)"
+ },
+ {
+  "page": 7,
+  "el": 10,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "ESSAI DE MONTMÉLIAN ! +1 POINT !",
+  "rect": [
+   12,
+   790,
+   377,
+   819
+  ],
+  "panel": "7-4",
+  "tetes_detectees": 5
+ },
+ {
+  "page": 7,
+  "el": 11,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   652,
+   617,
+   748,
+   653
+  ],
+  "panel": "7-1",
+  "tetes_detectees": 28
+ },
+ {
+  "page": 7,
+  "el": 12,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Hors-jeu du joueur du RCM ! Pénalité pour Montmélian !",
+  "rect": [
+   431,
+   724,
+   608,
+   792
+  ],
+  "panel": "7-5",
+  "tetes_detectees": 3,
+  "tip": [
+   478,
+   790
+  ],
+  "dist_tete_proche": 142,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : chatain à 142px)"
+ },
+ {
+  "page": 7,
+  "el": 13,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Calmez-vous le RCM ! Respirez ! Regardez vos copains avant d",
+  "rect": [
+   13,
+   948,
+   388,
+   1000
+  ],
+  "panel": "7-6",
+  "tetes_detectees": 10,
+  "tip": [
+   58,
+   995
+  ],
+  "dist_tete_proche": 53,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Flavien à 53px)"
+ },
+ {
+  "page": 7,
+  "el": 14,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Ils s'énervent au lieu de construire…",
+  "rect": [
+   477,
+   990,
+   852,
+   1025
+  ],
+  "panel": "7-6",
+  "tetes_detectees": 10,
+  "tip": [
+   477,
+   989
+  ],
+  "dist_tete_proche": 9,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : adversaire-vert à 9px)"
+ },
+ {
+  "page": 8,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Vas-y Léon ! On monte avec toi !",
+  "rect": [
+   13,
+   152,
+   388,
+   187
+  ],
+  "panel": "8-1",
+  "tetes_detectees": 3,
+  "tip": [
+   58,
+   185
+  ],
+  "dist_tete_proche": 147,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 186,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 147px)",
+  "cache": "tête chatain (72%) ; corps/peau 100% de 754px² ; corps/peau 100% de 893px²"
+ },
+ {
+  "page": 8,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Léon ! Passe à gauche, on est deux contre un !",
+  "rect": [
+   13,
+   611,
+   256,
+   663
+  ],
+  "panel": "8-2",
+  "tetes_detectees": 2,
+  "tip": [
+   58,
+   660
+  ],
+  "dist_tete_proche": 38,
+  "tete_proche": "chatain",
+  "dist_locuteur": 38,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 38px)",
+  "cache": "tête chatain (99%)"
+ },
+ {
+  "page": 8,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Ici Léon ! Je suis tout seul sur l'aile !",
+  "rect": [
+   40,
+   665,
+   405,
+   700
+  ],
+  "panel": "8-2",
+  "tetes_detectees": 2,
+  "tip": [
+   388,
+   645
+  ],
+  "dist_tete_proche": 16,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : Flavien à 16px)"
+ },
+ {
+  "page": 8,
+  "el": 3,
+  "kind": "pensee",
+  "speaker": "Léon",
+  "text": "Non ! C'est moi qui vais sauver l'équipe ! Je vais passer au",
+  "rect": [
+   431,
+   707,
+   675,
+   771
+  ],
+  "panel": "8-3",
+  "tetes_detectees": 4,
+  "tip": [
+   489,
+   701
+  ],
+  "dist_tete_proche": 101,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 127,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 101px)",
+  "cache": "corps/peau 70% de 4627px²"
+ },
+ {
+  "page": 8,
+  "el": 4,
+  "kind": "ono",
+  "speaker": "",
+  "text": "TCHAC !",
+  "rect": [
+   52,
+   862,
+   148,
+   898
+  ],
+  "panel": "8-1",
+  "tetes_detectees": 22
+ },
+ {
+  "page": 8,
+  "el": 5,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIIIIT !",
+  "rect": [
+   282,
+   845,
+   378,
+   881
+  ],
+  "panel": "8-1",
+  "tetes_detectees": 22
+ },
+ {
+  "page": 8,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Touché à deux mains… et en-avant ! C'est terminé, fin du mat",
+  "rect": [
+   13,
+   990,
+   256,
+   1058
+  ],
+  "panel": "8-4",
+  "tetes_detectees": 7,
+  "tip": [
+   38,
+   1097
+  ],
+  "dist_tete_proche": 24,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : Nolann à 24px)",
+  "cache": "corps/peau 100% de 1095px² ; corps/peau 40% de 1045px²"
+ },
+ {
+  "page": 8,
+  "el": 7,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVIN",
+  "rect": [
+   431,
+   852,
+   806,
+   894
+  ],
+  "panel": "8-5",
+  "tetes_detectees": 6,
+  "cache": "tête adversaire-vert (15%)"
+ },
+ {
+  "page": 9,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Bien joué Montmélian… Vous avez super bien défendu.",
+  "rect": [
+   13,
+   143,
+   388,
+   178
+  ],
+  "panel": "9-1",
+  "tetes_detectees": 5,
+  "tip": [
+   58,
+   175
+  ],
+  "dist_tete_proche": 137,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Ayden non identifiée ; proche : Nolann à 137px)",
+  "cache": "tête Nolann (100%) ; corps/peau 100% de 613px² ; corps/peau 100% de 643px²"
+ },
+ {
+  "page": 9,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "adversaire-vert",
+  "text": "Merci ! À bientôt au prochain tournoi !",
+  "rect": [
+   477,
+   143,
+   852,
+   178
+  ],
+  "panel": "9-1",
+  "tetes_detectees": 5,
+  "tip": [
+   486,
+   175
+  ],
+  "dist_tete_proche": 153,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de adversaire-vert non identifiée ; proche : Nolann à 153px)",
+  "cache": "tête Nolann (100%) ; corps/peau 100% de 603px²"
+ },
+ {
+  "page": 9,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! O",
+  "rect": [
+   13,
+   601,
+   196,
+   703
+  ],
+  "panel": "9-2",
+  "tetes_detectees": 1,
+  "tip": [
+   197,
+   605
+  ],
+  "dist_tete_proche": 17,
+  "tete_proche": "chatain",
+  "dist_locuteur": 17,
+  "queue": "OK"
+ },
+ {
+  "page": 9,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Léon, calme-toi… On a quand même gagné deux matchs sur trois",
+  "rect": [
+   334,
+   487,
+   554,
+   555
+  ],
+  "panel": "9-3",
+  "tetes_detectees": 3,
+  "tip": [
+   378,
+   550
+  ],
+  "dist_tete_proche": 235,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Lyssandro non identifiée ; proche : Nolann à 235px)",
+  "cache": "corps/peau 100% de 883px²"
+ },
+ {
+  "page": 9,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Ouais, contre Chambéry et Albertville on a super bien joué !",
+  "rect": [
+   548,
+   421,
+   851,
+   473
+  ],
+  "panel": "9-3",
+  "tetes_detectees": 3,
+  "tip": [
+   827,
+   470
+  ],
+  "dist_tete_proche": 82,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 82,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 82px)"
+ },
+ {
+  "page": 9,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on",
+  "rect": [
+   334,
+   727,
+   554,
+   812
+  ],
+  "panel": "9-3",
+  "tetes_detectees": 3,
+  "tip": [
+   378,
+   812
+  ],
+  "dist_tete_proche": 260,
+  "tete_proche": "Kilian",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Kilian à 260px)",
+  "cache": "corps/peau 100% de 1000px² ; corps/peau 100% de 1267px²"
+ },
+ {
+  "page": 9,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Viens boire une gorgée d'eau, Léon. La colère ne fera pas re",
+  "rect": [
+   13,
+   943,
+   388,
+   995
+  ],
+  "panel": "9-4",
+  "tetes_detectees": 4,
+  "tip": [
+   58,
+   990
+  ],
+  "dist_tete_proche": 166,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : adversaire-vert à 166px)"
+ },
+ {
+  "page": 9,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Ce n'est que le début de la saison… Il va falloir que le gro",
+  "rect": [
+   476,
+   943,
+   851,
+   995
+  ],
+  "panel": "9-4",
+  "tetes_detectees": 4,
+  "tip": [
+   486,
+   990
+  ],
+  "dist_tete_proche": 90,
+  "tete_proche": "chatain",
+  "dist_locuteur": 91,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 90px)"
+ },
+ {
+  "page": 10,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Oui Vanessa, je couche Léon et j'arrive ! Bonne nuit Alice !",
+  "rect": [
+   13,
+   140,
+   388,
+   192
+  ],
+  "panel": "10-1",
+  "tetes_detectees": 2,
+  "tip": [
+   58,
+   190
+  ],
+  "dist_tete_proche": 264,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 264px)"
+ },
+ {
+  "page": 10,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Papa… Pourquoi l'arbitre il a sifflé tout le temps contre no",
+  "rect": [
+   471,
+   158,
+   851,
+   210
+  ],
+  "panel": "10-1",
+  "tetes_detectees": 2,
+  "tip": [
+   481,
+   195
+  ],
+  "dist_tete_proche": 102,
+  "tete_proche": "chatain",
+  "dist_locuteur": 102,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 102px)"
+ },
+ {
+  "page": 10,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles ",
+  "rect": [
+   13,
+   623,
+   256,
+   725
+  ],
+  "panel": "10-2",
+  "tetes_detectees": 2,
+  "tip": [
+   58,
+   695
+  ],
+  "dist_tete_proche": 91,
+  "tete_proche": "chatain-clair",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain-clair à 91px)",
+  "cache": "corps/peau 47% de 2813px²"
+ },
+ {
+  "page": 10,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Pfff… Ils ont surtout eu de la chance !",
+  "rect": [
+   257,
+   713,
+   433,
+   765
+  ],
+  "panel": "10-2",
+  "tetes_detectees": 2,
+  "tip": [
+   278,
+   695
+  ],
+  "dist_tete_proche": 21,
+  "tete_proche": "chatain",
+  "dist_locuteur": 21,
+  "queue": "OK"
+ },
+ {
+  "page": 10,
+  "el": 4,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN.",
+  "rect": [
+   431,
+   509,
+   806,
+   538
+  ],
+  "panel": "10-3",
+  "tetes_detectees": 2
+ },
+ {
+  "page": 10,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Alors Léon, t'es toujours fâché pour samedi ?",
+  "rect": [
+   431,
+   683,
+   674,
+   735
+  ],
+  "panel": "10-3",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   735
+  ],
+  "dist_tete_proche": 144,
+  "tete_proche": "?",
+  "dist_locuteur": 217,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 144px)"
+ },
+ {
+  "page": 10,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Bien sûr que je suis fâché ! Quand je repense à leurs maillo",
+  "rect": [
+   675,
+   725,
+   851,
+   827
+  ],
+  "panel": "10-3",
+  "tetes_detectees": 2,
+  "tip": [
+   822,
+   725
+  ],
+  "dist_tete_proche": 140,
+  "tete_proche": "chatain-clair",
+  "dist_locuteur": 140,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 140px)"
+ },
+ {
+  "page": 10,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Tu sais, j'en ai parlé tout à l'heure avec Baptiste avant la",
+  "rect": [
+   13,
+   882,
+   189,
+   1050
+  ],
+  "panel": "10-4",
+  "tetes_detectees": 1,
+  "tip": [
+   58,
+   1045
+  ],
+  "dist_tete_proche": 219,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Ayden non identifiée ; proche : ? à 219px)"
+ },
+ {
+  "page": 10,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Ah ouais ? Même Baptiste il a perdu un match ?",
+  "rect": [
+   190,
+   1020,
+   433,
+   1072
+  ],
+  "panel": "10-4",
+  "tetes_detectees": 1,
+  "tip": [
+   392,
+   1025
+  ],
+  "dist_tete_proche": 86,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : ? à 86px)"
+ },
+ {
+  "page": 10,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'a",
+  "rect": [
+   431,
+   918,
+   607,
+   1020
+  ],
+  "panel": "10-5",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   1020
+  ],
+  "dist_tete_proche": 124,
+  "tete_proche": "chatain-clair",
+  "dist_locuteur": 124,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 124px)",
+  "cache": "tête chatain-clair (65%) ; corps/peau 100% de 2532px²"
+ },
+ {
+  "page": 10,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus ",
+  "rect": [
+   608,
+   1002,
+   851,
+   1070
+  ],
+  "panel": "10-5",
+  "tetes_detectees": 2,
+  "tip": [
+   822,
+   1005
+  ],
+  "dist_tete_proche": 136,
+  "tete_proche": "chatain",
+  "dist_locuteur": 136,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 136px)"
+ },
+ {
+  "page": 11,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVI",
+  "rect": [
+   12,
+   37,
+   397,
+   79
+  ],
+  "panel": "11-1",
+  "tetes_detectees": 13
+ },
+ {
+  "page": 11,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Écoutez-moi tous les vingt ! Samedi dernier, on a vu de bell",
+  "rect": [
+   12,
+   550,
+   189,
+   685
+  ],
+  "panel": "11-2",
+  "tetes_detectees": 3,
+  "tip": [
+   58,
+   685
+  ],
+  "dist_tete_proche": 28,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 225,
+  "queue": "IMPRÉCIS (locuteur Kilian à 225px)",
+  "cache": "tête Flavien (100%) ; tête chatain (100%)"
+ },
+ {
+  "page": 11,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Qui peut me dire ce qui nous a manqué quand ça devenait dur ",
+  "rect": [
+   40,
+   694,
+   405,
+   746
+  ],
+  "panel": "11-2",
+  "tetes_detectees": 3,
+  "tip": [
+   389,
+   695
+  ],
+  "dist_tete_proche": 98,
+  "tete_proche": "Kilian",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Kilian à 98px)",
+  "cache": "tête Flavien (35%) ; corps/peau 100% de 1592px² ; corps/peau 100% de 1143px²"
+ },
+ {
+  "page": 11,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Quand ils couraient vers nous, on n'était pas alignés ! Y en",
+  "rect": [
+   430,
+   664,
+   607,
+   766
+  ],
+  "panel": "11-3",
+  "tetes_detectees": 6,
+  "tip": [
+   572,
+   650
+  ],
+  "dist_tete_proche": 4,
+  "tete_proche": "chatain",
+  "dist_locuteur": 4,
+  "queue": "OK",
+  "cache": "corps/peau 67% de 736px²"
+ },
+ {
+  "page": 11,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Et quand l'un de nous avait le ballon, il essayait de passer",
+  "rect": [
+   608,
+   682,
+   852,
+   767
+  ],
+  "panel": "11-3",
+  "tetes_detectees": 6,
+  "tip": [
+   817,
+   666
+  ],
+  "dist_tete_proche": 55,
+  "tete_proche": "chatain",
+  "dist_locuteur": 55,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 55px)",
+  "cache": "corps/peau 47% de 796px²"
+ },
+ {
+  "page": 11,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Et on a fait tomber le ballon vers l'avant plein de fois !",
+  "rect": [
+   675,
+   766,
+   852,
+   834
+  ],
+  "panel": "11-3",
+  "tetes_detectees": 6,
+  "tip": [
+   824,
+   724
+  ],
+  "dist_tete_proche": 88,
+  "tete_proche": "chatain",
+  "dist_locuteur": 271,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 88px)",
+  "cache": "corps/peau 100% de 796px² ; corps/peau 100% de 652px²"
+ },
+ {
+  "page": 11,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Bravo les garçons, vous avez tout compris ! En U8, un joueur",
+  "rect": [
+   12,
+   893,
+   189,
+   1011
+  ],
+  "panel": "11-4",
+  "tetes_detectees": 5,
+  "tip": [
+   58,
+   1026
+  ],
+  "dist_tete_proche": 81,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 134,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 81px)",
+  "cache": "tête Flavien (83%)"
+ },
+ {
+  "page": 11,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Pour progresser, on va travailler nos trois armes secrètes :",
+  "rect": [
+   190,
+   851,
+   434,
+   969
+  ],
+  "panel": "11-4",
+  "tetes_detectees": 5,
+  "tip": [
+   436,
+   966
+  ],
+  "dist_tete_proche": 14,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 95,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 14px, Flavien à 95px)",
+  "cache": "tête Flavien (83%)"
+ },
+ {
+  "page": 11,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Et sous la pluie, le ballon glisse ! C'est le meilleur momen",
+  "rect": [
+   453,
+   959,
+   828,
+   1027
+  ],
+  "panel": "11-5",
+  "tetes_detectees": 0,
+  "tip": [
+   450,
+   1020
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 11,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Ouais ! Du rugby sous la pluie !",
+  "rect": [
+   453,
+   1031,
+   828,
+   1066
+  ],
+  "panel": "11-5",
+  "tetes_detectees": 0,
+  "tip": [
+   817,
+   1015
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 12,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "On monte ensemble ! Regardez à votre gauche et à votre droit",
+  "rect": [
+   18,
+   108,
+   378,
+   176
+  ],
+  "panel": "12-1",
+  "tetes_detectees": 5,
+  "tip": [
+   63,
+   175
+  ],
+  "dist_tete_proche": 88,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : chatain à 88px)"
+ },
+ {
+  "page": 12,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Ayden & Lyssandro",
+  "text": "ATTENDS LA LIGNE !",
+  "rect": [
+   18,
+   252,
+   378,
+   287
+  ],
+  "panel": "12-1",
+  "tetes_detectees": 5,
+  "tip": [
+   63,
+   255
+  ],
+  "dist_tete_proche": 93,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Ayden & Lyssandro non identifiée ; proche : chatain à 93px)"
+ },
+ {
+  "page": 12,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Eh ! Vous avez vu ? Quand on reste collés sur la même ligne,",
+  "rect": [
+   18,
+   473,
+   258,
+   558
+  ],
+  "panel": "12-2",
+  "tetes_detectees": 3,
+  "tip": [
+   63,
+   540
+  ],
+  "dist_tete_proche": 76,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : Flavien à 76px)"
+ },
+ {
+  "page": 12,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "C'est ça le soutien offensif ! Vous êtes les gardes du corps",
+  "rect": [
+   431,
+   407,
+   605,
+   575
+  ],
+  "panel": "12-3",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   575
+  ],
+  "dist_tete_proche": 186,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : chatain à 186px)"
+ },
+ {
+  "page": 12,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Tiens Lyssandro !",
+  "rect": [
+   18,
+   712,
+   388,
+   747
+  ],
+  "panel": "12-4",
+  "tetes_detectees": 4,
+  "tip": [
+   63,
+   745
+  ],
+  "dist_tete_proche": 113,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 127,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 113px)",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 12,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Super passe Ayden, j'ai même pas eu besoin de ralentir !",
+  "rect": [
+   18,
+   748,
+   388,
+   800
+  ],
+  "panel": "12-4",
+  "tetes_detectees": 4,
+  "tip": [
+   355,
+   711
+  ],
+  "dist_tete_proche": 19,
+  "tete_proche": "chatain",
+  "dist_locuteur": 19,
+  "queue": "OK",
+  "cache": "tête Nolann (47%)"
+ },
+ {
+  "page": 12,
+  "el": 6,
+  "kind": "ono",
+  "speaker": "",
+  "text": "SPLATCH !",
+  "rect": [
+   628,
+   632,
+   724,
+   668
+  ],
+  "panel": "12-1",
+  "tetes_detectees": 20
+ },
+ {
+  "page": 12,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Oups… Il glisse comme un savon ce ballon !",
+  "rect": [
+   431,
+   772,
+   671,
+   824
+  ],
+  "panel": "12-5",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   820
+  ],
+  "dist_tete_proche": 254,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 294,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 254px)"
+ },
+ {
+  "page": 12,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Pfff… Sérieux Milo, si tu fais encore tomber le ballon comme",
+  "rect": [
+   18,
+   933,
+   388,
+   985
+  ],
+  "panel": "12-6",
+  "tetes_detectees": 4,
+  "tip": [
+   62,
+   1004
+  ],
+  "dist_tete_proche": 149,
+  "tete_proche": "chatain",
+  "dist_locuteur": 149,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 149px)"
+ },
+ {
+  "page": 12,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Oh ça va Léon, arrête de râler ! Toi aussi t'en as fait tomb",
+  "rect": [
+   486,
+   981,
+   846,
+   1033
+  ],
+  "panel": "12-6",
+  "tetes_detectees": 4,
+  "tip": [
+   490,
+   1031
+  ],
+  "dist_tete_proche": 10,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 224,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 10px, Lyssandro à 224px)",
+  "cache": "corps/peau 100% de 1145px²"
+ },
+ {
+  "page": 12,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Lyssandro a raison, Léon. À l'entraînement, on est là pour e",
+  "rect": [
+   18,
+   1077,
+   378,
+   1145
+  ],
+  "panel": "12-6",
+  "tetes_detectees": 4,
+  "tip": [
+   50,
+   1042
+  ],
+  "dist_tete_proche": 161,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 161px)",
+  "cache": "corps/peau 100% de 1467px² ; corps/peau 100% de 944px²"
+ },
+ {
+  "page": 13,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "NOVEMBRE 2026 — DEUXIÈME TOURNOI. AU FIL DES SEMAINES, L'ÉQU",
+  "rect": [
+   17,
+   27,
+   797,
+   56
+  ],
+  "panel": "13-1",
+  "tetes_detectees": 0
+ },
+ {
+  "page": 13,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Soutien à droite ! Vas-y Ayden !",
+  "rect": [
+   17,
+   424,
+   193,
+   476
+  ],
+  "panel": "13-2",
+  "tetes_detectees": 4,
+  "tip": [
+   63,
+   475
+  ],
+  "dist_tete_proche": 68,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : ? à 68px)"
+ },
+ {
+  "page": 13,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Pour toi Léon, va marquer !",
+  "rect": [
+   193,
+   442,
+   435,
+   477
+  ],
+  "panel": "13-2",
+  "tetes_detectees": 4,
+  "tip": [
+   390,
+   421
+  ],
+  "dist_tete_proche": 26,
+  "tete_proche": "chatain",
+  "dist_locuteur": 26,
+  "queue": "OK"
+ },
+ {
+  "page": 13,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Oui ! Quand on gagne comme ça, j'adore le rugby !",
+  "rect": [
+   434,
+   412,
+   608,
+   480
+  ],
+  "panel": "13-3",
+  "tetes_detectees": 6,
+  "tip": [
+   478,
+   475
+  ],
+  "dist_tete_proche": 54,
+  "tete_proche": "?",
+  "dist_locuteur": 100,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 54px)",
+  "cache": "tête chatain (73%) ; tête ? (100%) ; corps/peau 100% de 670px²"
+ },
+ {
+  "page": 13,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Super collectif les garçons ! Gardez cette tête-là pour le m",
+  "rect": [
+   609,
+   442,
+   848,
+   510
+  ],
+  "panel": "13-3",
+  "tetes_detectees": 6,
+  "tip": [
+   822,
+   445
+  ],
+  "dist_tete_proche": 0,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : Nolann à 0px)",
+  "cache": "tête Nolann (42%) ; corps/peau 100% de 932px²"
+ },
+ {
+  "page": 13,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Joueur de Rumilly",
+  "text": "On les bloque chez eux les Rouge et Noir !",
+  "rect": [
+   105,
+   645,
+   347,
+   697
+  ],
+  "panel": "13-4",
+  "tetes_detectees": 6,
+  "tip": [
+   87,
+   662
+  ],
+  "dist_tete_proche": 18,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Joueur de Rumilly non identifiée ; proche : Nolann à 18px)"
+ },
+ {
+  "page": 13,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Mais plus vite ! Passez-moi le ballon !",
+  "rect": [
+   434,
+   663,
+   673,
+   715
+  ],
+  "panel": "13-5",
+  "tetes_detectees": 4,
+  "tip": [
+   478,
+   713
+  ],
+  "dist_tete_proche": 60,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 82,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 60px)",
+  "cache": "corps/peau 100% de 611px²"
+ },
+ {
+  "page": 13,
+  "el": 7,
+  "kind": "ono",
+  "speaker": "",
+  "text": "PAF !",
+  "rect": [
+   612,
+   717,
+   708,
+   753
+  ],
+  "panel": "13-1",
+  "tetes_detectees": 25
+ },
+ {
+  "page": 13,
+  "el": 8,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   722,
+   717,
+   818,
+   753
+  ],
+  "panel": "13-1",
+  "tetes_detectees": 25
+ },
+ {
+  "page": 13,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Essai pour Rumilly ! Fin du match !",
+  "rect": [
+   17,
+   928,
+   387,
+   963
+  ],
+  "panel": "13-6",
+  "tetes_detectees": 6,
+  "tip": [
+   63,
+   960
+  ],
+  "dist_tete_proche": 81,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : chatain à 81px)"
+ },
+ {
+  "page": 14,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Désolé les gars… Le ballon est arrivé super vite et j'ai gli",
+  "rect": [
+   17,
+   183,
+   387,
+   235
+  ],
+  "panel": "14-1",
+  "tetes_detectees": 6,
+  "tip": [
+   63,
+   169
+  ],
+  "dist_tete_proche": 101,
+  "tete_proche": "chatain",
+  "dist_locuteur": 101,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 101px)"
+ },
+ {
+  "page": 14,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "C'est ma faute aussi Milo, ma passe était trop haute…",
+  "rect": [
+   477,
+   171,
+   847,
+   206
+  ],
+  "panel": "14-1",
+  "tetes_detectees": 6,
+  "tip": [
+   477,
+   171
+  ],
+  "dist_tete_proche": 12,
+  "tete_proche": "chatain",
+  "dist_locuteur": 215,
+  "queue": "MAUVAIS LOCUTEUR (pointe chatain à 12px, Nolann à 215px)"
+ },
+ {
+  "page": 14,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu",
+  "rect": [
+   17,
+   468,
+   387,
+   553
+  ],
+  "panel": "14-2",
+  "tetes_detectees": 5,
+  "tip": [
+   65,
+   495
+  ],
+  "dist_tete_proche": 123,
+  "tete_proche": "chatain",
+  "dist_locuteur": 123,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 123px)",
+  "cache": "tête chatain (65%) ; corps/peau 77% de 8630px² ; corps/peau 100% de 6628px²"
+ },
+ {
+  "page": 14,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Je l'ai pas fait exprès Léon…",
+  "rect": [
+   17,
+   810,
+   192,
+   862
+  ],
+  "panel": "14-3",
+  "tetes_detectees": 4,
+  "tip": [
+   190,
+   808
+  ],
+  "dist_tete_proche": 5,
+  "tete_proche": "chatain",
+  "dist_locuteur": 5,
+  "queue": "OK"
+ },
+ {
+  "page": 14,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Arrête Léon, t'es super méchant ! Toi non plus t'étais pas e",
+  "rect": [
+   258,
+   792,
+   433,
+   866
+  ],
+  "panel": "14-3",
+  "tetes_detectees": 4,
+  "tip": [
+   420,
+   783
+  ],
+  "dist_tete_proche": 25,
+  "tete_proche": "chatain",
+  "dist_locuteur": 25,
+  "queue": "OK"
+ },
+ {
+  "page": 14,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipie",
+  "rect": [
+   432,
+   708,
+   606,
+   810
+  ],
+  "panel": "14-4",
+  "tetes_detectees": 4,
+  "tip": [
+   478,
+   805
+  ],
+  "dist_tete_proche": 72,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 72,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 72px)",
+  "cache": "tête Flavien (100%)"
+ },
+ {
+  "page": 14,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Venez les garçons, n'écoutez pas ça. Vous avez tout donné su",
+  "rect": [
+   607,
+   744,
+   847,
+   812
+  ],
+  "panel": "14-4",
+  "tetes_detectees": 4,
+  "tip": [
+   822,
+   745
+  ],
+  "dist_tete_proche": 60,
+  "tete_proche": "Kilian",
+  "dist_locuteur": 135,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 60px)"
+ },
+ {
+  "page": 14,
+  "el": 7,
+  "kind": "pensee",
+  "speaker": "Léon",
+  "text": "Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…",
+  "rect": [
+   17,
+   1061,
+   397,
+   1095
+  ],
+  "panel": "14-5",
+  "tetes_detectees": 8,
+  "tip": [
+   80,
+   1101
+  ],
+  "dist_tete_proche": 61,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 188,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 61px)",
+  "cache": "tête Flavien (35%) ; corps/peau 53% de 3144px²"
+ },
+ {
+  "page": 15,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "LE SOIR MÊME, À SAINT-SULPICE…",
+  "rect": [
+   15,
+   24,
+   477,
+   53
+  ],
+  "panel": "15-1",
+  "tetes_detectees": 2
+ },
+ {
+  "page": 15,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Vanessa et Alice préparent le dîner à côté. Toi et moi, on a",
+  "rect": [
+   350,
+   210,
+   850,
+   262
+  ],
+  "panel": "15-1",
+  "tetes_detectees": 2,
+  "tip": [
+   397,
+   194
+  ],
+  "dist_tete_proche": 60,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 60px)"
+ },
+ {
+  "page": 15,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec ",
+  "rect": [
+   15,
+   325,
+   191,
+   427
+  ],
+  "panel": "15-2",
+  "tetes_detectees": 2,
+  "tip": [
+   61,
+   425
+  ],
+  "dist_tete_proche": 152,
+  "tete_proche": "adversaire-vert",
+  "dist_locuteur": 192,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 152px)"
+ },
+ {
+  "page": 15,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Pourquoi tu t'es mis dans une colère pareille, mon grand ? D",
+  "rect": [
+   257,
+   373,
+   433,
+   475
+  ],
+  "panel": "15-2",
+  "tetes_detectees": 2,
+  "tip": [
+   392,
+   375
+  ],
+  "dist_tete_proche": 97,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 97px)"
+ },
+ {
+  "page": 15,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "C'est que… j'ai trop envie qu'on gagne ! Quand l'autre équip",
+  "rect": [
+   432,
+   289,
+   608,
+   474
+  ],
+  "panel": "15-3",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   430
+  ],
+  "dist_tete_proche": 35,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : adversaire-vert à 35px)",
+  "cache": "tête adversaire-vert (100%) ; corps/peau 100% de 6271px² ; corps/peau 100% de 1004px²"
+ },
+ {
+  "page": 15,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Écoute-moi bien, Léon, et garde cette phrase dans ta tête po",
+  "rect": [
+   15,
+   498,
+   387,
+   566
+  ],
+  "panel": "15-4",
+  "tetes_detectees": 2,
+  "tip": [
+   14,
+   565
+  ],
+  "dist_tete_proche": 43,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 43px)",
+  "cache": "corps/peau 37% de 7113px²"
+ },
+ {
+  "page": 15,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Quand on gagne tout comme en U6, on croit qu'on est parfait ",
+  "rect": [
+   475,
+   804,
+   850,
+   889
+  ],
+  "panel": "15-4",
+  "tetes_detectees": 2,
+  "tip": [
+   486,
+   885
+  ],
+  "dist_tete_proche": 235,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 235px)",
+  "cache": "corps/peau 91% de 14499px²"
+ },
+ {
+  "page": 15,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça",
+  "rect": [
+   15,
+   1008,
+   387,
+   1060
+  ],
+  "panel": "15-5",
+  "tetes_detectees": 2,
+  "tip": [
+   61,
+   1055
+  ],
+  "dist_tete_proche": 377,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : adversaire-vert à 377px)"
+ },
+ {
+  "page": 15,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Exactement champion : on apprend de ses échecs, c'est ce qui",
+  "rect": [
+   15,
+   1062,
+   390,
+   1164
+  ],
+  "panel": "15-5",
+  "tetes_detectees": 2,
+  "tip": [
+   415,
+   1110
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : adversaire-vert à 23px)",
+  "cache": "corps/peau 100% de 5406px² ; corps/peau 48% de 792px²"
+ },
+ {
+  "page": 15,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Oui Papa. Dès demain.",
+  "rect": [
+   350,
+   1158,
+   850,
+   1193
+  ],
+  "panel": "15-5",
+  "tetes_detectees": 2,
+  "tip": [
+   396,
+   1138
+  ],
+  "dist_tete_proche": 42,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : adversaire-vert à 42px)",
+  "cache": "corps/peau 48% de 5406px² ; corps/peau 75% de 792px²"
+ },
+ {
+  "page": 16,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Salut Ayden… Je voulais te demander pardon pour samedi. T'av",
+  "rect": [
+   19,
+   79,
+   192,
+   197
+  ],
+  "panel": "16-1",
+  "tetes_detectees": 1,
+  "tip": [
+   63,
+   195
+  ],
+  "dist_tete_proche": 123,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : ? à 123px)",
+  "cache": "tête ? (100%) ; corps/peau 100% de 628px²"
+ },
+ {
+  "page": 16,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Je suis content que tu dises ça, Léon ! Justement, j'en parl",
+  "rect": [
+   432,
+   49,
+   605,
+   234
+  ],
+  "panel": "16-2",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   230
+  ],
+  "dist_tete_proche": 149,
+  "tete_proche": "chatain",
+  "dist_locuteur": 149,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 149px)",
+  "cache": "tête chatain (100%)"
+ },
+ {
+  "page": 16,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Il a raison Baptiste. Mercredi au stade, je vais m'excuser a",
+  "rect": [
+   19,
+   390,
+   389,
+   442
+  ],
+  "panel": "16-3",
+  "tetes_detectees": 6,
+  "tip": [
+   431,
+   458
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "chatain",
+  "dist_locuteur": 23,
+  "queue": "OK"
+ },
+ {
+  "page": 16,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Les gars… Pardon d'avoir été méchant contre Rumilly. Mon pap",
+  "rect": [
+   475,
+   270,
+   845,
+   323
+  ],
+  "panel": "16-3",
+  "tetes_detectees": 6,
+  "tip": [
+   429,
+   338
+  ],
+  "dist_tete_proche": 3,
+  "tete_proche": "Julien",
+  "dist_locuteur": 104,
+  "queue": "MAUVAIS LOCUTEUR (pointe Julien à 3px, Léon à 104px)"
+ },
+ {
+  "page": 16,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "C'est vrai, tu nous crieras plus dessus si le ballon glisse ",
+  "rect": [
+   19,
+   754,
+   389,
+   806
+  ],
+  "panel": "16-4",
+  "tetes_detectees": 4,
+  "tip": [
+   54,
+   721
+  ],
+  "dist_tete_proche": 165,
+  "tete_proche": "chatain",
+  "dist_locuteur": 165,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 165px)",
+  "cache": "corps/peau 100% de 4524px²"
+ },
+ {
+  "page": 16,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Promis juré ! Même s'il est plein de boue !",
+  "rect": [
+   486,
+   742,
+   845,
+   777
+  ],
+  "panel": "16-4",
+  "tetes_detectees": 4,
+  "tip": [
+   483,
+   745
+  ],
+  "dist_tete_proche": 0,
+  "tete_proche": "chatain",
+  "dist_locuteur": 0,
+  "queue": "OK",
+  "cache": "corps/peau 36% de 924px²"
+ },
+ {
+  "page": 16,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires",
+  "rect": [
+   350,
+   802,
+   845,
+   837
+  ],
+  "panel": "16-4",
+  "tetes_detectees": 4,
+  "tip": [
+   359,
+   753
+  ],
+  "dist_tete_proche": 37,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : chatain à 37px)",
+  "cache": "corps/peau 100% de 1330px² ; corps/peau 100% de 3554px² ; corps/peau 56% de 4153px²"
+ },
+ {
+  "page": 16,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS P",
+  "rect": [
+   247,
+   844,
+   617,
+   896
+  ],
+  "panel": "16-4",
+  "tetes_detectees": 4,
+  "tip": [
+   569,
+   895
+  ],
+  "dist_tete_proche": 168,
+  "tete_proche": "chatain",
+  "dist_locuteur": 168,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 168px)",
+  "cache": "corps/peau 100% de 3554px² ; corps/peau 100% de 4153px²"
+ },
+ {
+  "page": 16,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Eh bien Flavien, je crois que ta discussion à la maison a fa",
+  "rect": [
+   19,
+   1118,
+   389,
+   1170
+  ],
+  "panel": "16-5",
+  "tetes_detectees": 8,
+  "tip": [
+   17,
+   1121
+  ],
+  "dist_tete_proche": 12,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 288,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 12px, Kilian à 288px)"
+ },
+ {
+  "page": 16,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le",
+  "rect": [
+   475,
+   1004,
+   845,
+   1072
+  ],
+  "panel": "16-5",
+  "tetes_detectees": 8,
+  "tip": [
+   474,
+   1070
+  ],
+  "dist_tete_proche": 13,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : ? à 13px)"
+ },
+ {
+  "page": 17,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "DÉCEMBRE EN SAVOIE. LE FROID ET LA NEIGE SONT LÀ… MAIS AU RU",
+  "rect": [
+   15,
+   24,
+   797,
+   53
+  ],
+  "panel": "17-1",
+  "tetes_detectees": 0
+ },
+ {
+  "page": 17,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Brrr ! Regardez, on dirait des dragons qui crachent de la fu",
+  "rect": [
+   15,
+   419,
+   387,
+   471
+  ],
+  "panel": "17-2",
+  "tetes_detectees": 2,
+  "tip": [
+   44,
+   405
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : ? à 23px)"
+ },
+ {
+  "page": 17,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Avec mes gants de sport et mon bonnet, j'ai même pas froid !",
+  "rect": [
+   15,
+   473,
+   387,
+   505
+  ],
+  "panel": "17-2",
+  "tetes_detectees": 2,
+  "tip": [
+   383,
+   425
+  ],
+  "dist_tete_proche": 39,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Milo non identifiée ; proche : ? à 39px)"
+ },
+ {
+  "page": 17,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Et surtout… vous avez vu le calendrier ? On est au mois de D",
+  "rect": [
+   432,
+   335,
+   607,
+   420
+  ],
+  "panel": "17-3",
+  "tetes_detectees": 3,
+  "tip": [
+   478,
+   415
+  ],
+  "dist_tete_proche": 86,
+  "tete_proche": "chatain",
+  "dist_locuteur": 86,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 86px)",
+  "cache": "tête chatain (100%)"
+ },
+ {
+  "page": 17,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Eh oui les garçons ! Qui dit mois de décembre en U8 dit… nou",
+  "rect": [
+   15,
+   599,
+   387,
+   651
+  ],
+  "panel": "17-4",
+  "tetes_detectees": 16,
+  "tip": [
+   64,
+   660
+  ],
+  "dist_tete_proche": 61,
+  "tete_proche": "chatain",
+  "dist_locuteur": 389,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 61px)",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 17,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Le touché à deux mains, c'est terminé ! À partir d'aujourd'h",
+  "rect": [
+   474,
+   557,
+   849,
+   609
+  ],
+  "panel": "17-4",
+  "tetes_detectees": 16,
+  "tip": [
+   479,
+   613
+  ],
+  "dist_tete_proche": 12,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : ? à 12px)"
+ },
+ {
+  "page": 17,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Les 20 joueurs en chœur",
+  "text": "OUAAAAIS ! LES PLAQUAGES !",
+  "rect": [
+   15,
+   827,
+   387,
+   862
+  ],
+  "panel": "17-4",
+  "tetes_detectees": 16,
+  "tip": [
+   61,
+   808
+  ],
+  "dist_tete_proche": 41,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Les 20 joueurs en chœur non identifiée ; proche : Nolann à 41px)"
+ },
+ {
+  "page": 17,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Enfin du vrai rugby de grands !",
+  "rect": [
+   474,
+   785,
+   849,
+   820
+  ],
+  "panel": "17-4",
+  "tetes_detectees": 16,
+  "tip": [
+   834,
+   739
+  ],
+  "dist_tete_proche": 141,
+  "tete_proche": "Julien",
+  "dist_locuteur": 146,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 141px)"
+ },
+ {
+  "page": 17,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Attention les guerriers ! Plaquer, ce n'est pas se jeter n'i",
+  "rect": [
+   15,
+   992,
+   378,
+   1077
+  ],
+  "panel": "17-5",
+  "tetes_detectees": 5,
+  "tip": [
+   61,
+   1075
+  ],
+  "dist_tete_proche": 220,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 220px)",
+  "cache": "corps/peau 100% de 978px² ; corps/peau 100% de 872px²"
+ },
+ {
+  "page": 18,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Règle numéro 1 : on baisse son centre de gravité, on vise en",
+  "rect": [
+   20,
+   68,
+   193,
+   186
+  ],
+  "panel": "18-1",
+  "tetes_detectees": 1,
+  "tip": [
+   65,
+   185
+  ],
+  "dist_tete_proche": 308,
+  "tete_proche": "Julien",
+  "dist_locuteur": 308,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 308px)"
+ },
+ {
+  "page": 18,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Règle numéro 2 : on pose l'épaule, on serre fort ses deux br",
+  "rect": [
+   432,
+   50,
+   605,
+   185
+  ],
+  "panel": "18-2",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   185
+  ],
+  "dist_tete_proche": 141,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 141px)",
+  "cache": "tête ? (75%)"
+ },
+ {
+  "page": 18,
+  "el": 2,
+  "kind": "ono",
+  "speaker": "",
+  "text": "BOUM !",
+  "rect": [
+   572,
+   13,
+   668,
+   49
+  ],
+  "panel": "18-1",
+  "tetes_detectees": 8,
+  "cache": "tête ? (16%)"
+ },
+ {
+  "page": 18,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Super Nolann ! Bien bas et les bras bien fermés !",
+  "rect": [
+   432,
+   188,
+   802,
+   223
+  ],
+  "panel": "18-2",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   205
+  ],
+  "dist_tete_proche": 155,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : ? à 155px)"
+ },
+ {
+  "page": 18,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Même le boudin il a pas bougé d'un centimètre !",
+  "rect": [
+   453,
+   224,
+   823,
+   255
+  ],
+  "panel": "18-2",
+  "tetes_detectees": 1,
+  "tip": [
+   815,
+   177
+  ],
+  "dist_tete_proche": 207,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : ? à 207px)"
+ },
+ {
+  "page": 18,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Je le plaque en bas, Milo !",
+  "rect": [
+   20,
+   370,
+   388,
+   405
+  ],
+  "panel": "18-3",
+  "tetes_detectees": 2,
+  "tip": [
+   65,
+   405
+  ],
+  "dist_tete_proche": 407,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Ayden non identifiée ; proche : ? à 407px)"
+ },
+ {
+  "page": 18,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Et moi je récupère le ballon dès qu'il est au sol !",
+  "rect": [
+   244,
+   406,
+   619,
+   441
+  ],
+  "panel": "18-3",
+  "tetes_detectees": 2,
+  "tip": [
+   572,
+   457
+  ],
+  "dist_tete_proche": 62,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Milo non identifiée ; proche : ? à 62px)"
+ },
+ {
+  "page": 18,
+  "el": 7,
+  "kind": "ono",
+  "speaker": "",
+  "text": "PAF !",
+  "rect": [
+   382,
+   632,
+   478,
+   668
+  ],
+  "panel": "18-1",
+  "tetes_detectees": 8,
+  "cache": "tête ? (16%)"
+ },
+ {
+  "page": 18,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Bien plaqué ! Tiens Lyssandro, je te la laisse, continue l'a",
+  "rect": [
+   20,
+   1043,
+   193,
+   1128
+  ],
+  "panel": "18-5",
+  "tetes_detectees": 0,
+  "tip": [
+   65,
+   1125
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 18,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "J'y vais Léon, bien joué !",
+  "rect": [
+   432,
+   1073,
+   605,
+   1125
+  ],
+  "panel": "18-6",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   1125
+  ],
+  "dist_tete_proche": 130,
+  "tete_proche": "?",
+  "dist_locuteur": 207,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 130px)"
+ },
+ {
+  "page": 18,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Bravo Léon ! En octobre tu aurais gardé le ballon pour toi t",
+  "rect": [
+   432,
+   1127,
+   802,
+   1195
+  ],
+  "panel": "18-6",
+  "tetes_detectees": 2,
+  "tip": [
+   463,
+   1091
+  ],
+  "dist_tete_proche": 126,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : ? à 126px)"
+ },
+ {
+  "page": 19,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Hé les gars, regardez ce que j'ai compris ! Avec les vrais p",
+  "rect": [
+   20,
+   123,
+   388,
+   191
+  ],
+  "panel": "19-1",
+  "tetes_detectees": 5,
+  "tip": [
+   51,
+   228
+  ],
+  "dist_tete_proche": 155,
+  "tete_proche": "?",
+  "dist_locuteur": 243,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 155px)"
+ },
+ {
+  "page": 19,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Oui ! Alors que si on est deux juste derrière lui en soutien",
+  "rect": [
+   469,
+   129,
+   844,
+   197
+  ],
+  "panel": "19-1",
+  "tetes_detectees": 5,
+  "tip": [
+   457,
+   245
+  ],
+  "dist_tete_proche": 22,
+  "tete_proche": "?",
+  "dist_locuteur": 79,
+  "queue": "IMPRÉCIS (locuteur Ayden à 79px)"
+ },
+ {
+  "page": 19,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Et en défense, c'est pareil : mon papa dit que si un seul de",
+  "rect": [
+   20,
+   585,
+   193,
+   720
+  ],
+  "panel": "19-2",
+  "tetes_detectees": 5,
+  "tip": [
+   65,
+   724
+  ],
+  "dist_tete_proche": 81,
+  "tete_proche": "chatain",
+  "dist_locuteur": 81,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 81px)",
+  "cache": "tête chatain (100%) ; corps/peau 100% de 981px²"
+ },
+ {
+  "page": 19,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Le mur Rouge, Bleu et Blanc du RCM !",
+  "rect": [
+   259,
+   687,
+   432,
+   739
+  ],
+  "panel": "19-2",
+  "tetes_detectees": 5,
+  "tip": [
+   273,
+   679
+  ],
+  "dist_tete_proche": 12,
+  "tete_proche": "Julien",
+  "dist_locuteur": 18,
+  "queue": "OK"
+ },
+ {
+  "page": 19,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Regardez-les tous les cinq là-bas… Ils n'attendent même plus",
+  "rect": [
+   432,
+   591,
+   605,
+   726
+  ],
+  "panel": "19-3",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   725
+  ],
+  "dist_tete_proche": 151,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Nolann à 151px)"
+ },
+ {
+  "page": 19,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Ce week-end, on affronte Le Môle et Thonon. Ce sont deux équ",
+  "rect": [
+   20,
+   844,
+   388,
+   896
+  ],
+  "panel": "19-4",
+  "tetes_detectees": 3,
+  "tip": [
+   40,
+   940
+  ],
+  "dist_tete_proche": 126,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : chatain à 126px)"
+ },
+ {
+  "page": 19,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Ce sera le vrai test pour voir si Léon garde son calme quand",
+  "rect": [
+   20,
+   1132,
+   388,
+   1184
+  ],
+  "panel": "19-4",
+  "tetes_detectees": 3,
+  "tip": [
+   364,
+   1115
+  ],
+  "dist_tete_proche": 38,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 38px)"
+ },
+ {
+  "page": 19,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "J'ai confiance en eux, Flavien. Nos petits U8 sont en train ",
+  "rect": [
+   432,
+   1072,
+   670,
+   1140
+  ],
+  "panel": "19-5",
+  "tetes_detectees": 3,
+  "tip": [
+   637,
+   1056
+  ],
+  "dist_tete_proche": 14,
+  "tete_proche": "Julien",
+  "dist_locuteur": 14,
+  "queue": "OK",
+  "cache": "corps/peau 61% de 8464px²"
+ },
+ {
+  "page": 20,
+  "el": 0,
+  "kind": "ono",
+  "speaker": "",
+  "text": "TCHAC !",
+  "rect": [
+   52,
+   42,
+   148,
+   78
+  ],
+  "panel": "20-1",
+  "tetes_detectees": 9
+ },
+ {
+  "page": 20,
+  "el": 1,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   252,
+   37,
+   348,
+   73
+  ],
+  "panel": "20-1",
+  "tetes_detectees": 9
+ },
+ {
+  "page": 20,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Sortie en touche ! Ballon rendu au RCM et joué comme une pén",
+  "rect": [
+   252,
+   161,
+   611,
+   213
+  ],
+  "panel": "20-1",
+  "tetes_detectees": 7,
+  "tip": [
+   298,
+   234
+  ],
+  "dist_tete_proche": 36,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : ? à 36px)",
+  "cache": "corps/peau 100% de 655px²"
+ },
+ {
+  "page": 20,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Vite, ils ne sont pas replacés ! À toi Léon !",
+  "rect": [
+   20,
+   596,
+   258,
+   648
+  ],
+  "panel": "20-2",
+  "tetes_detectees": 0,
+  "tip": [
+   65,
+   645
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 20,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Merci Lyssandro ! ESSAI !",
+  "rect": [
+   259,
+   620,
+   432,
+   672
+  ],
+  "panel": "20-2",
+  "tetes_detectees": 0,
+  "tip": [
+   392,
+   625
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 20,
+  "el": 5,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) !",
+  "rect": [
+   20,
+   674,
+   388,
+   703
+  ],
+  "panel": "20-2",
+  "tetes_detectees": 0
+ },
+ {
+  "page": 20,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Dernière action le RCM ! Construisez, ne vous précipitez pas",
+  "rect": [
+   432,
+   596,
+   670,
+   664
+  ],
+  "panel": "20-3",
+  "tetes_detectees": 0,
+  "tip": [
+   478,
+   660
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 20,
+  "el": 7,
+  "kind": "ono",
+  "speaker": "",
+  "text": "BOUM !",
+  "rect": [
+   62,
+   837,
+   158,
+   873
+  ],
+  "panel": "20-1",
+  "tetes_detectees": 9
+ },
+ {
+  "page": 20,
+  "el": 8,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIIIIT !",
+  "rect": [
+   252,
+   832,
+   348,
+   868
+  ],
+  "panel": "20-1",
+  "tetes_detectees": 9
+ },
+ {
+  "page": 20,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "En-avant ! Et c'est la fin du match ! Victoire de Thonon !",
+  "rect": [
+   20,
+   972,
+   193,
+   1040
+  ],
+  "panel": "20-4",
+  "tetes_detectees": 0,
+  "tip": [
+   65,
+   1035
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 20,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, par",
+  "rect": [
+   432,
+   961,
+   605,
+   1046
+  ],
+  "panel": "20-5",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   1045
+  ],
+  "dist_tete_proche": 57,
+  "tete_proche": "chatain",
+  "dist_locuteur": 57,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 57px)",
+  "cache": "tête chatain (100%)"
+ },
+ {
+  "page": 21,
+  "el": 0,
+  "kind": "pensee",
+  "speaker": "Léon",
+  "text": "Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquo",
+  "rect": [
+   20,
+   326,
+   408,
+   375
+  ],
+  "panel": "21-1",
+  "tetes_detectees": 2,
+  "tip": [
+   80,
+   288
+  ],
+  "dist_tete_proche": 277,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : ? à 277px)"
+ },
+ {
+  "page": 21,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai f",
+  "rect": [
+   20,
+   554,
+   193,
+   672
+  ],
+  "panel": "21-2",
+  "tetes_detectees": 3,
+  "tip": [
+   65,
+   670
+  ],
+  "dist_tete_proche": 234,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Julien à 234px)",
+  "cache": "corps/peau 85% de 2112px²"
+ },
+ {
+  "page": 21,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Tu… tu n'es pas en colère Léon ?",
+  "rect": [
+   446,
+   502,
+   632,
+   530
+  ],
+  "panel": "21-3",
+  "tetes_detectees": 7,
+  "tip": [
+   480,
+   555
+  ],
+  "dist_tete_proche": 21,
+  "tete_proche": "?",
+  "dist_locuteur": 153,
+  "queue": "IMPRÉCIS (locuteur Milo à 153px)"
+ },
+ {
+  "page": 21,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Bien sûr que non ! On a perdu d'un point contre Thonon, mais",
+  "rect": [
+   644,
+   502,
+   830,
+   558
+  ],
+  "panel": "21-3",
+  "tetes_detectees": 7,
+  "tip": [
+   806,
+   570
+  ],
+  "dist_tete_proche": 20,
+  "tete_proche": "?",
+  "dist_locuteur": 125,
+  "queue": "MAUVAIS LOCUTEUR (pointe ? à 20px, Léon à 125px)"
+ },
+ {
+  "page": 21,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Et moi j'aurais dû être encore plus près de Milo en soutien ",
+  "rect": [
+   446,
+   642,
+   632,
+   679
+  ],
+  "panel": "21-3",
+  "tetes_detectees": 7,
+  "tip": [
+   449,
+   709
+  ],
+  "dist_tete_proche": 15,
+  "tete_proche": "Julien",
+  "dist_locuteur": 207,
+  "queue": "MAUVAIS LOCUTEUR (pointe Julien à 15px, Ayden à 207px)"
+ },
+ {
+  "page": 21,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Trop bien dit Léon ! Au prochain tournoi, cette action-là, e",
+  "rect": [
+   644,
+   642,
+   830,
+   679
+  ],
+  "panel": "21-3",
+  "tetes_detectees": 7,
+  "tip": [
+   815,
+   716
+  ],
+  "dist_tete_proche": 103,
+  "tete_proche": "?",
+  "dist_locuteur": 168,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 103px)"
+ },
+ {
+  "page": 21,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Bravo Thonon ! Vos plaquages étaient super rapides !",
+  "rect": [
+   20,
+   930,
+   193,
+   998
+  ],
+  "panel": "21-4",
+  "tetes_detectees": 3,
+  "tip": [
+   65,
+   995
+  ],
+  "dist_tete_proche": 101,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Julien à 101px)",
+  "cache": "tête Julien (13%) ; tête Julien (55%) ; corps/peau 100% de 941px²"
+ },
+ {
+  "page": 21,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Tu as vu ça, Flavien ? Ils viennent de perdre le match sur u",
+  "rect": [
+   432,
+   972,
+   605,
+   1107
+  ],
+  "panel": "21-5",
+  "tetes_detectees": 3,
+  "tip": [
+   575,
+   958
+  ],
+  "dist_tete_proche": 22,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : chatain à 22px)"
+ },
+ {
+  "page": 21,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Il a compris, Julien. Il a enfin compris ce que veut dire gr",
+  "rect": [
+   606,
+   990,
+   844,
+   1042
+  ],
+  "panel": "21-5",
+  "tetes_detectees": 3,
+  "tip": [
+   823,
+   977
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : chatain à 23px)",
+  "cache": "corps/peau 68% de 661px²"
+ },
+ {
+  "page": 22,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MARS — LE SOLEIL DU PRINTEMPS REVIENT SUR LA SAVOIE. FINIS L",
+  "rect": [
+   19,
+   29,
+   797,
+   58
+  ],
+  "panel": "22-1",
+  "tetes_detectees": 10
+ },
+ {
+  "page": 22,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Les garçons, depuis septembre, on a connu des victoires, des",
+  "rect": [
+   20,
+   488,
+   388,
+   568
+  ],
+  "panel": "22-2",
+  "tetes_detectees": 8,
+  "tip": [
+   32,
+   600
+  ],
+  "dist_tete_proche": 60,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : Nolann à 60px)"
+ },
+ {
+  "page": 22,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Qu'il ne faut jamais jouer tout seul ni s'énerver ! Quand l'",
+  "rect": [
+   446,
+   502,
+   831,
+   566
+  ],
+  "panel": "22-3",
+  "tetes_detectees": 4,
+  "tip": [
+   490,
+   590
+  ],
+  "dist_tete_proche": 44,
+  "tete_proche": "chatain",
+  "dist_locuteur": 44,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 44px)",
+  "cache": "tête ? (31%)"
+ },
+ {
+  "page": 22,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Et que si on a toujours deux copains en soutien offensif dan",
+  "rect": [
+   446,
+   734,
+   632,
+   814
+  ],
+  "panel": "22-3",
+  "tetes_detectees": 4,
+  "tip": [
+   674,
+   707
+  ],
+  "dist_tete_proche": 76,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 95,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 76px)",
+  "cache": "corps/peau 100% de 1502px²"
+ },
+ {
+  "page": 22,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Et qu'en défense en ligne, on doit avancer tous les cinq com",
+  "rect": [
+   644,
+   734,
+   830,
+   814
+  ],
+  "panel": "22-3",
+  "tetes_detectees": 4,
+  "tip": [
+   613,
+   695
+  ],
+  "dist_tete_proche": 41,
+  "tete_proche": "chatain",
+  "dist_locuteur": 131,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 41px)",
+  "cache": "corps/peau 100% de 687px²"
+ },
+ {
+  "page": 22,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Eh bien montrez-nous ça sur le terrain ! Les 4 équipes de 5 ",
+  "rect": [
+   20,
+   996,
+   258,
+   1064
+  ],
+  "panel": "22-4",
+  "tetes_detectees": 3,
+  "tip": [
+   32,
+   987
+  ],
+  "dist_tete_proche": 17,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 102,
+  "queue": "MAUVAIS LOCUTEUR (pointe Nolann à 17px, Kilian à 102px)",
+  "cache": "corps/peau 100% de 1262px²"
+ },
+ {
+  "page": 22,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Attention les yeux, la machine du RCM est lancée !",
+  "rect": [
+   432,
+   1002,
+   807,
+   1037
+  ],
+  "panel": "22-5",
+  "tetes_detectees": 8,
+  "tip": [
+   457,
+   990
+  ],
+  "dist_tete_proche": 20,
+  "tete_proche": "chatain",
+  "dist_locuteur": 20,
+  "queue": "OK",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 23,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Mains en W !",
+  "rect": [
+   17,
+   192,
+   347,
+   227
+  ],
+  "panel": "23-1",
+  "tetes_detectees": 5,
+  "tip": [
+   66,
+   183
+  ],
+  "dist_tete_proche": 42,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 453,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 42px)"
+ },
+ {
+  "page": 23,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Toujours en arrière, zéro en-avant !",
+  "rect": [
+   350,
+   198,
+   848,
+   233
+  ],
+  "panel": "23-1",
+  "tetes_detectees": 5,
+  "tip": [
+   347,
+   193
+  ],
+  "dist_tete_proche": 172,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 172,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 172px)"
+ },
+ {
+  "page": 23,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Et au bout, toute la ligne a touché le ballon !",
+  "rect": [
+   518,
+   234,
+   848,
+   269
+  ],
+  "panel": "23-1",
+  "tetes_detectees": 5,
+  "tip": [
+   557,
+   203
+  ],
+  "dist_tete_proche": 22,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 22,
+  "queue": "OK"
+ },
+ {
+  "page": 23,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "À gauche, monte d'un pas Nolann ! À droite, reste avec moi L",
+  "rect": [
+   17,
+   455,
+   387,
+   507
+  ],
+  "panel": "23-2",
+  "tetes_detectees": 5,
+  "tip": [
+   63,
+   490
+  ],
+  "dist_tete_proche": 188,
+  "tete_proche": "chatain",
+  "dist_locuteur": 188,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 188px)"
+ },
+ {
+  "page": 23,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Je te vois Ayden, on est alignés ! Personne n'est hors-jeu !",
+  "rect": [
+   473,
+   449,
+   848,
+   501
+  ],
+  "panel": "23-2",
+  "tetes_detectees": 5,
+  "tip": [
+   486,
+   490
+  ],
+  "dist_tete_proche": 62,
+  "tete_proche": "chatain",
+  "dist_locuteur": 62,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 62px)"
+ },
+ {
+  "page": 23,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Je suis pris aux jambes ! Soutien !",
+  "rect": [
+   17,
+   725,
+   387,
+   760
+  ],
+  "panel": "23-3",
+  "tetes_detectees": 4,
+  "tip": [
+   63,
+   760
+  ],
+  "dist_tete_proche": 256,
+  "tete_proche": "Julien",
+  "dist_locuteur": 276,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 256px)"
+ },
+ {
+  "page": 23,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon & Milo",
+  "text": "ON EST LÀ DANS TON DOS !",
+  "rect": [
+   473,
+   725,
+   848,
+   760
+  ],
+  "panel": "23-3",
+  "tetes_detectees": 4,
+  "tip": [
+   486,
+   760
+  ],
+  "dist_tete_proche": 63,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Léon & Milo non identifiée ; proche : chatain à 63px)",
+  "cache": "corps/peau 54% de 895px² ; corps/peau 100% de 805px²"
+ },
+ {
+  "page": 23,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Plus un cri de colère, plus une tête baissée… Regardez la vi",
+  "rect": [
+   17,
+   1019,
+   387,
+   1071
+  ],
+  "panel": "23-4",
+  "tetes_detectees": 5,
+  "tip": [
+   65,
+   1086
+  ],
+  "dist_tete_proche": 59,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Nolann à 59px)"
+ },
+ {
+  "page": 23,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Ils sont prêts pour le dernier grand tournoi de la saison.",
+  "rect": [
+   487,
+   983,
+   848,
+   1035
+  ],
+  "panel": "23-4",
+  "tetes_detectees": 5,
+  "tip": [
+   489,
+   1051
+  ],
+  "dist_tete_proche": 171,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : Nolann à 171px)",
+  "cache": "tête Nolann (91%) ; tête Nolann (32%)"
+ },
+ {
+  "page": 24,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Demain c'est le grand tournoi de fin de saison ! Baptiste vi",
+  "rect": [
+   17,
+   225,
+   378,
+   327
+  ],
+  "panel": "24-1",
+  "tetes_detectees": 3,
+  "tip": [
+   63,
+   213
+  ],
+  "dist_tete_proche": 287,
+  "tete_proche": "chatain",
+  "dist_locuteur": 287,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 287px)",
+  "cache": "corps/peau 100% de 2085px²"
+ },
+ {
+  "page": 24,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus be",
+  "rect": [
+   17,
+   369,
+   378,
+   437
+  ],
+  "panel": "24-1",
+  "tetes_detectees": 3,
+  "tip": [
+   63,
+   435
+  ],
+  "dist_tete_proche": 358,
+  "tete_proche": "chatain",
+  "dist_locuteur": 358,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 358px)"
+ },
+ {
+  "page": 24,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "On fait encore dix passes avec Léon et on vient mettre la ta",
+  "rect": [
+   17,
+   626,
+   192,
+   711
+  ],
+  "panel": "24-2",
+  "tetes_detectees": 4,
+  "tip": [
+   63,
+   660
+  ],
+  "dist_tete_proche": 0,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : ? à 0px)",
+  "cache": "tête ? (100%)"
+ },
+ {
+  "page": 24,
+  "el": 3,
+  "kind": "voix",
+  "speaker": "Voix d'Alice hors-champ",
+  "text": "Dépêchez-vous, j'ai trop faim moi !",
+  "rect": [
+   89,
+   710,
+   361,
+   740
+  ],
+  "panel": "24-2",
+  "tetes_detectees": 4
+ },
+ {
+  "page": 24,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la sais",
+  "rect": [
+   432,
+   578,
+   607,
+   696
+  ],
+  "panel": "24-3",
+  "tetes_detectees": 2,
+  "tip": [
+   436,
+   694
+  ],
+  "dist_tete_proche": 98,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : Nolann à 98px)",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 24,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Promis Papa ! En septembre, je voulais juste la coupe pour d",
+  "rect": [
+   607,
+   554,
+   848,
+   672
+  ],
+  "panel": "24-3",
+  "tetes_detectees": 2,
+  "tip": [
+   850,
+   669
+  ],
+  "dist_tete_proche": 9,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Nolann à 9px)"
+ },
+ {
+  "page": 24,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Et si jamais on fait une erreur… on saura quoi faire : appre",
+  "rect": [
+   17,
+   918,
+   192,
+   1020
+  ],
+  "panel": "24-4",
+  "tetes_detectees": 1,
+  "tip": [
+   63,
+   1020
+  ],
+  "dist_tete_proche": 46,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Nolann à 46px)",
+  "cache": "tête Nolann (100%) ; corps/peau 100% de 2154px²"
+ },
+ {
+  "page": 24,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Je suis tellement fier de toi, mon fils.",
+  "rect": [
+   192,
+   984,
+   433,
+   1036
+  ],
+  "panel": "24-4",
+  "tetes_detectees": 1,
+  "tip": [
+   392,
+   985
+  ],
+  "dist_tete_proche": 218,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : Nolann à 218px)"
+ },
+ {
+  "page": 25,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOI",
+  "rect": [
+   17,
+   30,
+   397,
+   72
+  ],
+  "panel": "25-1",
+  "tetes_detectees": 0
+ },
+ {
+  "page": 25,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Cinq matchs dans la journée pour aller chercher le bouclier ",
+  "rect": [
+   242,
+   138,
+   622,
+   206
+  ],
+  "panel": "25-1",
+  "tetes_detectees": 0,
+  "tip": [
+   574,
+   205
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 25,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "J'ai fixé ! Vas-y Ayden !",
+  "rect": [
+   17,
+   596,
+   192,
+   648
+  ],
+  "panel": "25-2",
+  "tetes_detectees": 3,
+  "tip": [
+   63,
+   645
+  ],
+  "dist_tete_proche": 52,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : ? à 52px)",
+  "cache": "tête ? (23%)"
+ },
+ {
+  "page": 25,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "ESSAI ! Super passe Léon !",
+  "rect": [
+   192,
+   632,
+   433,
+   667
+  ],
+  "panel": "25-2",
+  "tetes_detectees": 3,
+  "tip": [
+   385,
+   618
+  ],
+  "dist_tete_proche": 17,
+  "tete_proche": "Kilian",
+  "queue": "NON-VÉRIFIABLE (tête de Ayden non identifiée ; proche : Kilian à 17px)"
+ },
+ {
+  "page": 25,
+  "el": 4,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) !",
+  "rect": [
+   17,
+   668,
+   387,
+   697
+  ],
+  "panel": "25-2",
+  "tetes_detectees": 3
+ },
+ {
+  "page": 25,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Plaqué aux jambes !",
+  "rect": [
+   432,
+   632,
+   807,
+   667
+  ],
+  "panel": "25-3",
+  "tetes_detectees": 3,
+  "tip": [
+   481,
+   624
+  ],
+  "dist_tete_proche": 54,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 140,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 54px)"
+ },
+ {
+  "page": 25,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Et deuxième victoire pour nous !",
+  "rect": [
+   452,
+   668,
+   827,
+   703
+  ],
+  "panel": "25-3",
+  "tetes_detectees": 3,
+  "tip": [
+   814,
+   626
+  ],
+  "dist_tete_proche": 4,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 4,
+  "queue": "OK"
+ },
+ {
+  "page": 25,
+  "el": 7,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) !",
+  "rect": [
+   432,
+   704,
+   807,
+   733
+  ],
+  "panel": "25-3",
+  "tetes_detectees": 3,
+  "cache": "corps/peau 79% de 727px²"
+ },
+ {
+  "page": 25,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Deux sur deux ! Et on n'a presque pas fait d'en-avant !",
+  "rect": [
+   17,
+   1026,
+   387,
+   1078
+  ],
+  "panel": "25-4",
+  "tetes_detectees": 8,
+  "tip": [
+   45,
+   1015
+  ],
+  "dist_tete_proche": 16,
+  "tete_proche": "chatain",
+  "dist_locuteur": 16,
+  "queue": "OK"
+ },
+ {
+  "page": 25,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Très bien les garçons ! Maintenant attention : le troisième ",
+  "rect": [
+   17,
+   1080,
+   387,
+   1132
+  ],
+  "panel": "25-4",
+  "tetes_detectees": 8,
+  "tip": [
+   385,
+   1030
+  ],
+  "dist_tete_proche": 23,
+  "tete_proche": "Kilian",
+  "dist_locuteur": 23,
+  "queue": "OK"
+ },
+ {
+  "page": 25,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Rumilly… C'est contre eux que je m'étais énervé en novembre.",
+  "rect": [
+   432,
+   918,
+   607,
+   1020
+  ],
+  "panel": "25-5",
+  "tetes_detectees": 1,
+  "tip": [
+   478,
+   1020
+  ],
+  "dist_tete_proche": 40,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 40,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 40px)",
+  "cache": "tête Flavien (100%)"
+ },
+ {
+  "page": 26,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Attention, il est costaud lui, venez m'aider au milieu !",
+  "rect": [
+   17,
+   202,
+   378,
+   237
+  ],
+  "panel": "26-1",
+  "tetes_detectees": 3,
+  "tip": [
+   63,
+   235
+  ],
+  "dist_tete_proche": 297,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Nolann non identifiée ; proche : ? à 297px)",
+  "cache": "tête ? (51%)"
+ },
+ {
+  "page": 26,
+  "el": 1,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIIIIT !",
+  "rect": [
+   352,
+   377,
+   448,
+   413
+  ],
+  "panel": "26-1",
+  "tetes_detectees": 17
+ },
+ {
+  "page": 26,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Essai de Rumilly ! Victoire de Rumilly 3 essais à 2 !",
+  "rect": [
+   17,
+   567,
+   387,
+   602
+  ],
+  "panel": "26-2",
+  "tetes_detectees": 1,
+  "tip": [
+   63,
+   575
+  ],
+  "dist_tete_proche": 107,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : chatain à 107px)"
+ },
+ {
+  "page": 26,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Oh non… On a perdu contre Rumilly… C'est fini, on ne peut pl",
+  "rect": [
+   33,
+   676,
+   220,
+   729
+  ],
+  "panel": "26-3",
+  "tetes_detectees": 4,
+  "tip": [
+   51,
+   774
+  ],
+  "dist_tete_proche": 75,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 143,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 75px)"
+ },
+ {
+  "page": 26,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "Pourtant on s'était tellement entraînés…",
+  "rect": [
+   232,
+   676,
+   419,
+   718
+  ],
+  "panel": "26-3",
+  "tetes_detectees": 4,
+  "tip": [
+   374,
+   739
+  ],
+  "dist_tete_proche": 30,
+  "tete_proche": "chatain",
+  "dist_locuteur": 30,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 30px)"
+ },
+ {
+  "page": 26,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Mais non, rien n'est fini ! Regardez le tableau : Rumilly a ",
+  "rect": [
+   432,
+   747,
+   607,
+   882
+  ],
+  "panel": "26-4",
+  "tetes_detectees": 2,
+  "tip": [
+   478,
+   840
+  ],
+  "dist_tete_proche": 158,
+  "tete_proche": "Julien",
+  "dist_locuteur": 158,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 158px)"
+ },
+ {
+  "page": 26,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Ça veut dire que si vous gagnez vos deux derniers matchs con",
+  "rect": [
+   607,
+   777,
+   848,
+   895
+  ],
+  "panel": "26-4",
+  "tetes_detectees": 2,
+  "tip": [
+   822,
+   780
+  ],
+  "dist_tete_proche": 106,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Kilian non identifiée ; proche : Flavien à 106px)",
+  "cache": "tête Flavien (100%)"
+ },
+ {
+  "page": 26,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Les gars, écoutez ! On a perdu contre Rumilly, alors il faut",
+  "rect": [
+   17,
+   1060,
+   387,
+   1145
+  ],
+  "panel": "26-5",
+  "tetes_detectees": 6,
+  "tip": [
+   63,
+   1145
+  ],
+  "dist_tete_proche": 128,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 128,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 128px)"
+ },
+ {
+  "page": 26,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Vous avez oublié notre point d'entraînement sur la défense e",
+  "rect": [
+   445,
+   929,
+   831,
+   989
+  ],
+  "panel": "26-6",
+  "tetes_detectees": 2,
+  "tip": [
+   452,
+   1039
+  ],
+  "dist_tete_proche": 34,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 165,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 34px)"
+ },
+ {
+  "page": 26,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Chacun son joueur dans la ligne : un qui plaque aux jambes, ",
+  "rect": [
+   445,
+   995,
+   831,
+   1041
+  ],
+  "panel": "26-6",
+  "tetes_detectees": 2,
+  "tip": [
+   815,
+   995
+  ],
+  "dist_tete_proche": 171,
+  "tete_proche": "Flavien",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : Flavien à 171px)",
+  "cache": "tête Flavien (100%)"
+ },
+ {
+  "page": 26,
+  "el": 10,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Compris ! Merci Rumilly de nous avoir montré notre erreur : ",
+  "rect": [
+   445,
+   1125,
+   831,
+   1171
+  ],
+  "panel": "26-6",
+  "tetes_detectees": 2,
+  "tip": [
+   444,
+   1129
+  ],
+  "dist_tete_proche": 25,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 201,
+  "queue": "IMPRÉCIS (locuteur Léon à 201px)"
+ },
+ {
+  "page": 27,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Ayden l'a pris au centre ! Ne vous resserrez pas, gardez vos",
+  "rect": [
+   17,
+   146,
+   387,
+   198
+  ],
+  "panel": "27-1",
+  "tetes_detectees": 5,
+  "tip": [
+   63,
+   195
+  ],
+  "dist_tete_proche": 90,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : Nolann à 90px)"
+ },
+ {
+  "page": 27,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Porteur d'Aix-les-Bains",
+  "text": "Mince, tout est fermé sur les côtés !",
+  "rect": [
+   473,
+   194,
+   848,
+   229
+  ],
+  "panel": "27-1",
+  "tetes_detectees": 5,
+  "tip": [
+   481,
+   188
+  ],
+  "dist_tete_proche": 14,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Porteur d'Aix-les-Bains non identifiée ; proche : adversaire-vert à 14px)"
+ },
+ {
+  "page": 27,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "ESSAI ! Ça marche ! Quand on corrige notre erreur du match d",
+  "rect": [
+   17,
+   678,
+   192,
+   780
+  ],
+  "panel": "27-2",
+  "tetes_detectees": 2,
+  "tip": [
+   63,
+   676
+  ],
+  "dist_tete_proche": 121,
+  "tete_proche": "adversaire-vert",
+  "queue": "NON-VÉRIFIABLE (tête de Lyssandro non identifiée ; proche : adversaire-vert à 121px)"
+ },
+ {
+  "page": 27,
+  "el": 3,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "MATCH 4 : VICTOIRE CONTRE AIX-LES-BAINS (JAUNE ET NOIR) !",
+  "rect": [
+   17,
+   780,
+   387,
+   809
+  ],
+  "panel": "27-2",
+  "tetes_detectees": 2
+ },
+ {
+  "page": 27,
+  "el": 4,
+  "kind": "voix",
+  "speaker": "Haut-parleur du stade",
+  "text": "DERNIER MATCH DÉCISIF POUR LE TROPHÉE U8 : RUGBY CLUB MOTTER",
+  "rect": [
+   471,
+   492,
+   809,
+   536
+  ],
+  "panel": "27-3",
+  "tetes_detectees": 1
+ },
+ {
+  "page": 27,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Milo",
+  "text": "C'est Montmélian… Ceux qui nous avaient battus au tout premi",
+  "rect": [
+   17,
+   931,
+   258,
+   999
+  ],
+  "panel": "27-4",
+  "tetes_detectees": 3,
+  "tip": [
+   45,
+   1021
+  ],
+  "dist_tete_proche": 12,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Milo non identifiée ; proche : Nolann à 12px)"
+ },
+ {
+  "page": 27,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Ils ont toujours l'air aussi costauds dans leurs maillots Ve",
+  "rect": [
+   258,
+   961,
+   433,
+   1046
+  ],
+  "panel": "27-4",
+  "tetes_detectees": 3,
+  "tip": [
+   392,
+   965
+  ],
+  "dist_tete_proche": 11,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 11,
+  "queue": "OK",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 27,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Au premier tournoi, on était cinq joueurs qui couraient chac",
+  "rect": [
+   432,
+   1009,
+   807,
+   1094
+  ],
+  "panel": "27-5",
+  "tetes_detectees": 3,
+  "tip": [
+   478,
+   1075
+  ],
+  "dist_tete_proche": 125,
+  "tete_proche": "chatain",
+  "dist_locuteur": 125,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 125px)",
+  "cache": "corps/peau 100% de 1180px² ; corps/peau 73% de 1027px²"
+ },
+ {
+  "page": 27,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Tous les cinq",
+  "text": "ALLEZ LE RCM !!",
+  "rect": [
+   432,
+   1123,
+   807,
+   1158
+  ],
+  "panel": "27-5",
+  "tetes_detectees": 3,
+  "tip": [
+   478,
+   1155
+  ],
+  "dist_tete_proche": 186,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Tous les cinq non identifiée ; proche : chatain à 186px)",
+  "cache": "corps/peau 100% de 605px²"
+ },
+ {
+  "page": 28,
+  "el": 0,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "UN COMBAT MAGNIFIQUE À 5 CONTRE 5 ! CHAQUE ÉQUIPE REND COUP ",
+  "rect": [
+   17,
+   79,
+   387,
+   117
+  ],
+  "panel": "28-1",
+  "tetes_detectees": 5,
+  "cache": "tête adversaire-vert (92%)"
+ },
+ {
+  "page": 28,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Attention les garçons, c'est maintenant ! Montez en ligne co",
+  "rect": [
+   432,
+   91,
+   607,
+   193
+  ],
+  "panel": "28-2",
+  "tetes_detectees": 1,
+  "tip": [
+   610,
+   190
+  ],
+  "dist_tete_proche": 20,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Flavien non identifiée ; proche : Nolann à 20px)"
+ },
+ {
+  "page": 28,
+  "el": 2,
+  "kind": "ono",
+  "speaker": "",
+  "text": "BAM !",
+  "rect": [
+   352,
+   297,
+   448,
+   333
+  ],
+  "panel": "28-1",
+  "tetes_detectees": 21
+ },
+ {
+  "page": 28,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Je l'ai en bas ! Gardez la ligne sur l'extérieur !",
+  "rect": [
+   17,
+   465,
+   387,
+   500
+  ],
+  "panel": "28-3",
+  "tetes_detectees": 6,
+  "tip": [
+   63,
+   495
+  ],
+  "dist_tete_proche": 164,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 497,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 164px)"
+ },
+ {
+  "page": 28,
+  "el": 4,
+  "kind": "ono",
+  "speaker": "",
+  "text": "TCHAC !",
+  "rect": [
+   62,
+   632,
+   158,
+   668
+  ],
+  "panel": "28-1",
+  "tetes_detectees": 21
+ },
+ {
+  "page": 28,
+  "el": 5,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIT !",
+  "rect": [
+   252,
+   627,
+   348,
+   663
+  ],
+  "panel": "28-1",
+  "tetes_detectees": 21
+ },
+ {
+  "page": 28,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Touche ! Ballon rendu au RCM et joué comme une pénalité ! Il",
+  "rect": [
+   17,
+   761,
+   192,
+   846
+  ],
+  "panel": "28-4",
+  "tetes_detectees": 2,
+  "tip": [
+   63,
+   845
+  ],
+  "dist_tete_proche": 188,
+  "tete_proche": "chatain",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : chatain à 188px)"
+ },
+ {
+  "page": 28,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Dernière balle les gars ! En place le soutien !",
+  "rect": [
+   432,
+   743,
+   673,
+   795
+  ],
+  "panel": "28-5",
+  "tetes_detectees": 0,
+  "tip": [
+   478,
+   790
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 28,
+  "el": 8,
+  "kind": "cri",
+  "speaker": "Ayden",
+  "text": "VAS-Y LÉON !",
+  "rect": [
+   287,
+   866,
+   577,
+   916
+  ],
+  "panel": "28-6",
+  "tetes_detectees": 7
+ },
+ {
+  "page": 29,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Défenseur de Montmélian",
+  "text": "Bloquez Léon ! Il va essayer de passer tout seul comme en oc",
+  "rect": [
+   17,
+   145,
+   192,
+   230
+  ],
+  "panel": "29-1",
+  "tetes_detectees": 5,
+  "tip": [
+   48,
+   249
+  ],
+  "dist_tete_proche": 24,
+  "tete_proche": "Nolann",
+  "queue": "NON-VÉRIFIABLE (tête de Défenseur de Montmélian non identifiée ; proche : Nolann à 24px)",
+  "cache": "tête Nolann (100%)"
+ },
+ {
+  "page": 29,
+  "el": 1,
+  "kind": "pensee",
+  "speaker": "Léon",
+  "text": "Ils croient que je vais forcer tout seul… Mais j'ai appris d",
+  "rect": [
+   432,
+   325,
+   807,
+   374
+  ],
+  "panel": "29-2",
+  "tetes_detectees": 1,
+  "tip": [
+   495,
+   287
+  ],
+  "dist_tete_proche": 90,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Léon non identifiée ; proche : ? à 90px)"
+ },
+ {
+  "page": 29,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "POUR VOUS LES COPAINS ! SOUTIEN !",
+  "rect": [
+   17,
+   494,
+   347,
+   529
+  ],
+  "panel": "29-3",
+  "tetes_detectees": 7,
+  "tip": [
+   64,
+   539
+  ],
+  "dist_tete_proche": 126,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 316,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 126px)",
+  "cache": "corps/peau 100% de 724px²"
+ },
+ {
+  "page": 29,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "Je l'ai Léon ! Tiens Milo, va marquer !",
+  "rect": [
+   267,
+   566,
+   597,
+   601
+  ],
+  "panel": "29-3",
+  "tetes_detectees": 7,
+  "tip": [
+   315,
+   559
+  ],
+  "dist_tete_proche": 44,
+  "tete_proche": "Nolann",
+  "dist_locuteur": 65,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 44px)"
+ },
+ {
+  "page": 29,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "VAS-Y MILO, IL N'Y A PLUS PERSONNE !",
+  "rect": [
+   518,
+   602,
+   848,
+   637
+  ],
+  "panel": "29-3",
+  "tetes_detectees": 7,
+  "tip": [
+   558,
+   572
+  ],
+  "dist_tete_proche": 40,
+  "tete_proche": "chatain",
+  "dist_locuteur": 224,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 40px)"
+ },
+ {
+  "page": 29,
+  "el": 5,
+  "kind": "ono",
+  "speaker": "",
+  "text": "ESSAAAAI !",
+  "rect": [
+   102,
+   882,
+   198,
+   918
+  ],
+  "panel": "29-1",
+  "tetes_detectees": 18
+ },
+ {
+  "page": 29,
+  "el": 6,
+  "kind": "ono",
+  "speaker": "",
+  "text": "FIIIIIIIIIIIT !",
+  "rect": [
+   352,
+   882,
+   448,
+   918
+  ],
+  "panel": "29-1",
+  "tetes_detectees": 18
+ },
+ {
+  "page": 29,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Arbitre",
+  "text": "Essai validé ! 1 point de plus ! Le Rugby Club Motterain bat",
+  "rect": [
+   17,
+   1086,
+   387,
+   1138
+  ],
+  "panel": "29-4",
+  "tetes_detectees": 5,
+  "tip": [
+   63,
+   1135
+  ],
+  "dist_tete_proche": 218,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Arbitre non identifiée ; proche : Julien à 218px)"
+ },
+ {
+  "page": 30,
+  "el": 0,
+  "kind": "bulle",
+  "speaker": "Capitaine de Montmélian",
+  "text": "Bravo le RCM… Votre dernière passe en soutien, on n'a rien p",
+  "rect": [
+   20,
+   247,
+   388,
+   299
+  ],
+  "panel": "30-1",
+  "tetes_detectees": 3,
+  "tip": [
+   61,
+   225
+  ],
+  "dist_tete_proche": 34,
+  "tete_proche": "Julien",
+  "queue": "NON-VÉRIFIABLE (tête de Capitaine de Montmélian non identifiée ; proche : Julien à 34px)"
+ },
+ {
+  "page": 30,
+  "el": 1,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Merci ! C'est grâce à vous au premier tournoi qu'on a appris",
+  "rect": [
+   42,
+   331,
+   410,
+   383
+  ],
+  "panel": "30-1",
+  "tetes_detectees": 3,
+  "tip": [
+   66,
+   395
+  ],
+  "dist_tete_proche": 165,
+  "tete_proche": "Julien",
+  "dist_locuteur": 268,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 165px)"
+ },
+ {
+  "page": 30,
+  "el": 2,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Champions du tournoi final ! Et vous savez ce qui est le plu",
+  "rect": [
+   432,
+   217,
+   807,
+   285
+  ],
+  "panel": "30-2",
+  "tetes_detectees": 5,
+  "tip": [
+   481,
+   207
+  ],
+  "dist_tete_proche": 63,
+  "tete_proche": "?",
+  "queue": "NON-VÉRIFIABLE (tête de Julien non identifiée ; proche : ? à 63px)",
+  "cache": "corps/peau 100% de 845px²"
+ },
+ {
+  "page": 30,
+  "el": 3,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Parce qu'après Rumilly, au lieu de pleurer ou de s'énerver, ",
+  "rect": [
+   432,
+   289,
+   605,
+   374
+  ],
+  "panel": "30-2",
+  "tetes_detectees": 5,
+  "tip": [
+   478,
+   360
+  ],
+  "dist_tete_proche": 166,
+  "tete_proche": "?",
+  "dist_locuteur": 194,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 166px)"
+ },
+ {
+  "page": 30,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Lyssandro",
+  "text": "VIVE LES U8 DU RCM !",
+  "rect": [
+   606,
+   325,
+   844,
+   360
+  ],
+  "panel": "30-2",
+  "tetes_detectees": 5,
+  "tip": [
+   558,
+   363
+  ],
+  "dist_tete_proche": 155,
+  "tete_proche": "?",
+  "dist_locuteur": 161,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 155px)"
+ },
+ {
+  "page": 30,
+  "el": 5,
+  "kind": "bulle",
+  "speaker": "Kilian",
+  "text": "Quelle saison… De la pluie d'automne à la neige de décembre ",
+  "rect": [
+   20,
+   518,
+   193,
+   636
+  ],
+  "panel": "30-3",
+  "tetes_detectees": 3,
+  "tip": [
+   65,
+   585
+  ],
+  "dist_tete_proche": 118,
+  "tete_proche": "Flavien",
+  "dist_locuteur": 252,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 118px)"
+ },
+ {
+  "page": 30,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lund",
+  "rect": [
+   432,
+   458,
+   605,
+   576
+  ],
+  "panel": "30-4",
+  "tetes_detectees": 0,
+  "tip": [
+   478,
+   575
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 30,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Et qu'est-ce que tu leur diras si on te demande quel est le ",
+  "rect": [
+   606,
+   524,
+   844,
+   592
+  ],
+  "panel": "30-4",
+  "tetes_detectees": 0,
+  "tip": [
+   822,
+   525
+  ],
+  "queue": "NON-VÉRIFIABLE (aucune tête détectée dans la vignette)"
+ },
+ {
+  "page": 30,
+  "el": 8,
+  "kind": "bulle",
+  "speaker": "Léon",
+  "text": "Je leur dirai ta phrase, Papa : on apprend toujours de ses é",
+  "rect": [
+   20,
+   910,
+   388,
+   962
+  ],
+  "panel": "30-5",
+  "tetes_detectees": 3,
+  "tip": [
+   68,
+   935
+  ],
+  "dist_tete_proche": 285,
+  "tete_proche": "chatain",
+  "dist_locuteur": 285,
+  "queue": "QUEUE DANS LE VIDE (tête la plus proche à 285px)",
+  "cache": "corps/peau 100% de 808px²"
+ },
+ {
+  "page": 30,
+  "el": 9,
+  "kind": "encadre",
+  "speaker": "",
+  "text": "FIN — LA FORCE DE L'ÉCHEC : « On apprend de ses échecs, c'es",
+  "rect": [
+   20,
+   964,
+   798,
+   993
+  ],
+  "panel": "30-5",
+  "tetes_detectees": 3
+ }
+]
