@@ -289,8 +289,20 @@ def _eviter_visages_lignes(x, y, w, h, faces, y_max, tol=0.015):
 def reparer_panel(panel, els, faces, placed_other, bodies=()):
     """Ré-agence tous les éléments d'une vignette après un repli du placement glouton.
 
-    els : liste ordonnée de dicts {kind, text, speaker}. Retourne (rects, taille)
+    els : liste ordonnée de dicts {kind, text}. Retourne (rects, taille)
     ou None si aucun agencement ne convient.
+
+    Plus de queues de bulle : le score ne mesure que le recouvrement de peau.
+    Les échelons de tolérance sur les têtes sont essayés du plus strict au
+    plus souple et le PREMIER qui réussit gagne (jamais au-dessus de 0.058,
+    soit ~9,8% de la boîte brute de tête — sous le seuil d'audit de 10%).
+    À tolérance égale, on minimise le recouvrement de peau avec un léger
+    bonus pour les grandes tailles de police (0,15 point par cran).
+    Les rangées seules essaient plusieurs largeurs (pleine, 62%) et positions
+    (gauche, centre, droite, gauche -8px) ; entre les largeurs qui marchent,
+    la moins couvrante de peau gagne (égalité : la plus large).
+    Dernier recours sans plafond de peau : mieux vaut un recouvrement de corps
+    (avertissement d'audit) qu'un chevauchement de boîtes (bloquant).
     """
     px1, py1, px2, py2 = panel
     pw, ph = px2 - px1, py2 - py1
@@ -298,88 +310,98 @@ def reparer_panel(panel, els, faces, placed_other, bodies=()):
     full = pw - 12
     col = (pw - 24) // 2
     y_max = py2 + 10
-    meilleur = None
-    for tol in (0.015, 0.05, 0.08):   # 0.05 reste sous le seuil d'audit
-                                     # (10% de la boîte brute de tête)
-      for size in range(13, 7, -1):   # plancher 8 : textfit ne rend pas sous 8
-          for arr in ('stack', '2col', 'full+2col', '2col+full'):
-              if arr == 'stack' or n == 1:
-                  rows = [[i] for i in range(n)]
-                  wof = [full] * n
-              elif arr == '2col':
-                  rows = [[i, i + 1] for i in range(0, n, 2)]
-                  wof = [col] * n
-              elif arr == 'full+2col':
-                  rows = [[0]] + [[i, i + 1] for i in range(1, n, 2)]
-                  wof = [full] + [col] * (n - 1)
-              else:  # 2col+full
-                  rows = [[i, i + 1] for i in range(0, n - 1, 2)] + [[n - 1]]
-                  wof = [col] * (n - 1) + [full]
-              if any(len(r) == 2 and r[1] >= n for r in rows):
-                  continue
-              rects = [None] * n
-              y = py1 + 6
-              ok = True
-              for row in rows:
-                  row = [i for i in row if i < n]
-                  if len(row) == 2:
-                      a, b = row
-                      ha = mesurer(els[a]['text'], wof[a], size, *PADS[els[a]['kind']][:2])
-                      hb = mesurer(els[b]['text'], wof[b], size, *PADS[els[b]['kind']][:2])
-                      h = max(ha, hb)
-                      xa, xb = px1 + 6, px1 + 6 + col + 12
-                      yy = None
-                      ty = y
-                      while ty + h <= y_max:
-                          if (_face_overlap((xa, ty, xa + col, ty + ha), faces) <= 0.015
-                                  and _face_overlap((xb, ty, xb + col, ty + hb), faces) <= 0.015):
-                              yy = ty
-                              break
-                          ty += 6
-                      if yy is None:
-                          ok = False
-                          break
-                      rects[a] = (xa, yy, xa + col, yy + ha)
-                      rects[b] = (xb, yy, xb + col, yy + hb)
-                      y = yy + h + 6
-                  else:
-                      i = row[0]
-                      h = mesurer(els[i]['text'], wof[i], size, *PADS[els[i]['kind']][:2])
-                      w = wof[i]
-                      cands_x = [px1 + 6]
-                      if w < pw - 40:
-                          cands_x += [px1 + (pw - w) // 2, px2 - 6 - w]
-                      chosen = None
-                      for x in cands_x:
-                          ty = _eviter_visages_lignes(x, y, w, h, faces, y_max, tol)
-                          if ty is not None and (chosen is None or ty < chosen[1]):
-                              chosen = (x, ty)
-                          if chosen and chosen[1] == y:
-                              break
-                      if chosen is None:
-                          ok = False
-                          break
-                      rects[i] = (chosen[0], chosen[1], chosen[0] + w, chosen[1] + h)
-                      y = chosen[1] + h + 6
-              if not ok:
-                  continue
-              if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
-                  continue
-              corps = sum(_peau_overlap(r, bodies) for r in rects)
-              if any(_peau_overlap(r, bodies) > 0.55 for r in rects):
-                  continue          # pas de bulle entièrement sur un corps
-              # queues bloquées : le trajet bulle -> locuteur ne doit traverser
-              # ni les autres bulles de l'agencement, ni les éléments posés
-              bloc = 0.0
-              for k in range(n):
-                  spk = els[k].get('speaker')
-                  if spk is None:
-                      continue
-                  obst = [rects[m] for m in range(n) if m != k] + list(placed_other)
-                  bloc += _blocage_vers(rects[k], spk, obst)
-              score = corps + 5 * bloc
-              if meilleur is None or score < meilleur[0]:
-                  meilleur = (score, rects, size)
-    if meilleur is not None:
-        return meilleur[1], meilleur[2]
+    w62 = round(0.62 * full)
+
+    def _essais_largeurs(i, y, size):
+        """Positions possibles de la rangée i : [(x, ty, w, h)] les plus hautes."""
+        trouves = []
+        for w in dict.fromkeys((wof[i], w62)):
+            if w < 120:
+                continue
+            h = mesurer(els[i]['text'], w, size, *PADS[els[i]['kind']][:2])
+            meilleur = None
+            cands_x = [px1 + 6]
+            if w < pw - 40:
+                cands_x += [px1 + (pw - w) // 2, px2 - 6 - w, px1 - 8]
+            for x in cands_x:
+                ty = _eviter_visages_lignes(x, y, w, h, faces, y_max, tol)
+                if ty is not None and (meilleur is None or ty < meilleur[1]):
+                    meilleur = (x, ty, w, h)
+            if meilleur is not None:
+                trouves.append(meilleur)
+        return trouves
+
+    for peau_cap in (0.55, None):
+        for tol in (0.015, 0.05, 0.058):
+            meilleur = None
+            for size in range(13, 7, -1):   # plancher 8 : textfit sous 8 impossible
+                for arr in ('stack', '2col', 'full+2col', '2col+full'):
+                    if arr == 'stack' or n == 1:
+                        rows = [[j] for j in range(n)]
+                        wof = [full] * n
+                    elif arr == '2col':
+                        rows = [[j, j + 1] for j in range(0, n, 2)]
+                        wof = [col] * n
+                    elif arr == 'full+2col':
+                        rows = [[0]] + [[j, j + 1] for j in range(1, n, 2)]
+                        wof = [full] + [col] * (n - 1)
+                    else:  # 2col+full
+                        rows = [[j, j + 1] for j in range(0, n - 1, 2)] + [[n - 1]]
+                        wof = [col] * (n - 1) + [full]
+                    if any(len(r) == 2 and r[1] >= n for r in rows):
+                        continue
+                    rects = [None] * n
+                    y = py1 + 6
+                    ok = True
+                    for row in rows:
+                        row = [j for j in row if j < n]
+                        if len(row) == 2:
+                            a, b = row
+                            ha = mesurer(els[a]['text'], wof[a], size,
+                                         *PADS[els[a]['kind']][:2])
+                            hb = mesurer(els[b]['text'], wof[b], size,
+                                         *PADS[els[b]['kind']][:2])
+                            h = max(ha, hb)
+                            xa, xb = px1 + 6, px1 + 6 + col + 12
+                            yy = None
+                            ty = y
+                            while ty + h <= y_max:
+                                if (_face_overlap((xa, ty, xa + col, ty + ha),
+                                                  faces) <= tol
+                                        and _face_overlap((xb, ty, xb + col, ty + hb),
+                                                          faces) <= tol):
+                                    yy = ty
+                                    break
+                                ty += 6
+                            if yy is None:
+                                ok = False
+                                break
+                            rects[a] = (xa, yy, xa + col, yy + ha)
+                            rects[b] = (xb, yy, xb + col, yy + hb)
+                            y = yy + h + 6
+                        else:
+                            i = row[0]
+                            trouves = _essais_largeurs(i, y, size)
+                            if not trouves:
+                                ok = False
+                                break
+                            chosen = min(trouves, key=lambda c: (
+                                _peau_overlap((c[0], c[1], c[0] + c[2], c[1] + c[3]),
+                                              bodies), -c[2]))
+                            rects[i] = (chosen[0], chosen[1], chosen[0] + chosen[2],
+                                        chosen[1] + chosen[3])
+                            y = chosen[1] + chosen[3] + 6
+                    if not ok:
+                        continue
+                    if any(_placed_overlap(r, placed_other) > 0.015 for r in rects):
+                        continue
+                    corps = sum(_peau_overlap(r, bodies) for r in rects)
+                    if peau_cap is not None and any(_peau_overlap(r, bodies) > peau_cap
+                                                    for r in rects):
+                        continue      # pas de bulle entièrement sur un corps
+                    score = corps + 0.15 * (13 - size)
+                    if meilleur is None or score < meilleur[0]:
+                        meilleur = (score, rects, size)
+            if meilleur is not None:
+                return meilleur[1], meilleur[2]
     return None

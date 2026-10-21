@@ -75,28 +75,17 @@ class Lettrage:
         return round(size / self.S, 1)
 
     # --- éléments de BD ---------------------------------------------------
-    def bulle(self, rect, text, queue=None, maximum=15, pad=10):
-        """Bulle de dialogue rectangulaire arrondie ; queue = triangle vers le locuteur."""
-        if queue:
-            self.poly(queue, outline='black')
+    def bulle(self, rect, text, maximum=15, pad=10):
+        """Boîte de dialogue blanche ; le locuteur est nommé dans le texte
+        (« Léon: "…" ») — plus de queue pointée vers le personnage."""
         self.d.rounded_rectangle(self.box(rect), radius=16 * self.S, fill='white',
                                  outline='black', width=2 * self.S)
-        if queue:
-            # reboucher le bord de la bulle à la base de la queue
-            self.poly([queue[0], queue[1],
-                       ((queue[0][0] + queue[1][0]) / 2, (queue[0][1] + queue[1][1]) / 2 + 2)])
         x, y, r, b = rect
         return self.textfit(text, (x + pad, y + 6, r - pad, b - 6), maximum)
 
-    def pensee(self, rect, text, bulles, maximum=14, pad=10):
-        """Bulle de pensée : contour + petites bulles descendantes vers le penseur."""
-        self.d.rounded_rectangle(self.box(rect), radius=16 * self.S, fill='white',
-                                 outline='black', width=2 * self.S)
-        for (cx, cy, rb) in bulles:
-            self.d.ellipse(self.box((cx - rb, cy - rb, cx + rb, cy + rb)), fill='white',
-                           outline='black', width=2 * self.S)
-        x, y, r, b = rect
-        return self.textfit(text, (x + pad, y + 6, r - pad, b - 6), maximum)
+    def pensee(self, rect, text, maximum=14, pad=10):
+        """Pensée : même boîte blanche que le dialogue, locuteur nommé dans le texte."""
+        return self.bulle(rect, text, maximum=maximum, pad=pad)
 
     def onomatopee(self, center, text, size=20, color='black'):
         """Onomatopée libre (sifflet, impact) posée hors des visages."""
@@ -104,13 +93,13 @@ class Lettrage:
         cx, cy = center[0] * self.S, center[1] * self.S
         self.d.text((cx, cy), text, font=f, fill=color, anchor='mm')
 
-    def encadre(self, rect, text, maximum=12, fill='#ffe38b', align='left', pad=8):
-        """Encadré narratif jaune (bandeau de récit, caption)."""
-        self.d.rectangle(self.box(rect), fill=fill, outline='black', width=2 * self.S)
+    def encadre(self, rect, text, maximum=12, fill='#f2e3b0', align='left', pad=8):
+        """Encadré narratif : fond jaune/brun, contour brun (caption de récit)."""
+        self.d.rectangle(self.box(rect), fill=fill, outline='#6b4f2a', width=2 * self.S)
         x, y, r, b = rect
         return self.textfit(text, (x + pad, y + 5, r - pad, b - 5), maximum, align=align)
 
-    def cri(self, rect, text, fill='#ffd23e', maximum=16):
+    def cri(self, rect, text, fill='white', maximum=16):
         """Bulle cri (burst) : rectangle à coins irréguliers simulés par double contour."""
         x1, y1, x2, y2 = self.box(rect)
         self.d.polygon([(x1, y1 + 8 * self.S), (x1 + 18 * self.S, y1), (x2 - 14 * self.S, y1 + 6 * self.S),
@@ -126,10 +115,8 @@ class Lettrage:
         return self.textfit(text, (rx1 + 14, ry1 + 12, rx2 - 14, ry2 - 12), maximum)
 
     def voix_off(self, rect, text, maximum=13, align='center'):
-        """Voix hors-champ : contour rectangulaire net (pas de bulle)."""
-        self.d.rectangle(self.box(rect), fill='white', outline='black', width=2 * self.S)
-        x, y, r, b = rect
-        return self.textfit(text, (x + 8, y + 5, r - 8, b - 5), maximum, align=align)
+        """Voix hors-champ : boîte blanche comme le dialogue, locuteur nommé."""
+        return self.bulle(rect, text, maximum=maximum)
 
     def save(self):
         final = self.im.resize((W_STD, H_STD), Image.LANCZOS)

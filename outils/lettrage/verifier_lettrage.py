@@ -3,10 +3,11 @@
 Vérifie le manifeste produit par generer_avec_texte.py (rectangles réellement posés)
 contre une détection de visages indépendante (cascades Haar OpenCV 4.x).
 
-Contrôle aussi l'audit v2 (queues pointant la tête du locuteur, recouvrements)
-via `AUDIT-BULLES.json` : 0 mauvais locuteur, 0 queue dans le vide, 0 tête
-couverte sont exigés ; les ancrages non vérifiables (tête non détectée) et les
-recouvrements de corps résiduels en planches denses sont listés en avertissements.
+Contrôle aussi l'audit via `AUDIT-BULLES.json` : le lettrage ne pointe plus
+les locuteurs, chaque dialogue est préfixé du nom du personnage
+(« Léon: "…" ») sur fond blanc, la narration sur fond jaune/brun. Sont exigés :
+0 préfixe faux, 0 fond non conforme, 0 tête couverte ; les recouvrements de
+corps résiduels en planches denses sont listés en avertissements.
 
 Dépendances : OpenCV 4.x avec cascades (`.arena/vendor`), Pillow, NumPy.
 Usage : PYTHONPATH=.arena/vendor python outils/lettrage/verifier_lettrage.py
@@ -106,46 +107,19 @@ def main():
     if overlap_ok:
         print('  OK : aucune bulle ne se chevauche.')
 
-    print('--- Contrôle queues : aucune traversée d\'autre bulle ---')
-    n_trav = 0
-    for page in sorted(PAGES, key=int):
-        els = manifest['pages'][str(page)]
-        for i, el in enumerate(els):
-            if el.get('kind') != 'bulle' or 'queue_tip' not in el or 'queue_base' not in el:
-                continue
-            bx, by = el['queue_base']
-            tx, ty = el['queue_tip']
-            for j, o in enumerate(els):
-                if j == i or o.get('kind') == 'ono' or not o.get('rect'):
-                    continue
-                r = o['rect']
-                dedans = 0
-                for t in range(21):
-                    t /= 20
-                    px, py = bx + (tx - bx) * t, by + (ty - by) * t
-                    if r[0] <= px <= r[2] and r[1] <= py <= r[3]:
-                        dedans += 1
-                if dedans / 21 > 0.10:
-                    n_trav += 1
-                    print(f'  ATTENTION page {page} élément {i} : la queue traverse '
-                          f'l\'élément {j} ({100 * dedans / 21:.0f}% du segment)')
-    if n_trav == 0:
-        print('  OK : aucune queue ne traverse une autre bulle.')
-    errors += n_trav
-
-    print('--- Contrôle queues de bulles (audit v2) ---')
+    print('--- Contrôle locuteurs nommés et fonds (audit) ---')
     audit = json.loads((ROOT / 'Planches-dessin/validation/AUDIT-BULLES.json').read_text())
     bloquant = 0
-    nvis = nimpr = ncorps = 0
+    ncorps = 0
     for r in audit:
-        q = r.get('queue', '')
-        if q.startswith('MAUVAIS') or q.startswith('QUEUE DANS LE VIDE'):
+        if 'prefixe' in r:
             bloquant += 1
-            print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} ({r["speaker"]}) : {q}')
-        elif q.startswith('IMPRÉCIS'):
-            nimpr += 1
-        elif q.startswith('NON'):
-            nvis += 1
+            print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} '
+                  f'({r["speaker"]}) : préfixe locuteur faux — {r["prefixe"]}')
+        if 'fond' in r:
+            bloquant += 1
+            print(f'  BLOQUANT page {r["page"]:02d} élément {r["el"]} '
+                  f'({r["kind"]}) : fond {r["fond"]}')
         if 'cache' in r:
             if 'tête' in r['cache']:
                 bloquant += 1
@@ -153,10 +127,9 @@ def main():
             else:
                 ncorps += 1
     if bloquant == 0:
-        print('  OK : aucune bulle ne pointe un mauvais locuteur ou le vide ; '
-              'aucune tête couverte.')
-    print(f'  avertissements : {nimpr} ancrages imprécis, {nvis} non vérifiables '
-          f'(tête du locuteur non détectée), {ncorps} recouvrements de corps résiduels '
+        print('  OK : chaque dialogue nomme son locuteur (préfixe conforme au scénario), '
+              'fonds conformes (blanc/dialogue, jaune-brun/narration), aucune tête couverte.')
+    print(f'  avertissements : {ncorps} recouvrements de corps résiduels '
           f'(planche dense, sans position libre).')
     errors += bloquant
 

@@ -1,17 +1,17 @@
 """Audit du lettrage : queues de bulles et recouvrement des personnages (v2).
 
 Vérifie les livrables `Planches-dessin/Avec-texte/` contre :
-- le manifeste enrichi (`lettrage-manifest.json` : rectangle posé, pointe de
-  queue, locuteur enregistré avec sa tête) ;
+- le manifeste enrichi (`lettrage-manifest.json` : rectangle posé, locuteur
+  attendu, texte affiché) ;
+- le scénario complet (locuteur attendu de chaque réplique) ;
 - une détection indépendante des personnages (têtes Haar ×3 filtrées par peau,
   corps, identités couleur calibrées couverture, nettoyées par la présence
   scénario) via `personnages.py` ;
-- le scénario complet (locuteur attendu de chaque bulle).
+- la planche lettrée elle-même (couleur de fond échantillonnée).
 
-Verdicts de queue : OK (pointe la tête du locuteur à ≤ 30 px), MAUVAIS
-LOCUTEUR (pointe une tête incompatible), QUEUE DANS LE VIDE, NON VÉRIFIABLE
-(locuteur non détecté / châtains indissociables), VOIX OFF.
-Verdicts de recouvrement : tête couverte, corps/peau couvert.
+Le lettrage ne pointe plus les locuteurs : chaque dialogue est préfixé
+(« Léon: "…" ») sur fond blanc ; la narration est sur fond jaune/brun.
+Verdicts : préfixe locuteur, fond blanc/jaune, tête couverte, corps/peau couvert.
 
 Usage : PYTHONPATH=.arena/vendor python outils/lettrage/audit_bulles.py [--calibre]
 Sorties : Planches-dessin/validation/AUDIT-BULLES.json et AUDIT-BULLES.md
@@ -69,6 +69,8 @@ def audit_page(page, report):
             pres |= v['presence']
         vigs = [{'hints': {}, 'presence': pres, 'match': any(v['match'] for v in vigs)}] * len(panels)
     speakers = G.locuteurs_alignes(page, scen)
+    # planche finale lettrée (contrôle des fonds blanc / jaune-brun)
+    final = np.asarray(Image.open(ROOT / G.dst_path(page)).convert('RGB'))
 
     for i, (el, mf) in enumerate(zip(G.PAGES[page], manifest)):
         rect = mf['rect']
@@ -79,77 +81,31 @@ def audit_page(page, report):
         in_panel = [p for p in persons
                     if PS.zone_tete(p) and px1 - 30 <= PS.zone_tete(p)[0] + PS.zone_tete(p)[2] / 2 <= px2 + 30
                     and py1 - 30 <= PS.zone_tete(p)[1] + PS.zone_tete(p)[3] / 2 <= py2 + 30]
-        ids = PS._nettoyer_ids(in_panel, vig['presence'], vig['match'])
-        issue = {'page': page, 'el': i, 'kind': el[0], 'speaker': speakers[i],
-                 'text': el[2][:60], 'rect': rect,
+        issue = {'page': page, 'el': i, 'kind': el[0], 'speaker': speakers[i] or None,
+                 'text': mf.get('texte', '')[:70], 'rect': rect,
                  'panel': f'{page}-{(pidx or 0) + 1}' if pidx is not None else '-',
                  'personnes': len(in_panel)}
 
-        # --- contrôle 1 : la queue pointe la tête du locuteur ?
-        if el[0] in ('bulle', 'pensee') and 'queue_tip' in mf:
-            spk = speakers[i]
-            tip = mf['queue_tip']
-            issue['tip'] = tip
-            loc = mf.get('locuteur') or {}
-            if spk in ('', 'Vanessa', 'Alice') or spk.startswith('Voix') or spk.startswith('Haut-parleur'):
-                issue['queue'] = 'voix off (pas de queue)'
-            elif not in_panel:
-                issue['queue'] = 'NON-VÉRIFIABLE (aucune personne détectée dans la vignette)'
-            else:
-                # tête la plus proche de la pointe
-                best = min(in_panel, key=lambda p: dist_box(tip, PS.zone_tete(p)))
-                d_near = dist_box(tip, PS.zone_tete(best))
-                id_near = ids[in_panel.index(best)]
-                issue['dist_tete_proche'] = round(d_near)
-                issue['tete_proche'] = id_near
-                # compatibilité identité (locuteur attendu)
-                equiv = ()
-                for part in spk.split('&'):
-                    equiv += PS.ID_EQUIV.get(part.strip(), (part.strip(),))
-                compatible = [p for p, pid in zip(in_panel, ids) if pid in equiv]
-                if loc.get('src') == 'estime':
-                    issue['queue'] = ('NON CORRIGÉ (locuteur non détecté/ancre estimée ; '
-                                      f'tête la plus proche : {id_near} à {d_near:.0f}px)')
-                elif not compatible:
-                    issue['queue'] = (f'NON-VÉRIFIABLE (tête compatible avec {spk} non '
-                                      f'identifiée ; pointe {id_near} à {d_near:.0f}px)')
-                elif best in compatible:
-                    if d_near <= 30:
-                        issue['queue'] = 'OK'
-                    elif d_near <= 48:
-                        issue['queue'] = f'OK (large, {d_near:.0f}px)'
-                    else:
-                        issue['queue'] = f'IMPRÉCIS (ancre à {d_near:.0f}px de la tête visée)'
-                elif id_near == '?':
-                    d_spk = min(dist_box(tip, PS.zone_tete(p)) for p in compatible)
-                    issue['queue'] = (f'OK (corps non identifié à {d_near:.0f}px du locuteur)'
-                                      if d_spk <= 45
-                                      else f'IMPRÉCIS (corps non identifié à {d_near:.0f}px, '
-                                           f'{spk} à {d_spk:.0f}px)')
-                else:
-                    d_spk = min(dist_box(tip, PS.zone_tete(p)) for p in compatible)
-                    issue['queue'] = (f'MAUVAIS LOCUTEUR (pointe {id_near} à {d_near:.0f}px, '
-                                      f'{spk} à {d_spk:.0f}px)')
-                    issue['dist_locuteur'] = round(d_spk)
+        # --- contrôle 1 : le texte affiché nomme-t-il le bon locuteur ? -----
+        spk = speakers[i] if i < len(speakers) else ''
+        attendu = G._texte_affiche(el, spk)
+        fautes = []
+        if (mf.get('speaker') or None) != (spk or None):
+            fautes.append(f'locuteur manifeste={mf.get("speaker")!r} vs scénario={spk!r}')
+        if mf.get('texte') != attendu:
+            fautes.append(f'texte={mf.get("texte", "")[:45]!r} vs attendu={attendu[:45]!r}')
+        if fautes:
+            issue['prefixe'] = ' ; '.join(fautes)
 
-        # --- contrôle 1bis : la queue traverse-t-elle une autre bulle ?
-        if el[0] == 'bulle' and 'queue_tip' in mf and 'queue_base' in mf:
-            bx, by = mf['queue_base']
-            tx, ty = mf['queue_tip']
-            for j, o in enumerate(manifest):
-                if j == i or o['kind'] == 'ono' or not o.get('rect'):
-                    continue
-                r = o['rect']
-                dedans = 0
-                for t in range(21):
-                    t /= 20
-                    px, py = bx + (tx - bx) * t, by + (ty - by) * t
-                    if r[0] <= px <= r[2] and r[1] <= py <= r[3]:
-                        dedans += 1
-                if dedans / 21 > 0.10:
-                    issue['traverse'] = f'traverse la bulle élément {j} ({100 * dedans / 21:.0f}% du segment)'
+        # --- contrôle 2 : fond blanc (dialogue) / jaune-brun (narratif) ----
+        voulu = ('jaune' if el[0] == 'encadre'
+                 else 'blanc' if el[0] in G._KINDS_DIAL else None)
+        if voulu:
+            couleur = _fond(final, rect)
+            if couleur != voulu:
+                issue['fond'] = f'{couleur} au lieu de {voulu}'
 
-        # --- contrôle 2 : la bulle cache un personnage ?
+        # --- contrôle 3 : la boîte cache-t-elle un personnage ? ------------
         rx1, ry1, rx2, ry2 = rect
         cache = []
         visages = list(in_panel)
@@ -165,7 +121,7 @@ def audit_page(page, report):
             ix = max(0, min(rx2, gx2) - max(rx1, gx1))
             iy = max(0, min(ry2, gy2) - max(ry1, gy1))
             if ix * iy > 0.10 * w * h and ix * iy > 60:
-                idp = ids[in_panel.index(p)] if p in in_panel else 'visage probable'
+                idp = ids_locale(in_panel, p, vig)
                 cache.append(f'tête {idp} ({min(100, ix * iy / (w * h) * 100):.0f}%)')
         for (a, bx, by, bw, bh) in blobs:
             if not (bx < px2 and bx + bw > px1 and by < py2 and by + bh > py1):
@@ -177,6 +133,35 @@ def audit_page(page, report):
         if cache:
             issue['cache'] = ' ; '.join(cache[:3])
         report.append(issue)
+
+
+def ids_locale(in_panel, p, vig):
+    """Identité affichable d'une personne pour le message « tête couverte »."""
+    ids = PS._nettoyer_ids(in_panel, vig['presence'], vig['match'])
+    try:
+        return ids[in_panel.index(p)]
+    except (ValueError, IndexError):
+        return 'visage probable'
+
+
+def _fond(img, rect):
+    """Couleur de fond d'une boîte posée : 'blanc', 'jaune' ou 'autre'.
+
+    Médiane des pixels clairs du rectangle (texte/contours exclus)."""
+    x1, y1, x2, y2 = [max(0, int(v)) for v in rect]
+    x2, y2 = min(x2, img.shape[1]), min(y2, img.shape[0])
+    if x2 <= x1 or y2 <= y1:
+        return 'autre'
+    crop = img[y1:y2, x1:x2].reshape(-1, 3)
+    clairs = crop[(crop >= 110).all(axis=1)]
+    if len(clairs) < 20:
+        return 'autre'
+    r, g, b = np.median(clairs, axis=0)
+    if r >= 225 and g >= 225 and b >= 225:
+        return 'blanc'
+    if r >= 195 and r - b >= 30 and g >= b:
+        return 'jaune'
+    return 'autre'
 
 
 def calibre():
@@ -215,91 +200,66 @@ if __name__ == '__main__':
     out = ROOT / 'Planches-dessin/validation/AUDIT-BULLES.json'
     out.write_text(json.dumps(report, ensure_ascii=False, indent=1))
 
-    def verdict(r):
-        q = r.get('queue', '')
-        for k, lbl in (('OK (large', 'OK large'),):
-            pass
-        if q.startswith('OK'):
-            return 'OK' if q == 'OK' else 'OK large'
-        if q.startswith('voix'):
-            return 'voix off'
-        if q.startswith('NON-VÉRIFIABLE') or q.startswith('NON CORRIGÉ'):
-            return 'non vérifiable'
-        if q.startswith('MAUVAIS'):
-            return 'MAUVAIS LOCUTEUR'
-        if q.startswith('QUEUE DANS LE VIDE'):
-            return 'QUEUE DANS LE VIDE'
-        if q.startswith('IMPRÉCIS'):
-            return 'IMPRÉCIS'
-        return ''
-
-    tot = {}
-    n_cache = n_tete = n_traverse = 0
+    n_dial = n_enc = 0
+    n_prefixe = n_fond = n_cache = n_tete = 0
     vignettes = {}
     for r in report:
-        v = verdict(r)
-        if 'queue' in r:
-            tot[v] = tot.get(v, 0) + 1
+        if r['kind'] in G._KINDS_DIAL:
+            n_dial += 1
+        elif r['kind'] == 'encadre':
+            n_enc += 1
+        if 'prefixe' in r:
+            n_prefixe += 1
+        if 'fond' in r:
+            n_fond += 1
         if 'cache' in r:
             n_cache += 1
             if 'tête' in r['cache']:
                 n_tete += 1
-        if 'traverse' in r:
-            n_traverse += 1
-        if ('cache' in r or 'traverse' in r
-                or v in ('MAUVAIS LOCUTEUR', 'QUEUE DANS LE VIDE', 'IMPRÉCIS')):
+        if 'prefixe' in r or 'fond' in r or 'cache' in r:
             vignettes.setdefault((r['page'], r['panel']), []).append(r)
 
     lines = [
-        '# AUDIT DU LETTRAGE — queues et recouvrements (après correction)', '',
-        'Audit des 30 planches de `Planches-dessin/Avec-texte/`, par `outils/lettrage/audit_bulles.py`',
-        '(locuteurs du scénario, têtes détectées Haar ×3 + filtrage peau, identités couleur calibrées',
-        'sur la couverture et nettoyées par la présence scénario, pointes de queue lues dans le',
-        'manifeste du lettrage).', '',
-        'Cet audit fait suite à la correction du lettrage : les queues sont désormais ancrées sur la',
-        'tête du locuteur résolu (identité + présence scénario + ordre de lecture) et le placement',
-        'évite têtes et corps. Pour comparaison, l\'audit initial (commit `97cc4e5`, lettrage `0fd9784`)',
-        'comptait : **22** queues correctes, **11** mauvais locuteurs, **94** queues dans le vide,',
-        '**101** recouvrements de personnages et **107**/153 vignettes touchées ; la réplique',
-        'd\'Ayden (page 14, vignette 3) manquait.', '',
+        '# AUDIT DU LETTRAGE — locuteurs nommés, fonds et recouvrements', '',
+        'Audit des 30 planches de `Planches-dessin/Avec-texte/`, par',
+        '`outils/lettrage/audit_bulles.py`. Le lettrage ne pointe plus les',
+        'locuteurs : chaque dialogue est préfixé du nom du personnage',
+        '(« Léon: \"…\" ») sur fond blanc, la narration est sur fond',
+        'jaune/brun. Contrôles : préfixe conforme au scénario, fond de la',
+        'boîte (échantillonné sur la planche finale), recouvrement des',
+        'personnes (têtes et zones de peau, détection indépendante).', '',
         '## Bilan', '',
-        f'- Bulles et pensées auditées : **{sum(tot.values())}** (réplique d\'Ayden p14 v3 réintégrée)',
-    ]
-    for k in ('OK', 'OK large', 'voix off', 'IMPRÉCIS', 'MAUVAIS LOCUTEUR', 'QUEUE DANS LE VIDE',
-              'non vérifiable'):
-        if tot.get(k):
-            lines.append(f'- {k} : **{tot[k]}**')
-    lines += [
-        f'- Éléments recouvrant un personnage : **{n_cache}** (dont têtes/visages couverts : {n_tete})',
-        f'- Queues traversant une autre bulle : **{n_traverse}**',
+        f'- Dialogues (bulles, pensées, voix, cris) : **{n_dial}**, '
+        f'encadrés narratifs : **{n_enc}**',
+        f'- Préfixes de locuteur faux : **{n_prefixe}**',
+        f'- Fonds non conformes (blanc/dialogue, jaune-brun/narratif) : **{n_fond}**',
+        f'- Éléments recouvrant un personnage : **{n_cache}** '
+        f'(dont têtes/visages couverts : {n_tete})',
         f'- Vignettes avec au moins un défaut : **{len(vignettes)}** sur 153', '',
-        '## Détail par planche et vignette', '',
     ]
-    cur, rows = None, []
-    for (page, panel) in sorted(vignettes):
-        if page != cur:
-            if rows:
-                lines += rows + ['']
-            cur, rows = page, []
-            stem = G.SRC[page].rsplit('/', 1)[-1].replace('-marvel.png', '')
-            lines.append(f'### Planche {page:02d} — {stem}')
-            lines.append('')
-            lines.append('| Vignette | Él. | Type | Locuteur attendu | Queue | Recouvrement |')
-            lines.append('|---|---|---|---|---|---|')
-        for r in vignettes[(page, panel)]:
-            q = verdict(r)
-            q = {'OK': '—', 'voix off': '— (voix off)', 'non vérifiable': 'non vérifiable*'}.get(q, q)
-            if not q:
-                q = '—'
-            rows.append(f'| {panel} | {r["el"]} | {r["kind"]} | {r["speaker"] or "—"} '
-                        f'| {q} | {r.get("cache", "—")} {r.get("traverse", "")} |')
-    if rows:
-        lines += rows + ['']
-    lines.append('\\* Non vérifiable : locuteur non détecté (ancre estimée) ou identité non '
-                 'isolable dans la vignette. Détail chiffré dans `AUDIT-BULLES.json`.')
+    if vignettes:
+        lines += ['## Détail par planche et vignette', '']
+        cur = None
+        rows = []
+        for (page, panel) in sorted(vignettes):
+            if page != cur:
+                if rows:
+                    lines += rows + ['']
+                cur, rows = page, []
+                stem = G.SRC[page].rsplit('/', 1)[-1].replace('-marvel.png', '')
+                lines += [f'### Planche {page:02d} — {stem}', '',
+                          '| Vignette | Él. | Type | Locuteur | Défauts |',
+                          '|---|---|---|---|---|']
+            for r in vignettes[(page, panel)]:
+                defauts = ' ; '.join(filter(None, (
+                    r.get('prefixe'), r.get('fond'), r.get('cache'))))
+                rows.append(f'| {panel} | {r["el"]} | {r["kind"]} '
+                            f'| {r["speaker"] or "—"} | {defauts} |')
+        if rows:
+            lines += rows + ['']
+    lines.append('Détail chiffré dans `AUDIT-BULLES.json`.')
     (ROOT / 'Planches-dessin/validation/AUDIT-BULLES.md').write_text('\n'.join(lines))
-    print('bulles/pensées :', sum(tot.values()), '| ' +
-          ' '.join(f'{k}={v}' for k, v in tot.items()),
-          f'| recouvrements={n_cache} (têtes={n_tete}) | traversées={n_traverse} '
+    print(f'dialogues={n_dial} encadrés={n_enc} | préfixes faux={n_prefixe} '
+          f'| fonds faux={n_fond} | recouvrements={n_cache} (têtes={n_tete}) '
           f'| vignettes en défaut={len(vignettes)}/153')
     print('JSON :', out)

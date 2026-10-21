@@ -14,7 +14,9 @@
      71
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": "jaune style Comics",
+    "texte": "SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ REMPORTÉS. DEUX FOIS DEUXIÈMES."
    },
    {
     "kind": "bulle",
@@ -26,24 +28,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     421,
-     292
-    ],
-    "queue_base": [
-     421,
-     124
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      396,
-      275,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE !\""
    },
    {
     "kind": "bulle",
@@ -55,24 +41,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     214,
-     522
-    ],
-    "queue_base": [
-     214,
-     489
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      204,
-      505,
-      20,
-      51
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Cinq coupes en une seule saison ! Même les grands du club n'en reviennent pas !\""
    },
    {
     "kind": "encadre",
@@ -83,65 +53,35 @@
      844
     ],
     "panel": 1,
-    "size": 11
+    "size": 11,
+    "speaker": "voix de Léon",
+    "texte": "Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby Club Motterain, on a vécu une saison magique."
    },
    {
     "kind": "bulle",
     "rect": [
      23,
      945,
-     267,
-     997
+     174,
+     1030
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     108,
-     920
-    ],
-    "queue_base": [
-     108,
-     951
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      94,
-      898,
-      27,
-      27
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées !\""
    },
    {
     "kind": "bulle",
     "rect": [
      296,
-     813,
+     801,
      447,
-     915
+     919
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     342,
-     950
-    ],
-    "queue_base": [
-     342,
-     909
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      317,
-      933,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Cinq fois premiers et deux fois deuxièmes… Vous vous rendez compte ?\""
    },
    {
     "kind": "bulle",
@@ -149,28 +89,12 @@
      296,
      999,
      540,
-     1051
+     1045
     ],
     "panel": 2,
-    "size": 14,
-    "queue_tip": [
-     533,
-     976
-    ],
-    "queue_base": [
-     534,
-     1007
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      509,
-      945,
-      47,
-      47
-     ],
-     "src": "resolu"
-    }
+    "size": 12,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"C'est sûr, l'année prochaine chez les U8, ce sera exactement pareil !\""
    },
    {
     "kind": "bulle",
@@ -182,24 +106,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     706,
-     986
-    ],
-    "queue_base": [
-     706,
-     1095
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      620,
-      891,
-      173,
-      173
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Pas « exactement pareil », Ayden… Ce sera encore MIEUX ! En U8, on ne finira même plus deuxièmes : on va TOUT gagner !\""
    }
   ],
   "2": [
@@ -212,7 +120,9 @@
      71
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE. LE JOUR DE LA REPRISE EN CATÉGORIE U8."
    },
    {
     "kind": "bulle",
@@ -220,28 +130,12 @@
      447,
      91,
      633,
-     131
+     148
     ],
     "panel": 1,
-    "size": 9,
-    "queue_tip": [
-     579,
-     176
-    ],
-    "queue_base": [
-     579,
-     125
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      563,
-      168,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "size": 11,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Vanessa ! Alice ! On file au stade avec Léon, on rentre pour le déjeuner !\""
    },
    {
     "kind": "voix",
@@ -249,39 +143,25 @@
      645,
      91,
      831,
-     129
+     133
     ],
     "panel": 1,
-    "size": 9
+    "size": 11,
+    "speaker": "Voix hors-champ depuis l'étage",
+    "texte": "Maman: \"Bon entraînement les garçons ! Amuse-toi bien Léon !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     447,
-     203,
+     593,
+     202,
      831,
-     232
+     259
     ],
     "panel": 1,
-    "size": 9,
-    "queue_tip": [
-     718,
-     136
-    ],
-    "queue_base": [
-     718,
-     209
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      704,
-      55,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "size": 11,
+    "speaker": "Léon",
+    "texte": "Léon: \"Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va arriver après les copains !\""
    },
    {
     "kind": "bulle",
@@ -293,24 +173,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     248,
-     489
-    ],
-    "queue_base": [
-     244,
-     474
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      238,
-      484,
-      25,
-      25
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sept tournois cette année en U8, ça fera sept nouveaux trophées sur mon étagère !\""
    },
    {
     "kind": "bulle",
@@ -322,19 +186,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     370,
-     508
-    ],
-    "queue_base": [
-     370,
-     522
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un peu vite en besogne, champion ?\""
    },
    {
     "kind": "bulle",
@@ -346,24 +199,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     676,
-     480
-    ],
-    "queue_base": [
-     686,
-     465
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      658,
-      474,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on a toujours la même bande : Lyssandro, Ayden, Nolann, Milo et moi !\""
    },
    {
     "kind": "bulle",
@@ -371,28 +208,12 @@
      433,
      510,
      798,
-     578
+     595
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     744,
-     496
-    ],
-    "queue_base": [
-     744,
-     516
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      731,
-      475,
-      27,
-      27
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Justement, Léon. En U8, les autres clubs aussi ont grandi. Et les règles changent beaucoup. Écoute bien ce qu'on va vous expliquer avec Julien et Kilian.\""
    },
    {
     "kind": "encadre",
@@ -403,7 +224,9 @@
      683
     ],
     "panel": 4,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "LA MOTTE-SERVOLEX — STADE DU RUGBY CLUB MOTTERAIN."
    },
    {
     "kind": "bulle",
@@ -415,24 +238,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     504,
-     945
-    ],
-    "queue_base": [
-     504,
-     966
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      489,
-      922,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro est arrivé !\""
    }
   ],
   "3": [
@@ -445,7 +252,9 @@
      71
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSENT LE GROUPE U8 DU RCM !"
    },
    {
     "kind": "bulle",
@@ -457,24 +266,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     532,
-     118
-    ],
-    "queue_base": [
-     532,
-     93
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      513,
-      106,
-      39,
-      39
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Salut les gars ! Alors, prêts pour notre nouvelle saison de champions ?\""
    },
    {
     "kind": "bulle",
@@ -486,24 +279,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     584,
-     142
-    ],
-    "queue_base": [
-     584,
-     233
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      565,
-      114,
-      39,
-      39
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Trop content de vous retrouver ! Mon père m'a dit qu'on est vingt joueurs cette année, ça va faire quatre équipes de cinq !\""
    },
    {
     "kind": "bulle",
@@ -511,57 +288,25 @@
      670,
      233,
      841,
-     301
+     318
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     765,
-     141
-    ],
-    "queue_base": [
-     765,
-     239
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      745,
-      113,
-      40,
-      40
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Ouais ! Avec Léon, on en a parlé toute la semaine à l'école !\""
    },
    {
     "kind": "bulle",
     "rect": [
      196,
-     471,
+     453,
      432,
-     539
+     538
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     152,
-     535
-    ],
-    "queue_base": [
-     202,
-     529
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      102,
-      494,
-      84,
-      84
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait carrément l'équipe première !\""
    },
    {
     "kind": "bulle",
@@ -569,28 +314,12 @@
      196,
      543,
      432,
-     595
+     611
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     397,
-     539
-    ],
-    "queue_base": [
-     426,
-     557
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      122,
-      363,
-      41,
-      41
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?!\""
    },
    {
     "kind": "ono",
@@ -601,7 +330,9 @@
      380
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIIIIIT !"
    },
    {
     "kind": "bulle",
@@ -613,43 +344,21 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     638,
-     510
-    ],
-    "queue_base": [
-     664,
-     509
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle devant nous, et on pose les ballons !\""
    },
    {
     "kind": "bulle",
     "rect": [
      23,
-     739,
+     721,
      388,
-     807
+     806
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     93,
-     804
-    ],
-    "queue_base": [
-     132,
-     801
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Bienvenue en U8 les garçons ! Avant de commencer l'entraînement, on doit vous parler franchement de ce qui s'est passé la saison dernière…\""
    },
    {
     "kind": "bulle",
@@ -661,24 +370,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     185,
-     897
-    ],
-    "queue_base": [
-     255,
-     949
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      162,
-      876,
-      33,
-      33
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Tu vas voir, ils vont nous féliciter pour nos cinq trophées !\""
    }
   ],
   "4": [
@@ -692,24 +385,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     214,
-     88
-    ],
-    "queue_base": [
-     214,
-     115
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      192,
-      58,
-      44,
-      44
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"La saison dernière en U6, sur 7 tournois, vous en avez gagné 5 et fini 2es sur les 2 autres. C'était génial… mais écoutez-moi bien : une saison comme celle-là, c'est EXCEPTIONNEL et ça arrive très rarement !\""
    },
    {
     "kind": "bulle",
@@ -721,19 +398,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     380,
-     263
-    ],
-    "queue_base": [
-     381,
-     273
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Si vous croyez que vous allez gagner sans effort cette année parce que vous avez gagné en U6, vous allez avoir une énorme surprise !\""
    },
    {
     "kind": "bulle",
@@ -745,24 +411,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     752,
-     136
-    ],
-    "queue_base": [
-     752,
-     98
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      724,
-      116,
-      56,
-      56
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"En U8, voici vos nouvelles règles ! On joue à 5 contre 5 sur un terrain de 30 mètres par 20 mètres. Il n'y a pas de poteaux et pas de transformations : chaque essai marqué vaut 1 point !\""
    },
    {
     "kind": "bulle",
@@ -774,19 +424,8 @@
     ],
     "panel": 2,
     "size": 11,
-    "queue_tip": [
-     62,
-     567
-    ],
-    "queue_base": [
-     39,
-     573
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Deuxième grand changement : l'arbitre siffle TOUS les en-avant quand le ballon tombe vers le camp adverse, et tous les hors-jeu si vous êtes devant le copain qui a le ballon !\""
    },
    {
     "kind": "bulle",
@@ -798,24 +437,8 @@
     ],
     "panel": 2,
     "size": 13,
-    "queue_tip": [
-     147,
-     472
-    ],
-    "queue_base": [
-     195,
-     502
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      112,
-      440,
-      56,
-      56
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Tous les en-avant ?! Même les tout petits ?!\""
    },
    {
     "kind": "bulle",
@@ -823,28 +446,12 @@
      256,
      627,
      433,
-     659
+     673
     ],
     "panel": 2,
     "size": 12,
-    "queue_tip": [
-     288,
-     586
-    ],
-    "queue_base": [
-     288,
-     633
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      263,
-      553,
-      49,
-      49
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Même les tout petits, Milo !\""
    },
    {
     "kind": "bulle",
@@ -856,19 +463,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     494,
-     566
-    ],
-    "queue_base": [
-     505,
-     568
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Et quand un joueur sort en touche, le ballon est directement rendu à l'autre équipe et il est joué comme une pénalité !\""
    },
    {
     "kind": "bulle",
@@ -880,19 +476,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     814,
-     530
-    ],
-    "queue_base": [
-     827,
-     531
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Enfin, pour les contacts : de septembre à fin novembre, c'est du touché à 2 mains simultanées ! Les vrais plaquages seront autorisés à partir du mois de décembre !\""
    },
    {
     "kind": "bulle",
@@ -904,24 +489,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     236,
-     783
-    ],
-    "queue_base": [
-     252,
-     719
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      182,
-      738,
-      105,
-      105
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Faut faire super attention aux passes alors, sinon on rend tout le temps le ballon…\""
    },
    {
     "kind": "bulle",
@@ -933,24 +502,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     464,
-     798
-    ],
-    "queue_base": [
-     464,
-     873
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      417,
-      743,
-      94,
-      94
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Et en défense, si on est hors-jeu, on se fait punir direct !\""
    },
    {
     "kind": "bulle",
@@ -962,24 +515,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     432,
-     1065
-    ],
-    "queue_base": [
-     432,
-     995
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      375,
-      1016,
-      114,
-      114
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Pfff, vous inquiétez pas les gars ! Touché à deux mains ou nouvelles règles, personne ne court aussi vite que nous. On va quand même tout rafler !\""
    }
   ],
   "5": [
@@ -992,7 +529,9 @@
      87
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
@@ -1004,19 +543,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     340,
-     197
-    ],
-    "queue_base": [
-     340,
-     138
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"En-avant ! Ballon rendu à l'autre équipe ! On garde les mains bien ouvertes en W devant la poitrine, Milo !\""
    },
    {
     "kind": "ono",
@@ -1027,65 +555,35 @@
      557
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
-     257,
-     623,
-     433,
-     691
+     27,
+     799,
+     217,
+     839
     ],
     "panel": 1,
-    "size": 13,
-    "queue_tip": [
-     66,
-     700
-    ],
-    "queue_base": [
-     263,
-     681
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      48,
-      687,
-      20,
-      28
-     ],
-     "src": "resolu"
-    }
+    "size": 9,
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Hors-jeu Léon ! Tu étais devant tes copains au départ de l'action !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     190,
-     791,
-     433,
-     843
+     229,
+     799,
+     419,
+     839
     ],
     "panel": 1,
-    "size": 13,
-    "queue_tip": [
-     379,
-     696
-    ],
-    "queue_base": [
-     427,
-     827
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      310,
-      558,
-      56,
-      56
-     ],
-     "src": "resolu"
-    }
+    "size": 9,
+    "speaker": "Léon",
+    "texte": "Léon: \"Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U8 !\""
    },
    {
     "kind": "encadre",
@@ -1096,7 +594,9 @@
      538
     ],
     "panel": 2,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "PLUS TARD, DANS LE VESTIAIRE DES COACHS…"
    },
    {
     "kind": "bulle",
@@ -1108,24 +608,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     719,
-     624
-    ],
-    "queue_base": [
-     719,
-     653
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      697,
-      594,
-      44,
-      44
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme pour le premier tournoi d'octobre. Sur le papier, l'équipe de Léon, Lyssandro, Ayden, Nolann et Milo a du feu dans les jambes.\""
    },
    {
     "kind": "bulle",
@@ -1137,24 +621,8 @@
     ],
     "panel": 3,
     "size": 10,
-    "queue_tip": [
-     180,
-     956
-    ],
-    "queue_base": [
-     180,
-     907
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      141,
-      925,
-      77,
-      77
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Du feu dans les jambes, oui… mais tu as vu leur réaction à chaque coup de sifflet ? Ils ont encore la tête en U6 où il suffisait de courir tout droit pour marquer.\""
    },
    {
     "kind": "bulle",
@@ -1166,82 +634,34 @@
     ],
     "panel": 3,
     "size": 10,
-    "queue_tip": [
-     328,
-     982
-    ],
-    "queue_base": [
-     328,
-     1123
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      290,
-      935,
-      77,
-      77
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"C'est vrai qu'au niveau des passes sous pression et de la défense en ligne, il y a encore tout à construire.\""
    },
    {
     "kind": "bulle",
     "rect": [
      445,
      860,
-     635,
-     906
-    ],
-    "panel": 4,
-    "size": 8,
-    "queue_tip": [
-     616,
-     945
-    ],
-    "queue_base": [
-     616,
-     900
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      584,
-      921,
-      64,
-      64
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     647,
-     860,
      837,
      897
     ],
     "panel": 4,
     "size": 8,
-    "queue_tip": [
-     716,
-     958
+    "speaker": "Flavien",
+    "texte": "Flavien: \"C'est surtout pour Léon que je m'inquiète. Il a un tel esprit de gagnant qu'il ne conçoit même pas qu'on puisse perdre un match.\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     445,
+     999,
+     688,
+     1036
     ],
-    "queue_base": [
-     716,
-     891
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      694,
-      945,
-      43,
-      43
-     ],
-     "src": "resolu"
-    }
+    "panel": 4,
+    "size": 8,
+    "speaker": "Julien",
+    "texte": "Julien: \"Le premier tournoi va être un sacré révélateur, Flavien. On sera là pour les accompagner.\""
    }
   ],
   "6": [
@@ -1254,7 +674,9 @@
      80
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS AU PROGRAMME DE LA POULE !"
    },
    {
     "kind": "bulle",
@@ -1266,93 +688,47 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     574,
-     398
-    ],
-    "queue_base": [
-     574,
-     440
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      546,
-      362,
-      57,
-      57
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Allez le RCM ! On se souvient des règles : 5 contre 5, touché à deux mains, pas de hors-jeu et on fait vivre le ballon !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     132,
-     513,
-     310,
-     565
+     174,
+     521,
+     419,
+     550
     ],
     "panel": 1,
-    "size": 14,
-    "queue_tip": [
-     228,
-     617
-    ],
-    "queue_base": [
-     304,
-     557
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      132,
-      665,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "size": 9,
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Bien joué Ayden ! Tiens Nolann, fonce !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     10,
-     621,
-     255,
-     656
-    ],
-    "panel": 1,
-    "size": 14,
-    "queue_tip": [
-     338,
-     660
-    ],
-    "queue_base": [
-     249,
+     24,
+     610,
+     215,
      650
     ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      326,
-      651,
-      40,
-      19
-     ],
-     "src": "resolu"
-    }
+    "panel": 1,
+    "size": 9,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"ESSAI ! UN POINT POUR LE RCM !\""
    },
    {
     "kind": "encadre",
     "rect": [
-     10,
-     801,
-     375,
-     830
+     227,
+     610,
+     418,
+     648
     ],
     "panel": 1,
-    "size": 11
+    "size": 9,
+    "speaker": null,
+    "texte": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !"
    },
    {
     "kind": "bulle",
@@ -1364,24 +740,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     555,
-     596
-    ],
-    "queue_base": [
-     555,
-     578
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      540,
-      589,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"À toi Léon !\""
    },
    {
     "kind": "bulle",
@@ -1393,24 +753,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     770,
-     619
-    ],
-    "queue_base": [
-     770,
-     651
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      756,
-      597,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Personne ne me rattrapera ! ESSAI !\""
    },
    {
     "kind": "encadre",
@@ -1421,7 +765,9 @@
      824
     ],
     "panel": 2,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) !"
    },
    {
     "kind": "bulle",
@@ -1433,24 +779,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     54,
-     958
-    ],
-    "queue_base": [
-     54,
-     915
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      28,
-      939,
-      53,
-      53
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Deux matchs, deux victoires ! Qu'est-ce que je vous avais dit ?! C'est trop facile la catégorie U8, on est toujours invincibles !\""
    },
    {
     "kind": "bulle",
@@ -1458,28 +788,12 @@
      10,
      1009,
      255,
-     1061
+     1077
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     392,
-     982
-    ],
-    "queue_base": [
-     241,
-     1055
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      372,
-      951,
-      55,
-      55
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Attends Léon, contre Albertville on a quand même eu chaud sur la fin…\""
    },
    {
     "kind": "bulle",
@@ -1491,24 +805,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     511,
-     1016
-    ],
-    "queue_base": [
-     535,
-     932
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      499,
-      1013,
-      20,
-      22
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Écoutez bien les garçons : le troisième match, c'est contre Montmélian. Ils ont gagné leurs deux matchs aussi.\""
    },
    {
     "kind": "bulle",
@@ -1520,24 +818,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     637,
-     973
-    ],
-    "queue_base": [
-     637,
-     1009
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      617,
-      945,
-      40,
-      40
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Ils montent très vite en défense et ils ne laissent aucun espace. Si vous jouez chacun pour vous, ça ne passera pas !\""
    }
   ],
   "7": [
@@ -1551,24 +833,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     304,
-     153
-    ],
-    "queue_base": [
-     304,
-     222
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      253,
-      94,
-      102,
-      102
-     ],
-     "src": "resolu"
-    }
+    "speaker": "adversaire-vert",
+    "texte": "Adversaire vert: \"On monte ensemble les Vert et Noir ! Personne ne passe !\""
    },
    {
     "kind": "bulle",
@@ -1580,24 +846,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     481,
-     149
-    ],
-    "queue_base": [
-     483,
-     174
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      466,
-      127,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Oh là là, ils sont déjà sur nous !\""
    },
    {
     "kind": "ono",
@@ -1608,7 +858,9 @@
      442
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "PLOP !"
    },
    {
     "kind": "ono",
@@ -1619,7 +871,9 @@
      366
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
@@ -1631,19 +885,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     62,
-     564
-    ],
-    "queue_base": [
-     39,
-     563
-    ],
-    "locuteur": {
-     "id": "Arbitre",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"En-avant du RCM ! Ballon rendu à Montmélian !\""
    },
    {
     "kind": "bulle",
@@ -1655,24 +898,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     297,
-     447
-    ],
-    "queue_base": [
-     297,
-     465
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      283,
-      425,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Mais fais attention Milo !\""
    },
    {
     "kind": "ono",
@@ -1683,7 +910,9 @@
      424
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
@@ -1695,19 +924,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     494,
-     559
-    ],
-    "queue_base": [
-     504,
-     557
-    ],
-    "locuteur": {
-     "id": "Arbitre",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Touche ! Ballon rendu à Montmélian, joué comme une pénalité !\""
    },
    {
     "kind": "bulle",
@@ -1715,28 +933,12 @@
      675,
      447,
      852,
-     515
+     532
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     651,
-     446
-    ],
-    "queue_base": [
-     681,
-     457
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      630,
-      429,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Mince, le terrain de 20 mètres est moins large que je croyais !\""
    },
    {
     "kind": "bulle",
@@ -1748,24 +950,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     215,
-     663
-    ],
-    "queue_base": [
-     215,
-     694
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      202,
-      642,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"La ligne défensive les garçons ! Si Léon monte tout seul, ça ouvre un boulevard !\""
    },
    {
     "kind": "encadre",
@@ -1776,7 +962,9 @@
      771
     ],
     "panel": 3,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "ESSAI DE MONTMÉLIAN ! +1 POINT !"
    },
    {
     "kind": "ono",
@@ -1787,36 +975,22 @@
      647
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
      431,
      724,
-     675,
+     806,
      776
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     624,
-     781
-    ],
-    "queue_base": [
-     624,
-     770
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      614,
-      780,
-      20,
-      18
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Hors-jeu du joueur du RCM ! Pénalité pour Montmélian !\""
    },
    {
     "kind": "bulle",
@@ -1828,19 +1002,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     70,
-     987
-    ],
-    "queue_base": [
-     70,
-     954
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Calmez-vous le RCM ! Respirez ! Regardez vos copains avant de courir !\""
    },
    {
     "kind": "bulle",
@@ -1852,19 +1015,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     487,
-     1003
-    ],
-    "queue_base": [
-     483,
-     1014
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Ils s'énervent au lieu de construire…\""
    }
   ],
   "8": [
@@ -1878,53 +1030,21 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     171,
-     43
-    ],
-    "queue_base": [
-     355,
-     62
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      142,
-      21,
-      43,
-      43
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Vas-y Léon ! On monte avec toi !\""
    },
    {
     "kind": "bulle",
     "rect": [
      135,
-     563,
+     551,
      311,
-     615
+     619
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     116,
-     614
-    ],
-    "queue_base": [
-     141,
-     607
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      88,
-      595,
-      41,
-      41
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Léon ! Passe à gauche, on est deux contre un !\""
    },
    {
     "kind": "bulle",
@@ -1936,24 +1056,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     350,
-     721
-    ],
-    "queue_base": [
-     338,
-     709
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      346,
-      712,
-      20,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Ici Léon ! Je suis tout seul sur l'aile !\""
    },
    {
     "kind": "pensee",
@@ -1965,20 +1069,8 @@
     ],
     "panel": 2,
     "size": 13,
-    "queue_tip": [
-     536,
-     587
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      520,
-      574,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Non ! C'est moi qui vais sauver l'équipe ! Je vais passer au milieu tout seul comme en U6 !\""
    },
    {
     "kind": "ono",
@@ -1989,7 +1081,9 @@
      892
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "TCHAC !"
    },
    {
     "kind": "ono",
@@ -2000,36 +1094,22 @@
      887
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
      13,
-     1110,
+     1104,
      189,
-     1178
+     1189
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     88,
-     1078
-    ],
-    "queue_base": [
-     88,
-     1116
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      78,
-      1061,
-      20,
-      19
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Touché à deux mains… et en-avant ! C'est terminé, fin du match !\""
    },
    {
     "kind": "encadre",
@@ -2040,7 +1120,9 @@
      888
     ],
     "panel": 4,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVINCIBILITÉ VIENT DE VOLER EN ÉCLATS."
    }
   ],
   "9": [
@@ -2048,25 +1130,14 @@
     "kind": "bulle",
     "rect": [
      13,
-     83,
+     65,
      388,
-     118
+     117
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     70,
-     167
-    ],
-    "queue_base": [
-     70,
-     112
-    ],
-    "locuteur": {
-     "id": "Ayden",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Bien joué Montmélian… Vous avez super bien défendu.\""
    },
    {
     "kind": "bulle",
@@ -2074,23 +1145,12 @@
      477,
      185,
      852,
-     220
+     237
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     490,
-     179
-    ],
-    "queue_base": [
-     491,
-     191
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "adversaire-vert",
+    "texte": "Adversaire vert: \"Merci ! À bientôt au prochain tournoi !\""
    },
    {
     "kind": "bulle",
@@ -2102,24 +1162,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     181,
-     539
-    ],
-    "queue_base": [
-     181,
-     613
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      124,
-      474,
-      114,
-      114
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! On est le RCM ! En U6 on gagnait toujours !\""
    },
    {
     "kind": "bulle",
@@ -2131,24 +1175,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     484,
-     546
-    ],
-    "queue_base": [
-     484,
-     513
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      474,
-      540,
-      20,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Léon, calme-toi… On a quand même gagné deux matchs sur trois aujourd'hui !\""
    },
    {
     "kind": "bulle",
@@ -2160,106 +1188,47 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     735,
-     527
-    ],
-    "queue_base": [
-     735,
-     483
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      713,
-      513,
-      44,
-      44
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Ouais, contre Chambéry et Albertville on a super bien joué !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     548,
-     757,
-     851,
-     825
+     352,
+     775,
+     832,
+     827
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     398,
-     812
-    ],
-    "queue_base": [
-     554,
-     811
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on n'est pas les premiers ! Moi je veux pas perdre ! Jamais !\""
    },
    {
     "kind": "bulle",
     "rect": [
      27,
      927,
-     426,
-     976
+     837,
+     961
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     372,
-     1028
-    ],
-    "queue_base": [
-     372,
-     970
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      347,
-      1011,
-      51,
-      51
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Viens boire une gorgée d'eau, Léon. La colère ne fera pas rejouer le match.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     438,
-     927,
+     27,
+     967,
      837,
-     976
+     1001
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     557,
-     894
-    ],
-    "queue_base": [
-     557,
-     933
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      532,
-      861,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Ce n'est que le début de la saison… Il va falloir que le groupe apprenne à rebondir.\""
    }
   ],
   "10": [
@@ -2273,24 +1242,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     352,
-     252
-    ],
-    "queue_base": [
-     352,
-     210
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      319,
-      228,
-      65,
-      65
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Oui Vanessa, je couche Léon et j'arrive ! Bonne nuit Alice !\""
    },
    {
     "kind": "bulle",
@@ -2302,24 +1255,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     600,
-     130
-    ],
-    "queue_base": [
-     600,
-     164
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      574,
-      96,
-      52,
-      52
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Papa… Pourquoi l'arbitre il a sifflé tout le temps contre nous face à Montmélian ?\""
    },
    {
     "kind": "bulle",
@@ -2331,24 +1268,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     320,
-     668
-    ],
-    "queue_base": [
-     320,
-     701
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      296,
-      636,
-      49,
-      49
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles sont les mêmes pour tout le monde. Montmélian a juste mieux joué en équipe que nous sur ce match-là.\""
    },
    {
     "kind": "bulle",
@@ -2360,24 +1281,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     204,
-     756
-    ],
-    "queue_base": [
-     204,
-     785
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      190,
-      741,
-      28,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Pfff… Ils ont surtout eu de la chance !\""
    },
    {
     "kind": "encadre",
@@ -2388,7 +1293,9 @@
      538
     ],
     "panel": 2,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN."
    },
    {
     "kind": "bulle",
@@ -2396,28 +1303,12 @@
      675,
      647,
      851,
-     699
+     715
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     692,
-     628
-    ],
-    "queue_base": [
-     692,
-     653
-    ],
-    "locuteur": {
-     "id": "chatain-clair",
-     "tete": [
-      673,
-      601,
-      38,
-      38
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Alors Léon, t'es toujours fâché pour samedi ?\""
    },
    {
     "kind": "bulle",
@@ -2429,19 +1320,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     813,
-     727
-    ],
-    "queue_base": [
-     822,
-     733
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Bien sûr que je suis fâché ! Quand je repense à leurs maillots Vert et Noir, ça m'énerve !\""
    },
    {
     "kind": "bulle",
@@ -2453,24 +1333,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     180,
-     954
-    ],
-    "queue_base": [
-     180,
-     943
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      169,
-      951,
-      22,
-      15
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Tu sais, j'en ai parlé tout à l'heure avec Baptiste avant la sonnerie. Lui aussi au rugby ce week-end, il m'a dit qu'avec les nouvelles règles U8, son équipe a fait plein d'en-avant et de hors-jeu !\""
    },
    {
     "kind": "bulle",
@@ -2478,28 +1342,12 @@
      13,
      1008,
      388,
-     1043
+     1060
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     291,
-     993
-    ],
-    "queue_base": [
-     291,
-     1014
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      273,
-      967,
-      36,
-      36
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Ah ouais ? Même Baptiste il a perdu un match ?\""
    },
    {
     "kind": "bulle",
@@ -2511,24 +1359,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     612,
-     966
-    ],
-    "queue_base": [
-     612,
-     1098
-    ],
-    "locuteur": {
-     "id": "chatain-clair",
-     "tete": [
-      594,
-      939,
-      37,
-      37
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'au début en U8, tout le monde se trompe.\""
    },
    {
     "kind": "bulle",
@@ -2540,24 +1372,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     675,
-     971
-    ],
-    "queue_base": [
-     689,
-     1044
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      659,
-      948,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus qu'on se trompe du tout !\""
    }
   ],
   "11": [
@@ -2570,152 +1386,74 @@
      79
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVITE À L'ENTRAÎNEMENT."
    },
    {
     "kind": "bulle",
     "rect": [
      12,
-     502,
-     377,
-     570
+     526,
+     256,
+     628
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     298,
-     596
-    ],
-    "queue_base": [
-     298,
-     564
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      275,
-      581,
-      45,
-      45
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Écoutez-moi tous les vingt ! Samedi dernier, on a vu de belles choses, mais on a aussi compris pourquoi une équipe comme Montmélian nous a battus.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     257,
+     190,
      640,
      434,
      708
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     369,
-     718
-    ],
-    "queue_base": [
-     369,
-     702
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      353,
-      713,
-      32,
-      25
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Qui peut me dire ce qui nous a manqué quand ça devenait dur ?\""
    },
    {
     "kind": "bulle",
     "rect": [
-     608,
-     502,
-     852,
-     570
-    ],
-    "panel": 2,
-    "size": 14,
-    "queue_tip": [
-     535,
-     627
-    ],
-    "queue_base": [
-     614,
-     512
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      507,
-      611,
-      46,
-      46
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     608,
-     676,
-     852,
-     736
-    ],
-    "panel": 2,
-    "size": 12,
-    "queue_tip": [
-     750,
-     656
-    ],
-    "queue_base": [
-     750,
-     682
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      737,
-      635,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     430,
-     814,
-     674,
-     842
+     519,
+     516,
+     763,
+     553
     ],
     "panel": 2,
     "size": 8,
-    "queue_tip": [
-     827,
-     761
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Quand ils couraient vers nous, on n'était pas alignés ! Y en avait un devant et les autres derrière !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     444,
+     673,
+     635,
+     719
     ],
-    "queue_base": [
-     668,
-     820
+    "panel": 2,
+    "size": 8,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Et quand l'un de nous avait le ballon, il essayait de passer tout seul au lieu de faire la passe aux copains !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     647,
+     673,
+     838,
+     710
     ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      824,
-      743,
-      20,
-      30
-     ],
-     "src": "resolu"
-    }
+    "panel": 2,
+    "size": 8,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Et on a fait tomber le ballon vers l'avant plein de fois !\""
    },
    {
     "kind": "bulle",
@@ -2723,115 +1461,51 @@
      12,
      959,
      189,
-     1077
+     1094
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     187,
-     934
-    ],
-    "queue_base": [
-     175,
-     965
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      167,
-      904,
-      45,
-      45
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Bravo les garçons, vous avez tout compris ! En U8, un joueur tout seul ne gagnera JAMAIS contre cinq adversaires organisés.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     12,
-     1079,
-     256,
-     1189
+     257,
+     863,
+     434,
+     972
     ],
     "panel": 3,
+    "size": 11,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Pour progresser, on va travailler nos trois armes secrètes : des passes propres en arrière, une défense en ligne qui monte ensemble sans hors-jeu, et le soutien offensif toujours derrière le copain !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     594,
+     859,
+     838,
+     939
+    ],
+    "panel": 4,
     "size": 13,
-    "queue_tip": [
-     399,
-     1016
-    ],
-    "queue_base": [
-     250,
-     1156
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      374,
-      980,
-      61,
-      61
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Et sous la pluie, le ballon glisse ! C'est le meilleur moment pour apprendre à s'appliquer ! Allez, tout le monde sur le pré !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     430,
-     1049,
-     805,
-     1117
+     444,
+     945,
+     838,
+     979
     ],
     "panel": 4,
-    "size": 14,
-    "queue_tip": [
-     419,
-     1084
-    ],
-    "queue_base": [
-     436,
-     1084
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      401,
-      1073,
-      20,
-      21
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     430,
-     1133,
-     805,
-     1168
-    ],
-    "panel": 4,
-    "size": 14,
-    "queue_tip": [
-     521,
-     1121
-    ],
-    "queue_base": [
-     521,
-     1139
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      511,
-      874,
-      20,
-      15
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Milo",
+    "texte": "Milo: \"Ouais ! Du rugby sous la pluie !\""
    }
   ],
   "12": [
@@ -2845,19 +1519,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     83,
-     174
-    ],
-    "queue_base": [
-     126,
-     170
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"On monte ensemble ! Regardez à votre gauche et à votre droite ! Si Léon accélère tout seul, vous criez quoi ?\""
    },
    {
     "kind": "bulle",
@@ -2869,24 +1532,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     166,
-     214
-    ],
-    "queue_base": [
-     166,
-     234
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      150,
-      190,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden & Lyssandro",
+    "texte": "Ayden & Lyssandro: \"ATTENDS LA LIGNE !\""
    },
    {
     "kind": "bulle",
@@ -2898,19 +1545,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     81,
-     545
-    ],
-    "queue_base": [
-     90,
-     552
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Eh ! Vous avez vu ? Quand on reste collés sur la même ligne, ils savent plus du tout par où passer !\""
    },
    {
     "kind": "bulle",
@@ -2922,19 +1558,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     482,
-     574
-    ],
-    "queue_base": [
-     457,
-     569
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"C'est ça le soutien offensif ! Vous êtes les gardes du corps du porteur de balle ! Toujours derrière lui pour ne pas être hors-jeu ou faire d'en-avant, mais prêts à crier « JE SUIS LÀ ! »\""
    },
    {
     "kind": "bulle",
@@ -2946,24 +1571,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     194,
-     670
-    ],
-    "queue_base": [
-     194,
-     651
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      179,
-      662,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Tiens Lyssandro !\""
    },
    {
     "kind": "bulle",
@@ -2975,24 +1584,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     359,
-     686
-    ],
-    "queue_base": [
-     359,
-     706
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      345,
-      664,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Super passe Ayden, j'ai même pas eu besoin de ralentir !\""
    },
    {
     "kind": "ono",
@@ -3003,7 +1596,9 @@
      670
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "SPLATCH !"
    },
    {
     "kind": "bulle",
@@ -3015,106 +1610,47 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     722,
-     702
-    ],
-    "queue_base": [
-     722,
-     778
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      706,
-      678,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Oups… Il glisse comme un savon ce ballon !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     18,
-     933,
-     388,
-     985
-    ],
-    "panel": 5,
-    "size": 14,
-    "queue_tip": [
-     238,
-     1030
-    ],
-    "queue_base": [
-     238,
-     979
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      211,
-      1011,
-      55,
-      55
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     486,
-     855,
-     846,
-     892
-    ],
-    "panel": 5,
-    "size": 9,
-    "queue_tip": [
-     490,
-     1002
-    ],
-    "queue_base": [
-     492,
-     886
-    ],
-    "locuteur": {
-     "id": "Lyssandro",
-     "tete": null,
-     "src": "estime"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     486,
-     1053,
-     846,
-     1105
+     32,
+     857,
+     832,
+     888
     ],
     "panel": 5,
     "size": 11,
-    "queue_tip": [
-     376,
-     1023
+    "speaker": "Léon",
+    "texte": "Léon: \"Pfff… Sérieux Milo, si tu fais encore tomber le ballon comme ça au prochain tournoi, on va encore perdre !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     32,
+     894,
+     528,
+     925
     ],
-    "queue_base": [
-     492,
-     1061
+    "panel": 5,
+    "size": 11,
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Oh ça va Léon, arrête de râler ! Toi aussi t'en as fait tomber un tout à l'heure !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     32,
+     931,
+     528,
+     975
     ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      342,
-      995,
-      52,
-      52
-     ],
-     "src": "resolu"
-    }
+    "panel": 5,
+    "size": 11,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Lyssandro a raison, Léon. À l'entraînement, on est là pour essayer et se tromper. Encourage ton copain au lieu de soupirer.\""
    }
   ],
   "13": [
@@ -3127,7 +1663,9 @@
      56
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "NOVEMBRE 2026 — DEUXIÈME TOURNOI. AU FIL DES SEMAINES, L'ÉQUIPE CONNAÎT DES HAUTS… ET DES BAS."
    },
    {
     "kind": "bulle",
@@ -3139,24 +1677,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     107,
-     392
-    ],
-    "queue_base": [
-     107,
-     375
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      93,
-      386,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Soutien à droite ! Vas-y Ayden !\""
    },
    {
     "kind": "bulle",
@@ -3168,24 +1690,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     351,
-     410
-    ],
-    "queue_base": [
-     351,
-     430
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      338,
-      389,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Pour toi Léon, va marquer !\""
    },
    {
     "kind": "bulle",
@@ -3197,24 +1703,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     592,
-     406
-    ],
-    "queue_base": [
-     592,
-     380
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      570,
-      393,
-      43,
-      43
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Oui ! Quand on gagne comme ça, j'adore le rugby !\""
    },
    {
     "kind": "bulle",
@@ -3226,48 +1716,21 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     810,
-     453
-    ],
-    "queue_base": [
-     810,
-     508
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Super collectif les garçons ! Gardez cette tête-là pour le match contre Rumilly !\""
    },
    {
     "kind": "bulle",
     "rect": [
      17,
      651,
-     259,
+     387,
      703
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     97,
-     710
-    ],
-    "queue_base": [
-     97,
-     697
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      71,
-      707,
-      52,
-      23
-     ],
-     "src": "resolu"
-    }
+    "speaker": "adversaire-rumilly",
+    "texte": "Adversaire de Rumilly: \"On les bloque chez eux les Rouge et Noir !\""
    },
    {
     "kind": "bulle",
@@ -3279,24 +1742,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     546,
-     636
-    ],
-    "queue_base": [
-     546,
-     717
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      527,
-      610,
-      37,
-      37
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Mais plus vite ! Passez-moi le ballon !\""
    },
    {
     "kind": "ono",
@@ -3307,7 +1754,9 @@
      741
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "PAF !"
    },
    {
     "kind": "ono",
@@ -3318,7 +1767,9 @@
      747
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
@@ -3330,84 +1781,36 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     81,
-     938
-    ],
-    "queue_base": [
-     189,
-     927
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      63,
-      926,
-      20,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Essai pour Rumilly ! Fin du match !\""
    }
   ],
   "14": [
    {
     "kind": "bulle",
     "rect": [
-     350,
-     27,
-     847,
-     62
+     183,
+     33,
+     680,
+     85
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     786,
-     71
-    ],
-    "queue_base": [
-     786,
-     56
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      773,
-      66,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Désolé les gars… Le ballon est arrivé super vite et j'ai glissé dans la boue…\""
    },
    {
     "kind": "bulle",
     "rect": [
      247,
-     177,
+     183,
      617,
-     212
+     215
     ],
     "panel": 0,
-    "size": 14,
-    "queue_tip": [
-     516,
-     224
-    ],
-    "queue_base": [
-     516,
-     206
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      506,
-      222,
-      20,
-      21
-     ],
-     "src": "resolu"
-    }
+    "size": 12,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"C'est ma faute aussi Milo, ma passe était trop haute…\""
    },
    {
     "kind": "bulle",
@@ -3419,24 +1822,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     244,
-     443
-    ],
-    "queue_base": [
-     244,
-     367
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      188,
-      395,
-      112,
-      112
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on a perdu ! Vous faites que des en-avant, vous savez même pas attraper un ballon ! Avec vous, on gagnera jamais rien !\""
    },
    {
     "kind": "bulle",
@@ -3448,24 +1835,8 @@
     ],
     "panel": 2,
     "size": 13,
-    "queue_tip": [
-     122,
-     727
-    ],
-    "queue_base": [
-     122,
-     664
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      72,
-      685,
-      100,
-      100
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Je l'ai pas fait exprès Léon…\""
    },
    {
     "kind": "bulle",
@@ -3477,24 +1848,8 @@
     ],
     "panel": 2,
     "size": 9,
-    "queue_tip": [
-     349,
-     745
-    ],
-    "queue_base": [
-     186,
-     818
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      317,
-      703,
-      78,
-      78
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Arrête Léon, t'es super méchant ! Toi non plus t'étais pas en ligne sur leur essai !\""
    },
    {
     "kind": "bulle",
@@ -3505,108 +1860,48 @@
      866
     ],
     "panel": 2,
-    "size": 12,
-    "queue_tip": [
-     211,
-     773
-    ],
-    "queue_base": [
-     264,
-     844
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      170,
-      730,
-      73,
-      73
-     ],
-     "src": "resolu"
-    }
+    "size": 11,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Ouais ! Si c'est pour nous crier dessus comme ça, on n'a même plus envie de te faire des passes !\""
    },
    {
     "kind": "bulle",
     "rect": [
      446,
      758,
-     633,
-     838
+     833,
+     807
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     536,
-     744
-    ],
-    "queue_base": [
-     536,
-     764
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      523,
-      722,
-      27,
-      27
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipiers. Viens avec moi sur le banc, tout de suite.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     645,
-     758,
-     832,
-     822
+     446,
+     813,
+     833,
+     862
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     680,
-     692
-    ],
-    "queue_base": [
-     680,
-     764
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      664,
-      668,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Venez les garçons, n'écoutez pas ça. Vous avez tout donné sur le terrain.\""
    },
    {
     "kind": "pensee",
     "rect": [
      17,
      1043,
-     397,
+     514,
      1077
     ],
     "panel": 4,
     "size": 13,
-    "queue_tip": [
-     293,
-     1114
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      268,
-      1089,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…\""
    }
   ],
   "15": [
@@ -3619,7 +1914,9 @@
      53
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "LE SOIR MÊME, À SAINT-SULPICE…"
    },
    {
     "kind": "bulle",
@@ -3631,24 +1928,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     554,
-     150
-    ],
-    "queue_base": [
-     554,
-     216
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      500,
-      89,
-      107,
-      107
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Vanessa et Alice préparent le dîner à côté. Toi et moi, on a besoin de discuter d'homme à homme, Léon.\""
    },
    {
     "kind": "bulle",
@@ -3660,24 +1941,8 @@
     ],
     "panel": 1,
     "size": 13,
-    "queue_tip": [
-     217,
-     371
-    ],
-    "queue_base": [
-     204,
-     393
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      206,
-      349,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lyssandro et Ayden aussi.\""
    },
    {
     "kind": "bulle",
@@ -3689,140 +1954,60 @@
     ],
     "panel": 1,
     "size": 13,
-    "queue_tip": [
-     269,
-     343
-    ],
-    "queue_base": [
-     269,
-     393
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      242,
-      308,
-      54,
-      54
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Pourquoi tu t'es mis dans une colère pareille, mon grand ? Dis-moi ce qui se passe dans ton cœur quand on perd.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     674,
-     433,
-     850,
-     498
+     634,
+     431,
+     876,
+     487
     ],
     "panel": 2,
     "size": 8,
-    "queue_tip": [
-     574,
-     391
-    ],
-    "queue_base": [
-     680,
-     478
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      513,
-      331,
-      110,
-      110
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"C'est que… j'ai trop envie qu'on gagne ! Quand l'autre équipe marque et qu'on perd, j'ai l'impression qu'on est devenus nuls par rapport à l'année dernière en U6… et ça me fait trop mal au ventre !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     251,
-     750,
-     614,
-     835
-    ],
-    "panel": 3,
-    "size": 13,
-    "queue_tip": [
-     134,
-     723
-    ],
-    "queue_base": [
-     257,
-     763
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      14,
-      608,
-      225,
-      225
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     350,
-     852,
-     850,
-     901
+     336,
+     770,
+     836,
+     810
     ],
     "panel": 3,
     "size": 9,
-    "queue_tip": [
-     538,
-     614
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Écoute-moi bien, Léon, et garde cette phrase dans ta tête pour toute ta vie : on apprend toujours de ses échecs, jamais de ses victoires.\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     336,
+     816,
+     836,
+     856
     ],
-    "queue_base": [
-     700,
-     858
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      491,
-      565,
-      85,
-      85
-     ],
-     "src": "resolu"
-    }
+    "panel": 3,
+    "size": 9,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Quand on gagne tout comme en U6, on croit qu'on est parfait et on n'apprend rien. Mais quand on échoue, qu'on fait un en-avant ou qu'on perd un match… c'est là qu'on voit ce qu'il faut travailler pour évoluer !\""
    },
    {
     "kind": "bulle",
     "rect": [
      15,
-     996,
+     984,
      387,
-     1048
+     1052
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     474,
-     1095
-    ],
-    "queue_base": [
-     381,
-     1040
-    ],
-    "locuteur": {
-     "id": "adversaire-vert",
-     "tete": [
-      438,
-      1057,
-      85,
-      85
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça veut dire qu'on est en train d'apprendre ?\""
    },
    {
     "kind": "bulle",
@@ -3834,24 +2019,8 @@
     ],
     "panel": 4,
     "size": 9,
-    "queue_tip": [
-     548,
-     1022
-    ],
-    "queue_base": [
-     548,
-     962
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      499,
-      981,
-      99,
-      99
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Exactement champion : on apprend de ses échecs, c'est ce qui conduit à la victoire. Mais pour que l'équipe apprenne, tes copains ont besoin que tu les aides à comprendre, pas que tu leur cries dessus. Tu sais ce qu'il te reste à faire ?\""
    },
    {
     "kind": "bulle",
@@ -3863,24 +2032,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     366,
-     1092
-    ],
-    "queue_base": [
-     484,
-     1199
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      318,
-      1060,
-      84,
-      54
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Oui Papa. Dès demain.\""
    }
   ],
   "16": [
@@ -3894,24 +2047,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     184,
-     112
-    ],
-    "queue_base": [
-     184,
-     139
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      163,
-      83,
-      41,
-      41
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Salut Ayden… Je voulais te demander pardon pour samedi. T'avais raison, j'avais pas le droit de vous parler comme ça.\""
    },
    {
     "kind": "bulle",
@@ -3919,28 +2056,12 @@
      432,
      127,
      802,
-     212
+     229
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     596,
-     110
-    ],
-    "queue_base": [
-     596,
-     133
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      579,
-      85,
-      35,
-      35
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Je suis content que tu dises ça, Léon ! Justement, j'en parlais ce matin avec Baptiste devant le portail : Baptiste m'a dit que dans son équipe aussi, ils se sont promis de toujours s'encourager après une erreur !\""
    },
    {
     "kind": "bulle",
@@ -3952,24 +2073,8 @@
     ],
     "panel": 2,
     "size": 8,
-    "queue_tip": [
-     410,
-     449
-    ],
-    "queue_base": [
-     39,
-     300
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      454,
-      446,
-      69,
-      69
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Il a raison Baptiste. Mercredi au stade, je vais m'excuser auprès de Lyssandro, Nolann et Milo !\""
    },
    {
     "kind": "bulle",
@@ -3981,19 +2086,8 @@
     ],
     "panel": 2,
     "size": 8,
-    "queue_tip": [
-     82,
-     452
-    ],
-    "queue_base": [
-     444,
-     317
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m'a expliqué qu'on apprend toujours de nos échecs. Si on fait un en-avant ou qu'on perd, je ne m'énerverai plus : on cherchera ensemble comment faire mieux !\""
    },
    {
     "kind": "bulle",
@@ -4005,24 +2099,8 @@
     ],
     "panel": 3,
     "size": 8,
-    "queue_tip": [
-     271,
-     678
-    ],
-    "queue_base": [
-     271,
-     580
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      219,
-      634,
-      104,
-      104
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"C'est vrai, tu nous crieras plus dessus si le ballon glisse ?\""
    },
    {
     "kind": "bulle",
@@ -4034,24 +2112,8 @@
     ],
     "panel": 3,
     "size": 8,
-    "queue_tip": [
-     452,
-     696
-    ],
-    "queue_base": [
-     452,
-     580
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      411,
-      663,
-      82,
-      82
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Promis juré ! Même s'il est plein de boue !\""
    },
    {
     "kind": "bulle",
@@ -4063,24 +2125,8 @@
     ],
     "panel": 3,
     "size": 8,
-    "queue_tip": [
-     473,
-     812
-    ],
-    "queue_base": [
-     420,
-     898
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      423,
-      790,
-      108,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires du RCM !\""
    },
    {
     "kind": "bulle",
@@ -4092,24 +2138,8 @@
     ],
     "panel": 3,
     "size": 8,
-    "queue_tip": [
-     545,
-     684
-    ],
-    "queue_base": [
-     545,
-     898
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      496,
-      627,
-      98,
-      98
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS POUR LE RCM !\""
    },
    {
     "kind": "bulle",
@@ -4121,19 +2151,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     75,
-     1118
-    ],
-    "queue_base": [
-     75,
-     1146
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Eh bien Flavien, je crois que ta discussion à la maison a fait des miracles !\""
    },
    {
     "kind": "bulle",
@@ -4145,24 +2164,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     487,
-     1100
-    ],
-    "queue_base": [
-     481,
-     1062
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      463,
-      1083,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le mois de décembre… ils vont avoir besoin d'être soudés !\""
    }
   ],
   "17": [
@@ -4175,31 +2178,22 @@
      53
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "DÉCEMBRE EN SAVOIE. LE FROID ET LA NEIGE SONT LÀ… MAIS AU RUGBY CLUB MOTTERAIN, L'ENTRAÎNEMENT EST MAINTENU !"
    },
    {
     "kind": "bulle",
     "rect": [
      15,
-     347,
+     335,
      190,
-     415
+     420
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     65,
-     414
-    ],
-    "queue_base": [
-     41,
-     409
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Brrr ! Regardez, on dirait des dragons qui crachent de la fumée !\""
    },
    {
     "kind": "bulle",
@@ -4211,19 +2205,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     384,
-     386
-    ],
-    "queue_base": [
-     396,
-     389
-    ],
-    "locuteur": {
-     "id": "Milo",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Avec mes gants de sport et mon bonnet, j'ai même pas froid !\""
    },
    {
     "kind": "bulle",
@@ -4235,24 +2218,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     563,
-     361
-    ],
-    "queue_base": [
-     563,
-     377
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      549,
-      339,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Et surtout… vous avez vu le calendrier ? On est au mois de DÉCEMBRE !\""
    },
    {
     "kind": "bulle",
@@ -4264,48 +2231,21 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     73,
-     662
-    ],
-    "queue_base": [
-     73,
-     645
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Eh oui les garçons ! Qui dit mois de décembre en U8 dit… nouvelle règle !\""
    },
    {
     "kind": "bulle",
     "rect": [
      474,
-     557,
+     545,
      849,
-     609
+     613
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     504,
-     624
-    ],
-    "queue_base": [
-     504,
-     603
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      490,
-      618,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Le touché à deux mains, c'est terminé ! À partir d'aujourd'hui, les vrais PLAQUAGES sont autorisés !\""
    },
    {
     "kind": "bulle",
@@ -4317,19 +2257,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     73,
-     812
-    ],
-    "queue_base": [
-     73,
-     791
-    ],
-    "locuteur": {
-     "id": "Les 20 joueurs en chœur",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Les 20 joueurs en chœur",
+    "texte": "Les 20 joueurs: \"OUAAAAIS ! LES PLAQUAGES !\""
    },
    {
     "kind": "bulle",
@@ -4341,24 +2270,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     688,
-     685
-    ],
-    "queue_base": [
-     843,
-     791
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      667,
-      666,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Enfin du vrai rugby de grands !\""
    },
    {
     "kind": "bulle",
@@ -4370,24 +2283,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     398,
-     1111
-    ],
-    "queue_base": [
-     398,
-     1072
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      380,
-      1101,
-      36,
-      36
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Attention les guerriers ! Plaquer, ce n'est pas se jeter n'importe comment. Pour ne blesser personne et ne pas se faire mal, il y a une technique précise à apprendre. Regardez bien !\""
    }
   ],
   "18": [
@@ -4401,53 +2298,21 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     381,
-     120
-    ],
-    "queue_base": [
-     374,
-     140
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      368,
-      96,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Règle numéro 1 : on baisse son centre de gravité, on vise entre la taille et les cuisses, JAMAIS au-dessus des épaules !\""
    },
    {
     "kind": "bulle",
     "rect": [
      446,
      100,
-     632,
-     165
+     830,
+     164
     ],
     "panel": 1,
-    "size": 10,
-    "queue_tip": [
-     605,
-     79
-    ],
-    "queue_base": [
-     605,
-     106
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      584,
-      50,
-      42,
-      42
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux bras autour des jambes comme une ceinture, et on accompagne le joueur au sol !\""
    },
    {
     "kind": "ono",
@@ -4458,65 +2323,35 @@
      68
     ],
     "panel": null,
-    "size": null
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     644,
-     100,
-     830,
-     142
-    ],
-    "panel": 1,
-    "size": 10,
-    "queue_tip": [
-     611,
-     76
-    ],
-    "queue_base": [
-     650,
-     106
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      584,
-      50,
-      42,
-      42
-     ],
-     "src": "resolu"
-    }
+    "size": null,
+    "speaker": null,
+    "texte": "BOUM !"
    },
    {
     "kind": "bulle",
     "rect": [
      446,
-     171,
+     170,
      830,
-     201
+     204
     ],
     "panel": 1,
-    "size": 10,
-    "queue_tip": [
-     671,
-     145
+    "size": 13,
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     210,
+     830,
+     244
     ],
-    "queue_base": [
-     715,
-     195
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      584,
-      50,
-      42,
-      42
-     ],
-     "src": "resolu"
-    }
+    "panel": 1,
+    "size": 13,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Même le boudin il a pas bougé d'un centimètre !\""
    },
    {
     "kind": "bulle",
@@ -4528,24 +2363,8 @@
     ],
     "panel": 2,
     "size": 13,
-    "queue_tip": [
-     601,
-     376
-    ],
-    "queue_base": [
-     420,
-     298
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      591,
-      362,
-      35,
-      35
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Je le plaque en bas, Milo !\""
    },
    {
     "kind": "bulle",
@@ -4557,19 +2376,8 @@
     ],
     "panel": 2,
     "size": 13,
-    "queue_tip": [
-     490,
-     397
-    ],
-    "queue_base": [
-     490,
-     298
-    ],
-    "locuteur": {
-     "id": "Milo",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Et moi je récupère le ballon dès qu'il est au sol !\""
    },
    {
     "kind": "ono",
@@ -4580,7 +2388,9 @@
      671
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "PAF !"
    },
    {
     "kind": "bulle",
@@ -4592,24 +2402,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     152,
-     1036
-    ],
-    "queue_base": [
-     152,
-     1023
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      142,
-      1033,
-      20,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Bien plaqué ! Tiens Lyssandro, je te la laisse, continue l'action !\""
    },
    {
     "kind": "bulle",
@@ -4621,24 +2415,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     596,
-     1024
-    ],
-    "queue_base": [
-     596,
-     1006
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      581,
-      1017,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"J'y vais Léon, bien joué !\""
    },
    {
     "kind": "bulle",
@@ -4650,24 +2428,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     596,
-     1040
-    ],
-    "queue_base": [
-     596,
-     1061
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      581,
-      1017,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Bravo Léon ! En octobre tu aurais gardé le ballon pour toi tout seul. Là, tu as utilisé le plaquage pour faire briller ton copain en soutien !\""
    }
   ],
   "19": [
@@ -4681,24 +2443,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     340,
-     241
-    ],
-    "queue_base": [
-     364,
-     191
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      294,
-      206,
-      84,
-      84
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaquages maintenant, le premier qui a le ballon se fait presque toujours arrêter s'il court tout droit.\""
    },
    {
     "kind": "bulle",
@@ -4710,24 +2456,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     651,
-     266
-    ],
-    "queue_base": [
-     651,
-     327
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      604,
-      211,
-      94,
-      94
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Oui ! Alors que si on est deux juste derrière lui en soutien offensif, dès qu'il est plaqué, l'action continue sans s'arrêter !\""
    },
    {
     "kind": "bulle",
@@ -4735,28 +2465,12 @@
      20,
      681,
      258,
-     783
+     799
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     156,
-     650
-    ],
-    "queue_base": [
-     156,
-     687
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      127,
-      614,
-      57,
-      57
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Et en défense, c'est pareil : mon papa dit que si un seul de nous cinq monte trop vite, il est hors-jeu ou il se fait éviter. Faut qu'on avance comme un mur !\""
    },
    {
     "kind": "bulle",
@@ -4764,28 +2478,12 @@
      259,
      687,
      432,
-     739
+     755
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     314,
-     662
-    ],
-    "queue_base": [
-     314,
-     693
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      291,
-      632,
-      45,
-      45
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Le mur Rouge, Bleu et Blanc du RCM !\""
    },
    {
     "kind": "bulle",
@@ -4797,72 +2495,34 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     482,
-     724
-    ],
-    "queue_base": [
-     458,
-     720
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Regardez-les tous les cinq là-bas… Ils n'attendent même plus qu'on leur parle, ils préparent déjà leurs combinaisons entre eux !\""
    },
    {
     "kind": "bulle",
     "rect": [
      34,
-     978,
-     220,
-     1058
+     984,
+     419,
+     1033
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     77,
-     1028
-    ],
-    "queue_base": [
-     77,
-     1052
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Ce week-end, on affronte Le Môle et Thonon. Ce sont deux équipes très solides qui plaquent fort.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     232,
-     978,
-     418,
-     1058
+     34,
+     1039,
+     419,
+     1088
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     302,
-     948
-    ],
-    "queue_base": [
-     302,
-     984
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      275,
-      914,
-      53,
-      53
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Ce sera le vrai test pour voir si Léon garde son calme quand un copain fera une erreur sous pression.\""
    },
    {
     "kind": "bulle",
@@ -4874,24 +2534,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     644,
-     978
-    ],
-    "queue_base": [
-     644,
-     902
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      589,
-      931,
-      111,
-      111
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"J'ai confiance en eux, Flavien. Nos petits U8 sont en train de devenir une vraie équipe de rugby.\""
    }
   ],
   "20": [
@@ -4904,7 +2548,9 @@
      72
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "TCHAC !"
    },
    {
     "kind": "ono",
@@ -4915,7 +2561,9 @@
      67
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
@@ -4927,107 +2575,60 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     361,
-     270
-    ],
-    "queue_base": [
-     361,
-     305
-    ],
-    "locuteur": {
-     "id": "arbitre",
-     "tete": [
-      334,
-      235,
-      54,
-      54
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Sortie en touche ! Ballon rendu au RCM et joué comme une pénalité !\""
    },
    {
     "kind": "bulle",
     "rect": [
      20,
-     596,
-     258,
-     648
+     578,
+     193,
+     646
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     81,
-     644
-    ],
-    "queue_base": [
-     91,
-     642
-    ],
-    "locuteur": {
-     "id": "Lyssandro",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Vite, ils ne sont pas replacés ! À toi Léon !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     259,
+     194,
      620,
      432,
-     672
+     655
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     388,
-     625
-    ],
-    "queue_base": [
-     406,
-     626
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Merci Lyssandro ! ESSAI !\""
    },
    {
     "kind": "encadre",
     "rect": [
      20,
-     674,
+     656,
      388,
-     703
+     685
     ],
     "panel": 1,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) !"
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     596,
-     670,
-     664
+     578,
+     605,
+     663
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     482,
-     659
-    ],
-    "queue_base": [
-     468,
-     658
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Dernière action le RCM ! Construisez, ne vous précipitez pas !\""
    },
    {
     "kind": "ono",
@@ -5038,7 +2639,9 @@
      867
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "BOUM !"
    },
    {
     "kind": "ono",
@@ -5049,31 +2652,22 @@
      862
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
      20,
      972,
-     193,
+     258,
      1040
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     69,
-     1035
-    ],
-    "queue_base": [
-     46,
-     1034
-    ],
-    "locuteur": {
-     "id": "Arbitre",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"En-avant ! Et c'est la fin du match ! Victoire de Thonon !\""
    },
    {
     "kind": "bulle",
@@ -5085,24 +2679,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     544,
-     973
-    ],
-    "queue_base": [
-     544,
-     938
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      519,
-      956,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, pardon les gars…\""
    }
   ],
   "21": [
@@ -5116,15 +2694,8 @@
     ],
     "panel": 0,
     "size": 13,
-    "queue_tip": [
-     100,
-     149
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquoi on a raté l'action, Léon…\""
    },
    {
     "kind": "bulle",
@@ -5136,140 +2707,60 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     330,
-     644
-    ],
-    "queue_base": [
-     330,
-     606
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      299,
-      621,
-      62,
-      62
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai fait la passe trop tard, le joueur de Thonon était déjà sur toi !\""
    },
    {
     "kind": "bulle",
     "rect": [
      446,
      502,
-     632,
-     530
-    ],
-    "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     600,
-     598
-    ],
-    "queue_base": [
-     600,
-     524
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      576,
-      581,
-      49,
-      49
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     644,
-     502,
      830,
-     558
+     536
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     655,
-     582
-    ],
-    "queue_base": [
-     650,
-     550
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      632,
-      565,
-      49,
-      49
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Milo",
+    "texte": "Milo: \"Tu… tu n'es pas en colère Léon ?\""
    },
    {
     "kind": "bulle",
     "rect": [
      446,
-     642,
-     632,
-     679
+     638,
+     830,
+     702
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     525,
-     597
-    ],
-    "queue_base": [
-     525,
-     648
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      499,
-      563,
-      52,
-      52
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Léon",
+    "texte": "Léon: \"Bien sûr que non ! On a perdu d'un point contre Thonon, mais on sait exactement quoi travailler mercredi à l'entraînement : faire la passe avant le plaquage !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     644,
-     642,
+     446,
+     708,
      830,
-     679
+     757
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     761,
-     600
+    "size": 13,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Et moi j'aurais dû être encore plus près de Milo en soutien offensif !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     446,
+     763,
+     830,
+     812
     ],
-    "queue_base": [
-     761,
-     648
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      736,
-      567,
-      50,
-      50
-     ],
-     "src": "resolu"
-    }
+    "panel": 2,
+    "size": 13,
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Trop bien dit Léon ! Au prochain tournoi, cette action-là, elle ira au bout !\""
    },
    {
     "kind": "bulle",
@@ -5277,28 +2768,12 @@
      20,
      960,
      388,
-     995
+     1012
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     206,
-     938
-    ],
-    "queue_base": [
-     206,
-     966
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      192,
-      917,
-      27,
-      27
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Bravo Thonon ! Vos plaquages étaient super rapides !\""
    },
    {
     "kind": "bulle",
@@ -5306,23 +2781,12 @@
      432,
      990,
      605,
-     1125
+     1142
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     482,
-     1003
-    ],
-    "queue_base": [
-     458,
-     996
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Tu as vu ça, Flavien ? Ils viennent de perdre le match sur un en-avant à la dernière seconde… et Léon analyse la passe en relevant son copain !\""
    },
    {
     "kind": "bulle",
@@ -5330,28 +2794,12 @@
      671,
      984,
      844,
-     1052
+     1069
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     772,
-     952
-    ],
-    "queue_base": [
-     772,
-     990
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      742,
-      914,
-      59,
-      59
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Il a compris, Julien. Il a enfin compris ce que veut dire grandir.\""
    }
   ],
   "22": [
@@ -5364,36 +2812,22 @@
      58
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "MARS — LE SOLEIL DU PRINTEMPS REVIENT SUR LA SAVOIE. FINIS LES BONNETS ET LES GANTS : PLACE À LA VITESSE !"
    },
    {
     "kind": "bulle",
     "rect": [
      20,
      488,
-     193,
-     629
+     388,
+     568
     ],
     "panel": 1,
     "size": 13,
-    "queue_tip": [
-     40,
-     684
-    ],
-    "queue_base": [
-     40,
-     623
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      8,
-      660,
-      65,
-      65
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Les garçons, depuis septembre, on a connu des victoires, des défaites, de la pluie et de la neige. Qu'est-ce que nos défaites contre Montmélian, Rumilly et Thonon nous ont appris ?\""
    },
    {
     "kind": "bulle",
@@ -5401,28 +2835,12 @@
      446,
      502,
      632,
-     548
+     579
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     616,
-     549
-    ],
-    "queue_base": [
-     626,
-     534
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      533,
-      600,
-      59,
-      59
-     ],
-     "src": "resolu"
-    }
+    "size": 10,
+    "speaker": "Léon",
+    "texte": "Léon: \"Qu'il ne faut jamais jouer tout seul ni s'énerver ! Quand l'adversaire monte vite, il faut donner le ballon avant d'être plaqué !\""
    },
    {
     "kind": "bulle",
@@ -5430,57 +2848,25 @@
      644,
      502,
      830,
-     548
+     567
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     659,
-     550
-    ],
-    "queue_base": [
-     650,
-     541
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      699,
-      593,
-      28,
-      25
-     ],
-     "src": "resolu"
-    }
+    "size": 10,
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Et que si on a toujours deux copains en soutien offensif dans notre dos, le ballon ne meurt jamais !\""
    },
    {
     "kind": "bulle",
     "rect": [
      446,
-     554,
+     759,
      831,
-     582
+     801
     ],
     "panel": 2,
-    "size": 8,
-    "queue_tip": [
-     769,
-     638
-    ],
-    "queue_base": [
-     769,
-     576
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      742,
-      619,
-      54,
-      54
-     ],
-     "src": "resolu"
-    }
+    "size": 10,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Et qu'en défense en ligne, on doit avancer tous les cinq comme un mur, sans faire de hors-jeu !\""
    },
    {
     "kind": "bulle",
@@ -5492,53 +2878,21 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     151,
-     926
-    ],
-    "queue_base": [
-     151,
-     960
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      125,
-      892,
-      52,
-      52
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Eh bien montrez-nous ça sur le terrain ! Les 4 équipes de 5 en place !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     432,
+     519,
      1002,
-     807,
-     1037
+     757,
+     1054
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     502,
-     976
-    ],
-    "queue_base": [
-     502,
-     1008
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      477,
-      943,
-      49,
-      49
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Attention les yeux, la machine du RCM est lancée !\""
    }
   ],
   "23": [
@@ -5552,24 +2906,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     534,
-     160
-    ],
-    "queue_base": [
-     534,
-     143
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      519,
-      154,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Mains en W !\""
    },
    {
     "kind": "bulle",
@@ -5581,24 +2919,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     590,
-     185
-    ],
-    "queue_base": [
-     591,
-     204
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      576,
-      163,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Toujours en arrière, zéro en-avant !\""
    },
    {
     "kind": "bulle",
@@ -5606,28 +2928,12 @@
      518,
      234,
      848,
-     269
+     286
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     750,
-     181
-    ],
-    "queue_base": [
-     750,
-     240
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      736,
-      159,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Et au bout, toute la ligne a touché le ballon !\""
    },
    {
     "kind": "bulle",
@@ -5639,24 +2945,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     260,
-     438
-    ],
-    "queue_base": [
-     260,
-     455
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      245,
-      415,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon !\""
    },
    {
     "kind": "bulle",
@@ -5668,24 +2958,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     455,
-     411
-    ],
-    "queue_base": [
-     479,
-     397
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      432,
-      399,
-      33,
-      33
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Je te vois Ayden, on est alignés ! Personne n'est hors-jeu !\""
    },
    {
     "kind": "bulle",
@@ -5697,24 +2971,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     350,
-     700
-    ],
-    "queue_base": [
-     350,
-     719
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      334,
-      675,
-      33,
-      33
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Je suis pris aux jambes ! Soutien !\""
    },
    {
     "kind": "bulle",
@@ -5726,24 +2984,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     451,
-     679
-    ],
-    "queue_base": [
-     479,
-     652
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      428,
-      668,
-      34,
-      34
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon & Milo",
+    "texte": "Léon & Milo: \"ON EST LÀ DANS TON DOS !\""
    },
    {
     "kind": "bulle",
@@ -5755,43 +2997,21 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     75,
-     1062
-    ],
-    "queue_base": [
-     75,
-     1025
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     487,
+     473,
      1007,
      848,
      1059
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     491,
-     1047
-    ],
-    "queue_base": [
-     493,
-     1023
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Ils sont prêts pour le dernier grand tournoi de la saison.\""
    }
   ],
   "24": [
@@ -5805,24 +3025,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     506,
-     180
-    ],
-    "queue_base": [
-     506,
-     129
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      475,
-      157,
-      62,
-      62
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Demain c'est le grand tournoi de fin de saison ! Baptiste vient de me dire que tous les clubs de Savoie seront là : Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon… et Montmélian !\""
    },
    {
     "kind": "bulle",
@@ -5834,24 +3038,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     384,
-     196
-    ],
-    "queue_base": [
-     384,
-     333
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      350,
-      154,
-      67,
-      67
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus beau tournoi de l'année ! À demain matin au stade !\""
    },
    {
     "kind": "bulle",
@@ -5863,24 +3051,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     233,
-     599
-    ],
-    "queue_base": [
-     233,
-     550
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      194,
-      568,
-      78,
-      78
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"On fait encore dix passes avec Léon et on vient mettre la table, Vanessa !\""
    },
    {
     "kind": "voix",
@@ -5891,7 +3063,9 @@
      704
     ],
     "panel": 1,
-    "size": 12
+    "size": 12,
+    "speaker": "Voix d'Alice hors-champ",
+    "texte": "Alice: \"Dépêchez-vous, j'ai trop faim moi !\""
    },
    {
     "kind": "bulle",
@@ -5903,24 +3077,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     546,
-     643
-    ],
-    "queue_base": [
-     546,
-     624
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      530,
-      635,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la saison. Tu me promets que quoi qu'il arrive, tu garderas ce beau sourire ?\""
    },
    {
     "kind": "bulle",
@@ -5932,82 +3090,34 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     794,
-     643
-    ],
-    "queue_base": [
-     754,
-     688
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      789,
-      621,
-      20,
-      33
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Promis Papa ! En septembre, je voulais juste la coupe pour dire qu'on était les plus forts. Demain, je veux qu'on joue notre meilleur rugby avec Lyssandro, Ayden, Nolann et Milo.\""
    },
    {
     "kind": "bulle",
     "rect": [
-     17,
-     852,
-     192,
-     954
+     31,
+     836,
+     272,
+     896
     ],
     "panel": 3,
-    "size": 14,
-    "queue_tip": [
-     69,
-     1041
-    ],
-    "queue_base": [
-     23,
-     923
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      86,
-      1099,
-      20,
-      19
-     ],
-     "src": "resolu"
-    }
+    "size": 12,
+    "speaker": "Léon",
+    "texte": "Léon: \"Et si jamais on fait une erreur… on saura quoi faire : apprendre tout de suite pour le match d'après !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     17,
-     1044,
-     258,
-     1096
+     31,
+     902,
+     272,
+     948
     ],
     "panel": 3,
-    "size": 14,
-    "queue_tip": [
-     142,
-     1004
-    ],
-    "queue_base": [
-     142,
-     1050
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      109,
-      963,
-      65,
-      65
-     ],
-     "src": "resolu"
-    }
+    "size": 12,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Je suis tellement fier de toi, mon fils.\""
    }
   ],
   "25": [
@@ -6020,7 +3130,9 @@
      72
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOIE SONT AU RENDEZ-VOUS !"
    },
    {
     "kind": "bulle",
@@ -6032,117 +3144,60 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     493,
-     203
-    ],
-    "queue_base": [
-     508,
-     200
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Cinq matchs dans la journée pour aller chercher le bouclier du tournoi ! Faites-vous plaisir et jouez les uns pour les autres !\""
    },
    {
     "kind": "bulle",
     "rect": [
      31,
-     502,
-     419,
-     534
-    ],
-    "panel": 1,
-    "size": 12,
-    "queue_tip": [
-     104,
-     568
-    ],
-    "queue_base": [
-     104,
-     528
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      84,
-      556,
-      41,
-      41
-     ],
-     "src": "resolu"
-    }
-   },
-   {
-    "kind": "bulle",
-    "rect": [
-     31,
-     732,
+     730,
      219,
-     764
+     779
     ],
     "panel": 1,
-    "size": 12,
-    "queue_tip": [
-     346,
-     614
+    "size": 13,
+    "speaker": "Léon",
+    "texte": "Léon: \"J'ai fixé ! Vas-y Ayden !\""
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     231,
+     730,
+     419,
+     779
     ],
-    "queue_base": [
-     213,
-     738
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      335,
-      592,
-      33,
-      33
-     ],
-     "src": "resolu"
-    }
+    "panel": 1,
+    "size": 13,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"ESSAI ! Super passe Léon !\""
    },
    {
     "kind": "encadre",
     "rect": [
-     231,
-     732,
+     31,
+     785,
      419,
-     776
+     817
     ],
     "panel": 1,
-    "size": 12
+    "size": 13,
+    "speaker": null,
+    "texte": "MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) !"
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     554,
+     536,
      607,
-     589
+     588
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     610,
-     596
-    ],
-    "queue_base": [
-     601,
-     583
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      599,
-      593,
-      32,
-      18
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Plaqué aux jambes !\""
    },
    {
     "kind": "bulle",
@@ -6154,24 +3209,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     796,
-     618
-    ],
-    "queue_base": [
-     796,
-     638
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      782,
-      596,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Et deuxième victoire pour nous !\""
    },
    {
     "kind": "encadre",
@@ -6182,7 +3221,9 @@
      799
     ],
     "panel": 2,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) !"
    },
    {
     "kind": "bulle",
@@ -6194,24 +3235,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     82,
-     1008
-    ],
-    "queue_base": [
-     110,
-     1056
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      61,
-      984,
-      34,
-      34
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Deux sur deux ! Et on n'a presque pas fait d'en-avant !\""
    },
    {
     "kind": "bulle",
@@ -6223,48 +3248,21 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     380,
-     993
-    ],
-    "queue_base": [
-     380,
-     1080
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Très bien les garçons ! Maintenant attention : le troisième match, c'est contre Rumilly !\""
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     846,
-     607,
-     948
+     864,
+     673,
+     949
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     464,
-     959
-    ],
-    "queue_base": [
-     464,
-     942
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      451,
-      954,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Rumilly… C'est contre eux que je m'étais énervé en novembre. Aujourd'hui, on reste calmes quoi qu'il arrive !\""
    }
   ],
   "26": [
@@ -6272,30 +3270,14 @@
     "kind": "bulle",
     "rect": [
      17,
-     148,
+     130,
      378,
-     183
+     182
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     373,
-     194
-    ],
-    "queue_base": [
-     372,
-     177
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      359,
-      187,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Attention, il est costaud lui, venez m'aider au milieu !\""
    },
    {
     "kind": "ono",
@@ -6306,31 +3288,22 @@
      407
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
      17,
-     543,
+     525,
      387,
-     578
+     577
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     75,
-     567
-    ],
-    "queue_base": [
-     75,
-     549
-    ],
-    "locuteur": {
-     "id": "Arbitre",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Essai de Rumilly ! Victoire de Rumilly 3 essais à 2 !\""
    },
    {
     "kind": "bulle",
@@ -6342,24 +3315,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     152,
-     878
-    ],
-    "queue_base": [
-     25,
-     724
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      147,
-      877,
-      20,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Oh non… On a perdu contre Rumilly… C'est fini, on ne peut plus gagner le tournoi maintenant ?\""
    },
    {
     "kind": "bulle",
@@ -6371,24 +3328,8 @@
     ],
     "panel": 2,
     "size": 12,
-    "queue_tip": [
-     328,
-     768
-    ],
-    "queue_base": [
-     328,
-     878
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      312,
-      744,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"Pourtant on s'était tellement entraînés…\""
    },
    {
     "kind": "bulle",
@@ -6400,24 +3341,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     622,
-     745
-    ],
-    "queue_base": [
-     622,
-     765
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": [
-      608,
-      723,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Mais non, rien n'est fini ! Regardez le tableau : Rumilly a perdu contre Montmélian ce matin, et Montmélian a été accroché par Thonon !\""
    },
    {
     "kind": "bulle",
@@ -6429,24 +3354,8 @@
     ],
     "panel": 3,
     "size": 13,
-    "queue_tip": [
-     793,
-     810
-    ],
-    "queue_base": [
-     793,
-     789
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      779,
-      811,
-      28,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Ça veut dire que si vous gagnez vos deux derniers matchs contre Aix-les-Bains puis contre Montmélian, vous finissez PREMIERS du tournoi au classement général !\""
    },
    {
     "kind": "bulle",
@@ -6458,19 +3367,8 @@
     ],
     "panel": 4,
     "size": 13,
-    "queue_tip": [
-     67,
-     1146
-    ],
-    "queue_base": [
-     43,
-     1150
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Les gars, écoutez ! On a perdu contre Rumilly, alors il faut comprendre POURQUOI tout de suite ! Papa, Julien, Kilian, qu'est-ce qu'on a mal fait sur leur dernier essai ?\""
    },
    {
     "kind": "bulle",
@@ -6482,24 +3380,8 @@
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     622,
-     1012
-    ],
-    "queue_base": [
-     599,
-     1012
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      616,
-      998,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense en ligne : vous vous êtes mis à trois sur le même porteur au milieu, ce qui a laissé tout le côté ouvert !\""
    },
    {
     "kind": "bulle",
@@ -6507,47 +3389,25 @@
      671,
      993,
      845,
-     1095
+     1111
     ],
     "panel": 5,
     "size": 14,
-    "queue_tip": [
-     806,
-     996
-    ],
-    "queue_base": [
-     793,
-     999
-    ],
-    "locuteur": {
-     "id": "Julien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, et les autres qui gardent la largeur des 20 mètres !\""
    },
    {
     "kind": "bulle",
     "rect": [
      431,
-     1101,
-     806,
+     1089,
+     670,
      1169
     ],
     "panel": 5,
-    "size": 14,
-    "queue_tip": [
-     482,
-     1162
-    ],
-    "queue_base": [
-     437,
-     1159
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "size": 13,
+    "speaker": "Léon",
+    "texte": "Léon: \"Compris ! Merci Rumilly de nous avoir montré notre erreur : contre Aix-les-Bains et Montmélian, notre ligne ne se déformera plus !\""
    }
   ],
   "27": [
@@ -6561,43 +3421,21 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     75,
-     187
-    ],
-    "queue_base": [
-     75,
-     152
-    ],
-    "locuteur": {
-     "id": "Léon",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Ayden l'a pris au centre ! Ne vous resserrez pas, gardez vos postes sur la ligne !\""
    },
    {
     "kind": "bulle",
     "rect": [
      473,
-     164,
+     146,
      848,
-     199
+     198
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     487,
-     192
-    ],
-    "queue_base": [
-     479,
-     185
-    ],
-    "locuteur": {
-     "id": "Porteur d'Aix-les-Bains",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Porteur d'Aix-les-Bains",
+    "texte": "Porteur d'Aix-les-Bains: \"Mince, tout est fermé sur les côtés !\""
    },
    {
     "kind": "bulle",
@@ -6609,24 +3447,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     202,
-     652
-    ],
-    "queue_base": [
-     202,
-     630
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      184,
-      642,
-      36,
-      36
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"ESSAI ! Ça marche ! Quand on corrige notre erreur du match d'avant, on est dix fois plus forts !\""
    },
    {
     "kind": "encadre",
@@ -6637,7 +3459,9 @@
      797
     ],
     "panel": 1,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "MATCH 4 : VICTOIRE CONTRE AIX-LES-BAINS (JAUNE ET NOIR) !"
    },
    {
     "kind": "voix",
@@ -6645,39 +3469,25 @@
      471,
      492,
      809,
-     536
+     550
     ],
     "panel": 2,
-    "size": 12
+    "size": 12,
+    "speaker": "Haut-parleur du stade",
+    "texte": "Haut-parleur: \"DERNIER MATCH DÉCISIF POUR LE TROPHÉE U8 : RUGBY CLUB MOTTERAIN CONTRE MONTMÉLIAN !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     17,
-     913,
-     387,
-     965
+     258,
+     877,
+     433,
+     962
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     369,
-     975
-    ],
-    "queue_base": [
-     369,
-     959
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      356,
-      970,
-      26,
-      26
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Milo",
+    "texte": "Milo: \"C'est Montmélian… Ceux qui nous avaient battus au tout premier tournoi…\""
    },
    {
     "kind": "bulle",
@@ -6685,52 +3495,25 @@
      192,
      1003,
      433,
-     1055
+     1071
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     380,
-     973
-    ],
-    "queue_base": [
-     380,
-     1009
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Nolann",
+    "texte": "Nolann: \"Ils ont toujours l'air aussi costauds dans leurs maillots Vert et Noir !\""
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     841,
+     829,
      807,
-     926
+     931
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     599,
-     966
-    ],
-    "queue_base": [
-     599,
-     920
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      576,
-      951,
-      46,
-      46
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Au premier tournoi, on était cinq joueurs qui couraient chacun dans leur coin, et moi je pleurais de colère. Aujourd'hui, on a appris de tous nos échecs de la saison. On joue ensemble, passes, soutien et défense en ligne !\""
    },
    {
     "kind": "bulle",
@@ -6742,24 +3525,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     500,
-     1136
-    ],
-    "queue_base": [
-     525,
-     1104
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      485,
-      1135,
-      20,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Tous les cinq",
+    "texte": "Tous les cinq: \"ALLEZ LE RCM !!\""
    }
   ],
   "28": [
@@ -6772,7 +3539,9 @@
      205
     ],
     "panel": 0,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "UN COMBAT MAGNIFIQUE À 5 CONTRE 5 ! CHAQUE ÉQUIPE REND COUP POUR COUP : 1 ESSAI PARTOUT, PUIS 2 ESSAIS PARTOUT !"
    },
    {
     "kind": "bulle",
@@ -6784,19 +3553,8 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     482,
-     194
-    ],
-    "queue_base": [
-     458,
-     193
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Attention les garçons, c'est maintenant ! Montez en ligne comme on l'a corrigé après Rumilly !\""
    },
    {
     "kind": "ono",
@@ -6807,36 +3565,22 @@
      327
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "BAM !"
    },
    {
     "kind": "bulle",
     "rect": [
      478,
-     291,
+     273,
      848,
-     326
+     325
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     568,
-     358
-    ],
-    "queue_base": [
-     568,
-     320
-    ],
-    "locuteur": {
-     "id": "Flavien",
-     "tete": [
-      548,
-      347,
-      39,
-      39
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Je l'ai en bas ! Gardez la ligne sur l'extérieur !\""
    },
    {
     "kind": "ono",
@@ -6847,7 +3591,9 @@
      662
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "TCHAC !"
    },
    {
     "kind": "ono",
@@ -6858,60 +3604,35 @@
      657
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIT !"
    },
    {
     "kind": "bulle",
     "rect": [
-     258,
-     665,
-     433,
-     750
+     17,
+     791,
+     387,
+     843
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     266,
-     756
-    ],
-    "queue_base": [
-     272,
-     744
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      254,
-      753,
-      20,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Touche ! Ballon rendu au RCM et joué comme une pénalité ! Il reste une dernière action !\""
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     743,
-     673,
-     795
+     725,
+     607,
+     793
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     494,
-     790
-    ],
-    "queue_base": [
-     504,
-     789
-    ],
-    "locuteur": {
-     "id": "Ayden",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Ayden",
+    "texte": "Ayden: \"Dernière balle les gars ! En place le soutien !\""
    },
    {
     "kind": "cri",
@@ -6922,7 +3643,9 @@
      916
     ],
     "panel": 5,
-    "size": 17
+    "size": 17,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"VAS-Y LÉON !\""
    }
   ],
   "29": [
@@ -6936,24 +3659,8 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     224,
-     150
-    ],
-    "queue_base": [
-     224,
-     131
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      209,
-      143,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Défenseur de Montmélian",
+    "texte": "Défenseur de Montmélian: \"Bloquez Léon ! Il va essayer de passer tout seul comme en octobre !\""
    },
    {
     "kind": "pensee",
@@ -6965,107 +3672,47 @@
     ],
     "panel": 1,
     "size": 13,
-    "queue_tip": [
-     657,
-     287
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      585,
-      155,
-      144,
-      144
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Ils croient que je vais forcer tout seul… Mais j'ai appris de mes échecs !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     267,
-     482,
-     597,
-     517
+     31,
+     394,
+     834,
+     428
     ],
     "panel": 2,
-    "size": 14,
-    "queue_tip": [
-     396,
-     535
-    ],
-    "queue_base": [
-     396,
-     511
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      380,
-      527,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Léon",
+    "texte": "Léon: \"POUR VOUS LES COPAINS ! SOUTIEN !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     518,
-     602,
-     848,
-     637
+     31,
+     434,
+     834,
+     468
     ],
     "panel": 2,
-    "size": 14,
-    "queue_tip": [
-     608,
-     544
-    ],
-    "queue_base": [
-     608,
-     608
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      592,
-      520,
-      31,
-      31
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"Je l'ai Léon ! Tiens Milo, va marquer !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     267,
-     638,
-     597,
-     673
+     336,
+     474,
+     834,
+     508
     ],
     "panel": 2,
-    "size": 14,
-    "queue_tip": [
-     257,
-     558
-    ],
-    "queue_base": [
-     273,
-     644
-    ],
-    "locuteur": {
-     "id": "Nolann",
-     "tete": [
-      239,
-      534,
-      32,
-      32
-     ],
-     "src": "resolu"
-    }
+    "size": 13,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"VAS-Y MILO, IL N'Y A PLUS PERSONNE !\""
    },
    {
     "kind": "ono",
@@ -7076,7 +3723,9 @@
      912
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "ESSAAAAI !"
    },
    {
     "kind": "ono",
@@ -7087,7 +3736,9 @@
      912
     ],
     "panel": null,
-    "size": null
+    "size": null,
+    "speaker": null,
+    "texte": "FIIIIIIIIIIIT !"
    },
    {
     "kind": "bulle",
@@ -7099,24 +3750,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     505,
-     1058
-    ],
-    "queue_base": [
-     505,
-     1104
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      494,
-      1036,
-      22,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Arbitre",
+    "texte": "Arbitre: \"Essai validé ! 1 point de plus ! Le Rugby Club Motterain bat Montmélian 3 à 2 !\""
    }
   ],
   "30": [
@@ -7126,23 +3761,12 @@
      20,
      247,
      193,
-     332
+     349
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     77,
-     218
-    ],
-    "queue_base": [
-     77,
-     253
-    ],
-    "locuteur": {
-     "id": "Capitaine de Montmélian",
-     "tete": null,
-     "src": "estime"
-    }
+    "speaker": "Capitaine de Montmélian",
+    "texte": "Capitaine de Montmélian: \"Bravo le RCM… Votre dernière passe en soutien, on n'a rien pu faire !\""
    },
    {
     "kind": "bulle",
@@ -7154,53 +3778,21 @@
     ],
     "panel": 0,
     "size": 14,
-    "queue_tip": [
-     261,
-     189
-    ],
-    "queue_base": [
-     261,
-     295
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      246,
-      166,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Merci ! C'est grâce à vous au premier tournoi qu'on a appris à la travailler !\""
    },
    {
     "kind": "bulle",
     "rect": [
      432,
-     73,
+     55,
      670,
-     158
+     157
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     559,
-     185
-    ],
-    "queue_base": [
-     559,
-     152
-    ],
-    "locuteur": {
-     "id": "?",
-     "tete": [
-      544,
-      178,
-      30,
-      30
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Julien",
+    "texte": "Julien: \"Champions du tournoi final ! Et vous savez ce qui est le plus beau ? Vous l'avez gagné APRÈS avoir perdu un match ce matin !\""
    },
    {
     "kind": "bulle",
@@ -7212,53 +3804,21 @@
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     612,
-     200
-    ],
-    "queue_base": [
-     612,
-     265
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      598,
-      178,
-      29,
-      29
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Parce qu'après Rumilly, au lieu de pleurer ou de s'énerver, on a corrigé notre défense en ligne !\""
    },
    {
     "kind": "bulle",
     "rect": [
-     671,
-     217,
-     844,
-     252
+     681,
+     313,
+     854,
+     365
     ],
     "panel": 1,
     "size": 14,
-    "queue_tip": [
-     666,
-     194
-    ],
-    "queue_base": [
-     677,
-     223
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      649,
-      173,
-      28,
-      28
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Lyssandro",
+    "texte": "Lyssandro: \"VIVE LES U8 DU RCM !\""
    },
    {
     "kind": "bulle",
@@ -7270,24 +3830,8 @@
     ],
     "panel": 2,
     "size": 14,
-    "queue_tip": [
-     337,
-     515
-    ],
-    "queue_base": [
-     331,
-     548
-    ],
-    "locuteur": {
-     "id": "Kilian",
-     "tete": [
-      312,
-      481,
-      52,
-      52
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Kilian",
+    "texte": "Kilian: \"Quelle saison… De la pluie d'automne à la neige de décembre jusqu'au soleil d'aujourd'hui, ils n'ont jamais rien lâché.\""
    },
    {
     "kind": "bulle",
@@ -7299,24 +3843,8 @@
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     466,
-     616
-    ],
-    "queue_base": [
-     466,
-     606
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      449,
-      617,
-      34,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lundi à l'école avec Ayden, on racontera tout à Baptiste !\""
    },
    {
     "kind": "bulle",
@@ -7324,28 +3852,12 @@
      432,
      644,
      807,
-     696
+     712
     ],
     "panel": 3,
     "size": 14,
-    "queue_tip": [
-     466,
-     632
-    ],
-    "queue_base": [
-     466,
-     650
-    ],
-    "locuteur": {
-     "id": "Nolann-corps",
-     "tete": [
-      449,
-      617,
-      34,
-      14
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Flavien",
+    "texte": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande quel est le secret d'un vrai champion de rugby ?\""
    },
    {
     "kind": "bulle",
@@ -7357,24 +3869,8 @@
     ],
     "panel": 4,
     "size": 14,
-    "queue_tip": [
-     396,
-     847
-    ],
-    "queue_base": [
-     382,
-     786
-    ],
-    "locuteur": {
-     "id": "chatain",
-     "tete": [
-      351,
-      808,
-      94,
-      94
-     ],
-     "src": "resolu"
-    }
+    "speaker": "Léon",
+    "texte": "Léon: \"Je leur dirai ta phrase, Papa : on apprend toujours de ses échecs, jamais de ses victoires !\""
    },
    {
     "kind": "encadre",
@@ -7385,7 +3881,9 @@
      999
     ],
     "panel": 4,
-    "size": 11
+    "size": 11,
+    "speaker": null,
+    "texte": "FIN — LA FORCE DE L'ÉCHEC : « On apprend de ses échecs, c'est ce qui conduit à la victoire. »"
    }
   ]
  }
