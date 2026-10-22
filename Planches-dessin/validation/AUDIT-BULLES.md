@@ -10,12 +10,12 @@ personnes (têtes et zones de peau, détection indépendante).
 
 ## Bilan
 
-- Dialogues (bulles, pensées, voix, cris) : **246**, encadrés narratifs : **24**
+- Dialogues (bulles, pensées, voix, cris) : **251**, encadrés narratifs : **24**
 - Préfixes de locuteur faux : **0**
 - Fonds non conformes (blanc/dialogue, jaune-brun/narratif) : **0**
 - Éléments recouvrant de la peau (corps nus) : **3** (dont têtes/visages couverts : 0)
 - Éléments cachant un personnage (silhouette, maillot compris) : **0**
-- Boîtes recouvrant une zone dense du dessin (avertissement) : **13**
+- Boîtes recouvrant une zone dense du dessin (avertissement) : **16**
 - Vignettes avec au moins un défaut : **2** sur 153
 
 ## Détail par planche et vignette

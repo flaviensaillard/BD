@@ -17,6 +17,8 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
+import cv2
+
 sys.path.insert(0, str(Path(__file__).parent))
 from bd_common import Lettrage, ROOT  # noqa: E402
 import personnages as PS  # noqa: E402
@@ -625,6 +627,59 @@ def _texte_affiche(el, spk):
     return el[2]
 
 
+def _est_fin(t):
+    """Encadré de fin d'album (« FIN — … »), pas « FIN D'AUTOMNE »."""
+    t = t.lstrip().upper()
+    return (t.startswith('FIN —') or t.startswith('FIN –')
+            or t.startswith('FIN -') or t.startswith('FIN-'))
+
+
+def _zones_interdites(pers, blobs):
+    """Têtes paddées (cheveux/front), corps de peau, silhouettes (maillots)."""
+    tetes = []
+    for pr in pers:
+        z = PS.zone_tete(pr)
+        if z is None:
+            continue
+        x, y, w, h = z
+        tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
+    # visages probables non détectés par Haar : orphelins dont le blob de peau
+    # a une forme de tête (carré, 22-90 px) -> protégés comme une tête
+    for pr in pers:
+        if pr['tete'] is not None or not pr.get('corps'):
+            continue
+        bx, by, bw, bh = pr['corps']
+        if 22 <= bw <= 90 and 22 <= bh <= 90 and 500 <= bw * bh \
+                and 0.55 <= bw / bh <= 1.8:
+            z = PS.zone_tete(pr)
+            x, y, w, h = z
+            tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
+    return tetes, list(blobs or []), _zones_persos(pers)
+
+
+def carte_dessin(bgr):
+    """Image intégrale des contours dilatés du dessin source."""
+    gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
+    edges = cv2.dilate(cv2.Canny(gray, 40, 120),
+                       np.ones((5, 5), np.uint8)).astype(np.float64) / 255
+    return cv2.integral(edges)
+
+
+def _split_texte(t):
+    """Coupe un texte en deux morceaux, à une frontière naturelle (fin de
+    phrase, sinon virgule, sinon frontière de mot), en privilégiant
+    l'équilibre. Retourne (début, suite) ou None."""
+    if len(t) < 42:
+        return None
+    for motif in (r'[.!?…](?=\s|$)', r'[,;:](?=\s|$)', r'\s'):
+        ok = [m.end() for m in re.finditer(motif, t)
+              if len(t[:m.end()].strip()) >= 12 and len(t[m.end():].strip()) >= 12]
+        if ok:
+            b = min(ok, key=lambda x: abs(x - len(t) / 2))
+            return t[:b].strip(), t[b:].strip()
+    return None
+
+
 def _dbg(page, label, placements):
     print(f'DBG p{page:02d} {label}: '
           + ' '.join(f'{i}:{tuple(round(v) for v in q["rect"])}'
@@ -724,28 +779,8 @@ def apply_page(page, ctx, manifest):
              if el[0] in ('bulle', 'pensee') and speakers[i]]
     resol = PS.resoudre_page(a_res, pers, panels, ctx['vigs'], priors)
 
-    # obstacles : têtes (interdites, marge haute renforcée pour cheveux/front)
-    # et zones de peau (corps, mains, visages partiels : fortement pénalisées)
-    tetes = []
-    for pr in pers:
-        z = PS.zone_tete(pr)
-        if z is None:
-            continue
-        x, y, w, h = z
-        tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
-    # visages probables non détectés par Haar : orphelins dont le blob de peau
-    # a une forme de tête (carré, 22-90 px) -> protégés comme une tête
-    for pr in pers:
-        if pr['tete'] is not None or not pr.get('corps'):
-            continue
-        bx, by, bw, bh = pr['corps']
-        if 22 <= bw <= 90 and 22 <= bh <= 90 and 500 <= bw * bh \
-                and 0.55 <= bw / bh <= 1.8:
-            z = PS.zone_tete(pr)
-            x, y, w, h = z
-            tetes.append((x - 0.15 * w, y - 0.15 * h, 1.3 * w, 1.3 * h))
-    corps = list(ctx.get('blobs') or [])   # zones de peau (avec aire réelle)
-    persos = _zones_persos(pers)           # silhouettes (maillots compris)
+    # obstacles : têtes (interdites), zones de peau, silhouettes (maillots)
+    tetes, corps, persos = _zones_interdites(pers, ctx.get('blobs') or [])
     ctx['tetes'] = tetes
     ctx['corps'] = corps
     ctx['persos'] = persos
@@ -878,6 +913,8 @@ def apply_page(page, ctx, manifest):
     for pidx, idxs in panel_elems.items():
         if any(not placements[i] for i in idxs):
             continue
+        if any(els[i][0] == 'encadre' and _est_fin(txts[i]) for i in idxs):
+            continue   # boîte de fin : garder son placement en bas de vignette
         rects_now = [placements[i]['rect'] for i in idxs]
         qx1, qy1, qx2, qy2 = panels[pidx]
         aire = max(1, (qx2 - qx1) * (qy2 - qy1))
@@ -1052,12 +1089,177 @@ def apply_page(page, ctx, manifest):
     if os.environ.get('ARENA_DEBUG'):
         _dbg(page, 'apres 2.5 (final)', placements)
 
+    # --- Phase 2.85 : découpage des boîtes qui enterrent le dessin ---------
+    # la pire bulle d'une vignette dense se coupe en deux moitiés, puis la
+    # vignette est réparée : chaque moitié accède à une zone plate
+    # inaccessible au texte entier, l'ordre de lecture étant garanti par les
+    # rangées de la réparation. Trois variantes sont essayées : tout réparer,
+    # couper aussi le deuxième élément dense, ou ne déplacer que les moitiés
+    # (les autres boîtes restent où elles sont).
+    for pidx, idxs in panel_elems.items():
+        if any(not placements[i] for i in idxs):
+            continue
+        if any(els[i][0] == 'encadre' and _est_fin(txts[i]) for i in idxs):
+            continue
+        qx1, qy1, qx2, qy2 = panels[pidx]
+        aire_pan = max(1, (qx2 - qx1) * (qy2 - qy1))
+
+        def _surface(boxes):
+            if not boxes:
+                return 0.0
+            return sum(_P._couv_dessin(r) * (r[2] - r[0]) * (r[3] - r[1])
+                       for r in boxes) / aire_pan
+
+        boxes_old = [placements[j]['rect'] for j in idxs]
+        surf_old = _surface(boxes_old)
+
+        def _splittable(j):
+            return (not placements[j].get('chunks')
+                    and els[j][0] in ('bulle', 'pensee') and len(els[j][2]) >= 42)
+
+        cands = sorted(((_P._couv_dessin(placements[j]['rect']), j) for j in idxs
+                        if _splittable(j)), reverse=True)
+        cands = [c for c in cands if c[0] > 0.75]
+        if not cands:
+            continue
+        cov0, i = cands[0]
+        placed_other = [placements[j]['rect'] for j, q in enumerate(placements)
+                        if q and q['panel'] != pidx] + list(onos)
+        obst_panel = [placements[j]['rect'] for j in idxs if j != i]
+
+        def _chunks_de(j):
+            dec_ = _split_texte(els[j][2])
+            if not dec_:
+                return None
+            a_, b_ = dec_
+            spk_ = speakers[j] if j < len(speakers) else ''
+            return [{'kind': els[j][0],
+                     'text': _texte_affiche((els[j][0], els[j][1], a_ + ' …'), spk_),
+                     'speaker': PS.point_bouche(placements[j]['pers'])
+                     if placements[j]['pers'] is not None else priors.get(j)},
+                    {'kind': els[j][0],
+                     'text': _texte_affiche((els[j][0], els[j][1], '… ' + b_), spk_),
+                     'speaker': PS.point_bouche(placements[j]['pers'])
+                     if placements[j]['pers'] is not None else priors.get(j)}]
+
+        ch_i = _chunks_de(i)
+        if not ch_i:
+            continue
+        essais = [('panneau', [i], ch_i)]
+        if len(cands) >= 2:
+            i2 = cands[1][1]
+            ch_i2 = _chunks_de(i2)
+            if ch_i2:
+                essais.append(('panneau2', [i, i2], ch_i + ch_i2))
+        essais.append(('morceaux', [i], ch_i))
+
+        accepte = None
+        for variante, coupes, chunks in essais:
+            if variante == 'morceaux':
+                els_p = list(chunks)
+                orig_p = [i, i]
+                obst = placed_other + obst_panel
+            else:
+                els_p, orig_p = [], []
+                for j in idxs:
+                    if j in coupes:
+                        pos = coupes.index(j)
+                        els_p += chunks[2 * pos:2 * pos + 2]
+                        orig_p += [j, j]
+                    else:
+                        pr = placements[j]['pers']
+                        els_p.append({'kind': els[j][0], 'text': txts[j],
+                                      'speaker': PS.point_bouche(pr)
+                                      if pr is not None else priors.get(j)})
+                        orig_p.append(j)
+                obst = placed_other
+            res = P.reparer_panel(panels[pidx], els_p, tetes, obst,
+                                  bodies=corps, persos=persos, cov_poids=2.2)
+            if not res:
+                if os.environ.get('ARENA_DEBUG'):
+                    print(f'  DBG 2.85 p{page} el{i}/{variante}: réparation '
+                          f'impossible', file=sys.stderr)
+                continue
+            rects, size = res
+            # reconstituer les boîtes finales de la vignette (les éléments
+            # non coupés sont gelés dans la variante « morceaux »)
+            if variante == 'morceaux':
+                boxes_new = list(rects) + [placements[j]['rect'] for j in idxs
+                                           if j not in coupes]
+            else:
+                boxes_new = list(rects)
+            surf_new = _surface(boxes_new)
+            max_new = max(_P._couv_dessin(r) for r in boxes_new)
+            # ordre de lecture final : éléments dans l'ordre du dialogue,
+            # morceaux adjacents, voisins gelés inclus
+            rect_of = {}
+            for r_, j_ in zip(rects, orig_p):
+                rect_of.setdefault(j_, []).append(r_)
+            seq = []
+            for j_ in idxs:
+                seq += rect_of.get(j_, [placements[j_]['rect']])
+            if any(not _ordre_lecture(seq[k], seq[k - 1])
+                   for k in range(1, len(seq))):
+                if os.environ.get('ARENA_DEBUG'):
+                    print(f'  DBG 2.85 p{page} el{i}/{variante}: rejet ordre',
+                          file=sys.stderr)
+                continue
+            if os.environ.get('ARENA_DEBUG'):
+                print(f'  DBG 2.85 p{page} el{i}/{variante}: surf {surf_old:.3f}'
+                      f'->{surf_new:.3f} max {cov0:.2f}->{max_new:.2f} s={size}',
+                      file=sys.stderr)
+            # accepter si moins de dessin enterré sans boîte nettement pire,
+            # ou si la pire boîte s'ouvre nettement à surface égale
+            if not ((surf_new <= surf_old - 0.015
+                     and (max_new <= cov0 - 0.03 or max_new <= 0.80
+                          or surf_new <= surf_old - 0.05))
+                    or (max_new <= cov0 - 0.04
+                        and surf_new <= surf_old + 0.005)):
+                continue
+            accepte = (variante, coupes, chunks, rects, size, orig_p,
+                       surf_new, max_new)
+            break
+        if not accepte:
+            if os.environ.get('ARENA_DEBUG'):
+                print(f'  DBG 2.85 p{page} el{i}: rejet ({cov0:.2f}, '
+                      f'surface {surf_old:.3f})', file=sys.stderr)
+            continue
+        variante, coupes, chunks, rects, size, orig_p, surf_new, max_new = accepte
+        # écrire le résultat : éléments coupés en deux boîtes, voisins
+        # déplacés (ou gelés) par la réparation
+        k = 0
+        for j in idxs:
+            if j in coupes:
+                ra, rb2 = rects[k], rects[k + 1]
+                placements[j] = {'rect': rb2, 'size': size, 'soft': False,
+                                 'panel': pidx, 'pers': placements[j]['pers'],
+                                 'kind': placements[j]['kind'],
+                                 'chunks': [(ra, size, els_p[k]['text']),
+                                            (rb2, size, els_p[k + 1]['text'])]}
+                k += 2
+            elif variante != 'morceaux':
+                placements[j] = {'rect': rects[k], 'size': size, 'soft': False,
+                                 'panel': pidx, 'pers': placements[j]['pers'],
+                                 'kind': placements[j]['kind']}
+                k += 1
+        detail = ', '.join(str(j) for j in coupes)
+        print(f'  page {page:02d} : découpage vignette {pidx} élément(s) {detail} '
+              f'({variante}, couverture {cov0:.2f} -> {max_new:.2f}, surface '
+              f'{surf_old:.3f} -> {surf_new:.3f}, taille {size})', file=sys.stderr)
+
     # --- Phase 3 : rendu (boîtes blanches et encadrés, puis onomatopées) ---
     for i, el in enumerate(els):
         p = placements[i]
         if p is None:
             continue
         rect, size, kind = p['rect'], p['size'], el[0]
+        if p.get('chunks'):
+            for (rc, sc, tc) in p['chunks']:
+                if kind == 'bulle':
+                    L.bulle(rc, tc, maximum=sc)
+                elif kind == 'pensee':
+                    L.pensee(rc, tc, maximum=sc)
+            continue
         if kind == 'encadre':
             L.encadre(rect, txts[i], maximum=size)
         elif kind == 'bulle':
@@ -1091,9 +1293,17 @@ def apply_page(page, ctx, manifest):
     # --- manifeste enrichi (locuteur attendu + texte affiché) ---------------
     for i, el in enumerate(els):
         p = placements[i]
-        manifest.append({'kind': el[0], 'rect': [round(v) for v in p['rect']],
-                         'panel': p['panel'], 'size': p['size'],
-                         'speaker': speakers[i] or None, 'texte': txts[i]})
+        if p.get('chunks'):
+            for (rc, sc, tc) in p['chunks']:
+                manifest.append({'kind': el[0], 'rect': [round(v) for v in rc],
+                                 'panel': p['panel'], 'size': sc,
+                                 'speaker': speakers[i] or None, 'texte': tc,
+                                 'origine': i})
+        else:
+            manifest.append({'kind': el[0], 'rect': [round(v) for v in p['rect']],
+                             'panel': p['panel'], 'size': p['size'],
+                             'speaker': speakers[i] or None, 'texte': txts[i],
+                             'origine': i})
     return L.save()
 
 
@@ -1110,9 +1320,7 @@ if __name__ == '__main__':
         pers = PS.detecter_personnages(bgr)
         import cv2
         # carte de densité du dessin (contours dilatés -> image intégrale)
-        _gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
-        _edges = cv2.dilate(cv2.Canny(_gray, 40, 120), np.ones((5, 5), np.uint8)).astype(np.float64) / 255
-        P.set_dessin(cv2.integral(_edges))
+        P.set_dessin(carte_dessin(bgr))
         pm = PS.masque_peau(bgr)
         n_cc, _, stats_cc, _ = cv2.connectedComponentsWithStats(pm, 8)
         blobs = [(int(stats_cc[i, 0]), int(stats_cc[i, 1]),

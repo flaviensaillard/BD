@@ -140,6 +140,13 @@ def _couv_dessin(rect):
     return min(1.0, max(0.0, s / ((x2 - x1) * (y2 - y1))))
 
 
+def _est_boite_fin(text):
+    """Encadré de clôture (« FIN — … ») : à placer tout en bas."""
+    t = text.lstrip().upper()
+    return t.startswith('FIN —') or t.startswith('FIN –') \
+        or t.startswith('FIN -') or t.startswith('FIN-')
+
+
 def _face_ok(rect, faces, seuil=0.03):
     """Visage respecté, au sens de l'audit : l'intersection avec la boîte
     paddée (marge cheveux) reste sous `seuil` de l'aire BRUTE de la tête ET
@@ -284,6 +291,11 @@ def placer(kind, text, prefer, faces, placed, panel, speaker=None, prev=None, bo
                         continue
                     if speaker is not None:
                         score = _dist_bord(rect, speaker) / 120
+                    elif (kind == 'encadre' and _est_boite_fin(text)):
+                        # boîte de fin d'album : tout en bas de la vignette,
+                        # centrée — placement explicite demandé
+                        score = ((py2 - rect[3]) / 3
+                                 + abs((rect[0] + rect[2]) / 2 - (px1 + px2) / 2) / 40)
                     elif kind == 'encadre':
                         score = (rect[1] - py1) / 12 + (rect[0] - px1) / 30
                     else:
@@ -373,7 +385,8 @@ def _eviter_visages_lignes(x, y, w, h, faces, y_max, tol=0.015):
     return None
 
 
-def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
+def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=(),
+                  cov_poids=0.9):
     """Ré-agence tous les éléments d'une vignette après un repli du placement glouton.
 
     els : liste ordonnée de dicts {kind, text}. Retourne (rects, taille)
@@ -401,7 +414,7 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
         """Coût d'une rangée : peau + silhouette + malus de descente."""
         return (_peau_overlap(rect, bodies)
                 + 0.5 * _peau_overlap(rect, persos)
-                + 0.9 * _couv_dessin(rect)
+                + cov_poids * _couv_dessin(rect)
                 + 0.02 * steps - 0.001 * (rect[2] - rect[0]) / max(full, 1))
 
     def _meilleure_rangee_seule(i, y, size):
@@ -509,7 +522,7 @@ def reparer_panel(panel, els, faces, placed_other, bodies=(), persos=()):
                         pas = 0.05 if (meilleur is not None
                                        and max(_couv_dessin(r) for r in meilleur[1])
                                        > 0.75) else 0.15
-                        score = corps + 0.5 * sil + pas * (13 - size) + 0.9 * covm
+                        score = corps + 0.5 * sil + pas * (13 - size) + cov_poids * covm
                         if meilleur is None or score < meilleur[0]:
                             meilleur = (score, rects, size)
             if meilleur is not None:

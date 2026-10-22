@@ -70,13 +70,15 @@ def audit_page(page, report):
         vigs = [{'hints': {}, 'presence': pres, 'match': any(v['match'] for v in vigs)}] * len(panels)
     speakers = G.locuteurs_alignes(page, scen)
     zones_perso = G._zones_persos(persons)   # silhouettes (maillots compris)
-    _gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
-    _edges = cv2.dilate(cv2.Canny(_gray, 40, 120), np.ones((5, 5), np.uint8)).astype(np.float64) / 255
-    ii_dessin = cv2.integral(_edges)
+    ii_dessin = G.carte_dessin(bgr)
+    P.set_dessin(ii_dessin)
     # planche finale lettrée (contrôle des fonds blanc / jaune-brun)
     final = np.asarray(Image.open(ROOT / G.dst_path(page)).convert('RGB'))
 
-    for i, (el, mf) in enumerate(zip(G.PAGES[page], manifest)):
+    pages_els = G.PAGES[page]
+    for k, mf in enumerate(manifest):
+        i = mf.get('origine', k)
+        el = pages_els[i] if i is not None and i < len(pages_els) else None
         rect = mf['rect']
         pidx = mf['panel']
         panel = panels[pidx] if pidx is not None and pidx < len(panels) else (20, 20, 844, 1202)
@@ -85,19 +87,29 @@ def audit_page(page, report):
         in_panel = [p for p in persons
                     if PS.zone_tete(p) and px1 - 30 <= PS.zone_tete(p)[0] + PS.zone_tete(p)[2] / 2 <= px2 + 30
                     and py1 - 30 <= PS.zone_tete(p)[1] + PS.zone_tete(p)[3] / 2 <= py2 + 30]
-        issue = {'page': page, 'el': i, 'kind': el[0], 'speaker': speakers[i] or None,
+        issue = {'page': page, 'el': i, 'kind': mf['kind'], 'speaker': mf.get('speaker'),
                  'text': mf.get('texte', '')[:70], 'rect': rect,
                  'panel': f'{page}-{(pidx or 0) + 1}' if pidx is not None else '-',
                  'personnes': len(in_panel)}
 
         # --- contrôle 1 : le texte affiché nomme-t-il le bon locuteur ? -----
-        spk = speakers[i] if i < len(speakers) else ''
-        attendu = G._texte_affiche(el, spk)
+        spk = speakers[i] if i is not None and i < len(speakers) else ''
         fautes = []
         if (mf.get('speaker') or None) != (spk or None):
             fautes.append(f'locuteur manifeste={mf.get("speaker")!r} vs scénario={spk!r}')
+        attendu = G._texte_affiche(el, spk) if el is not None else ''
         if mf.get('texte') != attendu:
-            fautes.append(f'texte={mf.get("texte", "")[:45]!r} vs attendu={attendu[:45]!r}')
+            # boîte de découpage : préfixe du locuteur + extrait du texte,
+            # marqueurs de coupe « … » retirés aux deux bouts uniquement
+            pref = attendu[:attendu.index('"') + 1] if '"' in attendu else ''
+            brut = mf.get('texte', '')[len(pref):].rstrip('"').strip()
+            if brut.endswith('…'):
+                brut = brut[:-1].strip()
+            if brut.startswith('…'):
+                brut = brut[1:].strip()
+            if not (mf.get('texte', '').startswith(pref) and brut
+                    and el is not None and brut in el[2]):
+                fautes.append(f'texte={mf.get("texte", "")[:45]!r} vs attendu={attendu[:45]!r}')
         if fautes:
             issue['prefixe'] = ' ; '.join(fautes)
 

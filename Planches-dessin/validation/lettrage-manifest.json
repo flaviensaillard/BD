@@ -16,7 +16,8 @@
     "panel": 0,
     "size": 11,
     "speaker": "jaune style Comics",
-    "texte": "SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ REMPORTÉS. DEUX FOIS DEUXIÈMES."
+    "texte": "SAISON DERNIÈRE — CATÉGORIE U6. SEPT TOURNOIS DISPUTÉS. CINQ REMPORTÉS. DEUX FOIS DEUXIÈMES.",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -29,7 +30,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE !\""
+    "texte": "Léon: \"ON EST LES CHAMPIONS ! PERSONNE NE PEUT NOUS BATTRE !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -42,7 +44,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Cinq coupes en une seule saison ! Même les grands du club n'en reviennent pas !\""
+    "texte": "Nolann: \"Cinq coupes en une seule saison ! Même les grands du club n'en reviennent pas !\"",
+    "origine": 2
    },
    {
     "kind": "encadre",
@@ -55,7 +58,8 @@
     "panel": 1,
     "size": 11,
     "speaker": "voix de Léon",
-    "texte": "Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby Club Motterain, on a vécu une saison magique."
+    "texte": "Je m'appelle Léon. J'ai 6 ans. Et avec mes copains du Rugby Club Motterain, on a vécu une saison magique.",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -68,33 +72,50 @@
     "panel": 1,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées !\""
+    "texte": "Milo: \"Passe-moi la balle Lyssandro, j'ai mis mes chaussures fusées !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
     "rect": [
      310,
-     801,
-     554,
-     869
+     803,
+     426,
+     899
     ],
     "panel": 2,
-    "size": 14,
+    "size": 11,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Cinq fois premiers et deux fois deuxièmes… Vous vous rendez compte ?\""
+    "texte": "Lyssandro: \"Cinq fois premiers et deux fois deuxièmes… Vous vous rendez compte ?\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
     "rect": [
-     310,
-     999,
+     438,
+     803,
      554,
-     1043
+     860
     ],
     "panel": 2,
     "size": 11,
     "speaker": "Ayden",
-    "texte": "Ayden: \"C'est sûr, l'année prochaine chez les U8, ce sera exactement pareil !\""
+    "texte": "Ayden: \"C'est sûr, l'année prochaine chez les U8, …\"",
+    "origine": 6
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     362,
+     989,
+     502,
+     1033
+    ],
+    "panel": 2,
+    "size": 11,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"… ce sera exactement pareil !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -107,7 +128,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Pas « exactement pareil », Ayden… Ce sera encore MIEUX ! En U8, on ne finira même plus deuxièmes : on va TOUT gagner !\""
+    "texte": "Léon: \"Pas « exactement pareil », Ayden… Ce sera encore MIEUX ! En U8, on ne finira même plus deuxièmes : on va TOUT gagner !\"",
+    "origine": 7
    }
   ],
   "2": [
@@ -122,7 +144,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE. LE JOUR DE LA REPRISE EN CATÉGORIE U8."
+    "texte": "SEPTEMBRE 2026. SAINT-SULPICE, SAVOIE. LE JOUR DE LA REPRISE EN CATÉGORIE U8.",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -135,7 +158,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Vanessa ! Alice ! On file au stade avec Léon, on rentre pour le déjeuner !\""
+    "texte": "Flavien: \"Vanessa ! Alice ! On file au stade avec Léon, on rentre pour le déjeuner !\"",
+    "origine": 1
    },
    {
     "kind": "voix",
@@ -148,7 +172,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Voix hors-champ depuis l'étage",
-    "texte": "Maman: \"Bon entraînement les garçons ! Amuse-toi bien Léon !\""
+    "texte": "Maman: \"Bon entraînement les garçons ! Amuse-toi bien Léon !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -161,7 +186,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va arriver après les copains !\""
+    "texte": "Léon: \"Merci Maman ! À tout à l'heure Alice ! Dépêche-toi Papa, on va arriver après les copains !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -174,7 +200,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sept tournois cette année en U8, ça fera sept nouveaux trophées sur mon étagère !\""
+    "texte": "Léon: \"Papa, j'ai déjà fait le calcul dans ma tête ! Si on fait sept tournois cette année en U8, ça fera sept nouveaux trophées sur mon étagère !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -187,7 +214,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un peu vite en besogne, champion ?\""
+    "texte": "Flavien: \"Sept sur sept ? Carrément ! Tu ne crois pas que tu vas un peu vite en besogne, champion ?\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -200,7 +228,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on a toujours la même bande : Lyssandro, Ayden, Nolann, Milo et moi !\""
+    "texte": "Léon: \"Bah quoi ? En U6, presque personne ne nous arrêtait ! Et on a toujours la même bande : Lyssandro, Ayden, Nolann, Milo et moi !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -213,7 +242,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Justement, Léon. En U8, les autres clubs aussi ont grandi. Et les règles changent beaucoup. Écoute bien ce qu'on va vous expliquer avec Julien et Kilian.\""
+    "texte": "Flavien: \"Justement, Léon. En U8, les autres clubs aussi ont grandi. Et les règles changent beaucoup. Écoute bien ce qu'on va vous expliquer avec Julien et Kilian.\"",
+    "origine": 7
    },
    {
     "kind": "encadre",
@@ -226,7 +256,8 @@
     "panel": 4,
     "size": 11,
     "speaker": null,
-    "texte": "LA MOTTE-SERVOLEX — STADE DU RUGBY CLUB MOTTERAIN."
+    "texte": "LA MOTTE-SERVOLEX — STADE DU RUGBY CLUB MOTTERAIN.",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -239,7 +270,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro est arrivé !\""
+    "texte": "Léon: \"Regarde Papa ! Il y a déjà la voiture de Julien ! Lyssandro est arrivé !\"",
+    "origine": 9
    }
   ],
   "3": [
@@ -254,7 +286,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSENT LE GROUPE U8 DU RCM !"
+    "texte": "NOUVELLE SAISON, NOUVELLE CATÉGORIE : VINGT JOUEURS COMPOSENT LE GROUPE U8 DU RCM !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -267,7 +300,8 @@
     "panel": 1,
     "size": 10,
     "speaker": "Léon",
-    "texte": "Léon: \"Salut les gars ! Alors, prêts pour notre nouvelle saison de champions ?\""
+    "texte": "Léon: \"Salut les gars ! Alors, prêts pour notre nouvelle saison de champions ?\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -280,7 +314,8 @@
     "panel": 1,
     "size": 10,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Trop content de vous retrouver ! Mon père m'a dit qu'on est vingt joueurs cette année, ça va faire quatre équipes de cinq !\""
+    "texte": "Lyssandro: \"Trop content de vous retrouver ! Mon père m'a dit qu'on est vingt joueurs cette année, ça va faire quatre équipes de cinq !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -293,7 +328,8 @@
     "panel": 1,
     "size": 10,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Ouais ! Avec Léon, on en a parlé toute la semaine à l'école !\""
+    "texte": "Ayden: \"Ouais ! Avec Léon, on en a parlé toute la semaine à l'école !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -306,7 +342,8 @@
     "panel": 2,
     "size": 10,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait carrément l'équipe première !\""
+    "texte": "Nolann: \"Regardez le maillot Rouge, Bleu et Blanc ! En U8, on dirait carrément l'équipe première !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -319,7 +356,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?!\""
+    "texte": "Milo: \"Et regardez mes appuis : zip, zap, essai ! Qui m'attrape ?!\"",
+    "origine": 5
    },
    {
     "kind": "ono",
@@ -332,7 +370,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIIIIIT !"
+    "texte": "FIIIIIIIIT !",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -345,7 +384,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Julien",
-    "texte": "Julien: \"Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle devant nous, et on pose les ballons !\""
+    "texte": "Julien: \"Rassemblement les U8 ! Tout le monde s'assoit en demi-cercle devant nous, et on pose les ballons !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -358,7 +398,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Bienvenue en U8 les garçons ! Avant de commencer l'entraînement, on doit vous parler franchement de ce qui s'est passé la saison dernière…\""
+    "texte": "Kilian: \"Bienvenue en U8 les garçons ! Avant de commencer l'entraînement, on doit vous parler franchement de ce qui s'est passé la saison dernière…\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -371,7 +412,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Tu vas voir, ils vont nous féliciter pour nos cinq trophées !\""
+    "texte": "Léon: \"Tu vas voir, ils vont nous féliciter pour nos cinq trophées !\"",
+    "origine": 9
    }
   ],
   "4": [
@@ -386,7 +428,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"La saison dernière en U6, sur 7 tournois, vous en avez gagné 5 et fini 2es sur les 2 autres. C'était génial… mais écoutez-moi bien : une saison comme celle-là, c'est EXCEPTIONNEL et ça arrive très rarement !\""
+    "texte": "Flavien: \"La saison dernière en U6, sur 7 tournois, vous en avez gagné 5 et fini 2es sur les 2 autres. C'était génial… mais écoutez-moi bien : une saison comme celle-là, c'est EXCEPTIONNEL et ça arrive très rarement !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -399,7 +442,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Si vous croyez que vous allez gagner sans effort cette année parce que vous avez gagné en U6, vous allez avoir une énorme surprise !\""
+    "texte": "Kilian: \"Si vous croyez que vous allez gagner sans effort cette année parce que vous avez gagné en U6, vous allez avoir une énorme surprise !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -412,7 +456,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Julien",
-    "texte": "Julien: \"En U8, voici vos nouvelles règles ! On joue à 5 contre 5 sur un terrain de 30 mètres par 20 mètres. Il n'y a pas de poteaux et pas de transformations : chaque essai marqué vaut 1 point !\""
+    "texte": "Julien: \"En U8, voici vos nouvelles règles ! On joue à 5 contre 5 sur un terrain de 30 mètres par 20 mètres. Il n'y a pas de poteaux et pas de transformations : chaque essai marqué vaut 1 point !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -425,7 +470,8 @@
     "panel": 2,
     "size": 11,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Deuxième grand changement : l'arbitre siffle TOUS les en-avant quand le ballon tombe vers le camp adverse, et tous les hors-jeu si vous êtes devant le copain qui a le ballon !\""
+    "texte": "Kilian: \"Deuxième grand changement : l'arbitre siffle TOUS les en-avant quand le ballon tombe vers le camp adverse, et tous les hors-jeu si vous êtes devant le copain qui a le ballon !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -438,7 +484,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Tous les en-avant ?! Même les tout petits ?!\""
+    "texte": "Milo: \"Tous les en-avant ?! Même les tout petits ?!\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -451,7 +498,8 @@
     "panel": 2,
     "size": 8,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Même les tout petits, Milo !\""
+    "texte": "Flavien: \"Même les tout petits, Milo !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -464,7 +512,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Et quand un joueur sort en touche, le ballon est directement rendu à l'autre équipe et il est joué comme une pénalité !\""
+    "texte": "Julien: \"Et quand un joueur sort en touche, le ballon est directement rendu à l'autre équipe et il est joué comme une pénalité !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -477,7 +526,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Enfin, pour les contacts : de septembre à fin novembre, c'est du touché à 2 mains simultanées ! Les vrais plaquages seront autorisés à partir du mois de décembre !\""
+    "texte": "Kilian: \"Enfin, pour les contacts : de septembre à fin novembre, c'est du touché à 2 mains simultanées ! Les vrais plaquages seront autorisés à partir du mois de décembre !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -490,7 +540,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Faut faire super attention aux passes alors, sinon on rend tout le temps le ballon…\""
+    "texte": "Ayden: \"Faut faire super attention aux passes alors, sinon on rend tout le temps le ballon…\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -503,7 +554,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Et en défense, si on est hors-jeu, on se fait punir direct !\""
+    "texte": "Lyssandro: \"Et en défense, si on est hors-jeu, on se fait punir direct !\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -516,7 +568,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Pfff, vous inquiétez pas les gars ! Touché à deux mains ou nouvelles règles, personne ne court aussi vite que nous. On va quand même tout rafler !\""
+    "texte": "Léon: \"Pfff, vous inquiétez pas les gars ! Touché à deux mains ou nouvelles règles, personne ne court aussi vite que nous. On va quand même tout rafler !\"",
+    "origine": 10
    }
   ],
   "5": [
@@ -531,7 +584,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -544,7 +598,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"En-avant ! Ballon rendu à l'autre équipe ! On garde les mains bien ouvertes en W devant la poitrine, Milo !\""
+    "texte": "Julien: \"En-avant ! Ballon rendu à l'autre équipe ! On garde les mains bien ouvertes en W devant la poitrine, Milo !\"",
+    "origine": 1
    },
    {
     "kind": "ono",
@@ -557,7 +612,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -570,7 +626,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Hors-jeu Léon ! Tu étais devant tes copains au départ de l'action !\""
+    "texte": "Kilian: \"Hors-jeu Léon ! Tu étais devant tes copains au départ de l'action !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -583,7 +640,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U8 !\""
+    "texte": "Léon: \"Mais Coach, j'allais l'attraper ! Ça arrête pas de siffler en U8 !\"",
+    "origine": 4
    },
    {
     "kind": "encadre",
@@ -596,7 +654,8 @@
     "panel": 2,
     "size": 11,
     "speaker": null,
-    "texte": "PLUS TARD, DANS LE VESTIAIRE DES COACHS…"
+    "texte": "PLUS TARD, DANS LE VESTIAIRE DES COACHS…",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -609,7 +668,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme pour le premier tournoi d'octobre. Sur le papier, l'équipe de Léon, Lyssandro, Ayden, Nolann et Milo a du feu dans les jambes.\""
+    "texte": "Kilian: \"Bon, avec nos 20 joueurs, nos 4 équipes de 5 prennent forme pour le premier tournoi d'octobre. Sur le papier, l'équipe de Léon, Lyssandro, Ayden, Nolann et Milo a du feu dans les jambes.\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -622,7 +682,8 @@
     "panel": 3,
     "size": 9,
     "speaker": "Julien",
-    "texte": "Julien: \"Du feu dans les jambes, oui… mais tu as vu leur réaction à chaque coup de sifflet ? Ils ont encore la tête en U6 où il suffisait de courir tout droit pour marquer.\""
+    "texte": "Julien: \"Du feu dans les jambes, oui… mais tu as vu leur réaction à chaque coup de sifflet ? Ils ont encore la tête en U6 où il suffisait de courir tout droit pour marquer.\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -635,7 +696,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Kilian",
-    "texte": "Kilian: \"C'est vrai qu'au niveau des passes sous pression et de la défense en ligne, il y a encore tout à construire.\""
+    "texte": "Kilian: \"C'est vrai qu'au niveau des passes sous pression et de la défense en ligne, il y a encore tout à construire.\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -648,7 +710,8 @@
     "panel": 4,
     "size": 9,
     "speaker": "Flavien",
-    "texte": "Flavien: \"C'est surtout pour Léon que je m'inquiète. Il a un tel esprit de gagnant qu'il ne conçoit même pas qu'on puisse perdre un match.\""
+    "texte": "Flavien: \"C'est surtout pour Léon que je m'inquiète. Il a un tel esprit de gagnant qu'il ne conçoit même pas qu'on puisse perdre un match.\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -661,7 +724,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Le premier tournoi va être un sacré révélateur, Flavien. On sera là pour les accompagner.\""
+    "texte": "Julien: \"Le premier tournoi va être un sacré révélateur, Flavien. On sera là pour les accompagner.\"",
+    "origine": 10
    }
   ],
   "6": [
@@ -676,7 +740,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS AU PROGRAMME DE LA POULE !"
+    "texte": "OCTOBRE 2026 — PREMIER TOURNOI U8 DE LA SAISON. TROIS MATCHS AU PROGRAMME DE LA POULE !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -689,7 +754,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Allez le RCM ! On se souvient des règles : 5 contre 5, touché à deux mains, pas de hors-jeu et on fait vivre le ballon !\""
+    "texte": "Flavien: \"Allez le RCM ! On se souvient des règles : 5 contre 5, touché à deux mains, pas de hors-jeu et on fait vivre le ballon !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -702,7 +768,8 @@
     "panel": 1,
     "size": 11,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Bien joué Ayden ! Tiens Nolann, fonce !\""
+    "texte": "Lyssandro: \"Bien joué Ayden ! Tiens Nolann, fonce !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -715,7 +782,8 @@
     "panel": 1,
     "size": 11,
     "speaker": "Nolann",
-    "texte": "Nolann: \"ESSAI ! UN POINT POUR LE RCM !\""
+    "texte": "Nolann: \"ESSAI ! UN POINT POUR LE RCM !\"",
+    "origine": 3
    },
    {
     "kind": "encadre",
@@ -728,7 +796,8 @@
     "panel": 1,
     "size": 11,
     "speaker": null,
-    "texte": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !"
+    "texte": "MATCH 1 : RCM bat CHAMBÉRY (JAUNE ET NOIR) !",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -741,7 +810,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Milo",
-    "texte": "Milo: \"À toi Léon !\""
+    "texte": "Milo: \"À toi Léon !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -754,7 +824,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Personne ne me rattrapera ! ESSAI !\""
+    "texte": "Léon: \"Personne ne me rattrapera ! ESSAI !\"",
+    "origine": 6
    },
    {
     "kind": "encadre",
@@ -767,7 +838,8 @@
     "panel": 2,
     "size": 13,
     "speaker": null,
-    "texte": "MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) !"
+    "texte": "MATCH 2 : RCM bat ALBERTVILLE (ROUGE ET BLANC) !",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -780,7 +852,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Deux matchs, deux victoires ! Qu'est-ce que je vous avais dit ?! C'est trop facile la catégorie U8, on est toujours invincibles !\""
+    "texte": "Léon: \"Deux matchs, deux victoires ! Qu'est-ce que je vous avais dit ?! C'est trop facile la catégorie U8, on est toujours invincibles !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -793,7 +866,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Attends Léon, contre Albertville on a quand même eu chaud sur la fin…\""
+    "texte": "Ayden: \"Attends Léon, contre Albertville on a quand même eu chaud sur la fin…\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -806,7 +880,8 @@
     "panel": 4,
     "size": 11,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Écoutez bien les garçons : le troisième match, c'est contre Montmélian. Ils ont gagné leurs deux matchs aussi.\""
+    "texte": "Kilian: \"Écoutez bien les garçons : le troisième match, c'est contre Montmélian. Ils ont gagné leurs deux matchs aussi.\"",
+    "origine": 10
    },
    {
     "kind": "bulle",
@@ -819,7 +894,8 @@
     "panel": 4,
     "size": 11,
     "speaker": "Julien",
-    "texte": "Julien: \"Ils montent très vite en défense et ils ne laissent aucun espace. Si vous jouez chacun pour vous, ça ne passera pas !\""
+    "texte": "Julien: \"Ils montent très vite en défense et ils ne laissent aucun espace. Si vous jouez chacun pour vous, ça ne passera pas !\"",
+    "origine": 11
    }
   ],
   "7": [
@@ -834,7 +910,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "adversaire-vert",
-    "texte": "Adversaire vert: \"On monte ensemble les Vert et Noir ! Personne ne passe !\""
+    "texte": "Adversaire vert: \"On monte ensemble les Vert et Noir ! Personne ne passe !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -847,7 +924,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Oh là là, ils sont déjà sur nous !\""
+    "texte": "Lyssandro: \"Oh là là, ils sont déjà sur nous !\"",
+    "origine": 1
    },
    {
     "kind": "ono",
@@ -860,7 +938,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "PLOP !"
+    "texte": "PLOP !",
+    "origine": 2
    },
    {
     "kind": "ono",
@@ -873,7 +952,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -886,7 +966,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"En-avant du RCM ! Ballon rendu à Montmélian !\""
+    "texte": "Arbitre: \"En-avant du RCM ! Ballon rendu à Montmélian !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -899,7 +980,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Mais fais attention Milo !\""
+    "texte": "Léon: \"Mais fais attention Milo !\"",
+    "origine": 5
    },
    {
     "kind": "ono",
@@ -912,7 +994,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -925,7 +1008,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Touche ! Ballon rendu à Montmélian, joué comme une pénalité !\""
+    "texte": "Arbitre: \"Touche ! Ballon rendu à Montmélian, joué comme une pénalité !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -938,7 +1022,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Mince, le terrain de 20 mètres est moins large que je croyais !\""
+    "texte": "Nolann: \"Mince, le terrain de 20 mètres est moins large que je croyais !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -951,7 +1036,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"La ligne défensive les garçons ! Si Léon monte tout seul, ça ouvre un boulevard !\""
+    "texte": "Flavien: \"La ligne défensive les garçons ! Si Léon monte tout seul, ça ouvre un boulevard !\"",
+    "origine": 9
    },
    {
     "kind": "encadre",
@@ -964,7 +1050,8 @@
     "panel": 3,
     "size": 13,
     "speaker": null,
-    "texte": "ESSAI DE MONTMÉLIAN ! +1 POINT !"
+    "texte": "ESSAI DE MONTMÉLIAN ! +1 POINT !",
+    "origine": 10
    },
    {
     "kind": "ono",
@@ -977,7 +1064,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 11
    },
    {
     "kind": "bulle",
@@ -990,7 +1078,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Hors-jeu du joueur du RCM ! Pénalité pour Montmélian !\""
+    "texte": "Arbitre: \"Hors-jeu du joueur du RCM ! Pénalité pour Montmélian !\"",
+    "origine": 12
    },
    {
     "kind": "bulle",
@@ -1003,7 +1092,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Calmez-vous le RCM ! Respirez ! Regardez vos copains avant de courir !\""
+    "texte": "Julien: \"Calmez-vous le RCM ! Respirez ! Regardez vos copains avant de courir !\"",
+    "origine": 13
    },
    {
     "kind": "bulle",
@@ -1016,7 +1106,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Ils s'énervent au lieu de construire…\""
+    "texte": "Kilian: \"Ils s'énervent au lieu de construire…\"",
+    "origine": 14
    }
   ],
   "8": [
@@ -1031,7 +1122,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Vas-y Léon ! On monte avec toi !\""
+    "texte": "Ayden: \"Vas-y Léon ! On monte avec toi !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1044,7 +1136,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Léon ! Passe à gauche, on est deux contre un !\""
+    "texte": "Lyssandro: \"Léon ! Passe à gauche, on est deux contre un !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1057,7 +1150,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Ici Léon ! Je suis tout seul sur l'aile !\""
+    "texte": "Nolann: \"Ici Léon ! Je suis tout seul sur l'aile !\"",
+    "origine": 2
    },
    {
     "kind": "pensee",
@@ -1070,7 +1164,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Non ! C'est moi qui vais sauver l'équipe ! Je vais passer au milieu tout seul comme en U6 !\""
+    "texte": "Léon: \"Non ! C'est moi qui vais sauver l'équipe ! Je vais passer au milieu tout seul comme en U6 !\"",
+    "origine": 3
    },
    {
     "kind": "ono",
@@ -1083,7 +1178,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "TCHAC !"
+    "texte": "TCHAC !",
+    "origine": 4
    },
    {
     "kind": "ono",
@@ -1096,7 +1192,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIIIIT !"
+    "texte": "FIIIIIIIT !",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1109,7 +1206,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Touché à deux mains… et en-avant ! C'est terminé, fin du match !\""
+    "texte": "Arbitre: \"Touché à deux mains… et en-avant ! C'est terminé, fin du match !\"",
+    "origine": 6
    },
    {
     "kind": "encadre",
@@ -1122,7 +1220,8 @@
     "panel": 4,
     "size": 10,
     "speaker": null,
-    "texte": "PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVINCIBILITÉ VIENT DE VOLER EN ÉCLATS."
+    "texte": "PREMIER TOURNOI U8 : 2 VICTOIRES, 1 DÉFAITE. LE RÊVE D'INVINCIBILITÉ VIENT DE VOLER EN ÉCLATS.",
+    "origine": 7
    }
   ],
   "9": [
@@ -1137,7 +1236,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Bien joué Montmélian… Vous avez super bien défendu.\""
+    "texte": "Ayden: \"Bien joué Montmélian… Vous avez super bien défendu.\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1150,7 +1250,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "adversaire-vert",
-    "texte": "Adversaire vert: \"Merci ! À bientôt au prochain tournoi !\""
+    "texte": "Adversaire vert: \"Merci ! À bientôt au prochain tournoi !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1163,7 +1264,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! On est le RCM ! En U6 on gagnait toujours !\""
+    "texte": "Léon: \"Non… Non, c'est pas vrai ! On n'a pas le droit de perdre ! On est le RCM ! En U6 on gagnait toujours !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1176,7 +1278,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Léon, calme-toi… On a quand même gagné deux matchs sur trois aujourd'hui !\""
+    "texte": "Lyssandro: \"Léon, calme-toi… On a quand même gagné deux matchs sur trois aujourd'hui !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -1189,7 +1292,8 @@
     "panel": 2,
     "size": 12,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Ouais, contre Chambéry et Albertville on a super bien joué !\""
+    "texte": "Nolann: \"Ouais, contre Chambéry et Albertville on a super bien joué !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1202,7 +1306,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on n'est pas les premiers ! Moi je veux pas perdre ! Jamais !\""
+    "texte": "Léon: \"Deux sur trois, c'est NUL ! Si on perd contre Montmélian, on n'est pas les premiers ! Moi je veux pas perdre ! Jamais !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1215,7 +1320,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Viens boire une gorgée d'eau, Léon. La colère ne fera pas rejouer le match.\""
+    "texte": "Flavien: \"Viens boire une gorgée d'eau, Léon. La colère ne fera pas rejouer le match.\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -1228,7 +1334,8 @@
     "panel": 3,
     "size": 11,
     "speaker": "Julien",
-    "texte": "Julien: \"Ce n'est que le début de la saison… Il va falloir que le groupe apprenne à rebondir.\""
+    "texte": "Julien: \"Ce n'est que le début de la saison… Il va falloir que le groupe apprenne à rebondir.\"",
+    "origine": 7
    }
   ],
   "10": [
@@ -1243,7 +1350,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Oui Vanessa, je couche Léon et j'arrive ! Bonne nuit Alice !\""
+    "texte": "Flavien: \"Oui Vanessa, je couche Léon et j'arrive ! Bonne nuit Alice !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1256,7 +1364,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Papa… Pourquoi l'arbitre il a sifflé tout le temps contre nous face à Montmélian ?\""
+    "texte": "Léon: \"Papa… Pourquoi l'arbitre il a sifflé tout le temps contre nous face à Montmélian ?\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1269,7 +1378,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles sont les mêmes pour tout le monde. Montmélian a juste mieux joué en équipe que nous sur ce match-là.\""
+    "texte": "Flavien: \"Ce n'est pas la faute de l'arbitre, Léon. En U8, les règles sont les mêmes pour tout le monde. Montmélian a juste mieux joué en équipe que nous sur ce match-là.\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1282,7 +1392,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Pfff… Ils ont surtout eu de la chance !\""
+    "texte": "Léon: \"Pfff… Ils ont surtout eu de la chance !\"",
+    "origine": 3
    },
    {
     "kind": "encadre",
@@ -1295,7 +1406,8 @@
     "panel": 2,
     "size": 13,
     "speaker": null,
-    "texte": "LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN."
+    "texte": "LUNDI MATIN — À L'ÉCOLE, AVEC AYDEN.",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1308,7 +1420,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Alors Léon, t'es toujours fâché pour samedi ?\""
+    "texte": "Ayden: \"Alors Léon, t'es toujours fâché pour samedi ?\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1321,7 +1434,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Bien sûr que je suis fâché ! Quand je repense à leurs maillots Vert et Noir, ça m'énerve !\""
+    "texte": "Léon: \"Bien sûr que je suis fâché ! Quand je repense à leurs maillots Vert et Noir, ça m'énerve !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -1334,7 +1448,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Tu sais, j'en ai parlé tout à l'heure avec Baptiste avant la sonnerie. Lui aussi au rugby ce week-end, il m'a dit qu'avec les nouvelles règles U8, son équipe a fait plein d'en-avant et de hors-jeu !\""
+    "texte": "Ayden: \"Tu sais, j'en ai parlé tout à l'heure avec Baptiste avant la sonnerie. Lui aussi au rugby ce week-end, il m'a dit qu'avec les nouvelles règles U8, son équipe a fait plein d'en-avant et de hors-jeu !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -1347,7 +1462,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Ah ouais ? Même Baptiste il a perdu un match ?\""
+    "texte": "Léon: \"Ah ouais ? Même Baptiste il a perdu un match ?\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -1360,7 +1476,8 @@
     "panel": 4,
     "size": 9,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'au début en U8, tout le monde se trompe.\""
+    "texte": "Ayden: \"Bah oui ! Baptiste dit que ses coachs leur ont expliqué qu'au début en U8, tout le monde se trompe.\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -1373,7 +1490,8 @@
     "panel": 4,
     "size": 9,
     "speaker": "Léon",
-    "texte": "Léon: \"Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus qu'on se trompe du tout !\""
+    "texte": "Léon: \"Mouais… Eh ben moi, mercredi à l'entraînement, je veux plus qu'on se trompe du tout !\"",
+    "origine": 10
    }
   ],
   "11": [
@@ -1388,7 +1506,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVITE À L'ENTRAÎNEMENT."
+    "texte": "FIN D'AUTOMNE À LA MOTTE-SERVOLEX. LA PLUIE SAVOYARDE S'INVITE À L'ENTRAÎNEMENT.",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1401,7 +1520,8 @@
     "panel": 1,
     "size": 9,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Écoutez-moi tous les vingt ! Samedi dernier, on a vu de belles choses, mais on a aussi compris pourquoi une équipe comme Montmélian nous a battus.\""
+    "texte": "Kilian: \"Écoutez-moi tous les vingt ! Samedi dernier, on a vu de belles choses, mais on a aussi compris pourquoi une équipe comme Montmélian nous a battus.\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1414,7 +1534,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Julien",
-    "texte": "Julien: \"Qui peut me dire ce qui nous a manqué quand ça devenait dur ?\""
+    "texte": "Julien: \"Qui peut me dire ce qui nous a manqué quand ça devenait dur ?\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1427,20 +1548,36 @@
     "panel": 2,
     "size": 10,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Quand ils couraient vers nous, on n'était pas alignés ! Y en avait un devant et les autres derrière !\""
+    "texte": "Lyssandro: \"Quand ils couraient vers nous, on n'était pas alignés ! Y en avait un devant et les autres derrière !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
     "rect": [
-     594,
-     689,
-     838,
-     742
+     444,
+     684,
+     635,
+     721
     ],
     "panel": 2,
-    "size": 10,
+    "size": 8,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Et quand l'un de nous avait le ballon, il essayait de passer tout seul au lieu de faire la passe aux copains !\""
+    "texte": "Ayden: \"Et quand l'un de nous avait le ballon, …\"",
+    "origine": 4
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     647,
+     684,
+     838,
+     721
+    ],
+    "panel": 2,
+    "size": 8,
+    "speaker": "Ayden",
+    "texte": "Ayden: \"… il essayait de passer tout seul au lieu de faire la passe aux copains !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1453,7 +1590,8 @@
     "panel": 2,
     "size": 10,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Et on a fait tomber le ballon vers l'avant plein de fois !\""
+    "texte": "Nolann: \"Et on a fait tomber le ballon vers l'avant plein de fois !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1466,7 +1604,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Bravo les garçons, vous avez tout compris ! En U8, un joueur tout seul ne gagnera JAMAIS contre cinq adversaires organisés.\""
+    "texte": "Flavien: \"Bravo les garçons, vous avez tout compris ! En U8, un joueur tout seul ne gagnera JAMAIS contre cinq adversaires organisés.\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -1479,7 +1618,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Pour progresser, on va travailler nos trois armes secrètes : des passes propres en arrière, une défense en ligne qui monte ensemble sans hors-jeu, et le soutien offensif toujours derrière le copain !\""
+    "texte": "Flavien: \"Pour progresser, on va travailler nos trois armes secrètes : des passes propres en arrière, une défense en ligne qui monte ensemble sans hors-jeu, et le soutien offensif toujours derrière le copain !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -1492,7 +1632,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Et sous la pluie, le ballon glisse ! C'est le meilleur moment pour apprendre à s'appliquer ! Allez, tout le monde sur le pré !\""
+    "texte": "Julien: \"Et sous la pluie, le ballon glisse ! C'est le meilleur moment pour apprendre à s'appliquer ! Allez, tout le monde sur le pré !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -1505,7 +1646,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Ouais ! Du rugby sous la pluie !\""
+    "texte": "Milo: \"Ouais ! Du rugby sous la pluie !\"",
+    "origine": 9
    }
   ],
   "12": [
@@ -1520,7 +1662,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"On monte ensemble ! Regardez à votre gauche et à votre droite ! Si Léon accélère tout seul, vous criez quoi ?\""
+    "texte": "Julien: \"On monte ensemble ! Regardez à votre gauche et à votre droite ! Si Léon accélère tout seul, vous criez quoi ?\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1533,7 +1676,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Ayden & Lyssandro",
-    "texte": "Ayden & Lyssandro: \"ATTENDS LA LIGNE !\""
+    "texte": "Ayden & Lyssandro: \"ATTENDS LA LIGNE !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1546,7 +1690,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Eh ! Vous avez vu ? Quand on reste collés sur la même ligne, ils savent plus du tout par où passer !\""
+    "texte": "Nolann: \"Eh ! Vous avez vu ? Quand on reste collés sur la même ligne, ils savent plus du tout par où passer !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1559,7 +1704,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"C'est ça le soutien offensif ! Vous êtes les gardes du corps du porteur de balle ! Toujours derrière lui pour ne pas être hors-jeu ou faire d'en-avant, mais prêts à crier « JE SUIS LÀ ! »\""
+    "texte": "Kilian: \"C'est ça le soutien offensif ! Vous êtes les gardes du corps du porteur de balle ! Toujours derrière lui pour ne pas être hors-jeu ou faire d'en-avant, mais prêts à crier « JE SUIS LÀ ! »\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -1572,7 +1718,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Tiens Lyssandro !\""
+    "texte": "Ayden: \"Tiens Lyssandro !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1585,7 +1732,8 @@
     "panel": 3,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Super passe Ayden, j'ai même pas eu besoin de ralentir !\""
+    "texte": "Lyssandro: \"Super passe Ayden, j'ai même pas eu besoin de ralentir !\"",
+    "origine": 5
    },
    {
     "kind": "ono",
@@ -1598,7 +1746,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "SPLATCH !"
+    "texte": "SPLATCH !",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -1611,7 +1760,8 @@
     "panel": 4,
     "size": 12,
     "speaker": "Milo",
-    "texte": "Milo: \"Oups… Il glisse comme un savon ce ballon !\""
+    "texte": "Milo: \"Oups… Il glisse comme un savon ce ballon !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -1624,7 +1774,8 @@
     "panel": 5,
     "size": 11,
     "speaker": "Léon",
-    "texte": "Léon: \"Pfff… Sérieux Milo, si tu fais encore tomber le ballon comme ça au prochain tournoi, on va encore perdre !\""
+    "texte": "Léon: \"Pfff… Sérieux Milo, si tu fais encore tomber le ballon comme ça au prochain tournoi, on va encore perdre !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -1637,7 +1788,8 @@
     "panel": 5,
     "size": 11,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Oh ça va Léon, arrête de râler ! Toi aussi t'en as fait tomber un tout à l'heure !\""
+    "texte": "Lyssandro: \"Oh ça va Léon, arrête de râler ! Toi aussi t'en as fait tomber un tout à l'heure !\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -1650,7 +1802,8 @@
     "panel": 5,
     "size": 11,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Lyssandro a raison, Léon. À l'entraînement, on est là pour essayer et se tromper. Encourage ton copain au lieu de soupirer.\""
+    "texte": "Flavien: \"Lyssandro a raison, Léon. À l'entraînement, on est là pour essayer et se tromper. Encourage ton copain au lieu de soupirer.\"",
+    "origine": 10
    }
   ],
   "13": [
@@ -1665,7 +1818,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "NOVEMBRE 2026 — DEUXIÈME TOURNOI. AU FIL DES SEMAINES, L'ÉQUIPE CONNAÎT DES HAUTS… ET DES BAS."
+    "texte": "NOVEMBRE 2026 — DEUXIÈME TOURNOI. AU FIL DES SEMAINES, L'ÉQUIPE CONNAÎT DES HAUTS… ET DES BAS.",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1678,7 +1832,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Soutien à droite ! Vas-y Ayden !\""
+    "texte": "Nolann: \"Soutien à droite ! Vas-y Ayden !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1691,7 +1846,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Pour toi Léon, va marquer !\""
+    "texte": "Ayden: \"Pour toi Léon, va marquer !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1704,7 +1860,8 @@
     "panel": 2,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Oui ! Quand on gagne comme ça, j'adore le rugby !\""
+    "texte": "Léon: \"Oui ! Quand on gagne comme ça, j'adore le rugby !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -1717,7 +1874,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Super collectif les garçons ! Gardez cette tête-là pour le match contre Rumilly !\""
+    "texte": "Kilian: \"Super collectif les garçons ! Gardez cette tête-là pour le match contre Rumilly !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1730,7 +1888,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "adversaire-rumilly",
-    "texte": "Adversaire de Rumilly: \"On les bloque chez eux les Rouge et Noir !\""
+    "texte": "Adversaire de Rumilly: \"On les bloque chez eux les Rouge et Noir !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1743,7 +1902,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Mais plus vite ! Passez-moi le ballon !\""
+    "texte": "Léon: \"Mais plus vite ! Passez-moi le ballon !\"",
+    "origine": 6
    },
    {
     "kind": "ono",
@@ -1756,7 +1916,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "PAF !"
+    "texte": "PAF !",
+    "origine": 7
    },
    {
     "kind": "ono",
@@ -1769,7 +1930,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -1782,7 +1944,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Essai pour Rumilly ! Fin du match !\""
+    "texte": "Arbitre: \"Essai pour Rumilly ! Fin du match !\"",
+    "origine": 9
    }
   ],
   "14": [
@@ -1797,7 +1960,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Désolé les gars… Le ballon est arrivé super vite et j'ai glissé dans la boue…\""
+    "texte": "Milo: \"Désolé les gars… Le ballon est arrivé super vite et j'ai glissé dans la boue…\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1810,7 +1974,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"C'est ma faute aussi Milo, ma passe était trop haute…\""
+    "texte": "Nolann: \"C'est ma faute aussi Milo, ma passe était trop haute…\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1823,7 +1988,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on a perdu ! Vous faites que des en-avant, vous savez même pas attraper un ballon ! Avec vous, on gagnera jamais rien !\""
+    "texte": "Léon: \"OUAIS, C'EST TOUJOURS PAREIL ! C'est à cause de vous deux qu'on a perdu ! Vous faites que des en-avant, vous savez même pas attraper un ballon ! Avec vous, on gagnera jamais rien !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1836,7 +2002,8 @@
     "panel": 2,
     "size": 8,
     "speaker": "Milo",
-    "texte": "Milo: \"Je l'ai pas fait exprès Léon…\""
+    "texte": "Milo: \"Je l'ai pas fait exprès Léon…\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -1849,7 +2016,8 @@
     "panel": 2,
     "size": 8,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Arrête Léon, t'es super méchant ! Toi non plus t'étais pas en ligne sur leur essai !\""
+    "texte": "Lyssandro: \"Arrête Léon, t'es super méchant ! Toi non plus t'étais pas en ligne sur leur essai !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1862,7 +2030,8 @@
     "panel": 2,
     "size": 8,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Ouais ! Si c'est pour nous crier dessus comme ça, on n'a même plus envie de te faire des passes !\""
+    "texte": "Ayden: \"Ouais ! Si c'est pour nous crier dessus comme ça, on n'a même plus envie de te faire des passes !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1875,7 +2044,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipiers. Viens avec moi sur le banc, tout de suite.\""
+    "texte": "Flavien: \"Ça suffit, Léon. On ne parle JAMAIS comme ça à ses coéquipiers. Viens avec moi sur le banc, tout de suite.\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -1888,7 +2058,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Julien",
-    "texte": "Julien: \"Venez les garçons, n'écoutez pas ça. Vous avez tout donné sur le terrain.\""
+    "texte": "Julien: \"Venez les garçons, n'écoutez pas ça. Vous avez tout donné sur le terrain.\"",
+    "origine": 7
    },
    {
     "kind": "pensee",
@@ -1901,7 +2072,8 @@
     "panel": 4,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…\""
+    "texte": "Léon: \"Pourquoi j'ai dit ça… Milo et Nolann, c'est mes copains…\"",
+    "origine": 8
    }
   ],
   "15": [
@@ -1916,7 +2088,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "LE SOIR MÊME, À SAINT-SULPICE…"
+    "texte": "LE SOIR MÊME, À SAINT-SULPICE…",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -1929,7 +2102,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Vanessa et Alice préparent le dîner à côté. Toi et moi, on a besoin de discuter d'homme à homme, Léon.\""
+    "texte": "Flavien: \"Vanessa et Alice préparent le dîner à côté. Toi et moi, on a besoin de discuter d'homme à homme, Léon.\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -1942,7 +2116,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lyssandro et Ayden aussi.\""
+    "texte": "Léon: \"Je sais Papa… J'ai été méchant avec Milo et Nolann. Et avec Lyssandro et Ayden aussi.\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -1955,7 +2130,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Pourquoi tu t'es mis dans une colère pareille, mon grand ? Dis-moi ce qui se passe dans ton cœur quand on perd.\""
+    "texte": "Flavien: \"Pourquoi tu t'es mis dans une colère pareille, mon grand ? Dis-moi ce qui se passe dans ton cœur quand on perd.\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -1968,7 +2144,8 @@
     "panel": 2,
     "size": 8,
     "speaker": "Léon",
-    "texte": "Léon: \"C'est que… j'ai trop envie qu'on gagne ! Quand l'autre équipe marque et qu'on perd, j'ai l'impression qu'on est devenus nuls par rapport à l'année dernière en U6… et ça me fait trop mal au ventre !\""
+    "texte": "Léon: \"C'est que… j'ai trop envie qu'on gagne ! Quand l'autre équipe marque et qu'on perd, j'ai l'impression qu'on est devenus nuls par rapport à l'année dernière en U6… et ça me fait trop mal au ventre !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -1981,7 +2158,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Écoute-moi bien, Léon, et garde cette phrase dans ta tête pour toute ta vie : on apprend toujours de ses échecs, jamais de ses victoires.\""
+    "texte": "Flavien: \"Écoute-moi bien, Léon, et garde cette phrase dans ta tête pour toute ta vie : on apprend toujours de ses échecs, jamais de ses victoires.\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -1994,7 +2172,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Quand on gagne tout comme en U6, on croit qu'on est parfait et on n'apprend rien. Mais quand on échoue, qu'on fait un en-avant ou qu'on perd un match… c'est là qu'on voit ce qu'il faut travailler pour évoluer !\""
+    "texte": "Flavien: \"Quand on gagne tout comme en U6, on croit qu'on est parfait et on n'apprend rien. Mais quand on échoue, qu'on fait un en-avant ou qu'on perd un match… c'est là qu'on voit ce qu'il faut travailler pour évoluer !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2007,7 +2186,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça veut dire qu'on est en train d'apprendre ?\""
+    "texte": "Léon: \"Alors… perdre un match, ça veut pas dire qu'on est nuls ? Ça veut dire qu'on est en train d'apprendre ?\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -2020,7 +2200,8 @@
     "panel": 4,
     "size": 12,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Exactement champion : on apprend de ses échecs, c'est ce qui conduit à la victoire. Mais pour que l'équipe apprenne, tes copains ont besoin que tu les aides à comprendre, pas que tu leur cries dessus. Tu sais ce qu'il te reste à faire ?\""
+    "texte": "Flavien: \"Exactement champion : on apprend de ses échecs, c'est ce qui conduit à la victoire. Mais pour que l'équipe apprenne, tes copains ont besoin que tu les aides à comprendre, pas que tu leur cries dessus. Tu sais ce qu'il te reste à faire ?\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -2033,7 +2214,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Oui Papa. Dès demain.\""
+    "texte": "Léon: \"Oui Papa. Dès demain.\"",
+    "origine": 9
    }
   ],
   "16": [
@@ -2048,7 +2230,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Salut Ayden… Je voulais te demander pardon pour samedi. T'avais raison, j'avais pas le droit de vous parler comme ça.\""
+    "texte": "Léon: \"Salut Ayden… Je voulais te demander pardon pour samedi. T'avais raison, j'avais pas le droit de vous parler comme ça.\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2061,7 +2244,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Je suis content que tu dises ça, Léon ! Justement, j'en parlais ce matin avec Baptiste devant le portail : Baptiste m'a dit que dans son équipe aussi, ils se sont promis de toujours s'encourager après une erreur !\""
+    "texte": "Ayden: \"Je suis content que tu dises ça, Léon ! Justement, j'en parlais ce matin avec Baptiste devant le portail : Baptiste m'a dit que dans son équipe aussi, ils se sont promis de toujours s'encourager après une erreur !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2074,7 +2258,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Il a raison Baptiste. Mercredi au stade, je vais m'excuser auprès de Lyssandro, Nolann et Milo !\""
+    "texte": "Léon: \"Il a raison Baptiste. Mercredi au stade, je vais m'excuser auprès de Lyssandro, Nolann et Milo !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2087,7 +2272,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Léon",
-    "texte": "Léon: \"Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m'a expliqué qu'on apprend toujours de nos échecs. Si on fait un en-avant ou qu'on perd, je ne m'énerverai plus : on cherchera ensemble comment faire mieux !\""
+    "texte": "Léon: \"Les gars… Pardon d'avoir été méchant contre Rumilly. Mon papa m'a expliqué qu'on apprend toujours de nos échecs. Si on fait un en-avant ou qu'on perd, je ne m'énerverai plus : on cherchera ensemble comment faire mieux !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2100,7 +2286,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Milo",
-    "texte": "Milo: \"C'est vrai, tu nous crieras plus dessus si le ballon glisse ?\""
+    "texte": "Milo: \"C'est vrai, tu nous crieras plus dessus si le ballon glisse ?\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2113,7 +2300,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Léon",
-    "texte": "Léon: \"Promis juré ! Même s'il est plein de boue !\""
+    "texte": "Léon: \"Promis juré ! Même s'il est plein de boue !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2126,7 +2314,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires du RCM !\""
+    "texte": "Nolann: \"Trop bien ! Parce qu'ensemble, on est les cinq mousquetaires du RCM !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2139,7 +2328,8 @@
     "panel": 3,
     "size": 8,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS POUR LE RCM !\""
+    "texte": "Lyssandro: \"Allez, tapez tous vos mains au milieu : UN POUR TOUS, TOUS POUR LE RCM !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -2152,7 +2342,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Eh bien Flavien, je crois que ta discussion à la maison a fait des miracles !\""
+    "texte": "Kilian: \"Eh bien Flavien, je crois que ta discussion à la maison a fait des miracles !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -2165,7 +2356,8 @@
     "panel": 4,
     "size": 13,
     "speaker": "Julien",
-    "texte": "Julien: \"Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le mois de décembre… ils vont avoir besoin d'être soudés !\""
+    "texte": "Julien: \"Tant mieux, parce qu'avec l'hiver qui arrive en Savoie et le mois de décembre… ils vont avoir besoin d'être soudés !\"",
+    "origine": 9
    }
   ],
   "17": [
@@ -2180,7 +2372,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "DÉCEMBRE EN SAVOIE. LE FROID ET LA NEIGE SONT LÀ… MAIS AU RUGBY CLUB MOTTERAIN, L'ENTRAÎNEMENT EST MAINTENU !"
+    "texte": "DÉCEMBRE EN SAVOIE. LE FROID ET LA NEIGE SONT LÀ… MAIS AU RUGBY CLUB MOTTERAIN, L'ENTRAÎNEMENT EST MAINTENU !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2193,7 +2386,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Brrr ! Regardez, on dirait des dragons qui crachent de la fumée !\""
+    "texte": "Nolann: \"Brrr ! Regardez, on dirait des dragons qui crachent de la fumée !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2206,7 +2400,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Avec mes gants de sport et mon bonnet, j'ai même pas froid !\""
+    "texte": "Milo: \"Avec mes gants de sport et mon bonnet, j'ai même pas froid !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2219,7 +2414,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Et surtout… vous avez vu le calendrier ? On est au mois de DÉCEMBRE !\""
+    "texte": "Ayden: \"Et surtout… vous avez vu le calendrier ? On est au mois de DÉCEMBRE !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2232,7 +2428,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Julien",
-    "texte": "Julien: \"Eh oui les garçons ! Qui dit mois de décembre en U8 dit… nouvelle règle !\""
+    "texte": "Julien: \"Eh oui les garçons ! Qui dit mois de décembre en U8 dit… nouvelle règle !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2245,7 +2442,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Le touché à deux mains, c'est terminé ! À partir d'aujourd'hui, les vrais PLAQUAGES sont autorisés !\""
+    "texte": "Kilian: \"Le touché à deux mains, c'est terminé ! À partir d'aujourd'hui, les vrais PLAQUAGES sont autorisés !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2258,7 +2456,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Les 20 joueurs en chœur",
-    "texte": "Les 20 joueurs: \"OUAAAAIS ! LES PLAQUAGES !\""
+    "texte": "Les 20 joueurs: \"OUAAAAIS ! LES PLAQUAGES !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2271,7 +2470,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Enfin du vrai rugby de grands !\""
+    "texte": "Léon: \"Enfin du vrai rugby de grands !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -2284,7 +2484,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Attention les guerriers ! Plaquer, ce n'est pas se jeter n'importe comment. Pour ne blesser personne et ne pas se faire mal, il y a une technique précise à apprendre. Regardez bien !\""
+    "texte": "Flavien: \"Attention les guerriers ! Plaquer, ce n'est pas se jeter n'importe comment. Pour ne blesser personne et ne pas se faire mal, il y a une technique précise à apprendre. Regardez bien !\"",
+    "origine": 8
    }
   ],
   "18": [
@@ -2299,20 +2500,22 @@
     "panel": 0,
     "size": 12,
     "speaker": "Julien",
-    "texte": "Julien: \"Règle numéro 1 : on baisse son centre de gravité, on vise entre la taille et les cuisses, JAMAIS au-dessus des épaules !\""
+    "texte": "Julien: \"Règle numéro 1 : on baisse son centre de gravité, on vise entre la taille et les cuisses, JAMAIS au-dessus des épaules !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
     "rect": [
-     678,
-     32,
-     824,
-     200
+     446,
+     149,
+     632,
+     210
     ],
     "panel": 1,
-    "size": 14,
+    "size": 9,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux bras autour des jambes comme une ceinture, et on accompagne le joueur au sol !\""
+    "texte": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux bras autour des jambes comme une ceinture, et on accompagne le joueur au sol !\"",
+    "origine": 1
    },
    {
     "kind": "ono",
@@ -2325,33 +2528,50 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "BOUM !"
+    "texte": "BOUM !",
+    "origine": 2
    },
    {
     "kind": "bulle",
     "rect": [
-     460,
-     164,
-     633,
-     232
+     644,
+     149,
+     830,
+     189
     ],
     "panel": 1,
-    "size": 14,
+    "size": 9,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\""
+    "texte": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
     "rect": [
-     672,
-     200,
-     818,
-     240
+     446,
+     216,
+     632,
+     245
     ],
     "panel": 1,
     "size": 9,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Même le boudin il a pas bougé d'un centimètre !\""
+    "texte": "Nolann: \"Même le boudin il a pas …\"",
+    "origine": 4
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     644,
+     216,
+     830,
+     245
+    ],
+    "panel": 1,
+    "size": 9,
+    "speaker": "Nolann",
+    "texte": "Nolann: \"… bougé d'un centimètre !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2364,7 +2584,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Je le plaque en bas, Milo !\""
+    "texte": "Ayden: \"Je le plaque en bas, Milo !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2377,7 +2598,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Milo",
-    "texte": "Milo: \"Et moi je récupère le ballon dès qu'il est au sol !\""
+    "texte": "Milo: \"Et moi je récupère le ballon dès qu'il est au sol !\"",
+    "origine": 6
    },
    {
     "kind": "ono",
@@ -2390,7 +2612,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "PAF !"
+    "texte": "PAF !",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -2403,7 +2626,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Bien plaqué ! Tiens Lyssandro, je te la laisse, continue l'action !\""
+    "texte": "Léon: \"Bien plaqué ! Tiens Lyssandro, je te la laisse, continue l'action !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -2416,7 +2640,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"J'y vais Léon, bien joué !\""
+    "texte": "Lyssandro: \"J'y vais Léon, bien joué !\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -2429,7 +2654,8 @@
     "panel": 5,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Bravo Léon ! En octobre tu aurais gardé le ballon pour toi tout seul. Là, tu as utilisé le plaquage pour faire briller ton copain en soutien !\""
+    "texte": "Kilian: \"Bravo Léon ! En octobre tu aurais gardé le ballon pour toi tout seul. Là, tu as utilisé le plaquage pour faire briller ton copain en soutien !\"",
+    "origine": 10
    }
   ],
   "19": [
@@ -2444,7 +2670,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaquages maintenant, le premier qui a le ballon se fait presque toujours arrêter s'il court tout droit.\""
+    "texte": "Léon: \"Hé les gars, regardez ce que j'ai compris ! Avec les vrais plaquages maintenant, le premier qui a le ballon se fait presque toujours arrêter s'il court tout droit.\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2457,7 +2684,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Oui ! Alors que si on est deux juste derrière lui en soutien offensif, dès qu'il est plaqué, l'action continue sans s'arrêter !\""
+    "texte": "Ayden: \"Oui ! Alors que si on est deux juste derrière lui en soutien offensif, dès qu'il est plaqué, l'action continue sans s'arrêter !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2470,7 +2698,8 @@
     "panel": 1,
     "size": 9,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Et en défense, c'est pareil : mon papa dit que si un seul de nous cinq monte trop vite, il est hors-jeu ou il se fait éviter. Faut qu'on avance comme un mur !\""
+    "texte": "Lyssandro: \"Et en défense, c'est pareil : mon papa dit que si un seul de nous cinq monte trop vite, il est hors-jeu ou il se fait éviter. Faut qu'on avance comme un mur !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2483,7 +2712,8 @@
     "panel": 1,
     "size": 9,
     "speaker": "Milo",
-    "texte": "Milo: \"Le mur Rouge, Bleu et Blanc du RCM !\""
+    "texte": "Milo: \"Le mur Rouge, Bleu et Blanc du RCM !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2496,7 +2726,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Regardez-les tous les cinq là-bas… Ils n'attendent même plus qu'on leur parle, ils préparent déjà leurs combinaisons entre eux !\""
+    "texte": "Julien: \"Regardez-les tous les cinq là-bas… Ils n'attendent même plus qu'on leur parle, ils préparent déjà leurs combinaisons entre eux !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2509,7 +2740,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Ce week-end, on affronte Le Môle et Thonon. Ce sont deux équipes très solides qui plaquent fort.\""
+    "texte": "Kilian: \"Ce week-end, on affronte Le Môle et Thonon. Ce sont deux équipes très solides qui plaquent fort.\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2522,7 +2754,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Ce sera le vrai test pour voir si Léon garde son calme quand un copain fera une erreur sous pression.\""
+    "texte": "Flavien: \"Ce sera le vrai test pour voir si Léon garde son calme quand un copain fera une erreur sous pression.\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2535,7 +2768,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"J'ai confiance en eux, Flavien. Nos petits U8 sont en train de devenir une vraie équipe de rugby.\""
+    "texte": "Julien: \"J'ai confiance en eux, Flavien. Nos petits U8 sont en train de devenir une vraie équipe de rugby.\"",
+    "origine": 7
    }
   ],
   "20": [
@@ -2550,7 +2784,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "TCHAC !"
+    "texte": "TCHAC !",
+    "origine": 0
    },
    {
     "kind": "ono",
@@ -2563,7 +2798,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2576,7 +2812,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Sortie en touche ! Ballon rendu au RCM et joué comme une pénalité !\""
+    "texte": "Arbitre: \"Sortie en touche ! Ballon rendu au RCM et joué comme une pénalité !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2589,7 +2826,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Vite, ils ne sont pas replacés ! À toi Léon !\""
+    "texte": "Lyssandro: \"Vite, ils ne sont pas replacés ! À toi Léon !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2602,7 +2840,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Merci Lyssandro ! ESSAI !\""
+    "texte": "Léon: \"Merci Lyssandro ! ESSAI !\"",
+    "origine": 4
    },
    {
     "kind": "encadre",
@@ -2615,7 +2854,8 @@
     "panel": 1,
     "size": 13,
     "speaker": null,
-    "texte": "VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) !"
+    "texte": "VICTOIRE DU RCM CONTRE LE MÔLE (ROUGE ET BLANC) !",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2628,7 +2868,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Dernière action le RCM ! Construisez, ne vous précipitez pas !\""
+    "texte": "Kilian: \"Dernière action le RCM ! Construisez, ne vous précipitez pas !\"",
+    "origine": 6
    },
    {
     "kind": "ono",
@@ -2641,7 +2882,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "BOUM !"
+    "texte": "BOUM !",
+    "origine": 7
    },
    {
     "kind": "ono",
@@ -2654,7 +2896,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIIIIT !"
+    "texte": "FIIIIIIIT !",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -2667,7 +2910,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"En-avant ! Et c'est la fin du match ! Victoire de Thonon !\""
+    "texte": "Arbitre: \"En-avant ! Et c'est la fin du match ! Victoire de Thonon !\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -2680,7 +2924,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, pardon les gars…\""
+    "texte": "Milo: \"Oh non… J'ai raté l'essai de l'égalisation… Pardon Léon, pardon les gars…\"",
+    "origine": 10
    }
   ],
   "21": [
@@ -2695,7 +2940,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquoi on a raté l'action, Léon…\""
+    "texte": "Léon: \"Non. Si je crie sur Milo, on n'apprend rien. Cherche pourquoi on a raté l'action, Léon…\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2708,7 +2954,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai fait la passe trop tard, le joueur de Thonon était déjà sur toi !\""
+    "texte": "Léon: \"Hé Milo, relève-toi ! C'est pas ta faute du tout ! Je t'ai fait la passe trop tard, le joueur de Thonon était déjà sur toi !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2721,7 +2968,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Milo",
-    "texte": "Milo: \"Tu… tu n'es pas en colère Léon ?\""
+    "texte": "Milo: \"Tu… tu n'es pas en colère Léon ?\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2734,7 +2982,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Léon",
-    "texte": "Léon: \"Bien sûr que non ! On a perdu d'un point contre Thonon, mais on sait exactement quoi travailler mercredi à l'entraînement : faire la passe avant le plaquage !\""
+    "texte": "Léon: \"Bien sûr que non ! On a perdu d'un point contre Thonon, mais on sait exactement quoi travailler mercredi à l'entraînement : faire la passe avant le plaquage !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2747,7 +2996,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Et moi j'aurais dû être encore plus près de Milo en soutien offensif !\""
+    "texte": "Ayden: \"Et moi j'aurais dû être encore plus près de Milo en soutien offensif !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2760,7 +3010,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Trop bien dit Léon ! Au prochain tournoi, cette action-là, elle ira au bout !\""
+    "texte": "Lyssandro: \"Trop bien dit Léon ! Au prochain tournoi, cette action-là, elle ira au bout !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2773,7 +3024,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Bravo Thonon ! Vos plaquages étaient super rapides !\""
+    "texte": "Léon: \"Bravo Thonon ! Vos plaquages étaient super rapides !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2786,7 +3038,8 @@
     "panel": 4,
     "size": 12,
     "speaker": "Julien",
-    "texte": "Julien: \"Tu as vu ça, Flavien ? Ils viennent de perdre le match sur un en-avant à la dernière seconde… et Léon analyse la passe en relevant son copain !\""
+    "texte": "Julien: \"Tu as vu ça, Flavien ? Ils viennent de perdre le match sur un en-avant à la dernière seconde… et Léon analyse la passe en relevant son copain !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -2799,7 +3052,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Il a compris, Julien. Il a enfin compris ce que veut dire grandir.\""
+    "texte": "Flavien: \"Il a compris, Julien. Il a enfin compris ce que veut dire grandir.\"",
+    "origine": 8
    }
   ],
   "22": [
@@ -2814,7 +3068,8 @@
     "panel": 0,
     "size": 10,
     "speaker": null,
-    "texte": "MARS — LE SOLEIL DU PRINTEMPS REVIENT SUR LA SAVOIE. FINIS LES BONNETS ET LES GANTS : PLACE À LA VITESSE !"
+    "texte": "MARS — LE SOLEIL DU PRINTEMPS REVIENT SUR LA SAVOIE. FINIS LES BONNETS ET LES GANTS : PLACE À LA VITESSE !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2827,7 +3082,8 @@
     "panel": 1,
     "size": 11,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Les garçons, depuis septembre, on a connu des victoires, des défaites, de la pluie et de la neige. Qu'est-ce que nos défaites contre Montmélian, Rumilly et Thonon nous ont appris ?\""
+    "texte": "Flavien: \"Les garçons, depuis septembre, on a connu des victoires, des défaites, de la pluie et de la neige. Qu'est-ce que nos défaites contre Montmélian, Rumilly et Thonon nous ont appris ?\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2840,7 +3096,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Léon",
-    "texte": "Léon: \"Qu'il ne faut jamais jouer tout seul ni s'énerver ! Quand l'adversaire monte vite, il faut donner le ballon avant d'être plaqué !\""
+    "texte": "Léon: \"Qu'il ne faut jamais jouer tout seul ni s'énerver ! Quand l'adversaire monte vite, il faut donner le ballon avant d'être plaqué !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2853,7 +3110,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Et que si on a toujours deux copains en soutien offensif dans notre dos, le ballon ne meurt jamais !\""
+    "texte": "Lyssandro: \"Et que si on a toujours deux copains en soutien offensif dans notre dos, le ballon ne meurt jamais !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2866,7 +3124,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Et qu'en défense en ligne, on doit avancer tous les cinq comme un mur, sans faire de hors-jeu !\""
+    "texte": "Nolann: \"Et qu'en défense en ligne, on doit avancer tous les cinq comme un mur, sans faire de hors-jeu !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2879,7 +3138,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Eh bien montrez-nous ça sur le terrain ! Les 4 équipes de 5 en place !\""
+    "texte": "Kilian: \"Eh bien montrez-nous ça sur le terrain ! Les 4 équipes de 5 en place !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2892,7 +3152,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Attention les yeux, la machine du RCM est lancée !\""
+    "texte": "Milo: \"Attention les yeux, la machine du RCM est lancée !\"",
+    "origine": 6
    }
   ],
   "23": [
@@ -2907,7 +3168,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Mains en W !\""
+    "texte": "Léon: \"Mains en W !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -2920,7 +3182,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Toujours en arrière, zéro en-avant !\""
+    "texte": "Lyssandro: \"Toujours en arrière, zéro en-avant !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -2933,7 +3196,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"Et au bout, toute la ligne a touché le ballon !\""
+    "texte": "Milo: \"Et au bout, toute la ligne a touché le ballon !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -2946,7 +3210,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon !\""
+    "texte": "Ayden: \"À gauche, monte d'un pas Nolann ! À droite, reste avec moi Léon !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -2959,7 +3224,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Je te vois Ayden, on est alignés ! Personne n'est hors-jeu !\""
+    "texte": "Léon: \"Je te vois Ayden, on est alignés ! Personne n'est hors-jeu !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -2972,7 +3238,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Je suis pris aux jambes ! Soutien !\""
+    "texte": "Lyssandro: \"Je suis pris aux jambes ! Soutien !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -2985,7 +3252,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Léon & Milo",
-    "texte": "Léon & Milo: \"ON EST LÀ DANS TON DOS !\""
+    "texte": "Léon & Milo: \"ON EST LÀ DANS TON DOS !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -2998,7 +3266,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule !\""
+    "texte": "Julien: \"Plus un cri de colère, plus une tête baissée… Regardez la vitesse à laquelle le ballon circule !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -3011,7 +3280,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Ils sont prêts pour le dernier grand tournoi de la saison.\""
+    "texte": "Kilian: \"Ils sont prêts pour le dernier grand tournoi de la saison.\"",
+    "origine": 8
    }
   ],
   "24": [
@@ -3026,7 +3296,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Demain c'est le grand tournoi de fin de saison ! Baptiste vient de me dire que tous les clubs de Savoie seront là : Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon… et Montmélian !\""
+    "texte": "Ayden: \"Demain c'est le grand tournoi de fin de saison ! Baptiste vient de me dire que tous les clubs de Savoie seront là : Chambéry, Aix-les-Bains, Albertville, Le Môle, Rumilly, Thonon… et Montmélian !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -3039,7 +3310,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus beau tournoi de l'année ! À demain matin au stade !\""
+    "texte": "Léon: \"Tant mieux qu'ils soient tous là, Ayden ! Ce sera le plus beau tournoi de l'année ! À demain matin au stade !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3052,7 +3324,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Flavien",
-    "texte": "Flavien: \"On fait encore dix passes avec Léon et on vient mettre la table, Vanessa !\""
+    "texte": "Flavien: \"On fait encore dix passes avec Léon et on vient mettre la table, Vanessa !\"",
+    "origine": 2
    },
    {
     "kind": "voix",
@@ -3065,7 +3338,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Voix d'Alice hors-champ",
-    "texte": "Alice: \"Dépêchez-vous, j'ai trop faim moi !\""
+    "texte": "Alice: \"Dépêchez-vous, j'ai trop faim moi !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -3078,7 +3352,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la saison. Tu me promets que quoi qu'il arrive, tu garderas ce beau sourire ?\""
+    "texte": "Flavien: \"Dis-moi Léon… Demain, c'est le dernier tournoi U8 de la saison. Tu me promets que quoi qu'il arrive, tu garderas ce beau sourire ?\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -3091,7 +3366,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Promis Papa ! En septembre, je voulais juste la coupe pour dire qu'on était les plus forts. Demain, je veux qu'on joue notre meilleur rugby avec Lyssandro, Ayden, Nolann et Milo.\""
+    "texte": "Léon: \"Promis Papa ! En septembre, je voulais juste la coupe pour dire qu'on était les plus forts. Demain, je veux qu'on joue notre meilleur rugby avec Lyssandro, Ayden, Nolann et Milo.\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -3104,7 +3380,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Et si jamais on fait une erreur… on saura quoi faire : apprendre tout de suite pour le match d'après !\""
+    "texte": "Léon: \"Et si jamais on fait une erreur… on saura quoi faire : apprendre tout de suite pour le match d'après !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -3117,7 +3394,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Je suis tellement fier de toi, mon fils.\""
+    "texte": "Flavien: \"Je suis tellement fier de toi, mon fils.\"",
+    "origine": 7
    }
   ],
   "25": [
@@ -3132,7 +3410,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOIE SONT AU RENDEZ-VOUS !"
+    "texte": "DERNIER TOURNOI DE LA SAISON U8. TOUTES LES ÉQUIPES DE SAVOIE SONT AU RENDEZ-VOUS !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -3145,7 +3424,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Cinq matchs dans la journée pour aller chercher le bouclier du tournoi ! Faites-vous plaisir et jouez les uns pour les autres !\""
+    "texte": "Julien: \"Cinq matchs dans la journée pour aller chercher le bouclier du tournoi ! Faites-vous plaisir et jouez les uns pour les autres !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3158,7 +3438,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"J'ai fixé ! Vas-y Ayden !\""
+    "texte": "Léon: \"J'ai fixé ! Vas-y Ayden !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -3171,7 +3452,8 @@
     "panel": 1,
     "size": 13,
     "speaker": "Ayden",
-    "texte": "Ayden: \"ESSAI ! Super passe Léon !\""
+    "texte": "Ayden: \"ESSAI ! Super passe Léon !\"",
+    "origine": 3
    },
    {
     "kind": "encadre",
@@ -3184,7 +3466,8 @@
     "panel": 1,
     "size": 13,
     "speaker": null,
-    "texte": "MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) !"
+    "texte": "MATCH 1 : VICTOIRE CONTRE CHAMBÉRY (JAUNE ET NOIR) !",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -3197,7 +3480,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Plaqué aux jambes !\""
+    "texte": "Nolann: \"Plaqué aux jambes !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -3210,7 +3494,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Milo",
-    "texte": "Milo: \"Et deuxième victoire pour nous !\""
+    "texte": "Milo: \"Et deuxième victoire pour nous !\"",
+    "origine": 6
    },
    {
     "kind": "encadre",
@@ -3223,7 +3508,8 @@
     "panel": 2,
     "size": 13,
     "speaker": null,
-    "texte": "MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) !"
+    "texte": "MATCH 2 : VICTOIRE CONTRE ALBERTVILLE (ROUGE ET BLANC) !",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -3236,7 +3522,8 @@
     "panel": 3,
     "size": 11,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Deux sur deux ! Et on n'a presque pas fait d'en-avant !\""
+    "texte": "Lyssandro: \"Deux sur deux ! Et on n'a presque pas fait d'en-avant !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
@@ -3249,7 +3536,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Très bien les garçons ! Maintenant attention : le troisième match, c'est contre Rumilly !\""
+    "texte": "Kilian: \"Très bien les garçons ! Maintenant attention : le troisième match, c'est contre Rumilly !\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
@@ -3262,7 +3550,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Rumilly… C'est contre eux que je m'étais énervé en novembre. Aujourd'hui, on reste calmes quoi qu'il arrive !\""
+    "texte": "Léon: \"Rumilly… C'est contre eux que je m'étais énervé en novembre. Aujourd'hui, on reste calmes quoi qu'il arrive !\"",
+    "origine": 10
    }
   ],
   "26": [
@@ -3277,7 +3566,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Attention, il est costaud lui, venez m'aider au milieu !\""
+    "texte": "Nolann: \"Attention, il est costaud lui, venez m'aider au milieu !\"",
+    "origine": 0
    },
    {
     "kind": "ono",
@@ -3290,7 +3580,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIIIIT !"
+    "texte": "FIIIIIIIT !",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3303,7 +3594,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Essai de Rumilly ! Victoire de Rumilly 3 essais à 2 !\""
+    "texte": "Arbitre: \"Essai de Rumilly ! Victoire de Rumilly 3 essais à 2 !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -3316,7 +3608,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Oh non… On a perdu contre Rumilly… C'est fini, on ne peut plus gagner le tournoi maintenant ?\""
+    "texte": "Nolann: \"Oh non… On a perdu contre Rumilly… C'est fini, on ne peut plus gagner le tournoi maintenant ?\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -3329,7 +3622,8 @@
     "panel": 2,
     "size": 9,
     "speaker": "Milo",
-    "texte": "Milo: \"Pourtant on s'était tellement entraînés…\""
+    "texte": "Milo: \"Pourtant on s'était tellement entraînés…\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -3342,7 +3636,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Julien",
-    "texte": "Julien: \"Mais non, rien n'est fini ! Regardez le tableau : Rumilly a perdu contre Montmélian ce matin, et Montmélian a été accroché par Thonon !\""
+    "texte": "Julien: \"Mais non, rien n'est fini ! Regardez le tableau : Rumilly a perdu contre Montmélian ce matin, et Montmélian a été accroché par Thonon !\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -3355,7 +3650,8 @@
     "panel": 3,
     "size": 12,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Ça veut dire que si vous gagnez vos deux derniers matchs contre Aix-les-Bains puis contre Montmélian, vous finissez PREMIERS du tournoi au classement général !\""
+    "texte": "Kilian: \"Ça veut dire que si vous gagnez vos deux derniers matchs contre Aix-les-Bains puis contre Montmélian, vous finissez PREMIERS du tournoi au classement général !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -3368,46 +3664,64 @@
     "panel": 4,
     "size": 8,
     "speaker": "Léon",
-    "texte": "Léon: \"Les gars, écoutez ! On a perdu contre Rumilly, alors il faut comprendre POURQUOI tout de suite ! Papa, Julien, Kilian, qu'est-ce qu'on a mal fait sur leur dernier essai ?\""
+    "texte": "Léon: \"Les gars, écoutez ! On a perdu contre Rumilly, alors il faut comprendre POURQUOI tout de suite ! Papa, Julien, Kilian, qu'est-ce qu'on a mal fait sur leur dernier essai ?\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
     "rect": [
-     450,
-     927,
-     825,
-     991
+     445,
+     935,
+     684,
+     981
     ],
     "panel": 5,
-    "size": 13,
+    "size": 8,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense en ligne : vous vous êtes mis à trois sur le même porteur au milieu, ce qui a laissé tout le côté ouvert !\""
+    "texte": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense en ligne : vous vous êtes mis à trois sur le même porteur au milieu, ce qui a laissé tout le côté ouvert !\"",
+    "origine": 8
    },
    {
     "kind": "bulle",
     "rect": [
-     671,
-     993,
-     818,
-     1128
+     657,
+     987,
+     831,
+     1024
     ],
     "panel": 5,
-    "size": 14,
+    "size": 8,
     "speaker": "Julien",
-    "texte": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, et les autres qui gardent la largeur des 20 mètres !\""
+    "texte": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, …\"",
+    "origine": 9
    },
    {
     "kind": "bulle",
     "rect": [
-     444,
-     1047,
-     591,
-     1163
+     657,
+     1048,
+     831,
+     1085
     ],
     "panel": 5,
-    "size": 12,
+    "size": 8,
+    "speaker": "Julien",
+    "texte": "Julien: \"… et les autres qui gardent la largeur des 20 mètres !\"",
+    "origine": 9
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     445,
+     1091,
+     619,
+     1147
+    ],
+    "panel": 5,
+    "size": 8,
     "speaker": "Léon",
-    "texte": "Léon: \"Compris ! Merci Rumilly de nous avoir montré notre erreur : contre Aix-les-Bains et Montmélian, notre ligne ne se déformera plus !\""
+    "texte": "Léon: \"Compris ! Merci Rumilly de nous avoir montré notre erreur : contre Aix-les-Bains et Montmélian, notre ligne ne se déformera plus !\"",
+    "origine": 10
    }
   ],
   "27": [
@@ -3422,7 +3736,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Ayden l'a pris au centre ! Ne vous resserrez pas, gardez vos postes sur la ligne !\""
+    "texte": "Léon: \"Ayden l'a pris au centre ! Ne vous resserrez pas, gardez vos postes sur la ligne !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -3435,7 +3750,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Porteur d'Aix-les-Bains",
-    "texte": "Porteur d'Aix-les-Bains: \"Mince, tout est fermé sur les côtés !\""
+    "texte": "Porteur d'Aix-les-Bains: \"Mince, tout est fermé sur les côtés !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3448,7 +3764,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"ESSAI ! Ça marche ! Quand on corrige notre erreur du match d'avant, on est dix fois plus forts !\""
+    "texte": "Lyssandro: \"ESSAI ! Ça marche ! Quand on corrige notre erreur du match d'avant, on est dix fois plus forts !\"",
+    "origine": 2
    },
    {
     "kind": "encadre",
@@ -3461,7 +3778,8 @@
     "panel": 1,
     "size": 11,
     "speaker": null,
-    "texte": "MATCH 4 : VICTOIRE CONTRE AIX-LES-BAINS (JAUNE ET NOIR) !"
+    "texte": "MATCH 4 : VICTOIRE CONTRE AIX-LES-BAINS (JAUNE ET NOIR) !",
+    "origine": 3
    },
    {
     "kind": "voix",
@@ -3474,7 +3792,8 @@
     "panel": 2,
     "size": 11,
     "speaker": "Haut-parleur du stade",
-    "texte": "Haut-parleur: \"DERNIER MATCH DÉCISIF POUR LE TROPHÉE U8 : RUGBY CLUB MOTTERAIN CONTRE MONTMÉLIAN !\""
+    "texte": "Haut-parleur: \"DERNIER MATCH DÉCISIF POUR LE TROPHÉE U8 : RUGBY CLUB MOTTERAIN CONTRE MONTMÉLIAN !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -3487,7 +3806,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Milo",
-    "texte": "Milo: \"C'est Montmélian… Ceux qui nous avaient battus au tout premier tournoi…\""
+    "texte": "Milo: \"C'est Montmélian… Ceux qui nous avaient battus au tout premier tournoi…\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -3500,7 +3820,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Nolann",
-    "texte": "Nolann: \"Ils ont toujours l'air aussi costauds dans leurs maillots Vert et Noir !\""
+    "texte": "Nolann: \"Ils ont toujours l'air aussi costauds dans leurs maillots Vert et Noir !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -3513,7 +3834,8 @@
     "panel": 4,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"Au premier tournoi, on était cinq joueurs qui couraient chacun dans leur coin, et moi je pleurais de colère. Aujourd'hui, on a appris de tous nos échecs de la saison. On joue ensemble, passes, soutien et défense en ligne !\""
+    "texte": "Léon: \"Au premier tournoi, on était cinq joueurs qui couraient chacun dans leur coin, et moi je pleurais de colère. Aujourd'hui, on a appris de tous nos échecs de la saison. On joue ensemble, passes, soutien et défense en ligne !\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -3526,7 +3848,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Tous les cinq",
-    "texte": "Tous les cinq: \"ALLEZ LE RCM !!\""
+    "texte": "Tous les cinq: \"ALLEZ LE RCM !!\"",
+    "origine": 8
    }
   ],
   "28": [
@@ -3541,7 +3864,8 @@
     "panel": 0,
     "size": 11,
     "speaker": null,
-    "texte": "UN COMBAT MAGNIFIQUE À 5 CONTRE 5 ! CHAQUE ÉQUIPE REND COUP POUR COUP : 1 ESSAI PARTOUT, PUIS 2 ESSAIS PARTOUT !"
+    "texte": "UN COMBAT MAGNIFIQUE À 5 CONTRE 5 ! CHAQUE ÉQUIPE REND COUP POUR COUP : 1 ESSAI PARTOUT, PUIS 2 ESSAIS PARTOUT !",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -3554,7 +3878,8 @@
     "panel": 1,
     "size": 14,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Attention les garçons, c'est maintenant ! Montez en ligne comme on l'a corrigé après Rumilly !\""
+    "texte": "Flavien: \"Attention les garçons, c'est maintenant ! Montez en ligne comme on l'a corrigé après Rumilly !\"",
+    "origine": 1
    },
    {
     "kind": "ono",
@@ -3567,7 +3892,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "BAM !"
+    "texte": "BAM !",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -3580,7 +3906,8 @@
     "panel": 2,
     "size": 14,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Je l'ai en bas ! Gardez la ligne sur l'extérieur !\""
+    "texte": "Lyssandro: \"Je l'ai en bas ! Gardez la ligne sur l'extérieur !\"",
+    "origine": 3
    },
    {
     "kind": "ono",
@@ -3593,7 +3920,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "TCHAC !"
+    "texte": "TCHAC !",
+    "origine": 4
    },
    {
     "kind": "ono",
@@ -3606,7 +3934,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIT !"
+    "texte": "FIIIIT !",
+    "origine": 5
    },
    {
     "kind": "bulle",
@@ -3619,7 +3948,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Touche ! Ballon rendu au RCM et joué comme une pénalité ! Il reste une dernière action !\""
+    "texte": "Arbitre: \"Touche ! Ballon rendu au RCM et joué comme une pénalité ! Il reste une dernière action !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -3632,7 +3962,8 @@
     "panel": 4,
     "size": 14,
     "speaker": "Ayden",
-    "texte": "Ayden: \"Dernière balle les gars ! En place le soutien !\""
+    "texte": "Ayden: \"Dernière balle les gars ! En place le soutien !\"",
+    "origine": 7
    },
    {
     "kind": "cri",
@@ -3645,7 +3976,8 @@
     "panel": 5,
     "size": 17,
     "speaker": "Ayden",
-    "texte": "Ayden: \"VAS-Y LÉON !\""
+    "texte": "Ayden: \"VAS-Y LÉON !\"",
+    "origine": 8
    }
   ],
   "29": [
@@ -3660,7 +3992,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Défenseur de Montmélian",
-    "texte": "Défenseur de Montmélian: \"Bloquez Léon ! Il va essayer de passer tout seul comme en octobre !\""
+    "texte": "Défenseur de Montmélian: \"Bloquez Léon ! Il va essayer de passer tout seul comme en octobre !\"",
+    "origine": 0
    },
    {
     "kind": "pensee",
@@ -3673,7 +4006,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Ils croient que je vais forcer tout seul… Mais j'ai appris de mes échecs !\""
+    "texte": "Léon: \"Ils croient que je vais forcer tout seul… Mais j'ai appris de mes échecs !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3686,7 +4020,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Léon",
-    "texte": "Léon: \"POUR VOUS LES COPAINS ! SOUTIEN !\""
+    "texte": "Léon: \"POUR VOUS LES COPAINS ! SOUTIEN !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -3699,7 +4034,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"Je l'ai Léon ! Tiens Milo, va marquer !\""
+    "texte": "Lyssandro: \"Je l'ai Léon ! Tiens Milo, va marquer !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -3712,7 +4048,8 @@
     "panel": 2,
     "size": 13,
     "speaker": "Nolann",
-    "texte": "Nolann: \"VAS-Y MILO, IL N'Y A PLUS PERSONNE !\""
+    "texte": "Nolann: \"VAS-Y MILO, IL N'Y A PLUS PERSONNE !\"",
+    "origine": 4
    },
    {
     "kind": "ono",
@@ -3725,7 +4062,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "ESSAAAAI !"
+    "texte": "ESSAAAAI !",
+    "origine": 5
    },
    {
     "kind": "ono",
@@ -3738,7 +4076,8 @@
     "panel": null,
     "size": null,
     "speaker": null,
-    "texte": "FIIIIIIIIIIIT !"
+    "texte": "FIIIIIIIIIIIT !",
+    "origine": 6
    },
    {
     "kind": "bulle",
@@ -3751,7 +4090,8 @@
     "panel": 3,
     "size": 14,
     "speaker": "Arbitre",
-    "texte": "Arbitre: \"Essai validé ! 1 point de plus ! Le Rugby Club Motterain bat Montmélian 3 à 2 !\""
+    "texte": "Arbitre: \"Essai validé ! 1 point de plus ! Le Rugby Club Motterain bat Montmélian 3 à 2 !\"",
+    "origine": 7
    }
   ],
   "30": [
@@ -3766,7 +4106,8 @@
     "panel": 0,
     "size": 13,
     "speaker": "Capitaine de Montmélian",
-    "texte": "Capitaine de Montmélian: \"Bravo le RCM… Votre dernière passe en soutien, on n'a rien pu faire !\""
+    "texte": "Capitaine de Montmélian: \"Bravo le RCM… Votre dernière passe en soutien, on n'a rien pu faire !\"",
+    "origine": 0
    },
    {
     "kind": "bulle",
@@ -3779,7 +4120,8 @@
     "panel": 0,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Merci ! C'est grâce à vous au premier tournoi qu'on a appris à la travailler !\""
+    "texte": "Léon: \"Merci ! C'est grâce à vous au premier tournoi qu'on a appris à la travailler !\"",
+    "origine": 1
    },
    {
     "kind": "bulle",
@@ -3792,7 +4134,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Julien",
-    "texte": "Julien: \"Champions du tournoi final ! Et vous savez ce qui est le plus beau ? Vous l'avez gagné APRÈS avoir perdu un match ce matin !\""
+    "texte": "Julien: \"Champions du tournoi final ! Et vous savez ce qui est le plus beau ? Vous l'avez gagné APRÈS avoir perdu un match ce matin !\"",
+    "origine": 2
    },
    {
     "kind": "bulle",
@@ -3805,7 +4148,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Léon",
-    "texte": "Léon: \"Parce qu'après Rumilly, au lieu de pleurer ou de s'énerver, on a corrigé notre défense en ligne !\""
+    "texte": "Léon: \"Parce qu'après Rumilly, au lieu de pleurer ou de s'énerver, on a corrigé notre défense en ligne !\"",
+    "origine": 3
    },
    {
     "kind": "bulle",
@@ -3818,7 +4162,8 @@
     "panel": 1,
     "size": 12,
     "speaker": "Lyssandro",
-    "texte": "Lyssandro: \"VIVE LES U8 DU RCM !\""
+    "texte": "Lyssandro: \"VIVE LES U8 DU RCM !\"",
+    "origine": 4
    },
    {
     "kind": "bulle",
@@ -3831,33 +4176,50 @@
     "panel": 2,
     "size": 14,
     "speaker": "Kilian",
-    "texte": "Kilian: \"Quelle saison… De la pluie d'automne à la neige de décembre jusqu'au soleil d'aujourd'hui, ils n'ont jamais rien lâché.\""
+    "texte": "Kilian: \"Quelle saison… De la pluie d'automne à la neige de décembre jusqu'au soleil d'aujourd'hui, ils n'ont jamais rien lâché.\"",
+    "origine": 5
    },
    {
     "kind": "bulle",
     "rect": [
-     512,
      446,
-     658,
-     556
+     454,
+     632,
+     519
     ],
     "panel": 3,
-    "size": 13,
+    "size": 10,
     "speaker": "Léon",
-    "texte": "Léon: \"Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lundi à l'école avec Ayden, on racontera tout à Baptiste !\""
+    "texte": "Léon: \"Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lundi à l'école avec Ayden, on racontera tout à Baptiste !\"",
+    "origine": 6
    },
    {
     "kind": "bulle",
     "rect": [
-     512,
-     572,
-     685,
-     674
+     644,
+     454,
+     830,
+     496
     ],
     "panel": 3,
-    "size": 14,
+    "size": 10,
     "speaker": "Flavien",
-    "texte": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande quel est le secret d'un vrai champion de rugby ?\""
+    "texte": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande …\"",
+    "origine": 7
+   },
+   {
+    "kind": "bulle",
+    "rect": [
+     551,
+     525,
+     724,
+     567
+    ],
+    "panel": 3,
+    "size": 10,
+    "speaker": "Flavien",
+    "texte": "Flavien: \"… quel est le secret d'un vrai champion de rugby ?\"",
+    "origine": 7
    },
    {
     "kind": "bulle",
@@ -3870,20 +4232,22 @@
     "panel": 4,
     "size": 14,
     "speaker": "Léon",
-    "texte": "Léon: \"Je leur dirai ta phrase, Papa : on apprend toujours de ses échecs, jamais de ses victoires !\""
+    "texte": "Léon: \"Je leur dirai ta phrase, Papa : on apprend toujours de ses échecs, jamais de ses victoires !\"",
+    "origine": 8
    },
    {
     "kind": "encadre",
     "rect": [
-     43,
-     970,
-     821,
-     999
+     126,
+     1138,
+     748,
+     1167
     ],
     "panel": 4,
     "size": 11,
     "speaker": null,
-    "texte": "FIN — LA FORCE DE L'ÉCHEC : « On apprend de ses échecs, c'est ce qui conduit à la victoire. »"
+    "texte": "FIN — LA FORCE DE L'ÉCHEC : « On apprend de ses échecs, c'est ce qui conduit à la victoire. »",
+    "origine": 9
    }
   ]
  }

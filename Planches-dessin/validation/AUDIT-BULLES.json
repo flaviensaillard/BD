@@ -83,9 +83,25 @@
   "text": "Lyssandro: \"Cinq fois premiers et deux fois deuxièmes… Vous vous rende",
   "rect": [
    310,
-   801,
+   803,
+   426,
+   899
+  ],
+  "panel": "1-3",
+  "personnes": 7,
+  "dessin": "recouvre une zone dense du dessin (77%)"
+ },
+ {
+  "page": 1,
+  "el": 6,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Ayden: \"C'est sûr, l'année prochaine chez les U8, …\"",
+  "rect": [
+   438,
+   803,
    554,
-   869
+   860
   ],
   "panel": "1-3",
   "personnes": 7
@@ -95,16 +111,16 @@
   "el": 6,
   "kind": "bulle",
   "speaker": "Ayden",
-  "text": "Ayden: \"C'est sûr, l'année prochaine chez les U8, ce sera exactement p",
+  "text": "Ayden: \"… ce sera exactement pareil !\"",
   "rect": [
-   310,
-   999,
-   554,
-   1043
+   362,
+   989,
+   502,
+   1033
   ],
   "panel": "1-3",
   "personnes": 7,
-  "dessin": "recouvre une zone dense du dessin (80%)"
+  "dessin": "recouvre une zone dense du dessin (78%)"
  },
  {
   "page": 1,
@@ -1632,16 +1648,32 @@
   "el": 4,
   "kind": "bulle",
   "speaker": "Ayden",
-  "text": "Ayden: \"Et quand l'un de nous avait le ballon, il essayait de passer t",
+  "text": "Ayden: \"Et quand l'un de nous avait le ballon, …\"",
   "rect": [
-   594,
-   689,
-   838,
-   742
+   444,
+   684,
+   635,
+   721
   ],
   "panel": "11-3",
   "personnes": 11,
-  "dessin": "recouvre une zone dense du dessin (85%)"
+  "dessin": "recouvre une zone dense du dessin (77%)"
+ },
+ {
+  "page": 11,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Ayden",
+  "text": "Ayden: \"… il essayait de passer tout seul au lieu de faire la passe au",
+  "rect": [
+   647,
+   684,
+   838,
+   721
+  ],
+  "panel": "11-3",
+  "personnes": 11,
+  "dessin": "recouvre une zone dense du dessin (80%)"
  },
  {
   "page": 11,
@@ -2628,10 +2660,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Règle numéro 2 : on pose l'épaule, on serre fort ses deux br",
   "rect": [
-   678,
-   32,
-   824,
-   200
+   446,
+   149,
+   632,
+   210
   ],
   "panel": "18-2",
   "personnes": 1
@@ -2658,10 +2690,10 @@
   "speaker": "Kilian",
   "text": "Kilian: \"Super Nolann ! Bien bas et les bras bien fermés !\"",
   "rect": [
-   460,
-   164,
-   633,
-   232
+   644,
+   149,
+   830,
+   189
   ],
   "panel": "18-2",
   "personnes": 1
@@ -2671,12 +2703,28 @@
   "el": 4,
   "kind": "bulle",
   "speaker": "Nolann",
-  "text": "Nolann: \"Même le boudin il a pas bougé d'un centimètre !\"",
+  "text": "Nolann: \"Même le boudin il a pas …\"",
   "rect": [
-   672,
-   200,
-   818,
-   240
+   446,
+   216,
+   632,
+   245
+  ],
+  "panel": "18-2",
+  "personnes": 1,
+  "dessin": "recouvre une zone dense du dessin (87%)"
+ },
+ {
+  "page": 18,
+  "el": 4,
+  "kind": "bulle",
+  "speaker": "Nolann",
+  "text": "Nolann: \"… bougé d'un centimètre !\"",
+  "rect": [
+   644,
+   216,
+   830,
+   245
   ],
   "panel": "18-2",
   "personnes": 1,
@@ -3845,10 +3893,10 @@
   "speaker": "Flavien",
   "text": "Flavien: \"Vous avez oublié notre point d'entraînement sur la défense e",
   "rect": [
-   450,
-   927,
-   825,
-   991
+   445,
+   935,
+   684,
+   981
   ],
   "panel": "26-6",
   "personnes": 1
@@ -3858,16 +3906,32 @@
   "el": 9,
   "kind": "bulle",
   "speaker": "Julien",
-  "text": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, e",
+  "text": "Julien: \"Chacun son joueur dans la ligne : un qui plaque aux jambes, …",
   "rect": [
-   671,
-   993,
-   818,
-   1128
+   657,
+   987,
+   831,
+   1024
   ],
   "panel": "26-6",
   "personnes": 1,
-  "dessin": "recouvre une zone dense du dessin (81%)"
+  "dessin": "recouvre une zone dense du dessin (75%)"
+ },
+ {
+  "page": 26,
+  "el": 9,
+  "kind": "bulle",
+  "speaker": "Julien",
+  "text": "Julien: \"… et les autres qui gardent la largeur des 20 mètres !\"",
+  "rect": [
+   657,
+   1048,
+   831,
+   1085
+  ],
+  "panel": "26-6",
+  "personnes": 1,
+  "dessin": "recouvre une zone dense du dessin (76%)"
  },
  {
   "page": 26,
@@ -3876,10 +3940,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Compris ! Merci Rumilly de nous avoir montré notre erreur : con",
   "rect": [
-   444,
-   1047,
-   591,
-   1163
+   445,
+   1091,
+   619,
+   1147
   ],
   "panel": "26-6",
   "personnes": 1
@@ -4371,10 +4435,10 @@
   "speaker": "Léon",
   "text": "Léon: \"Papa… On va pouvoir raconter ça à Maman et à Alice ! Et lundi à",
   "rect": [
-   512,
    446,
-   658,
-   556
+   454,
+   632,
+   519
   ],
   "panel": "30-4",
   "personnes": 1
@@ -4384,16 +4448,30 @@
   "el": 7,
   "kind": "bulle",
   "speaker": "Flavien",
-  "text": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande quel est le ",
+  "text": "Flavien: \"Et qu'est-ce que tu leur diras si on te demande …\"",
   "rect": [
-   512,
-   572,
-   685,
-   674
+   644,
+   454,
+   830,
+   496
   ],
   "panel": "30-4",
-  "personnes": 1,
-  "dessin": "recouvre une zone dense du dessin (85%)"
+  "personnes": 1
+ },
+ {
+  "page": 30,
+  "el": 7,
+  "kind": "bulle",
+  "speaker": "Flavien",
+  "text": "Flavien: \"… quel est le secret d'un vrai champion de rugby ?\"",
+  "rect": [
+   551,
+   525,
+   724,
+   567
+  ],
+  "panel": "30-4",
+  "personnes": 1
  },
  {
   "page": 30,
@@ -4417,10 +4495,10 @@
   "speaker": null,
   "text": "FIN — LA FORCE DE L'ÉCHEC : « On apprend de ses échecs, c'est ce qui c",
   "rect": [
-   43,
-   970,
-   821,
-   999
+   126,
+   1138,
+   748,
+   1167
   ],
   "panel": "30-5",
   "personnes": 7
